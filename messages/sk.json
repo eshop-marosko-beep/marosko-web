@@ -1,0 +1,37 @@
+{
+  "navigation": {
+    "home": "Domov",
+    "about": "O nás",
+    "services": "Kategórie",
+    "gallery": "Galéria",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "title": "Maroško - predaj náradia",
+    "subtitle": "Kvalitné náradie pre profesionálov aj domácich majstrov",
+    "description": "Ponúkame široký výber frezovacích kotúčov, ručného a elektrického náradia za výhodné ceny."
+  },
+  "about": {
+    "title": "O nás",
+    "content": "Sme rodinná firma Maroško s.r.o., ktorá sa venuje predaju náradia už niekoľko rokov."
+  },
+  "services": {
+    "title": "Naše kategórie",
+    "item1": "Ručné náradie",
+    "item2": "Elektrické náradie",
+    "item3": "Frézky do priamej brúsky",
+    "item4": "Nástroje do uhlovej brúsky",
+    "item5": "Príslušenstvo a ochranné pomôcky"
+  },
+  "gallery": {
+    "title": "Galéria",
+    "description": "Pozrite si ukážky našich produktov."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "address": "Maroško s.r.o., Vrádište 138, 908 49 Vrádište",
+    "phone": "Telefón: +421 949 584 525",
+    "email": "Email: info@marosko.sk",
+    "eshop": "Prejsť na e-shop: eshop.marosko.sk"
+  }
+}

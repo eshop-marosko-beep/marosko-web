@@ -1,0 +1,37 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Categories",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "home": {
+    "title": "Maroško - Tool Shop",
+    "subtitle": "Quality tools for professionals and DIY enthusiasts",
+    "description": "We offer a wide range of hand tools, power tools and garden tools at competitive prices."
+  },
+  "about": {
+    "title": "About Us",
+    "content": "We are a family business Maroško s.r.o., specializing in tool sales for several years."
+  },
+  "services": {
+    "title": "Our Categories",
+    "item1": "Hand tools",
+    "item2": "Power tools",
+    "item3": "Garden tools",
+    "item4": "Tool accessories",
+    "item5": "Work aids and protective equipment"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "description": "Browse samples of our products."
+  },
+  "contact": {
+    "title": "Contact",
+    "address": "Maroško s.r.o., Your Street 123, 917 01 Trnava",
+    "phone": "Phone: +421 123 456 789",
+    "email": "Email: info@marosko.sk",
+    "eshop": "Go to e-shop: eshop.marosko.sk"
+  }
+}

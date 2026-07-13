@@ -1,0 +1,37 @@
+{
+  "navigation": {
+    "home": "Domů",
+    "about": "O nás",
+    "services": "Kategorie",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+  "home": {
+    "title": "Maroško - prodej nářadí",
+    "subtitle": "Kvalitní nářadí pro profesionály i domácí kutilství",
+    "description": "Nabízíme široký výběr ručního, elektrického a zahradního nářadí za výhodné ceny."
+  },
+  "about": {
+    "title": "O nás",
+    "content": "Jsme rodinná firma Maroško s.r.o., která se věnuje prodeji nářadí již několik let."
+  },
+  "services": {
+    "title": "Naše kategorie",
+    "item1": "Ruční nářadí",
+    "item2": "Elektrické nářadí",
+    "item3": "Nástroje do úhlové brusky",
+    "item4": "Nářadí do přímých mikrobrusek",
+    "item5": "Příslušenství k nářadí"
+  },
+  "gallery": {
+    "title": "Galerie",
+    "description": "Podívejte se na ukázky našich produktů."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "address": "Maroško s.r.o., Vrádište 138, 908 49 Vrádište",
+    "phone": "Telefon: +421 949 584 525",
+    "email": "Email: info@marosko.sk",
+    "eshop": "Přejít na e-shop: eshop.marosko.sk"
+  }
+}
