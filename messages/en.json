@@ -7,9 +7,87 @@
     "contact": "Contact"
   },
   "home": {
-    "title": "Maroško - Tool Shop",
-    "subtitle": "Quality tools for professionals and DIY enthusiasts",
-    "description": "We offer a wide range of hand tools, power tools and garden tools at competitive prices."
+    "hero": {
+      "title": "Tools you can rely on",
+      "subtitle": "Milling discs, hand tools and power tools for professionals and DIY enthusiasts – all in one place.",
+      "ctaPrimary": "Browse categories",
+      "ctaSecondary": "Go to e-shop"
+    },
+    "categories": {
+      "title": "Our tool categories",
+      "subtitle": "Choose from a wide range of quality tools and accessories.",
+      "milling": {
+        "name": "Milling discs",
+        "description": "Milling and grinding discs for straight and angle grinders, for precise work on metal, wood and stone."
+      },
+      "hand": {
+        "name": "Hand tools",
+        "description": "Wrenches, screwdrivers, pliers and other hand tools in professional quality for everyday use."
+      },
+      "power": {
+        "name": "Power tools",
+        "description": "Drills, grinders, saws and other power tools from trusted brands at great prices."
+      },
+      "cta": "View all categories"
+    },
+    "aboutSection": {
+      "title": "Who we are",
+      "text": "We are a family business, Maroško s.r.o., selling quality tools for several years. We offer our customers a personal approach, expert advice and reliable service.",
+      "cta": "More about us"
+    },
+    "testimonials": {
+      "title": "What our customers say",
+      "subtitle": "Reviews from satisfied customers and partners.",
+      "review1": {
+        "name": "Peter Novák",
+        "role": "Novák Auto Service",
+        "text": "We've been working with Maroško for years. They always have stock available and help us choose the right tools."
+      },
+      "review2": {
+        "name": "Jana Kováčová",
+        "role": "DIY enthusiast",
+        "text": "Friendly service and quality tools at fair prices. My order arrived at home the very next day."
+      },
+      "review3": {
+        "name": "Milan Horváth",
+        "role": "Horváth Carpentry",
+        "text": "We use Maroško's milling discs every day - they last long and offer consistent quality."
+      }
+    },
+    "faq": {
+      "title": "Frequently asked questions",
+      "subtitle": "Answers to our customers' most common questions.",
+      "q1": {
+        "question": "How quickly do you deliver ordered tools?",
+        "answer": "In-stock items are shipped within 24 hours, courier delivery usually takes 1-2 business days."
+      },
+      "q2": {
+        "question": "Do you supply tools to companies and tradespeople?",
+        "answer": "Yes, we prepare tailored price offers for business customers and larger orders as well."
+      },
+      "q3": {
+        "question": "Can I pick up the tools in person?",
+        "answer": "Yes, personal pickup is possible by arrangement directly at our premises in Vrádište."
+      },
+      "q4": {
+        "question": "Do you provide a warranty and service for the tools you sell?",
+        "answer": "We provide a statutory warranty on all goods and arrange service or replacement if needed."
+      }
+    },
+    "contactCta": {
+      "title": "Have a question or interested in an offer?",
+      "subtitle": "Write to us and we'll get back to you as soon as possible.",
+      "nameLabel": "Full name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@email.com",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "+421 900 000 000",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us what you need...",
+      "submit": "Send message",
+      "note": "Sending the message opens your email client with a pre-filled message to info@marosko.sk."
+    }
   },
   "about": {
     "title": "About Us",

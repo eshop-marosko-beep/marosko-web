@@ -7,9 +7,87 @@
     "contact": "Contact"
   },
   "home": {
-    "title": "Maroško - magazin de unelte",
-    "subtitle": "Unelte de calitate pentru profesioniști și amatori",
-    "description": "Oferim o gamă largă de unelte manuale, electrice și de grădină la prețuri avantajoase."
+    "hero": {
+      "title": "Unelte pe care te poți baza",
+      "subtitle": "Discuri de frezat, unelte manuale și electrice pentru profesioniști și meșteri amatori – totul într-un singur loc.",
+      "ctaPrimary": "Vezi categoriile",
+      "ctaSecondary": "Mergi la magazinul online"
+    },
+    "categories": {
+      "title": "Categoriile noastre de unelte",
+      "subtitle": "Alege dintr-o gamă largă de unelte și accesorii de calitate.",
+      "milling": {
+        "name": "Discuri de frezat",
+        "description": "Discuri de frezat și șlefuit pentru polizoare drepte și unghiulare, pentru prelucrarea precisă a metalului, lemnului și pietrei."
+      },
+      "hand": {
+        "name": "Unelte manuale",
+        "description": "Chei, șurubelnițe, clești și alte unelte manuale de calitate profesională pentru uz zilnic."
+      },
+      "power": {
+        "name": "Unelte electrice",
+        "description": "Bormașini, polizoare, fierăstraie și alte unelte electrice de la mărci de încredere, la prețuri avantajoase."
+      },
+      "cta": "Vezi toate categoriile"
+    },
+    "aboutSection": {
+      "title": "Cine suntem",
+      "text": "Suntem o afacere de familie, Maroško s.r.o., care vinde unelte de calitate de mai mulți ani. Le oferim clienților o abordare personală, consultanță de specialitate și service de încredere.",
+      "cta": "Mai multe despre noi"
+    },
+    "testimonials": {
+      "title": "Ce spun clienții noștri",
+      "subtitle": "Recenzii de la clienți și parteneri mulțumiți.",
+      "review1": {
+        "name": "Peter Novák",
+        "role": "Service auto Novák",
+        "text": "Colaborăm cu Maroško de ani de zile. Au mereu stoc disponibil și ne ajută să alegem uneltele potrivite."
+      },
+      "review2": {
+        "name": "Jana Kováčová",
+        "role": "Pasionată de bricolaj",
+        "text": "Atitudine prietenoasă și unelte de calitate la prețuri corecte. Comanda mi-a ajuns acasă chiar a doua zi."
+      },
+      "review3": {
+        "name": "Milan Horváth",
+        "role": "Tâmplărie Horváth",
+        "text": "Folosim zilnic discurile de frezat de la Maroško - rezistă mult timp și au o calitate constantă."
+      }
+    },
+    "faq": {
+      "title": "Întrebări frecvente",
+      "subtitle": "Răspunsuri la cele mai frecvente întrebări ale clienților noștri.",
+      "q1": {
+        "question": "Cât de repede livrați uneltele comandate?",
+        "answer": "Produsele aflate pe stoc sunt expediate în 24 de ore, livrarea prin curier durează de obicei 1-2 zile lucrătoare."
+      },
+      "q2": {
+        "question": "Furnizați unelte și pentru firme sau meseriași?",
+        "answer": "Da, pregătim oferte de preț personalizate și pentru clienți corporativi și comenzi mai mari."
+      },
+      "q3": {
+        "question": "Este posibilă ridicarea personală a uneltelor?",
+        "answer": "Da, ridicarea personală este posibilă prin programare direct la sediul nostru din Vrádište."
+      },
+      "q4": {
+        "question": "Oferiți garanție și service pentru uneltele vândute?",
+        "answer": "Oferim garanție legală pentru toate produsele și asigurăm service sau înlocuire, dacă este necesar."
+      }
+    },
+    "contactCta": {
+      "title": "Aveți o întrebare sau sunteți interesat de o ofertă?",
+      "subtitle": "Scrieți-ne și vă vom răspunde cât mai curând posibil.",
+      "nameLabel": "Nume și prenume",
+      "namePlaceholder": "Numele dvs.",
+      "emailLabel": "Email",
+      "emailPlaceholder": "dvs@email.ro",
+      "phoneLabel": "Telefon",
+      "phonePlaceholder": "+421 900 000 000",
+      "messageLabel": "Mesaj",
+      "messagePlaceholder": "Spuneți-ne de ce aveți nevoie...",
+      "submit": "Trimiteți mesajul",
+      "note": "Trimiterea mesajului deschide clientul dvs. de email cu un mesaj precompletat către info@marosko.sk."
+    }
   },
   "about": {
     "title": "Despre noi",

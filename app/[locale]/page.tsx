@@ -1,19 +1,25 @@
-import { useTranslations } from 'next-intl';
+import Hero from "@/components/home/Hero";
+import Categories from "@/components/home/Categories";
+import AboutSection from "@/components/home/AboutSection";
+import Testimonials from "@/components/home/Testimonials";
+import Faq from "@/components/home/Faq";
+import ContactSection from "@/components/home/ContactSection";
 
-export default function HomePage() {
-  const t = useTranslations('home');
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
 
   return (
-    <div className="text-center py-12">
-      <h1 className="text-6xl font-bold text-amber-800 mb-6">
-        {t('title')}
-      </h1>
-      <p className="text-2xl text-gray-600 mb-8">
-        {t('subtitle')}
-      </p>
-      <p className="text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
-        {t('description')}
-      </p>
+    <div className="divide-y divide-amber-100">
+      <Hero locale={locale} />
+      <Categories locale={locale} />
+      <AboutSection locale={locale} />
+      <Testimonials />
+      <Faq />
+      <ContactSection />
     </div>
   );
 }

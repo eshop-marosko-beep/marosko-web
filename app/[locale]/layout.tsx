@@ -20,7 +20,7 @@ export default async function LocaleLayout({
   }
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className="scroll-smooth">
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="min-h-screen bg-gray-50">
