@@ -21,7 +21,7 @@ export default function ContactSection() {
   return (
     <section id="kontakt" className="py-16">
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-amber-800 mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-espresso-800 mb-4">
           {t("title")}
         </h2>
         <p className="text-gray-600 text-lg max-w-2xl mx-auto">

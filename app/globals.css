@@ -1,19 +1,33 @@
 @import "tailwindcss";
 
 @theme {
-  --color-amber-50: #fffbeb;
-  --color-amber-100: #fef3c7;
-  --color-amber-200: #fde68a;
-  --color-amber-300: #fcd34d;
-  --color-amber-400: #fbbf24;
-  --color-amber-500: #f59e0b;
-  --color-amber-600: #d97706;
-  --color-amber-700: #b45309;
-  --color-amber-800: #92400e;
-  --color-amber-900: #78350f;
+  --color-amber-50: #fdf3ea;
+  --color-amber-100: #f9e2cc;
+  --color-amber-200: #f2c298;
+  --color-amber-300: #e89f63;
+  --color-amber-400: #dd7f3d;
+  --color-amber-500: #cc6a2c;
+  --color-amber-600: #b7551f;
+  --color-amber-700: #964019;
+  --color-amber-800: #78321a;
+  --color-amber-900: #612a19;
+
+  --color-espresso-50: #f5f1ed;
+  --color-espresso-100: #e6dcd2;
+  --color-espresso-200: #cbb7a4;
+  --color-espresso-300: #a68d75;
+  --color-espresso-400: #7d6650;
+  --color-espresso-500: #5c4a3a;
+  --color-espresso-600: #46392c;
+  --color-espresso-700: #362c22;
+  --color-espresso-800: #281f19;
+  --color-espresso-900: #1c1512;
+
+  --color-cream-50: #fdfaf5;
+  --color-cream-100: #faf3e7;
 }
 
 body {
-  background: #f9fafb;
+  background: #fdfaf5;
   font-family: Arial, Helvetica, sans-serif;
 }

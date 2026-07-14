@@ -23,7 +23,7 @@ export default async function GalleryPage({
 
   return (
     <div className="py-8">
-      <h1 className="text-4xl font-bold text-amber-800 mb-4">
+      <h1 className="text-4xl font-bold text-espresso-800 mb-4">
         {t("title")}
       </h1>
       <p className="text-gray-600 mb-12">
@@ -31,7 +31,7 @@ export default async function GalleryPage({
       </p>
 
       <section>
-        <h2 className="text-2xl font-bold text-amber-800 mb-3">
+        <h2 className="text-2xl font-bold text-espresso-800 mb-3">
           {t("milling.title")}
         </h2>
         <p className="text-gray-600 leading-relaxed mb-6 max-w-3xl">

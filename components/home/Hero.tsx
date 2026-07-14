@@ -6,7 +6,7 @@ export default function Hero({ locale }: { locale: string }) {
 
   return (
     <section className="text-center py-16 md:py-24">
-      <h1 className="text-4xl md:text-6xl font-bold text-amber-800 mb-6">
+      <h1 className="text-4xl md:text-6xl font-bold text-espresso-800 mb-6">
         {t("title")}
       </h1>
       <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-10 leading-relaxed">
