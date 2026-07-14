@@ -67,7 +67,7 @@ export default async function LocaleLayout({
             {/* Pätička */}
             <footer className="bg-gray-800 text-white text-center p-4 mt-12">
               <div className="container mx-auto">
-                © 2026 Maroško s.r.o. - {messages.footer.rights}
+                © 2026 Marián s.r.o. - {messages.footer.rights}
               </div>
             </footer>
           </div>

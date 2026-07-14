@@ -86,13 +86,13 @@
       "messageLabel": "Mesaj",
       "messagePlaceholder": "Spuneți-ne de ce aveți nevoie...",
       "submit": "Trimiteți mesajul",
-      "note": "Trimiterea mesajului deschide clientul dvs. de email cu un mesaj precompletat către info@marosko.sk."
+      "note": "Trimiterea mesajului deschide clientul dvs. de email cu un mesaj precompletat către eshop.marosko@gmail.com."
     }
   },
   "about": {
     "title": "Despre noi",
     "intro": "Marián s.r.o. este o afacere de familie care, din 2013, vinde în Slovacia unelte de cioplit și prelucrat lemnul, de marcă, din import. Scopul nostru este să aducem pe piață unelte pe care nu le găsești în magazinele obișnuite – unelte care le economisesc cioplitorilor și meșterilor amatori timp și bani.",
-    "history": "Rădăcinile noastre urcă până în 2011, când a luat naștere proiectul Vercajch.eu, ale cărui drepturi le-am preluat integral în 2018. Astăzi administrăm magazinul sub marca eshop.marosko.sk, unde produsele aflate pe stoc sunt expediate în 24 de ore, iar comenzile peste 50 € plătite prin transfer bancar beneficiază de livrare gratuită.",
+    "history": "Rădăcinile noastre urcă până în 2011, când a luat naștere proiectul Vercajch.eu, ale cărui drepturi le-am preluat integral în 2018. Astăzi administrăm magazinul sub marca eshop.marosko.sk, unde produsele aflate pe stoc sunt expediate în 24 de ore.",
     "brands": "În ofertă includem doar mărci internaționale consacrate: unelte de frezat și șlefuit Arbortech din Australia, pile din carbură de tungsten Saburrtooth din SUA, brațe prelungitoare și accesorii de frezat Manpa din Coreea, burghie cu vârf din carbură ARTU Tools din Germania sau discuri de ascuțit acoperite cu diamant Diaclear din Cehia. Gama este completată de șelac, ceruri pentru finisarea lemnului și echipament de protecție certificat.",
     "philosophy": "Fiecare unealtă pe care o vindem este testată mai întâi chiar de noi, în practică. Datorită experienței îndelungate în cioplitul în lemn, putem evalua nu doar avantajele, ci și eventualele neajunsuri – astfel încât să oferim clienților noștri sfaturi cu adevărat oneste și de specialitate.",
     "support": "Ca vânzător slovac, oferim garanție completă, service de calitate după expirarea garanției și o factură pe care o puteți include în cheltuieli în cadrul schemelor de subvenționare din domeniu. Ne mândrim că sprijinim artiștii și școlile din Slovacia, punându-le la dispoziție unelte care anterior nu erau accesibile."
@@ -112,7 +112,7 @@
   },
   "contact": {
     "title": "Contact",
-    "address": "Maroško s.r.o., Strada Dvs. 123, 917 01 Trnava",
+    "address": "Marián s.r.o., Strada Dvs. 123, 917 01 Trnava",
     "phone": "Telefon: +421 123 456 789",
     "email": "Email: info@marosko.sk",
     "eshop": "Mergeți la magazinul online: eshop.marosko.sk/ro"
