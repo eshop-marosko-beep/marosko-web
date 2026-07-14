@@ -99,11 +99,70 @@
   },
   "services": {
     "title": "Naše kategorie",
-    "item1": "Ruční nářadí",
-    "item2": "Elektrické nářadí",
-    "item3": "Nástroje do úhlové brusky",
-    "item4": "Nářadí do přímých mikrobrusek",
-    "item5": "Příslušenství k nářadí"
+    "subtitle": "Kompletní nabídku nářadí a příslušenství najdete v našem e-shopu.",
+    "cta": "Přejít do e-shopu",
+    "categories": {
+      "angleGrinder": {
+        "name": "Nástroje do úhlové brusky",
+        "description": "Frézovací, drážkovací a řezné kotouče, které promění běžnou úhlovou brusku na přesný řezbářský nástroj."
+      },
+      "drill": {
+        "name": "Nástroje do vrtačky",
+        "description": "Vrtáky, nástavce a příslušenství pro vrtačky na dřevo, zdivo i kámen."
+      },
+      "straightGrinder": {
+        "name": "Nástroje do přímé brusky + SABURRTOOTH",
+        "description": "Tvrdokovové rašple a nástavce Saburrtooth pro přímé brusky a mikromotory na jemné opracování."
+      },
+      "miniMill": {
+        "name": "Nástroje do mini frézky Ø 50 mm",
+        "description": "Speciální frézovací nástavce pro mini frézky se stopkou o průměru 50 mm."
+      },
+      "powerTools": {
+        "name": "Elektrické nářadí",
+        "description": "Elektrická dláta, brusky a další elektrické nástroje pro profesionální řezbářské práce."
+      },
+      "cordless": {
+        "name": "Akumulátorové nářadí",
+        "description": "Bezkabelové nástroje pro práci bez omezení prodlužovacím kabelem."
+      },
+      "customAbrasive": {
+        "name": "Brusné výseky na míru",
+        "description": "Brusný papír a výseky vyrobené přesně na míru podle vašeho stroje či nástroje."
+      },
+      "handTools": {
+        "name": "Ruční nářadí",
+        "description": "Kleště, klíče, pilníky a další ruční nářadí v profesionální kvalitě."
+      },
+      "coatings": {
+        "name": "Nátěry, tmely, brusiva a jiné přípravky",
+        "description": "Laky, šelaky, mořidla a brusivo pro dokonalou povrchovou úpravu dřeva."
+      },
+      "protective": {
+        "name": "Ochranné pomůcky a pracovní oděvy",
+        "description": "Rukavice, brýle, respirátory a oděvy, které vás ochrání při práci s nářadím."
+      },
+      "spareParts": {
+        "name": "Výměnné přídavné náhradní díly",
+        "description": "Náhradní díly a doplňky, kterými prodloužíte životnost svého nářadí."
+      },
+      "stands": {
+        "name": "Podstavce, upínací stroje",
+        "description": "Svěráky, svorky a pracovní podpěry pro stabilní a bezpečné upnutí materiálu."
+      },
+      "misc": {
+        "name": "Nezařazený drobný sortiment",
+        "description": "Drobný sortiment a doplňky, které se nevešly do žádné jiné kategorie."
+      },
+      "carvingBlanks": {
+        "name": "Výtvarnické lišty carvingové",
+        "description": "Dřevěné carvingové lišty a polotovary určené přímo pro řezbářské ztvárnění."
+      },
+      "shankTools": {
+        "name": "Stopkové nástroje",
+        "description": "Stopkové frézy a nástroje s různými profily pro truhlářské i řezbářské opracování dřeva."
+      }
+    }
   },
   "gallery": {
     "title": "Galerie",

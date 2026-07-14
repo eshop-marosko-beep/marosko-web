@@ -99,11 +99,70 @@
   },
   "services": {
     "title": "Our Categories",
-    "item1": "Hand tools",
-    "item2": "Power tools",
-    "item3": "Garden tools",
-    "item4": "Tool accessories",
-    "item5": "Work aids and protective equipment"
+    "subtitle": "You'll find our full range of tools and accessories in our e-shop.",
+    "cta": "Go to e-shop",
+    "categories": {
+      "angleGrinder": {
+        "name": "Angle grinder tools",
+        "description": "Milling, grooving and cutting discs that turn an ordinary angle grinder into a precision carving tool."
+      },
+      "drill": {
+        "name": "Drill tools",
+        "description": "Drill bits, extensions and accessories for drilling into wood, masonry and stone."
+      },
+      "straightGrinder": {
+        "name": "Straight grinder tools + SABURRTOOTH",
+        "description": "Saburrtooth tungsten-carbide rasps and attachments for straight grinders and micromotors for fine detail work."
+      },
+      "miniMill": {
+        "name": "Mini mill tools Ø 50 mm",
+        "description": "Specialized milling attachments for mini mills with a 50 mm shank diameter."
+      },
+      "powerTools": {
+        "name": "Power tools",
+        "description": "Power chisels, grinders and other electric tools for professional carving work."
+      },
+      "cordless": {
+        "name": "Cordless tools",
+        "description": "Battery-powered tools that let you work without being tied to an extension cord."
+      },
+      "customAbrasive": {
+        "name": "Custom-cut abrasives",
+        "description": "Sandpaper and abrasive cutouts made to the exact size of your machine or tool."
+      },
+      "handTools": {
+        "name": "Hand tools",
+        "description": "Pliers, wrenches, files and other hand tools in professional quality."
+      },
+      "coatings": {
+        "name": "Coatings, fillers and abrasives",
+        "description": "Lacquers, shellac, stains and abrasives for a flawless wood finish."
+      },
+      "protective": {
+        "name": "Protective equipment and workwear",
+        "description": "Gloves, glasses, respirators and clothing that protect you while working with tools."
+      },
+      "spareParts": {
+        "name": "Replacement spare parts",
+        "description": "Spare parts and accessories that extend the life of your tools."
+      },
+      "stands": {
+        "name": "Stands and clamping equipment",
+        "description": "Vices, clamps and work supports for stable, safe material clamping."
+      },
+      "misc": {
+        "name": "Miscellaneous small items",
+        "description": "Small odds and accessories that didn't fit into any other category."
+      },
+      "carvingBlanks": {
+        "name": "Carving blanks and strips",
+        "description": "Wooden carving blanks and strips ready for your next carving project."
+      },
+      "shankTools": {
+        "name": "Shank tools",
+        "description": "Shank-mounted cutters with various profiles for both carpentry and carving work."
+      }
+    }
   },
   "gallery": {
     "title": "Gallery",

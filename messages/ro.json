@@ -99,11 +99,70 @@
   },
   "services": {
     "title": "Categoriile noastre",
-    "item1": "Unelte manuale",
-    "item2": "Unelte electrice",
-    "item3": "Unelte de grădină",
-    "item4": "Accesorii pentru unelte",
-    "item5": "Ajutoare de lucru și echipament de protecție"
+    "subtitle": "Găsiți gama completă de unelte și accesorii în magazinul nostru online.",
+    "cta": "Mergi la magazinul online",
+    "categories": {
+      "angleGrinder": {
+        "name": "Unelte pentru polizor unghiular",
+        "description": "Discuri de frezat, canelat și tăiat, care transformă un polizor unghiular obișnuit într-o unealtă de cioplit de precizie."
+      },
+      "drill": {
+        "name": "Unelte pentru bormașină",
+        "description": "Burghie, prelungitoare și accesorii pentru găurit în lemn, zidărie și piatră."
+      },
+      "straightGrinder": {
+        "name": "Unelte pentru polizor drept + SABURRTOOTH",
+        "description": "Pile din carbură de tungsten Saburrtooth și accesorii pentru polizoare drepte și micromotoare, pentru lucrări de detaliu fine."
+      },
+      "miniMill": {
+        "name": "Unelte pentru mini-freză Ø 50 mm",
+        "description": "Accesorii de frezat speciale pentru mini-freze cu coadă de 50 mm diametru."
+      },
+      "powerTools": {
+        "name": "Unelte electrice",
+        "description": "Dălți electrice, polizoare și alte unelte electrice pentru lucrări de cioplit profesionale."
+      },
+      "cordless": {
+        "name": "Unelte cu acumulator",
+        "description": "Unelte fără fir cu care lucrați fără să fiți legați de un cablu prelungitor."
+      },
+      "customAbrasive": {
+        "name": "Abrazivi decupați la comandă",
+        "description": "Hârtie abrazivă și decupaje realizate exact la dimensiunea mașinii sau uneltei dvs."
+      },
+      "handTools": {
+        "name": "Unelte manuale",
+        "description": "Clești, chei, pile și alte unelte manuale de calitate profesională."
+      },
+      "coatings": {
+        "name": "Vopsele, chituri, abrazivi și alte produse",
+        "description": "Lacuri, șelac, baiț și abrazivi pentru o finisare impecabilă a lemnului."
+      },
+      "protective": {
+        "name": "Echipament de protecție și îmbrăcăminte de lucru",
+        "description": "Mănuși, ochelari, măști și îmbrăcăminte care vă protejează în timpul lucrului cu unelte."
+      },
+      "spareParts": {
+        "name": "Piese de schimb înlocuibile",
+        "description": "Piese de schimb și accesorii care prelungesc durata de viață a uneltelor dvs."
+      },
+      "stands": {
+        "name": "Suporturi și dispozitive de fixare",
+        "description": "Menghine, cleme și suporturi de lucru pentru fixarea stabilă și sigură a materialului."
+      },
+      "misc": {
+        "name": "Sortiment mărunt neclasificat",
+        "description": "Accesorii și articole mărunte care nu s-au încadrat în nicio altă categorie."
+      },
+      "carvingBlanks": {
+        "name": "Blancuri și șipci de cioplit",
+        "description": "Blancuri și șipci din lemn pentru cioplit, gata pentru următorul dvs. proiect."
+      },
+      "shankTools": {
+        "name": "Unelte cu coadă (freze de coadă)",
+        "description": "Freze montate pe coadă, cu diverse profiluri, pentru lucrări de tâmplărie și cioplit."
+      }
+    }
   },
   "gallery": {
     "title": "Galerie",
