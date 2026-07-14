@@ -170,13 +170,15 @@
     "placeholder": "Adăugați aici imaginea {number}",
     "milling": {
       "title": "Discuri de frezat",
-      "description": "Discurile de frezat sunt inima oricărui atelier de cioplit. În ofertă găsiți celebrul Arbortech Industrial Woodcarver – discul original australian care a declanșat revoluția modelării lemnului cu polizorul unghiular și rămâne unul dintre cele mai agresive și fiabile scule de pe piață. Pentru o modelare mai fină și mai precisă oferim discuri cu 3 aripioare Piranha/Prano, discuri abrazive în diverse granulații pentru lucrări de finisare, precum și capete de frezat profesionale cu cuțite din carbură interschimbabile (16 mm și 9 mm) – când o lamă se tocește, înlocuiți doar cuțitul, nu întregul disc, economisind bani și timp. Toate discurile se potrivesc pe polizoare unghiulare standard și sunt folosite de cioplitori profesioniști din întreaga lume.",
+      "description": "Discurile de frezat sunt inima oricărui atelier de cioplit. În ofertă găsiți celebrul Arbortech Industrial Woodcarver – discul original australian care a declanșat revoluția modelării lemnului cu polizorul unghiular – precum și discurile cu 3 aripioare Piranha/Prano pentru o modelare rapidă și controlată. Gama largă de discuri de frezat Manpa, de la modele compacte de 70 mm până la discuri profesionale cu cuțite din carbură interschimbabile, vă permite să alegeți exact dimensiunea și adâncimea de tăiere de care aveți nevoie. Cuțitele interschimbabile economisesc și bani, deoarece atunci când o lamă se tocește, se înlocuiește doar cuțitul, nu întregul disc. Toate discurile se potrivesc pe polizoare unghiulare standard și sunt folosite de cioplitori profesioniști din întreaga lume.",
       "cta": "Vezi în magazinul online",
-      "img1": "Arbortech Industrial Woodcarver – discul original pentru modelarea lemnului",
-      "img2": "Disc de frezat Piranha/Prano cu cuțite din carbură",
-      "img3": "Set de discuri abrazive colorate în diverse granulații",
-      "img4": "Disc de frezat de precizie cu cheie de fixare",
-      "img5": "Cap de frezat cu cuțite din carbură interschimbabile de 16 mm și 9 mm"
+      "img1": "Arbortech Industrial Woodcarver – discul original pentru modelarea lemnului, cu cheie de fixare",
+      "img2": "Disc de frezat Piranha/Prano cu 3 cuțite din carbură",
+      "img3": "Disc de frezat de precizie cu alezaj de 16 mm și profil rotund al dintelui de 8 mm",
+      "img4": "Disc de frezat Manpa cu cuțite din carbură interschimbabile, diametru 95 mm",
+      "img5": "Disc de frezat Manpa, diametru 70 mm cu dinte de 12 mm",
+      "img6": "Set de discuri de frezat Manpa în diverse dimensiuni",
+      "img7": "Comparație de dimensiuni a discurilor de frezat Manpa"
     }
   },
   "contact": {

@@ -170,13 +170,15 @@
     "placeholder": "Sem pridajte obrázok {number}",
     "milling": {
       "title": "Frézovacie kotúče",
-      "description": "Frézovacie kotúče sú srdcom každej rezbárskej dielne. V ponuke nájdete legendárny Arbortech Industrial Woodcarver – originálny austrálsky kotúč, ktorý spustil revolúciu v tvarovaní dreva uhlovou brúskou a dodnes patrí medzi najagresívnejšie a najspoľahlivejšie nástroje na trhu. Pre presnejšie a jemnejšie tvarovanie ponúkame 3-krídlové kotúče Piraňa/Prano, brúsne kotúče v rôznych zrnitostiach na dokončovacie práce a profesionálne frézovacie hlavy s vymeniteľnými tvrdokovovými nožmi (16 mm a 9 mm) – keď sa nôž otupí, stačí vymeniť len čepeľ, nie celý kotúč, čo šetrí náklady aj čas. Všetky kotúče pasujú na bežné uhlové brúsky a sú overené profesionálnymi rezbármi po celom svete.",
+      "description": "Frézovacie kotúče sú srdcom každej rezbárskej dielne. V ponuke nájdete legendárny Arbortech Industrial Woodcarver – originálny austrálsky kotúč, ktorý spustil revolúciu v tvarovaní dreva uhlovou brúskou – aj 3-krídlové kotúče Piraňa/Prano pre rýchle a kontrolované tvarovanie. Široký sortiment frézovacích kotúčov Manpa, od kompaktných 70 mm modelov až po profesionálne kotúče s vymeniteľnými tvrdokovovými nožmi, vám umožní zvoliť presne tú veľkosť a hĺbku záberu, akú vaša práca vyžaduje. Vymeniteľné nože navyše šetria náklady, pretože pri otupení stačí vymeniť len samotný nôž, nie celý kotúč. Všetky kotúče pasujú na bežné uhlové brúsky a sú overené profesionálnymi rezbármi po celom svete.",
       "cta": "Zobraziť v e-shope",
-      "img1": "Arbortech Industrial Woodcarver – originálny kotúč na tvarovanie dreva",
-      "img2": "Frézovací kotúč Piraňa/Prano s karbidovými nožmi",
-      "img3": "Sada farebne odlíšených brúsnych kotúčov v rôznych zrnitostiach",
-      "img4": "Presný frézovací kotúč s upínacím kľúčom",
-      "img5": "Frézovacia hlava s vymeniteľnými tvrdokovovými nožmi 16 mm a 9 mm"
+      "img1": "Arbortech Industrial Woodcarver – originálny kotúč na tvarovanie dreva s upínacím kľúčom",
+      "img2": "Frézovací kotúč Piraňa/Prano s 3 karbidovými nožmi",
+      "img3": "Presný frézovací kotúč s priemerom upnutia 16 mm a okrúhlym profilom zuba 8 mm",
+      "img4": "Frézovací kotúč Manpa s vymeniteľnými tvrdokovovými nožmi, priemer 95 mm",
+      "img5": "Frézovací kotúč Manpa s priemerom 70 mm a zubom 12 mm",
+      "img6": "Sada frézovacích kotúčov Manpa v rôznych veľkostiach",
+      "img7": "Porovnanie veľkostí frézovacích kotúčov Manpa"
     }
   },
   "contact": {

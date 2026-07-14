@@ -170,13 +170,15 @@
     "placeholder": "Sem přidejte obrázek {number}",
     "milling": {
       "title": "Frézovací kotouče",
-      "description": "Frézovací kotouče jsou srdcem každé řezbářské dílny. V nabídce najdete legendární Arbortech Industrial Woodcarver – originální australský kotouč, který odstartoval revoluci v tvarování dřeva úhlovou bruskou a dodnes patří mezi nejagresivnější a nejspolehlivější nástroje na trhu. Pro přesnější a jemnější tvarování nabízíme 3křídlé kotouče Piraňa/Prano, brusné kotouče v různých zrnitostech na dokončovací práce a profesionální frézovací hlavy s vyměnitelnými tvrdokovovými noži (16 mm a 9 mm) – jakmile se nůž otupí, stačí vyměnit jen čepel, ne celý kotouč, což šetří náklady i čas. Všechny kotouče pasují na běžné úhlové brusky a jsou prověřené profesionálními řezbáři po celém světě.",
+      "description": "Frézovací kotouče jsou srdcem každé řezbářské dílny. V nabídce najdete legendární Arbortech Industrial Woodcarver – originální australský kotouč, který odstartoval revoluci v tvarování dřeva úhlovou bruskou – i 3křídlé kotouče Piraňa/Prano pro rychlé a kontrolované tvarování. Široký sortiment frézovacích kotoučů Manpa, od kompaktních 70mm modelů až po profesionální kotouče s vyměnitelnými tvrdokovovými noži, vám umožní zvolit přesně tu velikost a hloubku záběru, jakou vaše práce vyžaduje. Vyměnitelné nože navíc šetří náklady, protože při otupení stačí vyměnit jen samotný nůž, ne celý kotouč. Všechny kotouče pasují na běžné úhlové brusky a jsou prověřené profesionálními řezbáři po celém světě.",
       "cta": "Zobrazit v e-shopu",
-      "img1": "Arbortech Industrial Woodcarver – originální kotouč na tvarování dřeva",
-      "img2": "Frézovací kotouč Piraňa/Prano s karbidovými noži",
-      "img3": "Sada barevně odlišených brusných kotoučů v různých zrnitostech",
-      "img4": "Přesný frézovací kotouč s upínacím klíčem",
-      "img5": "Frézovací hlava s vyměnitelnými tvrdokovovými noži 16 mm a 9 mm"
+      "img1": "Arbortech Industrial Woodcarver – originální kotouč na tvarování dřeva s upínacím klíčem",
+      "img2": "Frézovací kotouč Piraňa/Prano se 3 karbidovými noži",
+      "img3": "Přesný frézovací kotouč s průměrem upnutí 16 mm a kulatým profilem zubu 8 mm",
+      "img4": "Frézovací kotouč Manpa s vyměnitelnými tvrdokovovými noži, průměr 95 mm",
+      "img5": "Frézovací kotouč Manpa s průměrem 70 mm a zubem 12 mm",
+      "img6": "Sada frézovacích kotoučů Manpa v různých velikostech",
+      "img7": "Porovnání velikostí frézovacích kotoučů Manpa"
     }
   },
   "contact": {

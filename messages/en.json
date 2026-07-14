@@ -170,13 +170,15 @@
     "placeholder": "Add image {number} here",
     "milling": {
       "title": "Milling discs",
-      "description": "Milling discs are the heart of every carving workshop. Our range includes the legendary Arbortech Industrial Woodcarver – the original Australian disc that kicked off the angle-grinder wood-shaping revolution and remains one of the most aggressive, reliable tools on the market. For finer, more controlled shaping we offer 3-wing Piranha/Prano discs, abrasive discs in various grits for finishing work, and professional milling heads with replaceable carbide inserts (16 mm and 9 mm) – when a blade dulls, you just swap the insert instead of the whole disc, saving both money and time. Every disc fits standard angle grinders and is trusted by professional carvers worldwide.",
+      "description": "Milling discs are the heart of every carving workshop. Our range includes the legendary Arbortech Industrial Woodcarver – the original Australian disc that kicked off the angle-grinder wood-shaping revolution – along with 3-wing Piranha/Prano discs for fast, controlled shaping. A wide selection of Manpa milling discs, from compact 70 mm models to professional discs with replaceable carbide blades, lets you pick exactly the size and cutting depth your project needs. Replaceable blades also save money, since a dull blade can simply be swapped instead of replacing the whole disc. Every disc fits standard angle grinders and is trusted by professional carvers worldwide.",
       "cta": "View in the e-shop",
-      "img1": "Arbortech Industrial Woodcarver – the original wood-shaping disc",
-      "img2": "Piranha/Prano milling disc with carbide blades",
-      "img3": "Set of color-coded abrasive discs in various grits",
-      "img4": "Precision milling disc with clamping key",
-      "img5": "Milling head with replaceable 16 mm and 9 mm carbide inserts"
+      "img1": "Arbortech Industrial Woodcarver – the original wood-shaping disc with clamping key",
+      "img2": "Piranha/Prano milling disc with 3 carbide blades",
+      "img3": "Precision milling disc with a 16 mm bore and 8 mm round tooth profile",
+      "img4": "Manpa milling disc with replaceable carbide blades, 95 mm diameter",
+      "img5": "Manpa milling disc, 70 mm diameter with a 12 mm tooth",
+      "img6": "Set of Manpa milling discs in various sizes",
+      "img7": "Size comparison of Manpa milling discs"
     }
   },
   "contact": {
