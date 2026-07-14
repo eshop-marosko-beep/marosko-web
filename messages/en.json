@@ -32,7 +32,7 @@
     },
     "aboutSection": {
       "title": "Who we are",
-      "text": "We are a family business, Maroško s.r.o., selling quality tools for several years. We offer our customers a personal approach, expert advice and reliable service.",
+      "text": "We are Marián s.r.o. – a family business that has specialized in premium woodcarving and woodworking tools since 2013. We only stock tools we've personally put to the test ourselves, from Arbortech shaping tools made in Australia to Saburrtooth rasps from the USA.",
       "cta": "More about us"
     },
     "testimonials": {
@@ -91,7 +91,11 @@
   },
   "about": {
     "title": "About Us",
-    "content": "We are a family business Maroško s.r.o., specializing in tool sales for several years."
+    "intro": "Marián s.r.o. is a family business that has been selling premium imported woodcarving and woodworking tools in Slovakia since 2013. Our goal is to bring tools to market that you simply can't find in regular stores – tools that save carvers and DIY enthusiasts both time and money.",
+    "history": "Our roots go back to 2011, when the Vercajch.eu project was founded; we took over all its rights in 2018, followed by rezbarskenaradie.sk in 2020. Today we run the shop under the eshop.marosko.sk brand, where in-stock items ship within 24 hours and orders over €50 paid by bank transfer ship for free.",
+    "brands": "We only stock proven international brands: Arbortech shaping and planing tools from Australia, Saburrtooth tungsten-carbide rasps from the USA, Manpa extension arms and milling attachments from Korea, ARTU Tools carbide-tipped drill bits from Germany, and Diaclear diamond-coated sharpening discs from the Czech Republic. Our range is rounded out with shellac, wood finishing waxes and certified protective work equipment.",
+    "philosophy": "We personally put every tool we sell to the test before adding it to our range. Thanks to years of hands-on carving experience, we can judge not just its strengths but also its shortcomings – so we can give our customers genuinely honest, expert advice.",
+    "support": "As a Slovak seller, we offer a full warranty, quality after-warranty service, and an invoice you can claim as an expense under industry subsidy schemes. We're proud to support Slovak artists and schools by making tools available that weren't previously accessible."
   },
   "services": {
     "title": "Our Categories",

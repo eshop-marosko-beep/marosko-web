@@ -32,7 +32,7 @@
     },
     "aboutSection": {
       "title": "Kto sme",
-      "text": "Sme rodinná firma Maroško s.r.o., ktorá sa už niekoľko rokov venuje predaju kvalitného náradia. Zákazníkom ponúkame osobný prístup, odborné poradenstvo a spoľahlivý servis.",
+      "text": "Sme Marián s.r.o. – rodinná firma, ktorá sa už od roku 2013 špecializuje na značkové rezbárske a drevoobrábacie náradie. Do ponuky vyberáme len nástroje, ktoré sami prakticky overíme – od tvarovacích nástrojov Arbortech z Austrálie až po rašple Saburrtooth z USA.",
       "cta": "Viac o nás"
     },
     "testimonials": {
@@ -91,7 +91,11 @@
   },
   "about": {
     "title": "O nás",
-    "content": "Sme rodinná firma Maroško s.r.o., ktorá sa venuje predaju náradia už niekoľko rokov."
+    "intro": "Marián s.r.o. je rodinná spoločnosť, ktorá sa od roku 2013 venuje predaju značkového zahraničného rezbárskeho a drevoobrábacieho náradia na Slovensku. Naším cieľom je priniesť na trh nástroje, ktoré sa v bežných obchodoch nedajú kúpiť – a ktoré rezbárom aj domácim majstrom ušetria čas aj peniaze.",
+    "history": "Naše korene siahajú až do roku 2011, keď vznikol projekt Vercajch.eu, ktorého všetky práva sme prevzali v roku 2018. V roku 2020 sme prevzali aj rezbárskenáradie.sk. Dnes obchod spravujeme pod značkou eshop.marosko.sk, kde je tovar skladom expedovaný do 24 hodín a pri platbe prevodom nad 50 € posielame zadarmo.",
+    "brands": "Do ponuky vyberáme len overené svetové značky: tvarovacie a hobľovacie nástroje Arbortech z Austrálie, tvrdokovové rašple Saburrtooth z USA, predlžovacie ramená a frézovacie nástavce Manpa z Kórey, tvrdokovom povlakované vrtáky ARTU Tools z Nemecka či diamantové ostriace kotúče Diaclear z Českej republiky. Sortiment dopĺňajú šelaky, vosky na povrchovú úpravu dreva a certifikované ochranné pracovné pomôcky.",
+    "philosophy": "Každý nástroj, ktorý ponúkame, si najprv sami prakticky overíme. Vďaka dlhoročným skúsenostiam s rezbárstvom tak vieme posúdiť nielen jeho prednosti, ale aj prípadné nedostatky – a zákazníkom preto vieme poradiť naozaj férovo a odborne.",
+    "support": "Ako slovenský predajca ponúkame plnú záruku, kvalitný pozáručný servis aj doklad, ktorý si viete zaradiť do nákladov pri čerpaní dotácií v odbore. Radi podporujeme aj slovenských umelcov a školy tým, že im sprístupňujeme náradie, ktoré doteraz nebolo bežne dostupné."
   },
   "services": {
     "title": "Naše kategórie",

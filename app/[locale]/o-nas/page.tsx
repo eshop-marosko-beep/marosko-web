@@ -15,9 +15,13 @@ export default async function AboutPage({
       <h1 className="text-4xl font-bold text-amber-800 mb-6">
         {t("title")}
       </h1>
-      <p className="text-gray-700 text-lg leading-relaxed">
-        {t("content")}
-      </p>
+      <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
+        <p>{t("intro")}</p>
+        <p>{t("history")}</p>
+        <p>{t("brands")}</p>
+        <p>{t("philosophy")}</p>
+        <p>{t("support")}</p>
+      </div>
     </div>
   );
 }
