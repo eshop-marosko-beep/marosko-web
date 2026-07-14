@@ -103,7 +103,8 @@
   },
   "gallery": {
     "title": "Galerie",
-    "description": "Podívejte se na ukázky našich produktů."
+    "description": "Podívejte se na ukázky našich produktů.",
+    "placeholder": "Sem přidejte obrázek {number}"
   },
   "contact": {
     "title": "Kontakt",
@@ -111,5 +112,8 @@
     "phone": "Telefon: +421 949 584 525",
     "email": "Email: info@marosko.sk",
     "eshop": "Přejít na e-shop: eshop.marosko.sk"
+  },
+  "footer": {
+    "rights": "Všechna práva vyhrazena"
   }
 }

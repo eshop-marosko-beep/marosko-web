@@ -1,5 +1,6 @@
 import "../globals.css";
 import { NextIntlClientProvider } from 'next-intl';
+import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 
@@ -11,6 +12,7 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
 
   let messages;
   try {
@@ -32,19 +34,19 @@ export default async function LocaleLayout({
                 </Link>
                 <div className="space-x-6">
                   <Link href={`/${locale}`} className="hover:text-amber-700">
-                    {messages.navigation?.home || 'Domov'}
+                    {messages.navigation.home}
                   </Link>
                   <Link href={`/${locale}/o-nas`} className="hover:text-amber-700">
-                    {messages.navigation?.about || 'O nás'}
+                    {messages.navigation.about}
                   </Link>
                   <Link href={`/${locale}/kategorie`} className="hover:text-amber-700">
-                    {messages.navigation?.services || 'Kategórie'}
+                    {messages.navigation.services}
                   </Link>
                   <Link href={`/${locale}/galeria`} className="hover:text-amber-700">
-                    {messages.navigation?.gallery || 'Galéria'}
+                    {messages.navigation.gallery}
                   </Link>
                   <Link href={`/${locale}/kontakt`} className="hover:text-amber-700">
-                    {messages.navigation?.contact || 'Kontakt'}
+                    {messages.navigation.contact}
                   </Link>
                   <a href="https://eshop.marosko.sk" target="_blank" className="bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors">
                     🛒 E-shop
@@ -65,7 +67,7 @@ export default async function LocaleLayout({
             {/* Pätička */}
             <footer className="bg-gray-800 text-white text-center p-4 mt-12">
               <div className="container mx-auto">
-                © 2026 Maroško s.r.o. - Všetky práva vyhradené
+                © 2026 Maroško s.r.o. - {messages.footer.rights}
               </div>
             </footer>
           </div>
