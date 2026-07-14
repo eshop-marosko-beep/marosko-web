@@ -7,9 +7,87 @@
     "contact": "Kontakt"
   },
   "home": {
-    "title": "Maroško - prodej nářadí",
-    "subtitle": "Kvalitní nářadí pro profesionály i domácí kutilství",
-    "description": "Nabízíme široký výběr ručního, elektrického a zahradního nářadí za výhodné ceny."
+    "hero": {
+      "title": "Nářadí, na které se můžete spolehnout",
+      "subtitle": "Frézovací kotouče, ruční i elektrické nářadí pro profesionály i domácí kutily – vše na jednom místě.",
+      "ctaPrimary": "Prohlédnout kategorie",
+      "ctaSecondary": "Přejít do e-shopu"
+    },
+    "categories": {
+      "title": "Naše kategorie nářadí",
+      "subtitle": "Vyberte si z široké nabídky kvalitního nářadí a příslušenství.",
+      "milling": {
+        "name": "Frézovací kotouče",
+        "description": "Frézovací a brusné kotouče do přímých i úhlových brusek pro přesné opracování kovu, dřeva i kamene."
+      },
+      "hand": {
+        "name": "Ruční nářadí",
+        "description": "Klíče, šroubováky, kleště a další ruční nářadí v profesionální kvalitě pro každodenní použití."
+      },
+      "power": {
+        "name": "Elektrické nářadí",
+        "description": "Vrtačky, brusky, pily a další elektrické nářadí od ověřených značek za výhodné ceny."
+      },
+      "cta": "Zobrazit všechny kategorie"
+    },
+    "aboutSection": {
+      "title": "Kdo jsme",
+      "text": "Jsme rodinná firma Maroško s.r.o., která se již několik let věnuje prodeji kvalitního nářadí. Zákazníkům nabízíme osobní přístup, odborné poradenství a spolehlivý servis.",
+      "cta": "Více o nás"
+    },
+    "testimonials": {
+      "title": "Co říkají naši zákazníci",
+      "subtitle": "Reference od spokojených zákazníků a partnerů.",
+      "review1": {
+        "name": "Petr Novák",
+        "role": "Autoservis Novák",
+        "text": "S Maroškem spolupracujeme už léta. Vždy mají zboží skladem a poradí s výběrem správného nářadí."
+      },
+      "review2": {
+        "name": "Jana Kovářová",
+        "role": "Domácí kutilka",
+        "text": "Příjemný přístup a kvalitní nářadí za rozumné ceny. Objednávku jsem měla doma už druhý den."
+      },
+      "review3": {
+        "name": "Milan Horváth",
+        "role": "Truhlářství Horváth",
+        "text": "Frézovací kotouče od Maroška používáme denně, vydrží dlouho a mají stabilní kvalitu."
+      }
+    },
+    "faq": {
+      "title": "Časté dotazy",
+      "subtitle": "Odpovědi na nejčastější otázky našich zákazníků.",
+      "q1": {
+        "question": "Jak rychle dodáváte objednané nářadí?",
+        "answer": "Zboží skladem expedujeme do 24 hodin, doručení kurýrem trvá obvykle 1-2 pracovní dny."
+      },
+      "q2": {
+        "question": "Nabízíte nářadí i pro firmy a živnostníky?",
+        "answer": "Ano, připravíme cenovou nabídku na míru i pro firemní zákazníky a větší objednávky."
+      },
+      "q3": {
+        "question": "Je možné nářadí osobně vyzvednout?",
+        "answer": "Ano, po dohodě je možný osobní odběr přímo v provozovně ve Vrádišti."
+      },
+      "q4": {
+        "question": "Poskytujete záruku a servis na prodané nářadí?",
+        "answer": "Na veškeré zboží poskytujeme zákonnou záruku a v případě potřeby zajistíme i servis nebo výměnu."
+      }
+    },
+    "contactCta": {
+      "title": "Máte dotaz nebo zájem o nabídku?",
+      "subtitle": "Napište nám a ozveme se vám co nejdříve.",
+      "nameLabel": "Jméno a příjmení",
+      "namePlaceholder": "Vaše jméno",
+      "emailLabel": "Email",
+      "emailPlaceholder": "vas@email.cz",
+      "phoneLabel": "Telefon",
+      "phonePlaceholder": "+420 900 000 000",
+      "messageLabel": "Zpráva",
+      "messagePlaceholder": "Napište nám, co potřebujete...",
+      "submit": "Odeslat zprávu",
+      "note": "Odesláním zprávy se otevře váš emailový klient s předvyplněnou zprávou pro info@marosko.sk."
+    }
   },
   "about": {
     "title": "O nás",
