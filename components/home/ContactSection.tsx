@@ -15,7 +15,7 @@ export default function ContactSection() {
     e.preventDefault();
     const subject = encodeURIComponent(`${t("title")} - ${name}`);
     const body = encodeURIComponent(`${name}\n${email}\n${phone}\n\n${message}`);
-    window.location.href = `mailto:info@marosko.sk?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:eshop.marosko@gmail.com?subject=${subject}&body=${body}`;
   };
 
   return (

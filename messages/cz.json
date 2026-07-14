@@ -86,13 +86,13 @@
       "messageLabel": "Zpráva",
       "messagePlaceholder": "Napište nám, co potřebujete...",
       "submit": "Odeslat zprávu",
-      "note": "Odesláním zprávy se otevře váš emailový klient s předvyplněnou zprávou pro info@marosko.sk."
+      "note": "Odesláním zprávy se otevře váš emailový klient s předvyplněnou zprávou pro eshop.marosko@gmail.com."
     }
   },
   "about": {
     "title": "O nás",
     "intro": "Marián s.r.o. je rodinná společnost, která se od roku 2013 věnuje prodeji značkového zahraničního řezbářského a dřevoobráběcího nářadí na Slovensku. Naším cílem je přinést na trh nástroje, které se v běžných obchodech nedají koupit – a které řezbářům i domácím kutilům ušetří čas i peníze.",
-    "history": "Naše kořeny sahají až do roku 2011, kdy vznikl projekt Vercajch.eu, jehož veškerá práva jsme převzali v roce 2018. Dnes obchod provozujeme pod značkou eshop.marosko.sk, kde je zboží skladem expedováno do 24 hodin a při platbě převodem nad 50 € posíláme zdarma.",
+    "history": "Naše kořeny sahají až do roku 2011, kdy vznikl projekt Vercajch.eu, jehož veškerá práva jsme převzali v roce 2018. Dnes obchod provozujeme pod značkou eshop.marosko.sk, kde je zboží skladem expedováno do 24 hodin.",
     "brands": "Do nabídky vybíráme jen ověřené světové značky: tvarovací a hoblovací nástroje Arbortech z Austrálie, tvrdokovové rašple Saburrtooth z USA, prodlužovací ramena a frézovací nástavce Manpa z Koreje, tvrdokovem povlakované vrtáky ARTU Tools z Německa či diamantové ostřicí kotouče Diaclear z České republiky. Sortiment doplňují šelaky, vosky na povrchovou úpravu dřeva a certifikované ochranné pracovní pomůcky.",
     "philosophy": "Každý nástroj, který nabízíme, si nejprve sami prakticky ověříme. Díky dlouholetým zkušenostem s řezbářstvím tak dokážeme posoudit nejen jeho přednosti, ale i případné nedostatky – a zákazníkům proto umíme poradit opravdu férově a odborně.",
     "support": "Jako slovenský prodejce nabízíme plnou záruku, kvalitní pozáruční servis i doklad, který si můžete zařadit do nákladů při čerpání dotací v oboru. Rádi podporujeme i slovenské umělce a školy tím, že jim zpřístupňujeme nářadí, které dosud nebylo běžně dostupné."
@@ -112,7 +112,7 @@
   },
   "contact": {
     "title": "Kontakt",
-    "address": "Maroško s.r.o., Vrádište 138, 908 49 Vrádište",
+    "address": "Marián s.r.o., Vrádište 138, 908 49 Vrádište",
     "phone": "Telefon: +421 949 584 525",
     "email": "Email: info@marosko.sk",
     "eshop": "Přejít na e-shop: eshop.marosko.sk"
