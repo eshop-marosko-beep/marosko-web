@@ -3,10 +3,12 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 const millingImages = [
   { src: "/gallery/arbortech-industrial-woodcarver.jpg", altKey: "img1" },
-  { src: "/gallery/prano-pirana-frezovaci-kotuc.jpg", altKey: "img2" },
-  { src: "/gallery/sada-brusnych-kotucov.jpg", altKey: "img3" },
-  { src: "/gallery/presny-frezovaci-kotuc-s-klucom.jpg", altKey: "img4" },
-  { src: "/gallery/karbidova-frezovacia-hlava.jpg", altKey: "img5" },
+  { src: "/gallery/pirana-prano-frezovaci-kotuc.jpg", altKey: "img2" },
+  { src: "/gallery/presny-frezovaci-kotuc-8mm.jpg", altKey: "img3" },
+  { src: "/gallery/manpa-vymenitelne-noze-95mm.jpg", altKey: "img4" },
+  { src: "/gallery/manpa-frezovaci-kotuc-70mm.jpg", altKey: "img5" },
+  { src: "/gallery/manpa-sada-velkosti-a.jpg", altKey: "img6" },
+  { src: "/gallery/manpa-sada-velkosti-b.jpg", altKey: "img7" },
 ] as const;
 
 export default async function GalleryPage({
@@ -35,7 +37,7 @@ export default async function GalleryPage({
         <p className="text-gray-600 leading-relaxed mb-6 max-w-3xl">
           {t("milling.description")}
         </p>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
           {millingImages.map(({ src, altKey }) => (
             <div
               key={src}
