@@ -103,7 +103,8 @@
   },
   "gallery": {
     "title": "Galerie",
-    "description": "Vedeți mostre ale produselor noastre."
+    "description": "Vedeți mostre ale produselor noastre.",
+    "placeholder": "Adăugați aici imaginea {number}"
   },
   "contact": {
     "title": "Contact",
@@ -111,5 +112,8 @@
     "phone": "Telefon: +421 123 456 789",
     "email": "Email: info@marosko.sk",
     "eshop": "Mergeți la magazinul online: eshop.marosko.sk/ro"
+  },
+  "footer": {
+    "rights": "Toate drepturile rezervate"
   }
 }

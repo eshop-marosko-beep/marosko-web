@@ -4,6 +4,7 @@ import AboutSection from "@/components/home/AboutSection";
 import Testimonials from "@/components/home/Testimonials";
 import Faq from "@/components/home/Faq";
 import ContactSection from "@/components/home/ContactSection";
+import { setRequestLocale } from "next-intl/server";
 
 export default async function HomePage({
   params,
@@ -11,6 +12,7 @@ export default async function HomePage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
 
   return (
     <div className="divide-y divide-amber-100">

@@ -103,7 +103,8 @@
   },
   "gallery": {
     "title": "Gallery",
-    "description": "Browse samples of our products."
+    "description": "Browse samples of our products.",
+    "placeholder": "Add image {number} here"
   },
   "contact": {
     "title": "Contact",
@@ -111,5 +112,8 @@
     "phone": "Phone: +421 123 456 789",
     "email": "Email: info@marosko.sk",
     "eshop": "Go to e-shop: eshop.marosko.sk"
+  },
+  "footer": {
+    "rights": "All rights reserved"
   }
 }

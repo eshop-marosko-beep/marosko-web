@@ -1,7 +1,14 @@
-import { useTranslations } from 'next-intl';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
-export default function CategoriesPage() {
-  const t = useTranslations('services');
+export default async function CategoriesPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
+
+  const t = await getTranslations('services');
 
   return (
     <div className="py-8 max-w-3xl mx-auto">
