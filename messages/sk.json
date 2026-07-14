@@ -99,11 +99,70 @@
   },
   "services": {
     "title": "Naše kategórie",
-    "item1": "Ručné náradie",
-    "item2": "Elektrické náradie",
-    "item3": "Frézky do priamej brúsky",
-    "item4": "Nástroje do uhlovej brúsky",
-    "item5": "Príslušenstvo a ochranné pomôcky"
+    "subtitle": "Kompletná ponuka náradia a príslušenstva nájdete v našom e-shope.",
+    "cta": "Prejsť do e-shopu",
+    "categories": {
+      "angleGrinder": {
+        "name": "Nástroje do uhlovej brúsky",
+        "description": "Frézovacie, drážkovacie a rezné kotúče, ktoré premenia bežnú uhlovú brúsku na presný rezbársky nástroj."
+      },
+      "drill": {
+        "name": "Nástroje do vŕtačky",
+        "description": "Vrtáky, nadstavce a príslušenstvo pre vŕtačky na drevo, murivo aj kameň."
+      },
+      "straightGrinder": {
+        "name": "Nástroje do priamej brúsky + SABURRTOOTH",
+        "description": "Tvrdokovové rašple a nástavce Saburrtooth pre priame brúsky a mikromotory na jemné opracovanie."
+      },
+      "miniMill": {
+        "name": "Nástroje do mini frézky Ø 50 mm",
+        "description": "Špeciálne frézovacie nástavce pre mini frézky s priemerom stopky 50 mm."
+      },
+      "powerTools": {
+        "name": "Elektrické náradie",
+        "description": "Elektrické dláta, brúsky a ďalšie elektrické nástroje pre profesionálne rezbárske práce."
+      },
+      "cordless": {
+        "name": "Akumulátorové náradie",
+        "description": "Bezkáblové nástroje pre prácu bez obmedzenia predlžovacím káblom."
+      },
+      "customAbrasive": {
+        "name": "Brúsne výseky na mieru",
+        "description": "Brúsny papier a výseky vyrobené presne na mieru podľa vášho stroja či nástroja."
+      },
+      "handTools": {
+        "name": "Ručné náradie",
+        "description": "Kliešte, kľúče, pilníky a ďalšie ručné náradie v profesionálnej kvalite."
+      },
+      "coatings": {
+        "name": "Nátery, tmely, brúsivá a iné prípravky",
+        "description": "Laky, šelaky, moridlá a brúsivo na dokonalú povrchovú úpravu dreva."
+      },
+      "protective": {
+        "name": "Ochranné pomôcky a pracovné odevy",
+        "description": "Rukavice, okuliare, respirátory a odevy, ktoré vás ochránia pri práci s náradím."
+      },
+      "spareParts": {
+        "name": "Výmenné prídavné náhradné diely",
+        "description": "Náhradné diely a doplnky, ktorými predĺžite životnosť svojho náradia."
+      },
+      "stands": {
+        "name": "Podstavce, upínacie stroje",
+        "description": "Zveráky, svorky a pracovné podpery pre stabilné a bezpečné upnutie materiálu."
+      },
+      "misc": {
+        "name": "Nezaradený drobný sortiment",
+        "description": "Drobný sortiment a doplnky, ktoré sa nezmestili do žiadnej inej kategórie."
+      },
+      "carvingBlanks": {
+        "name": "Výtvarnícke lišty carvingové",
+        "description": "Drevené carvingové lišty a polotovary určené priamo na rezbárske stvárnenie."
+      },
+      "shankTools": {
+        "name": "Stopkové nástroje",
+        "description": "Stopkové frézy a nástroje s rôznymi profilmi pre stolárske aj rezbárske opracovanie dreva."
+      }
+    }
   },
   "gallery": {
     "title": "Galéria",
