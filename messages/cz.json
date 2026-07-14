@@ -166,8 +166,18 @@
   },
   "gallery": {
     "title": "Galerie",
-    "description": "Podívejte se na ukázky našich produktů.",
-    "placeholder": "Sem přidejte obrázek {number}"
+    "description": "Podívejte se na ukázky nářadí z naší nabídky.",
+    "placeholder": "Sem přidejte obrázek {number}",
+    "milling": {
+      "title": "Frézovací kotouče",
+      "description": "Frézovací kotouče jsou srdcem každé řezbářské dílny. V nabídce najdete legendární Arbortech Industrial Woodcarver – originální australský kotouč, který odstartoval revoluci v tvarování dřeva úhlovou bruskou a dodnes patří mezi nejagresivnější a nejspolehlivější nástroje na trhu. Pro přesnější a jemnější tvarování nabízíme 3křídlé kotouče Piraňa/Prano, brusné kotouče v různých zrnitostech na dokončovací práce a profesionální frézovací hlavy s vyměnitelnými tvrdokovovými noži (16 mm a 9 mm) – jakmile se nůž otupí, stačí vyměnit jen čepel, ne celý kotouč, což šetří náklady i čas. Všechny kotouče pasují na běžné úhlové brusky a jsou prověřené profesionálními řezbáři po celém světě.",
+      "cta": "Zobrazit v e-shopu",
+      "img1": "Arbortech Industrial Woodcarver – originální kotouč na tvarování dřeva",
+      "img2": "Frézovací kotouč Piraňa/Prano s karbidovými noži",
+      "img3": "Sada barevně odlišených brusných kotoučů v různých zrnitostech",
+      "img4": "Přesný frézovací kotouč s upínacím klíčem",
+      "img5": "Frézovací hlava s vyměnitelnými tvrdokovovými noži 16 mm a 9 mm"
+    }
   },
   "contact": {
     "title": "Kontakt",

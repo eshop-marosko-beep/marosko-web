@@ -1,4 +1,13 @@
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+
+const millingImages = [
+  { src: "/gallery/arbortech-industrial-woodcarver.jpg", altKey: "img1" },
+  { src: "/gallery/prano-pirana-frezovaci-kotuc.jpg", altKey: "img2" },
+  { src: "/gallery/sada-brusnych-kotucov.jpg", altKey: "img3" },
+  { src: "/gallery/presny-frezovaci-kotuc-s-klucom.jpg", altKey: "img4" },
+  { src: "/gallery/karbidova-frezovacia-hlava.jpg", altKey: "img5" },
+] as const;
 
 export default async function GalleryPage({
   params,
@@ -15,16 +24,42 @@ export default async function GalleryPage({
       <h1 className="text-4xl font-bold text-amber-800 mb-4">
         {t("title")}
       </h1>
-      <p className="text-gray-600 mb-8">
+      <p className="text-gray-600 mb-12">
         {t("description")}
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-        {[1, 2, 3].map((i) => (
-          <div key={i} className="bg-gray-200 h-64 rounded-lg flex items-center justify-center text-gray-500">
-            {t("placeholder", { number: i })}
-          </div>
-        ))}
-      </div>
+
+      <section>
+        <h2 className="text-2xl font-bold text-amber-800 mb-3">
+          {t("milling.title")}
+        </h2>
+        <p className="text-gray-600 leading-relaxed mb-6 max-w-3xl">
+          {t("milling.description")}
+        </p>
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
+          {millingImages.map(({ src, altKey }) => (
+            <div
+              key={src}
+              className="relative bg-white border border-gray-200 rounded-lg h-40 overflow-hidden"
+            >
+              <Image
+                src={src}
+                alt={t(`milling.${altKey}`)}
+                fill
+                sizes="(min-width: 768px) 20vw, 50vw"
+                className="object-contain p-2"
+              />
+            </div>
+          ))}
+        </div>
+        <a
+          href="https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky/nastroje-do-uhlovych-brusiek-na-drevo/frezovacie-naradie-do-uhlovych-brusok"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors"
+        >
+          {t("milling.cta")} →
+        </a>
+      </section>
     </div>
   );
 }
