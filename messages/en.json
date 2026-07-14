@@ -166,8 +166,18 @@
   },
   "gallery": {
     "title": "Gallery",
-    "description": "Browse samples of our products.",
-    "placeholder": "Add image {number} here"
+    "description": "Browse samples of the tools we carry.",
+    "placeholder": "Add image {number} here",
+    "milling": {
+      "title": "Milling discs",
+      "description": "Milling discs are the heart of every carving workshop. Our range includes the legendary Arbortech Industrial Woodcarver – the original Australian disc that kicked off the angle-grinder wood-shaping revolution and remains one of the most aggressive, reliable tools on the market. For finer, more controlled shaping we offer 3-wing Piranha/Prano discs, abrasive discs in various grits for finishing work, and professional milling heads with replaceable carbide inserts (16 mm and 9 mm) – when a blade dulls, you just swap the insert instead of the whole disc, saving both money and time. Every disc fits standard angle grinders and is trusted by professional carvers worldwide.",
+      "cta": "View in the e-shop",
+      "img1": "Arbortech Industrial Woodcarver – the original wood-shaping disc",
+      "img2": "Piranha/Prano milling disc with carbide blades",
+      "img3": "Set of color-coded abrasive discs in various grits",
+      "img4": "Precision milling disc with clamping key",
+      "img5": "Milling head with replaceable 16 mm and 9 mm carbide inserts"
+    }
   },
   "contact": {
     "title": "Contact",

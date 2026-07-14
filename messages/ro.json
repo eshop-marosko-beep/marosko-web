@@ -166,8 +166,18 @@
   },
   "gallery": {
     "title": "Galerie",
-    "description": "Vedeți mostre ale produselor noastre.",
-    "placeholder": "Adăugați aici imaginea {number}"
+    "description": "Vedeți mostre ale uneltelor din oferta noastră.",
+    "placeholder": "Adăugați aici imaginea {number}",
+    "milling": {
+      "title": "Discuri de frezat",
+      "description": "Discurile de frezat sunt inima oricărui atelier de cioplit. În ofertă găsiți celebrul Arbortech Industrial Woodcarver – discul original australian care a declanșat revoluția modelării lemnului cu polizorul unghiular și rămâne unul dintre cele mai agresive și fiabile scule de pe piață. Pentru o modelare mai fină și mai precisă oferim discuri cu 3 aripioare Piranha/Prano, discuri abrazive în diverse granulații pentru lucrări de finisare, precum și capete de frezat profesionale cu cuțite din carbură interschimbabile (16 mm și 9 mm) – când o lamă se tocește, înlocuiți doar cuțitul, nu întregul disc, economisind bani și timp. Toate discurile se potrivesc pe polizoare unghiulare standard și sunt folosite de cioplitori profesioniști din întreaga lume.",
+      "cta": "Vezi în magazinul online",
+      "img1": "Arbortech Industrial Woodcarver – discul original pentru modelarea lemnului",
+      "img2": "Disc de frezat Piranha/Prano cu cuțite din carbură",
+      "img3": "Set de discuri abrazive colorate în diverse granulații",
+      "img4": "Disc de frezat de precizie cu cheie de fixare",
+      "img5": "Cap de frezat cu cuțite din carbură interschimbabile de 16 mm și 9 mm"
+    }
   },
   "contact": {
     "title": "Contact",
