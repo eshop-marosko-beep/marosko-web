@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 export default async function LocaleLayout({
   children,
@@ -51,10 +52,7 @@ export default async function LocaleLayout({
                   <a href="https://eshop.marosko.sk" target="_blank" className="bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors">
                     🛒 E-shop
                   </a>
-                  <Link href="/sk" className="text-sm border px-2 py-1 rounded hover:bg-gray-100">SK</Link>
-                  <Link href="/cz" className="text-sm border px-2 py-1 rounded hover:bg-gray-100">CZ</Link>
-                  <Link href="/en" className="text-sm border px-2 py-1 rounded hover:bg-gray-100">EN</Link>
-                  <Link href="/ro" className="text-sm border px-2 py-1 rounded hover:bg-gray-100">RO</Link>
+                  <LanguageSwitcher />
                 </div>
               </div>
             </nav>
