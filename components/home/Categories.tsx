@@ -13,7 +13,7 @@ export default function Categories({ locale }: { locale: string }) {
   return (
     <section id="kategorie" className="py-16">
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-amber-800 mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-espresso-800 mb-4">
           {t("title")}
         </h2>
         <p className="text-gray-600 text-lg max-w-2xl mx-auto">
@@ -24,10 +24,10 @@ export default function Categories({ locale }: { locale: string }) {
         {items.map(({ key, icon }) => (
           <div
             key={key}
-            className="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow"
+            className="bg-white rounded-xl shadow-lg p-8 text-center border border-transparent hover:border-amber-200 hover:shadow-xl transition-all"
           >
             <div className="text-5xl mb-4">{icon}</div>
-            <h3 className="text-xl font-bold text-amber-800 mb-3">
+            <h3 className="text-xl font-bold text-espresso-800 mb-3">
               {t(`${key}.name`)}
             </h3>
             <p className="text-gray-600 leading-relaxed">

@@ -12,7 +12,7 @@ export default async function ContactPage({
 
   return (
     <div className="py-8 max-w-3xl mx-auto">
-      <h1 className="text-4xl font-bold text-amber-800 mb-6">
+      <h1 className="text-4xl font-bold text-espresso-800 mb-6">
         {t("title")}
       </h1>
 

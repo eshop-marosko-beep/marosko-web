@@ -26,11 +26,11 @@ export default async function LocaleLayout({
     <html lang={locale} className="scroll-smooth">
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <div className="min-h-screen bg-gray-50">
+          <div className="min-h-screen bg-cream-50">
             {/* Navigácia */}
-            <nav className="bg-white shadow-lg p-4">
+            <nav className="bg-white shadow-lg p-4 border-b-2 border-amber-100">
               <div className="container mx-auto flex justify-between items-center">
-                <Link href={`/${locale}`} className="text-2xl font-bold text-amber-700 hover:text-amber-800">
+                <Link href={`/${locale}`} className="text-2xl font-bold text-espresso-800 hover:text-amber-700">
                   Maroško
                 </Link>
                 <div className="space-x-6">
@@ -63,7 +63,7 @@ export default async function LocaleLayout({
             </main>
 
             {/* Pätička */}
-            <footer className="bg-gray-800 text-white text-center p-4 mt-12">
+            <footer className="bg-espresso-900 text-cream-100 text-center p-4 mt-12">
               <div className="container mx-auto">
                 © 2026 Marián s.r.o. - {messages.footer.rights}
               </div>

@@ -12,7 +12,7 @@ export default function Faq() {
   return (
     <section id="faq" className="py-16">
       <div className="text-center mb-12">
-        <h2 className="text-3xl md:text-4xl font-bold text-amber-800 mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-espresso-800 mb-4">
           {t("title")}
         </h2>
         <p className="text-gray-600 text-lg max-w-2xl mx-auto">
@@ -30,7 +30,7 @@ export default function Faq() {
               <button
                 type="button"
                 onClick={() => setOpenKey(isOpen ? null : key)}
-                className="w-full flex justify-between items-center text-left px-6 py-4 font-semibold text-amber-800"
+                className="w-full flex justify-between items-center text-left px-6 py-4 font-semibold text-espresso-800"
                 aria-expanded={isOpen}
               >
                 <span>{t(`${key}.question`)}</span>
