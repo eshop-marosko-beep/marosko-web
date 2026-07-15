@@ -218,9 +218,17 @@
   },
   "contact": {
     "title": "Contact",
-    "address": "Marián s.r.o., Vrádište 138, 908 49 Vrádište",
-    "phone": "Phone: +421 949 584 525",
-    "email": "Email: info@marosko.sk",
+    "companyInfoTitle": "Company details",
+    "address": "Marián s.r.o., Vrádište 138, 908 49 Vrádište, Slovakia",
+    "ico": "Company ID (IČO): 47546298",
+    "dic": "Tax ID (DIČ): 2023992916",
+    "icDph": "VAT ID (IČ DPH): SK2023992916",
+    "authority": "Supervisory authority: Slovak Trade Inspectorate (SOI) for the Trnava Region, Pekárska 23, 917 01 Trnava 1, Slovakia",
+    "contactInfoTitle": "Contact details",
+    "phoneProducts": "Product inquiries: +421 915 723 250",
+    "phoneShipping": "Shipping / stock status: +421 949 584 525",
+    "email": "Email: eshop.marosko@gmail.com",
+    "shippingNote": "Free shipping over €150, in-stock items ship within 24 hours.",
     "eshop": "Go to e-shop: eshop.marosko.sk"
   },
   "footer": {
