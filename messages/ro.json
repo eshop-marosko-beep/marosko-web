@@ -281,7 +281,14 @@
     "formSubtitle": "Scrieți-ne și vă vom răspunde cât mai curând posibil."
   },
   "footer": {
-    "rights": "Toate drepturile rezervate"
+    "rights": "Toate drepturile rezervate",
+    "companyTitle": "Date despre companie",
+    "contactTitle": "Contact",
+    "linksTitle": "Linkuri",
+    "productInquiries": "Întrebări despre produse",
+    "shipping": "Expediere",
+    "gdprLink": "Protecția datelor cu caracter personal",
+    "cookieSettingsLink": "Setări cookies"
   },
   "meta": {
     "home": {
@@ -311,6 +318,67 @@
     "contact": {
       "title": "Contact | Marián s.r.o.",
       "description": "Date de contact și facturare pentru Marián s.r.o. Scrieți-ne sau contactați-ne telefonic."
+    }
+  },
+  "cookies": {
+    "banner": {
+      "text": "Acest site folosește cookies pentru funcționalitatea de bază, iar cu acordul dumneavoastră și pentru analiză și afișarea conținutului încorporat. Vă puteți schimba alegerea oricând în subsolul paginii.",
+      "customize": "Setați preferințele",
+      "rejectAll": "Respingeți tot",
+      "saveChoice": "Salvați alegerea",
+      "acceptAll": "Acceptați tot"
+    },
+    "categories": {
+      "necessary": {
+        "title": "Necesare",
+        "description": "Asigură funcționarea de bază a site-ului. Nu pot fi dezactivate."
+      },
+      "analytics": {
+        "title": "Performanță / analiză",
+        "description": "Ne ajută să înțelegem cum folosiți site-ul (Google Analytics)."
+      },
+      "preferences": {
+        "title": "Preferințe",
+        "description": "Permit afișarea conținutului încorporat, de ex. hărți sau videoclipuri."
+      }
+    }
+  },
+  "gdpr": {
+    "title": "Protecția datelor cu caracter personal",
+    "intro": "În acest document explicăm ce date cu caracter personal prelucrăm, în ce scop, pentru cât timp și ce drepturi aveți în legătură cu aceasta.",
+    "sections": {
+      "controller": {
+        "title": "Operator de date",
+        "text": "Operatorul acestui site și al datelor cu caracter personal este Marián s.r.o., cu sediul în Vrádište 138, 908 49 Vrádište, Republica Slovacă, cod de identificare (IČO): 47546298, cod fiscal (DIČ): 2023992916. Pentru orice întrebări privind prelucrarea datelor cu caracter personal, ne puteți contacta la eshop.marosko@gmail.com."
+      },
+      "purposes": {
+        "title": "Ce date prelucrăm și în ce scop",
+        "text": "Dacă ne contactați prin formularul de contact de pe site, prelucrăm datele pe care ni le furnizați dumneavoastră – nume și prenume, e-mail, număr de telefon și conținutul mesajului. Prelucrăm aceste date pentru a răspunde solicitării dumneavoastră, în baza interesului nostru legitim de a răspunde vizitatorilor site-ului, sau în baza demersurilor pentru încheierea unui contract (art. 6 alin. (1) lit. b) și f) GDPR).\n\nDacă acordați consimțământul pentru cookies de analiză în bannerul de cookies, prelucrăm și date despre comportamentul dumneavoastră pe site prin Google Analytics, exclusiv pe baza consimțământului dumneavoastră (art. 6 alin. (1) lit. a) GDPR), pe care îl puteți retrage oricând."
+      },
+      "retention": {
+        "title": "Perioada de stocare a datelor",
+        "text": "Păstrăm datele din formularul de contact doar pe perioada necesară soluționării solicitării dumneavoastră și o perioadă rezonabilă ulterior, pentru eventuale comunicări ulterioare, dar nu mai mult de 12 luni de la ultima comunicare, cu excepția cazului în care o reglementare legală specifică (de ex. contabilă sau fiscală) impune o perioadă mai lungă. Datele prelucrate pe baza consimțământului (analiză) sunt păstrate pe durata valabilității acestui consimțământ."
+      },
+      "recipients": {
+        "title": "Destinatarii datelor cu caracter personal",
+        "text": "Datele dumneavoastră cu caracter personal pot fi puse la dispoziția următorilor destinatari, care ne furnizează servicii tehnice: Vercel Inc. (găzduirea și operarea site-ului) și Google LLC (Google Analytics – doar dacă acordați consimțământul pentru cookies de analiză). Nu furnizăm datele altor terți în scopuri de marketing."
+      },
+      "transfers": {
+        "title": "Transferul datelor către țări terțe",
+        "text": "Furnizorii noștri de servicii (Vercel, Google) pot prelucra date și pe servere situate în afara Uniunii Europene/SEE. În acest caz, transferul este protejat prin garanții adecvate în sensul GDPR, în special prin clauzele contractuale standard aprobate de Comisia Europeană conform art. 46 GDPR."
+      },
+      "rights": {
+        "title": "Drepturile dumneavoastră",
+        "text": "În legătură cu prelucrarea datelor dumneavoastră cu caracter personal, aveți dreptul de acces la date, de rectificare, de ștergere, de restricționare a prelucrării, de portabilitate a datelor, precum și dreptul de a vă opune prelucrării. Dacă prelucrarea se bazează pe consimțământ, aveți dreptul de a-l retrage oricând, fără a afecta legalitatea prelucrării efectuate înainte de retragere. Vă puteți exercita drepturile la adresa eshop.marosko@gmail.com."
+      },
+      "complaint": {
+        "title": "Dreptul de a depune o plângere",
+        "text": "Dacă considerați că prelucrarea datelor dumneavoastră cu caracter personal încalcă GDPR, aveți dreptul de a depune o plângere la autoritatea de supraveghere – pentru Republica Slovacă, aceasta este Úrad na ochranu osobných údajov Slovenskej republiky, Hraničná 12, 820 07 Bratislava 27, https://dataprotection.gov.sk."
+      },
+      "cookiesTech": {
+        "title": "Cookies utilizate pe acest site",
+        "text": "Acest site utilizează trei categorii de cookies: necesare (asigură funcționalitatea de bază a site-ului și nu pot fi dezactivate), de performanță/analiză (Google Analytics – doar cu consimțământ) și de preferințe (afișarea conținutului încorporat, precum hărți sau videoclipuri – doar cu consimțământ). Vă puteți schimba alegerea oricând folosind linkul „Setări cookies” din subsolul paginii."
+      }
     }
   }
 }

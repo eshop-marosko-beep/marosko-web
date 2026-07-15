@@ -281,7 +281,14 @@
     "formSubtitle": "Napište nám a ozveme se vám co nejdříve."
   },
   "footer": {
-    "rights": "Všechna práva vyhrazena"
+    "rights": "Všechna práva vyhrazena",
+    "companyTitle": "Firemní údaje",
+    "contactTitle": "Kontakt",
+    "linksTitle": "Odkazy",
+    "productInquiries": "Dotazy k produktům",
+    "shipping": "Expedice",
+    "gdprLink": "Ochrana osobních údajů",
+    "cookieSettingsLink": "Nastavení cookies"
   },
   "meta": {
     "home": {
@@ -311,6 +318,67 @@
     "contact": {
       "title": "Kontakt | Marián s.r.o.",
       "description": "Kontaktní a fakturační údaje společnosti Marián s.r.o. Napište nám nebo nás kontaktujte telefonicky."
+    }
+  },
+  "cookies": {
+    "banner": {
+      "text": "Tato stránka používá cookies k zajištění základní funkčnosti a se souhlasem i k analytice a zobrazení vloženého obsahu. Svou volbu můžete kdykoli změnit v patičce stránky.",
+      "customize": "Nastavit předvolby",
+      "rejectAll": "Odmítnout vše",
+      "saveChoice": "Uložit výběr",
+      "acceptAll": "Přijmout vše"
+    },
+    "categories": {
+      "necessary": {
+        "title": "Nezbytné",
+        "description": "Zajišťují základní fungování stránky. Nelze je vypnout."
+      },
+      "analytics": {
+        "title": "Výkonnostní / analytika",
+        "description": "Pomáhají nám pochopit, jak stránku používáte (Google Analytics)."
+      },
+      "preferences": {
+        "title": "Preferenční",
+        "description": "Umožňují zobrazení vloženého obsahu, např. map nebo videí."
+      }
+    }
+  },
+  "gdpr": {
+    "title": "Ochrana osobních údajů",
+    "intro": "V tomto dokumentu vysvětlujeme, jaké osobní údaje zpracováváme, za jakým účelem, jak dlouho a jaká práva při tom máte.",
+    "sections": {
+      "controller": {
+        "title": "Správce údajů",
+        "text": "Správcem této stránky a osobních údajů je Marián s.r.o., se sídlem Vrádište 138, 908 49 Vrádište, Slovenská republika, IČO: 47546298, DIČ: 2023992916. V případě dotazů ke zpracování osobních údajů nás můžete kontaktovat na e-mailu eshop.marosko@gmail.com."
+      },
+      "purposes": {
+        "title": "Jaké údaje zpracováváme a za jakým účelem",
+        "text": "Pokud nás kontaktujete prostřednictvím kontaktního formuláře na stránce, zpracováváme údaje, které nám sami poskytnete – jméno a příjmení, e-mail, telefonní číslo a obsah vaší zprávy. Tyto údaje zpracováváme za účelem vyřízení vašeho dotazu, na základě našeho oprávněného zájmu odpovídat na dotazy návštěvníků stránky, případně na základě kroků směřujících k uzavření smlouvy (čl. 6 odst. 1 písm. b) a f) GDPR).\n\nPokud v cookie liště udělíte souhlas s analytickými cookies, zpracováváme i údaje o vašem chování na stránce prostřednictvím nástroje Google Analytics, a to pouze na základě vašeho souhlasu (čl. 6 odst. 1 písm. a) GDPR), který můžete kdykoli odvolat."
+      },
+      "retention": {
+        "title": "Doba uchovávání údajů",
+        "text": "Údaje z kontaktního formuláře uchováváme jen po dobu nezbytnou k vyřízení vašeho dotazu a přiměřenou dobu poté pro případ navazující komunikace, nejdéle však 12 měsíců od poslední vzájemné komunikace, pokud zvláštní právní předpis (např. účetní nebo daňové předpisy) nevyžaduje delší dobu uchovávání. Údaje zpracovávané na základě souhlasu (analytika) uchováváme po dobu platnosti tohoto souhlasu."
+      },
+      "recipients": {
+        "title": "Příjemci osobních údajů",
+        "text": "Vaše osobní údaje mohou být zpřístupněny následujícím příjemcům, kteří nám poskytují technické služby: Vercel Inc. (hosting a provoz webové stránky) a Google LLC (nástroj Google Analytics – pouze v případě, že udělíte souhlas s analytickými cookies). Údaje neposkytujeme jiným třetím stranám pro marketingové účely."
+      },
+      "transfers": {
+        "title": "Předání údajů do třetích zemí",
+        "text": "Naši poskytovatelé služeb (Vercel, Google) mohou zpracovávat údaje i na serverech mimo Evropskou unii/EHP. V takovém případě je předání zajištěno přiměřenými zárukami ve smyslu GDPR, zejména standardními smluvními doložkami schválenými Evropskou komisí podle čl. 46 GDPR."
+      },
+      "rights": {
+        "title": "Vaše práva",
+        "text": "V souvislosti se zpracováním vašich osobních údajů máte právo na přístup k údajům, jejich opravu, výmaz, omezení zpracování, přenositelnost údajů, jakož i právo vznést námitku proti zpracování. Je-li zpracování založeno na souhlasu, máte právo tento souhlas kdykoli odvolat, aniž je tím dotčena zákonnost zpracování před jeho odvoláním. Svá práva můžete uplatnit na e-mailu eshop.marosko@gmail.com."
+      },
+      "complaint": {
+        "title": "Právo podat stížnost",
+        "text": "Pokud se domníváte, že zpracování vašich osobních údajů je v rozporu s GDPR, máte právo podat stížnost u dozorového úřadu – pro Slovenskou republiku je jím Úrad na ochranu osobných údajov Slovenskej republiky, Hraničná 12, 820 07 Bratislava 27, https://dataprotection.gov.sk."
+      },
+      "cookiesTech": {
+        "title": "Cookies používané na stránce",
+        "text": "Tato stránka používá tři kategorie cookies: nezbytné (zajišťují základní funkčnost stránky a nelze je vypnout), výkonnostní/analytické (Google Analytics – pouze se souhlasem) a preferenční (zobrazení vloženého obsahu jako map nebo videí – pouze se souhlasem). Svou volbu můžete kdykoli změnit pomocí odkazu \"Nastavení cookies\" v patičce stránky."
+      }
     }
   }
 }
