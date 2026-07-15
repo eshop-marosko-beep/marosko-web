@@ -5,6 +5,7 @@
     "services": "Categorii",
     "gallery": "Galerie",
     "blog": "Blog",
+    "shops": "Magazinele noastre",
     "contact": "Contact"
   },
   "home": {
@@ -194,6 +195,26 @@
     "title": "Blog",
     "subtitle": "Noutăți, sfaturi și prezentări de unelte din magazinul nostru online eshop.marosko.sk.",
     "intro": "Pe acest blog găsiți sfaturi practice, ghiduri și prezentări ale noutăților din gama noastră de unelte pentru cioplit și prelucrarea lemnului. Fiecare articol vă direcționează direct către textul original de pe eshop.marosko.sk, unde puteți și cumpăra produsul respectiv."
+  },
+  "shops": {
+    "title": "Magazinele noastre",
+    "subtitle": "Trei magazine online, un singur scop – unelte de calitate pentru cioplit și prelucrarea lemnului pentru fiecare client.",
+    "primaryBadge": "Magazinul principal",
+    "marosko": {
+      "name": "eshop.marosko.sk",
+      "description": "Magazinul nostru principal și cel mai mare, unde comandă cei mai mulți clienți. Aici găsiți gama completă – unelte pentru cioplit și prelucrarea lemnului, discuri de frezat, unelte manuale și electrice, precum și toate accesoriile într-un singur loc.",
+      "cta": "Mergeți la eshop.marosko.sk"
+    },
+    "vercajch": {
+      "name": "Vercajch.eu",
+      "description": "Un proiect apărut încă din 2011. Am preluat toate drepturile sale în 2018 și de atunci face parte din familia noastră de magazine.",
+      "cta": "Mergeți la Vercajch.eu"
+    },
+    "rezbarskeNaradie": {
+      "name": "RezbárskeNáradie.sk",
+      "description": "Cel mai nou proiect al nostru, creat pentru o orientare mai ușoară a clienților. În timp ce eshop.marosko.sk este un magazin general de unelte, RezbárskeNáradie.sk se ocupă exclusiv de uneltele pentru cioplit – astfel încât să le găsiți mai ușor și să vă amintiți mai ușor adresa.",
+      "cta": "Mergeți la RezbárskeNáradie.sk"
+    }
   },
   "contact": {
     "title": "Contact",
