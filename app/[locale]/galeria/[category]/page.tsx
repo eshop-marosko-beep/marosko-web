@@ -3,9 +3,28 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { galleryCategories, getGalleryCategory } from "@/lib/galleryData";
+import { buildMetadata } from "@/lib/seo";
+import type { Metadata } from "next";
 
 export function generateStaticParams() {
   return galleryCategories.map(({ slug }) => ({ category: slug }));
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string; category: string }>;
+}): Promise<Metadata> {
+  const { locale, category } = await params;
+  const galleryCategory = getGalleryCategory(category);
+  if (!galleryCategory) return {};
+  const t = await getTranslations({ locale, namespace: "gallery" });
+  return buildMetadata({
+    locale,
+    path: `/galeria/${category}`,
+    title: `${t(`${galleryCategory.translationKey}.title`)} | Marián s.r.o.`,
+    description: t(`${galleryCategory.translationKey}.description`),
+  });
 }
 
 export default async function GalleryCategoryPage({

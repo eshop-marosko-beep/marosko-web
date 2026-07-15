@@ -282,5 +282,35 @@
   },
   "footer": {
     "rights": "Toate drepturile rezervate"
+  },
+  "meta": {
+    "home": {
+      "title": "Marián s.r.o. – Unelte pentru cioplit și prelucrarea lemnului",
+      "description": "Discuri de frezat, dălți de cioplit și unelte electrice de la Arbortech, Manpa și Saburrtooth. Afacere de familie din 2013."
+    },
+    "about": {
+      "title": "Despre noi | Marián s.r.o.",
+      "description": "Suntem o afacere de familie specializată din 2013 în unelte de marcă pentru cioplit și prelucrarea lemnului. Aflați povestea noastră și mărcile pe care le oferim."
+    },
+    "categories": {
+      "title": "Categorii de unelte | Marián s.r.o.",
+      "description": "O prezentare completă a categoriilor noastre de unelte pentru cioplit și prelucrarea lemnului – discuri de frezat, unelte manuale și electrice și accesorii."
+    },
+    "gallery": {
+      "title": "Galerie unelte | Marián s.r.o.",
+      "description": "O galerie foto cu uneltele noastre – vedeți discuri de frezat și alte produse din gama noastră."
+    },
+    "blog": {
+      "title": "Blog | Marián s.r.o.",
+      "description": "Noutăți, sfaturi și prezentări de unelte din magazinul nostru online eshop.marosko.sk."
+    },
+    "shops": {
+      "title": "Magazinele noastre | Marián s.r.o.",
+      "description": "O prezentare a tuturor magazinelor noastre online – eshop.marosko.sk, Vercajch.eu și RezbárskeNáradie.sk."
+    },
+    "contact": {
+      "title": "Contact | Marián s.r.o.",
+      "description": "Date de contact și facturare pentru Marián s.r.o. Scrieți-ne sau contactați-ne telefonic."
+    }
   }
 }

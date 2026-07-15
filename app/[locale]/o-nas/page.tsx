@@ -1,4 +1,16 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { buildMetadata } from "@/lib/seo";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta.about" });
+  return buildMetadata({ locale, path: "/o-nas", title: t("title"), description: t("description") });
+}
 
 export default async function AboutPage({
   params,
