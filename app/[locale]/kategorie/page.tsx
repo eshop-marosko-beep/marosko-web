@@ -1,21 +1,23 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
+const ESHOP_HOME = "https://eshop.marosko.sk";
+
 const categoryKeys = [
-  "angleGrinder",
-  "drill",
-  "straightGrinder",
-  "miniMill",
-  "powerTools",
-  "cordless",
-  "customAbrasive",
-  "handTools",
-  "coatings",
-  "protective",
-  "spareParts",
-  "stands",
-  "misc",
-  "carvingBlanks",
-  "shankTools",
+  { key: "angleGrinder", url: "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky" },
+  { key: "drill", url: "https://eshop.marosko.sk/c/nastroje-do-vrtacky" },
+  { key: "straightGrinder", url: "https://eshop.marosko.sk/c/prislusenstva-do-priamej-brusky-frezky" },
+  { key: "miniMill", url: "https://eshop.marosko.sk/c/mini-kotuce-pre-mini-frezky-50" },
+  { key: "powerTools", url: "https://eshop.marosko.sk/c/elektricke-naradie-pre-rezbarov" },
+  { key: "cordless", url: "https://eshop.marosko.sk/c/akumulatorove-naradie" },
+  { key: "customAbrasive", url: "https://eshop.marosko.sk/c/brusne-vyseky-brusny-papier-platno" },
+  { key: "handTools", url: "https://eshop.marosko.sk/c/rucne-naradie" },
+  { key: "coatings", url: "https://eshop.marosko.sk/c/lak-selak-natery-tmely-brusiva-pripravky-na-drevo" },
+  { key: "protective", url: "https://eshop.marosko.sk/c/ochranne-pomocky-pri-praci" },
+  { key: "spareParts", url: ESHOP_HOME },
+  { key: "stands", url: ESHOP_HOME },
+  { key: "misc", url: ESHOP_HOME },
+  { key: "carvingBlanks", url: ESHOP_HOME },
+  { key: "shankTools", url: ESHOP_HOME },
 ] as const;
 
 export default async function CategoriesPage({
@@ -33,7 +35,7 @@ export default async function CategoriesPage({
       <h1 className="text-4xl font-bold text-espresso-800 mb-4">{t("title")}</h1>
       <p className="text-gray-600 text-lg mb-10 max-w-2xl">{t("subtitle")}</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {categoryKeys.map((key) => (
+        {categoryKeys.map(({ key, url }) => (
           <div
             key={key}
             className="bg-white rounded-xl shadow-lg p-6 flex flex-col justify-between border border-transparent hover:border-amber-200 transition-colors"
@@ -47,7 +49,7 @@ export default async function CategoriesPage({
               </p>
             </div>
             <a
-              href="https://eshop.marosko.sk"
+              href={url}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 inline-block text-amber-700 font-semibold hover:underline"
