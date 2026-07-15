@@ -1,62 +1,62 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useSyncExternalStore } from "react";
 import { useTranslations } from "next-intl";
 import {
-  COOKIE_CONSENT_CHANGED_EVENT,
   OPEN_COOKIE_SETTINGS_EVENT,
-  readCookieConsent,
+  getCookieConsentSnapshot,
+  getServerCookieConsentSnapshot,
+  subscribeToCookieConsent,
   writeCookieConsent,
 } from "@/lib/cookieConsent";
 
 export default function CookieConsent() {
   const t = useTranslations("cookies");
-  const [visible, setVisible] = useState(false);
+  const consent = useSyncExternalStore(
+    subscribeToCookieConsent,
+    getCookieConsentSnapshot,
+    getServerCookieConsentSnapshot
+  );
+  const [forceOpen, setForceOpen] = useState(false);
   const [showDetails, setShowDetails] = useState(false);
   const [analytics, setAnalytics] = useState(true);
   const [preferences, setPreferences] = useState(true);
 
   useEffect(() => {
-    const existing = readCookieConsent();
-    if (!existing) {
-      setVisible(true);
-    } else {
-      setAnalytics(existing.analytics);
-      setPreferences(existing.preferences);
-    }
-
     const handleOpen = () => {
-      const current = readCookieConsent();
-      if (current) {
-        setAnalytics(current.analytics);
-        setPreferences(current.preferences);
-      }
+      const current = getCookieConsentSnapshot();
+      setAnalytics(current?.analytics ?? true);
+      setPreferences(current?.preferences ?? true);
       setShowDetails(true);
-      setVisible(true);
+      setForceOpen(true);
     };
     window.addEventListener(OPEN_COOKIE_SETTINGS_EVENT, handleOpen);
     return () => window.removeEventListener(OPEN_COOKIE_SETTINGS_EVENT, handleOpen);
   }, []);
 
+  const visible = forceOpen || consent === null;
+
+  const openCustomize = () => {
+    setAnalytics(consent?.analytics ?? true);
+    setPreferences(consent?.preferences ?? true);
+    setShowDetails(true);
+  };
+
   const acceptAll = () => {
     writeCookieConsent({ analytics: true, preferences: true });
-    setAnalytics(true);
-    setPreferences(true);
-    setVisible(false);
+    setForceOpen(false);
     setShowDetails(false);
   };
 
   const rejectAll = () => {
     writeCookieConsent({ analytics: false, preferences: false });
-    setAnalytics(false);
-    setPreferences(false);
-    setVisible(false);
+    setForceOpen(false);
     setShowDetails(false);
   };
 
   const saveCustom = () => {
     writeCookieConsent({ analytics, preferences });
-    setVisible(false);
+    setForceOpen(false);
     setShowDetails(false);
   };
 
@@ -118,7 +118,7 @@ export default function CookieConsent() {
         <div className="flex flex-col sm:flex-row gap-3 sm:items-center sm:justify-between">
           {!showDetails && (
             <button
-              onClick={() => setShowDetails(true)}
+              onClick={openCustomize}
               className="text-amber-700 font-semibold hover:underline text-left"
             >
               {t("banner.customize")}

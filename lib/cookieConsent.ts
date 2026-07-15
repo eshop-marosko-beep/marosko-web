@@ -20,6 +20,32 @@ export function readCookieConsent(): CookieConsent | null {
   }
 }
 
+let cachedRaw: string | null = null;
+let cachedConsent: CookieConsent | null = null;
+
+export function getCookieConsentSnapshot(): CookieConsent | null {
+  if (typeof window === "undefined") return null;
+  const raw = window.localStorage.getItem(COOKIE_CONSENT_STORAGE_KEY);
+  if (raw !== cachedRaw) {
+    cachedRaw = raw;
+    try {
+      cachedConsent = raw ? (JSON.parse(raw) as CookieConsent) : null;
+    } catch {
+      cachedConsent = null;
+    }
+  }
+  return cachedConsent;
+}
+
+export function getServerCookieConsentSnapshot(): CookieConsent | null {
+  return null;
+}
+
+export function subscribeToCookieConsent(callback: () => void) {
+  window.addEventListener(COOKIE_CONSENT_CHANGED_EVENT, callback);
+  return () => window.removeEventListener(COOKIE_CONSENT_CHANGED_EVENT, callback);
+}
+
 export function writeCookieConsent(consent: Omit<CookieConsent, "necessary" | "updatedAt">) {
   if (typeof window === "undefined") return;
   const value: CookieConsent = {

@@ -1,29 +1,23 @@
 "use client";
 
 import Script from "next/script";
-import { useEffect, useState } from "react";
+import { useSyncExternalStore } from "react";
 import {
-  COOKIE_CONSENT_CHANGED_EVENT,
-  readCookieConsent,
+  getCookieConsentSnapshot,
+  getServerCookieConsentSnapshot,
+  subscribeToCookieConsent,
 } from "@/lib/cookieConsent";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID;
 
 export default function GoogleAnalytics() {
-  const [analyticsAllowed, setAnalyticsAllowed] = useState(false);
+  const consent = useSyncExternalStore(
+    subscribeToCookieConsent,
+    getCookieConsentSnapshot,
+    getServerCookieConsentSnapshot
+  );
 
-  useEffect(() => {
-    setAnalyticsAllowed(readCookieConsent()?.analytics ?? false);
-
-    const handleChange = (e: Event) => {
-      const detail = (e as CustomEvent).detail;
-      setAnalyticsAllowed(Boolean(detail?.analytics));
-    };
-    window.addEventListener(COOKIE_CONSENT_CHANGED_EVENT, handleChange);
-    return () => window.removeEventListener(COOKIE_CONSENT_CHANGED_EVENT, handleChange);
-  }, []);
-
-  if (!GA_ID || !analyticsAllowed) return null;
+  if (!GA_ID || !consent?.analytics) return null;
 
   return (
     <>
