@@ -282,5 +282,35 @@
   },
   "footer": {
     "rights": "Všetky práva vyhradené"
+  },
+  "meta": {
+    "home": {
+      "title": "Marián s.r.o. – rezbárske a drevoobrábacie náradie",
+      "description": "Frézovacie kotúče, rezbárske dláta a elektrické náradie značiek Arbortech, Manpa a Saburrtooth. Rodinná firma na trhu od roku 2013."
+    },
+    "about": {
+      "title": "O nás | Marián s.r.o.",
+      "description": "Sme rodinná firma, ktorá sa od roku 2013 špecializuje na značkové rezbárske a drevoobrábacie náradie. Spoznajte náš príbeh a značky, ktoré ponúkame."
+    },
+    "categories": {
+      "title": "Kategórie náradia | Marián s.r.o.",
+      "description": "Kompletný prehľad kategórií rezbárskeho a drevoobrábacieho náradia – frézovacie kotúče, ručné aj elektrické náradie a príslušenstvo."
+    },
+    "gallery": {
+      "title": "Galéria náradia | Marián s.r.o.",
+      "description": "Fotogaléria nášho náradia – pozrite si ukážky frézovacích kotúčov a ďalších produktov z našej ponuky."
+    },
+    "blog": {
+      "title": "Blog | Marián s.r.o.",
+      "description": "Novinky, tipy a predstavenie náradia z nášho e-shopu eshop.marosko.sk."
+    },
+    "shops": {
+      "title": "Naše obchody | Marián s.r.o.",
+      "description": "Prehľad všetkých našich e-shopov – eshop.marosko.sk, Vercajch.eu a RezbárskeNáradie.sk."
+    },
+    "contact": {
+      "title": "Kontakt | Marián s.r.o.",
+      "description": "Kontaktné a fakturačné údaje spoločnosti Marián s.r.o. Napíšte nám alebo nás kontaktujte telefonicky."
+    }
   }
 }

@@ -2,6 +2,18 @@ import Image from "next/image";
 import Link from "next/link";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { galleryCategories } from "@/lib/galleryData";
+import { buildMetadata } from "@/lib/seo";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta.gallery" });
+  return buildMetadata({ locale, path: "/galeria", title: t("title"), description: t("description") });
+}
 
 export default async function GalleryPage({
   params,
@@ -23,7 +35,7 @@ export default async function GalleryPage({
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {galleryCategories.map(({ slug, translationKey, images }) => (
+        {galleryCategories.map(({ slug, translationKey, images }, index) => (
           <Link
             key={slug}
             href={`/${locale}/galeria/${slug}`}
@@ -34,6 +46,7 @@ export default async function GalleryPage({
                 src={images[0].src}
                 alt={t(`${translationKey}.title`)}
                 fill
+                priority={index === 0}
                 sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
                 className="object-contain p-4 group-hover:scale-105 transition-transform"
               />

@@ -282,5 +282,35 @@
   },
   "footer": {
     "rights": "All rights reserved"
+  },
+  "meta": {
+    "home": {
+      "title": "Marián s.r.o. – Woodcarving & Woodworking Tools",
+      "description": "Milling discs, carving chisels, and power tools from Arbortech, Manpa, and Saburrtooth. A family business since 2013."
+    },
+    "about": {
+      "title": "About Us | Marián s.r.o.",
+      "description": "We're a family business specializing in branded woodcarving and woodworking tools since 2013. Learn our story and the brands we carry."
+    },
+    "categories": {
+      "title": "Tool Categories | Marián s.r.o.",
+      "description": "A complete overview of our woodcarving and woodworking tool categories – milling discs, hand and power tools, and accessories."
+    },
+    "gallery": {
+      "title": "Tool Gallery | Marián s.r.o.",
+      "description": "A photo gallery of our tools – browse milling discs and other products from our range."
+    },
+    "blog": {
+      "title": "Blog | Marián s.r.o.",
+      "description": "News, tips and tool spotlights from our e-shop eshop.marosko.sk."
+    },
+    "shops": {
+      "title": "Our Shops | Marián s.r.o.",
+      "description": "An overview of all our e-shops – eshop.marosko.sk, Vercajch.eu, and RezbárskeNáradie.sk."
+    },
+    "contact": {
+      "title": "Contact | Marián s.r.o.",
+      "description": "Contact and billing details for Marián s.r.o. Write to us or reach us by phone."
+    }
   }
 }

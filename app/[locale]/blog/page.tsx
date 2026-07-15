@@ -1,6 +1,18 @@
 import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { blogPosts } from "@/lib/blogData";
+import { buildMetadata } from "@/lib/seo";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "meta.blog" });
+  return buildMetadata({ locale, path: "/blog", title: t("title"), description: t("description") });
+}
 
 export default async function BlogPage({
   params,
