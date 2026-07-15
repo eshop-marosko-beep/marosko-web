@@ -5,6 +5,7 @@
     "services": "Categories",
     "gallery": "Gallery",
     "blog": "Blog",
+    "shops": "Our Shops",
     "contact": "Contact"
   },
   "home": {
@@ -194,6 +195,26 @@
     "title": "Blog",
     "subtitle": "News, tips and tool spotlights from our e-shop eshop.marosko.sk.",
     "intro": "On this blog you'll find practical tips, how-tos and spotlights on new arrivals from our range of woodcarving and woodworking tools. Every article links straight through to the original post on eshop.marosko.sk, where you can also buy the product directly."
+  },
+  "shops": {
+    "title": "Our Shops",
+    "subtitle": "Three e-shops, one goal – quality woodcarving and woodworking tools for every customer.",
+    "primaryBadge": "Main shop",
+    "marosko": {
+      "name": "eshop.marosko.sk",
+      "description": "Our main and largest shop, where most of our customers order. You'll find our complete range here – woodcarving and woodworking tools, milling discs, hand and power tools, and all the accessories in one place.",
+      "cta": "Go to eshop.marosko.sk"
+    },
+    "vercajch": {
+      "name": "Vercajch.eu",
+      "description": "A project that started back in 2011. We took over all its rights in 2018, and it's been part of our family of shops ever since.",
+      "cta": "Go to Vercajch.eu"
+    },
+    "rezbarskeNaradie": {
+      "name": "RezbárskeNáradie.sk",
+      "description": "Our newest project, created to make it easier for customers to find their way around. While eshop.marosko.sk is a general tool shop, RezbárskeNáradie.sk focuses purely on woodcarving tools – so it's easier to find and easier to remember.",
+      "cta": "Go to RezbárskeNáradie.sk"
+    }
   },
   "contact": {
     "title": "Contact",

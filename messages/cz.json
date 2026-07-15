@@ -5,6 +5,7 @@
     "services": "Kategorie",
     "gallery": "Galerie",
     "blog": "Blog",
+    "shops": "Naše obchody",
     "contact": "Kontakt"
   },
   "home": {
@@ -194,6 +195,26 @@
     "title": "Blog",
     "subtitle": "Novinky, tipy a představení nářadí z našeho e-shopu eshop.marosko.sk.",
     "intro": "Na tomto blogu najdete praktické tipy, návody a představení novinek z našeho sortimentu řezbářského a dřevoobráběcího nářadí. Každý článek vás přesměruje přímo na původní text na eshop.marosko.sk, kde najdete i možnost daný produkt rovnou zakoupit."
+  },
+  "shops": {
+    "title": "Naše obchody",
+    "subtitle": "Tři e-shopy, jeden cíl – kvalitní řezbářské a dřevoobráběcí nářadí pro každého zákazníka.",
+    "primaryBadge": "Hlavní obchod",
+    "marosko": {
+      "name": "eshop.marosko.sk",
+      "description": "Náš hlavní a největší obchod, kde nakupuje nejvíce zákazníků. Najdete zde kompletní sortiment – řezbářské a dřevoobráběcí nářadí, frézovací kotouče, ruční i elektrické nářadí a veškeré příslušenství na jednom místě.",
+      "cta": "Přejít na eshop.marosko.sk"
+    },
+    "vercajch": {
+      "name": "Vercajch.eu",
+      "description": "Projekt, který vznikl v roce 2011. Veškerá jeho práva jsme převzali v roce 2018 a od té doby je součástí naší rodiny obchodů.",
+      "cta": "Přejít na Vercajch.eu"
+    },
+    "rezbarskeNaradie": {
+      "name": "RezbárskeNáradie.sk",
+      "description": "Náš nejnovější projekt, vytvořený pro jednodušší orientaci zákazníků. Zatímco eshop.marosko.sk je všeobecný obchod s nářadím, RezbárskeNáradie.sk se věnuje čistě řezbářskému nářadí – abyste ho snadněji našli a zapamatovali si adresu.",
+      "cta": "Přejít na RezbárskeNáradie.sk"
+    }
   },
   "contact": {
     "title": "Kontakt",
