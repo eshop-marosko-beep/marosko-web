@@ -281,7 +281,14 @@
     "formSubtitle": "Write to us and we'll get back to you as soon as possible."
   },
   "footer": {
-    "rights": "All rights reserved"
+    "rights": "All rights reserved",
+    "companyTitle": "Company details",
+    "contactTitle": "Contact",
+    "linksTitle": "Links",
+    "productInquiries": "Product inquiries",
+    "shipping": "Shipping",
+    "gdprLink": "Privacy Policy",
+    "cookieSettingsLink": "Cookie settings"
   },
   "meta": {
     "home": {
@@ -311,6 +318,67 @@
     "contact": {
       "title": "Contact | Marián s.r.o.",
       "description": "Contact and billing details for Marián s.r.o. Write to us or reach us by phone."
+    }
+  },
+  "cookies": {
+    "banner": {
+      "text": "This site uses cookies to provide basic functionality, and with your consent also for analytics and displaying embedded content. You can change your choice at any time in the site footer.",
+      "customize": "Customize preferences",
+      "rejectAll": "Reject all",
+      "saveChoice": "Save choice",
+      "acceptAll": "Accept all"
+    },
+    "categories": {
+      "necessary": {
+        "title": "Necessary",
+        "description": "Required for the site's basic functionality. Cannot be turned off."
+      },
+      "analytics": {
+        "title": "Performance / analytics",
+        "description": "Help us understand how you use the site (Google Analytics)."
+      },
+      "preferences": {
+        "title": "Preferences",
+        "description": "Enable embedded content, e.g. maps or videos."
+      }
+    }
+  },
+  "gdpr": {
+    "title": "Privacy Policy",
+    "intro": "This document explains what personal data we process, for what purpose, for how long, and what rights you have in connection with it.",
+    "sections": {
+      "controller": {
+        "title": "Data controller",
+        "text": "The controller of this website and of the personal data processed on it is Marián s.r.o., registered at Vrádište 138, 908 49 Vrádište, Slovak Republic, Company ID (IČO): 47546298, Tax ID (DIČ): 2023992916. For any questions about the processing of personal data, please contact us at eshop.marosko@gmail.com."
+      },
+      "purposes": {
+        "title": "What data we process and why",
+        "text": "If you contact us through the contact form on the site, we process the data you provide yourself – name, email, phone number, and the content of your message. We process this data to handle your inquiry, based on our legitimate interest in responding to visitor inquiries, or based on steps taken toward entering into a contract (Article 6(1)(b) and (f) GDPR).\n\nIf you consent to analytics cookies in the cookie banner, we also process data about your behavior on the site through Google Analytics, solely on the basis of your consent (Article 6(1)(a) GDPR), which you may withdraw at any time."
+      },
+      "retention": {
+        "title": "Data retention period",
+        "text": "We keep contact-form data only for as long as necessary to handle your inquiry and a reasonable period afterward in case of follow-up communication, but no longer than 12 months from the last exchange, unless a specific legal requirement (e.g. accounting or tax law) requires a longer retention period. Data processed on the basis of consent (analytics) is retained for as long as that consent remains valid."
+      },
+      "recipients": {
+        "title": "Recipients of personal data",
+        "text": "Your personal data may be shared with the following recipients who provide us with technical services: Vercel Inc. (website hosting and operation) and Google LLC (Google Analytics – only if you consent to analytics cookies). We do not share your data with other third parties for marketing purposes."
+      },
+      "transfers": {
+        "title": "International data transfers",
+        "text": "Our service providers (Vercel, Google) may process data on servers located outside the European Union/EEA. In such cases, the transfer is protected by appropriate safeguards under GDPR, in particular the Standard Contractual Clauses approved by the European Commission under Article 46 GDPR."
+      },
+      "rights": {
+        "title": "Your rights",
+        "text": "In connection with the processing of your personal data, you have the right to access your data, request its correction or erasure, restrict its processing, request data portability, and object to processing. Where processing is based on consent, you have the right to withdraw that consent at any time, without affecting the lawfulness of processing carried out before the withdrawal. You can exercise your rights by emailing eshop.marosko@gmail.com."
+      },
+      "complaint": {
+        "title": "Right to lodge a complaint",
+        "text": "If you believe that the processing of your personal data violates GDPR, you have the right to lodge a complaint with the supervisory authority – for the Slovak Republic, this is the Office for Personal Data Protection of the Slovak Republic, Hraničná 12, 820 07 Bratislava 27, https://dataprotection.gov.sk."
+      },
+      "cookiesTech": {
+        "title": "Cookies used on this site",
+        "text": "This site uses three categories of cookies: necessary (required for basic site functionality, cannot be disabled), performance/analytics (Google Analytics – only with consent), and preference cookies (display of embedded content such as maps or videos – only with consent). You can change your choice at any time using the \"Cookie settings\" link in the site footer."
+      }
     }
   }
 }

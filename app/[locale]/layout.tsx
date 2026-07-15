@@ -3,6 +3,9 @@ import { NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Nav from '@/components/Nav';
+import Footer from '@/components/Footer';
+import CookieConsent from '@/components/CookieConsent';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 export default async function LocaleLayout({
   children,
@@ -33,12 +36,9 @@ export default async function LocaleLayout({
               {children}
             </main>
 
-            {/* Pätička */}
-            <footer className="bg-espresso-900 text-cream-100 text-center p-4 mt-12">
-              <div className="container mx-auto">
-                © 2026 Marián s.r.o. - {messages.footer.rights}
-              </div>
-            </footer>
+            <Footer locale={locale} />
+            <CookieConsent />
+            <GoogleAnalytics />
           </div>
         </NextIntlClientProvider>
       </body>
