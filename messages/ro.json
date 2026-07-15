@@ -194,7 +194,46 @@
   "blog": {
     "title": "Blog",
     "subtitle": "Noutăți, sfaturi și prezentări de unelte din magazinul nostru online eshop.marosko.sk.",
-    "intro": "Pe acest blog găsiți sfaturi practice, ghiduri și prezentări ale noutăților din gama noastră de unelte pentru cioplit și prelucrarea lemnului. Fiecare articol vă direcționează direct către textul original de pe eshop.marosko.sk, unde puteți și cumpăra produsul respectiv."
+    "intro": "Pe acest blog găsiți sfaturi practice, ghiduri și prezentări ale noutăților din gama noastră de unelte pentru cioplit și prelucrarea lemnului. Fiecare articol vă direcționează direct către textul original de pe eshop.marosko.sk, unde puteți și cumpăra produsul respectiv.",
+    "readMore": "Mai multe informații",
+    "posts": {
+      "saburrtoothRasple": {
+        "title": "Freze tijă Saburrtooth USA – ghid de forme și granulații",
+        "description": "Prezentare a frezelor tijă americane Saburrtooth – forme, granulații codificate prin culoare și utilizări practice pentru cioplitori, sculptori și modeliști."
+      },
+      "manpaOci": {
+        "title": "Freze Manpa pentru modelarea ochilor – set de 8 bucăți",
+        "description": "Set de 8 unelte pentru modelarea și arderea fină a ochilor, solzilor și inelelor decorative pe figurine din lemn – fără cioplire manuală îndelungată."
+      },
+      "manpaEzSander": {
+        "title": "Manpa EZ Sander 65 mm – disc de șlefuit tip evantai",
+        "description": "Accesoriu de șlefuit flexibil pentru netezirea suprafețelor neregulate, a cavităților și a formelor rotunjite – se adaptează la forma piesei."
+      },
+      "dlataZaciatocnik": {
+        "title": "Alegerea daltelor pentru începători (M-stein)",
+        "description": "Set de dălți manuale optimizat pentru lucrări mai mici și cioplitori începători, de la un producător slovac."
+      },
+      "stubaiSada": {
+        "title": "Stubai – set de dălți pentru începători, 4 piese",
+        "description": "Set austriac de calitate cu 4 dălți, potrivit pentru figurine, reliefuri sau cioplit ca hobby, într-o husă practică ce se rulează."
+      },
+      "arbortechMiniGrinder": {
+        "title": "Arbortech Mini Grinder MG1000 – set pe acumulator",
+        "description": "Unealtă de frezat pe acumulator, cu motor fără perii, pentru lucrări de detaliu pe lemn, parte a setului „Woodworking Pack”."
+      },
+      "arbortechMiniCarver": {
+        "title": "Arbortech Mini Carver 1000W – freză electrică",
+        "description": "Freză electrică puternică cu reglaj de turație pe 6 trepte (6000–18000 rot/min), succesorul modelului Mini Grinder, cu extracție de praf și vibrații reduse."
+      },
+      "arbortechWoodcarverProfi": {
+        "title": "Disc de frezat Arbortech Woodcarver PROFI-INDUSTRIAL",
+        "description": "Disc din carbură cu dinți rotativi interschimbabili și o durată de viață de 25× mai lungă, potrivit pentru lemn tare și moale, laminat și plastic."
+      },
+      "suchyZips": {
+        "title": "Bandă velcro – suport pentru șmirghel la comandă",
+        "description": "Soluție practică și reutilizabilă pentru fixarea discurilor abrazive – atât partea cu cârlige, cât și cea adezivă, tăiate exact la diametrul dorit."
+      }
+    }
   },
   "shops": {
     "title": "Magazinele noastre",

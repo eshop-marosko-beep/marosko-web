@@ -2,15 +2,54 @@ export type BlogPost = {
   slug: string;
   title: string;
   url: string;
+  image?: string;
+  /** When set, the card's title/description are read from messages.blog.posts.<translationKey> instead of the static `title` above. */
+  translationKey?: string;
 };
 
 export const blogPosts: BlogPost[] = [
-  { slug: "stopkove-rasple-saburrtooth-usa-sprievodca", title: "Stopkové rašple Saburrtooth USA – sprievodca", url: "https://eshop.marosko.sk/n/stopkove-rasple-saburrtooth-usa-sprievodca" },
-  { slug: "manpa-tvarovacie-rasplicky-na-oci-sada-8ks", title: "Manpa tvarovacie rašpličky na oči, sada 8 ks", url: "https://eshop.marosko.sk/n/manpa-tvarovacie-rasplicky-na-oci-sada-8ks" },
-  { slug: "manpa-brusny-vejar-65mm-ez-sander-stopka", title: "Manpa brúsny vejár 65 mm, EZ Sander stopka", url: "https://eshop.marosko.sk/n/manpa-brusny-vejar-65mm-ez-sander-stopka" },
-  { slug: "dlata-pre-zaciatocnika", title: "Dláta pre začiatočníka", url: "https://eshop.marosko.sk/n/dlata-pre-zaciatocnika" },
-  { slug: "sada-dlat-pre-zaciatocnikov-4-dielna-drevo-rezba-stubai", title: "Sada dlát pre začiatočníkov, 4-dielna, drevorezba Stubai", url: "https://eshop.marosko.sk/n/sada-dlat-pre-zaciatocnikov-4-dielna-drevo-rezba-stubai" },
-  { slug: "arbortech-mini-grinder-mg1000-akumulatorovy-frezovaci-a-rezbarsky-set-rezbarska-sada", title: "Arbortech Mini Grinder MG1000 – akumulátorový frézovací a rezbársky set", url: "https://eshop.marosko.sk/n/arbortech-mini-grinder-mg1000-akumulatorovy-frezovaci-a-rezbarsky-set-rezbarska-sada" },
+  {
+    slug: "stopkove-rasple-saburrtooth-usa-sprievodca",
+    title: "Stopkové rašple Saburrtooth USA – sprievodca tvarmi a drsnosťami",
+    url: "https://eshop.marosko.sk/n/stopkove-rasple-saburrtooth-usa-sprievodca",
+    image: "https://eshop.marosko.sk/resize/k/465/310/files/nastroje-do-priamej-brusky/featured-shank.jpg",
+    translationKey: "saburrtoothRasple",
+  },
+  {
+    slug: "manpa-tvarovacie-rasplicky-na-oci-sada-8ks",
+    title: "Manpa tvarovacie rašpličky na oči – sada 8 ks",
+    url: "https://eshop.marosko.sk/n/manpa-tvarovacie-rasplicky-na-oci-sada-8ks",
+    image: "https://eshop.marosko.sk/resize/k/465/310/files/manpa/vypalovacie-frezky/sova-oci-s-vypalovakmi-manpa.jpg",
+    translationKey: "manpaOci",
+  },
+  {
+    slug: "manpa-brusny-vejar-65mm-ez-sander-stopka",
+    title: "Manpa EZ Sander 65 mm – brúsny vejár",
+    url: "https://eshop.marosko.sk/n/manpa-brusny-vejar-65mm-ez-sander-stopka",
+    image: "https://eshop.marosko.sk/resize/k/465/310/files/manpa/brusny-vejar-65/insert-special-orig.jpg",
+    translationKey: "manpaEzSander",
+  },
+  {
+    slug: "dlata-pre-zaciatocnika",
+    title: "Výber dlát pre začiatočníkov (M-stein)",
+    url: "https://eshop.marosko.sk/n/dlata-pre-zaciatocnika",
+    image: "https://eshop.marosko.sk/resize/k/465/310/files/dlata-m-stein-/img-20210506-104954-01.jpeg",
+    translationKey: "dlataZaciatocnik",
+  },
+  {
+    slug: "sada-dlat-pre-zaciatocnikov-4-dielna-drevo-rezba-stubai",
+    title: "Stubai – sada dlát pre začiatočníkov, 4-dielna",
+    url: "https://eshop.marosko.sk/n/sada-dlat-pre-zaciatocnikov-4-dielna-drevo-rezba-stubai",
+    image: "https://eshop.marosko.sk/resize/k/465/310/files/rucne-naradie/stubai/s520001-stubai-/4-diela-sada-stubai.webp",
+    translationKey: "stubaiSada",
+  },
+  {
+    slug: "arbortech-mini-grinder-mg1000-akumulatorovy-frezovaci-a-rezbarsky-set-rezbarska-sada",
+    title: "Arbortech Mini Grinder MG1000 – akumulátorový set",
+    url: "https://eshop.marosko.sk/n/arbortech-mini-grinder-mg1000-akumulatorovy-frezovaci-a-rezbarsky-set-rezbarska-sada",
+    image: "https://eshop.marosko.sk/resize/k/465/310/files/na-drevo/arbortech/aku-mini-grinder-/mg-1000-aku-mini-grinder-.jpg",
+    translationKey: "arbortechMiniGrinder",
+  },
   { slug: "lesticka-180-mm-1200-w-silverline1", title: "Leštička 180 mm, 1200 W, Silverline", url: "https://eshop.marosko.sk/n/lesticka-180-mm-1200-w-silverline1" },
   { slug: "arbortech-power-chisel-elektricke-dlato-7-dielna-sada", title: "Arbortech Power Chisel – elektrické dláto, 7-dielna sada", url: "https://eshop.marosko.sk/n/arbortech-power-chisel-elektricke-dlato-7-dielna-sada" },
   { slug: "arbortech-contour-random-sander", title: "Arbortech Contour Random Sander", url: "https://eshop.marosko.sk/n/arbortech-contour-random-sander" },
@@ -18,7 +57,13 @@ export const blogPosts: BlogPost[] = [
   { slug: "arbortech-spheroplane", title: "Arbortech SpheroPlane", url: "https://eshop.marosko.sk/n/arbortech-spheroplane" },
   { slug: "arbortech-turbo-plane", title: "Arbortech Turbo Plane", url: "https://eshop.marosko.sk/n/arbortech-turbo-plane" },
   { slug: "manpa-novinky-frezky-trojuholnikove", title: "Manpa novinky – trojuholníkové frézky", url: "https://eshop.marosko.sk/n/manpa-novinky-frezky-trojuholnikove" },
-  { slug: "frezovaci-kotuc-do-uhlovej-brusky-arbortech-woodcarver-profi-industrial", title: "Frézovací kotúč do uhlovej brúsky Arbortech Woodcarver Profi Industrial", url: "https://eshop.marosko.sk/n/frezovaci-kotuc-do-uhlovej-brusky-arbortech-woodcarver-profi-industrial" },
+  {
+    slug: "frezovaci-kotuc-do-uhlovej-brusky-arbortech-woodcarver-profi-industrial",
+    title: "Frézovací kotúč Arbortech Woodcarver PROFI-INDUSTRIAL",
+    url: "https://eshop.marosko.sk/n/frezovaci-kotuc-do-uhlovej-brusky-arbortech-woodcarver-profi-industrial",
+    image: "https://eshop.marosko.sk/resize/k/465/310/files/na-drevo/arbortech/industrial/industrial-woodcarver-arbortech.jpg",
+    translationKey: "arbortechWoodcarverProfi",
+  },
   { slug: "hriadel-do-lesticky-urceny-pre-kotuc", title: "Hriadeľ do leštičky určený pre kotúč", url: "https://eshop.marosko.sk/n/hriadel-do-lesticky-urceny-pre-kotuc" },
   { slug: "brusny-system", title: "Brúsny systém", url: "https://eshop.marosko.sk/n/brusny-system" },
   { slug: "dlata-pre-zaciatocnikov-rucne", title: "Dláta pre začiatočníkov – ručné", url: "https://eshop.marosko.sk/n/dlata-pre-zaciatocnikov-rucne" },
@@ -35,10 +80,22 @@ export const blogPosts: BlogPost[] = [
   { slug: "brusna-hviezda-z-platnovych-vysekov", title: "Brúsna hviezda z plátnových výsekov", url: "https://eshop.marosko.sk/n/brusna-hviezda-z-platnovych-vysekov" },
   { slug: "predlzovacie-rameno-s-viacucelovym-nadstavcom", title: "Predlžovacie rameno s viacúčelovým nadstavcom", url: "https://eshop.marosko.sk/n/predlzovacie-rameno-s-viacucelovym-nadstavcom" },
   { slug: "sikmy-brusny-kotuc-s-tvrdo-kovom-pr115mm", title: "Šikmý brúsny kotúč s tvrdokovom, priemer 115 mm", url: "https://eshop.marosko.sk/n/sikmy-brusny-kotuc-s-tvrdo-kovom-pr115mm" },
-  { slug: "novinka-od-spolocnosti-arbortech", title: "Novinka od spoločnosti Arbortech", url: "https://eshop.marosko.sk/n/novinka-od-spolocnosti-arbortech" },
+  {
+    slug: "novinka-od-spolocnosti-arbortech",
+    title: "Arbortech Mini Carver 1000W – elektrická frézka",
+    url: "https://eshop.marosko.sk/n/novinka-od-spolocnosti-arbortech",
+    image: "https://eshop.marosko.sk/resize/k/465/310/files/elektricke-naradie/arbortech-novinka/mini-carver/mini-carver-nova-1000w.png",
+    translationKey: "arbortechMiniCarver",
+  },
   { slug: "rustikalny-efekt-dreva", title: "Rustikálny efekt dreva", url: "https://eshop.marosko.sk/n/rustikalny-efekt-dreva" },
   { slug: "priama-bruska-500w", title: "Priama brúska 500 W", url: "https://eshop.marosko.sk/n/priama-bruska-500w" },
-  { slug: "suchy-zips-na-mieru", title: "Suchý zips na mieru", url: "https://eshop.marosko.sk/n/suchy-zips-na-mieru" },
+  {
+    slug: "suchy-zips-na-mieru",
+    title: "Suchý zips – podklad pre šmirgle na mieru",
+    url: "https://eshop.marosko.sk/n/suchy-zips-na-mieru",
+    image: "https://eshop.marosko.sk/resize/k/465/310/files/brusne-vyseky/samolepiace-podlozky/-vyr-podlozka-suchy-zip.jpg",
+    translationKey: "suchyZips",
+  },
   { slug: "predlzenie-hriadela-na-uhlovej-bruske-m-14-m-14", title: "Predĺženie hriadeľa na uhlovej brúske, M14 – M14", url: "https://eshop.marosko.sk/n/predlzenie-hriadela-na-uhlovej-bruske-m-14-m-14" },
   { slug: "redukcia-m146mm", title: "Redukcia M14 / 6 mm", url: "https://eshop.marosko.sk/n/redukcia-m146mm" },
   { slug: "turbo-plane", title: "Turbo Plane", url: "https://eshop.marosko.sk/n/turbo-plane" },
