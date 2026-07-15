@@ -168,8 +168,11 @@
     "title": "Galerie",
     "description": "Vedeți mostre ale uneltelor din oferta noastră.",
     "placeholder": "Adăugați aici imaginea {number}",
+    "backToGallery": "Înapoi la galerie",
     "milling": {
       "title": "Discuri de frezat",
+      "short": "Discurile legendare Arbortech, Piranha/Prano și întreaga gamă Manpa, într-un singur loc.",
+      "viewAll": "Vezi toate fotografiile ({count})",
       "description": "Discurile de frezat sunt inima oricărui atelier de cioplit. În ofertă găsiți celebrul Arbortech Industrial Woodcarver – discul original australian care a declanșat revoluția modelării lemnului cu polizorul unghiular – precum și discurile cu 3 aripioare Piranha/Prano pentru o modelare rapidă și controlată. Gama largă de discuri de frezat Manpa, de la modele compacte de 70 mm până la discuri profesionale cu cuțite din carbură interschimbabile, vă permite să alegeți exact dimensiunea și adâncimea de tăiere de care aveți nevoie. Cuțitele interschimbabile economisesc și bani, deoarece atunci când o lamă se tocește, se înlocuiește doar cuțitul, nu întregul disc. Toate discurile se potrivesc pe polizoare unghiulare standard și sunt folosite de cioplitori profesioniști din întreaga lume.",
       "cta": "Vezi în magazinul online",
       "img1": "Arbortech Industrial Woodcarver – discul original pentru modelarea lemnului, cu cheie de fixare",
