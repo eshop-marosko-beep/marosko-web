@@ -54,6 +54,9 @@ export default async function LocaleLayout({
                   <Link href={`/${locale}/galeria`} className="hover:text-amber-700">
                     {messages.navigation.gallery}
                   </Link>
+                  <Link href={`/${locale}/blog`} className="hover:text-amber-700">
+                    {messages.navigation.blog}
+                  </Link>
                   <Link href={`/${locale}/kontakt`} className="hover:text-amber-700">
                     {messages.navigation.contact}
                   </Link>

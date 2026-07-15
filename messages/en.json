@@ -4,6 +4,7 @@
     "about": "About Us",
     "services": "Categories",
     "gallery": "Gallery",
+    "blog": "Blog",
     "contact": "Contact"
   },
   "home": {
@@ -188,6 +189,10 @@
       "img11": "Close-up of carving work with a milling disc on wood",
       "img12": "AKKO ASDM-RD1003-D115-A22-Z04 milling disc"
     }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "News, tips and tool spotlights from our e-shop eshop.marosko.sk."
   },
   "contact": {
     "title": "Contact",
