@@ -24,6 +24,11 @@ export const galleryCategories: GalleryCategory[] = [
       { src: "/gallery/manpa-frezovaci-kotuc-70mm.jpg", altKey: "img5" },
       { src: "/gallery/manpa-sada-velkosti-a.jpg", altKey: "img6" },
       { src: "/gallery/manpa-sada-velkosti-b.jpg", altKey: "img7" },
+      { src: "/gallery/akko-frezovaci-kotuc-vymenitelne-noze.jpg", altKey: "img8" },
+      { src: "/gallery/frezovaci-kotuc-v-praxi-uhlova-bruska.jpg", altKey: "img9" },
+      { src: "/gallery/akko-frezovaci-kotuc-bocny-pohlad.jpg", altKey: "img10" },
+      { src: "/gallery/frezovaci-kotuc-detail-rezbarska-praca.jpg", altKey: "img11" },
+      { src: "/gallery/akko-asdm-rd1003-frezovaci-kotuc.jpg", altKey: "img12" },
     ],
   },
 ];
