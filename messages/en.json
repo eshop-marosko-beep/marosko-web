@@ -229,7 +229,9 @@
     "phoneShipping": "Shipping / stock status: +421 949 584 525",
     "email": "Email: eshop.marosko@gmail.com",
     "shippingNote": "Free shipping over €150, in-stock items ship within 24 hours.",
-    "eshop": "Go to e-shop: eshop.marosko.sk"
+    "eshop": "Go to e-shop: eshop.marosko.sk",
+    "formTitle": "Have a question for us or about our products? Don't hesitate to get in touch.",
+    "formSubtitle": "Write to us and we'll get back to you as soon as possible."
   },
   "footer": {
     "rights": "All rights reserved"

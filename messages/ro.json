@@ -229,7 +229,9 @@
     "phoneShipping": "Expediere (stoc): +421 949 584 525",
     "email": "Email: eshop.marosko@gmail.com",
     "shippingNote": "Livrare gratuită la comenzi peste 150 €, produsele din stoc sunt expediate în 24 de ore.",
-    "eshop": "Mergeți la magazinul online: eshop.marosko.sk"
+    "eshop": "Mergeți la magazinul online: eshop.marosko.sk",
+    "formTitle": "Aveți o întrebare pentru noi sau despre produsele noastre? Nu ezitați să ne contactați.",
+    "formSubtitle": "Scrieți-ne și vă vom răspunde cât mai curând posibil."
   },
   "footer": {
     "rights": "Toate drepturile rezervate"
