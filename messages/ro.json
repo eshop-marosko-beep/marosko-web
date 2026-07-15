@@ -218,10 +218,18 @@
   },
   "contact": {
     "title": "Contact",
-    "address": "Marián s.r.o., Vrádište 138, 908 49 Vrádište",
-    "phone": "Telefon: +421 949 584 525",
-    "email": "Email: info@marosko.sk",
-    "eshop": "Mergeți la magazinul online: eshop.marosko.sk/ro"
+    "companyInfoTitle": "Date despre companie",
+    "address": "Marián s.r.o., Vrádište 138, 908 49 Vrádište, Slovacia",
+    "ico": "Cod de identificare (IČO): 47546298",
+    "dic": "Cod fiscal (DIČ): 2023992916",
+    "icDph": "Cod TVA (IČ DPH): SK2023992916",
+    "authority": "Autoritate de supraveghere: Inspectoratul Slovac pentru Comerț (SOI), Regiunea Trnava, Pekárska 23, 917 01 Trnava 1, Slovacia",
+    "contactInfoTitle": "Date de contact",
+    "phoneProducts": "Întrebări despre produse: +421 915 723 250",
+    "phoneShipping": "Expediere (stoc): +421 949 584 525",
+    "email": "Email: eshop.marosko@gmail.com",
+    "shippingNote": "Livrare gratuită la comenzi peste 150 €, produsele din stoc sunt expediate în 24 de ore.",
+    "eshop": "Mergeți la magazinul online: eshop.marosko.sk"
   },
   "footer": {
     "rights": "Toate drepturile rezervate"
