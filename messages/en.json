@@ -194,7 +194,46 @@
   "blog": {
     "title": "Blog",
     "subtitle": "News, tips and tool spotlights from our e-shop eshop.marosko.sk.",
-    "intro": "On this blog you'll find practical tips, how-tos and spotlights on new arrivals from our range of woodcarving and woodworking tools. Every article links straight through to the original post on eshop.marosko.sk, where you can also buy the product directly."
+    "intro": "On this blog you'll find practical tips, how-tos and spotlights on new arrivals from our range of woodcarving and woodworking tools. Every article links straight through to the original post on eshop.marosko.sk, where you can also buy the product directly.",
+    "readMore": "More info",
+    "posts": {
+      "saburrtoothRasple": {
+        "title": "Saburrtooth USA Shank Burrs – a Guide to Shapes and Grits",
+        "description": "An overview of the American Saburrtooth shank burrs – shapes, color-coded grits, and practical uses for carvers, sculptors, and modelers."
+      },
+      "manpaOci": {
+        "title": "Manpa Eye-Shaping Burrs – Set of 8",
+        "description": "A set of 8 tools for shaping and fine-burning eyes, scales, and decorative rings on wooden figures – no more tedious hand-carving."
+      },
+      "manpaEzSander": {
+        "title": "Manpa EZ Sander 65 mm – Flap Sanding Wheel",
+        "description": "A flexible sanding attachment for smoothing uneven surfaces, hollows, and rounded shapes – it flexes to match the workpiece."
+      },
+      "dlataZaciatocnik": {
+        "title": "Choosing Chisels for Beginners (M-stein)",
+        "description": "A set of hand chisels optimized for smaller projects and beginner carvers, from a Slovak manufacturer."
+      },
+      "stubaiSada": {
+        "title": "Stubai – 4-Piece Beginner Chisel Set",
+        "description": "A high-quality 4-piece Austrian chisel set suited for figures, relief carving, or hobby carving, in a practical roll-up pouch."
+      },
+      "arbortechMiniGrinder": {
+        "title": "Arbortech Mini Grinder MG1000 – Cordless Set",
+        "description": "A cordless carving tool with a brushless motor for detailed woodwork, part of the \"Woodworking Pack\" set."
+      },
+      "arbortechMiniCarver": {
+        "title": "Arbortech Mini Carver 1000W – Electric Carver",
+        "description": "A powerful electric carving tool with 6-speed control (6,000–18,000 rpm), the successor to the Mini Grinder, with dust extraction and low vibration."
+      },
+      "arbortechWoodcarverProfi": {
+        "title": "Arbortech Woodcarver PROFI-INDUSTRIAL Carving Disc",
+        "description": "A carbide disc with replaceable rotating teeth and 25× longer lifespan, suited for hard and soft wood, laminate, and plastics."
+      },
+      "suchyZips": {
+        "title": "Hook-and-Loop Backing Pads – Made to Order",
+        "description": "A clean, reusable way to attach sanding discs – both the hook and adhesive sides cut to your exact diameter."
+      }
+    }
   },
   "shops": {
     "title": "Our Shops",

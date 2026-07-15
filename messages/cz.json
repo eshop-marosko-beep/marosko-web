@@ -194,7 +194,46 @@
   "blog": {
     "title": "Blog",
     "subtitle": "Novinky, tipy a představení nářadí z našeho e-shopu eshop.marosko.sk.",
-    "intro": "Na tomto blogu najdete praktické tipy, návody a představení novinek z našeho sortimentu řezbářského a dřevoobráběcího nářadí. Každý článek vás přesměruje přímo na původní text na eshop.marosko.sk, kde najdete i možnost daný produkt rovnou zakoupit."
+    "intro": "Na tomto blogu najdete praktické tipy, návody a představení novinek z našeho sortimentu řezbářského a dřevoobráběcího nářadí. Každý článek vás přesměruje přímo na původní text na eshop.marosko.sk, kde najdete i možnost daný produkt rovnou zakoupit.",
+    "readMore": "Více info",
+    "posts": {
+      "saburrtoothRasple": {
+        "title": "Stopkové rašple Saburrtooth USA – průvodce tvary a drsnostmi",
+        "description": "Přehled amerických stopkových rašplí Saburrtooth – tvary, barevné rozlišení drsností a praktické využití pro řezbáře, sochaře i modeláře."
+      },
+      "manpaOci": {
+        "title": "Manpa tvarovací rašpličky na oči – sada 8 ks",
+        "description": "Sada 8 nástrojů na tvarování a jemné vypalování očí, šupin a ozdobných kruhů na dřevěných figurkách – bez zdlouhavého ručního tvarování."
+      },
+      "manpaEzSander": {
+        "title": "Manpa EZ Sander 65 mm – brusný vějíř",
+        "description": "Flexibilní brusný nástavec na vyhlazení nerovných povrchů, dutin a zaoblených tvarů – přizpůsobí se tvaru obrobku."
+      },
+      "dlataZaciatocnik": {
+        "title": "Výběr dlát pro začátečníky (M-stein)",
+        "description": "Sada ručních dlát optimalizovaná pro menší práce a začínající řezbáře od slovenského výrobce."
+      },
+      "stubaiSada": {
+        "title": "Stubai – sada dlát pro začátečníky, 4dílná",
+        "description": "Rakouská kvalitní 4dílná sada dlát vhodná na figurky, reliéfy či hobby řezbu, v praktické srolovací tašce."
+      },
+      "arbortechMiniGrinder": {
+        "title": "Arbortech Mini Grinder MG1000 – akumulátorový set",
+        "description": "Akumulátorový frézovací nástroj s bezuhlíkovým motorem na detailní opracování dřeva, součást sady „Woodworking Pack”."
+      },
+      "arbortechMiniCarver": {
+        "title": "Arbortech Mini Carver 1000W – elektrická frézka",
+        "description": "Výkonná elektrická frézka se 6stupňovou regulací otáček (6000–18000 ot/min), nástupce modelu Mini Grinder, s odsáváním prachu a nízkými vibracemi."
+      },
+      "arbortechWoodcarverProfi": {
+        "title": "Frézovací kotouč Arbortech Woodcarver PROFI-INDUSTRIAL",
+        "description": "Karbidový kotouč s vyměnitelnými otočnými zuby a 25× delší životností, vhodný na tvrdé i měkké dřevo, laminát a plasty."
+      },
+      "suchyZips": {
+        "title": "Suchý zip – podklad pro smirky na míru",
+        "description": "Funkční řešení pro čisté a opakovatelné upevnění brusných smirků – háčková i nalepovací část přesně podle průměru."
+      }
+    }
   },
   "shops": {
     "title": "Naše obchody",
