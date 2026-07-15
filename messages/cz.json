@@ -4,6 +4,7 @@
     "about": "O nás",
     "services": "Kategorie",
     "gallery": "Galerie",
+    "blog": "Blog",
     "contact": "Kontakt"
   },
   "home": {
@@ -188,6 +189,10 @@
       "img11": "Detail řezbářské práce s frézovacím kotoučem na dřevě",
       "img12": "Frézovací kotouč AKKO ASDM-RD1003-D115-A22-Z04"
     }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Novinky, tipy a představení nářadí z našeho e-shopu eshop.marosko.sk."
   },
   "contact": {
     "title": "Kontakt",

@@ -4,6 +4,7 @@
     "about": "Despre noi",
     "services": "Categorii",
     "gallery": "Galerie",
+    "blog": "Blog",
     "contact": "Contact"
   },
   "home": {
@@ -188,6 +189,10 @@
       "img11": "Detaliu al lucrului de cioplit cu discul de frezat pe lemn",
       "img12": "Disc de frezat AKKO ASDM-RD1003-D115-A22-Z04"
     }
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Noutăți, sfaturi și prezentări de unelte din magazinul nostru online eshop.marosko.sk."
   },
   "contact": {
     "title": "Contact",
