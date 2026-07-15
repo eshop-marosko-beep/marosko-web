@@ -3,6 +3,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
+import Image from 'next/image';
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 export default async function LocaleLayout({
@@ -30,8 +31,15 @@ export default async function LocaleLayout({
             {/* Navigácia */}
             <nav className="bg-white shadow-lg p-4 border-b-2 border-amber-100">
               <div className="container mx-auto flex justify-between items-center">
-                <Link href={`/${locale}`} className="text-2xl font-bold text-espresso-800 hover:text-amber-700">
-                  Maroško
+                <Link href={`/${locale}`} className="flex items-center hover:opacity-80 transition-opacity">
+                  <Image
+                    src="/brand/marian-logo.jpg"
+                    alt="Marián s.r.o."
+                    width={220}
+                    height={70}
+                    priority
+                    className="h-12 w-auto md:h-14"
+                  />
                 </Link>
                 <div className="space-x-6">
                   <Link href={`/${locale}`} className="hover:text-amber-700">
