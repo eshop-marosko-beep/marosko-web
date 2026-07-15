@@ -1,7 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
-const ESHOP_HOME = "https://eshop.marosko.sk";
-
 const categoryKeys = [
   { key: "angleGrinder", url: "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky" },
   { key: "drill", url: "https://eshop.marosko.sk/c/nastroje-do-vrtacky" },
@@ -13,11 +11,11 @@ const categoryKeys = [
   { key: "handTools", url: "https://eshop.marosko.sk/c/rucne-naradie" },
   { key: "coatings", url: "https://eshop.marosko.sk/c/lak-selak-natery-tmely-brusiva-pripravky-na-drevo" },
   { key: "protective", url: "https://eshop.marosko.sk/c/ochranne-pomocky-pri-praci" },
-  { key: "spareParts", url: ESHOP_HOME },
-  { key: "stands", url: ESHOP_HOME },
-  { key: "misc", url: ESHOP_HOME },
-  { key: "carvingBlanks", url: ESHOP_HOME },
-  { key: "shankTools", url: ESHOP_HOME },
+  { key: "spareParts", url: "https://eshop.marosko.sk/c/nahradne-noze-nastrojov-diely-arbortech" },
+  { key: "stands", url: "https://eshop.marosko.sk/c/zveraky-svorky-drziaky-vrtacky-naradie" },
+  { key: "misc", url: "https://eshop.marosko.sk/c/rezbarske-prislusenstvo-doplnky" },
+  { key: "carvingBlanks", url: "https://eshop.marosko.sk/c/listy-carvingove-vytvarnicke" },
+  { key: "shankTools", url: "https://eshop.marosko.sk/c/stopkove-nastroje" },
 ] as const;
 
 export default async function CategoriesPage({
