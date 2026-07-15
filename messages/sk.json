@@ -229,7 +229,9 @@
     "phoneShipping": "Expedícia (stav skladu): +421 949 584 525",
     "email": "Email: eshop.marosko@gmail.com",
     "shippingNote": "Doprava zdarma nad 150 €, tovar skladom expedovaný do 24 hodín.",
-    "eshop": "Prejsť na e-shop: eshop.marosko.sk"
+    "eshop": "Prejsť na e-shop: eshop.marosko.sk",
+    "formTitle": "Máte otázku na nás alebo k produktom? Neváhajte nás kontaktovať.",
+    "formSubtitle": "Napíšte nám a ozveme sa vám čo najskôr."
   },
   "footer": {
     "rights": "Všetky práva vyhradené"
