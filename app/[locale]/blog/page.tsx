@@ -14,7 +14,8 @@ export default async function BlogPage({
   return (
     <div className="py-8 max-w-4xl mx-auto">
       <h1 className="text-4xl font-bold text-espresso-800 mb-4">{t("title")}</h1>
-      <p className="text-gray-600 text-lg mb-10 max-w-2xl">{t("subtitle")}</p>
+      <p className="text-gray-600 text-lg mb-4 max-w-2xl">{t("subtitle")}</p>
+      <p className="text-gray-600 leading-relaxed mb-10 max-w-2xl">{t("intro")}</p>
       <ul className="space-y-3">
         {blogPosts.map(({ slug, title, url }) => (
           <li key={slug}>

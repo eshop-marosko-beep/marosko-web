@@ -192,7 +192,8 @@
   },
   "blog": {
     "title": "Blog",
-    "subtitle": "Novinky, tipy a představení nářadí z našeho e-shopu eshop.marosko.sk."
+    "subtitle": "Novinky, tipy a představení nářadí z našeho e-shopu eshop.marosko.sk.",
+    "intro": "Na tomto blogu najdete praktické tipy, návody a představení novinek z našeho sortimentu řezbářského a dřevoobráběcího nářadí. Každý článek vás přesměruje přímo na původní text na eshop.marosko.sk, kde najdete i možnost daný produkt rovnou zakoupit."
   },
   "contact": {
     "title": "Kontakt",
