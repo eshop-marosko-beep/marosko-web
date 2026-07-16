@@ -41,6 +41,7 @@
       "title": "What our customers say",
       "subtitle": "Reviews from satisfied customers and partners.",
       "anonymous": "Verified customer",
+      "verifiedBadge": "Verified",
       "ratingLabel": "Rating {rating} out of 5 stars",
       "sourceNote": "Reviews come from customers verified through the Heureka Verified by Customers service.",
       "review1": {

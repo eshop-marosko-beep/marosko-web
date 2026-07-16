@@ -41,6 +41,7 @@
       "title": "Ce spun clienții noștri",
       "subtitle": "Recenzii de la clienți și parteneri mulțumiți.",
       "anonymous": "Client verificat",
+      "verifiedBadge": "Verificat",
       "ratingLabel": "Evaluare {rating} din 5 stele",
       "sourceNote": "Recenziile provin de la clienți verificați prin serviciul Heureka Verificat de clienți.",
       "review1": {
