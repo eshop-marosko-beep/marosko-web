@@ -75,7 +75,10 @@ async function translateFromSlovak(text: string, locale: string): Promise<string
 
   try {
     const url = `${MYMEMORY_ENDPOINT}?q=${encodeURIComponent(text)}&langpair=sk|${targetLang}`;
-    const response = await fetch(url, { next: { revalidate: REVALIDATE_SECONDS } });
+    const response = await fetch(url, {
+      next: { revalidate: REVALIDATE_SECONDS },
+      signal: AbortSignal.timeout(3000),
+    });
     if (!response.ok) return text;
 
     const data = await response.json();
@@ -102,6 +105,7 @@ export async function getHeurekaReviews(locale: string): Promise<HeurekaReview[]
   try {
     const response = await fetch(`${HEUREKA_REVIEWS_ENDPOINT}?key=${encodeURIComponent(apiKey)}`, {
       next: { revalidate: REVALIDATE_SECONDS },
+      signal: AbortSignal.timeout(5000),
     });
     if (!response.ok) return null;
 
