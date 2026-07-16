@@ -79,11 +79,11 @@
       },
       "q4": {
         "question": "Oferiți garanție și service pentru uneltele vândute?",
-        "answer": "Oferim garanție legală pentru toate produsele și asigurăm service sau înlocuire, dacă este necesar."
+        "answer": "Oferim garanție legală pentru toate produsele și asigurăm service postgaranție, dacă este necesar."
       }
     },
     "contactCta": {
-      "title": "Aveți o întrebare sau sunteți interesat de o ofertă?",
+      "title": "Aveți o întrebare despre un anumit produs?",
       "subtitle": "Scrieți-ne și vă vom răspunde cât mai curând posibil.",
       "nameLabel": "Nume și prenume",
       "namePlaceholder": "Numele dvs.",

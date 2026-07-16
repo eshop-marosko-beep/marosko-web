@@ -79,11 +79,11 @@
       },
       "q4": {
         "question": "Ponúkate záruku a servis na predané náradie?",
-        "answer": "Na všetok tovar poskytujeme zákonnú záruku a v prípade potreby zabezpečíme aj servis alebo výmenu."
+        "answer": "Na všetok tovar poskytujeme zákonnú záruku a v prípade potreby zabezpečíme aj pozáručný servis."
       }
     },
     "contactCta": {
-      "title": "Máte otázku alebo záujem o ponuku?",
+      "title": "Máte otázku alebo záujem o konkrétny tovar?",
       "subtitle": "Napíšte nám a ozveme sa vám čo najskôr.",
       "nameLabel": "Meno a priezvisko",
       "namePlaceholder": "Vaše meno",
