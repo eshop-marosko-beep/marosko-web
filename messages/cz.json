@@ -425,5 +425,14 @@
         "text": "Tato stránka používá tři kategorie cookies: nezbytné (zajišťují základní funkčnost stránky a nelze je vypnout), výkonnostní/analytické (Google Analytics – pouze se souhlasem) a preferenční (zobrazení vloženého obsahu jako map nebo videí – pouze se souhlasem). Svou volbu můžete kdykoli změnit pomocí odkazu \"Nastavení cookies\" v patičce stránky."
       }
     }
+  },
+  "chat": {
+    "toggleLabel": "Otevřít chat s poradcem",
+    "title": "Poradce pro nářadí",
+    "greeting": "Dobrý den! Jsem váš odborný poradce pro řezbářské nářadí. S čím vám mohu pomoci?",
+    "placeholder": "Napište otázku...",
+    "send": "Odeslat",
+    "errorGeneric": "Omlouváme se, nastala chyba: {error}",
+    "errorNetwork": "Omlouváme se, nepodařilo se připojit k serveru. Zkuste to později."
   }
 }

@@ -425,5 +425,14 @@
         "text": "This site uses three categories of cookies: necessary (required for basic site functionality, cannot be disabled), performance/analytics (Google Analytics – only with consent), and preference cookies (display of embedded content such as maps or videos – only with consent). You can change your choice at any time using the \"Cookie settings\" link in the site footer."
       }
     }
+  },
+  "chat": {
+    "toggleLabel": "Open chat with our advisor",
+    "title": "Tool advisor",
+    "greeting": "Hello! I'm your expert advisor for woodcarving tools. How can I help you?",
+    "placeholder": "Type your question...",
+    "send": "Send",
+    "errorGeneric": "Sorry, an error occurred: {error}",
+    "errorNetwork": "Sorry, we couldn't connect to the server. Please try again later."
   }
 }
