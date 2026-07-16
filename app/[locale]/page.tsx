@@ -4,8 +4,10 @@ import AboutSection from "@/components/home/AboutSection";
 import Testimonials from "@/components/home/Testimonials";
 import Faq from "@/components/home/Faq";
 import ContactSection from "@/components/home/ContactSection";
+import StructuredData from "@/components/StructuredData";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/seo";
+import { buildOrganizationSchema, buildLocalBusinessSchema } from "@/lib/structuredData";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -28,6 +30,8 @@ export default async function HomePage({
 
   return (
     <div className="divide-y divide-amber-100">
+      <StructuredData data={buildOrganizationSchema()} />
+      <StructuredData data={buildLocalBusinessSchema()} />
       <Hero />
       <Categories />
       <AboutSection />
