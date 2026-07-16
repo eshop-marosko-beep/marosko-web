@@ -49,7 +49,8 @@ export default function ReviewsCarousel({
             className="snap-start shrink-0 w-[85%] sm:w-[45%] lg:w-[31%]"
           >
             <ReviewCard
-              name={review.name ?? anonymousLabel}
+              name={review.name}
+              anonymousLabel={anonymousLabel}
               text={review.text}
               rating={review.rating}
               ratingLabel={review.ratingLabel}

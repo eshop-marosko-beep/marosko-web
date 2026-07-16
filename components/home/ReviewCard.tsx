@@ -26,19 +26,24 @@ export function StarRating({ rating, label }: { rating: number; label: string })
 
 export default function ReviewCard({
   name,
+  anonymousLabel,
   role,
   text,
   rating,
   ratingLabel,
   badgeLabel,
 }: {
-  name: string;
+  /** The real reviewer name from Heureka, or null when the review is anonymous. */
+  name: string | null;
+  /** Fallback label shown when `name` is null. */
+  anonymousLabel?: string;
   role?: string;
   text: string;
   rating: number;
   ratingLabel: string;
   badgeLabel?: string;
 }) {
+  const displayName = name ?? anonymousLabel ?? "";
   return (
     <div className="bg-white rounded-xl shadow-lg p-6 border-t-4 border-amber-500 flex flex-col h-full">
       <div className="flex items-center justify-between mb-4">
@@ -56,11 +61,13 @@ export default function ReviewCard({
       </div>
       <p className="text-gray-700 leading-relaxed mb-5 flex-1">&ldquo;{text}&rdquo;</p>
       <div className="flex items-center gap-3">
-        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-espresso-800 text-cream-50 font-bold text-sm">
-          {initials(name)}
-        </span>
+        {name && (
+          <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-espresso-800 text-cream-50 font-bold text-sm">
+            {initials(name)}
+          </span>
+        )}
         <div>
-          <p className="font-bold text-espresso-800">{name}</p>
+          <p className="font-bold text-espresso-800">{displayName}</p>
           {role && <p className="text-sm text-gray-500">{role}</p>}
         </div>
       </div>
