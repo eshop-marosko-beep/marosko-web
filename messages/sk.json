@@ -40,6 +40,9 @@
     "testimonials": {
       "title": "Čo hovoria naši zákazníci",
       "subtitle": "Referencie od spokojných zákazníkov a partnerov.",
+      "anonymous": "Overený zákazník",
+      "ratingLabel": "Hodnotenie {rating} z 5 hviezdičiek",
+      "sourceNote": "Recenzie pochádzajú od zákazníkov overených prostredníctvom služby Heureka Overené zákazníkmi.",
       "review1": {
         "name": "Peter Novák",
         "role": "Autoservis Novák",
