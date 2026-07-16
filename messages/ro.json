@@ -425,5 +425,14 @@
         "text": "Acest site utilizează trei categorii de cookies: necesare (asigură funcționalitatea de bază a site-ului și nu pot fi dezactivate), de performanță/analiză (Google Analytics – doar cu consimțământ) și de preferințe (afișarea conținutului încorporat, precum hărți sau videoclipuri – doar cu consimțământ). Vă puteți schimba alegerea oricând folosind linkul „Setări cookies” din subsolul paginii."
       }
     }
+  },
+  "chat": {
+    "toggleLabel": "Deschide chatul cu consilierul",
+    "title": "Consilier pentru unelte",
+    "greeting": "Bună ziua! Sunt consilierul dumneavoastră specializat în unelte de sculptură. Cu ce vă pot ajuta?",
+    "placeholder": "Scrieți întrebarea...",
+    "send": "Trimite",
+    "errorGeneric": "Ne pare rău, a apărut o eroare: {error}",
+    "errorNetwork": "Ne pare rău, nu ne-am putut conecta la server. Încercați din nou mai târziu."
   }
 }

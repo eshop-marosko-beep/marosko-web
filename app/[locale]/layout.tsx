@@ -6,6 +6,7 @@ import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import CookieConsent from '@/components/CookieConsent';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import ChatWidget from '@/components/ChatWidget';
 
 export default async function LocaleLayout({
   children,
@@ -37,6 +38,7 @@ export default async function LocaleLayout({
             </main>
 
             <Footer />
+            <ChatWidget />
             <CookieConsent />
             <GoogleAnalytics />
           </div>
