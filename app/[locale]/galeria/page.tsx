@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { galleryCategories } from "@/lib/galleryData";
 import { buildMetadata } from "@/lib/seo";
@@ -38,7 +38,7 @@ export default async function GalleryPage({
         {galleryCategories.map(({ slug, translationKey, images }, index) => (
           <Link
             key={slug}
-            href={`/${locale}/galeria/${slug}`}
+            href={`/galeria/${slug}`}
             className="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
           >
             <div className="relative h-56 bg-cream-100">

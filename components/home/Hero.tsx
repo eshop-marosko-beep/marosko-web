@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/navigation";
 import { useTranslations } from "next-intl";
 
-export default function Hero({ locale }: { locale: string }) {
+export default function Hero() {
   const t = useTranslations("home.hero");
 
   return (
@@ -26,7 +26,7 @@ export default function Hero({ locale }: { locale: string }) {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href={`/${locale}/kategorie`}
+              href="/kategorie"
               className="bg-amber-600 text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-amber-700 transition-colors"
             >
               {t("ctaPrimary")}

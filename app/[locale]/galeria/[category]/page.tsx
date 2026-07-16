@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "@/navigation";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { galleryCategories, getGalleryCategory } from "@/lib/galleryData";
@@ -46,7 +46,7 @@ export default async function GalleryCategoryPage({
   return (
     <div className="py-8">
       <Link
-        href={`/${locale}/galeria`}
+        href="/galeria"
         className="text-amber-700 font-semibold hover:underline mb-6 inline-block"
       >
         ← {t("backToGallery")}

@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/navigation";
 import { useTranslations } from "next-intl";
 
 const items = [
@@ -7,7 +7,7 @@ const items = [
   { key: "power", icon: "🔌" },
 ] as const;
 
-export default function Categories({ locale }: { locale: string }) {
+export default function Categories() {
   const t = useTranslations("home.categories");
 
   return (
@@ -38,7 +38,7 @@ export default function Categories({ locale }: { locale: string }) {
       </div>
       <div className="text-center mt-10">
         <Link
-          href={`/${locale}/kategorie`}
+          href="/kategorie"
           className="inline-block bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors"
         >
           {t("cta")}

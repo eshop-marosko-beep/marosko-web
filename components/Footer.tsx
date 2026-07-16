@@ -1,10 +1,10 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from "@/navigation";
 import { useTranslations } from "next-intl";
 import { openCookieSettings } from "@/lib/cookieConsent";
 
-export default function Footer({ locale }: { locale: string }) {
+export default function Footer() {
   const t = useTranslations("footer");
 
   return (
@@ -40,7 +40,7 @@ export default function Footer({ locale }: { locale: string }) {
           <h3 className="font-bold text-white mb-3">{t("linksTitle")}</h3>
           <ul className="text-sm space-y-2">
             <li>
-              <Link href={`/${locale}/gdpr`} className="text-cream-100/80 hover:text-white transition-colors">
+              <Link href="/gdpr" className="text-cream-100/80 hover:text-white transition-colors">
                 {t("gdprLink")}
               </Link>
             </li>

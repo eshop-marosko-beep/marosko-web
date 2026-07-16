@@ -29,14 +29,14 @@ export default async function LocaleLayout({
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="min-h-screen bg-cream-50">
-            <Nav locale={locale} />
+            <Nav />
 
             {/* Hlavný obsah */}
             <main className="container mx-auto p-4 py-12">
               {children}
             </main>
 
-            <Footer locale={locale} />
+            <Footer />
             <CookieConsent />
             <GoogleAnalytics />
           </div>

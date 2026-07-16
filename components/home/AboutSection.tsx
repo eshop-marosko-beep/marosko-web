@@ -1,7 +1,7 @@
-import Link from "next/link";
+import { Link } from "@/navigation";
 import { useTranslations } from "next-intl";
 
-export default function AboutSection({ locale }: { locale: string }) {
+export default function AboutSection() {
   const t = useTranslations("home.aboutSection");
 
   return (
@@ -17,7 +17,7 @@ export default function AboutSection({ locale }: { locale: string }) {
           {t("text")}
         </p>
         <Link
-          href={`/${locale}/o-nas`}
+          href="/o-nas"
           className="text-amber-400 font-semibold hover:text-amber-300 hover:underline"
         >
           {t("cta")} →

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
+import { getPathname } from "@/navigation";
+import { routing } from "@/routing";
 
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://marosko-web.vercel.app";
 export const DEFAULT_OG_IMAGE = "/gallery/frezovaci-kotuc-detail-rezbarska-praca.jpg";
-
-const locales = ["sk", "cz", "en", "ro"] as const;
 
 export function buildMetadata({
   locale,
@@ -16,9 +16,10 @@ export function buildMetadata({
   title: string;
   description: string;
 }): Metadata {
-  const url = `${SITE_URL}/${locale}${path}`;
+  const href = path === "" ? "/" : path;
+  const url = `${SITE_URL}${getPathname({ locale, href })}`;
   const languages = Object.fromEntries(
-    locales.map((l) => [l, `${SITE_URL}/${l}${path}`])
+    routing.locales.map((l) => [l, `${SITE_URL}${getPathname({ locale: l, href })}`])
   );
 
   return {
