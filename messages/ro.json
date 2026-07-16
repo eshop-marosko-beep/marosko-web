@@ -105,6 +105,24 @@
     "philosophy": "Fiecare unealtă pe care o vindem este testată mai întâi chiar de noi, în practică. Datorită experienței îndelungate în cioplitul în lemn, putem evalua nu doar avantajele, ci și eventualele neajunsuri – astfel încât să oferim clienților noștri sfaturi cu adevărat oneste și de specialitate.",
     "support": "Ca vânzător slovac, oferim garanție completă, service de calitate după expirarea garanției și o factură pe care o puteți include în cheltuieli în cadrul schemelor de subvenționare din domeniu. Ne mândrim că sprijinim artiștii și școlile din Slovacia, punându-le la dispoziție unelte care anterior nu erau accesibile."
   },
+  "stats": {
+    "years": {
+      "value": "13+ ani",
+      "label": "pe piața uneltelor de cioplit"
+    },
+    "brands": {
+      "value": "7+ mărci",
+      "label": "producători mondiali de încredere"
+    },
+    "shipping": {
+      "value": "24 de ore",
+      "label": "expediere pentru produsele din stoc"
+    },
+    "freeShipping": {
+      "value": "150 €",
+      "label": "livrare gratuită de la această sumă"
+    }
+  },
   "services": {
     "title": "Categoriile noastre",
     "subtitle": "Găsiți gama completă de unelte și accesorii în magazinul nostru online.",
