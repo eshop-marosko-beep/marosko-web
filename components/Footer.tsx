@@ -3,6 +3,7 @@
 import { Link } from "@/navigation";
 import { useTranslations } from "next-intl";
 import { openCookieSettings } from "@/lib/cookieConsent";
+import SocialIcons from "@/components/SocialIcons";
 
 export default function Footer() {
   const t = useTranslations("footer");
@@ -66,8 +67,11 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="border-t border-white/10 py-4 text-center text-sm text-cream-100/70">
-        © {new Date().getFullYear()} Marián s.r.o. – {t("rights")}
+      <div className="border-t border-white/10 py-6 flex flex-col items-center gap-4">
+        <SocialIcons />
+        <p className="text-center text-sm text-cream-100/70">
+          © {new Date().getFullYear()} Marián s.r.o. – {t("rights")}
+        </p>
       </div>
     </footer>
   );
