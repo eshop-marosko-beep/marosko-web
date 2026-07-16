@@ -1,4 +1,5 @@
 import { SITE_URL } from "@/lib/seo";
+import { socialLinks } from "@/lib/socialLinks";
 
 const LOGO_URL = `${SITE_URL}/brand/marian-logo.jpg`;
 
@@ -46,7 +47,12 @@ export function buildOrganizationSchema() {
         availableLanguage: ["Slovak", "Czech", "English", "Romanian"],
       },
     ],
-    sameAs: ["https://eshop.marosko.sk", "https://vercajch.eu", "https://rezbarskenaradie.sk"],
+    sameAs: [
+      "https://eshop.marosko.sk",
+      "https://vercajch.eu",
+      "https://rezbarskenaradie.sk",
+      ...socialLinks.map(({ url }) => url),
+    ],
   };
 }
 
