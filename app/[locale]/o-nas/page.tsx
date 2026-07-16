@@ -1,6 +1,8 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/seo";
 import StatsBar from "@/components/StatsBar";
+import StructuredData from "@/components/StructuredData";
+import { buildOrganizationSchema, buildLocalBusinessSchema } from "@/lib/structuredData";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -25,12 +27,12 @@ export default async function AboutPage({
 
   return (
     <div className="py-8 max-w-3xl mx-auto">
+      <StructuredData data={buildOrganizationSchema()} />
+      <StructuredData data={buildLocalBusinessSchema()} />
       <h1 className="text-4xl font-bold text-espresso-800 mb-6">
         {t("title")}
       </h1>
       <p className="text-gray-700 text-lg leading-relaxed">{t("intro")}</p>
-
-      <StatsBar />
 
       <div className="space-y-4 text-gray-700 text-lg leading-relaxed">
         <p>{t("history")}</p>
@@ -38,6 +40,8 @@ export default async function AboutPage({
         <p>{t("philosophy")}</p>
         <p>{t("support")}</p>
       </div>
+
+      <StatsBar />
     </div>
   );
 }
