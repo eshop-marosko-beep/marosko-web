@@ -105,6 +105,24 @@
     "philosophy": "We personally put every tool we sell to the test before adding it to our range. Thanks to years of hands-on carving experience, we can judge not just its strengths but also its shortcomings – so we can give our customers genuinely honest, expert advice.",
     "support": "As a Slovak seller, we offer a full warranty, quality after-warranty service, and an invoice you can claim as an expense under industry subsidy schemes. We're proud to support Slovak artists and schools by making tools available that weren't previously accessible."
   },
+  "stats": {
+    "years": {
+      "value": "13+ years",
+      "label": "in the woodcarving tools market"
+    },
+    "brands": {
+      "value": "7+ brands",
+      "label": "trusted global manufacturers"
+    },
+    "shipping": {
+      "value": "24 hours",
+      "label": "dispatch for items in stock"
+    },
+    "freeShipping": {
+      "value": "€150",
+      "label": "free shipping from this amount"
+    }
+  },
   "services": {
     "title": "Our Categories",
     "subtitle": "You'll find our full range of tools and accessories in our e-shop.",

@@ -1,4 +1,5 @@
 import Hero from "@/components/home/Hero";
+import StatsBar from "@/components/StatsBar";
 import Categories from "@/components/home/Categories";
 import AboutSection from "@/components/home/AboutSection";
 import Testimonials from "@/components/home/Testimonials";
@@ -33,6 +34,7 @@ export default async function HomePage({
       <StructuredData data={buildOrganizationSchema()} />
       <StructuredData data={buildLocalBusinessSchema()} />
       <Hero />
+      <StatsBar />
       <Categories />
       <AboutSection />
       <Testimonials locale={locale} />

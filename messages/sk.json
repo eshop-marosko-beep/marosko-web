@@ -105,6 +105,24 @@
     "philosophy": "Každý nástroj, ktorý ponúkame, si najprv sami prakticky overíme. Vďaka dlhoročným skúsenostiam s rezbárstvom tak vieme posúdiť nielen jeho prednosti, ale aj prípadné nedostatky – a zákazníkom preto vieme poradiť naozaj férovo a odborne.",
     "support": "Ako slovenský predajca ponúkame plnú záruku, kvalitný pozáručný servis aj doklad, ktorý si viete zaradiť do nákladov pri čerpaní dotácií v odbore. Radi podporujeme aj slovenských umelcov a školy tým, že im sprístupňujeme náradie, ktoré doteraz nebolo bežne dostupné."
   },
+  "stats": {
+    "years": {
+      "value": "13+ rokov",
+      "label": "na trhu s rezbárskym náradím"
+    },
+    "brands": {
+      "value": "7+ značiek",
+      "label": "overených svetových výrobcov"
+    },
+    "shipping": {
+      "value": "24 hodín",
+      "label": "expedícia tovaru skladom"
+    },
+    "freeShipping": {
+      "value": "150 €",
+      "label": "doprava zdarma od tejto sumy"
+    }
+  },
   "services": {
     "title": "Naše kategórie",
     "subtitle": "Kompletná ponuka náradia a príslušenstva nájdete v našom e-shope.",
