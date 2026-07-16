@@ -1,11 +1,21 @@
 import { getTranslations } from "next-intl/server";
-import { getHeurekaReviews, type HeurekaReview } from "@/lib/heurekaReviews";
+import { getHeurekaReviews } from "@/lib/heurekaReviews";
 
 const staticReviewKeys = ["review1", "review2", "review3"] as const;
 
+function initials(name: string): string {
+  const letters = name
+    .split(/[\s-]+/)
+    .filter(Boolean)
+    .slice(0, 2)
+    .map((part) => part[0]?.toUpperCase())
+    .join("");
+  return letters || "?";
+}
+
 function StarRating({ rating, label }: { rating: number; label: string }) {
   return (
-    <div className="flex gap-0.5 mb-3" role="img" aria-label={label}>
+    <div className="flex gap-0.5 text-lg" role="img" aria-label={label}>
       {Array.from({ length: 5 }, (_, i) => (
         <span
           key={i}
@@ -19,16 +29,41 @@ function StarRating({ rating, label }: { rating: number; label: string }) {
   );
 }
 
-function ReviewCard({ review, anonymousLabel, ratingLabel }: {
-  review: HeurekaReview;
-  anonymousLabel: string;
+function ReviewCard({
+  name,
+  role,
+  text,
+  rating,
+  ratingLabel,
+  badge,
+}: {
+  name: string;
+  role?: string;
+  text: string;
+  rating: number;
   ratingLabel: string;
+  badge?: string;
 }) {
   return (
-    <div className="bg-white rounded-xl shadow-lg p-6 border-t-4 border-amber-500">
-      <StarRating rating={review.rating} label={ratingLabel} />
-      <p className="text-gray-700 leading-relaxed mb-4">&ldquo;{review.text}&rdquo;</p>
-      <p className="font-bold text-espresso-800">{review.name ?? anonymousLabel}</p>
+    <div className="bg-white rounded-xl shadow-lg p-6 border-t-4 border-amber-500 flex flex-col h-full">
+      <div className="flex items-center justify-between mb-4">
+        <StarRating rating={rating} label={ratingLabel} />
+        {badge && (
+          <span className="text-xs font-semibold text-amber-800 bg-amber-50 px-2.5 py-1 rounded-full whitespace-nowrap">
+            {badge}
+          </span>
+        )}
+      </div>
+      <p className="text-gray-700 leading-relaxed mb-5 flex-1">&ldquo;{text}&rdquo;</p>
+      <div className="flex items-center gap-3">
+        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-espresso-800 text-cream-50 font-bold text-sm">
+          {initials(name)}
+        </span>
+        <div>
+          <p className="font-bold text-espresso-800">{name}</p>
+          {role && <p className="text-sm text-gray-500">{role}</p>}
+        </div>
+      </div>
     </div>
   );
 }
@@ -48,17 +83,22 @@ export default async function Testimonials({ locale }: { locale: string }) {
           ? heurekaReviews.map((review) => (
               <ReviewCard
                 key={review.id}
-                review={review}
-                anonymousLabel={t("anonymous")}
+                name={review.name ?? t("anonymous")}
+                text={review.text}
+                rating={review.rating}
                 ratingLabel={t("ratingLabel", { rating: review.rating })}
+                badge={t("verifiedBadge")}
               />
             ))
           : staticReviewKeys.map((key) => (
-              <div key={key} className="bg-white rounded-xl shadow-lg p-6 border-t-4 border-amber-500">
-                <p className="text-gray-700 leading-relaxed mb-4">&ldquo;{t(`${key}.text`)}&rdquo;</p>
-                <p className="font-bold text-espresso-800">{t(`${key}.name`)}</p>
-                <p className="text-sm text-gray-500">{t(`${key}.role`)}</p>
-              </div>
+              <ReviewCard
+                key={key}
+                name={t(`${key}.name`)}
+                role={t(`${key}.role`)}
+                text={t(`${key}.text`)}
+                rating={5}
+                ratingLabel={t("ratingLabel", { rating: 5 })}
+              />
             ))}
       </div>
       {heurekaReviews && (
