@@ -67,5 +67,6 @@ export function buildLocalBusinessSchema() {
     email: "eshop.marosko@gmail.com",
     address: ADDRESS,
     geo: GEO,
+    priceRange: "€1–€1500",
   };
 }
