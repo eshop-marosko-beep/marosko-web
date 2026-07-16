@@ -7,13 +7,13 @@ export default function StatsBar() {
 
   return (
     <section className="py-10">
-      <div className="grid grid-cols-1 sm:grid-cols-4 gap-y-6 sm:gap-y-8 divide-y divide-amber-100 sm:divide-y-0">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-y-6 md:gap-y-8 divide-y divide-amber-100 md:divide-y-0">
         {items.map((key, index) => (
           <div
             key={key}
-            className={`text-center px-2 sm:px-4 min-w-0 ${index > 0 ? "sm:border-l sm:border-amber-100" : ""}`}
+            className={`text-center px-2 md:px-4 min-w-0 ${index > 0 ? "md:border-l md:border-amber-100" : ""}`}
           >
-            <p className="text-3xl sm:text-4xl md:text-5xl font-bold text-amber-600 whitespace-nowrap">
+            <p className="text-3xl lg:text-4xl xl:text-5xl font-bold text-amber-600 leading-tight">
               {t(`${key}.value`)}
             </p>
             <p className="text-sm md:text-base text-gray-600 mt-2">{t(`${key}.label`)}</p>
