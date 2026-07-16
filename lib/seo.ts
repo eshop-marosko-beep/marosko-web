@@ -24,6 +24,7 @@ export function buildMetadata({
   return {
     title,
     description,
+    metadataBase: new URL(SITE_URL),
     alternates: {
       canonical: url,
       languages,

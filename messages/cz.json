@@ -340,6 +340,10 @@
     "contact": {
       "title": "Kontakt | Marián s.r.o.",
       "description": "Kontaktní a fakturační údaje společnosti Marián s.r.o. Napište nám nebo nás kontaktujte telefonicky."
+    },
+    "gdpr": {
+      "title": "Ochrana osobních údajů | Marián s.r.o.",
+      "description": "Informace o zpracování osobních údajů a používání cookies na webu Marián s.r.o."
     }
   },
   "cookies": {

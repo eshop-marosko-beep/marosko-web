@@ -340,6 +340,10 @@
     "contact": {
       "title": "Contact | Marián s.r.o.",
       "description": "Contact and billing details for Marián s.r.o. Write to us or reach us by phone."
+    },
+    "gdpr": {
+      "title": "Privacy Policy | Marián s.r.o.",
+      "description": "Information about personal data processing and cookie usage on the Marián s.r.o. website."
     }
   },
   "cookies": {
