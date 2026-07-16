@@ -19,9 +19,10 @@ export async function POST(request: Request) {
     return jsonError("Neplatná požiadavka.", 400);
   }
 
-  const { message, session_id: sessionId } = (body ?? {}) as {
+  const { message, session_id: sessionId, locale } = (body ?? {}) as {
     message?: unknown;
     session_id?: unknown;
+    locale?: unknown;
   };
 
   if (typeof message !== "string" || !message.trim() || message.length > MAX_MESSAGE_LENGTH) {
@@ -35,6 +36,7 @@ export async function POST(request: Request) {
       body: JSON.stringify({
         message: message.trim(),
         session_id: typeof sessionId === "string" ? sessionId : undefined,
+        locale: typeof locale === "string" ? locale : undefined,
       }),
       // The backend runs on Render's free tier and can cold-start from sleep,
       // so allow well beyond a typical request timeout.

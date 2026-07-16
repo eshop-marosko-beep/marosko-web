@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 type ChatMessage = {
   role: "user" | "bot";
@@ -60,6 +60,7 @@ function formatBotMessage(text: string): React.ReactNode[] {
 
 export default function ChatWidget() {
   const t = useTranslations("chat");
+  const locale = useLocale();
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([
     { role: "bot", text: t("greeting") },
@@ -80,7 +81,7 @@ export default function ChatWidget() {
       const response = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message, session_id: getSessionId() }),
+        body: JSON.stringify({ message, session_id: getSessionId(), locale }),
       });
       const data = await response.json();
 
