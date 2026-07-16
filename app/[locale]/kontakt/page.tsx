@@ -69,18 +69,6 @@ export default async function ContactPage({
             </a>
           </p>
         </div>
-
-        <div className="mt-6 rounded-lg overflow-hidden shadow-lg border border-gray-200">
-          <iframe
-            title={t("mapTitle")}
-            src="https://www.google.com/maps?q=Mari%C3%A1n+s.r.o.%2C+Vr%C3%A1di%C5%A1te+138%2C+908+49+Vr%C3%A1di%C5%A1te&output=embed"
-            width="100%"
-            height="350"
-            style={{ border: 0 }}
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
-        </div>
       </div>
 
       <ContactForm title={t("formTitle")} subtitle={t("formSubtitle")} />

@@ -102,7 +102,7 @@ export default function ContactForm({
           <p>📞 {tContact("phoneProducts")}</p>
           <p>📦 {tContact("phoneShipping")}</p>
           <p>✉️ {tContact("email")}</p>
-          <p className="pt-4">
+          <p className="pt-2">
             🛒{" "}
             <a
               href="https://eshop.marosko.sk"
@@ -113,6 +113,17 @@ export default function ContactForm({
               {tContact("eshop")}
             </a>
           </p>
+          <div className="rounded-lg overflow-hidden border border-amber-200">
+            <iframe
+              title={tContact("mapTitle")}
+              src="https://www.google.com/maps?q=Mari%C3%A1n+s.r.o.%2C+Vr%C3%A1di%C5%A1te+138%2C+908+49+Vr%C3%A1di%C5%A1te&output=embed"
+              width="100%"
+              height="220"
+              style={{ border: 0 }}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
+          </div>
         </div>
       </div>
     </section>
