@@ -39,11 +39,13 @@
     },
     "testimonials": {
       "title": "Ce spun clienții noștri",
-      "subtitle": "Recenzii de la clienți și parteneri mulțumiți.",
+      "subtitle": "Recenzii de la clienți mulțumiți.",
       "anonymous": "Client verificat",
-      "verifiedBadge": "Verificat",
+      "verifiedBadge": "Verificat pe Heureka",
       "ratingLabel": "Evaluare {rating} din 5 stele",
       "sourceNote": "Recenziile provin de la clienți verificați prin serviciul Heureka Verificat de clienți.",
+      "prevReviews": "Recenzii anterioare",
+      "nextReviews": "Recenzii următoare",
       "review1": {
         "name": "Peter Novák",
         "role": "Service auto Novák",
