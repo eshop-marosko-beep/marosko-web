@@ -39,11 +39,13 @@
     },
     "testimonials": {
       "title": "What our customers say",
-      "subtitle": "Reviews from satisfied customers and partners.",
+      "subtitle": "Reviews from satisfied customers.",
       "anonymous": "Verified customer",
-      "verifiedBadge": "Verified",
+      "verifiedBadge": "Verified on Heureka",
       "ratingLabel": "Rating {rating} out of 5 stars",
       "sourceNote": "Reviews come from customers verified through the Heureka Verified by Customers service.",
+      "prevReviews": "Previous reviews",
+      "nextReviews": "Next reviews",
       "review1": {
         "name": "Peter Novák",
         "role": "Novák Auto Service",

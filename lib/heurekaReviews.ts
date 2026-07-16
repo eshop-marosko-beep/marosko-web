@@ -7,11 +7,20 @@ export type HeurekaReview = {
 };
 
 const HEUREKA_REVIEWS_ENDPOINT = "https://www.heureka.sk/direct/dotaznik/export-review.php";
+const MYMEMORY_ENDPOINT = "https://api.mymemory.translated.net/get";
 const MIN_RATING = 4;
-const MAX_REVIEWS = 6;
+const MAX_REVIEWS = 20;
 // Heureka regenerates the "Overené zákazníkmi" export roughly every 6 hours, so there is
 // no point revalidating more often than that.
 const REVALIDATE_SECONDS = 21600;
+
+// Reviews on heureka.sk are always written in Slovak; map each site locale to the
+// MyMemory language code to translate into (sk itself needs no translation).
+const LOCALE_TO_TRANSLATE_LANG: Record<string, string> = {
+  cz: "cs",
+  en: "en",
+  ro: "ro",
+};
 
 function decodeXmlEntities(value: string): string {
   return value
@@ -57,13 +66,36 @@ export function parseHeurekaReviewsXml(xml: string): HeurekaReview[] {
   return reviews;
 }
 
+// Translates Slovak review text via the free MyMemory API. Best-effort only: any
+// failure (network error, quota exceeded, empty result) silently falls back to the
+// original Slovak text rather than breaking the section.
+async function translateFromSlovak(text: string, locale: string): Promise<string> {
+  const targetLang = LOCALE_TO_TRANSLATE_LANG[locale];
+  if (!targetLang) return text;
+
+  try {
+    const url = `${MYMEMORY_ENDPOINT}?q=${encodeURIComponent(text)}&langpair=sk|${targetLang}`;
+    const response = await fetch(url, { next: { revalidate: REVALIDATE_SECONDS } });
+    if (!response.ok) return text;
+
+    const data = await response.json();
+    const translated = data?.responseData?.translatedText;
+    return typeof translated === "string" && translated.trim().length > 0 ? translated : text;
+  } catch {
+    return text;
+  }
+}
+
 /**
  * Fetches shop reviews from Heureka's "Overené zákazníkmi" export, server-side only
  * (the API key must never reach the client). Returns null on any failure — missing key,
  * network/HTTP error, unparseable response, or zero qualifying reviews — so callers can
  * fall back to static content instead of rendering an empty/broken section.
+ *
+ * For non-Slovak locales, review text is machine-translated (best-effort, falls back
+ * to the Slovak original on failure).
  */
-export async function getHeurekaReviews(): Promise<HeurekaReview[] | null> {
+export async function getHeurekaReviews(locale: string): Promise<HeurekaReview[] | null> {
   const apiKey = process.env.HEUREKA_API_KEY;
   if (!apiKey) return null;
 
@@ -79,7 +111,16 @@ export async function getHeurekaReviews(): Promise<HeurekaReview[] | null> {
       .sort((a, b) => b.timestamp - a.timestamp)
       .slice(0, MAX_REVIEWS);
 
-    return reviews.length > 0 ? reviews : null;
+    if (reviews.length === 0) return null;
+
+    const translated = await Promise.all(
+      reviews.map(async (review) => ({
+        ...review,
+        text: await translateFromSlovak(review.text, locale),
+      }))
+    );
+
+    return translated;
   } catch {
     return null;
   }
