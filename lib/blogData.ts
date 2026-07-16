@@ -85,7 +85,13 @@ export const blogPosts: BlogPost[] = [
     image: "/blog/arbortech-spheroplane.png",
     translationKey: "arbortechSpheroplane",
   },
-  { slug: "arbortech-turbo-plane", title: "Arbortech Turbo Plane", url: "https://eshop.marosko.sk/n/arbortech-turbo-plane" },
+  {
+    slug: "arbortech-turbo-plane",
+    title: "Arbortech Turbo Plane",
+    url: "https://eshop.marosko.sk/n/arbortech-turbo-plane",
+    image: "/blog/arbortech-turbo-plane.png",
+    translationKey: "arbortechTurboPlane",
+  },
   { slug: "manpa-novinky-frezky-trojuholnikove", title: "Manpa novinky – trojuholníkové frézky", url: "https://eshop.marosko.sk/n/manpa-novinky-frezky-trojuholnikove" },
   {
     slug: "frezovaci-kotuc-do-uhlovej-brusky-arbortech-woodcarver-profi-industrial",
