@@ -247,6 +247,10 @@
         "title": "Arbortech SpheroPlane",
         "description": "Vytvořte kulovou mísu nebo kouli ze dřeva bez soustruhu – SpheroPlane se připojuje na úhlovou brusku a má nastavitelný poloměr řezu pro malé i velké projekty. Součástí je i brusný systém pro dokončení povrchu, nástroj je kompatibilní s běžnou úhlovou bruskou 115/125 mm i s Arbortech Power Carving Unit."
       },
+      "arbortechTurboPlane": {
+        "title": "Arbortech Turbo Plane",
+        "description": "Revoluční nástroj, který spojuje funkce hoblíku, frézy a brusky v jednom kompaktním zařízení na řezání, tvarování i dokončování dřeva. Nastavitelný úhel a hloubka řezu umožňují přesnou práci, ochranný kryt a systém proti zpětnému odhozu zajišťují bezpečné používání."
+      },
       "suchyZips": {
         "title": "Suchý zip – podklad pro smirky na míru",
         "description": "Funkční řešení pro čisté a opakovatelné upevnění brusných smirků – háčková i nalepovací část přesně podle průměru."
