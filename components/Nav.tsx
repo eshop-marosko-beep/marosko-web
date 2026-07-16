@@ -1,29 +1,29 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import { Link } from "@/navigation";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 
-export default function Nav({ locale }: { locale: string }) {
+export default function Nav() {
   const t = useTranslations("navigation");
   const [open, setOpen] = useState(false);
 
   const links = [
-    { href: `/${locale}`, label: t("home") },
-    { href: `/${locale}/o-nas`, label: t("about") },
-    { href: `/${locale}/kategorie`, label: t("services") },
-    { href: `/${locale}/galeria`, label: t("gallery") },
-    { href: `/${locale}/blog`, label: t("blog") },
-    { href: `/${locale}/obchody`, label: t("shops") },
-    { href: `/${locale}/kontakt`, label: t("contact") },
+    { href: "/", label: t("home") },
+    { href: "/o-nas", label: t("about") },
+    { href: "/kategorie", label: t("services") },
+    { href: "/galeria", label: t("gallery") },
+    { href: "/blog", label: t("blog") },
+    { href: "/obchody", label: t("shops") },
+    { href: "/kontakt", label: t("contact") },
   ];
 
   return (
     <nav className="bg-white shadow-lg p-4 border-b-2 border-amber-100">
       <div className="container mx-auto flex justify-between items-center">
-        <Link href={`/${locale}`} className="flex items-center hover:opacity-80 transition-opacity">
+        <Link href="/" className="flex items-center hover:opacity-80 transition-opacity">
           <Image
             src="/brand/marian-logo.jpg"
             alt="Marián s.r.o."

@@ -28,9 +28,9 @@ export default async function HomePage({
 
   return (
     <div className="divide-y divide-amber-100">
-      <Hero locale={locale} />
-      <Categories locale={locale} />
-      <AboutSection locale={locale} />
+      <Hero />
+      <Categories />
+      <AboutSection />
       <Testimonials locale={locale} />
       <Faq />
       <ContactSection />
