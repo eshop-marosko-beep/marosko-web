@@ -78,7 +78,13 @@ export const blogPosts: BlogPost[] = [
     image: "/blog/arbortech-turbo-scraper.png",
     translationKey: "arbortechTurboScraper",
   },
-  { slug: "arbortech-spheroplane", title: "Arbortech SpheroPlane", url: "https://eshop.marosko.sk/n/arbortech-spheroplane" },
+  {
+    slug: "arbortech-spheroplane",
+    title: "Arbortech SpheroPlane",
+    url: "https://eshop.marosko.sk/n/arbortech-spheroplane",
+    image: "/blog/arbortech-spheroplane.png",
+    translationKey: "arbortechSpheroplane",
+  },
   { slug: "arbortech-turbo-plane", title: "Arbortech Turbo Plane", url: "https://eshop.marosko.sk/n/arbortech-turbo-plane" },
   { slug: "manpa-novinky-frezky-trojuholnikove", title: "Manpa novinky – trojuholníkové frézky", url: "https://eshop.marosko.sk/n/manpa-novinky-frezky-trojuholnikove" },
   {
