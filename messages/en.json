@@ -79,11 +79,11 @@
       },
       "q4": {
         "question": "Do you provide a warranty and service for the tools you sell?",
-        "answer": "We provide a statutory warranty on all goods and arrange service or replacement if needed."
+        "answer": "We provide a statutory warranty on all goods and arrange post-warranty service if needed."
       }
     },
     "contactCta": {
-      "title": "Have a question or interested in an offer?",
+      "title": "Have a question about a specific item?",
       "subtitle": "Write to us and we'll get back to you as soon as possible.",
       "nameLabel": "Full name",
       "namePlaceholder": "Your name",
