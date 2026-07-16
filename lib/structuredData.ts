@@ -10,6 +10,12 @@ const ADDRESS = {
   addressCountry: "SK",
 } as const;
 
+const GEO = {
+  "@type": "GeoCoordinates",
+  latitude: 48.825509,
+  longitude: 17.188902,
+} as const;
+
 export function buildOrganizationSchema() {
   return {
     "@context": "https://schema.org",
@@ -19,6 +25,7 @@ export function buildOrganizationSchema() {
     logo: LOGO_URL,
     foundingDate: "2013",
     address: ADDRESS,
+    geo: GEO,
     vatID: "SK2023992916",
     taxID: "2023992916",
     identifier: "47546298",
@@ -53,5 +60,6 @@ export function buildLocalBusinessSchema() {
     telephone: "+421915723250",
     email: "eshop.marosko@gmail.com",
     address: ADDRESS,
+    geo: GEO,
   };
 }
