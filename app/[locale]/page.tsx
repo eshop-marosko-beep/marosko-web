@@ -31,7 +31,7 @@ export default async function HomePage({
       <Hero locale={locale} />
       <Categories locale={locale} />
       <AboutSection locale={locale} />
-      <Testimonials />
+      <Testimonials locale={locale} />
       <Faq />
       <ContactSection />
     </div>
