@@ -17,9 +17,11 @@ export default async function Testimonials({ locale }: { locale: string }) {
       </div>
       {heurekaReviews ? (
         <ReviewsCarousel
-          reviews={heurekaReviews}
+          reviews={heurekaReviews.map((review) => ({
+            ...review,
+            ratingLabel: t("ratingLabel", { rating: review.rating }),
+          }))}
           anonymousLabel={t("anonymous")}
-          ratingLabel={(rating) => t("ratingLabel", { rating })}
           badgeLabel={t("verifiedBadge")}
           prevLabel={t("prevReviews")}
           nextLabel={t("nextReviews")}

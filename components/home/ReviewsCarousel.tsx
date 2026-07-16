@@ -4,17 +4,17 @@ import { useRef } from "react";
 import ReviewCard from "./ReviewCard";
 import type { HeurekaReview } from "@/lib/heurekaReviews";
 
+type CarouselReview = HeurekaReview & { ratingLabel: string };
+
 export default function ReviewsCarousel({
   reviews,
   anonymousLabel,
-  ratingLabel,
   badgeLabel,
   prevLabel,
   nextLabel,
 }: {
-  reviews: HeurekaReview[];
+  reviews: CarouselReview[];
   anonymousLabel: string;
-  ratingLabel: (rating: number) => string;
   badgeLabel: string;
   prevLabel: string;
   nextLabel: string;
@@ -52,7 +52,7 @@ export default function ReviewsCarousel({
               name={review.name ?? anonymousLabel}
               text={review.text}
               rating={review.rating}
-              ratingLabel={ratingLabel(review.rating)}
+              ratingLabel={review.ratingLabel}
               badgeLabel={badgeLabel}
             />
           </div>
