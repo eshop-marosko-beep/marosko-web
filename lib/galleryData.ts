@@ -38,7 +38,11 @@ export const galleryCategories: GalleryCategory[] = [
         altKey: "img4",
         productUrl: "https://eshop.marosko.sk/p/722/4-zuba-freza-s-10-mm-stvorcovym-profilom-priemer-95-mm",
       },
-      { src: "/gallery/manpa-frezovaci-kotuc-70mm.jpg", altKey: "img5" },
+      {
+        src: "/gallery/manpa-frezovaci-kotuc-70mm.jpg",
+        altKey: "img5",
+        productUrl: "https://eshop.marosko.sk/p/718/3-zuba-freza-s-12-mm-gulatym-profilom-manpa",
+      },
       { src: "/gallery/manpa-sada-velkosti-a.jpg", altKey: "img6" },
       { src: "/gallery/manpa-sada-velkosti-b.jpg", altKey: "img7" },
       { src: "/gallery/akko-frezovaci-kotuc-vymenitelne-noze.jpg", altKey: "img8" },
