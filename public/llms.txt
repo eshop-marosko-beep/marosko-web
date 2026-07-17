@@ -1,66 +1,64 @@
-# Marián s.r.o. – marosko.sk
+# Marián s.r.o. – eshop.marosko.sk
 
-> Prezentačný web rodinnej firmy Marián s.r.o., ktorá sa od roku 2013
-> špecializuje na značkové rezbárske a drevoobrábacie náradie (Arbortech,
-> Manpa, Saburrtooth a ďalšie). Táto stránka predstavuje firmu, jej
-> sortiment a predajné kanály – samotný nákup prebieha na prepojených
-> e-shopoch, predovšetkým eshop.marosko.sk.
+> Špecializovaný e-shop na rezbárske a drevoobrábacie náradie. Ponúka značkové
+> nástroje (Arbortech, Saburrtooth, Manpa, Silverline, Kirjes, Stubai, M-stein a
+> ďalšie) pre profesionálnych rezbárov aj hobby remeselníkov. Doprava zdarma nad
+> 150 €, expedícia tovaru skladom do 24 hodín.
 
 ## Firma
 - Marián s.r.o., Vrádište 138, 908 49 Vrádište, Slovensko
 - IČO: 47546298, DIČ: 2023992916, IČ DPH: SK2023992916
-- Telefón (otázky k produktom): +421 915 723 250
-- Telefón (expedícia, stav skladu): +421 949 584 525
+- Telefón (produkty): +421 915 723 250
+- Telefón (expedícia): +421 949 584 525
 - Email: eshop.marosko@gmail.com
 - Orgán dozoru: Inšpektorát SOI pre Trnavský kraj, Pekárska 23, 917 01 Trnava 1
 
-## Naše e-shopy
-- [eshop.marosko.sk](https://eshop.marosko.sk): Hlavný e-shop – rezbárske a drevoobrábacie náradie, doprava zdarma nad 150 €
-- [Vercajch.eu](https://vercajch.eu)
-- [RezbárskeNáradie.sk](https://rezbarskenaradie.sk)
-
 ## Hlavné stránky
+- [Úvod](https://eshop.marosko.sk/): Hlavná stránka e-shopu
+- [Náradie](https://eshop.marosko.sk/drevorezba-naradie-rezbarske-naradie): Prehľad celého sortimentu
+- [Výrobcovia podľa značky](https://eshop.marosko.sk/drevorezba-naradie-rezbarske-naradie/vyrobcovia-znacky): Filter podľa výrobcu
+- [Novinky/Blog](https://eshop.marosko.sk/novinky-pre-rezbarov): Články, tipy a predstavenie nových produktov
+- [O nás](https://eshop.marosko.sk/o-nas-a-nasom-obchode-z-rezbarskym-naradim): Príbeh firmy, značky, hodnoty
+- [Ako si vybrať náradie do dielne](https://eshop.marosko.sk/o-nas-a-nasom-obchode-z-rezbarskym-naradim/ako-si-vybrat-spravne-naradie-do-dielne-kompletny-sprievodca-pre-zaciatocnikov): Sprievodca pre začiatočníkov
+- [Doprava a platba](https://eshop.marosko.sk/mapa-nakup-rezbarskeho-naradia-online-obchod): Podmienky dopravy a platby
+- [Kontakt](https://eshop.marosko.sk/kontakt-naradie-eshop-marosko-sk): Kontaktné údaje a formulár
+- [Reklamácie](https://eshop.marosko.sk/kontakt-naradie-eshop-marosko-sk/reklamacia-tovaru-eshop-rezbarsky): Formuláre k reklamácii
+- [Obchodné podmienky](https://eshop.marosko.sk/obchodne-podmienky-naradie-eshop-marosko): Podmienky nákupu
+- [Zásady ochrany osobných údajov](https://eshop.marosko.sk/obchodne-podmienky-naradie-eshop-marosko/zasady-ochrany-osobnych-udajov-pri-kupe-naradia): GDPR
+- [Mapa stránok](https://eshop.marosko.sk/mapa-stranok): Kompletný rozcestník
 
-### Slovenčina (predvolená)
-- [Domov](https://marosko.sk/): Frézovacie kotúče, rezbárske dláta a elektrické náradie značiek Arbortech, Manpa a Saburrtooth. Rodinná firma na trhu od roku 2013.
-- [O nás](https://marosko.sk/o-nas): Sme rodinná firma, ktorá sa od roku 2013 špecializuje na značkové rezbárske a drevoobrábacie náradie. Príbeh firmy a značky, ktoré ponúkame.
-- [Kategórie náradia](https://marosko.sk/kategorie): Kompletný prehľad kategórií rezbárskeho a drevoobrábacieho náradia – frézovacie kotúče, ručné aj elektrické náradie a príslušenstvo.
-- [Galéria](https://marosko.sk/galeria): Fotogaléria nášho náradia – ukážky frézovacích kotúčov a ďalších produktov z našej ponuky.
-- [Blog](https://marosko.sk/blog): Novinky, tipy a predstavenie náradia z nášho e-shopu eshop.marosko.sk.
-- [Naše obchody](https://marosko.sk/obchody): Prehľad všetkých našich e-shopov – eshop.marosko.sk, Vercajch.eu a RezbárskeNáradie.sk.
-- [Kontakt](https://marosko.sk/kontakt): Kontaktné a fakturačné údaje spoločnosti Marián s.r.o.
-
-### Čeština
-- [Domů](https://marosko.sk/cz): Frézovací kotouče, řezbářská dláta a elektrické nářadí značek Arbortech, Manpa a Saburrtooth. Rodinná firma na trhu od roku 2013.
-- [O nás](https://marosko.sk/cz/o-nas): Jsme rodinná firma, která se od roku 2013 specializuje na značkové řezbářské a dřevoobráběcí nářadí. Příběh firmy a značky, které nabízíme.
-- [Kategorie nářadí](https://marosko.sk/cz/kategorie): Kompletní přehled kategorií řezbářského a dřevoobráběcího nářadí – frézovací kotouče, ruční i elektrické nářadí a příslušenství.
-- [Galerie](https://marosko.sk/cz/galeria): Fotogalerie našeho nářadí – ukázky frézovacích kotoučů a dalších produktů z naší nabídky.
-- [Blog](https://marosko.sk/cz/blog): Novinky, tipy a představení nářadí z našeho e-shopu eshop.marosko.sk.
-- [Naše obchody](https://marosko.sk/cz/obchody): Přehled všech našich e-shopů – eshop.marosko.sk, Vercajch.eu a RezbárskeNáradie.sk.
-- [Kontakt](https://marosko.sk/cz/kontakt): Kontaktní a fakturační údaje společnosti Marián s.r.o.
-
-### English
-- [Home](https://marosko.sk/en): Milling discs, carving chisels, and power tools from Arbortech, Manpa, and Saburrtooth. A family business since 2013.
-- [About Us](https://marosko.sk/en/o-nas): We're a family business specializing in branded woodcarving and woodworking tools since 2013. Our story and the brands we carry.
-- [Tool Categories](https://marosko.sk/en/kategorie): A complete overview of our woodcarving and woodworking tool categories – milling discs, hand and power tools, and accessories.
-- [Gallery](https://marosko.sk/en/galeria): A photo gallery of our tools – browse milling discs and other products from our range.
-- [Blog](https://marosko.sk/en/blog): News, tips and tool spotlights from our e-shop eshop.marosko.sk.
-- [Our Shops](https://marosko.sk/en/obchody): An overview of all our e-shops – eshop.marosko.sk, Vercajch.eu, and RezbárskeNáradie.sk.
-- [Contact](https://marosko.sk/en/kontakt): Contact and billing details for Marián s.r.o.
-
-### Română
-- [Acasă](https://marosko.sk/ro): Discuri de frezat, dălți de cioplit și unelte electrice de la Arbortech, Manpa și Saburrtooth. Afacere de familie din 2013.
-- [Despre noi](https://marosko.sk/ro/o-nas): Suntem o afacere de familie specializată din 2013 în unelte de marcă pentru cioplit și prelucrarea lemnului. Povestea noastră și mărcile pe care le oferim.
-- [Categorii de unelte](https://marosko.sk/ro/kategorie): O prezentare completă a categoriilor noastre de unelte pentru cioplit și prelucrarea lemnului – discuri de frezat, unelte manuale și electrice și accesorii.
-- [Galerie](https://marosko.sk/ro/galeria): O galerie foto cu uneltele noastre – discuri de frezat și alte produse din gama noastră.
-- [Blog](https://marosko.sk/ro/blog): Noutăți, sfaturi și prezentări de unelte din magazinul nostru online eshop.marosko.sk.
-- [Magazinele noastre](https://marosko.sk/ro/obchody): O prezentare a tuturor magazinelor noastre online – eshop.marosko.sk, Vercajch.eu și RezbárskeNáradie.sk.
-- [Contact](https://marosko.sk/ro/kontakt): Date de contact și facturare pentru Marián s.r.o.
+## Kategórie produktov
+- [Nástroje do uhlovej brúsky](https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky): Frézovacie, hobľovacie a brúsne nástroje na drevo, kov, plast; MANPA ramená
+- [Nástroje do vŕtačky](https://eshop.marosko.sk/c/nastroje-do-vrtacky): Brúsne, vŕtacie, frézovacie a ostriace nadstavce
+- [Nástroje do priamej brúsky + SABURRTOOTH](https://eshop.marosko.sk/c/prislusenstva-do-priamej-brusky-frezky): Ihličkové frézky USA v stopkách 2,4–6,4 mm
+- [Nástroje do mini frézky Ø 50 mm](https://eshop.marosko.sk/c/mini-kotuce-pre-mini-frezky-50): Saburrtooth, Manpa, Merlin, Arbortech
+- [Elektrické náradie](https://eshop.marosko.sk/c/elektricke-naradie-pre-rezbarov): Arbortech, Extol, Kirjes, Proxxon, Silverline, Tuson, TOTAL
+- [Akumulátorové náradie](https://eshop.marosko.sk/c/akumulatorove-naradie): Brúsky a píly na batériu
+- [Novinky v ponuke náradia](https://eshop.marosko.sk/c/novinky-pre-rezbarov-naradie): Najnovšie produkty
+- [Literatúra – Rezba motorovou pílou](https://eshop.marosko.sk/c/literatura-rezba-motorovou-pilou-shop): Knihy a návody
+- [Brúsne výseky na mieru](https://eshop.marosko.sk/c/brusne-vyseky-brusny-papier-platno): Priemery 50–600 mm, podklady pod suchý zips
+- [ARBORTECH](https://eshop.marosko.sk/c/naradie-arbortech-shop-slovensko): Kompletná ponuka značky Arbortech vrátane náhradných dielov
+- [Na veľké projekty](https://eshop.marosko.sk/c/naradie-pre-rezbarov): Náradie pre rozsiahlejšie práce
+- [Ručné náradie](https://eshop.marosko.sk/c/rucne-naradie): Rezbárske a tesárske dláta, nože, pilníky, rydlá
+- [Nátery, tmely, brusivá](https://eshop.marosko.sk/c/lak-selak-natery-tmely-brusiva-pripravky-na-drevo): Šelaky, moridlá, živice, vosky
+- [Ochranné pomôcky](https://eshop.marosko.sk/c/ochranne-pomocky-pri-praci): Ochrana tváre, rúk, tela, pracovná obuv
+- [Výmenné náhradné diely](https://eshop.marosko.sk/c/nahradne-noze-nastrojov-diely-arbortech): Diely Manpa a Arbortech
+- [Podstavce, upínacie stroje](https://eshop.marosko.sk/c/zveraky-svorky-drziaky-vrtacky-naradie): Zveráky, svorky, držiaky
+- [Výtvarnícke lišty carvingové](https://eshop.marosko.sk/c/listy-carvingove-vytvarnicke)
+- [Vzduchové náradie](https://eshop.marosko.sk/c/vzduchove-naradie): Pneumatické brúsky, píly, dláto
+- [Naše tipy](https://eshop.marosko.sk/c/tipy-pre-zaciatocnika-rezbarskeho-umenia): Rady pre rezbárskych začiatočníkov
+- [Akcia / výpredaj](https://eshop.marosko.sk/c/akcia-naradie-vypredaj)
+- [Black Friday](https://eshop.marosko.sk/c/black-friday-naradie)
+- [Záhrada – sezónna ponuka](https://eshop.marosko.sk/c/prislusenstvo-do-zahrady)
+- [Stopkové nástroje](https://eshop.marosko.sk/c/stopkove-nastroje)
 
 ## Sociálne siete
-- [Facebook](https://www.facebook.com/eshop.marosko.sk/)
+- [Facebook](https://www.facebook.com/eshop.marosko.sk)
 - [Instagram](https://www.instagram.com/eshop.marosko/)
-- [LinkedIn](https://www.linkedin.com/in/eshop-marosko-b7964a304/)
-- [Pinterest](https://sk.pinterest.com/eshopmarosko)
-- [X](https://x.com/vercajcheu)
-- [YouTube](https://www.youtube.com/@eshop-marosko)
+- [Pinterest](https://sk.pinterest.com/eshopmarosko/)
+- [YouTube](https://www.youtube.com/channel/UCpLRGR13Ljdhz4fF3BXgmEQ)
+
+## Jazykové verzie
+- Slovenčina (predvolená)
+- [Čeština](https://eshop.marosko.sk/cz/mapa-stranok)
+- [Rumunčina](https://eshop.marosko.sk/ro/harta-site-ului)
