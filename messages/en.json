@@ -213,6 +213,53 @@
       "img10": "AKKO milling disc – side view of the profile and blades",
       "img11": "Close-up of carving work with a milling disc on wood",
       "img12": "AKKO ASDM-RD1003-D115-A22-Z04 milling disc"
+    },
+    "planing": {
+      "title": "Planing Tools",
+      "short": "Blade-style planing discs and attachments from Arbortech for shaping, hollowing, and smoothing wood.",
+      "viewAll": "View all products ({count})",
+      "description": "Blade-style planing tools and angle-grinder discs from the Australian manufacturer Arbortech - great for shaping wooden sculptures and bowls, flattening surfaces, texturing, and hollowing out cavities.",
+      "cta": "View in the shop",
+      "products": {
+        "arbortechBallGouge": {
+          "title": "Arbortech Ball Gouge – hollowing carver",
+          "description": "A carving tool for easily creating smooth, hollow, rounded shapes in wood and plastic. Great for carving wooden spoons, small bowls, or fine details."
+        },
+        "arbortechTurboPlane": {
+          "title": "Arbortech Turbo Plane – planing disc",
+          "description": "Turns an angle grinder into a shaping and planing tool. Removes wood faster than coarse sandpaper while leaving a smooth, tear-free surface. Great for sculptures, bowls, boats, and routing grooves. The three carbide blades can be re-sharpened."
+        },
+        "arbortechWoodcarverProfiIndustrial": {
+          "title": "Arbortech Woodcarver PROFI-INDUSTRIAL – milling disc",
+          "description": "A professional milling disc for heavy material removal when hollowing, milling, shaping, or cutting wood. The Ø 8 mm carbide teeth last a long time without sharpening – when worn, simply rotate or replace them."
+        },
+        "arbortechWoodcarverProfiIndustrialKryt": {
+          "title": "Arbortech Woodcarver PROFI-INDUSTRIAL – with guard",
+          "description": "A very fast, effective tool for hollowing, milling, shaping, or cutting wood, in a version with a protective guard."
+        },
+        "akkoFrezovaciKotuc": {
+          "title": "AKKO Tools – milling disc",
+          "description": "A very fast, effective disc for hollowing, milling, shaping, or cutting wood."
+        },
+        "arbortechPrecisionCarvingSystem": {
+          "title": "Arbortech Precision Carving System – kit",
+          "description": "A precision carving system that turns an angle grinder into a detailed carving workshop. A set of interchangeable tools (Ø 15-16 mm arbor) for shaping, texturing, and sanding wood, ice, or plastic – ideal for hollows in spoons, bowls, vases, or detail work."
+        },
+        "arbortechTurboScraper": {
+          "title": "Arbortech Turbo Scraper 100 mm – turbo scraper",
+          "description": "A disc designed to minimize tear-out and splintering thanks to its negative cutting angle. Glides gently across the wood for a flawless result even on demanding projects."
+        },
+        "arbortechSpheroPlane": {
+          "title": "Arbortech SpheroPlane – milling attachment with sanding system",
+          "description": "New from Arbortech - creates a round wooden bowl or sphere without needing a lathe."
+        }
+      }
+    },
+    "productCta": "View product",
+    "badges": {
+      "top": "Top Product of the Month",
+      "sale": "Sale",
+      "topSale": "Top Product of the Month · Sale"
     }
   },
   "blog": {
