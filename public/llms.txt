@@ -1,0 +1,66 @@
+# Marián s.r.o. – marosko.sk
+
+> Prezentačný web rodinnej firmy Marián s.r.o., ktorá sa od roku 2013
+> špecializuje na značkové rezbárske a drevoobrábacie náradie (Arbortech,
+> Manpa, Saburrtooth a ďalšie). Táto stránka predstavuje firmu, jej
+> sortiment a predajné kanály – samotný nákup prebieha na prepojených
+> e-shopoch, predovšetkým eshop.marosko.sk.
+
+## Firma
+- Marián s.r.o., Vrádište 138, 908 49 Vrádište, Slovensko
+- IČO: 47546298, DIČ: 2023992916, IČ DPH: SK2023992916
+- Telefón (otázky k produktom): +421 915 723 250
+- Telefón (expedícia, stav skladu): +421 949 584 525
+- Email: eshop.marosko@gmail.com
+- Orgán dozoru: Inšpektorát SOI pre Trnavský kraj, Pekárska 23, 917 01 Trnava 1
+
+## Naše e-shopy
+- [eshop.marosko.sk](https://eshop.marosko.sk): Hlavný e-shop – rezbárske a drevoobrábacie náradie, doprava zdarma nad 150 €
+- [Vercajch.eu](https://vercajch.eu)
+- [RezbárskeNáradie.sk](https://rezbarskenaradie.sk)
+
+## Hlavné stránky
+
+### Slovenčina (predvolená)
+- [Domov](https://marosko.sk/): Frézovacie kotúče, rezbárske dláta a elektrické náradie značiek Arbortech, Manpa a Saburrtooth. Rodinná firma na trhu od roku 2013.
+- [O nás](https://marosko.sk/o-nas): Sme rodinná firma, ktorá sa od roku 2013 špecializuje na značkové rezbárske a drevoobrábacie náradie. Príbeh firmy a značky, ktoré ponúkame.
+- [Kategórie náradia](https://marosko.sk/kategorie): Kompletný prehľad kategórií rezbárskeho a drevoobrábacieho náradia – frézovacie kotúče, ručné aj elektrické náradie a príslušenstvo.
+- [Galéria](https://marosko.sk/galeria): Fotogaléria nášho náradia – ukážky frézovacích kotúčov a ďalších produktov z našej ponuky.
+- [Blog](https://marosko.sk/blog): Novinky, tipy a predstavenie náradia z nášho e-shopu eshop.marosko.sk.
+- [Naše obchody](https://marosko.sk/obchody): Prehľad všetkých našich e-shopov – eshop.marosko.sk, Vercajch.eu a RezbárskeNáradie.sk.
+- [Kontakt](https://marosko.sk/kontakt): Kontaktné a fakturačné údaje spoločnosti Marián s.r.o.
+
+### Čeština
+- [Domů](https://marosko.sk/cz): Frézovací kotouče, řezbářská dláta a elektrické nářadí značek Arbortech, Manpa a Saburrtooth. Rodinná firma na trhu od roku 2013.
+- [O nás](https://marosko.sk/cz/o-nas): Jsme rodinná firma, která se od roku 2013 specializuje na značkové řezbářské a dřevoobráběcí nářadí. Příběh firmy a značky, které nabízíme.
+- [Kategorie nářadí](https://marosko.sk/cz/kategorie): Kompletní přehled kategorií řezbářského a dřevoobráběcího nářadí – frézovací kotouče, ruční i elektrické nářadí a příslušenství.
+- [Galerie](https://marosko.sk/cz/galeria): Fotogalerie našeho nářadí – ukázky frézovacích kotoučů a dalších produktů z naší nabídky.
+- [Blog](https://marosko.sk/cz/blog): Novinky, tipy a představení nářadí z našeho e-shopu eshop.marosko.sk.
+- [Naše obchody](https://marosko.sk/cz/obchody): Přehled všech našich e-shopů – eshop.marosko.sk, Vercajch.eu a RezbárskeNáradie.sk.
+- [Kontakt](https://marosko.sk/cz/kontakt): Kontaktní a fakturační údaje společnosti Marián s.r.o.
+
+### English
+- [Home](https://marosko.sk/en): Milling discs, carving chisels, and power tools from Arbortech, Manpa, and Saburrtooth. A family business since 2013.
+- [About Us](https://marosko.sk/en/o-nas): We're a family business specializing in branded woodcarving and woodworking tools since 2013. Our story and the brands we carry.
+- [Tool Categories](https://marosko.sk/en/kategorie): A complete overview of our woodcarving and woodworking tool categories – milling discs, hand and power tools, and accessories.
+- [Gallery](https://marosko.sk/en/galeria): A photo gallery of our tools – browse milling discs and other products from our range.
+- [Blog](https://marosko.sk/en/blog): News, tips and tool spotlights from our e-shop eshop.marosko.sk.
+- [Our Shops](https://marosko.sk/en/obchody): An overview of all our e-shops – eshop.marosko.sk, Vercajch.eu, and RezbárskeNáradie.sk.
+- [Contact](https://marosko.sk/en/kontakt): Contact and billing details for Marián s.r.o.
+
+### Română
+- [Acasă](https://marosko.sk/ro): Discuri de frezat, dălți de cioplit și unelte electrice de la Arbortech, Manpa și Saburrtooth. Afacere de familie din 2013.
+- [Despre noi](https://marosko.sk/ro/o-nas): Suntem o afacere de familie specializată din 2013 în unelte de marcă pentru cioplit și prelucrarea lemnului. Povestea noastră și mărcile pe care le oferim.
+- [Categorii de unelte](https://marosko.sk/ro/kategorie): O prezentare completă a categoriilor noastre de unelte pentru cioplit și prelucrarea lemnului – discuri de frezat, unelte manuale și electrice și accesorii.
+- [Galerie](https://marosko.sk/ro/galeria): O galerie foto cu uneltele noastre – discuri de frezat și alte produse din gama noastră.
+- [Blog](https://marosko.sk/ro/blog): Noutăți, sfaturi și prezentări de unelte din magazinul nostru online eshop.marosko.sk.
+- [Magazinele noastre](https://marosko.sk/ro/obchody): O prezentare a tuturor magazinelor noastre online – eshop.marosko.sk, Vercajch.eu și RezbárskeNáradie.sk.
+- [Contact](https://marosko.sk/ro/kontakt): Date de contact și facturare pentru Marián s.r.o.
+
+## Sociálne siete
+- [Facebook](https://www.facebook.com/eshop.marosko.sk/)
+- [Instagram](https://www.instagram.com/eshop.marosko/)
+- [LinkedIn](https://www.linkedin.com/in/eshop-marosko-b7964a304/)
+- [Pinterest](https://sk.pinterest.com/eshopmarosko)
+- [X](https://x.com/vercajcheu)
+- [YouTube](https://www.youtube.com/@eshop-marosko)
