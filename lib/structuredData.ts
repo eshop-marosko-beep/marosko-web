@@ -26,7 +26,6 @@ export function buildOrganizationSchema() {
     logo: LOGO_URL,
     foundingDate: "2013",
     address: ADDRESS,
-    geo: GEO,
     vatID: "SK2023992916",
     taxID: "2023992916",
     identifier: "47546298",
