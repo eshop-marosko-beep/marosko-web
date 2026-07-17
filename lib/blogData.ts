@@ -92,7 +92,13 @@ export const blogPosts: BlogPost[] = [
     image: "/blog/arbortech-turbo-plane.png",
     translationKey: "arbortechTurboPlane",
   },
-  { slug: "manpa-novinky-frezky-trojuholnikove", title: "Manpa novinky – trojuholníkové frézky", url: "https://eshop.marosko.sk/n/manpa-novinky-frezky-trojuholnikove" },
+  {
+    slug: "manpa-novinky-frezky-trojuholnikove",
+    title: "Manpa 3-zubá frézka s trojuholníkovým profilom, Ø 100 mm",
+    url: "https://eshop.marosko.sk/n/manpa-novinky-frezky-trojuholnikove",
+    image: "/blog/manpa-3-zuba-frezka-trojuholnikova.png",
+    translationKey: "manpaTrojuholnikovaFrezka",
+  },
   {
     slug: "frezovaci-kotuc-do-uhlovej-brusky-arbortech-woodcarver-profi-industrial",
     title: "Frézovací kotúč Arbortech Woodcarver PROFI-INDUSTRIAL",
