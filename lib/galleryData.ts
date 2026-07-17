@@ -50,7 +50,11 @@ export const galleryCategories: GalleryCategory[] = [
         altKey: "img8",
         productUrl: "https://eshop.marosko.sk/p/975/3-zuba-freza-s-10-mm-stvorcovym-profilom-zuba-priemer-70mm",
       },
-      { src: "/gallery/frezovaci-kotuc-v-praxi-uhlova-bruska.jpg", altKey: "img9" },
+      {
+        src: "/gallery/frezovaci-kotuc-v-praxi-uhlova-bruska.jpg",
+        altKey: "img9",
+        productUrl: "https://eshop.marosko.sk/p/722/4-zuba-freza-s-10-mm-stvorcovym-profilom-priemer-95-mm",
+      },
       { src: "/gallery/akko-frezovaci-kotuc-bocny-pohlad.jpg", altKey: "img10" },
       {
         src: "/gallery/frezovaci-kotuc-detail-rezbarska-praca.jpg",
