@@ -53,7 +53,11 @@ export const galleryCategories: GalleryCategory[] = [
       { src: "/gallery/frezovaci-kotuc-v-praxi-uhlova-bruska.jpg", altKey: "img9" },
       { src: "/gallery/akko-frezovaci-kotuc-bocny-pohlad.jpg", altKey: "img10" },
       { src: "/gallery/frezovaci-kotuc-detail-rezbarska-praca.jpg", altKey: "img11" },
-      { src: "/gallery/akko-asdm-rd1003-frezovaci-kotuc.jpg", altKey: "img12" },
+      {
+        src: "/gallery/akko-asdm-rd1003-frezovaci-kotuc.jpg",
+        altKey: "img12",
+        productUrl: "https://eshop.marosko.sk/p/362/frezovaci-kotuc-profi-4-zuby-akko",
+      },
     ],
   },
 ];
