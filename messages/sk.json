@@ -213,6 +213,53 @@
       "img10": "Frézovací kotúč AKKO – bočný pohľad na profil a nože",
       "img11": "Detail rezbárskej práce s frézovacím kotúčom na dreve",
       "img12": "Frézovací kotúč AKKO ASDM-RD1003-D115-A22-Z04"
+    },
+    "planing": {
+      "title": "Hobľovacie náradie",
+      "short": "Žiletkové hobľovacie kotúče a nástavce Arbortech na tvarovanie, hĺbenie a hladenie dreva.",
+      "viewAll": "Zobraziť všetky produkty ({count})",
+      "description": "Žiletkové hobľovacie nástroje a kotúče do uhlovej brúsky od austrálskeho výrobcu Arbortech - uplatnia sa pri opracovaní drevených sôch, misiek, rovnaní povrchov, štruktúrovaní a hĺbení dutín.",
+      "cta": "Zobraziť v e-shope",
+      "products": {
+        "arbortechBallGouge": {
+          "title": "Arbortech Ball Gouge – hobľovacia gulička",
+          "description": "Fréza určená na jednoduché vytváranie hladkých, dutých a zaoblených tvarov v dreve a plaste. Ideálna napríklad na výrobu drevených lyžíc, malých misiek alebo detailov pri rezbárstve."
+        },
+        "arbortechTurboPlane": {
+          "title": "Arbortech Turbo Plane – hobľovací kotúč",
+          "description": "Premieňa uhlovú brúsku na tvarovací hobľovací stroj. Uberá drevo rýchlejšie než hrubý brúsny papier, pri zachovaní hladkého povrchu bez triesok. Ideálny na sochy, misky, člny aj frézovanie drážok. Tri tvrdokovové žiletky sa dajú znova doostriť."
+        },
+        "arbortechWoodcarverProfiIndustrial": {
+          "title": "Arbortech Woodcarver PROFI-INDUSTRIAL – frézovací kotúč",
+          "description": "Profesionálny frézovací kotúč na veľký úber materiálu pri dlabaní, frézovaní, tvarovaní aj rezaní dreva. Tvrdokovové zuby Ø 8 mm majú dlhú životnosť bez potreby ostrenia – pri opotrebovaní sa jednoducho pootočia alebo vymenia."
+        },
+        "arbortechWoodcarverProfiIndustrialKryt": {
+          "title": "Arbortech Woodcarver PROFI-INDUSTRIAL – s krytom",
+          "description": "Veľmi rýchly a účinný nástroj na dlabanie, frézovanie, tvarovanie alebo rezanie dreva, vo verzii s ochranným krytom."
+        },
+        "akkoFrezovaciKotuc": {
+          "title": "AKKO Tools – frézovací kotúč",
+          "description": "Veľmi rýchly a účinný kotúč na dlabanie, frézovanie, tvarovanie alebo rezanie dreva."
+        },
+        "arbortechPrecisionCarvingSystem": {
+          "title": "Arbortech Precision Carving System – sada",
+          "description": "Precízny rezbársky systém, ktorý premení uhlovú brúsku na detailnú rezbársku dielňu. Sada výmenných nástrojov (unášač Ø 15-16 mm) na tvarovanie, textúrovanie a brúsenie dreva, ľadu či plastu – vhodná na dutiny v lyžiciach, miskách, vázach či modelovanie detailov."
+        },
+        "arbortechTurboScraper": {
+          "title": "Arbortech Turbo Scraper 100 mm – turbo škrabka",
+          "description": "Kotúč navrhnutý na minimalizovanie trhania a štiepenia vlákien vďaka negatívnemu uhlu rezu. Jemne kĺže po dreve a zaisťuje bezchybný výsledok aj pri zložitých projektoch."
+        },
+        "arbortechSpheroPlane": {
+          "title": "Arbortech SpheroPlane – frézovací nástavec so systémom brúsenia",
+          "description": "Novinka od Arbortechu - vytvorí guľatú drevenú misku alebo guľu bez potreby sústruhu."
+        }
+      }
+    },
+    "productCta": "Zobraziť produkt",
+    "badges": {
+      "top": "TOP produkt mesiaca",
+      "sale": "Akcia",
+      "topSale": "TOP produkt mesiaca · Akcia"
     }
   },
   "blog": {

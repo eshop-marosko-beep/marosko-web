@@ -213,6 +213,53 @@
       "img10": "Disc de frezat AKKO – vedere laterală a profilului și cuțitelor",
       "img11": "Detaliu al lucrului de cioplit cu discul de frezat pe lemn",
       "img12": "Disc de frezat AKKO ASDM-RD1003-D115-A22-Z04"
+    },
+    "planing": {
+      "title": "Unelte de rindeluit",
+      "short": "Discuri și accesorii de rindeluit cu lame de la Arbortech, pentru modelarea, scobirea și netezirea lemnului.",
+      "viewAll": "Vezi toate produsele ({count})",
+      "description": "Unelte de rindeluit cu lame și discuri pentru polizor unghiular de la producătorul australian Arbortech - potrivite pentru prelucrarea sculpturilor și bolurilor din lemn, nivelarea suprafețelor, texturare și scobirea cavităților.",
+      "cta": "Vezi în magazin",
+      "products": {
+        "arbortechBallGouge": {
+          "title": "Arbortech Ball Gouge – daltă sferică de scobit",
+          "description": "Unealtă pentru crearea ușoară a unor forme netede, scobite și rotunjite în lemn și plastic. Ideală, de exemplu, pentru linguri din lemn, boluri mici sau detalii de sculptură."
+        },
+        "arbortechTurboPlane": {
+          "title": "Arbortech Turbo Plane – disc de rindeluit",
+          "description": "Transformă polizorul unghiular într-o mașină de modelat și rindeluit. Îndepărtează lemnul mai rapid decât hârtia abrazivă grosieră, păstrând o suprafață netedă, fără așchii. Ideal pentru sculpturi, boluri, bărci și frezarea canalelor. Cele trei lame din carbură pot fi reascuțite."
+        },
+        "arbortechWoodcarverProfiIndustrial": {
+          "title": "Arbortech Woodcarver PROFI-INDUSTRIAL – disc de frezat",
+          "description": "Disc profesional de frezat pentru îndepărtarea rapidă a materialului la scobirea, frezarea, modelarea și tăierea lemnului. Dinții din carbură Ø 8 mm au o durată de viață lungă, fără a fi nevoie de ascuțire – la uzură se rotesc sau se înlocuiesc pur și simplu."
+        },
+        "arbortechWoodcarverProfiIndustrialKryt": {
+          "title": "Arbortech Woodcarver PROFI-INDUSTRIAL – cu apărătoare",
+          "description": "Unealtă foarte rapidă și eficientă pentru scobirea, frezarea, modelarea sau tăierea lemnului, în versiunea cu apărătoare de protecție."
+        },
+        "akkoFrezovaciKotuc": {
+          "title": "AKKO Tools – disc de frezat",
+          "description": "Disc foarte rapid și eficient pentru scobirea, frezarea, modelarea sau tăierea lemnului."
+        },
+        "arbortechPrecisionCarvingSystem": {
+          "title": "Arbortech Precision Carving System – set",
+          "description": "Sistem de sculptură de precizie care transformă polizorul unghiular într-un atelier de sculptură detaliată. Set de unelte interschimbabile (ax Ø 15-16 mm) pentru modelarea, texturarea și șlefuirea lemnului, gheții sau plasticului – potrivit pentru scobituri în linguri, boluri, vaze sau modelarea detaliilor."
+        },
+        "arbortechTurboScraper": {
+          "title": "Arbortech Turbo Scraper 100 mm – racletă turbo",
+          "description": "Disc conceput pentru a minimiza smulgerea și așchierea fibrelor datorită unghiului de tăiere negativ. Alunecă ușor pe lemn și asigură un rezultat impecabil chiar și la proiecte complexe."
+        },
+        "arbortechSpheroPlane": {
+          "title": "Arbortech SpheroPlane – accesoriu de frezat cu sistem de șlefuire",
+          "description": "Noutate de la Arbortech - creează un bol sau o sferă rotundă din lemn fără a fi nevoie de strung."
+        }
+      }
+    },
+    "productCta": "Vezi produsul",
+    "badges": {
+      "top": "Produsul lunii",
+      "sale": "Reducere",
+      "topSale": "Produsul lunii · Reducere"
     }
   },
   "blog": {
