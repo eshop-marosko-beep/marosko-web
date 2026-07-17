@@ -52,7 +52,11 @@ export const galleryCategories: GalleryCategory[] = [
       },
       { src: "/gallery/frezovaci-kotuc-v-praxi-uhlova-bruska.jpg", altKey: "img9" },
       { src: "/gallery/akko-frezovaci-kotuc-bocny-pohlad.jpg", altKey: "img10" },
-      { src: "/gallery/frezovaci-kotuc-detail-rezbarska-praca.jpg", altKey: "img11" },
+      {
+        src: "/gallery/frezovaci-kotuc-detail-rezbarska-praca.jpg",
+        altKey: "img11",
+        productUrl: "https://eshop.marosko.sk/p/721/3-zuba-freza-s-12-mm-trojuholnikovym-profilom-priemer-70-mm",
+      },
       {
         src: "/gallery/akko-asdm-rd1003-frezovaci-kotuc.jpg",
         altKey: "img12",
