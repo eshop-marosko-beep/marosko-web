@@ -58,20 +58,36 @@ export default async function GalleryCategoryPage({
         {t(`${translationKey}.description`)}
       </p>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        {images.map(({ src, altKey }) => (
-          <div
-            key={src}
-            className="relative bg-white border border-gray-200 rounded-lg h-40 overflow-hidden"
-          >
+        {images.map(({ src, altKey, productUrl }) => {
+          const image = (
             <Image
               src={src}
               alt={t(`${translationKey}.${altKey}`)}
               fill
               sizes="(min-width: 768px) 20vw, 50vw"
-              className="object-contain p-2"
+              className="object-contain p-2 group-hover:scale-105 transition-transform"
             />
-          </div>
-        ))}
+          );
+
+          return productUrl ? (
+            <a
+              key={src}
+              href={productUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative bg-white border border-gray-200 rounded-lg h-40 overflow-hidden hover:border-amber-300 hover:shadow-md transition-all"
+            >
+              {image}
+            </a>
+          ) : (
+            <div
+              key={src}
+              className="relative bg-white border border-gray-200 rounded-lg h-40 overflow-hidden"
+            >
+              {image}
+            </div>
+          );
+        })}
       </div>
       <a
         href={eshopUrl}

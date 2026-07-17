@@ -1,6 +1,7 @@
 export type GalleryImage = {
   src: string;
   altKey: string;
+  productUrl?: string;
 };
 
 export type GalleryCategory = {
@@ -17,10 +18,26 @@ export const galleryCategories: GalleryCategory[] = [
     eshopUrl:
       "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky/nastroje-do-uhlovych-brusiek-na-drevo/frezovacie-naradie-do-uhlovych-brusok",
     images: [
-      { src: "/gallery/arbortech-industrial-woodcarver.jpg", altKey: "img1" },
-      { src: "/gallery/pirana-prano-frezovaci-kotuc.jpg", altKey: "img2" },
-      { src: "/gallery/presny-frezovaci-kotuc-8mm.jpg", altKey: "img3" },
-      { src: "/gallery/manpa-vymenitelne-noze-95mm.jpg", altKey: "img4" },
+      {
+        src: "/gallery/arbortech-industrial-woodcarver.jpg",
+        altKey: "img1",
+        productUrl: "https://eshop.marosko.sk/p/156/arbortech-industrial-wodcarver-profi-industrial-frezovanie",
+      },
+      {
+        src: "/gallery/pirana-prano-frezovaci-kotuc.jpg",
+        altKey: "img2",
+        productUrl: "https://eshop.marosko.sk/p/807/frezovaci-kotuc-pirana-110-mm",
+      },
+      {
+        src: "/gallery/presny-frezovaci-kotuc-8mm.jpg",
+        altKey: "img3",
+        productUrl: "https://eshop.marosko.sk/p/1237/4-zuba-freza-s-8-mm-gulatym-profilom-priemer-95-mm",
+      },
+      {
+        src: "/gallery/manpa-vymenitelne-noze-95mm.jpg",
+        altKey: "img4",
+        productUrl: "https://eshop.marosko.sk/p/722/4-zuba-freza-s-10-mm-stvorcovym-profilom-priemer-95-mm",
+      },
       { src: "/gallery/manpa-frezovaci-kotuc-70mm.jpg", altKey: "img5" },
       { src: "/gallery/manpa-sada-velkosti-a.jpg", altKey: "img6" },
       { src: "/gallery/manpa-sada-velkosti-b.jpg", altKey: "img7" },
