@@ -235,6 +235,12 @@ export const blogPosts: BlogPost[] = [
     image: "https://eshop.marosko.sk/resize/e/1098/1098/files/na-drevo/arbortech/-vyrp12-363turboshaft-na-flexe-web.jpg",
     translationKey: "frezovaciaStopkaTurboshaft",
   },
-  { slug: "ihlickova-raspla-gulata-bez-otvorov-pr100mm-hruba", title: "Ihličková rašpľa guľatá, bez otvorov, priemer 100 mm, hrubá", url: "https://eshop.marosko.sk/n/ihlickova-raspla-gulata-bez-otvorov-pr100mm-hruba" },
+  {
+    slug: "ihlickova-raspla-gulata-bez-otvorov-pr100mm-hruba",
+    title: "Ihličková rašpľa guľatá, bez otvorov, priemer 100 mm, hrubá (zelená)",
+    url: "https://eshop.marosko.sk/n/ihlickova-raspla-gulata-bez-otvorov-pr100mm-hruba",
+    image: "https://eshop.marosko.sk/resize/e/1098/1098/files/na-drevo/do-uhlovych-brusok/brusne/rasple/bodlinova-raspla-gulata-drsna.jpg",
+    translationKey: "ihlickovaRasplaGulataHruba",
+  },
   { slug: "ihlickova-raspla-gulata-bez-otvoru-pr100mm-drsna", title: "Ihličková rašpľa guľatá, bez otvoru, priemer 100 mm, drsná", url: "https://eshop.marosko.sk/n/ihlickova-raspla-gulata-bez-otvoru-pr100mm-drsna" },
 ];
