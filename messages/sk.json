@@ -331,6 +331,22 @@
       "arbortechPowerChisel": {
         "title": "Arbortech Power Chisel – elektrické dláto, 7-dielna sada",
         "description": "Elektrické dláto novej generácie spájajúce silu elektrického pohonu s jemnosťou ručného opracovania dreva. 7-dielna sada s rýchlou výmenou čepelí, vhodná na detailné vyrezávanie aj hrubšie opracovanie."
+      },
+      "hriadelDoLestickyKotuc": {
+        "title": "Hriadeľ do leštičky určený pre kotúč",
+        "description": "Univerzálny unášač kotúča so závitom M14, ktorý premení uhlovú brúsku alebo leštičku na leštiaci systém pre kotúče FlexTrim. Vhodný na doleštenie veľkých oblých plôch. Parametre: závit M14, priemer upnutia 50 mm, dĺžka 118 mm, 1,8 kg."
+      },
+      "brusnySystemFlexTrim": {
+        "title": "Brúsny systém (Leštiaci štetinový kotúč FlexTrim)",
+        "description": "Priemyselný leštiaci kotúč FlexTrim prispôsobený pre remeselnícku prácu – rýchlo a efektívne vyleští veľké rovné aj zakrivené plochy. Priemer kotúča 30 cm, šírka 12 cm, upnutie M14. Súčasťou sady je predlžovací hriadeľ pre lepší dosah."
+      },
+      "hlbiaceZvonkoveFrezy": {
+        "title": "Hĺbiace zvonkové frézy",
+        "description": "Špecializované frézy so zvonkovým tvarom na vytváranie hlbokých dutín a zaoblených výrezov v dreve – ideálne pre umelecké drevorezby, misky, sedadlá či dekoratívne prvky. Kompatibilné s nástrojmi Manpa, odporúča sa použiť s predlžovacím držiakom Grinder Holder. Priemery od 45 mm do 75 mm."
+      },
+      "drazkovaciaFrezovaciaStopka": {
+        "title": "Drážkovacia frézovacia stopka, priemer 20 mm",
+        "description": "Manpa Crack Cutter – frézovacia stopka do uhlovej brúsky s priemerom 20 mm a celkovou dĺžkou 200 mm. Vhodná na presné drážky pre spojenie dosiek, vloženie skla či dekoračné účely, aj na prácu v úzkych, ťažko dostupných miestach."
       }
     }
   },
