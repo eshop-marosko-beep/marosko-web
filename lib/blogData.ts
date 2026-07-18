@@ -150,8 +150,20 @@ export const blogPosts: BlogPost[] = [
     translationKey: "drazkovaciaFrezovaciaStopka",
   },
   { slug: "kotucova-sekana-raspla-pre-arbortech-okruhla-mini-grinder-a-merlin-50-mm", title: "Kotúčová sekaná rašpľa pre Arbortech Mini Grinder a Merlin, 50 mm", url: "https://eshop.marosko.sk/n/kotucova-sekana-raspla-pre-arbortech-okruhla-mini-grinder-a-merlin-50-mm" },
-  { slug: "brusny-hribik-na-dokoncovacie-prace", title: "Brúsny hríbik na dokončovacie práce", url: "https://eshop.marosko.sk/n/brusny-hribik-na-dokoncovacie-prace" },
-  { slug: "predlzovacie-rameno-s-viacucelovym-nadstavcom", title: "Predlžovacie rameno s viacúčelovým nadstavcom", url: "https://eshop.marosko.sk/n/predlzovacie-rameno-s-viacucelovym-nadstavcom" },
+  {
+    slug: "brusny-hribik-na-dokoncovacie-prace",
+    title: "Brúsny hríbik na dokončovacie práce",
+    url: "https://eshop.marosko.sk/n/brusny-hribik-na-dokoncovacie-prace",
+    image: "https://eshop.marosko.sk/resize/e/1098/1098/files/nastroje-do-priamej-brusky/brusny-hrib/brusny-hribik.jpg",
+    translationKey: "brusnyHribikNaDokoncovacie",
+  },
+  {
+    slug: "predlzovacie-rameno-s-viacucelovym-nadstavcom",
+    title: "Predlžovacie rameno s viacúčelovým nadstavcom",
+    url: "https://eshop.marosko.sk/n/predlzovacie-rameno-s-viacucelovym-nadstavcom",
+    image: "https://eshop.marosko.sk/resize/e/1098/1098/files/manpa/basic-kit/balenie-multi-basic.jpg",
+    translationKey: "predlzovacieRamenoMulticutter",
+  },
   {
     slug: "novinka-od-spolocnosti-arbortech",
     title: "Arbortech Mini Carver 1000W – elektrická frézka",
