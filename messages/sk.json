@@ -375,6 +375,10 @@
       "predlzenieHriadelaM14": {
         "title": "Predĺženie hriadeľa na uhlovej brúske, M14 – M14",
         "description": "Predlžovací nástavec so závitom M14/M14, ktorý umožňuje používať nástroje vo väčšej vzdialenosti od tela uhlovej brúsky – vhodné do ostrých uhlov alebo na dosiahnutie väčšej hĺbky, napr. pri hlbších miskách či vázach."
+      },
+      "arbortechPowerCarvingUnit": {
+        "title": "Arbortech Power Carving Unit",
+        "description": "Elektrická brúska od Arbortech navrhnutá vývojovým oddelením priamo pre optimálne využitie celého príslušenstva Arbortech (rezanie, hobľovanie, brúsenie, frézovanie). Vybavená anti-vibračnou rukoväťou a mäkkým štartom, variabilná rýchlosť pre univerzálne použitie."
       }
     }
   },
