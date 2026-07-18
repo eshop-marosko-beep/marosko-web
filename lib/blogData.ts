@@ -236,7 +236,6 @@ export const blogPosts: BlogPost[] = [
   { slug: "raspla-valcova-120-20-x-222mm-kvo-122", title: "Rašpľa valcová 120 × 20 × 222 mm, KVO 122", url: "https://eshop.marosko.sk/n/raspla-valcova-120-20-x-222mm-kvo-122" },
   { slug: "rasplovy-pilovy-kotuc-125-zapusteny", title: "Rašpľový pílový kotúč 125 mm, zapustený", url: "https://eshop.marosko.sk/n/rasplovy-pilovy-kotuc-125-zapusteny" },
   { slug: "nahradny-vymenny-noz-ball-gouge", title: "Náhradný výmenný nôž Ball Gouge", url: "https://eshop.marosko.sk/n/nahradny-vymenny-noz-ball-gouge" },
-  { slug: "dlata-jednotlive-a-sady-ploche-spicate-gulate-v-ponuke-na-drevo", title: "Dláta jednotlivé a sady – ploché, špicaté, guľaté – v ponuke na drevo", url: "https://eshop.marosko.sk/n/dlata-jednotlive-a-sady-ploche-spicate-gulate-v-ponuke-na-drevo" },
   { slug: "rucne-sekane-rasple", title: "Ručne sekané rašple", url: "https://eshop.marosko.sk/n/rucne-sekane-rasple" },
   { slug: "rasplovy-kotuc-sekany-oblym-okrajom-125-mm-oval", title: "Rašpľový kotúč sekaný, oblým okrajom, 125 mm, ovál", url: "https://eshop.marosko.sk/n/rasplovy-kotuc-sekany-oblym-okrajom-125-mm-oval" },
   { slug: "rasplovy-kotuc-sekany-ostrim-okrajom-125-mm-vecko", title: "Rašpľový kotúč sekaný, ostrým okrajom, 125 mm, véčko", url: "https://eshop.marosko.sk/n/rasplovy-kotuc-sekany-ostrim-okrajom-125-mm-vecko" },
