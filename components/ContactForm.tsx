@@ -116,14 +116,22 @@ export default function ContactForm({
           <div className="rounded-lg overflow-hidden border border-amber-200">
             <iframe
               title={tContact("mapTitle")}
-              src="https://www.google.com/maps?q=Mari%C3%A1n+s.r.o.%2C+Vr%C3%A1di%C5%A1te+138%2C+908+49+Vr%C3%A1di%C5%A1te&output=embed"
+              src="https://www.google.com/maps?q=48.825509,17.188902&z=15&output=embed"
               width="100%"
               height="220"
-              style={{ border: 0 }}
+              style={{ border: 0, pointerEvents: "none" }}
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
           </div>
+          <a
+            href="https://www.google.com/maps?q=48.825509,17.188902"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-center text-amber-700 font-semibold hover:underline"
+          >
+            {tContact("openInMaps")} →
+          </a>
         </div>
       </div>
     </section>
