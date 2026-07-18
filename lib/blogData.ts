@@ -225,7 +225,7 @@ export const blogPosts: BlogPost[] = [
     translationKey: "ihlickovaRasplaPlochaExtraHruba",
   },
   { slug: "ihlickova-raspla-sikma-obla-bez-otvorov-o-100mm-extra-hruba", title: "Ihličková rašpľa šikmá, oblá, bez otvorov, priemer 100 mm, extra hrubá", url: "https://eshop.marosko.sk/n/ihlickova-raspla-sikma-obla-bez-otvorov-o-100mm-extra-hruba" },
-  { slug: "ihlickova-raspla-gulata-bez-otvorov-pr100mm-jemna", title: "Ihličková rašpľa guľatá, bez otvorov, priemer 100 mm, jemná", url: "https://eshop.marosko.sk/n/ihlickova-raspla-gulata-bez-otvorov-pr100mm-jemna" },
+  { slug: "ihlickova-raspla-gulata-bez-otvorov-pr100mm-jemna", title: "Ihličková rašpľa oblá, bez otvorov, priemer 100 mm, jemná", url: "https://eshop.marosko.sk/n/ihlickova-raspla-gulata-bez-otvorov-pr100mm-jemna" },
   {
     slug: "raspla-zapustena-jemna-115mm-rovna-kzr-53",
     title: "Rašpľa zapustená, jemná, 115 mm, rovná (KZR-53)",
@@ -248,10 +248,10 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: "ihlickova-raspla-gulata-bez-otvorov-pr100mm-hruba",
-    title: "Ihličková rašpľa guľatá, bez otvorov, priemer 100 mm, hrubá (zelená)",
+    title: "Ihličková rašpľa oblá, bez otvorov, priemer 100 mm, hrubá (zelená)",
     url: "https://eshop.marosko.sk/n/ihlickova-raspla-gulata-bez-otvorov-pr100mm-hruba",
     image: "https://eshop.marosko.sk/resize/e/1098/1098/files/na-drevo/do-uhlovych-brusok/brusne/rasple/bodlinova-raspla-gulata-drsna.jpg",
     translationKey: "ihlickovaRasplaGulataHruba",
   },
-  { slug: "ihlickova-raspla-gulata-bez-otvoru-pr100mm-drsna", title: "Ihličková rašpľa guľatá, bez otvoru, priemer 100 mm, drsná", url: "https://eshop.marosko.sk/n/ihlickova-raspla-gulata-bez-otvoru-pr100mm-drsna" },
+  { slug: "ihlickova-raspla-gulata-bez-otvoru-pr100mm-drsna", title: "Ihličková rašpľa oblá, bez otvoru, priemer 100 mm, drsná", url: "https://eshop.marosko.sk/n/ihlickova-raspla-gulata-bez-otvoru-pr100mm-drsna" },
 ];
