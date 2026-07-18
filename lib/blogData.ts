@@ -141,7 +141,13 @@ export const blogPosts: BlogPost[] = [
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/nastroje-do-priamej-brusky/stopka-6mm/mega-giga-/6s1.jpg",
     translationKey: "saburrtoothExtremeFrezy",
   },
-  { slug: "arbortech-power-carving-unit", title: "Arbortech Power Carving Unit", url: "https://eshop.marosko.sk/n/arbortech-power-carving-unit" },
+  {
+    slug: "arbortech-power-carving-unit",
+    title: "Arbortech Power Carving Unit",
+    url: "https://eshop.marosko.sk/n/arbortech-power-carving-unit",
+    image: "https://eshop.marosko.sk/resize/e/1098/1098/files/elektricke-naradie/arbortech-novinka/arbortech-power-carving-unit2020-08-21-10-44-55.jpg",
+    translationKey: "arbortechPowerCarvingUnit",
+  },
   {
     slug: "drazkovacia-frezovacia-stopka-pr20mm",
     title: "Drážkovacia frézovacia stopka, priemer 20 mm",
