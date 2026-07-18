@@ -228,7 +228,13 @@ export const blogPosts: BlogPost[] = [
   { slug: "rucne-sekane-rasple", title: "Ručne sekané rašple", url: "https://eshop.marosko.sk/n/rucne-sekane-rasple" },
   { slug: "rasplovy-kotuc-sekany-oblym-okrajom-125-mm-oval", title: "Rašpľový kotúč sekaný, oblým okrajom, 125 mm, ovál", url: "https://eshop.marosko.sk/n/rasplovy-kotuc-sekany-oblym-okrajom-125-mm-oval" },
   { slug: "rasplovy-kotuc-sekany-ostrim-okrajom-125-mm-vecko", title: "Rašpľový kotúč sekaný, ostrým okrajom, 125 mm, véčko", url: "https://eshop.marosko.sk/n/rasplovy-kotuc-sekany-ostrim-okrajom-125-mm-vecko" },
-  { slug: "frezovacia-stopka-turboshaft", title: "Frézovacia stopka Turboshaft", url: "https://eshop.marosko.sk/n/frezovacia-stopka-turboshaft" },
+  {
+    slug: "frezovacia-stopka-turboshaft",
+    title: "Frézovacia stopka Turboshaft",
+    url: "https://eshop.marosko.sk/n/frezovacia-stopka-turboshaft",
+    image: "https://eshop.marosko.sk/resize/e/1098/1098/files/na-drevo/arbortech/-vyrp12-363turboshaft-na-flexe-web.jpg",
+    translationKey: "frezovaciaStopkaTurboshaft",
+  },
   { slug: "ihlickova-raspla-gulata-bez-otvorov-pr100mm-hruba", title: "Ihličková rašpľa guľatá, bez otvorov, priemer 100 mm, hrubá", url: "https://eshop.marosko.sk/n/ihlickova-raspla-gulata-bez-otvorov-pr100mm-hruba" },
   { slug: "ihlickova-raspla-gulata-bez-otvoru-pr100mm-drsna", title: "Ihličková rašpľa guľatá, bez otvoru, priemer 100 mm, drsná", url: "https://eshop.marosko.sk/n/ihlickova-raspla-gulata-bez-otvoru-pr100mm-drsna" },
 ];
