@@ -363,6 +363,10 @@
       "predlzovacieRamenoMulticutter": {
         "title": "Predlžovacie rameno s viacúčelovým nadstavcom",
         "description": "Manpa Multicutter Master – predlžovacie rameno na uhlovú brúsku pre prácu v ťažko dostupných a úzkych priestoroch. Zvyšuje bezpečnosť (bezpečná vzdialenosť od rotujúceho kotúča), jednoduchá inštalácia, robustné antikorózne komponenty a rýchla výmena príslušenstva."
+      },
+      "rustikalnyEfektDreva": {
+        "title": "Rustikálny efekt dreva (kartáčovačka)",
+        "description": "Unášač drôtených prstencov, ktorý sa nasadí priamo na uhlovú brúsku a premení ju na kartáčovačku na drevo – bez nutnosti kupovať samostatný stroj. Na hriadeľ sa navlečie potrebné množstvo kefových krúžkov oddelených dištančnými podložkami, dotiahnutím sa segment zafixuje proti preklzu."
       }
     }
   },

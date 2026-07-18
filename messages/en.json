@@ -363,6 +363,10 @@
       "predlzovacieRamenoMulticutter": {
         "title": "Extension Arm with Multi-Purpose Attachment",
         "description": "Manpa Multicutter Master – an extension arm for angle grinders for working in hard-to-reach, narrow spaces. Improves safety (a safe distance from the spinning disc), easy to install, rugged corrosion-resistant components, and quick accessory changes."
+      },
+      "rustikalnyEfektDreva": {
+        "title": "Rustic Wood Effect (Wire Brush Wheel)",
+        "description": "An arbor for wire-ring segments that mounts directly onto an angle grinder and turns it into a wood wire-brushing tool – no need to buy a separate machine. Slide the required number of brush rings onto the shaft, separated by spacers, then tighten to lock the segment against slipping."
       }
     }
   },

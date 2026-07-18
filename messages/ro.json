@@ -363,6 +363,10 @@
       "predlzovacieRamenoMulticutter": {
         "title": "Braț prelungitor cu accesoriu multifuncțional",
         "description": "Manpa Multicutter Master – braț prelungitor pentru polizor unghiular, pentru lucrul în spații înguste și greu accesibile. Crește siguranța (distanță sigură față de discul rotativ), instalare simplă, componente robuste anticorozive și schimbare rapidă a accesoriilor."
+      },
+      "rustikalnyEfektDreva": {
+        "title": "Efect rustic al lemnului (perie de sârmă)",
+        "description": "Un ax pentru inele de sârmă, care se montează direct pe polizorul unghiular și îl transformă într-o perie de sârmă pentru lemn – fără a fi nevoie să cumperi o mașină separată. Pe ax se introduce numărul necesar de inele-perie, separate prin distanțiere, iar la strângere segmentul se fixează împotriva alunecării."
       }
     }
   },

@@ -171,7 +171,13 @@ export const blogPosts: BlogPost[] = [
     image: "https://eshop.marosko.sk/resize/k/465/310/files/elektricke-naradie/arbortech-novinka/mini-carver/mini-carver-nova-1000w.png",
     translationKey: "arbortechMiniCarver",
   },
-  { slug: "rustikalny-efekt-dreva", title: "Rustikálny efekt dreva", url: "https://eshop.marosko.sk/n/rustikalny-efekt-dreva" },
+  {
+    slug: "rustikalny-efekt-dreva",
+    title: "Rustikálny efekt dreva (kartáčovačka)",
+    url: "https://eshop.marosko.sk/n/rustikalny-efekt-dreva",
+    image: "https://eshop.marosko.sk/resize/e/1098/1098/files/na-drevo/kartacovacie-/ocelove-draty-na-hriadely.jpg",
+    translationKey: "rustikalnyEfektDreva",
+  },
   { slug: "priama-bruska-500w", title: "Priama brúska 500 W", url: "https://eshop.marosko.sk/n/priama-bruska-500w" },
   {
     slug: "suchy-zips-na-mieru",
