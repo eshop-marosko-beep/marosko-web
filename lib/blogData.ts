@@ -217,7 +217,13 @@ export const blogPosts: BlogPost[] = [
   { slug: "mini-raspla-sekana", title: "Mini rašpľa sekaná", url: "https://eshop.marosko.sk/n/mini-raspla-sekana" },
   { slug: "ihlickova-raspla-sikma-obla-bez-otvorov-o-100mm-drsna", title: "Ihličková rašpľa šikmá, oblá, bez otvorov, priemer 100 mm, drsná", url: "https://eshop.marosko.sk/n/ihlickova-raspla-sikma-obla-bez-otvorov-o-100mm-drsna" },
   { slug: "ihlickova-raspla-sikma-obla-bez-otvorov-jemna-100-mm", title: "Ihličková rašpľa šikmá, oblá, bez otvorov, jemná, 100 mm", url: "https://eshop.marosko.sk/n/ihlickova-raspla-sikma-obla-bez-otvorov-jemna-100-mm" },
-  { slug: "ihlickova-raspla-plocha-rovna-o-100mm-extra-hruba", title: "Ihličková rašpľa plochá rovná, priemer 100 mm, extra hrubá", url: "https://eshop.marosko.sk/n/ihlickova-raspla-plocha-rovna-o-100mm-extra-hruba" },
+  {
+    slug: "ihlickova-raspla-plocha-rovna-o-100mm-extra-hruba",
+    title: "Ihličková rašpľa plochá rovná, priemer 100 mm, extra hrubá (oranžová)",
+    url: "https://eshop.marosko.sk/n/ihlickova-raspla-plocha-rovna-o-100mm-extra-hruba",
+    image: "https://eshop.marosko.sk/resize/e/1098/1098/files/rasple-sabur-usa/plocha-rovna-100mm-/ihlickova-raspla-rovna-100mm.jpg",
+    translationKey: "ihlickovaRasplaPlochaExtraHruba",
+  },
   { slug: "ihlickova-raspla-sikma-obla-bez-otvorov-o-100mm-extra-hruba", title: "Ihličková rašpľa šikmá, oblá, bez otvorov, priemer 100 mm, extra hrubá", url: "https://eshop.marosko.sk/n/ihlickova-raspla-sikma-obla-bez-otvorov-o-100mm-extra-hruba" },
   { slug: "ihlickova-raspla-gulata-bez-otvorov-pr100mm-jemna", title: "Ihličková rašpľa guľatá, bez otvorov, priemer 100 mm, jemná", url: "https://eshop.marosko.sk/n/ihlickova-raspla-gulata-bez-otvorov-pr100mm-jemna" },
   {

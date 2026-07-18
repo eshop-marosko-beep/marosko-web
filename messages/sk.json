@@ -395,6 +395,10 @@
       "rasplaZapustenaJemna115mm": {
         "title": "Rašpľa zapustená, jemná, 115 mm, rovná (KZR-53)",
         "description": "Rašpľový kotúč KZR-53 s priemerom 115 mm, upínanie 22,2 mm. Zapustený rovný tvar umožňuje brúsiť až po okraj bez toho, aby prítlačná matica prekážala. Jemný sek – vhodný na odstraňovanie farieb, lakov a lepidiel bez poškodenia podkladu, na drevo, plasty, sklolaminát, gumu aj kožu. Nevhodný na pórobetón."
+      },
+      "ihlickovaRasplaPlochaExtraHruba": {
+        "title": "Ihličková rašpľa plochá rovná, priemer 100 mm, extra hrubá (oranžová)",
+        "description": "Extra hrubá ihličková rašpla Saburrtooth (USA), priemer 100 mm, max. 14 000 ot./min. Rovný tvar ideálny na prácu na rovných plochách (dosky, fošne). Extrémny úber materiálu, tvrdokovové ihličky s dlhou životnosťou. Vhodná na drevo, laminát, plasty, gumu – nie na kov ani kameň."
       }
     }
   },
