@@ -178,7 +178,13 @@ export const blogPosts: BlogPost[] = [
     image: "https://eshop.marosko.sk/resize/e/1098/1098/files/na-drevo/kartacovacie-/ocelove-draty-na-hriadely.jpg",
     translationKey: "rustikalnyEfektDreva",
   },
-  { slug: "priama-bruska-500w", title: "Priama brúska 500 W", url: "https://eshop.marosko.sk/n/priama-bruska-500w" },
+  {
+    slug: "priama-bruska-500w",
+    title: "Priama brúska 500 W (Extol)",
+    url: "https://eshop.marosko.sk/n/priama-bruska-500w",
+    image: "https://eshop.marosko.sk/resize/e/1098/1098/files/elektricke-naradie/priama-bruska-extol.jpg",
+    translationKey: "priamaBruska500w",
+  },
   {
     slug: "suchy-zips-na-mieru",
     title: "Suchý zips – podklad pre šmirgle na mieru",
