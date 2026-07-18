@@ -127,8 +127,20 @@ export const blogPosts: BlogPost[] = [
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/manpa/zvonkove-/frezy-hlbiace.jpg",
     translationKey: "hlbiaceZvonkoveFrezy",
   },
-  { slug: "brusny-papier-vyseky-na-mieru", title: "Brúsny papier – výseky na mieru", url: "https://eshop.marosko.sk/n/brusny-papier-vyseky-na-mieru" },
-  { slug: "saburrtooth-extreme-frezy", title: "Saburrtooth Extreme frézy", url: "https://eshop.marosko.sk/n/saburrtooth-extreme-frezy" },
+  {
+    slug: "brusny-papier-vyseky-na-mieru",
+    title: "Brúsny papier – výseky na mieru",
+    url: "https://eshop.marosko.sk/n/brusny-papier-vyseky-na-mieru",
+    image: "https://eshop.marosko.sk/resize/e/1200/630/files/brusne-vyseky/brusny-papier-300mm/bruska-300mm.jpg",
+    translationKey: "brusnyPapierVysekyNaMieru",
+  },
+  {
+    slug: "saburrtooth-extreme-frezy",
+    title: "Saburrtooth Extreme frézy",
+    url: "https://eshop.marosko.sk/n/saburrtooth-extreme-frezy",
+    image: "https://eshop.marosko.sk/resize/e/1200/630/files/nastroje-do-priamej-brusky/stopka-6mm/mega-giga-/6s1.jpg",
+    translationKey: "saburrtoothExtremeFrezy",
+  },
   { slug: "arbortech-power-carving-unit", title: "Arbortech Power Carving Unit", url: "https://eshop.marosko.sk/n/arbortech-power-carving-unit" },
   {
     slug: "drazkovacia-frezovacia-stopka-pr20mm",
