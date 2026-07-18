@@ -387,6 +387,10 @@
       "frezovaciaStopkaTurboshaft": {
         "title": "Freză Turboshaft",
         "description": "Freza Turboshaft de 20 mm de la Arbortech pentru modelare liberă detaliată, scobire și canelare a lemnului. Doi dinți de tăiere din carbură, interschimbabili și rotativi, opritor de adâncime reglabil, ax mai lung și mai îngust pentru lucrul pe profiluri adânci și înguste. Potrivită pentru polizoare unghiulare de 100/115 mm, minimum 9.000 rot/min."
+      },
+      "ihlickovaRasplaGulataHruba": {
+        "title": "Pilă cu ace rotundă, fără găuri, Ø 100 mm, aspră (verde)",
+        "description": "Pilă cu ace profesională, aspră, de la Saburrtooth (SUA), cu diametru de 100 mm, pentru polizor unghiular, max. 14.000 rot/min. Granulație aspră pentru îndepărtare rapidă a materialului, ace din carbură cu durată lungă de viață, iar spațiul dintre ace previne supraîncălzirea și arderea lemnului. Potrivită pentru lemn, laminat, plastic și cauciuc – nu pentru metal sau piatră."
       }
     }
   },
