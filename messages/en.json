@@ -367,6 +367,10 @@
       "rustikalnyEfektDreva": {
         "title": "Rustic Wood Effect (Wire Brush Wheel)",
         "description": "An arbor for wire-ring segments that mounts directly onto an angle grinder and turns it into a wood wire-brushing tool – no need to buy a separate machine. Slide the required number of brush rings onto the shaft, separated by spacers, then tighten to lock the segment against slipping."
+      },
+      "priamaBruska500w": {
+        "title": "Straight Grinder 500 W (Extol)",
+        "description": "Extol Premium straight grinder with 500 W power and a no-load speed of 28,000 rpm, 6 mm collet, weighing about 1.6 kg. Suited for carving, shaping, and working wood, plastics, and rubber – from rough shaping to fine details, sculptures, busts, and relief carving."
       }
     }
   },
