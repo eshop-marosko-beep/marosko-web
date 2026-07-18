@@ -383,6 +383,10 @@
       "redukciaM146mm": {
         "title": "M14 to 6 mm Adapter (Reducer)",
         "description": "A metal reducer/adapter with an M14 thread for angle grinders and a 6 mm bore – lets you fit smaller shank tools (e.g. needle rasps, fine sanding discs, polishing pads) that are normally made for a drill. Simple screw-on installation, made from quality steel."
+      },
+      "frezovaciaStopkaTurboshaft": {
+        "title": "Turboshaft Milling Bit",
+        "description": "Arbortech's 20 mm Turboshaft milling bit for detailed freehand shaping, hollowing, and grooving of wood. Two replaceable, indexable carbide cutting teeth, adjustable depth stop, and a longer, narrower shaft for working deep, narrow profiles. Fits 100/115 mm angle grinders, minimum 9,000 rpm."
       }
     }
   },

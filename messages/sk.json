@@ -383,6 +383,10 @@
       "redukciaM146mm": {
         "title": "Redukcia M14 na 6 mm (priechodka)",
         "description": "Kovová redukcia (priechodka) so závitom M14 pre uhlovú brúsku, s vnútorným 6mm otvorom – umožňuje pripojiť menšie stopkové nástroje (napr. ihličkové rašple, jemné brúsne kotúče, leštiace podložky), ktoré sú štandardne určené do vŕtačky. Jednoduchá montáž naskrutkovaním, vyrobená z kvalitnej ocele."
+      },
+      "frezovaciaStopkaTurboshaft": {
+        "title": "Frézovacia stopka Turboshaft",
+        "description": "Frézovacia stopka Turboshaft 20 mm od Arbortech na detailné voľné tvarovanie, dlábanie a drážkovanie dreva. Dva vymeniteľné a otočné karbidové rezné zuby, nastaviteľný doraz hĺbky, dlhšia úzka stopka na prácu v hlbokých a úzkych profiloch. Vhodná na uhlové brúsky 100/115 mm, min. 9 000 ot./min."
       }
     }
   },
