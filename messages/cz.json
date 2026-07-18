@@ -395,6 +395,10 @@
       "rasplaZapustenaJemna115mm": {
         "title": "Rašple zapuštěná, jemná, 115 mm, rovná (KZR-53)",
         "description": "Rašplový kotouč KZR-53 s průměrem 115 mm, upnutí 22,2 mm. Zapuštěný rovný tvar umožňuje brousit až po okraj, aniž by přítlačná matice překážela. Jemný sek – vhodný na odstraňování barev, laků a lepidel bez poškození podkladu, na dřevo, plasty, sklolaminát, gumu i kůži. Nevhodný na pórobeton."
+      },
+      "ihlickovaRasplaPlochaExtraHruba": {
+        "title": "Jehličková rašple plochá rovná, průměr 100 mm, extra hrubá (oranžová)",
+        "description": "Extra hrubá jehličková rašple Saburrtooth (USA), průměr 100 mm, max. 14 000 ot./min. Rovný tvar ideální pro práci na rovných plochách (desky, fošny). Extrémní úběr materiálu, tvrdokovové jehličky s dlouhou životností. Vhodná na dřevo, laminát, plasty, gumu – nikoli na kov ani kámen."
       }
     }
   },
