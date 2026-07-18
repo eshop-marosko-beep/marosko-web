@@ -379,6 +379,10 @@
       "arbortechPowerCarvingUnit": {
         "title": "Arbortech Power Carving Unit",
         "description": "Polizor electric de la Arbortech, proiectat de departamentul propriu de dezvoltare special pentru a valorifica la maximum întreaga gamă de accesorii Arbortech (tăiere, rindeluire, șlefuire, frezare). Dotat cu mâner anti-vibrație și pornire lină, cu viteză variabilă pentru utilizare universală."
+      },
+      "redukciaM146mm": {
+        "title": "Adaptor de reducere M14 la 6 mm",
+        "description": "Adaptor metalic de reducere cu filet M14 pentru polizor unghiular, cu alezaj interior de 6 mm – permite montarea unor unelte cu coadă mai mică (de ex. pile ac, discuri abrazive fine, tampoane de lustruit), destinate în mod normal unei bormașini. Montaj simplu prin înșurubare, fabricat din oțel de calitate."
       }
     }
   },
