@@ -379,6 +379,10 @@
       "arbortechPowerCarvingUnit": {
         "title": "Arbortech Power Carving Unit",
         "description": "Elektrická brúska od Arbortech navrhnutá vývojovým oddelením priamo pre optimálne využitie celého príslušenstva Arbortech (rezanie, hobľovanie, brúsenie, frézovanie). Vybavená anti-vibračnou rukoväťou a mäkkým štartom, variabilná rýchlosť pre univerzálne použitie."
+      },
+      "redukciaM146mm": {
+        "title": "Redukcia M14 na 6 mm (priechodka)",
+        "description": "Kovová redukcia (priechodka) so závitom M14 pre uhlovú brúsku, s vnútorným 6mm otvorom – umožňuje pripojiť menšie stopkové nástroje (napr. ihličkové rašple, jemné brúsne kotúče, leštiace podložky), ktoré sú štandardne určené do vŕtačky. Jednoduchá montáž naskrutkovaním, vyrobená z kvalitnej ocele."
       }
     }
   },

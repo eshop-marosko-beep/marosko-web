@@ -379,6 +379,10 @@
       "arbortechPowerCarvingUnit": {
         "title": "Arbortech Power Carving Unit",
         "description": "An electric grinder from Arbortech, designed in-house specifically to get the most out of the entire Arbortech accessory range (cutting, planing, sanding, milling). Fitted with an anti-vibration handle and soft start, with variable speed for all-round use."
+      },
+      "redukciaM146mm": {
+        "title": "M14 to 6 mm Adapter (Reducer)",
+        "description": "A metal reducer/adapter with an M14 thread for angle grinders and a 6 mm bore – lets you fit smaller shank tools (e.g. needle rasps, fine sanding discs, polishing pads) that are normally made for a drill. Simple screw-on installation, made from quality steel."
       }
     }
   },
