@@ -60,7 +60,7 @@ export default async function GalleryCategoryPage({
 
       {cardStyle === "product" ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-          {images.map(({ src, altKey, productUrl, price, originalPrice, badge }) => (
+          {images.map(({ src, altKey, productUrl, badge }) => (
             <div
               key={src}
               className="bg-white rounded-xl shadow-lg overflow-hidden border border-transparent hover:border-amber-200 hover:shadow-xl transition-all flex flex-col"
@@ -86,24 +86,16 @@ export default async function GalleryCategoryPage({
                 <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1">
                   {t(`${translationKey}.products.${altKey}.description`)}
                 </p>
-                <div className="flex items-center justify-between gap-3 mt-auto">
-                  <div>
-                    {originalPrice && (
-                      <span className="text-gray-400 line-through text-sm mr-2">{originalPrice}</span>
-                    )}
-                    <span className="text-amber-700 font-bold text-lg">{price}</span>
-                  </div>
-                  {productUrl && (
-                    <a
-                      href={productUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="bg-amber-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-amber-700 transition-colors text-sm whitespace-nowrap"
-                    >
-                      {t("productCta")}
-                    </a>
-                  )}
-                </div>
+                {productUrl && (
+                  <a
+                    href={productUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-auto inline-flex items-center justify-center gap-1 bg-amber-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-amber-700 transition-colors text-sm"
+                  >
+                    {t("productCta")} →
+                  </a>
+                )}
               </div>
             </div>
           ))}
