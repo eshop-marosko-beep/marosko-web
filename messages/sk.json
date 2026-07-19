@@ -3,6 +3,7 @@
     "home": "Domov",
     "about": "O nás",
     "services": "Kategórie",
+    "brands": "Značky",
     "gallery": "Galéria",
     "blog": "Blog",
     "shops": "Naše obchody",
@@ -187,6 +188,212 @@
       "shankTools": {
         "name": "Stopkové nástroje",
         "description": "Stopkové frézy a nástroje s rôznymi profilmi pre stolárske aj rezbárske opracovanie dreva."
+      }
+    }
+  },
+  "brands": {
+    "title": "Značky a výrobcovia",
+    "subtitle": "Prehľad všetkých značiek náradia a materiálov, ktoré nájdete v našej ponuke.",
+    "intro": "Za roky pôsobenia na trhu sme si vybrali overených výrobcov a značky, ktoré zaručujú kvalitu, výdrž a spoľahlivosť rezbárskeho a drevoobrábacieho náradia. Nižšie nájdete prehľad značiek, s ktorými pracujeme.",
+    "cta": "Pozrieť produkty v e-shope",
+    "items": {
+      "diaclear": {
+        "description": "Diamantové rezné a brúsne kotúče na opracovanie kameňa, betónu a tvrdých materiálov."
+      },
+      "arbortech": {
+        "description": "Austrálska značka priekopníkov frézovacích kotúčov a elektrických dlát pre power carving – modely Woodcarver, Turbo Plane či Power Chisel."
+      },
+      "scraper": {
+        "description": "Škrabky a škrabacie nástavce na jemné dokončovacie opracovanie povrchu dreva."
+      },
+      "ideaImport": {
+        "description": "Dovozca a distribútor náradia a doplnkov pre rezbárov a stolárov."
+      },
+      "artu": {
+        "description": "Talianska značka vrtákov, korunkových pílok a rezných nástrojov do dreva aj kovu."
+      },
+      "allround": {
+        "description": "Univerzálne príslušenstvo a doplnkové náradie pre všestranné využitie v dielni."
+      },
+      "saburrtoothUsa": {
+        "description": "Americká značka tvrdokovových rašplí a fréz do priamej brúsky, obľúbená u rezbárov a sochárov po celom svete."
+      },
+      "akkaTools": {
+        "description": "Turecký výrobca frézovacích kotúčov a karbidových nástrojov do uhlovej brúsky na tvarovanie dreva."
+      },
+      "kingArthurUsa": {
+        "description": "Americká značka rezbárskych a brúsnych kotúčov do uhlovej brúsky, známa napríklad reťazovým kotúčom The Ripper."
+      },
+      "silverline": {
+        "description": "Britská značka cenovo dostupného ručného aj elektrického náradia pre domácich majstrov aj remeselníkov."
+      },
+      "tarpolProfesional": {
+        "description": "Profesionálny rad poľskej značky Tarpol – rašplové kotúče, pilníky a brúsne nástavce do uhlovej brúsky."
+      },
+      "tarpol": {
+        "description": "Poľský výrobca rašpľových kotúčov, pilníkov a brúsneho príslušenstva na opracovanie dreva."
+      },
+      "magg": {
+        "description": "Dodávateľ ručného náradia a spojovacieho materiálu pre dielne a domácich majstrov."
+      },
+      "extolPremium": {
+        "description": "Vyššia produktová rada českej značky Extol – elektrické a akumulátorové náradie pre náročnejšie práce."
+      },
+      "oTools": {
+        "description": "Doplnkový sortiment drobného náradia a nástrojov pre každodennú prácu v dielni."
+      },
+      "sait": {
+        "description": "Taliansky výrobca brúsnych kotúčov a brúsneho papiera s dlhoročnou tradíciou v odvetví abrazív."
+      },
+      "triton": {
+        "description": "Austrálska značka známa pracovnými stolmi, frézovacími stolmi a elektrickým náradím pre stolárov a domácich majstrov."
+      },
+      "dolmar": {
+        "description": "Nemecká značka motorových píl a záhradnej techniky, súčasť skupiny Makita."
+      },
+      "andrejIrsa": {
+        "description": "Slovenský rezbár a výrobca autorských nožov a rezbárskych pomôcok, vyrábaných remeselne na mieru."
+      },
+      "oregon": {
+        "description": "Americká značka svetového formátu v oblasti reťazí, líšt a náhradných dielov pre motorové píly."
+      },
+      "manpa": {
+        "description": "Značka frézovacích a stopkových nástrojov do uhlovej brúsky, obľúbená pre presné tvarovanie a hrubovanie dreva pri rezbárskych prácach."
+      },
+      "tuson": {
+        "description": "Značka elektrického náradia – brúsky, vŕtačky a píly pre remeselné aj domáce použitie."
+      },
+      "wadart": {
+        "description": "Slovenský dodávateľ náradia a príslušenstva pre stolárov a rezbárov."
+      },
+      "kirjes": {
+        "description": "Fínska značka tradičných rezbárskych nožov a náradia na drevorezbu so škandinávskym dizajnom."
+      },
+      "proxxon": {
+        "description": "Nemecká značka precíznej mikrotechniky – malé elektrické náradie pre modelárov, hodinárov a jemné remeselné práce."
+      },
+      "lukas": {
+        "description": "Nemecký výrobca rezných a brúsnych kotúčov, fréz a karbidových nástrojov pod značkou LUKAS-ERZETT."
+      },
+      "nevada": {
+        "description": "Diamantové rezacie a brúsne kotúče určené na opracovanie kameňa, obkladov a stavebných materiálov."
+      },
+      "makita": {
+        "description": "Japonský svetový líder v elektrickom a akumulátorovom náradí pre profesionálov."
+      },
+      "pferdTools": {
+        "description": "Nemecká značka s dlhou tradíciou vo výrobe pilníkov, rašplí, drôtených kief a brúsnych nástavcov."
+      },
+      "diplomat": {
+        "description": "Distribútor náradia a technického vybavenia pre dielne a remeselníkov."
+      },
+      "ctsItalia": {
+        "description": "Taliansky výrobca chemických a technických prípravkov pre povrchovú úpravu a reštaurovanie dreva."
+      },
+      "ceraNovecento": {
+        "description": "Talianske reštaurátorské vosky na finálnu povrchovú úpravu a ochranu dreveného nábytku a rezbárskych diel."
+      },
+      "deltaplus": {
+        "description": "Francúzska značka osobných ochranných pracovných pomôcok – rukavice, okuliare, obuv aj odevy."
+      },
+      "lejaTools": {
+        "description": "Výrobca a dodávateľ ručného náradia pre stolárske a rezbárske práce."
+      },
+      "madeInEu": {
+        "description": "Označenie produktov vyrábaných v Európskej únii, ktoré garantuje overenú kvalitu a kontrolované výrobné štandardy."
+      },
+      "m3": {
+        "description": "Americký priemyselný gigant, dodávateľ brúsneho papiera, pások a spotrebného materiálu pre profesionálne aj remeselné použitie."
+      },
+      "mstein": {
+        "description": "Česká značka rezbárskych dlát, vhodných najmä pre začiatočníkov aj pokročilých rezbárov."
+      },
+      "holzmann": {
+        "description": "Rakúska značka drevoobrábacích strojov – pásové píly, hobľovačky a frézky pre dielne aj menšie prevádzky."
+      },
+      "totalToolsCo": {
+        "description": "Medzinárodná značka ručného aj elektrického náradia s dôrazom na širokú dostupnosť."
+      },
+      "hermes": {
+        "description": "Nemecký výrobca brúsneho papiera a brúsnych kotúčov s dlhou tradíciou v priemyselných aj remeselných abrazívach."
+      },
+      "imperial": {
+        "description": "Značka výmenných pílových a brúsnych listov vrátane nástavcov do oscilačného náradia pre presné opracovanie dreva."
+      },
+      "prano": {
+        "description": "Značka frézovacích kotúčov Pirana do uhlovej brúsky, obľúbená alternatíva pre tvarovanie a hrubovanie dreva."
+      },
+      "bibielle": {
+        "description": "Taliansky výrobca drôtených kief a oceľovej vlny na čistenie, brúsenie a úpravu povrchu dreva aj kovu."
+      },
+      "extolCraft": {
+        "description": "Rad ručného náradia českej značky Extol zameraný na domáce dielne a bežné remeselné práce."
+      },
+      "m3ScotchBrite": {
+        "description": "Nebrúsne a jemné brúsne rúna 3M Scotch-Brite na čistenie, matovanie a dokončovaciu úpravu povrchov."
+      },
+      "finixa": {
+        "description": "Belgická značka pomôcok pre povrchové úpravy – maskovacie pásky, brúsny papier a príslušenstvo na lakovanie."
+      },
+      "veropal": {
+        "description": "Dodávateľ brúsneho príslušenstva a spotrebného materiálu pre opracovanie dreva."
+      },
+      "synpo": {
+        "description": "Český výrobca syntetických živíc a lepidiel využívaných pri povrchovej úprave a spracovaní dreva."
+      },
+      "kwiktool": {
+        "description": "Značka rýchlovýmenných nástrojov a príslušenstva pre elektrické náradie."
+      },
+      "scruffs": {
+        "description": "Britská značka pracovného oblečenia a obuvi navrhnutá pre remeselníkov a manuálne profesie."
+      },
+      "geko": {
+        "description": "Poľská značka ručného náradia, dielenského vybavenia a doplnkov za dostupné ceny."
+      },
+      "wolfcraft": {
+        "description": "Nemecká značka dielenských pomôcok – zveráky, vodiace prípravky a upínacie systémy pre presnú prácu s náradím."
+      },
+      "rockler": {
+        "description": "Americká značka špecializovaného stolárskeho príslušenstva – prípravky, spojovacie prvky a pomôcky pre presné stolárske práce."
+      },
+      "samsonKamnik": {
+        "description": "Slovinský výrobca záhradného a ručného náradia s dlhou tradíciou v regióne strednej Európy."
+      },
+      "prillinger": {
+        "description": "Rakúska značka technického vybavenia pre drevoobrábacie dielne."
+      },
+      "kutzall": {
+        "description": "Americká značka agresívnych karbidových kotúčov a fréz na rýchle tvarovanie a hrubovanie dreva."
+      },
+      "ekamant": {
+        "description": "Švédska značka brúsnych pásov a kotúčov, súčasť skupiny Mirka, pre profesionálne aj remeselné brúsenie."
+      },
+      "noris": {
+        "description": "Nemecká značka rúčok a držadiel pre dláta, pilníky a rezbárske nástroje."
+      },
+      "stubai": {
+        "description": "Rakúska značka z Tirolska s dlhoročnou tradíciou vo výrobe rezbárskych dlát a ručného náradia najvyššej kvality."
+      },
+      "farTools": {
+        "description": "Francúzska značka elektrického a ručného náradia pre domácich majstrov aj remeselníkov."
+      },
+      "charbonnel": {
+        "description": "Francúzska značka umeleckých tlačiarenských farieb, využívaných aj pri technikách tlače z drevorytu a linorytu."
+      },
+      "thlProtect": {
+        "description": "Značka osobných ochranných pomôcok pre bezpečnú prácu s náradím."
+      },
+      "pr05": {
+        "description": "Špecializovaná produktová rada príslušenstva a náhradných dielov pre náradie."
+      },
+      "distar": {
+        "description": "Značka diamantových kotúčov a nástrojov na rezanie a brúsenie kameňa, betónu a stavebných materiálov."
+      },
+      "fortum": {
+        "description": "Značka dostupného ručného a elektrického náradia pre domácnosť aj menšie remeselné práce."
+      },
+      "strongbold": {
+        "description": "Značka brúsnych a lamelových kotúčov na brúsenie a úpravu povrchov dreva aj kovu."
       }
     }
   },
@@ -463,6 +670,10 @@
     "categories": {
       "title": "Kategórie náradia | Marián s.r.o.",
       "description": "Kompletný prehľad kategórií rezbárskeho a drevoobrábacieho náradia – frézovacie kotúče, ručné aj elektrické náradie a príslušenstvo."
+    },
+    "brands": {
+      "title": "Značky a výrobcovia | Marián s.r.o.",
+      "description": "Prehľad overených značiek a výrobcov rezbárskeho a drevoobrábacieho náradia, ktoré nájdete v ponuke e-shopu eshop.marosko.sk."
     },
     "gallery": {
       "title": "Galéria náradia | Marián s.r.o.",

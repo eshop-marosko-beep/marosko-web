@@ -3,6 +3,7 @@
     "home": "Acasă",
     "about": "Despre noi",
     "services": "Categorii",
+    "brands": "Mărci",
     "gallery": "Galerie",
     "blog": "Blog",
     "shops": "Magazinele noastre",
@@ -187,6 +188,212 @@
       "shankTools": {
         "name": "Unelte cu coadă (freze de coadă)",
         "description": "Freze montate pe coadă, cu diverse profiluri, pentru lucrări de tâmplărie și cioplit."
+      }
+    }
+  },
+  "brands": {
+    "title": "Mărci și producători",
+    "subtitle": "Prezentarea tuturor mărcilor de unelte și materiale disponibile în oferta noastră.",
+    "intro": "De-a lungul anilor am selectat producători și mărci de încredere, care garantează calitate, durabilitate și fiabilitate pentru uneltele de sculptură și prelucrare a lemnului. Mai jos găsiți o prezentare a mărcilor cu care lucrăm.",
+    "cta": "Vezi produsele în magazinul online",
+    "items": {
+      "diaclear": {
+        "description": "Discuri diamantate de tăiere și șlefuire pentru prelucrarea pietrei, betonului și a altor materiale dure."
+      },
+      "arbortech": {
+        "description": "Marcă australiană, pionier al discurilor de frezat și dălților electrice pentru power carving – modelele Woodcarver, Turbo Plane sau Power Chisel."
+      },
+      "scraper": {
+        "description": "Raclete și accesorii de răzuit pentru finisarea fină a suprafețelor din lemn."
+      },
+      "ideaImport": {
+        "description": "Importator și distribuitor de scule și accesorii pentru sculptori în lemn și tâmplari."
+      },
+      "artu": {
+        "description": "Marcă italiană de burghie, carote și scule de tăiere pentru lemn și metal."
+      },
+      "allround": {
+        "description": "Accesorii universale și scule complementare pentru utilizare versatilă în atelier."
+      },
+      "saburrtoothUsa": {
+        "description": "Marcă americană de raspele și freze din carbură pentru polizoare drepte, apreciată de sculptori în lemn din întreaga lume."
+      },
+      "akkaTools": {
+        "description": "Producător turc de discuri de frezat și accesorii din carbură pentru polizor unghiular, destinate modelării lemnului."
+      },
+      "kingArthurUsa": {
+        "description": "Marcă americană de discuri de sculptat și șlefuit pentru polizor unghiular, cunoscută pentru discul cu lanț The Ripper."
+      },
+      "silverline": {
+        "description": "Marcă britanică de scule manuale și electrice accesibile, pentru pasionați de bricolaj și meseriași."
+      },
+      "tarpolProfesional": {
+        "description": "Linia profesională a mărcii poloneze Tarpol – discuri raspel, pile și accesorii abrazive pentru polizor unghiular."
+      },
+      "tarpol": {
+        "description": "Producător polonez de discuri raspel, pile și accesorii abrazive pentru prelucrarea lemnului."
+      },
+      "magg": {
+        "description": "Furnizor de scule manuale și elemente de fixare pentru ateliere și pasionați de bricolaj."
+      },
+      "extolPremium": {
+        "description": "Linia superioară a mărcii cehe Extol – scule electrice și cu acumulator pentru lucrări mai pretențioase."
+      },
+      "oTools": {
+        "description": "O gamă complementară de scule mici pentru munca de zi cu zi în atelier."
+      },
+      "sait": {
+        "description": "Producător italian de discuri abrazive și hârtie abrazivă, cu o tradiție îndelungată în domeniul materialelor abrazive."
+      },
+      "triton": {
+        "description": "Marcă australiană cunoscută pentru mesele de lucru, mesele de frezat și sculele electrice destinate tâmplarilor și pasionaților de bricolaj."
+      },
+      "dolmar": {
+        "description": "Marcă germană de motofierăstraie și echipamente pentru grădină, parte a grupului Makita."
+      },
+      "andrejIrsa": {
+        "description": "Sculptor în lemn slovac, creator de cuțite originale și unelte de sculptură, realizate manual, la comandă."
+      },
+      "oregon": {
+        "description": "Marcă americană de renume mondial, specializată în lanțuri, șine de ghidare și piese de schimb pentru motofierăstraie."
+      },
+      "manpa": {
+        "description": "Marcă de accesorii de frezat cu coadă pentru polizor unghiular, apreciată pentru modelarea și degroșarea precisă a lemnului în lucrările de sculptură."
+      },
+      "tuson": {
+        "description": "Marcă de scule electrice – polizoare, mașini de găurit și fierăstraie, pentru uz profesional și casnic."
+      },
+      "wadart": {
+        "description": "Furnizor slovac de scule și accesorii pentru tâmplari și sculptori în lemn."
+      },
+      "kirjes": {
+        "description": "Marcă finlandeză de cuțite tradiționale de sculptură și unelte pentru sculptura în lemn, cu design scandinav."
+      },
+      "proxxon": {
+        "description": "Marcă germană de micro-tehnică de precizie – scule electrice mici pentru modelism, ceasornicărie și lucrări fine."
+      },
+      "lukas": {
+        "description": "Producător german de discuri de tăiere și șlefuire, freze și scule din carbură, sub marca LUKAS-ERZETT."
+      },
+      "nevada": {
+        "description": "Discuri diamantate de tăiere și șlefuire, destinate prelucrării pietrei, plăcilor și materialelor de construcție."
+      },
+      "makita": {
+        "description": "Lider mondial japonez în domeniul sculelor electrice și cu acumulator pentru profesioniști."
+      },
+      "pferdTools": {
+        "description": "Marcă germană cu tradiție îndelungată în fabricarea pilelor, raspelelor, periilor de sârmă și accesoriilor abrazive."
+      },
+      "diplomat": {
+        "description": "Distribuitor de scule și echipamente tehnice pentru ateliere și meseriași."
+      },
+      "ctsItalia": {
+        "description": "Producător italian de produse chimice și tehnice pentru finisarea și restaurarea lemnului."
+      },
+      "ceraNovecento": {
+        "description": "Ceruri italiene de restaurare pentru finisarea și protecția mobilierului din lemn și a lucrărilor de sculptură."
+      },
+      "deltaplus": {
+        "description": "Marcă franceză de echipament individual de protecție – mănuși, ochelari, încălțăminte și îmbrăcăminte de lucru."
+      },
+      "lejaTools": {
+        "description": "Producător și furnizor de scule manuale pentru lucrări de tâmplărie și sculptură."
+      },
+      "madeInEu": {
+        "description": "Etichetă pentru produsele fabricate în Uniunea Europeană, care garantează o calitate verificată și standarde de producție controlate."
+      },
+      "m3": {
+        "description": "Gigant industrial american, furnizor de hârtie abrazivă, benzi adezive și consumabile pentru uz profesional și meșteșugăresc."
+      },
+      "mstein": {
+        "description": "Marcă cehă de dălți de sculptură, potrivite atât pentru începători, cât și pentru sculptori avansați."
+      },
+      "holzmann": {
+        "description": "Marcă austriacă de utilaje pentru prelucrarea lemnului – fierăstraie cu bandă, mașini de rindeluit și de frezat, pentru ateliere și producții mici."
+      },
+      "totalToolsCo": {
+        "description": "Marcă internațională de scule manuale și electrice, axată pe accesibilitate largă."
+      },
+      "hermes": {
+        "description": "Producător german de hârtie abrazivă și discuri abrazive, cu tradiție îndelungată în abrazivele industriale și meșteșugărești."
+      },
+      "imperial": {
+        "description": "Marcă de pânze de tăiere și șlefuire interschimbabile, inclusiv accesorii pentru scule oscilante, destinate prelucrării precise a lemnului."
+      },
+      "prano": {
+        "description": "Marca discurilor de frezat Pirana pentru polizor unghiular, o alternativă apreciată pentru modelarea și degroșarea lemnului."
+      },
+      "bibielle": {
+        "description": "Producător italian de perii de sârmă și lână de oțel pentru curățare, șlefuire și finisarea suprafețelor din lemn și metal."
+      },
+      "extolCraft": {
+        "description": "Gamă de scule manuale a mărcii cehe Extol, destinată atelierelor de acasă și lucrărilor meșteșugărești obișnuite."
+      },
+      "m3ScotchBrite": {
+        "description": "Fibre abrazive fine 3M Scotch-Brite pentru curățare, matisare și finisarea suprafețelor."
+      },
+      "finixa": {
+        "description": "Marcă belgiană de accesorii pentru finisare – bandă de mascare, hârtie abrazivă și accesorii pentru vopsire și lăcuire."
+      },
+      "veropal": {
+        "description": "Furnizor de accesorii abrazive și consumabile pentru prelucrarea lemnului."
+      },
+      "synpo": {
+        "description": "Producător ceh de rășini sintetice și adezivi, utilizați în finisarea și prelucrarea lemnului."
+      },
+      "kwiktool": {
+        "description": "Marcă de scule și accesorii cu schimbare rapidă pentru scule electrice."
+      },
+      "scruffs": {
+        "description": "Marcă britanică de îmbrăcăminte și încălțăminte de lucru, concepută pentru meseriași și profesii manuale."
+      },
+      "geko": {
+        "description": "Marcă poloneză de scule manuale, echipamente de atelier și accesorii la prețuri accesibile."
+      },
+      "wolfcraft": {
+        "description": "Marcă germană de accesorii pentru atelier – menghine, ghidaje și sisteme de fixare pentru lucrul precis cu scule."
+      },
+      "rockler": {
+        "description": "Marcă americană de accesorii specializate pentru tâmplărie – dispozitive, elemente de îmbinare și ajutoare pentru lucrări precise."
+      },
+      "samsonKamnik": {
+        "description": "Producător sloven de unelte de grădină și scule manuale, cu tradiție îndelungată în regiunea Europei Centrale."
+      },
+      "prillinger": {
+        "description": "Marcă austriacă de echipamente tehnice pentru atelierele de prelucrare a lemnului."
+      },
+      "kutzall": {
+        "description": "Marcă americană de discuri și freze agresive din carbură, pentru modelarea și degroșarea rapidă a lemnului."
+      },
+      "ekamant": {
+        "description": "Marcă suedeză de benzi și discuri abrazive, parte a grupului Mirka, pentru șlefuire profesională și meșteșugărească."
+      },
+      "noris": {
+        "description": "Marcă germană de mânere pentru dălți, pile și unelte de sculptură."
+      },
+      "stubai": {
+        "description": "Marcă austriacă din Tirol, cu tradiție îndelungată în fabricarea dălților de sculptură și a sculelor manuale de cea mai bună calitate."
+      },
+      "farTools": {
+        "description": "Marcă franceză de scule electrice și manuale, pentru pasionați de bricolaj și meseriași."
+      },
+      "charbonnel": {
+        "description": "Marcă franceză de cerneluri artistice de tipar, folosite și în tehnicile de gravură pe lemn și linoleumgravură."
+      },
+      "thlProtect": {
+        "description": "Marcă de echipament individual de protecție pentru lucrul în siguranță cu sculele."
+      },
+      "pr05": {
+        "description": "Gamă specializată de accesorii și piese de schimb pentru scule."
+      },
+      "distar": {
+        "description": "Marcă de discuri și scule diamantate pentru tăierea și șlefuirea pietrei, betonului și materialelor de construcție."
+      },
+      "fortum": {
+        "description": "Marcă de scule manuale și electrice accesibile, pentru uz casnic și lucrări meșteșugărești mai mici."
+      },
+      "strongbold": {
+        "description": "Marcă de discuri abrazive și lamelare pentru șlefuirea și finisarea suprafețelor din lemn și metal."
       }
     }
   },
@@ -463,6 +670,10 @@
     "categories": {
       "title": "Categorii de unelte | Marián s.r.o.",
       "description": "O prezentare completă a categoriilor noastre de unelte pentru cioplit și prelucrarea lemnului – discuri de frezat, unelte manuale și electrice și accesorii."
+    },
+    "brands": {
+      "title": "Mărci și producători | Marián s.r.o.",
+      "description": "Prezentare a mărcilor și producătorilor de încredere de unelte pentru sculptură și prelucrarea lemnului, disponibile pe eshop.marosko.sk."
     },
     "gallery": {
       "title": "Galerie unelte | Marián s.r.o.",
