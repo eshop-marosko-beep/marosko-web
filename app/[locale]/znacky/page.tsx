@@ -32,12 +32,16 @@ export default async function BrandsPage({
       <p className="text-gray-600 leading-relaxed mb-10 max-w-2xl">{t("intro")}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
-        {brands.map(({ id, slug, name }) => (
+        {brands.map(({ id, slug, name, url }) => (
           <div
             key={id}
             className="bg-white rounded-xl shadow-lg p-6 border border-transparent hover:border-amber-200 transition-colors"
           >
-            <h2 className="text-lg font-bold text-espresso-800 mb-2">{name}</h2>
+            <h2 className="text-lg font-bold text-espresso-800 mb-2">
+              <a href={url} target="_blank" rel="noopener noreferrer" className="hover:text-amber-700">
+                {name}
+              </a>
+            </h2>
             <p className="text-gray-600 text-sm leading-relaxed">
               {t(`items.${slug}.description`)}
             </p>
