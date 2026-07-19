@@ -102,7 +102,7 @@
     "title": "About Us",
     "intro": "Marián s.r.o. is a family business that has been selling premium imported woodcarving and woodworking tools in Slovakia since 2013. Our goal is to bring tools to market that you simply can't find in regular stores – tools that save carvers and DIY enthusiasts both time and money.",
     "history": "Our roots go back to 2011, when the Vercajch.eu project was founded; we took over all its rights in 2018. Today we run the shop under the eshop.marosko.sk brand, where in-stock items ship within 24 hours.",
-    "brands": "We only stock proven international brands: Arbortech shaping and planing tools from Australia, Saburrtooth tungsten-carbide rasps from the USA, Manpa extension arms and milling attachments from Korea, ARTU Tools carbide-tipped drill bits from Germany, and Diaclear diamond-coated sharpening discs from the Czech Republic. Our range is rounded out with shellac, wood finishing waxes and certified protective work equipment.",
+    "brands": "We only stock proven international brands: Arbortech shaping and planing tools from Australia, Saburrtooth tungsten-carbide rasps from the USA, Manpa extension arms and milling attachments from Korea, and ARTU Tools carbide-tipped drill bits from Germany. Our range is rounded out with shellac, wood finishing waxes and certified protective work equipment.",
     "philosophy": "We personally put every tool we sell to the test before adding it to our range. Thanks to years of hands-on carving experience, we can judge not just its strengths but also its shortcomings – so we can give our customers genuinely honest, expert advice.",
     "support": "As a Slovak seller, we offer a full warranty, quality after-warranty service, and an invoice you can claim as an expense under industry subsidy schemes. We're proud to support Slovak artists and schools by making tools available that weren't previously accessible."
   },
@@ -197,9 +197,6 @@
     "intro": "Over the years we've curated trusted manufacturers and brands that guarantee quality, durability and reliability in woodcarving and woodworking tools. Below you'll find an overview of the brands we work with.",
     "cta": "View products in the e-shop",
     "items": {
-      "diaclear": {
-        "description": ""
-      },
       "arbortech": {
         "description": "Arbortech is an Australian brand founded in 1983, specializing in innovative power tools for carvers and craftsmen – the Power Chisel, Mini Carver, TURBO Plane, Industrial Woodcarver and Ball Gouge. It focuses on quality, ergonomics and precise wood shaping."
       },
@@ -211,9 +208,6 @@
       },
       "artu": {
         "description": "ARTU Tools GmbH is a German company operating since 1979, specializing in carbide drill bits with a heat-resistant tip rated up to 1100 °C. The bits handle hardened steel, masonry, stone, glass and ceramics, with or without hammer action."
-      },
-      "allround": {
-        "description": ""
       },
       "saburrtoothUsa": {
         "description": "Saburrtooth is an American brand of rotary tools for shaping, cutting and grinding wood. Its patented open-pattern carbide teeth ensure fast material removal, long life and resistance to clogging – available as discs, rasps and mounted burrs."
@@ -252,7 +246,7 @@
         "description": ""
       },
       "andrejIrsa": {
-        "description": ""
+        "description": "Andrej Irša is a distinctive Slovak sculptor — from realistic figures to abstract works such as Molecules, Entities and Spiralius. His work combines wood, metal, plastic and 3D printing, and he has authored expert publications on chainsaw carving, one of which serves as accredited teaching material."
       },
       "oregon": {
         "description": ""
@@ -306,7 +300,7 @@
         "description": ""
       },
       "mstein": {
-        "description": ""
+        "description": "M-stein is a Slovak family brand with a 30-year tradition of hand-crafting professional carving tools. Its chisels, knives and gravers are made by traditional hand forging from proven Swedish carbon steel — every piece passes through the hands of experienced masters, from raw material to a finished tool with its characteristic octagonal handle."
       },
       "holzmann": {
         "description": ""
@@ -333,9 +327,6 @@
         "description": ""
       },
       "finixa": {
-        "description": ""
-      },
-      "veropal": {
         "description": ""
       },
       "synpo": {

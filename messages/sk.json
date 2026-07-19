@@ -102,7 +102,7 @@
     "title": "O nás",
     "intro": "Marián s.r.o. je rodinná spoločnosť, ktorá sa od roku 2013 venuje predaju značkového zahraničného rezbárskeho a drevoobrábacieho náradia na Slovensku. Naším cieľom je priniesť na trh nástroje, ktoré sa v bežných obchodoch nedajú kúpiť – a ktoré rezbárom aj domácim majstrom ušetria čas aj peniaze.",
     "history": "Naše korene siahajú až do roku 2011, keď vznikol projekt Vercajch.eu, ktorého všetky práva sme prevzali v roku 2018. Dnes obchod spravujeme pod značkou eshop.marosko.sk, kde je tovar skladom expedovaný do 24 hodín.",
-    "brands": "Do ponuky vyberáme len overené svetové značky: tvarovacie a hobľovacie nástroje Arbortech z Austrálie, tvrdokovové rašple Saburrtooth z USA, predlžovacie ramená a frézovacie nástavce Manpa z Kórey, tvrdokovom povlakované vrtáky ARTU Tools z Nemecka či diamantové ostriace kotúče Diaclear z Českej republiky. Sortiment dopĺňajú šelaky, vosky na povrchovú úpravu dreva a certifikované ochranné pracovné pomôcky.",
+    "brands": "Do ponuky vyberáme len overené svetové značky: tvarovacie a hobľovacie nástroje Arbortech z Austrálie, tvrdokovové rašple Saburrtooth z USA, predlžovacie ramená a frézovacie nástavce Manpa z Kórey či tvrdokovom povlakované vrtáky ARTU Tools z Nemecka. Sortiment dopĺňajú šelaky, vosky na povrchovú úpravu dreva a certifikované ochranné pracovné pomôcky.",
     "philosophy": "Každý nástroj, ktorý ponúkame, si najprv sami prakticky overíme. Vďaka dlhoročným skúsenostiam s rezbárstvom tak vieme posúdiť nielen jeho prednosti, ale aj prípadné nedostatky – a zákazníkom preto vieme poradiť naozaj férovo a odborne.",
     "support": "Ako slovenský predajca ponúkame plnú záruku, kvalitný pozáručný servis aj doklad, ktorý si viete zaradiť do nákladov pri čerpaní dotácií v odbore. Radi podporujeme aj slovenských umelcov a školy tým, že im sprístupňujeme náradie, ktoré doteraz nebolo bežne dostupné."
   },
@@ -197,9 +197,6 @@
     "intro": "Za roky pôsobenia na trhu sme si vybrali overených výrobcov a značky, ktoré zaručujú kvalitu, výdrž a spoľahlivosť rezbárskeho a drevoobrábacieho náradia. Nižšie nájdete prehľad značiek, s ktorými pracujeme.",
     "cta": "Pozrieť produkty v e-shope",
     "items": {
-      "diaclear": {
-        "description": ""
-      },
       "arbortech": {
         "description": "Arbortech je austrálska značka založená v roku 1983, špecializujúca sa na inovatívne elektrické náradie pre rezbárov a remeselníkov – Power Chisel, Mini Carver, TURBO Plane, Industrial Woodcarver či Ball Gouge. Dôraz kladie na kvalitu, ergonómiu a presné tvarovanie dreva."
       },
@@ -211,9 +208,6 @@
       },
       "artu": {
         "description": "ARTU Tools GmbH je nemecká spoločnosť pôsobiaca od roku 1979, špecializujúca sa na tvrdokovové vrtáky so žiaruvzdorným hrotom odolným do 1100 °C. Vrtáky zvládnu kalenú oceľ, murivo, kameň, sklo aj keramiku, s príklepom aj bez."
-      },
-      "allround": {
-        "description": ""
       },
       "saburrtoothUsa": {
         "description": "Saburrtooth je americká značka rotačných nástrojov na tvarovanie, rezanie a brúsenie dreva. Patentovaný otvorený vzor karbidových zubov zaisťuje rýchly úber materiálu, dlhú životnosť a odolnosť proti upchávaniu – kotúče, rašple aj stopkové frézky."
@@ -252,7 +246,7 @@
         "description": ""
       },
       "andrejIrsa": {
-        "description": ""
+        "description": "Andrej Irša je výrazná slovenská sochárska osobnosť — od realistickej figúry po abstraktné diela ako Molekuly, Entity či Spiralius. Vo svojej tvorbe kombinuje drevo, kov, plast aj 3D tlač a je autorom odborných publikácií o rezbe motorovou pílou, z ktorých jedna slúži ako akreditovaný výučbový materiál."
       },
       "oregon": {
         "description": ""
@@ -306,7 +300,7 @@
         "description": ""
       },
       "mstein": {
-        "description": ""
+        "description": "M-stein je slovenská rodinná značka s 30-ročnou tradíciou ručnej výroby profesionálneho rezbárskeho náradia. Dláta, nožíky a rydielka vyrába tradičným ručným kovaním z overenej švédskej uhlíkovej ocele — každý kus prejde rukami skúsených majstrov od surového materiálu až po hotový nástroj s charakteristickou osemhrannou rukoväťou."
       },
       "holzmann": {
         "description": ""
@@ -333,9 +327,6 @@
         "description": ""
       },
       "finixa": {
-        "description": ""
-      },
-      "veropal": {
         "description": ""
       },
       "synpo": {

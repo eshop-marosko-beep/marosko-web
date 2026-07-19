@@ -102,7 +102,7 @@
     "title": "O nás",
     "intro": "Marián s.r.o. je rodinná společnost, která se od roku 2013 věnuje prodeji značkového zahraničního řezbářského a dřevoobráběcího nářadí na Slovensku. Naším cílem je přinést na trh nástroje, které se v běžných obchodech nedají koupit – a které řezbářům i domácím kutilům ušetří čas i peníze.",
     "history": "Naše kořeny sahají až do roku 2011, kdy vznikl projekt Vercajch.eu, jehož veškerá práva jsme převzali v roce 2018. Dnes obchod provozujeme pod značkou eshop.marosko.sk, kde je zboží skladem expedováno do 24 hodin.",
-    "brands": "Do nabídky vybíráme jen ověřené světové značky: tvarovací a hoblovací nástroje Arbortech z Austrálie, tvrdokovové rašple Saburrtooth z USA, prodlužovací ramena a frézovací nástavce Manpa z Koreje, tvrdokovem povlakované vrtáky ARTU Tools z Německa či diamantové ostřicí kotouče Diaclear z České republiky. Sortiment doplňují šelaky, vosky na povrchovou úpravu dřeva a certifikované ochranné pracovní pomůcky.",
+    "brands": "Do nabídky vybíráme jen ověřené světové značky: tvarovací a hoblovací nástroje Arbortech z Austrálie, tvrdokovové rašple Saburrtooth z USA, prodlužovací ramena a frézovací nástavce Manpa z Koreje či tvrdokovem povlakované vrtáky ARTU Tools z Německa. Sortiment doplňují šelaky, vosky na povrchovou úpravu dřeva a certifikované ochranné pracovní pomůcky.",
     "philosophy": "Každý nástroj, který nabízíme, si nejprve sami prakticky ověříme. Díky dlouholetým zkušenostem s řezbářstvím tak dokážeme posoudit nejen jeho přednosti, ale i případné nedostatky – a zákazníkům proto umíme poradit opravdu férově a odborně.",
     "support": "Jako slovenský prodejce nabízíme plnou záruku, kvalitní pozáruční servis i doklad, který si můžete zařadit do nákladů při čerpání dotací v oboru. Rádi podporujeme i slovenské umělce a školy tím, že jim zpřístupňujeme nářadí, které dosud nebylo běžně dostupné."
   },
@@ -197,9 +197,6 @@
     "intro": "Za roky působení na trhu jsme si vybrali ověřené výrobce a značky, které zaručují kvalitu, výdrž a spolehlivost řezbářského a dřevoobráběcího nářadí. Níže najdete přehled značek, se kterými pracujeme.",
     "cta": "Zobrazit produkty v e-shopu",
     "items": {
-      "diaclear": {
-        "description": ""
-      },
       "arbortech": {
         "description": "Arbortech je australská značka založená v roce 1983, specializující se na inovativní elektrické nářadí pro řezbáře a řemeslníky – Power Chisel, Mini Carver, TURBO Plane, Industrial Woodcarver či Ball Gouge. Důraz klade na kvalitu, ergonomii a přesné tvarování dřeva."
       },
@@ -211,9 +208,6 @@
       },
       "artu": {
         "description": "ARTU Tools GmbH je německá společnost působící od roku 1979, specializující se na tvrdokovové vrtáky se žáruvzdorným hrotem odolným do 1100 °C. Vrtáky zvládnou kalenou ocel, zdivo, kámen, sklo i keramiku, s příklepem i bez."
-      },
-      "allround": {
-        "description": ""
       },
       "saburrtoothUsa": {
         "description": "Saburrtooth je americká značka rotačních nástrojů na tvarování, řezání a broušení dřeva. Patentovaný otevřený vzor karbidových zubů zajišťuje rychlý úběr materiálu, dlouhou životnost a odolnost proti ucpávání – kotouče, rašple i stopkové frézy."
@@ -252,7 +246,7 @@
         "description": ""
       },
       "andrejIrsa": {
-        "description": ""
+        "description": "Andrej Irša je výrazná slovenská sochařská osobnost — od realistické figury po abstraktní díla jako Molekuly, Entity či Spiralius. Ve své tvorbě kombinuje dřevo, kov, plast i 3D tisk a je autorem odborných publikací o řezbě motorovou pilou, z nichž jedna slouží jako akreditovaný výukový materiál."
       },
       "oregon": {
         "description": ""
@@ -306,7 +300,7 @@
         "description": ""
       },
       "mstein": {
-        "description": ""
+        "description": "M-stein je slovenská rodinná značka s 30letou tradicí ruční výroby profesionálního řezbářského nářadí. Dláta, nožíky a rydla vyrábí tradičním ručním kováním z osvědčené švédské uhlíkové oceli — každý kus projde rukama zkušených mistrů od surového materiálu až po hotový nástroj s charakteristickou osmihrannou rukojetí."
       },
       "holzmann": {
         "description": ""
@@ -333,9 +327,6 @@
         "description": ""
       },
       "finixa": {
-        "description": ""
-      },
-      "veropal": {
         "description": ""
       },
       "synpo": {

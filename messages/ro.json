@@ -102,7 +102,7 @@
     "title": "Despre noi",
     "intro": "Marián s.r.o. este o afacere de familie care, din 2013, vinde în Slovacia unelte de cioplit și prelucrat lemnul, de marcă, din import. Scopul nostru este să aducem pe piață unelte pe care nu le găsești în magazinele obișnuite – unelte care le economisesc cioplitorilor și meșterilor amatori timp și bani.",
     "history": "Rădăcinile noastre urcă până în 2011, când a luat naștere proiectul Vercajch.eu, ale cărui drepturi le-am preluat integral în 2018. Astăzi administrăm magazinul sub marca eshop.marosko.sk, unde produsele aflate pe stoc sunt expediate în 24 de ore.",
-    "brands": "În ofertă includem doar mărci internaționale consacrate: unelte de frezat și șlefuit Arbortech din Australia, pile din carbură de tungsten Saburrtooth din SUA, brațe prelungitoare și accesorii de frezat Manpa din Coreea, burghie cu vârf din carbură ARTU Tools din Germania sau discuri de ascuțit acoperite cu diamant Diaclear din Cehia. Gama este completată de șelac, ceruri pentru finisarea lemnului și echipament de protecție certificat.",
+    "brands": "În ofertă includem doar mărci internaționale consacrate: unelte de frezat și șlefuit Arbortech din Australia, pile din carbură de tungsten Saburrtooth din SUA, brațe prelungitoare și accesorii de frezat Manpa din Coreea sau burghie cu vârf din carbură ARTU Tools din Germania. Gama este completată de șelac, ceruri pentru finisarea lemnului și echipament de protecție certificat.",
     "philosophy": "Fiecare unealtă pe care o vindem este testată mai întâi chiar de noi, în practică. Datorită experienței îndelungate în cioplitul în lemn, putem evalua nu doar avantajele, ci și eventualele neajunsuri – astfel încât să oferim clienților noștri sfaturi cu adevărat oneste și de specialitate.",
     "support": "Ca vânzător slovac, oferim garanție completă, service de calitate după expirarea garanției și o factură pe care o puteți include în cheltuieli în cadrul schemelor de subvenționare din domeniu. Ne mândrim că sprijinim artiștii și școlile din Slovacia, punându-le la dispoziție unelte care anterior nu erau accesibile."
   },
@@ -197,9 +197,6 @@
     "intro": "De-a lungul anilor am selectat producători și mărci de încredere, care garantează calitate, durabilitate și fiabilitate pentru uneltele de sculptură și prelucrare a lemnului. Mai jos găsiți o prezentare a mărcilor cu care lucrăm.",
     "cta": "Vezi produsele în magazinul online",
     "items": {
-      "diaclear": {
-        "description": ""
-      },
       "arbortech": {
         "description": "Arbortech este un brand australian fondat în 1983, specializat în unelte electrice inovatoare pentru sculptori și meșteșugari – Power Chisel, Mini Carver, TURBO Plane, Industrial Woodcarver și Ball Gouge. Pune accent pe calitate, ergonomie și modelarea precisă a lemnului."
       },
@@ -211,9 +208,6 @@
       },
       "artu": {
         "description": "ARTU Tools GmbH este o companie germană activă din 1979, specializată în burghie din carbură cu vârf rezistent la căldură, până la 1100 °C. Burghiele fac față oțelului călit, zidăriei, pietrei, sticlei și ceramicii, cu sau fără percuție."
-      },
-      "allround": {
-        "description": ""
       },
       "saburrtoothUsa": {
         "description": "Saburrtooth este un brand american de unelte rotative pentru modelarea, tăierea și șlefuirea lemnului. Modelul brevetat de dinți din carbură cu structură deschisă asigură îndepărtare rapidă a materialului, durabilitate și rezistență la colmatare – discuri, raspele și freze montate."
@@ -252,7 +246,7 @@
         "description": ""
       },
       "andrejIrsa": {
-        "description": ""
+        "description": "Andrej Irša este un sculptor slovac remarcabil — de la figuri realiste până la lucrări abstracte precum Molecule, Entități sau Spiralius. Opera sa combină lemnul, metalul, plasticul și imprimarea 3D, iar el este autorul unor publicații de specialitate despre sculptura cu drujba, dintre care una servește drept material didactic acreditat."
       },
       "oregon": {
         "description": ""
@@ -306,7 +300,7 @@
         "description": ""
       },
       "mstein": {
-        "description": ""
+        "description": "M-stein este un brand de familie slovac cu o tradiție de 30 de ani în fabricarea manuală de unelte profesionale de sculptură. Dălțile, cuțitele și gravoarele sunt realizate prin forjare manuală tradițională din oțel carbon suedez consacrat — fiecare piesă trece prin mâinile unor meșteri experimentați, de la materia primă până la unealta finită cu mânerul octogonal caracteristic."
       },
       "holzmann": {
         "description": ""
@@ -333,9 +327,6 @@
         "description": ""
       },
       "finixa": {
-        "description": ""
-      },
-      "veropal": {
         "description": ""
       },
       "synpo": {

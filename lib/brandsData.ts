@@ -7,12 +7,10 @@ export type Brand = {
 };
 
 export const brands: Brand[] = [
-  { id: 43, slug: "diaclear", name: "Diaclear", url: "https://eshop.marosko.sk/b/DIACLEAR" },
   { id: 44, slug: "arbortech", name: "Arbortech", url: "https://eshop.marosko.sk/b/Arbortech", logo: "/brand/logos/arbortech.png" },
   { id: 47, slug: "scraper", name: "Scraper", url: "https://eshop.marosko.sk/b/SCRAPER" },
   { id: 49, slug: "ideaImport", name: "Idea Import.ante s.r.o.", url: "https://eshop.marosko.sk/b/Idea+Import.ante+s.r.o." },
   { id: 50, slug: "artu", name: "Artu", url: "https://eshop.marosko.sk/b/ARTU", logo: "/brand/logos/artu.png" },
-  { id: 52, slug: "allround", name: "Allround", url: "https://eshop.marosko.sk/b/ALLROUND" },
   { id: 53, slug: "saburrtoothUsa", name: "Saburrtooth USA", url: "https://eshop.marosko.sk/b/Saburrtooth+USA", logo: "/brand/logos/saburrtoothUsa.jpg" },
   { id: 54, slug: "akkaTools", name: "AKKA Tools", url: "https://eshop.marosko.sk/b/AKKA+Tools", logo: "/brand/logos/akkaTools.jpg" },
   { id: 55, slug: "kingArthurUsa", name: "King Arthur, USA", url: "https://eshop.marosko.sk/b/King+Arthur%2CUSA", logo: "/brand/logos/kingArthurUsa.jpg" },
@@ -25,7 +23,7 @@ export const brands: Brand[] = [
   { id: 63, slug: "sait", name: "Sait", url: "https://eshop.marosko.sk/b/SAIT" },
   { id: 65, slug: "triton", name: "Triton", url: "https://eshop.marosko.sk/b/Triton", logo: "/brand/logos/triton.png" },
   { id: 66, slug: "dolmar", name: "Dolmar", url: "https://eshop.marosko.sk/b/Dolmar" },
-  { id: 67, slug: "andrejIrsa", name: "Andrej Irša - a-studio", url: "https://eshop.marosko.sk/b/Andrej+Ir%C5%A1a+-+a+-+studio" },
+  { id: 67, slug: "andrejIrsa", name: "Andrej Irša - a-studio", url: "https://eshop.marosko.sk/b/Andrej+Ir%C5%A1a+-+a+-+studio", logo: "/brand/logos/andrejIrsa.jpg" },
   { id: 68, slug: "oregon", name: "Oregon", url: "https://eshop.marosko.sk/b/OREGON" },
   { id: 69, slug: "manpa", name: "Manpa", url: "https://eshop.marosko.sk/b/MANPA", logo: "/brand/logos/manpa.jpg" },
   { id: 71, slug: "tuson", name: "Tuson", url: "https://eshop.marosko.sk/b/TUSON" },
@@ -43,7 +41,7 @@ export const brands: Brand[] = [
   { id: 86, slug: "lejaTools", name: "Leja Tools", url: "https://eshop.marosko.sk/b/LEJA+tools" },
   { id: 87, slug: "madeInEu", name: "Made in EU", url: "https://eshop.marosko.sk/b/Made+in+EU" },
   { id: 88, slug: "m3", name: "3M", url: "https://eshop.marosko.sk/b/3M" },
-  { id: 89, slug: "mstein", name: "M-stein s.r.o", url: "https://eshop.marosko.sk/b/M-stein+s.r.o" },
+  { id: 89, slug: "mstein", name: "M-stein s.r.o", url: "https://eshop.marosko.sk/b/M-stein+s.r.o", logo: "/brand/logos/mstein.png" },
   { id: 90, slug: "holzmann", name: "Holzmann", url: "https://eshop.marosko.sk/b/Holzmann" },
   { id: 91, slug: "totalToolsCo", name: "Total Tools Co.", url: "https://eshop.marosko.sk/b/TOTAL+Tools+Co.", logo: "/brand/logos/totalToolsCo.webp" },
   { id: 93, slug: "hermes", name: "Hermes", url: "https://eshop.marosko.sk/b/Hermes" },
@@ -53,7 +51,6 @@ export const brands: Brand[] = [
   { id: 97, slug: "extolCraft", name: "Extol Craft", url: "https://eshop.marosko.sk/b/Extol+Craft" },
   { id: 98, slug: "m3ScotchBrite", name: "3M-Scotch-Brite™", url: "https://eshop.marosko.sk/b/3M-Scotch-Brite%E2%84%A2" },
   { id: 99, slug: "finixa", name: "Finixa", url: "https://eshop.marosko.sk/b/Finixa" },
-  { id: 100, slug: "veropal", name: "Veropal", url: "https://eshop.marosko.sk/b/Veropal" },
   { id: 101, slug: "synpo", name: "Synpo", url: "https://eshop.marosko.sk/b/Synpo" },
   { id: 102, slug: "kwiktool", name: "Kwiktool", url: "https://eshop.marosko.sk/b/Kwiktool" },
   { id: 103, slug: "scruffs", name: "Scruffs", url: "https://eshop.marosko.sk/b/Scruffs" },
