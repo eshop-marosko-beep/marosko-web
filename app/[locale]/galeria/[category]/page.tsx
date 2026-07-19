@@ -84,9 +84,11 @@ export default async function GalleryCategoryPage({
                 <h2 className="text-lg font-bold text-espresso-800 mb-2">
                   {t(`${translationKey}.products.${altKey}.title`)}
                 </h2>
-                <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1">
-                  {t(`${translationKey}.products.${altKey}.description`)}
-                </p>
+                {t(`${translationKey}.products.${altKey}.description`) && (
+                  <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1">
+                    {t(`${translationKey}.products.${altKey}.description`)}
+                  </p>
+                )}
                 {productUrl && (
                   <a
                     href={productUrl}

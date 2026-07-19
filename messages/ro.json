@@ -453,6 +453,271 @@
         }
       }
     },
+    "directGrinder": {
+      "title": "Accesorii pentru polizoare drepte",
+      "short": "Freze cu tijă, raspele-ac și accesorii pentru polizoare drepte și micropolizoare.",
+      "viewAll": "Vezi toate produsele ({count})",
+      "description": "Unelte pentru polizoare drepte și micropolizoare (Dremel, Proxxon, Extol și altele) pentru lucrări de detaliu — freze cu tijă din carbură și raspele-ac Saburrtooth în forme de cilindru, sferă, con sau flacără, axe flexibile și alte accesorii. Sunt afișate doar produsele aflate în stoc.",
+      "cta": "Vezi în e-shop",
+      "products": {
+        "p994": {
+          "title": "Manpa – set de 8 raspele de modelat pentru ochi și detalii arse",
+          "description": ""
+        },
+        "p738": {
+          "title": "Ax flexibil TUSON – de schimb pentru RT170",
+          "description": ""
+        },
+        "p705": {
+          "title": "Cablu flexibil EXTOL – de schimb pentru polizorul drept CRAFT",
+          "description": ""
+        },
+        "p1049": {
+          "title": "Cablu flexibil EXTOL – de schimb pentru polizorul drept PREMIUM",
+          "description": ""
+        },
+        "p704": {
+          "title": "Suport telescopic pentru polizor drept",
+          "description": ""
+        },
+        "p305": {
+          "title": "Freză rotativă cu margine Ø 9,5 mm, tijă 2,4 mm",
+          "description": ""
+        },
+        "p310": {
+          "title": "Freză-ac tip boboc Ø 6,4 mm, tijă 3,2 mm",
+          "description": ""
+        },
+        "p564": {
+          "title": "Cilindru cu capăt activ Ø 6,4 mm, tijă 3,2 mm",
+          "description": ""
+        },
+        "p820": {
+          "title": "Cilindru lung cu capăt neted Ø 3,2 mm, tijă 3,2 mm",
+          "description": ""
+        },
+        "p316": {
+          "title": "Cilindru cu margine rotunjită și centru neted Ø 13 mm, tijă 3,2 mm",
+          "description": ""
+        },
+        "p1285": {
+          "title": "Cilindru cu margine rotunjită și capăt activ Ø 13 mm, tijă 3,2 mm",
+          "description": ""
+        },
+        "p323": {
+          "title": "Cilindru ascuțit Ø 9,5 mm, tijă 3,2 mm",
+          "description": ""
+        },
+        "p317": {
+          "title": "Freză concavă cu capăt activ Ø 6,4 mm, tijă 3,2 mm",
+          "description": ""
+        },
+        "p977": {
+          "title": "Freză concavă cu capăt activ Ø 6,4 mm, tijă 2,4 mm",
+          "description": ""
+        },
+        "p821": {
+          "title": "Freză concavă cu capăt neted Ø 6,4 mm, tijă 3,2 mm",
+          "description": ""
+        },
+        "p339": {
+          "title": "Con alungit Ø 3,2 mm, tijă 3,2 mm",
+          "description": ""
+        },
+        "p319": {
+          "title": "Freză concavă cu capăt activ Ø 9,5 mm, tijă 3,2 mm",
+          "description": ""
+        },
+        "p321": {
+          "title": "Freză coadă de rândunică cu capăt activ Ø 9,5 mm, tijă 3,2 mm",
+          "description": ""
+        },
+        "p703": {
+          "title": "Freză-ac sferică Ø 6,4 mm, tijă 3,2 mm",
+          "description": ""
+        },
+        "p569": {
+          "title": "Cilindru cu capăt neted Ø 3,2 mm, tijă 3 mm",
+          "description": ""
+        },
+        "p570": {
+          "title": "Cilindru cu capăt neted Ø 13 mm, tijă 3 mm",
+          "description": ""
+        },
+        "p571": {
+          "title": "Cilindru cu margine rotunjită Ø 13 mm, tijă 3 mm",
+          "description": ""
+        },
+        "p573": {
+          "title": "Cilindru ascuțit Ø 9,5 mm, tijă 3 mm",
+          "description": ""
+        },
+        "p412": {
+          "title": "Raspel-ac tip cupă, aspru, Ø 44,5 mm",
+          "description": ""
+        },
+        "p405": {
+          "title": "Raspel-ac tip cupă, extra aspru, Ø 44,5 mm",
+          "description": ""
+        },
+        "p411": {
+          "title": "Raspel-ac tip cupă, rugos, Ø 44,5 mm",
+          "description": ""
+        },
+        "p406": {
+          "title": "Raspel-ac tip cupă, rugos, Ø 50 mm",
+          "description": ""
+        },
+        "p409": {
+          "title": "Raspel-ac tip cupă, aspru, Ø 50 mm",
+          "description": ""
+        },
+        "p499": {
+          "title": "Raspel-ac tip flacără Ø 16 mm, fin, tijă 6 mm",
+          "description": ""
+        },
+        "p560": {
+          "title": "Raspel-ac tip flacără Ø 16 mm, aspru, tijă 6 mm",
+          "description": ""
+        },
+        "p561": {
+          "title": "Raspel-ac tip flacără Ø 16 mm, extra aspru, tijă 6 mm",
+          "description": ""
+        },
+        "p631": {
+          "title": "Raspel-ac tip flacără Ø 19 mm, extra aspru, tijă 6 mm",
+          "description": ""
+        },
+        "p550": {
+          "title": "Freză rotativă cu margine Ø 51 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p830": {
+          "title": "Freză rotativă cu margine Ø 19 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p341": {
+          "title": "Cilindru cu capăt neted Ø 6,4 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p641": {
+          "title": "Cilindru cu capăt activ Ø 6,4 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p640": {
+          "title": "Cilindru cu vârf sferic Ø 6,4 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p634": {
+          "title": "Cilindru cu capăt neted Ø 13 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p503": {
+          "title": "Cilindru cu vârf sferic Ø 6,4 mm, tijă 3,2 mm",
+          "description": ""
+        },
+        "p643": {
+          "title": "Cilindru cu capăt activ Ø 13 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p832": {
+          "title": "Cilindru alungit cu capăt activ Ø 13 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p642": {
+          "title": "Cilindru cu vârf sferic Ø 13 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p636": {
+          "title": "Cilindru lung cu vârf sferic Ø 13 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p637": {
+          "title": "Cilindru lung cu capăt activ Ø 16 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p836": {
+          "title": "Cilindru cu capăt activ Ø 19 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p644": {
+          "title": "Cilindru cu vârf sferic Ø 16 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p815": {
+          "title": "Cilindru cu vârf sferic Ø 19 mm, tijă 6 mm – degroșare extremă",
+          "description": ""
+        },
+        "p835": {
+          "title": "Cilindru cu vârf sferic Ø 19 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p825": {
+          "title": "Cilindru cu margine rotunjită Ø 25,4 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p827": {
+          "title": "Cilindru cu margine rotunjită și capăt activ Ø 25,4 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p834": {
+          "title": "Cilindru cu capăt neted Ø 25,4 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p638": {
+          "title": "Dorn de prindere pentru raspele circumferențiale",
+          "description": ""
+        },
+        "p687": {
+          "title": "Freză sferică Ø 13 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p688": {
+          "title": "Freză sferică Ø 22 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p822": {
+          "title": "Freză sferică Ø 22 mm, tijă 6 mm – degroșare extremă",
+          "description": ""
+        },
+        "p686": {
+          "title": "Freză sferică Ø 25,4 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p689": {
+          "title": "Freză conică Ø 6,4 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p756": {
+          "title": "Freză conică Ø 13 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p824": {
+          "title": "Freză conică cu capăt neted Ø 13 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p757": {
+          "title": "Freză conică cu capăt neted Ø 19 mm, tijă 6 mm",
+          "description": ""
+        },
+        "p691": {
+          "title": "Corp abraziv Ø 7 mm",
+          "description": ""
+        },
+        "p762": {
+          "title": "Set de freze călite – 6 buc.",
+          "description": ""
+        },
+        "p767": {
+          "title": "Set freze diamantate Diamond Burr, tijă 3,2 mm – 30 buc.",
+          "description": ""
+        },
+        "p856": {
+          "title": "Set freze diamantate Diamond Burr, tijă 2,4 mm – 30 buc.",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Preț actual și cumpărare",
     "badges": {
       "top": "Produsul lunii",
