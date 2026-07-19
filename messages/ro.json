@@ -718,6 +718,63 @@
         }
       }
     },
+    "needleDiscs": {
+      "title": "Discuri raspel-ac pentru lemn",
+      "short": "Discuri raspel-ac din carbură Saburrtooth pentru polizoare unghiulare — șlefuire și modelare rapidă a lemnului.",
+      "viewAll": "Vezi toate produsele ({count})",
+      "description": "Discuri de șlefuit raspel-ac pentru polizoare unghiulare — discuri din carbură Saburrtooth USA pentru șlefuirea, modelarea și degroșarea rapidă a lemnului. Raspele plate, convexe, oblice și tip cupă, cu granulații de la foarte fin la extra aspru, diametre de la 44,5 la 180 mm. Nu se colmatează, nu ard lemnul și rezistă de multe ori mai mult decât hârtia abrazivă. Sunt afișate doar produsele aflate în stoc.",
+      "cta": "Vezi în e-shop",
+      "products": {
+        "p998": {
+          "title": "Disc raspel-ac oblic convex fără orificii, Ø 180 mm, rugos",
+          "description": ""
+        },
+        "p438": {
+          "title": "Disc raspel-ac plat drept, Ø 100 mm, extra aspru",
+          "description": ""
+        },
+        "p1167": {
+          "title": "Disc raspel-ac convex fără orificii, Ø 100 mm, foarte fin",
+          "description": ""
+        },
+        "p506": {
+          "title": "Disc raspel-ac convex fără orificii, Ø 100 mm, aspru",
+          "description": ""
+        },
+        "p476": {
+          "title": "Disc raspel-ac convex cu orificii, Ø 100 mm, fin",
+          "description": ""
+        },
+        "p618": {
+          "title": "Disc raspel-ac oblic convex fără orificii, Ø 100 mm, aspru",
+          "description": ""
+        },
+        "p619": {
+          "title": "Disc raspel-ac oblic convex fără orificii, Ø 100 mm, extra aspru",
+          "description": ""
+        },
+        "p406": {
+          "title": "Raspel-ac tip cupă, rugos, Ø 50 mm",
+          "description": ""
+        },
+        "p409": {
+          "title": "Raspel-ac tip cupă, aspru, Ø 50 mm",
+          "description": ""
+        },
+        "p411": {
+          "title": "Raspel-ac tip cupă, rugos, Ø 44,5 mm",
+          "description": ""
+        },
+        "p412": {
+          "title": "Raspel-ac tip cupă, aspru, Ø 44,5 mm",
+          "description": ""
+        },
+        "p405": {
+          "title": "Raspel-ac tip cupă, extra aspru, Ø 44,5 mm",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Preț actual și cumpărare",
     "badges": {
       "top": "Produsul lunii",
