@@ -26,6 +26,15 @@ export default async function BrandsPage({
 
   const t = await getTranslations("brands");
 
+  // Richest cards first: logo + description, then description only, then name only.
+  const rankedBrands = brands
+    .map((brand) => {
+      const description = t(`items.${brand.slug}.description`);
+      const rank = brand.logo && description ? 0 : description ? 1 : 2;
+      return { ...brand, description, rank };
+    })
+    .sort((a, b) => a.rank - b.rank);
+
   return (
     <div className="py-8 max-w-6xl mx-auto">
       <h1 className="text-4xl font-bold text-espresso-800 mb-4">{t("title")}</h1>
@@ -33,8 +42,7 @@ export default async function BrandsPage({
       <p className="text-gray-600 leading-relaxed mb-10 max-w-2xl">{t("intro")}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
-        {brands.map(({ id, slug, name, url, logo }) => {
-          const description = t(`items.${slug}.description`);
+        {rankedBrands.map(({ id, name, url, logo, description }) => {
           return (
             <div
               key={id}
