@@ -812,6 +812,51 @@
         }
       }
     },
+    "miniDiscs": {
+      "title": "Mini kotouče pro mini frézky (50 mm)",
+      "short": "Mini rašple, řetězové frézky Merlin, diamantové a fibrové kotoučky 50 mm pro Arbortech Mini Grinder, Merlin a Proxxon.",
+      "viewAll": "Zobrazit všechny produkty ({count})",
+      "description": "Mini kotouče o průměru 50 mm pro mini frézky a mini brusky — Arbortech Mini Grinder / Mini Carver, King Arthur Merlin či Proxxon. V nabídce jsou řetězové mini frézky Merlin s tvrdokovovými zuby, kotoučové a jehličkové mini rašple, diamantové kotoučky, fibrové brusné kotouče i náhradní díly. Ideální pro detailní tvarování, řezbu a broušení dřeva na těžko dostupných místech. Zobrazujeme jen produkty, které jsou aktuálně skladem.",
+      "cta": "Zobrazit v e-shopu",
+      "products": {
+        "p413": {
+          "title": "Prodlužovací nástavec M14 / 9,5 mm",
+          "description": ""
+        },
+        "p855": {
+          "title": "Sada brusných kotoučků na kov, 3 ks, Ø 50 mm",
+          "description": ""
+        },
+        "p1018": {
+          "title": "Diamantový brusný kotouček do mini frézky, Ø 51 mm",
+          "description": ""
+        },
+        "p368": {
+          "title": "Kotoučová sekaná rašple 50 mm pro Arbortech Mini Grinder a Merlin",
+          "description": ""
+        },
+        "p590": {
+          "title": "Jehličková mini rašple kulatá 50 mm, jemná, s otvory",
+          "description": ""
+        },
+        "p469": {
+          "title": "Fibrové brusné kotouče 4 ks, D120 nejjemnější, Ø 50 mm",
+          "description": ""
+        },
+        "p610": {
+          "title": "Fibrové brusné kotouče 4 ks, mix, Ø 50 mm",
+          "description": ""
+        },
+        "p609": {
+          "title": "Náhradní řetěz Merlin, 8zubový",
+          "description": ""
+        },
+        "p608": {
+          "title": "Mini frézka Merlin 50 mm, 4zubová řetězová",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Aktuální cena a nákup",
     "badges": {
       "top": "TOP produkt měsíce",

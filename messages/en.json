@@ -812,6 +812,51 @@
         }
       }
     },
+    "miniDiscs": {
+      "title": "Mini discs for mini carvers (50 mm)",
+      "short": "Mini rasps, Merlin chain discs, diamond and fibre discs 50 mm for Arbortech Mini Grinder, Merlin and Proxxon.",
+      "viewAll": "View all products ({count})",
+      "description": "50 mm mini discs for mini carvers and mini grinders — Arbortech Mini Grinder / Mini Carver, King Arthur Merlin and Proxxon. The range covers Merlin chain-type mini carving discs with carbide teeth, toothed and needle mini rasp discs, diamond discs, fibre sanding discs and spare parts. Perfect for detailed shaping, carving and sanding of wood in hard-to-reach places. Only products currently in stock are shown.",
+      "cta": "View in e-shop",
+      "products": {
+        "p413": {
+          "title": "Extension adapter M14 / 9.5 mm",
+          "description": ""
+        },
+        "p855": {
+          "title": "Set of metal grinding discs, 3 pcs, Ø 50 mm",
+          "description": ""
+        },
+        "p1018": {
+          "title": "Diamond grinding disc for mini carvers, Ø 51 mm",
+          "description": ""
+        },
+        "p368": {
+          "title": "Toothed rasp disc 50 mm for Arbortech Mini Grinder and Merlin",
+          "description": ""
+        },
+        "p590": {
+          "title": "Round mini needle rasp disc 50 mm, fine, with holes",
+          "description": ""
+        },
+        "p469": {
+          "title": "Fibre sanding discs 4 pcs, D120 finest, Ø 50 mm",
+          "description": ""
+        },
+        "p610": {
+          "title": "Fibre sanding discs 4 pcs, mixed grits, Ø 50 mm",
+          "description": ""
+        },
+        "p609": {
+          "title": "Merlin replacement chain, 8-tooth",
+          "description": ""
+        },
+        "p608": {
+          "title": "Merlin mini carving disc 50 mm, 4-tooth chain type",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Current price & purchase",
     "badges": {
       "top": "Top Product of the Month",

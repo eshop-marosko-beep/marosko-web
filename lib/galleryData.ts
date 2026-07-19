@@ -582,6 +582,60 @@ export const galleryCategories: GalleryCategory[] = [
       },
     ],
   },
+  {
+    slug: "mini-kotuce-pre-mini-frezky",
+    translationKey: "miniDiscs",
+    eshopUrl:
+      "https://eshop.marosko.sk/c/mini-kotuce-pre-mini-frezky-50",
+    cardStyle: "product",
+    images: [
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/vymenne-pridavne-nahradne-diely/predlzovaci-nadstavec.jpg",
+        altKey: "p413",
+        productUrl: "https://eshop.marosko.sk/p/413/predlzovaci-nastavec-m-14-9-5-mm",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/mini-frezky/sada-smirglovych-kotucov/brusn-kotuce.jpg",
+        altKey: "p855",
+        productUrl: "https://eshop.marosko.sk/p/855/sada-brusnych-kotucikov-3-kusov-priemer-50-mm",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/na-kov/diamantovy-do-mini-frezky/diamantova-mini-frezka.jpg",
+        altKey: "p1018",
+        productUrl: "https://eshop.marosko.sk/p/1018/diamantovy-brusny-kotucik-do-mini-frezky-51-mm",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/mini-raspla.jpg",
+        altKey: "p368",
+        productUrl: "https://eshop.marosko.sk/p/368/kotucova-raspla-50-mm-pre-brusky-dlhym-krkom",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/mini-frezky/mini-raspla-gulata-z-otvormi/dw250h.jpg",
+        altKey: "p590",
+        productUrl: "https://eshop.marosko.sk/p/590/ihlickova-mini-raspla-gulata-50mm-jemna-s-otvormi",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/vymenne-pridavne-nahradne-diely/arbortech-kotuciky-do-mini-grindra-/nahradne-smirglove-kotuciky-do-minigrindra.jpg",
+        altKey: "p469",
+        productUrl: "https://eshop.marosko.sk/p/469/sada-nahradnych-kotucov-pre-mini-carver-d-120",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/vymenne-pridavne-nahradne-diely/arbortech-kotuciky-do-mini-grindra-/nahradne-smirglove-kotuciky-do-minigrindra.jpg",
+        altKey: "p610",
+        productUrl: "https://eshop.marosko.sk/p/610/sada-nahradnych-kotucov-pre-mini-carver-mix",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/vymenne-pridavne-nahradne-diely/257-merlin-retaz.jpg",
+        altKey: "p609",
+        productUrl: "https://eshop.marosko.sk/p/609/nahradna-retaz-merlin-8-zubova",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/arbortech/4zubova-minifrezka-merlin.jpg",
+        altKey: "p608",
+        productUrl: "https://eshop.marosko.sk/p/608/mini-frezka-merlin-4-zubova-retazova-50mm",
+      },
+    ],
+  },
 ];
 
 export function getGalleryCategory(slug: string) {
