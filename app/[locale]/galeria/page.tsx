@@ -12,7 +12,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta.gallery" });
-  return buildMetadata({ locale, path: "/galeria", title: t("title"), description: t("description") });
+  return buildMetadata({
+    locale,
+    path: "/galeria",
+    title: t("title"),
+    description: t("description"),
+    image: galleryCategories[0].images[0].src,
+  });
 }
 
 export default async function GalleryPage({
