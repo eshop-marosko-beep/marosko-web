@@ -812,6 +812,51 @@
         }
       }
     },
+    "miniDiscs": {
+      "title": "Mini kotúče pre mini frézky (50 mm)",
+      "short": "Mini rašple, reťazové frézky Merlin, diamantové a fibrové kotúčiky 50 mm pre Arbortech Mini Grinder, Merlin a Proxxon.",
+      "viewAll": "Zobraziť všetky produkty ({count})",
+      "description": "Mini kotúče s priemerom 50 mm pre mini frézky a mini brúsky — Arbortech Mini Grinder / Mini Carver, King Arthur Merlin či Proxxon. V ponuke sú reťazové mini frézky Merlin s tvrdokovovými zubami, kotúčové a ihličkové mini rašple, diamantové kotúčiky, fibrové brúsne kotúče aj náhradné diely. Ideálne na detailné tvarovanie, rezbu a brúsenie dreva v ťažko dostupných miestach. Zobrazujeme len produkty, ktoré sú aktuálne skladom.",
+      "cta": "Zobraziť v e-shope",
+      "products": {
+        "p413": {
+          "title": "Predlžovací nástavec M14 / 9,5 mm",
+          "description": ""
+        },
+        "p855": {
+          "title": "Sada brúsnych kotúčikov na kov, 3 ks, Ø 50 mm",
+          "description": ""
+        },
+        "p1018": {
+          "title": "Diamantový brúsny kotúčik do mini frézky, Ø 51 mm",
+          "description": ""
+        },
+        "p368": {
+          "title": "Kotúčová sekaná rašpľa 50 mm pre Arbortech Mini Grinder a Merlin",
+          "description": ""
+        },
+        "p590": {
+          "title": "Ihličková mini rašpľa guľatá 50 mm, jemná, s otvormi",
+          "description": ""
+        },
+        "p469": {
+          "title": "Fibrové brúsne kotúče 4 ks, D120 najjemnejšie, Ø 50 mm",
+          "description": ""
+        },
+        "p610": {
+          "title": "Fibrové brúsne kotúče 4 ks, mix, Ø 50 mm",
+          "description": ""
+        },
+        "p609": {
+          "title": "Náhradná reťaz Merlin, 8-zubová",
+          "description": ""
+        },
+        "p608": {
+          "title": "Mini frézka Merlin 50 mm, 4-zubová reťazová",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Aktuálna cena a nákup",
     "badges": {
       "top": "TOP produkt mesiaca",

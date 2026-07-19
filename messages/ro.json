@@ -812,6 +812,51 @@
         }
       }
     },
+    "miniDiscs": {
+      "title": "Mini discuri pentru mini-freze (50 mm)",
+      "short": "Mini raspele, discuri cu lanț Merlin, discuri diamantate și din fibră de 50 mm pentru Arbortech Mini Grinder, Merlin și Proxxon.",
+      "viewAll": "Vezi toate produsele ({count})",
+      "description": "Mini discuri cu diametrul de 50 mm pentru mini-freze și mini-polizoare — Arbortech Mini Grinder / Mini Carver, King Arthur Merlin și Proxxon. Gama include mini discuri de sculptat cu lanț Merlin cu dinți din carbură, discuri raspel dințate și tip ac, discuri diamantate, discuri abrazive din fibră și piese de schimb. Ideale pentru modelare detaliată, sculptură și șlefuirea lemnului în locuri greu accesibile. Sunt afișate doar produsele aflate în stoc.",
+      "cta": "Vezi în e-shop",
+      "products": {
+        "p413": {
+          "title": "Adaptor prelungitor M14 / 9,5 mm",
+          "description": ""
+        },
+        "p855": {
+          "title": "Set de discuri abrazive pentru metal, 3 buc., Ø 50 mm",
+          "description": ""
+        },
+        "p1018": {
+          "title": "Disc abraziv diamantat pentru mini-freze, Ø 51 mm",
+          "description": ""
+        },
+        "p368": {
+          "title": "Disc raspel dințat 50 mm pentru Arbortech Mini Grinder și Merlin",
+          "description": ""
+        },
+        "p590": {
+          "title": "Disc mini raspel-ac rotund 50 mm, fin, cu orificii",
+          "description": ""
+        },
+        "p469": {
+          "title": "Discuri abrazive din fibră 4 buc., D120 cel mai fin, Ø 50 mm",
+          "description": ""
+        },
+        "p610": {
+          "title": "Discuri abrazive din fibră 4 buc., granulații mixte, Ø 50 mm",
+          "description": ""
+        },
+        "p609": {
+          "title": "Lanț de schimb Merlin, cu 8 dinți",
+          "description": ""
+        },
+        "p608": {
+          "title": "Mini-freză Merlin 50 mm, cu lanț cu 4 dinți",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Preț actual și cumpărare",
     "badges": {
       "top": "Produsul lunii",
