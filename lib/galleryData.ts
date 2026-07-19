@@ -636,6 +636,175 @@ export const galleryCategories: GalleryCategory[] = [
       },
     ],
   },
+  {
+    slug: "manpa-predlzovacie-rameno",
+    translationKey: "manpaArm",
+    eshopUrl:
+      "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky/manpa-predlzovacie-rameno-naradie",
+    cardStyle: "product",
+    images: [
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/predlzovaci-rameno-/pasova-bruska/3-154.jpg",
+        altKey: "p765",
+        productUrl: "https://eshop.marosko.sk/p/765/predlzovacie-rameno-s-pasovou-bruskou",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/master/2.jpg",
+        altKey: "p1029",
+        productUrl: "https://eshop.marosko.sk/p/1029/predlzovacie-rameno-s-predlzenim-frezovanie-manpa-multi-cutter-master",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/basic-kit/basic.jpeg",
+        altKey: "p1027",
+        productUrl: "https://eshop.marosko.sk/p/1027/frezovacie-rameno-manpa-s-nastavcom-kotucom-zakladna-verzia",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/predlzovaci-rameno-/multi-cutter-mp21-bez-frezky.jpeg",
+        altKey: "p789",
+        productUrl: "https://eshop.marosko.sk/p/789/predlzovacie-rameno-s-viacucelovym-nadstavcom-manpa",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/predlzovaci-rameno-/718-.jpg",
+        altKey: "p768",
+        productUrl: "https://eshop.marosko.sk/p/768/sada-predlzovacich-segmentov-k-ramenu",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/nahradne-brusne-pasy/nahradne-pasy.jpg",
+        altKey: "p837",
+        productUrl: "https://eshop.marosko.sk/p/837/brusne-pasy-na-pasovu-brusku-manpa-30-620mm",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/zvonkove-/zvonkova-freza-na-uhlovu-brusku-60-mm.jpg",
+        altKey: "p915",
+        productUrl: "https://eshop.marosko.sk/p/915/hlbiaca-zvonkova-freza-priemer-60-mm-manpa",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/vymenne-pridavne-nahradne-diely/m14-m10/m-14---10-prechodka-.jpg",
+        altKey: "p797",
+        productUrl: "https://eshop.marosko.sk/p/797/predlzovacia-prechodka-m14-m-10-16-mm",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/zuby-na-manpu.jpg",
+        altKey: "p803",
+        productUrl: "https://eshop.marosko.sk/p/803/nahradne-vymenne-zuby-na-frezu-manpa",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/zuby-na-manpu.jpg",
+        altKey: "p1284",
+        productUrl: "https://eshop.marosko.sk/p/1284/nahradne-vymenne-zuby-na-frezovacie-kotuce-manpa",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/frezovacie-kotuce/trojuholnikovy-70mm/trojuholnikovy-kotuc.jpg",
+        altKey: "p721",
+        productUrl: "https://eshop.marosko.sk/p/721/3-zuba-freza-s-12-mm-trojuholnikovym-profilom-priemer-70-mm",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/4-zuba.jpeg",
+        altKey: "p720",
+        productUrl: "https://eshop.marosko.sk/p/720/4-zuba-freza-s-8-mm-gulatym-profilom-priemer-95-mm-upnutie-m10",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/unasac-smirglov/flexibilny-unasac.jpeg",
+        altKey: "p792",
+        productUrl: "https://eshop.marosko.sk/p/792/unasac-smirglov-velmi-ohybny-95-mm",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/unasac-smirglov/85mm.jpeg",
+        altKey: "p793",
+        productUrl: "https://eshop.marosko.sk/p/793/flexibilny-unasac-smirglov-80mm-zipsovy",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/unasac-smirglov/50mm.jpeg",
+        altKey: "p794",
+        productUrl: "https://eshop.marosko.sk/p/794/flexibilny-unasac-smirglov-50-mm-zipsovy",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/vrstvy-manpa-.jpg",
+        altKey: "p799",
+        productUrl: "https://eshop.marosko.sk/p/799/molitanova-medzivrstva-suchy-zips-75-100-120",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/980.jpg",
+        altKey: "p1022",
+        productUrl: "https://eshop.marosko.sk/p/1022/nahradne-klinove-remene-k-ramenu-manpa",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/priruby/img-20220913-100149-01.jpeg",
+        altKey: "p932",
+        productUrl: "https://eshop.marosko.sk/p/932/priruby-s-osadenim-16-mm-pre-kotuce-manpa",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/predlzovaci-rameno-/prechodky/predlzenie-hriadela-m14-m10.jpg",
+        altKey: "p1015",
+        productUrl: "https://eshop.marosko.sk/p/1015/predlzenie-hriadela-uhlovej-brusky-zavit-m-10-m-10",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/vypalovacie-frezky/img-20210513-080948-01.jpeg",
+        altKey: "p994",
+        productUrl: "https://eshop.marosko.sk/p/994/stopkove-frezky-na-oci-vypalovacie",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/grinder-holder-/grinder--holder.jpg",
+        altKey: "p917",
+        productUrl: "https://eshop.marosko.sk/p/917/predlzovaci-drziak-uhlovej-brusky",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/brusny-valec/brusny-valec.jpg",
+        altKey: "p1112",
+        productUrl: "https://eshop.marosko.sk/p/1112/brusny-valec-na-uhlovu-brusku-manpa",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/unasaci-prst/manpa-vrtula-unasacia-.jpg",
+        altKey: "p1185",
+        productUrl: "https://eshop.marosko.sk/p/1185/unasaci-prst-vrtula-kuzel",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/upnutie-salovych-raspli-manpa.jpg",
+        altKey: "p1204",
+        productUrl: "https://eshop.marosko.sk/p/1204/predlzenie-na-salkove-rasple-na-rameno-manpa",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/predlzovacia-hriadel-do-vrtacky/sklucovadlo-na-hriadel/-vyrp13-8624--keyless-chuck---features-1.jpg",
+        altKey: "p1350",
+        productUrl: "https://eshop.marosko.sk/p/1350/rychloupinacie-sklucovadlo-na-hriadel-zavit-m10",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/predlzovacia-hriadel-do-vrtacky/s402289862919970660-p86-i2-w1280.jpeg",
+        altKey: "p1348",
+        productUrl: "https://eshop.marosko.sk/p/1348/predlzovacia-hriadel-do-vrtacky",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/lamelova-turbina-ez-sander-20/s402289862919970660-p124-i1-w604.jpeg",
+        altKey: "p1352",
+        productUrl: "https://eshop.marosko.sk/p/1352/manpa-lamelova-brusna-stopka-ez-sander-brusny-vejar-22",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/brusny-vejar-42/s402289862919970660-p120-i1-w604-%281%29.jpeg",
+        altKey: "p1353",
+        productUrl: "https://eshop.marosko.sk/p/1353/manpa-5-lamelova-brusna-stopka-ez-sander-brusny-vejar-42",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/kefove-nahrady-manpa/77263596-7e82-4f77-9c4c-3148012f27f5-900x900.jpg",
+        altKey: "p1361",
+        productUrl: "https://eshop.marosko.sk/p/1361/kefove-nahradne-vlakna-pre-vejar-manpa",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/prechodky-m10-na-m14/m10-m14-zavitova-prechodka.jpeg",
+        altKey: "p1410",
+        productUrl: "https://eshop.marosko.sk/p/1410/skrutka-matica-adapter-m10-na-m14-pre-manpa-system",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/lancelot-kotuce/14-mm-14-zub-sguire.jpg",
+        altKey: "p382",
+        productUrl: "https://eshop.marosko.sk/p/382/retazovy-kotuc-12-zubov-14-mm-otvor-king-arthur",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/kamenorezba/diamantovy-kotucik/80mm/361323-enwnmpro1.webp",
+        altKey: "p1415",
+        productUrl: "https://eshop.marosko.sk/p/1415/diamantovy-rezny-kotuc-85mm",
+      },
+    ],
+  },
 ];
 
 export function getGalleryCategory(slug: string) {

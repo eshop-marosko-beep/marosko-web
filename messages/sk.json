@@ -857,6 +857,143 @@
         }
       }
     },
+    "manpaArm": {
+      "title": "Manpa predlžovacie rameno a náradie",
+      "short": "Predlžovacie ramená Manpa na uhlovú brúsku — Multi Cutter, pásová brúska, frézy, unášače a náhradné diely.",
+      "viewAll": "Zobraziť všetky produkty ({count})",
+      "description": "Predlžovacie rameno Manpa na uhlovú brúsku a kompletné príslušenstvo k nemu — Multi Cutter Master, pásová brúska na flexu, viacúčelové frézovacie nadstavce, frézy s vymeniteľnými karbidovými zubami, flexibilné unášače šmirgľov, brúsne vejáre EZ-Sander aj náhradné diely (remene, zuby, príruby, prechodky M10/M14). Rameno predĺži dosah uhlovej brúsky a umožní dlabanie hlbokých dutín, misiek a korýt. Zobrazujeme len produkty, ktoré sú aktuálne skladom.",
+      "cta": "Zobraziť v e-shope",
+      "products": {
+        "p765": {
+          "title": "Predlžovacie rameno s pásovou brúskou",
+          "description": ""
+        },
+        "p1029": {
+          "title": "Manpa Multi Cutter Master – predlžovacie rameno s predĺžením a náhradnou frézkou",
+          "description": ""
+        },
+        "p1027": {
+          "title": "Manpa – nadstavec na viacúčelové frézy, základná sada",
+          "description": ""
+        },
+        "p789": {
+          "title": "Predlžovacie rameno s viacúčelovým nadstavcom, bez kotúča",
+          "description": ""
+        },
+        "p768": {
+          "title": "Sada predlžovacích segmentov k ramenu Manpa",
+          "description": ""
+        },
+        "p837": {
+          "title": "Brúsne pásy na pásovú brúsku Manpa, 30 × 620 mm",
+          "description": ""
+        },
+        "p915": {
+          "title": "Hĺbiaca zvonková frézka 3\" do uhlovej brúsky, Ø 60 mm",
+          "description": ""
+        },
+        "p797": {
+          "title": "Predlžovacia prechodka M14 / M10 (+M16)",
+          "description": ""
+        },
+        "p803": {
+          "title": "Náhradné výmenné zuby na frézovacie kotúče Manpa, okrúhle",
+          "description": ""
+        },
+        "p1284": {
+          "title": "Náhradné výmenné zuby Manpa, trojuholníkové hranaté",
+          "description": ""
+        },
+        "p721": {
+          "title": "3-zubá fréza s 16 mm trojuholníkovým profilom, Ø 70 mm",
+          "description": ""
+        },
+        "p720": {
+          "title": "4-zubá fréza s 8 mm guľatým profilom, Ø 95 mm, upnutie M10",
+          "description": ""
+        },
+        "p792": {
+          "title": "Flexibilný unášač šmirgľov 95 mm, zipsový",
+          "description": ""
+        },
+        "p793": {
+          "title": "Flexibilný unášač šmirgľov 80 mm, zipsový",
+          "description": ""
+        },
+        "p794": {
+          "title": "Flexibilný unášač šmirgľov 50 mm, zipsový",
+          "description": ""
+        },
+        "p799": {
+          "title": "Molitanová medzivrstva, suchý zips + vlies",
+          "description": ""
+        },
+        "p1022": {
+          "title": "Náhradné klinové remene k ramenu Manpa",
+          "description": ""
+        },
+        "p932": {
+          "title": "Príruby s čapmi pre kotúče Manpa",
+          "description": ""
+        },
+        "p1015": {
+          "title": "Predĺženie hriadeľa uhlovej brúsky 120 mm, závit M10/M10",
+          "description": ""
+        },
+        "p994": {
+          "title": "Manpa – balenie 8 tvarovacích rašplí na oči a vypaľovanie",
+          "description": ""
+        },
+        "p917": {
+          "title": "Predlžovací držiak uhlovej brúsky Grinder Holder",
+          "description": ""
+        },
+        "p1112": {
+          "title": "Brúsny valec na uhlovú brúsku Manpa",
+          "description": ""
+        },
+        "p1185": {
+          "title": "Unášač brúsnych pásikov kužeľ / vrtuľa",
+          "description": ""
+        },
+        "p1204": {
+          "title": "Predĺženie na šálkové rašple na rameno Manpa",
+          "description": ""
+        },
+        "p1350": {
+          "title": "Rýchloupínacie skľučovadlo na predlžovaciu hriadeľ, závit M10",
+          "description": ""
+        },
+        "p1348": {
+          "title": "Predlžovacia hriadeľ do vŕtačky Manpa",
+          "description": ""
+        },
+        "p1352": {
+          "title": "Brúsny vejár Manpa na stopke EZ-Sander 22",
+          "description": ""
+        },
+        "p1353": {
+          "title": "Brúsny vejár Manpa na stopke EZ-Sander 42",
+          "description": ""
+        },
+        "p1361": {
+          "title": "Náhradné kefové vlákna pre vejáre Manpa EZ Sander 22/42/65",
+          "description": ""
+        },
+        "p1410": {
+          "title": "Skrutka-matica adaptér M10 na M14 pre Manpa systém",
+          "description": ""
+        },
+        "p382": {
+          "title": "Reťazový frézovací kotúč Squire, 12 zubov, 14 mm otvor",
+          "description": ""
+        },
+        "p1415": {
+          "title": "Diamantový rezný kotúč 85 mm",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Aktuálna cena a nákup",
     "badges": {
       "top": "TOP produkt mesiaca",

@@ -857,6 +857,143 @@
         }
       }
     },
+    "manpaArm": {
+      "title": "Braț prelungitor Manpa și unelte",
+      "short": "Brațe prelungitoare Manpa pentru polizoare unghiulare — Multi Cutter, șlefuitor cu bandă, freze, suporturi și piese de schimb.",
+      "viewAll": "Vezi toate produsele ({count})",
+      "description": "Brațul prelungitor Manpa pentru polizoare unghiulare și gama sa completă de accesorii — Multi Cutter Master, șlefuitor cu bandă, capete de frezare multifuncționale, freze cu dinți din carbură interschimbabili, suporturi flexibile pentru discuri abrazive, evantaie de șlefuit EZ-Sander și piese de schimb (curele, dinți, flanșe, adaptoare M10/M14). Brațul extinde raza de acțiune a polizorului pentru scobirea cavităților adânci, a bolurilor și albiilor. Sunt afișate doar produsele aflate în stoc.",
+      "cta": "Vezi în e-shop",
+      "products": {
+        "p765": {
+          "title": "Braț prelungitor cu șlefuitor cu bandă",
+          "description": ""
+        },
+        "p1029": {
+          "title": "Manpa Multi Cutter Master – braț prelungitor cu extensie și freză de rezervă",
+          "description": ""
+        },
+        "p1027": {
+          "title": "Manpa – adaptor pentru freze multifuncționale, set de bază",
+          "description": ""
+        },
+        "p789": {
+          "title": "Braț prelungitor cu adaptor multifuncțional, fără disc",
+          "description": ""
+        },
+        "p768": {
+          "title": "Set de segmente de prelungire pentru brațul Manpa",
+          "description": ""
+        },
+        "p837": {
+          "title": "Benzi abrazive pentru șlefuitorul cu bandă Manpa, 30 × 620 mm",
+          "description": ""
+        },
+        "p915": {
+          "title": "Freză clopot de scobit 3\" pentru polizor unghiular, Ø 60 mm",
+          "description": ""
+        },
+        "p797": {
+          "title": "Adaptor de prelungire M14 / M10 (+M16)",
+          "description": ""
+        },
+        "p803": {
+          "title": "Dinți de schimb pentru discurile de frezat Manpa, rotunzi",
+          "description": ""
+        },
+        "p1284": {
+          "title": "Dinți de schimb Manpa, triunghiulari cu muchii drepte",
+          "description": ""
+        },
+        "p721": {
+          "title": "Freză cu 3 dinți cu profil triunghiular de 16 mm, Ø 70 mm",
+          "description": ""
+        },
+        "p720": {
+          "title": "Freză cu 4 dinți cu profil rotund de 8 mm, Ø 95 mm, prindere M10",
+          "description": ""
+        },
+        "p792": {
+          "title": "Suport flexibil cu arici pentru discuri abrazive, 95 mm",
+          "description": ""
+        },
+        "p793": {
+          "title": "Suport flexibil cu arici pentru discuri abrazive, 80 mm",
+          "description": ""
+        },
+        "p794": {
+          "title": "Suport flexibil cu arici pentru discuri abrazive, 50 mm",
+          "description": ""
+        },
+        "p799": {
+          "title": "Strat intermediar din burete, arici + pâslă",
+          "description": ""
+        },
+        "p1022": {
+          "title": "Curele trapezoidale de schimb pentru brațul Manpa",
+          "description": ""
+        },
+        "p932": {
+          "title": "Flanșe cu știfturi pentru discurile Manpa",
+          "description": ""
+        },
+        "p1015": {
+          "title": "Prelungitor de ax pentru polizor unghiular 120 mm, filet M10/M10",
+          "description": ""
+        },
+        "p994": {
+          "title": "Manpa – set de 8 raspele de modelat pentru ochi și detalii arse",
+          "description": ""
+        },
+        "p917": {
+          "title": "Suport prelungitor Grinder Holder pentru polizor unghiular",
+          "description": ""
+        },
+        "p1112": {
+          "title": "Tambur de șlefuit Manpa pentru polizor unghiular",
+          "description": ""
+        },
+        "p1185": {
+          "title": "Suport pentru benzi abrazive, con / elice",
+          "description": ""
+        },
+        "p1204": {
+          "title": "Prelungitor pentru raspele tip cupă pe brațul Manpa",
+          "description": ""
+        },
+        "p1350": {
+          "title": "Mandrină rapidă pentru axul prelungitor, filet M10",
+          "description": ""
+        },
+        "p1348": {
+          "title": "Ax prelungitor Manpa pentru bormașină",
+          "description": ""
+        },
+        "p1352": {
+          "title": "Evantai de șlefuit Manpa pe tijă EZ-Sander 22",
+          "description": ""
+        },
+        "p1353": {
+          "title": "Evantai de șlefuit Manpa pe tijă EZ-Sander 42",
+          "description": ""
+        },
+        "p1361": {
+          "title": "Fibre de perie de schimb pentru Manpa EZ Sander 22/42/65",
+          "description": ""
+        },
+        "p1410": {
+          "title": "Adaptor șurub-piuliță M10 la M14 pentru sistemul Manpa",
+          "description": ""
+        },
+        "p382": {
+          "title": "Disc de sculptat cu lanț Squire, 12 dinți, alezaj 14 mm",
+          "description": ""
+        },
+        "p1415": {
+          "title": "Disc diamantat de tăiere 85 mm",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Preț actual și cumpărare",
     "badges": {
       "top": "Produsul lunii",
