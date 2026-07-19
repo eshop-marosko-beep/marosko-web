@@ -775,6 +775,43 @@
         }
       }
     },
+    "drillMilling": {
+      "title": "Milling tools for drills",
+      "short": "Orbi Cut hollowing balls and Manpa cutter heads with replaceable carbide blades for power drills.",
+      "viewAll": "View all products ({count})",
+      "description": "Milling tools for power drills for shaping and hollowing wood — Orbi Cut hollowing balls by Kirjes of Sweden and Manpa mini cutter heads with replaceable carbide blades (round, triangular and square profiles). Turn an ordinary drill or flexible shaft into a carving tool — perfect for making bowls, spoons, hollows and fine wood shaping. Only products currently in stock are shown.",
+      "cta": "View in e-shop",
+      "products": {
+        "p1472": {
+          "title": "Orbi Cut – 40 mm hollowing ball on shank, spare blades + sharpening card",
+          "description": ""
+        },
+        "p813": {
+          "title": "Orbi Cut hollowing ball on shank",
+          "description": ""
+        },
+        "p994": {
+          "title": "Manpa – set of 8 shaping rasps for eyes and burning detail",
+          "description": ""
+        },
+        "p981": {
+          "title": "Mini round cutter head 16 mm, 6 mm shank – SCR",
+          "description": ""
+        },
+        "p982": {
+          "title": "Mini triangular cutter head 16 mm, 6 mm shank – SCT",
+          "description": ""
+        },
+        "p1108": {
+          "title": "Mini square cutter head 16 mm, 6 mm shank – SCS",
+          "description": ""
+        },
+        "p1277": {
+          "title": "Mini triangular cutter head 16 mm, 6.4 mm shank – SCT (clearance)",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Current price & purchase",
     "badges": {
       "top": "Top Product of the Month",
