@@ -857,6 +857,143 @@
         }
       }
     },
+    "manpaArm": {
+      "title": "Manpa extension arm and tools",
+      "short": "Manpa extension arms for angle grinders — Multi Cutter, belt sander, cutters, sanding holders and spare parts.",
+      "viewAll": "View all products ({count})",
+      "description": "The Manpa extension arm for angle grinders and its complete accessory range — Multi Cutter Master, belt sander attachment, multi-purpose cutter heads, cutters with replaceable carbide teeth, flexible sanding pad holders, EZ-Sander flap sanders and spare parts (belts, teeth, flanges, M10/M14 adapters). The arm extends your grinder's reach for carving deep hollows, bowls and troughs. Only products currently in stock are shown.",
+      "cta": "View in e-shop",
+      "products": {
+        "p765": {
+          "title": "Extension arm with belt sander",
+          "description": ""
+        },
+        "p1029": {
+          "title": "Manpa Multi Cutter Master – extension arm with extender and spare cutter",
+          "description": ""
+        },
+        "p1027": {
+          "title": "Manpa – multi-purpose cutter attachment, basic kit",
+          "description": ""
+        },
+        "p789": {
+          "title": "Extension arm with multi-purpose attachment, without disc",
+          "description": ""
+        },
+        "p768": {
+          "title": "Set of extension segments for the Manpa arm",
+          "description": ""
+        },
+        "p837": {
+          "title": "Sanding belts for the Manpa belt sander, 30 × 620 mm",
+          "description": ""
+        },
+        "p915": {
+          "title": "3\" bell-type hollowing cutter for angle grinders, Ø 60 mm",
+          "description": ""
+        },
+        "p797": {
+          "title": "Extension adapter M14 / M10 (+M16)",
+          "description": ""
+        },
+        "p803": {
+          "title": "Replacement teeth for Manpa cutter discs, round",
+          "description": ""
+        },
+        "p1284": {
+          "title": "Replacement teeth for Manpa discs, triangular square-edge",
+          "description": ""
+        },
+        "p721": {
+          "title": "3-tooth cutter with 16 mm triangular profile, Ø 70 mm",
+          "description": ""
+        },
+        "p720": {
+          "title": "4-tooth cutter with 8 mm round profile, Ø 95 mm, M10 mount",
+          "description": ""
+        },
+        "p792": {
+          "title": "Flexible hook-and-loop sanding pad holder, 95 mm",
+          "description": ""
+        },
+        "p793": {
+          "title": "Flexible hook-and-loop sanding pad holder, 80 mm",
+          "description": ""
+        },
+        "p794": {
+          "title": "Flexible hook-and-loop sanding pad holder, 50 mm",
+          "description": ""
+        },
+        "p799": {
+          "title": "Foam interface pad, hook-and-loop + fleece",
+          "description": ""
+        },
+        "p1022": {
+          "title": "Replacement V-belts for the Manpa arm",
+          "description": ""
+        },
+        "p932": {
+          "title": "Flanges with pins for Manpa discs",
+          "description": ""
+        },
+        "p1015": {
+          "title": "Angle grinder spindle extension 120 mm, M10/M10 thread",
+          "description": ""
+        },
+        "p994": {
+          "title": "Manpa – set of 8 shaping rasps for eyes and burning detail",
+          "description": ""
+        },
+        "p917": {
+          "title": "Grinder Holder angle grinder extension holder",
+          "description": ""
+        },
+        "p1112": {
+          "title": "Manpa sanding drum for angle grinders",
+          "description": ""
+        },
+        "p1185": {
+          "title": "Sanding strip holder, cone / propeller",
+          "description": ""
+        },
+        "p1204": {
+          "title": "Cup rasp extension for the Manpa arm",
+          "description": ""
+        },
+        "p1350": {
+          "title": "Keyless chuck for the extension shaft, M10 thread",
+          "description": ""
+        },
+        "p1348": {
+          "title": "Manpa drill extension shaft",
+          "description": ""
+        },
+        "p1352": {
+          "title": "Manpa EZ-Sander 22 flap sander on shank",
+          "description": ""
+        },
+        "p1353": {
+          "title": "Manpa EZ-Sander 42 flap sander on shank",
+          "description": ""
+        },
+        "p1361": {
+          "title": "Replacement brush fibres for Manpa EZ Sander 22/42/65",
+          "description": ""
+        },
+        "p1410": {
+          "title": "Bolt-nut adapter M10 to M14 for the Manpa system",
+          "description": ""
+        },
+        "p382": {
+          "title": "Squire chain carving disc, 12 teeth, 14 mm bore",
+          "description": ""
+        },
+        "p1415": {
+          "title": "Diamond cutting disc 85 mm",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Current price & purchase",
     "badges": {
       "top": "Top Product of the Month",
