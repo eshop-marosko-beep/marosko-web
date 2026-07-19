@@ -538,6 +538,50 @@ export const galleryCategories: GalleryCategory[] = [
       },
     ],
   },
+  {
+    slug: "frezovacie-nastroje-do-vrtacky",
+    translationKey: "drillMilling",
+    eshopUrl:
+      "https://eshop.marosko.sk/c/nastroje-do-vrtacky/frezovacie-nastroje-do-vrtacky",
+    cardStyle: "product",
+    images: [
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/kirjes/d4174dc3-5908-44eb-9884-1b7f97a4ffe5.jpeg",
+        altKey: "p1472",
+        productUrl: "https://eshop.marosko.sk/p/1472/orbi-cut-dlabacia-gulocka-na-stopke-40mm-nahradne-noze-ostriaca-karta",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-vrtacky-/orbi-cut/orbi-cut.jpg",
+        altKey: "p813",
+        productUrl: "https://eshop.marosko.sk/p/813/dlabacia-gulocka-na-stopke-orbi-cut",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/vypalovacie-frezky/img-20210513-080948-01.jpeg",
+        altKey: "p994",
+        productUrl: "https://eshop.marosko.sk/p/994/stopkove-frezky-na-oci-vypalovacie",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/6mm-stopka-gulata/scr-main-features1-orig.jpg",
+        altKey: "p981",
+        productUrl: "https://eshop.marosko.sk/p/981/mini-gulata-16-mm-frezovacia-stopka-6mm",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/6mm-stopka-trojuholnikova/sct-main-features-1-orig.jpg",
+        altKey: "p982",
+        productUrl: "https://eshop.marosko.sk/p/982/mini-trojuholnikova-16-mm-frezovacia-stopka-6-mm-sct",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/stopkove-frezky/hranata-6mm-torx.jpg",
+        altKey: "p1108",
+        productUrl: "https://eshop.marosko.sk/p/1108/mini-trojuholnikova-16-mm-frezovacia-stopka-6-mm-sct",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/6mm-stopka-trojuholnikova/sct-main-features-1-orig.jpg",
+        altKey: "p1277",
+        productUrl: "https://eshop.marosko.sk/p/1277/mini-trojuholnikova-16-mm-frezovacia-stopka-6-4-mm-sct",
+      },
+    ],
+  },
 ];
 
 export function getGalleryCategory(slug: string) {

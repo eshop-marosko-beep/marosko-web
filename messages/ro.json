@@ -775,6 +775,43 @@
         }
       }
     },
+    "drillMilling": {
+      "title": "Unelte de frezat pentru bormașină",
+      "short": "Sfere de scobit Orbi Cut și capete de frezare Manpa cu lame din carbură interschimbabile pentru bormașină.",
+      "viewAll": "Vezi toate produsele ({count})",
+      "description": "Unelte de frezat pentru bormașină, pentru modelarea și scobirea lemnului — sfere de scobit Orbi Cut de la Kirjes din Suedia și capete de frezare mini Manpa cu lame din carbură interschimbabile (profil rotund, triunghiular și pătrat). Transformați o bormașină obișnuită sau un ax flexibil într-o unealtă de sculptură — ideal pentru boluri, linguri, cavități și modelarea fină a lemnului. Sunt afișate doar produsele aflate în stoc.",
+      "cta": "Vezi în e-shop",
+      "products": {
+        "p1472": {
+          "title": "Orbi Cut – sferă de scobit pe tijă 40 mm, lame de schimb + card de ascuțit",
+          "description": ""
+        },
+        "p813": {
+          "title": "Sferă de scobit pe tijă Orbi Cut",
+          "description": ""
+        },
+        "p994": {
+          "title": "Manpa – set de 8 raspele de modelat pentru ochi și detalii arse",
+          "description": ""
+        },
+        "p981": {
+          "title": "Cap de frezare mini rotund 16 mm, tijă 6 mm – SCR",
+          "description": ""
+        },
+        "p982": {
+          "title": "Cap de frezare mini triunghiular 16 mm, tijă 6 mm – SCT",
+          "description": ""
+        },
+        "p1108": {
+          "title": "Cap de frezare mini pătrat 16 mm, tijă 6 mm – SCS",
+          "description": ""
+        },
+        "p1277": {
+          "title": "Cap de frezare mini triunghiular 16 mm, tijă 6,4 mm – SCT (lichidare)",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Preț actual și cumpărare",
     "badges": {
       "top": "Produsul lunii",

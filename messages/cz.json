@@ -775,6 +775,43 @@
         }
       }
     },
+    "drillMilling": {
+      "title": "Frézovací nástroje do vrtačky",
+      "short": "Dlabací kuličky Orbi Cut a stopkové frézovací hlavice Manpa s vyměnitelnými karbidovými noži do vrtačky.",
+      "viewAll": "Zobrazit všechny produkty ({count})",
+      "description": "Frézovací nástroje do vrtačky pro tvarování a dlabání dřeva — dlabací kuličky Orbi Cut od švédského Kirjes a mini frézovací hlavice Manpa s vyměnitelnými karbidovými noži (kulatý, trojúhelníkový a hranatý profil). Proměňte obyčejnou vrtačku nebo ohebný hřídel v řezbářský nástroj — ideální pro výrobu misek, lžic, dutin a jemné tvarování dřeva. Zobrazujeme jen produkty, které jsou aktuálně skladem.",
+      "cta": "Zobrazit v e-shopu",
+      "products": {
+        "p1472": {
+          "title": "Orbi Cut – dlabací kulička na stopce 40 mm, náhradní nože + ostřicí karta",
+          "description": ""
+        },
+        "p813": {
+          "title": "Dlabací kulička na stopce Orbi Cut",
+          "description": ""
+        },
+        "p994": {
+          "title": "Manpa – balení 8 tvarovacích rašplí na oči a vypalování",
+          "description": ""
+        },
+        "p981": {
+          "title": "Mini kulatá frézovací hlavice 16 mm, stopka 6 mm – SCR",
+          "description": ""
+        },
+        "p982": {
+          "title": "Mini trojúhelníková frézovací hlavice 16 mm, stopka 6 mm – SCT",
+          "description": ""
+        },
+        "p1108": {
+          "title": "Mini hranatá frézovací hlavice 16 mm, stopka 6 mm – SCS",
+          "description": ""
+        },
+        "p1277": {
+          "title": "Mini trojúhelníková frézovací hlavice 16 mm, stopka 6,4 mm – SCT (výprodej)",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Aktuální cena a nákup",
     "badges": {
       "top": "TOP produkt měsíce",
