@@ -3,6 +3,7 @@
     "home": "Home",
     "about": "About Us",
     "services": "Categories",
+    "brands": "Brands",
     "gallery": "Gallery",
     "blog": "Blog",
     "shops": "Our Shops",
@@ -187,6 +188,212 @@
       "shankTools": {
         "name": "Shank tools",
         "description": "Shank-mounted cutters with various profiles for both carpentry and carving work."
+      }
+    }
+  },
+  "brands": {
+    "title": "Brands & Manufacturers",
+    "subtitle": "An overview of all the tool and material brands available in our range.",
+    "intro": "Over the years we've curated trusted manufacturers and brands that guarantee quality, durability and reliability in woodcarving and woodworking tools. Below you'll find an overview of the brands we work with.",
+    "cta": "View products in the e-shop",
+    "items": {
+      "diaclear": {
+        "description": "Diamond cutting and grinding discs for working stone, concrete and other hard materials."
+      },
+      "arbortech": {
+        "description": "An Australian pioneer of power-carving milling discs and electric chisels – home of the Woodcarver, Turbo Plane and Power Chisel."
+      },
+      "scraper": {
+        "description": "Scrapers and scraping attachments for fine finishing work on wood surfaces."
+      },
+      "ideaImport": {
+        "description": "An importer and distributor of tools and accessories for woodcarvers and joiners."
+      },
+      "artu": {
+        "description": "An Italian brand of drill bits, hole saws and cutting tools for wood and metal."
+      },
+      "allround": {
+        "description": "All-purpose accessories and add-on tools for versatile use in the workshop."
+      },
+      "saburrtoothUsa": {
+        "description": "An American brand of tungsten-carbide rasps and burrs for die grinders, popular with woodcarvers and sculptors worldwide."
+      },
+      "akkaTools": {
+        "description": "A Turkish manufacturer of milling discs and carbide angle-grinder attachments for shaping wood."
+      },
+      "kingArthurUsa": {
+        "description": "An American brand of carving and sanding discs for angle grinders, known for tools like The Ripper chain disc."
+      },
+      "silverline": {
+        "description": "A British brand of affordable hand and power tools for both DIY users and tradespeople."
+      },
+      "tarpolProfesional": {
+        "description": "The professional line from Polish brand Tarpol – rasp discs, files and abrasive attachments for angle grinders."
+      },
+      "tarpol": {
+        "description": "A Polish manufacturer of rasp discs, files and abrasive accessories for working wood."
+      },
+      "magg": {
+        "description": "A supplier of hand tools and fasteners for workshops and DIY users."
+      },
+      "extolPremium": {
+        "description": "The premium line from Czech brand Extol – electric and cordless tools for more demanding work."
+      },
+      "oTools": {
+        "description": "A complementary range of small tools for everyday work in the workshop."
+      },
+      "sait": {
+        "description": "An Italian manufacturer of grinding discs and sandpaper with a long tradition in abrasives."
+      },
+      "triton": {
+        "description": "An Australian brand known for workbenches, router tables and power tools for joiners and DIY users."
+      },
+      "dolmar": {
+        "description": "A German brand of chainsaws and garden power equipment, part of the Makita group."
+      },
+      "andrejIrsa": {
+        "description": "A Slovak woodcarver crafting original knives and carving aids, handmade to order."
+      },
+      "oregon": {
+        "description": "A world-leading American brand of chains, guide bars and spare parts for chainsaws."
+      },
+      "manpa": {
+        "description": "A brand of milling and shank attachments for angle grinders, favored for precise shaping and roughing of wood in carving work."
+      },
+      "tuson": {
+        "description": "A brand of power tools – grinders, drills and saws for both trade and home use."
+      },
+      "wadart": {
+        "description": "A Slovak supplier of tools and accessories for joiners and woodcarvers."
+      },
+      "kirjes": {
+        "description": "A Finnish brand of traditional carving knives and woodcarving tools with Scandinavian design."
+      },
+      "proxxon": {
+        "description": "A German brand of precision micro-tools – small power tools for modelmakers, watchmakers and fine craftwork."
+      },
+      "lukas": {
+        "description": "A German manufacturer of cutting and grinding discs, burrs and carbide tools under the LUKAS-ERZETT brand."
+      },
+      "nevada": {
+        "description": "Diamond cutting and grinding discs designed for working stone, tiles and building materials."
+      },
+      "makita": {
+        "description": "A Japanese world leader in power and cordless tools for professionals."
+      },
+      "pferdTools": {
+        "description": "A German brand with a long tradition of making files, rasps, wire brushes and abrasive attachments."
+      },
+      "diplomat": {
+        "description": "A distributor of tools and technical equipment for workshops and tradespeople."
+      },
+      "ctsItalia": {
+        "description": "An Italian manufacturer of chemical and technical products for wood finishing and restoration."
+      },
+      "ceraNovecento": {
+        "description": "Italian restoration waxes for the final finishing and protection of wooden furniture and carved pieces."
+      },
+      "deltaplus": {
+        "description": "A French brand of personal protective equipment – gloves, glasses, footwear and workwear."
+      },
+      "lejaTools": {
+        "description": "A manufacturer and supplier of hand tools for joinery and carving work."
+      },
+      "madeInEu": {
+        "description": "A label for products made in the European Union, guaranteeing proven quality and controlled manufacturing standards."
+      },
+      "m3": {
+        "description": "An American industrial giant supplying sandpaper, tapes and consumables for both professional and craft use."
+      },
+      "mstein": {
+        "description": "A Czech brand of carving chisels, well suited for both beginner and advanced woodcarvers."
+      },
+      "holzmann": {
+        "description": "An Austrian brand of woodworking machinery – bandsaws, planers and milling machines for workshops and small operations."
+      },
+      "totalToolsCo": {
+        "description": "An international brand of hand and power tools focused on broad accessibility."
+      },
+      "hermes": {
+        "description": "A German manufacturer of sandpaper and grinding discs with a long tradition in industrial and craft abrasives."
+      },
+      "imperial": {
+        "description": "A brand of replaceable saw and sanding blades, including oscillating-tool attachments for precise woodworking."
+      },
+      "prano": {
+        "description": "The brand behind the Pirana milling disc for angle grinders, a popular choice for shaping and roughing wood."
+      },
+      "bibielle": {
+        "description": "An Italian manufacturer of wire brushes and steel wool for cleaning, sanding and surface finishing of wood and metal."
+      },
+      "extolCraft": {
+        "description": "A range of hand tools from Czech brand Extol, aimed at home workshops and everyday craft work."
+      },
+      "m3ScotchBrite": {
+        "description": "3M Scotch-Brite non-woven and fine abrasive pads for cleaning, matting and finishing surfaces."
+      },
+      "finixa": {
+        "description": "A Belgian brand of finishing supplies – masking tape, sandpaper and accessories for painting and lacquering."
+      },
+      "veropal": {
+        "description": "A supplier of abrasive accessories and consumables for woodworking."
+      },
+      "synpo": {
+        "description": "A Czech manufacturer of synthetic resins and adhesives used in wood finishing and processing."
+      },
+      "kwiktool": {
+        "description": "A brand of quick-change tools and accessories for power tools."
+      },
+      "scruffs": {
+        "description": "A British brand of workwear and footwear designed for tradespeople and manual professions."
+      },
+      "geko": {
+        "description": "A Polish brand of hand tools, workshop equipment and accessories at affordable prices."
+      },
+      "wolfcraft": {
+        "description": "A German brand of workshop aids – vices, guide jigs and clamping systems for precise tool work."
+      },
+      "rockler": {
+        "description": "An American brand of specialty woodworking accessories – jigs, hardware and aids for precise joinery work."
+      },
+      "samsonKamnik": {
+        "description": "A Slovenian manufacturer of garden and hand tools with a long tradition in the Central European region."
+      },
+      "prillinger": {
+        "description": "An Austrian brand of technical equipment for woodworking workshops."
+      },
+      "kutzall": {
+        "description": "An American brand of aggressive carbide discs and burrs for fast shaping and roughing of wood."
+      },
+      "ekamant": {
+        "description": "A Swedish brand of sanding belts and discs, part of the Mirka group, for both professional and craft sanding."
+      },
+      "noris": {
+        "description": "A German brand of handles and grips for chisels, files and carving tools."
+      },
+      "stubai": {
+        "description": "An Austrian brand from Tyrol with a long tradition of making top-quality carving chisels and hand tools."
+      },
+      "farTools": {
+        "description": "A French brand of power and hand tools for both DIY users and tradespeople."
+      },
+      "charbonnel": {
+        "description": "A French brand of fine-art printing inks, also used in woodcut and linocut printmaking techniques."
+      },
+      "thlProtect": {
+        "description": "A brand of personal protective equipment for safe work with tools."
+      },
+      "pr05": {
+        "description": "A specialized product line of accessories and spare parts for tools."
+      },
+      "distar": {
+        "description": "A brand of diamond discs and tools for cutting and grinding stone, concrete and building materials."
+      },
+      "fortum": {
+        "description": "A brand of affordable hand and power tools for household use and smaller craft jobs."
+      },
+      "strongbold": {
+        "description": "A brand of grinding and flap discs for sanding and finishing wood and metal surfaces."
       }
     }
   },
@@ -463,6 +670,10 @@
     "categories": {
       "title": "Tool Categories | Marián s.r.o.",
       "description": "A complete overview of our woodcarving and woodworking tool categories – milling discs, hand and power tools, and accessories."
+    },
+    "brands": {
+      "title": "Brands & Manufacturers | Marián s.r.o.",
+      "description": "An overview of trusted woodcarving and woodworking tool brands and manufacturers available at eshop.marosko.sk."
     },
     "gallery": {
       "title": "Tool Gallery | Marián s.r.o.",

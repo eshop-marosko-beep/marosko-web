@@ -14,6 +14,7 @@ export default function Nav() {
     { href: "/", label: t("home") },
     { href: "/o-nas", label: t("about") },
     { href: "/kategorie", label: t("services") },
+    { href: "/znacky", label: t("brands") },
     { href: "/galeria", label: t("gallery") },
     { href: "/blog", label: t("blog") },
     { href: "/obchody", label: t("shops") },
