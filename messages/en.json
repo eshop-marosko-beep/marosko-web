@@ -453,6 +453,271 @@
         }
       }
     },
+    "directGrinder": {
+      "title": "Die grinder accessories",
+      "short": "Mounted burrs, needle rasps and accessories for die grinders and micro grinders.",
+      "viewAll": "View all products ({count})",
+      "description": "Tools for die grinders and micro grinders (Dremel, Proxxon, Extol and more) for detail work — Saburrtooth carbide mounted burrs and needle rasps in cylinder, ball, taper and flame shapes, flexible shafts and other accessories. Only products currently in stock are shown.",
+      "cta": "View in e-shop",
+      "products": {
+        "p994": {
+          "title": "Manpa – set of 8 shaping rasps for eyes and burning detail",
+          "description": ""
+        },
+        "p738": {
+          "title": "TUSON flexible shaft – replacement for RT170",
+          "description": ""
+        },
+        "p705": {
+          "title": "EXTOL flexible shaft – replacement for CRAFT die grinder",
+          "description": ""
+        },
+        "p1049": {
+          "title": "EXTOL flexible shaft – replacement for PREMIUM die grinder",
+          "description": ""
+        },
+        "p704": {
+          "title": "Telescopic die grinder holder",
+          "description": ""
+        },
+        "p305": {
+          "title": "Rotosaw edge burr Ø 9.5 mm, 2.4 mm shank",
+          "description": ""
+        },
+        "p310": {
+          "title": "Bud-shaped needle burr Ø 6.4 mm, 3.2 mm shank",
+          "description": ""
+        },
+        "p564": {
+          "title": "Cylinder with cutting end Ø 6.4 mm, 3.2 mm shank",
+          "description": ""
+        },
+        "p820": {
+          "title": "Long cylinder with smooth end Ø 3.2 mm, 3.2 mm shank",
+          "description": ""
+        },
+        "p316": {
+          "title": "Cylinder with rounded edge and smooth centre Ø 13 mm, 3.2 mm shank",
+          "description": ""
+        },
+        "p1285": {
+          "title": "Cylinder with rounded edge and cutting end Ø 13 mm, 3.2 mm shank",
+          "description": ""
+        },
+        "p323": {
+          "title": "Pointed cylinder Ø 9.5 mm, 3.2 mm shank",
+          "description": ""
+        },
+        "p317": {
+          "title": "Concave burr with cutting end Ø 6.4 mm, 3.2 mm shank",
+          "description": ""
+        },
+        "p977": {
+          "title": "Concave burr with cutting end Ø 6.4 mm, 2.4 mm shank",
+          "description": ""
+        },
+        "p821": {
+          "title": "Concave burr with smooth end Ø 6.4 mm, 3.2 mm shank",
+          "description": ""
+        },
+        "p339": {
+          "title": "Extended taper Ø 3.2 mm, 3.2 mm shank",
+          "description": ""
+        },
+        "p319": {
+          "title": "Concave burr with cutting end Ø 9.5 mm, 3.2 mm shank",
+          "description": ""
+        },
+        "p321": {
+          "title": "Dovetail burr with cutting end Ø 9.5 mm, 3.2 mm shank",
+          "description": ""
+        },
+        "p703": {
+          "title": "Needle ball burr Ø 6.4 mm, 3.2 mm shank",
+          "description": ""
+        },
+        "p569": {
+          "title": "Cylinder with smooth end Ø 3.2 mm, 3 mm shank",
+          "description": ""
+        },
+        "p570": {
+          "title": "Cylinder with smooth end Ø 13 mm, 3 mm shank",
+          "description": ""
+        },
+        "p571": {
+          "title": "Cylinder with rounded edge Ø 13 mm, 3 mm shank",
+          "description": ""
+        },
+        "p573": {
+          "title": "Pointed cylinder Ø 9.5 mm, 3 mm shank",
+          "description": ""
+        },
+        "p412": {
+          "title": "Cup needle rasp, coarse, Ø 44.5 mm",
+          "description": ""
+        },
+        "p405": {
+          "title": "Cup needle rasp, extra coarse, Ø 44.5 mm",
+          "description": ""
+        },
+        "p411": {
+          "title": "Cup needle rasp, rough, Ø 44.5 mm",
+          "description": ""
+        },
+        "p406": {
+          "title": "Cup needle rasp, rough, Ø 50 mm",
+          "description": ""
+        },
+        "p409": {
+          "title": "Cup needle rasp, coarse, Ø 50 mm",
+          "description": ""
+        },
+        "p499": {
+          "title": "Flame needle rasp Ø 16 mm, fine, 6 mm shank",
+          "description": ""
+        },
+        "p560": {
+          "title": "Flame needle rasp Ø 16 mm, coarse, 6 mm shank",
+          "description": ""
+        },
+        "p561": {
+          "title": "Flame needle rasp Ø 16 mm, extra coarse, 6 mm shank",
+          "description": ""
+        },
+        "p631": {
+          "title": "Flame needle rasp Ø 19 mm, extra coarse, 6 mm shank",
+          "description": ""
+        },
+        "p550": {
+          "title": "Rotosaw edge burr Ø 51 mm, 6 mm shank",
+          "description": ""
+        },
+        "p830": {
+          "title": "Rotosaw edge burr Ø 19 mm, 6 mm shank",
+          "description": ""
+        },
+        "p341": {
+          "title": "Cylinder with smooth end Ø 6.4 mm, 6 mm shank",
+          "description": ""
+        },
+        "p641": {
+          "title": "Cylinder with cutting end Ø 6.4 mm, 6 mm shank",
+          "description": ""
+        },
+        "p640": {
+          "title": "Ball-nose cylinder Ø 6.4 mm, 6 mm shank",
+          "description": ""
+        },
+        "p634": {
+          "title": "Cylinder with smooth end Ø 13 mm, 6 mm shank",
+          "description": ""
+        },
+        "p503": {
+          "title": "Ball-nose cylinder Ø 6.4 mm, 3.2 mm shank",
+          "description": ""
+        },
+        "p643": {
+          "title": "Cylinder with cutting end Ø 13 mm, 6 mm shank",
+          "description": ""
+        },
+        "p832": {
+          "title": "Extended cylinder with cutting end Ø 13 mm, 6 mm shank",
+          "description": ""
+        },
+        "p642": {
+          "title": "Ball-nose cylinder Ø 13 mm, 6 mm shank",
+          "description": ""
+        },
+        "p636": {
+          "title": "Long ball-nose cylinder Ø 13 mm, 6 mm shank",
+          "description": ""
+        },
+        "p637": {
+          "title": "Long cylinder with cutting end Ø 16 mm, 6 mm shank",
+          "description": ""
+        },
+        "p836": {
+          "title": "Cylinder with cutting end Ø 19 mm, 6 mm shank",
+          "description": ""
+        },
+        "p644": {
+          "title": "Ball-nose cylinder Ø 16 mm, 6 mm shank",
+          "description": ""
+        },
+        "p815": {
+          "title": "Ball-nose cylinder Ø 19 mm, 6 mm shank – extreme stock removal",
+          "description": ""
+        },
+        "p835": {
+          "title": "Ball-nose cylinder Ø 19 mm, 6 mm shank",
+          "description": ""
+        },
+        "p825": {
+          "title": "Cylinder with rounded edge Ø 25.4 mm, 6 mm shank",
+          "description": ""
+        },
+        "p827": {
+          "title": "Cylinder with rounded edge and cutting end Ø 25.4 mm, 6 mm shank",
+          "description": ""
+        },
+        "p834": {
+          "title": "Cylinder with smooth end Ø 25.4 mm, 6 mm shank",
+          "description": ""
+        },
+        "p638": {
+          "title": "Arbor for perimeter rasps",
+          "description": ""
+        },
+        "p687": {
+          "title": "Ball burr Ø 13 mm, 6 mm shank",
+          "description": ""
+        },
+        "p688": {
+          "title": "Ball burr Ø 22 mm, 6 mm shank",
+          "description": ""
+        },
+        "p822": {
+          "title": "Ball burr Ø 22 mm, 6 mm shank – extreme stock removal",
+          "description": ""
+        },
+        "p686": {
+          "title": "Ball burr Ø 25.4 mm, 6 mm shank",
+          "description": ""
+        },
+        "p689": {
+          "title": "Taper burr Ø 6.4 mm, 6 mm shank",
+          "description": ""
+        },
+        "p756": {
+          "title": "Taper burr Ø 13 mm, 6 mm shank",
+          "description": ""
+        },
+        "p824": {
+          "title": "Taper burr with smooth end Ø 13 mm, 6 mm shank",
+          "description": ""
+        },
+        "p757": {
+          "title": "Taper burr with smooth end Ø 19 mm, 6 mm shank",
+          "description": ""
+        },
+        "p691": {
+          "title": "Grinding point Ø 7 mm",
+          "description": ""
+        },
+        "p762": {
+          "title": "Set of hardened burrs – 6 pcs",
+          "description": ""
+        },
+        "p767": {
+          "title": "Diamond Burr Set, 3.2 mm shank – 30 pcs",
+          "description": ""
+        },
+        "p856": {
+          "title": "Diamond Burr Set, 2.4 mm shank – 30 pcs",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Current price & purchase",
     "badges": {
       "top": "Top Product of the Month",

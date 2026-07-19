@@ -453,6 +453,271 @@
         }
       }
     },
+    "directGrinder": {
+      "title": "Príslušenstvo pre priame brúsky",
+      "short": "Stopkové frézky, ihličkové rašple a príslušenstvo do priamych brúsok a mikrobrúsok.",
+      "viewAll": "Zobraziť všetky produkty ({count})",
+      "description": "Náradie do priamych mikrobrúsok (Dremel, Proxxon, Extol a ďalšie) na prácu s detailmi — tvrdokovové stopkové frézky a ihličkové rašple Saburrtooth v tvaroch valec, gulička, kužeľ či plameň, ohybné hriadele a ďalšie príslušenstvo. Zobrazujeme len produkty, ktoré sú aktuálne skladom.",
+      "cta": "Zobraziť v e-shope",
+      "products": {
+        "p994": {
+          "title": "Manpa – balenie 8 tvarovacích rašplí na oči a vypaľovanie",
+          "description": ""
+        },
+        "p738": {
+          "title": "Ohybný hriadeľ TUSON – náhradný k RT170",
+          "description": ""
+        },
+        "p705": {
+          "title": "Ohybný bovden EXTOL – náhradný, pre priamu brúsku CRAFT",
+          "description": ""
+        },
+        "p1049": {
+          "title": "Ohybný bovden EXTOL – náhradný, pre priamu brúsku PREMIUM",
+          "description": ""
+        },
+        "p704": {
+          "title": "Teleskopický držiak priamej brúsky",
+          "description": ""
+        },
+        "p305": {
+          "title": "Rotačná hrana pr. 9,5 mm, stopka 2,4 mm",
+          "description": ""
+        },
+        "p310": {
+          "title": "Ihličková frézka Púčik pr. 6,4 mm, stopka 3,2 mm",
+          "description": ""
+        },
+        "p564": {
+          "title": "Valec s činným čelom pr. 6,4 mm, stopka 3,2 mm",
+          "description": ""
+        },
+        "p820": {
+          "title": "Dlhý valec s hladkým vrcholom pr. 3,2 mm, stopka 3,2 mm",
+          "description": ""
+        },
+        "p316": {
+          "title": "Valec s oblou hranou a hladkým stredom pr. 13 mm, stopka 3,2 mm",
+          "description": ""
+        },
+        "p1285": {
+          "title": "Valec s oblou hranou a činným čelom pr. 13 mm, stopka 3,2 mm",
+          "description": ""
+        },
+        "p323": {
+          "title": "Špičatý valec pr. 9,5 mm, stopka 3,2 mm",
+          "description": ""
+        },
+        "p317": {
+          "title": "Vnútorný rádius s činným čelom pr. 6,4 mm, stopka 3,2 mm",
+          "description": ""
+        },
+        "p977": {
+          "title": "Vnútorný rádius s činným čelom pr. 6,4 mm, stopka 2,4 mm",
+          "description": ""
+        },
+        "p821": {
+          "title": "Vnútorný rádius s hladkým čelom pr. 6,4 mm, stopka 3,2 mm",
+          "description": ""
+        },
+        "p339": {
+          "title": "Kužeľ predĺžený pr. 3,2 mm, stopka 3,2 mm",
+          "description": ""
+        },
+        "p319": {
+          "title": "Vnútorný rádius s činným čelom pr. 9,5 mm, stopka 3,2 mm",
+          "description": ""
+        },
+        "p321": {
+          "title": "Rybina s činným čelom pr. 9,5 mm, stopka 3,2 mm",
+          "description": ""
+        },
+        "p703": {
+          "title": "Ihličková gulička pr. 6,4 mm, stopka 3,2 mm",
+          "description": ""
+        },
+        "p569": {
+          "title": "Valec s hladkým vrcholom pr. 3,2 mm, stopka 3 mm",
+          "description": ""
+        },
+        "p570": {
+          "title": "Valec s hladkým čelom pr. 13 mm, stopka 3 mm",
+          "description": ""
+        },
+        "p571": {
+          "title": "Valec s oblou hranou pr. 13 mm, stopka 3 mm",
+          "description": ""
+        },
+        "p573": {
+          "title": "Špičatý valec pr. 9,5 mm, stopka 3 mm",
+          "description": ""
+        },
+        "p412": {
+          "title": "Ihličková rašpľa šálková hrubá, pr. 44,5 mm",
+          "description": ""
+        },
+        "p405": {
+          "title": "Ihličková rašpľa šálková extra hrubá, pr. 44,5 mm",
+          "description": ""
+        },
+        "p411": {
+          "title": "Ihličková rašpľa šálková drsná, pr. 44,5 mm",
+          "description": ""
+        },
+        "p406": {
+          "title": "Ihličková rašpľa šálková drsná, pr. 50 mm",
+          "description": ""
+        },
+        "p409": {
+          "title": "Ihličková rašpľa šálková hrubá, pr. 50 mm",
+          "description": ""
+        },
+        "p499": {
+          "title": "Ihličková rašpľa Plameň pr. 16 mm, jemná, stopka 6 mm",
+          "description": ""
+        },
+        "p560": {
+          "title": "Ihličková rašpľa Plameň pr. 16 mm, hrubá, stopka 6 mm",
+          "description": ""
+        },
+        "p561": {
+          "title": "Ihličková rašpľa Plameň pr. 16 mm, extra hrubá, stopka 6 mm",
+          "description": ""
+        },
+        "p631": {
+          "title": "Ihličková rašpľa Plameň pr. 19 mm, extra hrubá, stopka 6 mm",
+          "description": ""
+        },
+        "p550": {
+          "title": "Rotačná hrana pr. 51 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p830": {
+          "title": "Rotačná hrana pr. 19 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p341": {
+          "title": "Valec s hladkým čelom pr. 6,4 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p641": {
+          "title": "Valec s činným čelom pr. 6,4 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p640": {
+          "title": "Valec s guľatým vrchom pr. 6,4 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p634": {
+          "title": "Valec s hladkým čelom pr. 13 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p503": {
+          "title": "Valec s guľatým vrchom pr. 6,4 mm, stopka 3,2 mm",
+          "description": ""
+        },
+        "p643": {
+          "title": "Valec s činným čelom pr. 13 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p832": {
+          "title": "Predĺžený valec s činným čelom pr. 13 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p642": {
+          "title": "Valec s guľatým vrcholom pr. 13 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p636": {
+          "title": "Dlhý valec s guľatým vrcholom pr. 13 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p637": {
+          "title": "Dlhý valec s činným čelom pr. 16 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p836": {
+          "title": "Valec s činným čelom pr. 19 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p644": {
+          "title": "Valec s guľatým vrcholom pr. 16 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p815": {
+          "title": "Valec s guľatým vrcholom pr. 19 mm, stopka 6 mm – extrémny úber",
+          "description": ""
+        },
+        "p835": {
+          "title": "Valec s guľatým vrcholom pr. 19 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p825": {
+          "title": "Valec so zaoblenou hranou pr. 25,4 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p827": {
+          "title": "Valec so zaoblenou hranou a činným čelom pr. 25,4 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p834": {
+          "title": "Valec s hladkým čelom pr. 25,4 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p638": {
+          "title": "Upínací tŕň pre obvodové rašple",
+          "description": ""
+        },
+        "p687": {
+          "title": "Gulička pr. 13 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p688": {
+          "title": "Gulička pr. 22 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p822": {
+          "title": "Gulička pr. 22 mm, stopka 6 mm – extrémny úber",
+          "description": ""
+        },
+        "p686": {
+          "title": "Gulička pr. 25,4 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p689": {
+          "title": "Kužeľ pr. 6,4 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p756": {
+          "title": "Kužeľ pr. 13 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p824": {
+          "title": "Kužeľ s hladkým čelom pr. 13 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p757": {
+          "title": "Kužeľ s hladkým čelom pr. 19 mm, stopka 6 mm",
+          "description": ""
+        },
+        "p691": {
+          "title": "Brúsne teliesko pr. 7 mm",
+          "description": ""
+        },
+        "p762": {
+          "title": "Sada kalených frézok – 6 ks",
+          "description": ""
+        },
+        "p767": {
+          "title": "Diamantové frézky Diamond Burr Set, stopka 3,2 mm – sada 30 ks",
+          "description": ""
+        },
+        "p856": {
+          "title": "Diamantové frézky Diamond Burr Set, stopka 2,4 mm – sada 30 ks",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Aktuálna cena a nákup",
     "badges": {
       "top": "TOP produkt mesiaca",
