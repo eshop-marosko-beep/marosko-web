@@ -718,6 +718,63 @@
         }
       }
     },
+    "needleDiscs": {
+      "title": "Needle rasp discs for wood",
+      "short": "Saburrtooth carbide needle rasp discs for angle grinders — fast wood sanding and shaping.",
+      "viewAll": "View all products ({count})",
+      "description": "Needle rasp grinding discs for angle grinders — Saburrtooth USA carbide discs for fast sanding, shaping and rough carving of wood. Flat, convex, angled and cup rasps in grits from very fine to extra coarse, diameters 44.5 to 180 mm. They resist clogging, don't burn the wood and outlast sandpaper many times over. Only products currently in stock are shown.",
+      "cta": "View in e-shop",
+      "products": {
+        "p998": {
+          "title": "Angled convex needle rasp disc without holes, Ø 180 mm, rough",
+          "description": ""
+        },
+        "p438": {
+          "title": "Flat straight needle rasp disc, Ø 100 mm, extra coarse",
+          "description": ""
+        },
+        "p1167": {
+          "title": "Convex needle rasp disc without holes, Ø 100 mm, very fine",
+          "description": ""
+        },
+        "p506": {
+          "title": "Convex needle rasp disc without holes, Ø 100 mm, coarse",
+          "description": ""
+        },
+        "p476": {
+          "title": "Convex needle rasp disc with holes, Ø 100 mm, fine",
+          "description": ""
+        },
+        "p618": {
+          "title": "Angled convex needle rasp disc without holes, Ø 100 mm, coarse",
+          "description": ""
+        },
+        "p619": {
+          "title": "Angled convex needle rasp disc without holes, Ø 100 mm, extra coarse",
+          "description": ""
+        },
+        "p406": {
+          "title": "Cup needle rasp, rough, Ø 50 mm",
+          "description": ""
+        },
+        "p409": {
+          "title": "Cup needle rasp, coarse, Ø 50 mm",
+          "description": ""
+        },
+        "p411": {
+          "title": "Cup needle rasp, rough, Ø 44.5 mm",
+          "description": ""
+        },
+        "p412": {
+          "title": "Cup needle rasp, coarse, Ø 44.5 mm",
+          "description": ""
+        },
+        "p405": {
+          "title": "Cup needle rasp, extra coarse, Ø 44.5 mm",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Current price & purchase",
     "badges": {
       "top": "Top Product of the Month",

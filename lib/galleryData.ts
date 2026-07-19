@@ -469,6 +469,75 @@ export const galleryCategories: GalleryCategory[] = [
       },
     ],
   },
+  {
+    slug: "ihlickove-brusne-kotuce",
+    translationKey: "needleDiscs",
+    eshopUrl:
+      "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky/nastroje-do-uhlovych-brusiek-na-drevo/brusne-kotuce-na-drevo/ihlickove-brusne-kotuce",
+    cardStyle: "product",
+    images: [
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/brusne/rasple/sd770.jpg",
+        altKey: "p998",
+        productUrl: "https://eshop.marosko.sk/p/998/ihlickova-raspla-sikma-obla-bez-otvorov-180-mm-drsna",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/brusne/rasple/ihlickova-raspla-plocha-rovna-extra-hruba100mm.jpg",
+        altKey: "p438",
+        productUrl: "https://eshop.marosko.sk/p/438/ihlickova-raspla-plocha-rovna-priemer-100-mm-extra-hruby-uber",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/brusne/saburr-usa/jemna-obla-sabur.jpg",
+        altKey: "p1167",
+        productUrl: "https://eshop.marosko.sk/p/1167/ihlickova-raspla-gulata-bez-otvorov-priemer-100mm-jemna-velmi",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/vrtaky/bodlinova-raspla-gulata-drsna.jpg",
+        altKey: "p506",
+        productUrl: "https://eshop.marosko.sk/p/506/ihlickova-raspla-gulata-bez-otvorov-priemer-100mm-hruba",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/brusne/rasple/raspla-obla-z-otvorama-pr.125mm-jemna.jpg",
+        altKey: "p476",
+        productUrl: "https://eshop.marosko.sk/p/476/ihlickova-raspla-obla-priemer-100-mm-jemna-priehladne-otvory",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/rasple-sabur-usa/oble-bez-otvorov/sd490-78.jpg",
+        altKey: "p618",
+        productUrl: "https://eshop.marosko.sk/p/618/ihlickova-raspla-sikma-obla-bez-otvorov-priemer-100mm-hruba",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/rasple-sabur-usa/ihlickova-raspla-sikma-obla-bez-otvorov-100mm.jpg",
+        altKey: "p619",
+        productUrl: "https://eshop.marosko.sk/p/619/ihlickova-raspla-sikma-obla-bez-otvorov-priemer-100mm-extra-hruba",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/rasple-sabur-usa/salkova-50mm/cr2-70.jpg",
+        altKey: "p406",
+        productUrl: "https://eshop.marosko.sk/p/406/ihlickova-raspla-salkova-drsna-priemer-50-mm",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/rasple-sabur-usa/salkova-50mm/cr290.jpg",
+        altKey: "p409",
+        productUrl: "https://eshop.marosko.sk/p/409/ihlickova-raspla-salkova-hruba-priemer-50-mm",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/rasple-sabur-usa/salkova-44-5mm/cr134-70.jpg",
+        altKey: "p411",
+        productUrl: "https://eshop.marosko.sk/p/411/ihlickova-raspla-salkova-drsna-priemer-44-5-mm",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/rasple-sabur-usa/salkova-44-5mm/cr134-90.jpg",
+        altKey: "p412",
+        productUrl: "https://eshop.marosko.sk/p/412/ihlickova-raspla-salkova-hruba-priemer-44-5-mm",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/rasple-sabur-usa/salkova-44-5mm/cr134-125.jpg",
+        altKey: "p405",
+        productUrl: "https://eshop.marosko.sk/p/405/ihlickova-raspla-salkova-extra-hruba-priemer-44-5-mm",
+      },
+    ],
+  },
 ];
 
 export function getGalleryCategory(slug: string) {

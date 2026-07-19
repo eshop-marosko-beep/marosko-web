@@ -718,6 +718,63 @@
         }
       }
     },
+    "needleDiscs": {
+      "title": "Ihličkové brúsne kotúče na drevo",
+      "short": "Tvrdokovové ihličkové rašple Saburrtooth do uhlovej brúsky na rýchle brúsenie a tvarovanie dreva.",
+      "viewAll": "Zobraziť všetky produkty ({count})",
+      "description": "Ihličkové brúsne kotúče (ihličkové rašple) do uhlovej brúsky na drevo — tvrdokovové kotúče Saburrtooth USA na rýchle brúsenie, tvarovanie a hrubovanie dreva flexou. Ploché, oblé, šikmé aj šálkové rašple v drsnostiach od veľmi jemnej po extra hrubú, priemery 44,5 až 180 mm. Neupchávajú sa, nepália drevo a vydržia mnohonásobne dlhšie než brúsny papier. Zobrazujeme len produkty, ktoré sú aktuálne skladom.",
+      "cta": "Zobraziť v e-shope",
+      "products": {
+        "p998": {
+          "title": "Ihličková rašpľa šikmá oblá bez otvorov, Ø 180 mm, drsná",
+          "description": ""
+        },
+        "p438": {
+          "title": "Ihličková rašpľa plochá rovná, Ø 100 mm, extra hrubá",
+          "description": ""
+        },
+        "p1167": {
+          "title": "Ihličková rašpľa oblá bez otvorov, Ø 100 mm, veľmi jemná",
+          "description": ""
+        },
+        "p506": {
+          "title": "Ihličková rašpľa oblá bez otvorov, Ø 100 mm, hrubá",
+          "description": ""
+        },
+        "p476": {
+          "title": "Ihličková rašpľa oblá s otvormi, Ø 100 mm, jemná",
+          "description": ""
+        },
+        "p618": {
+          "title": "Ihličková rašpľa šikmá oblá bez otvorov, Ø 100 mm, hrubá",
+          "description": ""
+        },
+        "p619": {
+          "title": "Ihličková rašpľa šikmá oblá bez otvorov, Ø 100 mm, extra hrubá",
+          "description": ""
+        },
+        "p406": {
+          "title": "Ihličková rašpľa šálková drsná, Ø 50 mm",
+          "description": ""
+        },
+        "p409": {
+          "title": "Ihličková rašpľa šálková hrubá, Ø 50 mm",
+          "description": ""
+        },
+        "p411": {
+          "title": "Ihličková rašpľa šálková drsná, Ø 44,5 mm",
+          "description": ""
+        },
+        "p412": {
+          "title": "Ihličková rašpľa šálková hrubá, Ø 44,5 mm",
+          "description": ""
+        },
+        "p405": {
+          "title": "Ihličková rašpľa šálková extra hrubá, Ø 44,5 mm",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Aktuálna cena a nákup",
     "badges": {
       "top": "TOP produkt mesiaca",

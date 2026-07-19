@@ -718,6 +718,63 @@
         }
       }
     },
+    "needleDiscs": {
+      "title": "Jehličkové brusné kotouče na dřevo",
+      "short": "Tvrdokovové jehličkové rašple Saburrtooth do úhlové brusky na rychlé broušení a tvarování dřeva.",
+      "viewAll": "Zobrazit všechny produkty ({count})",
+      "description": "Jehličkové brusné kotouče (jehličkové rašple) do úhlové brusky na dřevo — tvrdokovové kotouče Saburrtooth USA pro rychlé broušení, tvarování a hrubování dřeva flexou. Ploché, oblé, šikmé i šálkové rašple v drsnostech od velmi jemné po extra hrubou, průměry 44,5 až 180 mm. Neucpávají se, nepálí dřevo a vydrží mnohonásobně déle než brusný papír. Zobrazujeme jen produkty, které jsou aktuálně skladem.",
+      "cta": "Zobrazit v e-shopu",
+      "products": {
+        "p998": {
+          "title": "Jehličková rašple šikmá oblá bez otvorů, Ø 180 mm, drsná",
+          "description": ""
+        },
+        "p438": {
+          "title": "Jehličková rašple plochá rovná, Ø 100 mm, extra hrubá",
+          "description": ""
+        },
+        "p1167": {
+          "title": "Jehličková rašple oblá bez otvorů, Ø 100 mm, velmi jemná",
+          "description": ""
+        },
+        "p506": {
+          "title": "Jehličková rašple oblá bez otvorů, Ø 100 mm, hrubá",
+          "description": ""
+        },
+        "p476": {
+          "title": "Jehličková rašple oblá s otvory, Ø 100 mm, jemná",
+          "description": ""
+        },
+        "p618": {
+          "title": "Jehličková rašple šikmá oblá bez otvorů, Ø 100 mm, hrubá",
+          "description": ""
+        },
+        "p619": {
+          "title": "Jehličková rašple šikmá oblá bez otvorů, Ø 100 mm, extra hrubá",
+          "description": ""
+        },
+        "p406": {
+          "title": "Jehličková rašple šálková drsná, Ø 50 mm",
+          "description": ""
+        },
+        "p409": {
+          "title": "Jehličková rašple šálková hrubá, Ø 50 mm",
+          "description": ""
+        },
+        "p411": {
+          "title": "Jehličková rašple šálková drsná, Ø 44,5 mm",
+          "description": ""
+        },
+        "p412": {
+          "title": "Jehličková rašple šálková hrubá, Ø 44,5 mm",
+          "description": ""
+        },
+        "p405": {
+          "title": "Jehličková rašple šálková extra hrubá, Ø 44,5 mm",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Aktuální cena a nákup",
     "badges": {
       "top": "TOP produkt měsíce",
