@@ -24,6 +24,7 @@ export async function generateMetadata({
     path: `/galeria/${category}`,
     title: `${t(`${galleryCategory.translationKey}.title`)} | Marián s.r.o.`,
     description: t(`${galleryCategory.translationKey}.description`),
+    image: galleryCategory.images[0].src,
   });
 }
 
