@@ -397,20 +397,62 @@
       "title": "Discuri de frezat pentru polizor unghiular",
       "short": "Discurile legendare Arbortech, Piranha/Prano și întreaga gamă Manpa, într-un singur loc.",
       "viewAll": "Vezi toate fotografiile ({count})",
-      "description": "Discurile de frezat sunt inima oricărui atelier de cioplit. În ofertă găsiți celebrul Arbortech Industrial Woodcarver – discul original australian care a declanșat revoluția modelării lemnului cu polizorul unghiular – precum și discurile cu 3 aripioare Piranha/Prano pentru o modelare rapidă și controlată. Gama largă de discuri de frezat Manpa, de la modele compacte de 70 mm până la discuri profesionale cu cuțite din carbură interschimbabile, vă permite să alegeți exact dimensiunea și adâncimea de tăiere de care aveți nevoie. Cuțitele interschimbabile economisesc și bani, deoarece atunci când o lamă se tocește, se înlocuiește doar cuțitul, nu întregul disc. Toate discurile se potrivesc pe polizoare unghiulare standard și sunt folosite de cioplitori profesioniști din întreaga lume.",
+      "description": "Discuri de frezat pentru polizoare unghiulare, pentru modelarea și sculptarea lemnului — legendarul Arbortech Woodcarver PROFI-INDUSTRIAL, discul de rindeluit Turbo Plane, Ball Gouge, frezele Manpa și Akka Tools cu dinți din carbură interschimbabili și discurile cu lanț Squire de la King Arthur's Tools. Îndepărtare rapidă a lemnului la degroșarea sculpturilor, bolurilor și albiilor. Sunt afișate doar produsele aflate în stoc.",
       "cta": "Vezi în magazinul online",
-      "img1": "Arbortech Industrial Woodcarver – discul original pentru modelarea lemnului, cu cheie de fixare",
-      "img2": "Disc de frezat Piranha/Prano cu 3 cuțite din carbură",
-      "img3": "Disc de frezat de precizie cu alezaj de 16 mm și profil rotund al dintelui de 8 mm",
-      "img4": "Disc de frezat Manpa cu cuțite din carbură interschimbabile, diametru 95 mm",
-      "img5": "Disc de frezat Manpa, diametru 70 mm cu dinte de 12 mm",
-      "img6": "Set de discuri de frezat Manpa în diverse dimensiuni",
-      "img7": "Comparație de dimensiuni a discurilor de frezat Manpa",
-      "img8": "Disc de frezat AKKO cu cuțite din carbură interschimbabile",
-      "img9": "Disc de frezat în lucru – modelarea lemnului cu polizorul unghiular",
-      "img10": "Disc de frezat AKKO – vedere laterală a profilului și cuțitelor",
-      "img11": "Detaliu al lucrului de cioplit cu discul de frezat pe lemn",
-      "img12": "Disc de frezat AKKO ASDM-RD1003-D115-A22-Z04"
+      "products": {
+        "p156": {
+          "title": "Disc de frezat Arbortech Woodcarver PROFI-INDUSTRIAL",
+          "description": ""
+        },
+        "p1313": {
+          "title": "Disc de frezat Arbortech Woodcarver PROFI-INDUSTRIAL cu apărătoare",
+          "description": ""
+        },
+        "p1303": {
+          "title": "Arbortech Turbo Scraper 100 mm",
+          "description": ""
+        },
+        "p362": {
+          "title": "Disc de frezat Akka Tools, cu 4 dinți",
+          "description": ""
+        },
+        "p720": {
+          "title": "Freză cu 4 dinți cu profil rotund de 8 mm, Ø 95 mm, prindere M10",
+          "description": ""
+        },
+        "p255": {
+          "title": "Arbortech Ball Gouge – sferă de scobit",
+          "description": ""
+        },
+        "p163": {
+          "title": "Arbortech Turbo Plane – disc de rindeluit",
+          "description": ""
+        },
+        "p721": {
+          "title": "Freză cu 3 dinți cu profil triunghiular de 16 mm, Ø 70 mm",
+          "description": ""
+        },
+        "p984": {
+          "title": "Arbortech Mini Turbo – accesoriu de frezat, set",
+          "description": ""
+        },
+        "p915": {
+          "title": "Freză clopot de scobit 3\" pentru polizor unghiular, Ø 60 mm",
+          "description": ""
+        },
+        "p383": {
+          "title": "Disc de sculptat cu lanț Squire, 12 dinți, alezaj 22 mm",
+          "description": ""
+        },
+        "p382": {
+          "title": "Disc de sculptat cu lanț Squire, 12 dinți, alezaj 14 mm",
+          "description": ""
+        },
+        "p368": {
+          "title": "Disc raspel dințat 50 mm pentru Arbortech Mini Grinder și Merlin",
+          "description": ""
+        }
+      }
     },
     "planing": {
       "title": "Unelte de rindeluit",

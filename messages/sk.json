@@ -397,20 +397,62 @@
       "title": "Frézovacie kotúče do uhlovej brúsky",
       "short": "Legendárne kotúče Arbortech, Piraňa/Prano aj celý sortiment Manpa na jednom mieste.",
       "viewAll": "Zobraziť všetky fotografie ({count})",
-      "description": "Frézovacie kotúče sú srdcom každej rezbárskej dielne. V ponuke nájdete legendárny Arbortech Industrial Woodcarver – originálny austrálsky kotúč, ktorý spustil revolúciu v tvarovaní dreva uhlovou brúskou – aj 3-krídlové kotúče Piraňa/Prano pre rýchle a kontrolované tvarovanie. Široký sortiment frézovacích kotúčov Manpa, od kompaktných 70 mm modelov až po profesionálne kotúče s vymeniteľnými tvrdokovovými nožmi, vám umožní zvoliť presne tú veľkosť a hĺbku záberu, akú vaša práca vyžaduje. Vymeniteľné nože navyše šetria náklady, pretože pri otupení stačí vymeniť len samotný nôž, nie celý kotúč. Všetky kotúče pasujú na bežné uhlové brúsky a sú overené profesionálnymi rezbármi po celom svete.",
+      "description": "Frézovacie kotúče do uhlovej brúsky na tvarovanie a rezbu dreva — legendárny Arbortech Woodcarver PROFI-INDUSTRIAL, hobľovací Turbo Plane, Ball Gouge, frézy Manpa a Akka Tools s vymeniteľnými karbidovými zubami aj reťazové kotúče Squire od King Arthur's Tools. Rýchly úber dreva pri hrubovaní sôch, misiek a korýt. Zobrazujeme len produkty, ktoré sú aktuálne skladom.",
       "cta": "Zobraziť v e-shope",
-      "img1": "Arbortech Industrial Woodcarver – originálny kotúč na tvarovanie dreva s upínacím kľúčom",
-      "img2": "Frézovací kotúč Piraňa/Prano s 3 karbidovými nožmi",
-      "img3": "Presný frézovací kotúč s priemerom upnutia 16 mm a okrúhlym profilom zuba 8 mm",
-      "img4": "Frézovací kotúč Manpa s vymeniteľnými tvrdokovovými nožmi, priemer 95 mm",
-      "img5": "Frézovací kotúč Manpa s priemerom 70 mm a zubom 12 mm",
-      "img6": "Sada frézovacích kotúčov Manpa v rôznych veľkostiach",
-      "img7": "Porovnanie veľkostí frézovacích kotúčov Manpa",
-      "img8": "Frézovací kotúč AKKO s vymeniteľnými tvrdokovovými nožmi",
-      "img9": "Frézovací kotúč v praxi – tvarovanie dreva uhlovou brúskou",
-      "img10": "Frézovací kotúč AKKO – bočný pohľad na profil a nože",
-      "img11": "Detail rezbárskej práce s frézovacím kotúčom na dreve",
-      "img12": "Frézovací kotúč AKKO ASDM-RD1003-D115-A22-Z04"
+      "products": {
+        "p156": {
+          "title": "Frézovací kotúč Arbortech Woodcarver PROFI-INDUSTRIAL",
+          "description": ""
+        },
+        "p1313": {
+          "title": "Frézovací kotúč Arbortech Woodcarver PROFI-INDUSTRIAL s krytom",
+          "description": ""
+        },
+        "p1303": {
+          "title": "Arbortech Turbo Škrabka 100 mm",
+          "description": ""
+        },
+        "p362": {
+          "title": "Frézovací kotúč Akka Tools, 4-zubý",
+          "description": ""
+        },
+        "p720": {
+          "title": "4-zubá fréza s 8 mm guľatým profilom, Ø 95 mm, upnutie M10",
+          "description": ""
+        },
+        "p255": {
+          "title": "Arbortech Ball Gouge – hobľovacia gulička",
+          "description": ""
+        },
+        "p163": {
+          "title": "Arbortech Turbo Plane – hobľovací kotúč",
+          "description": ""
+        },
+        "p721": {
+          "title": "3-zubá fréza s 16 mm trojuholníkovým profilom, Ø 70 mm",
+          "description": ""
+        },
+        "p984": {
+          "title": "Arbortech Mini Turbo – frézovací nadstavec, sada",
+          "description": ""
+        },
+        "p915": {
+          "title": "Hĺbiaca zvonková frézka 3\" do uhlovej brúsky, Ø 60 mm",
+          "description": ""
+        },
+        "p383": {
+          "title": "Reťazový frézovací kotúč Squire, 12 zubov, otvor 22 mm",
+          "description": ""
+        },
+        "p382": {
+          "title": "Reťazový frézovací kotúč Squire, 12 zubov, otvor 14 mm",
+          "description": ""
+        },
+        "p368": {
+          "title": "Kotúčová sekaná rašpľa 50 mm pre Arbortech Mini Grinder a Merlin",
+          "description": ""
+        }
+      }
     },
     "planing": {
       "title": "Hobľovacie náradie",

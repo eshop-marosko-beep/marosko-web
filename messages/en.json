@@ -397,20 +397,62 @@
       "title": "Milling discs for angle grinders",
       "short": "The legendary Arbortech and Piranha/Prano discs, plus the full Manpa lineup, all in one place.",
       "viewAll": "View all photos ({count})",
-      "description": "Milling discs are the heart of every carving workshop. Our range includes the legendary Arbortech Industrial Woodcarver – the original Australian disc that kicked off the angle-grinder wood-shaping revolution – along with 3-wing Piranha/Prano discs for fast, controlled shaping. A wide selection of Manpa milling discs, from compact 70 mm models to professional discs with replaceable carbide blades, lets you pick exactly the size and cutting depth your project needs. Replaceable blades also save money, since a dull blade can simply be swapped instead of replacing the whole disc. Every disc fits standard angle grinders and is trusted by professional carvers worldwide.",
+      "description": "Carving discs for angle grinders for shaping and sculpting wood — the legendary Arbortech Woodcarver PROFI-INDUSTRIAL, the Turbo Plane planing disc, the Ball Gouge, Manpa and Akka Tools cutters with replaceable carbide teeth, and Squire chain discs by King Arthur's Tools. Fast stock removal for roughing out sculptures, bowls and troughs. Only products currently in stock are shown.",
       "cta": "View in the e-shop",
-      "img1": "Arbortech Industrial Woodcarver – the original wood-shaping disc with clamping key",
-      "img2": "Piranha/Prano milling disc with 3 carbide blades",
-      "img3": "Precision milling disc with a 16 mm bore and 8 mm round tooth profile",
-      "img4": "Manpa milling disc with replaceable carbide blades, 95 mm diameter",
-      "img5": "Manpa milling disc, 70 mm diameter with a 12 mm tooth",
-      "img6": "Set of Manpa milling discs in various sizes",
-      "img7": "Size comparison of Manpa milling discs",
-      "img8": "AKKO milling disc with replaceable carbide blades",
-      "img9": "Milling disc in use – shaping wood with an angle grinder",
-      "img10": "AKKO milling disc – side view of the profile and blades",
-      "img11": "Close-up of carving work with a milling disc on wood",
-      "img12": "AKKO ASDM-RD1003-D115-A22-Z04 milling disc"
+      "products": {
+        "p156": {
+          "title": "Arbortech Woodcarver PROFI-INDUSTRIAL carving disc",
+          "description": ""
+        },
+        "p1313": {
+          "title": "Arbortech Woodcarver PROFI-INDUSTRIAL carving disc with guard",
+          "description": ""
+        },
+        "p1303": {
+          "title": "Arbortech Turbo Scraper 100 mm",
+          "description": ""
+        },
+        "p362": {
+          "title": "Akka Tools carving disc, 4-tooth",
+          "description": ""
+        },
+        "p720": {
+          "title": "4-tooth cutter with 8 mm round profile, Ø 95 mm, M10 mount",
+          "description": ""
+        },
+        "p255": {
+          "title": "Arbortech Ball Gouge – hollowing carver",
+          "description": ""
+        },
+        "p163": {
+          "title": "Arbortech Turbo Plane – planing disc",
+          "description": ""
+        },
+        "p721": {
+          "title": "3-tooth cutter with 16 mm triangular profile, Ø 70 mm",
+          "description": ""
+        },
+        "p984": {
+          "title": "Arbortech Mini Turbo carving attachment, kit",
+          "description": ""
+        },
+        "p915": {
+          "title": "3\" bell-type hollowing cutter for angle grinders, Ø 60 mm",
+          "description": ""
+        },
+        "p383": {
+          "title": "Squire chain carving disc, 12 teeth, 22 mm bore",
+          "description": ""
+        },
+        "p382": {
+          "title": "Squire chain carving disc, 12 teeth, 14 mm bore",
+          "description": ""
+        },
+        "p368": {
+          "title": "Toothed rasp disc 50 mm for Arbortech Mini Grinder and Merlin",
+          "description": ""
+        }
+      }
     },
     "planing": {
       "title": "Planing Tools",
