@@ -1036,6 +1036,155 @@
         }
       }
     },
+    "finishes": {
+      "title": "Shellac, waxes and wood finishes",
+      "short": "Shellac, beeswax, polishes, polishing pastes and products for wood finishing and restoration.",
+      "viewAll": "View all products ({count})",
+      "description": "Wood finishing and restoration products — dewaxed shellac (Sonne, Bona, Superior, white and liquid), shellac polishes, beeswax pastes, Kirjes Swedish organic wax, Finixa and Pragopol polishing pastes, turpentine oil, rabbit skin glue, Paraloid B-72, woodworm treatment, Veropal epoxy stabilising resin and Litostucco filler. Everything for carvers, restorers and woodworkers. Only products currently in stock are shown.",
+      "cta": "View in e-shop",
+      "products": {
+        "p1054": {
+          "title": "Renaissance polishing wax, 200 ml",
+          "description": ""
+        },
+        "p948": {
+          "title": "Beeswax paste, neutral, 500 ml",
+          "description": ""
+        },
+        "p1314": {
+          "title": "Beeswax paste for floors and wood, 500 ml",
+          "description": ""
+        },
+        "p966": {
+          "title": "Beeswax paste, yellow, 500 ml",
+          "description": ""
+        },
+        "p967": {
+          "title": "Beeswax paste, light walnut, 500 ml",
+          "description": ""
+        },
+        "p1165": {
+          "title": "Wood wax, black, 500 ml",
+          "description": ""
+        },
+        "p906": {
+          "title": "Kirjes Swedish organic wax",
+          "description": ""
+        },
+        "p908": {
+          "title": "Kirjes 908 polishing accessory kit",
+          "description": ""
+        },
+        "p791": {
+          "title": "Tripoli polishing powder, 100 g",
+          "description": ""
+        },
+        "p790": {
+          "title": "Rabbit skin glue, 200 g",
+          "description": ""
+        },
+        "p1247": {
+          "title": "Paraloid B-72, 1 kg",
+          "description": ""
+        },
+        "p670": {
+          "title": "Superior dewaxed shellac, 0.5 kg",
+          "description": ""
+        },
+        "p954": {
+          "title": "Superior dewaxed shellac, 100 g",
+          "description": ""
+        },
+        "p675": {
+          "title": "Sonne dewaxed shellac, 0.5 kg",
+          "description": ""
+        },
+        "p935": {
+          "title": "Sonne dewaxed shellac, 100 g",
+          "description": ""
+        },
+        "p674": {
+          "title": "Bona dewaxed shellac, 0.5 kg",
+          "description": ""
+        },
+        "p672": {
+          "title": "White dewaxed shellac, 0.5 kg",
+          "description": ""
+        },
+        "p701": {
+          "title": "White dewaxed shellac, 100 g",
+          "description": ""
+        },
+        "p676": {
+          "title": "Liquid shellac, transparent, 0.5 l",
+          "description": ""
+        },
+        "p677": {
+          "title": "Liquid shellac, transparent, 250 ml",
+          "description": ""
+        },
+        "p937": {
+          "title": "Uni bio-alcohol, 1 l",
+          "description": ""
+        },
+        "p938": {
+          "title": "Uni 100 bio-alcohol, 1 l",
+          "description": ""
+        },
+        "p1230": {
+          "title": "Finixa One Step polishing paste, 0.5 kg",
+          "description": ""
+        },
+        "p1443": {
+          "title": "Finixa One Step polishing paste, 1 kg",
+          "description": ""
+        },
+        "p1343": {
+          "title": "Finixa One Step polishing paste, 200 g",
+          "description": ""
+        },
+        "p944": {
+          "title": "Antitarlo Fungicid woodworm treatment, 1 l",
+          "description": ""
+        },
+        "p1468": {
+          "title": "DEL EXTRA, 1 l",
+          "description": ""
+        },
+        "p946": {
+          "title": "Shellac polish, ruby, 250 ml",
+          "description": ""
+        },
+        "p1055": {
+          "title": "Antique furniture cream, 250 ml",
+          "description": ""
+        },
+        "p1082": {
+          "title": "Pragopol polishing paste, green, 125 g",
+          "description": ""
+        },
+        "p663": {
+          "title": "Odourless turpentine oil, 500 ml",
+          "description": ""
+        },
+        "p1215": {
+          "title": "Liquid Beeswax balm, 500 ml",
+          "description": ""
+        },
+        "p1341": {
+          "title": "Veropal WSB E-LV epoxy stabilising resin, 1.4 kg",
+          "description": ""
+        },
+        "p1288": {
+          "title": "Foam polishing pad with hook-and-loop, 125 × 38 mm",
+          "description": ""
+        },
+        "p1434": {
+          "title": "Litostucco – fast-drying dispersion filler for wood and plaster",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Current price & purchase",
     "badges": {
       "top": "Top Product of the Month",
