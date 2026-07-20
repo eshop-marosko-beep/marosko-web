@@ -1036,6 +1036,155 @@
         }
       }
     },
+    "finishes": {
+      "title": "Šelaky, vosky a nátery na drevo",
+      "short": "Šelaky, včelie vosky, politúry, leštiace pasty a prípravky na povrchovú úpravu a reštaurovanie dreva.",
+      "viewAll": "Zobraziť všetky produkty ({count})",
+      "description": "Prípravky na povrchovú úpravu a reštaurovanie dreva — bezvoskové šelaky (Sonne, Bona, Superior, biely aj tekutý), šelakové politúry, včelie vosky v paste, švédsky organický vosk Kirjes, leštiace pasty Finixa a Pragopol, terpentínový olej, zajačí glej, Paraloid B-72, prípravok proti červotočom, epoxidová stabilizačná živica Veropal aj tmel Litostucco. Všetko pre rezbárov, reštaurátorov a stolárov. Zobrazujeme len produkty, ktoré sú aktuálne skladom.",
+      "cta": "Zobraziť v e-shope",
+      "products": {
+        "p1054": {
+          "title": "Renesančný leštiaci vosk, 200 ml",
+          "description": ""
+        },
+        "p948": {
+          "title": "Včelí vosk v paste, neutrálny, 500 ml",
+          "description": ""
+        },
+        "p1314": {
+          "title": "Včelí vosk v paste na podlahu a drevo, 500 ml",
+          "description": ""
+        },
+        "p966": {
+          "title": "Včelí vosk v paste, žltý, 500 ml",
+          "description": ""
+        },
+        "p967": {
+          "title": "Včelí vosk v paste, svetlý orech, 500 ml",
+          "description": ""
+        },
+        "p1165": {
+          "title": "Vosk na drevo, čierny, 500 ml",
+          "description": ""
+        },
+        "p906": {
+          "title": "Švédsky organický vosk Kirjes",
+          "description": ""
+        },
+        "p908": {
+          "title": "Leštiaca doplnková súprava Kirjes 908",
+          "description": ""
+        },
+        "p791": {
+          "title": "Tripolit, 100 g",
+          "description": ""
+        },
+        "p790": {
+          "title": "Zajačí glej, 200 g",
+          "description": ""
+        },
+        "p1247": {
+          "title": "Paraloid B-72, 1 kg",
+          "description": ""
+        },
+        "p670": {
+          "title": "Šelak Superior, bezvoskový, 0,5 kg",
+          "description": ""
+        },
+        "p954": {
+          "title": "Šelak Superior, bezvoskový, 100 g",
+          "description": ""
+        },
+        "p675": {
+          "title": "Šelak Sonne, bezvoskový, 0,5 kg",
+          "description": ""
+        },
+        "p935": {
+          "title": "Šelak Sonne, bezvoskový, 100 g",
+          "description": ""
+        },
+        "p674": {
+          "title": "Šelak Bona, bezvoskový, 0,5 kg",
+          "description": ""
+        },
+        "p672": {
+          "title": "Šelak biely, bezvoskový, 0,5 kg",
+          "description": ""
+        },
+        "p701": {
+          "title": "Šelak biely, bezvoskový, 100 g",
+          "description": ""
+        },
+        "p676": {
+          "title": "Tekutý šelak, transparentný, 0,5 l",
+          "description": ""
+        },
+        "p677": {
+          "title": "Tekutý šelak, transparentný, 250 ml",
+          "description": ""
+        },
+        "p937": {
+          "title": "Bioalkohol Uni, 1 l",
+          "description": ""
+        },
+        "p938": {
+          "title": "Bioalkohol Uni 100, 1 l",
+          "description": ""
+        },
+        "p1230": {
+          "title": "Finixa One Step leštiaca pasta, 0,5 kg",
+          "description": ""
+        },
+        "p1443": {
+          "title": "Finixa One Step leštiaca pasta, 1 kg",
+          "description": ""
+        },
+        "p1343": {
+          "title": "Finixa One Step leštiaca pasta, 200 g",
+          "description": ""
+        },
+        "p944": {
+          "title": "Prípravok proti červotočom Antitarlo Fungicid, 1 l",
+          "description": ""
+        },
+        "p1468": {
+          "title": "DEL EXTRA, 1 l",
+          "description": ""
+        },
+        "p946": {
+          "title": "Šelaková politúra, rubínová, 250 ml",
+          "description": ""
+        },
+        "p1055": {
+          "title": "Krém na starožitný nábytok, 250 ml",
+          "description": ""
+        },
+        "p1082": {
+          "title": "Pragopol leštiaca pasta, zelená, 125 g",
+          "description": ""
+        },
+        "p663": {
+          "title": "Terpentínový olej bez zápachu, 500 ml",
+          "description": ""
+        },
+        "p1215": {
+          "title": "Včelí vosk balzam Liquid Beeswax, 500 ml",
+          "description": ""
+        },
+        "p1341": {
+          "title": "Veropal WSB E-LV epoxidová stabilizačná živica, 1,4 kg",
+          "description": ""
+        },
+        "p1288": {
+          "title": "Penová leštiaca hubka so suchým zipsom, 125 × 38 mm",
+          "description": ""
+        },
+        "p1434": {
+          "title": "Litostucco – disperzný rýchloschnúci tmel na drevo a omietku",
+          "description": ""
+        }
+      }
+    },
     "productCta": "Aktuálna cena a nákup",
     "badges": {
       "top": "TOP produkt mesiaca",
