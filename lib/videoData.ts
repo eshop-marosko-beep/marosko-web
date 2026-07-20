@@ -22,12 +22,12 @@ export const videos: Video[] = [
     translationKey: "manpaMultiCutterMaster",
   },
   {
-    slug: "voskovanie-lestenie-tramu",
-    file: "voskovanie-lestenie-tramu",
+    slug: "arbortech-contour-sander-tram",
+    file: "arbortech-contour-sander-tram",
     duration: "PT1M1S",
-    linkUrl: "/galeria/selaky-vosky-natery-na-drevo",
-    linkType: "internal",
-    translationKey: "voskovanieTramu",
+    linkUrl: "https://eshop.marosko.sk/p/370/smirkovaci-nastavec-contour-sander-sada-arbortech",
+    linkType: "external",
+    translationKey: "arbortechContourSander",
   },
   {
     slug: "brusenie-drevenej-sochy-valcom",
