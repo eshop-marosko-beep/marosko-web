@@ -14,12 +14,12 @@ export type Video = {
 
 export const videos: Video[] = [
   {
-    slug: "arbortech-power-chisel-konar",
-    file: "arbortech-power-chisel-konar",
+    slug: "manpa-multi-cutter-master-konar",
+    file: "manpa-multi-cutter-master-konar",
     duration: "PT54S",
-    linkUrl: "https://eshop.marosko.sk/n/arbortech-power-chisel-elektricke-dlato-7-dielna-sada",
+    linkUrl: "https://eshop.marosko.sk/p/1029/predlzovacie-rameno-s-predlzenim-frezovanie-manpa-multi-cutter-master",
     linkType: "external",
-    translationKey: "powerChisel",
+    translationKey: "manpaMultiCutterMaster",
   },
   {
     slug: "voskovanie-lestenie-tramu",
