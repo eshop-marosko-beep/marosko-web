@@ -29,6 +29,7 @@ export function buildMetadata({
   const languages = Object.fromEntries(
     routing.locales.map((l) => [l, `${SITE_URL}${getPathname({ locale: l, href })}`])
   );
+  languages["x-default"] = `${SITE_URL}${getPathname({ locale: routing.defaultLocale, href })}`;
   const ogImage = toAbsoluteImageUrl(image);
 
   return {

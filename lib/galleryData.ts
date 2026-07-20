@@ -73,11 +73,6 @@ export const galleryCategories: GalleryCategory[] = [
         productUrl: "https://eshop.marosko.sk/p/984/arbortech-frezovaci-nadstavec-mini-turbo-sada",
       },
       {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/zvonkove-/zvonkova-freza-na-uhlovu-brusku-60-mm.jpg",
-        altKey: "p915",
-        productUrl: "https://eshop.marosko.sk/p/915/hlbiaca-zvonkova-freza-priemer-60-mm-manpa",
-      },
-      {
         src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/frezovacie/frezovacie-retazove-kotuce/lancelot/square-/-75squire-14mm.jpg",
         altKey: "p383",
         productUrl: "https://eshop.marosko.sk/p/383/retazovy-kotuc-frezovaci-squire-12-zubov-22-mm-otvor",
@@ -154,7 +149,7 @@ export const galleryCategories: GalleryCategory[] = [
         altKey: "arbortechSpheroPlane",
         productUrl: "https://eshop.marosko.sk/p/1338/arbortech-sphero-plane-frezovaci-nastavec",
         price: "360 €",
-        badge: "topSale",
+        badge: "top",
       },
     ],
   },
@@ -165,11 +160,6 @@ export const galleryCategories: GalleryCategory[] = [
       "https://eshop.marosko.sk/c/prislusenstva-do-priamej-brusky-frezky",
     cardStyle: "product",
     images: [
-      {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/vypalovacie-frezky/img-20210513-080948-01.jpeg",
-        altKey: "p994",
-        productUrl: "https://eshop.marosko.sk/p/994/stopkove-frezky-na-oci-vypalovacie",
-      },
       {
         src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/tuson.jpg",
         altKey: "p738",
@@ -189,11 +179,6 @@ export const galleryCategories: GalleryCategory[] = [
         src: "https://eshop.marosko.sk/resize/e/440/440/files/silverline/teleskopicky-drziak-priamej-brusky/240271-enwnmpro1-72691311772021.webp",
         altKey: "p704",
         productUrl: "https://eshop.marosko.sk/p/704/teleskopicky-drziak-priamej-brusky",
-      },
-      {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/frezovacie/kartacovacia-hriadel/rotacna-hrana.jpg",
-        altKey: "p305",
-        productUrl: "https://eshop.marosko.sk/p/305/frezka-rotacna-hrana-priemer-9-5-mm-stopka-2-4-mm",
       },
       {
         src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/stopka-3-2mm/pucik/18bud14/18bud14.jpg",
@@ -261,16 +246,6 @@ export const galleryCategories: GalleryCategory[] = [
         productUrl: "https://eshop.marosko.sk/p/703/tvrdokovova-rotacna-ihlickova-gulicka-6-4-mm-stopka-3-2mm",
       },
       {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/tvar-valec-s-hladkym-celom-pr3-2mm.jpg",
-        altKey: "p569",
-        productUrl: "https://eshop.marosko.sk/p/569/tvar-valec-s-hladkym-celom-priemer-3-2-mm-stopka-3-mm",
-      },
-      {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/frezovacie/kartacovacia-hriadel/7.jpg",
-        altKey: "p570",
-        productUrl: "https://eshop.marosko.sk/p/570/frezka-valec-s-hladkym-celom-priemer-13-mm-stopka-3-mm",
-      },
-      {
         src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/frezovacie/kartacovacia-hriadel/8.jpg",
         altKey: "p571",
         productUrl: "https://eshop.marosko.sk/p/571/tvar-valec-s-oblou-hranou-priemer-13-mm-stopka-3-mm",
@@ -321,31 +296,6 @@ export const galleryCategories: GalleryCategory[] = [
         productUrl: "https://eshop.marosko.sk/p/561/ihlickova-raspla-tvar-plamen-priemer-19-mm-extra-hruba-stopka-6-mm",
       },
       {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/stopka-6mm/plamen-19-16mm.jpg",
-        altKey: "p631",
-        productUrl: "https://eshop.marosko.sk/p/631/ihlickova-raspla-tvar-plamen-pr-19-mm-extra-hruba-stopka-6-mm",
-      },
-      {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/stopka-6mm/rotacne-hrany/rotosaw---6rs2z.jpg",
-        altKey: "p550",
-        productUrl: "https://eshop.marosko.sk/p/550/freza-rotacna-hrana-priemer-51-mm",
-      },
-      {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/stopka-6mm/rotacne-hrany/6rs34/6rs34.jpg",
-        altKey: "p830",
-        productUrl: "https://eshop.marosko.sk/p/830/frezka-rotacna-hrana-19-mm-stopka-6-mm",
-      },
-      {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/stopka-6mm/valec-z-hladkym-celom-pr--6-4-mm-stopka-6mm/cylinder---6c14se-hadke-celo.jpg",
-        altKey: "p341",
-        productUrl: "https://eshop.marosko.sk/p/341/valec-hladke-celo-priemer-6-4mm-stopka-6mm",
-      },
-      {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/stopka-6mm/cylinder---6c14.jpg",
-        altKey: "p641",
-        productUrl: "https://eshop.marosko.sk/p/641/frezka-valec-cinne-celo-priemer-6-4-mm-stopka-6mm",
-      },
-      {
         src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/stopka-6mm/ball-nose---6bn14-.2019-02-14-11-26-01.jpg",
         altKey: "p640",
         productUrl: "https://eshop.marosko.sk/p/640/valec-z-gulatym-vrchom-pr-6-4-mm-stopka-6mm",
@@ -384,11 +334,6 @@ export const galleryCategories: GalleryCategory[] = [
         src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/stopka-6mm/tvar-valec-s-cinnym-celom-pr--13-stopka-6mm-/cylinder---6c58-cinne-16mm.jpg",
         altKey: "p637",
         productUrl: "https://eshop.marosko.sk/p/637/frezka-valec-cinne-celo-16-mm-stopka-6mm",
-      },
-      {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/stopka-6mm/tvar-valec-s-cinnym-celom-pr--13-stopka-6mm-/6c34/6c34-3.jpg",
-        altKey: "p836",
-        productUrl: "https://eshop.marosko.sk/p/836/frezka-valec-s-cinnym-celom-priemer-19-mm-stopka-6-mm",
       },
       {
         src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/stopka-6mm/ball-nose---6bn58.jpg",
@@ -461,11 +406,6 @@ export const galleryCategories: GalleryCategory[] = [
         productUrl: "https://eshop.marosko.sk/p/824/frezka-kuzel-13-mm-hladky-koniec-stopka-6-mm",
       },
       {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/stopka-6mm/kuzele-6mm/6t34se.jpg",
-        altKey: "p757",
-        productUrl: "https://eshop.marosko.sk/p/757/frezka-tvar-kuzel-pr-19-mm-stopka-6-mm",
-      },
-      {
         src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-vrtacky/mini-unasac-smirglov-na-suchy-zips/brusne-teliesko-pr.7-mm.jpg",
         altKey: "p691",
         productUrl: "https://eshop.marosko.sk/p/691/brusne-teliesko-priemer-7-mm",
@@ -495,11 +435,6 @@ export const galleryCategories: GalleryCategory[] = [
     cardStyle: "product",
     images: [
       {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/brusne/rasple/sd770.jpg",
-        altKey: "p998",
-        productUrl: "https://eshop.marosko.sk/p/998/ihlickova-raspla-sikma-obla-bez-otvorov-180-mm-drsna",
-      },
-      {
         src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/brusne/rasple/ihlickova-raspla-plocha-rovna-extra-hruba100mm.jpg",
         altKey: "p438",
         productUrl: "https://eshop.marosko.sk/p/438/ihlickova-raspla-plocha-rovna-priemer-100-mm-extra-hruby-uber",
@@ -518,16 +453,6 @@ export const galleryCategories: GalleryCategory[] = [
         src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/brusne/rasple/raspla-obla-z-otvorama-pr.125mm-jemna.jpg",
         altKey: "p476",
         productUrl: "https://eshop.marosko.sk/p/476/ihlickova-raspla-obla-priemer-100-mm-jemna-priehladne-otvory",
-      },
-      {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/rasple-sabur-usa/oble-bez-otvorov/sd490-78.jpg",
-        altKey: "p618",
-        productUrl: "https://eshop.marosko.sk/p/618/ihlickova-raspla-sikma-obla-bez-otvorov-priemer-100mm-hruba",
-      },
-      {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/rasple-sabur-usa/ihlickova-raspla-sikma-obla-bez-otvorov-100mm.jpg",
-        altKey: "p619",
-        productUrl: "https://eshop.marosko.sk/p/619/ihlickova-raspla-sikma-obla-bez-otvorov-priemer-100mm-extra-hruba",
       },
       {
         src: "https://eshop.marosko.sk/resize/e/440/440/files/rasple-sabur-usa/salkova-50mm/cr2-70.jpg",
@@ -572,11 +497,6 @@ export const galleryCategories: GalleryCategory[] = [
         src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-vrtacky-/orbi-cut/orbi-cut.jpg",
         altKey: "p813",
         productUrl: "https://eshop.marosko.sk/p/813/dlabacia-gulocka-na-stopke-orbi-cut",
-      },
-      {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/vypalovacie-frezky/img-20210513-080948-01.jpeg",
-        altKey: "p994",
-        productUrl: "https://eshop.marosko.sk/p/994/stopkove-frezky-na-oci-vypalovacie",
       },
       {
         src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/6mm-stopka-gulata/scr-main-features1-orig.jpg",
@@ -692,11 +612,6 @@ export const galleryCategories: GalleryCategory[] = [
         productUrl: "https://eshop.marosko.sk/p/837/brusne-pasy-na-pasovu-brusku-manpa-30-620mm",
       },
       {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/zvonkove-/zvonkova-freza-na-uhlovu-brusku-60-mm.jpg",
-        altKey: "p915",
-        productUrl: "https://eshop.marosko.sk/p/915/hlbiaca-zvonkova-freza-priemer-60-mm-manpa",
-      },
-      {
         src: "https://eshop.marosko.sk/resize/e/440/440/files/vymenne-pridavne-nahradne-diely/m14-m10/m-14---10-prechodka-.jpg",
         altKey: "p797",
         productUrl: "https://eshop.marosko.sk/p/797/predlzovacia-prechodka-m14-m-10-16-mm",
@@ -755,11 +670,6 @@ export const galleryCategories: GalleryCategory[] = [
         src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/predlzovaci-rameno-/prechodky/predlzenie-hriadela-m14-m10.jpg",
         altKey: "p1015",
         productUrl: "https://eshop.marosko.sk/p/1015/predlzenie-hriadela-uhlovej-brusky-zavit-m-10-m-10",
-      },
-      {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/vypalovacie-frezky/img-20210513-080948-01.jpeg",
-        altKey: "p994",
-        productUrl: "https://eshop.marosko.sk/p/994/stopkove-frezky-na-oci-vypalovacie",
       },
       {
         src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/grinder-holder-/grinder--holder.jpg",
@@ -874,11 +784,6 @@ export const galleryCategories: GalleryCategory[] = [
         src: "https://eshop.marosko.sk/resize/e/440/440/files/natery--tmely-brusiva/tripolit.jpg",
         altKey: "p791",
         productUrl: "https://eshop.marosko.sk/p/791/tripolit-100-g",
-      },
-      {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/natery--tmely-brusiva/zajaci-glej.jpg",
-        altKey: "p790",
-        productUrl: "https://eshop.marosko.sk/p/790/zajaci-glej-200-g",
       },
       {
         src: "https://eshop.marosko.sk/resize/e/440/440/files/natery--tmely-brusiva/326-paraloid-b-72-100-g-600x450.jpg",
