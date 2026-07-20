@@ -1199,9 +1199,9 @@
     "intro": "Krátke video ukážky z dielne a z terénu — ako sa naše náradie používa pri hrubovaní, dlabaní, brúsení a povrchovej úprave dreva. Pod každým videom nájdete odkaz na produkty, ktoré v ňom vidíte.",
     "cta": "Zobraziť produkty",
     "items": {
-      "powerChisel": {
-        "title": "Arbortech Power Chisel v teréne – rezanie konára",
-        "description": "Elektrické dláto Arbortech Power Chisel v akcii priamo v teréne — rýchle a presné hrubovanie konára pripraveného na ďalšie rezbárske spracovanie."
+      "manpaMultiCutterMaster": {
+        "title": "Manpa Multi Cutter Master – frézovanie v teréne",
+        "description": "Predlžovacie rameno Manpa Multi Cutter Master s frézovacím kotúčom v akcii priamo v teréne — rýchle a presné tvarovanie a hĺbenie konára, pripraveného na ďalšie rezbárske spracovanie."
       },
       "voskovanieTramu": {
         "title": "Voskovanie a leštenie drevného trámu",
