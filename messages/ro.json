@@ -1215,9 +1215,9 @@
         "title": "Scobirea lemnului cu sfera Orbi Cut",
         "description": "Scobire rapidă și precisă a lemnului cu sfera Orbi Cut montată pe bormașină — ideală pentru boluri, cavități și modelare fină."
       },
-      "kotuc125mm": {
-        "title": "Disc de frezat 125 mm – margine ascuțită",
-        "description": "Prim-plan al unui disc de frezat din carbură cu diametrul de 125 mm și un dinte extrem de ascuțit pentru îndepărtare rapidă a lemnului."
+      "rasplovyKotucOstryKraj": {
+        "title": "Disc raspel 125 mm cu margine ascuțită – prim-plan",
+        "description": "Disc raspel tăiat manual de 125 mm cu margine ascuțită (profil V), din oțel carbon călit (40 HRC) — pentru îndepărtarea lemnului, modelare, canelare, lucrări de dulgherie și restaurare."
       }
     }
   },

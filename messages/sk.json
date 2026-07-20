@@ -1215,9 +1215,9 @@
         "title": "Dlabanie dreva guľôčkou Orbi Cut",
         "description": "Rýchle a presné dlabanie dreva dlabacou guľôčkou Orbi Cut nasadenou na vŕtačku — ideálne na misky, dutiny a jemné tvarovanie."
       },
-      "kotuc125mm": {
-        "title": "Frézovací kotúč 125 mm – ostrý kraj",
-        "description": "Detailný pohľad na tvrdokovový frézovací kotúč s priemerom 125 mm a mimoriadne ostrým karbidovým zubom pre rýchly úber dreva."
+      "rasplovyKotucOstryKraj": {
+        "title": "Rašpľový kotúč 125 mm s ostrým okrajom – detail",
+        "description": "Ručne sekaný rašpľový kotúč 125 mm s ostrým okrajom (véčko) z kalenej uhlíkovej ocele (40 HRC) — na odoberanie dreva, modelovanie, drážkovanie, tesárske aj reštaurátorské práce."
       }
     }
   },

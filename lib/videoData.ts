@@ -46,11 +46,11 @@ export const videos: Video[] = [
     translationKey: "orbiCut",
   },
   {
-    slug: "frezovaci-kotuc-125mm-ostry-kraj",
-    file: "frezovaci-kotuc-125mm-ostry-kraj",
+    slug: "rasplovy-kotuc-125mm-ostry-kraj",
+    file: "rasplovy-kotuc-125mm-ostry-kraj",
     duration: "PT38S",
-    linkUrl: "/galeria/frezovacie-kotuce",
-    linkType: "internal",
-    translationKey: "kotuc125mm",
+    linkUrl: "https://eshop.marosko.sk/p/215/kotucova-sekana-raspla-s-ostrym-krajom-125-mm",
+    linkType: "external",
+    translationKey: "rasplovyKotucOstryKraj",
   },
 ];

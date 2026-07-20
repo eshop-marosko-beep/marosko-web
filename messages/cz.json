@@ -1215,9 +1215,9 @@
         "title": "Dlabání dřeva kuličkou Orbi Cut",
         "description": "Rychlé a přesné dlabání dřeva dlabací kuličkou Orbi Cut nasazenou na vrtačku — ideální na misky, dutiny a jemné tvarování."
       },
-      "kotuc125mm": {
-        "title": "Frézovací kotouč 125 mm – ostrý okraj",
-        "description": "Detailní pohled na tvrdokovový frézovací kotouč o průměru 125 mm s mimořádně ostrým karbidovým zubem pro rychlý úběr dřeva."
+      "rasplovyKotucOstryKraj": {
+        "title": "Rašplový kotouč 125 mm s ostrým okrajem – detail",
+        "description": "Ručně sekaný rašplový kotouč 125 mm s ostrým okrajem (véčko) z kalené uhlíkové oceli (40 HRC) — pro odebírání dřeva, modelování, drážkování, tesařské i restaurátorské práce."
       }
     }
   },
