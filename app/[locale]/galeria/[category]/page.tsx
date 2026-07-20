@@ -61,7 +61,7 @@ export default async function GalleryCategoryPage({
 
       {cardStyle === "product" ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-          {images.map(({ src, altKey, productUrl, badge }) => (
+          {images.map(({ src, altKey, productUrl, price, originalPrice, badge }) => (
             <div
               key={src}
               className="bg-white rounded-xl shadow-lg overflow-hidden border border-transparent hover:border-amber-200 hover:shadow-xl transition-all flex flex-col"
@@ -87,6 +87,14 @@ export default async function GalleryCategoryPage({
                 {t(`${translationKey}.products.${altKey}.description`) && (
                   <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1">
                     {t(`${translationKey}.products.${altKey}.description`)}
+                  </p>
+                )}
+                {price && (
+                  <p className="mb-4">
+                    <span className="text-lg font-bold text-espresso-800">{price}</span>
+                    {originalPrice && (
+                      <span className="ml-2 text-sm text-gray-400 line-through">{originalPrice}</span>
+                    )}
                   </p>
                 )}
                 {productUrl && (

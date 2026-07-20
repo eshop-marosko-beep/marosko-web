@@ -113,7 +113,7 @@
       "label": "na trhu s rezbárskym náradím"
     },
     "brands": {
-      "value": "7+ značiek",
+      "value": "60+ značiek",
       "label": "overených svetových výrobcov"
     },
     "shipping": {
@@ -437,10 +437,6 @@
           "title": "Arbortech Mini Turbo – frézovací nadstavec, sada",
           "description": ""
         },
-        "p915": {
-          "title": "Hĺbiaca zvonková frézka 3\" do uhlovej brúsky, Ø 60 mm",
-          "description": ""
-        },
         "p383": {
           "title": "Reťazový frézovací kotúč Squire, 12 zubov, otvor 22 mm",
           "description": ""
@@ -503,10 +499,6 @@
       "description": "Náradie do priamych mikrobrúsok (Dremel, Proxxon, Extol a ďalšie) na prácu s detailmi — tvrdokovové stopkové frézky a ihličkové rašple Saburrtooth v tvaroch valec, gulička, kužeľ či plameň, ohybné hriadele a ďalšie príslušenstvo. Zobrazujeme len produkty, ktoré sú aktuálne skladom.",
       "cta": "Zobraziť v e-shope",
       "products": {
-        "p994": {
-          "title": "Manpa – balenie 8 tvarovacích rašplí na oči a vypaľovanie",
-          "description": ""
-        },
         "p738": {
           "title": "Ohybný hriadeľ TUSON – náhradný k RT170",
           "description": ""
@@ -521,10 +513,6 @@
         },
         "p704": {
           "title": "Teleskopický držiak priamej brúsky",
-          "description": ""
-        },
-        "p305": {
-          "title": "Rotačná hrana pr. 9,5 mm, stopka 2,4 mm",
           "description": ""
         },
         "p310": {
@@ -579,14 +567,6 @@
           "title": "Ihličková gulička pr. 6,4 mm, stopka 3,2 mm",
           "description": ""
         },
-        "p569": {
-          "title": "Valec s hladkým vrcholom pr. 3,2 mm, stopka 3 mm",
-          "description": ""
-        },
-        "p570": {
-          "title": "Valec s hladkým čelom pr. 13 mm, stopka 3 mm",
-          "description": ""
-        },
         "p571": {
           "title": "Valec s oblou hranou pr. 13 mm, stopka 3 mm",
           "description": ""
@@ -627,26 +607,6 @@
           "title": "Ihličková rašpľa Plameň pr. 16 mm, extra hrubá, stopka 6 mm",
           "description": ""
         },
-        "p631": {
-          "title": "Ihličková rašpľa Plameň pr. 19 mm, extra hrubá, stopka 6 mm",
-          "description": ""
-        },
-        "p550": {
-          "title": "Rotačná hrana pr. 51 mm, stopka 6 mm",
-          "description": ""
-        },
-        "p830": {
-          "title": "Rotačná hrana pr. 19 mm, stopka 6 mm",
-          "description": ""
-        },
-        "p341": {
-          "title": "Valec s hladkým čelom pr. 6,4 mm, stopka 6 mm",
-          "description": ""
-        },
-        "p641": {
-          "title": "Valec s činným čelom pr. 6,4 mm, stopka 6 mm",
-          "description": ""
-        },
         "p640": {
           "title": "Valec s guľatým vrchom pr. 6,4 mm, stopka 6 mm",
           "description": ""
@@ -677,10 +637,6 @@
         },
         "p637": {
           "title": "Dlhý valec s činným čelom pr. 16 mm, stopka 6 mm",
-          "description": ""
-        },
-        "p836": {
-          "title": "Valec s činným čelom pr. 19 mm, stopka 6 mm",
           "description": ""
         },
         "p644": {
@@ -739,10 +695,6 @@
           "title": "Kužeľ s hladkým čelom pr. 13 mm, stopka 6 mm",
           "description": ""
         },
-        "p757": {
-          "title": "Kužeľ s hladkým čelom pr. 19 mm, stopka 6 mm",
-          "description": ""
-        },
         "p691": {
           "title": "Brúsne teliesko pr. 7 mm",
           "description": ""
@@ -768,10 +720,6 @@
       "description": "Ihličkové brúsne kotúče (ihličkové rašple) do uhlovej brúsky na drevo — tvrdokovové kotúče Saburrtooth USA na rýchle brúsenie, tvarovanie a hrubovanie dreva flexou. Ploché, oblé, šikmé aj šálkové rašple v drsnostiach od veľmi jemnej po extra hrubú, priemery 44,5 až 180 mm. Neupchávajú sa, nepália drevo a vydržia mnohonásobne dlhšie než brúsny papier. Zobrazujeme len produkty, ktoré sú aktuálne skladom.",
       "cta": "Zobraziť v e-shope",
       "products": {
-        "p998": {
-          "title": "Ihličková rašpľa šikmá oblá bez otvorov, Ø 180 mm, drsná",
-          "description": ""
-        },
         "p438": {
           "title": "Ihličková rašpľa plochá rovná, Ø 100 mm, extra hrubá",
           "description": ""
@@ -786,14 +734,6 @@
         },
         "p476": {
           "title": "Ihličková rašpľa oblá s otvormi, Ø 100 mm, jemná",
-          "description": ""
-        },
-        "p618": {
-          "title": "Ihličková rašpľa šikmá oblá bez otvorov, Ø 100 mm, hrubá",
-          "description": ""
-        },
-        "p619": {
-          "title": "Ihličková rašpľa šikmá oblá bez otvorov, Ø 100 mm, extra hrubá",
           "description": ""
         },
         "p406": {
@@ -831,10 +771,6 @@
         },
         "p813": {
           "title": "Dlabacia guľôčka na stopke Orbi Cut",
-          "description": ""
-        },
-        "p994": {
-          "title": "Manpa – balenie 8 tvarovacích rašplí na oči a vypaľovanie",
           "description": ""
         },
         "p981": {
@@ -931,10 +867,6 @@
           "title": "Brúsne pásy na pásovú brúsku Manpa, 30 × 620 mm",
           "description": ""
         },
-        "p915": {
-          "title": "Hĺbiaca zvonková frézka 3\" do uhlovej brúsky, Ø 60 mm",
-          "description": ""
-        },
         "p797": {
           "title": "Predlžovacia prechodka M14 / M10 (+M16)",
           "description": ""
@@ -981,10 +913,6 @@
         },
         "p1015": {
           "title": "Predĺženie hriadeľa uhlovej brúsky 120 mm, závit M10/M10",
-          "description": ""
-        },
-        "p994": {
-          "title": "Manpa – balenie 8 tvarovacích rašplí na oči a vypaľovanie",
           "description": ""
         },
         "p917": {
@@ -1078,10 +1006,6 @@
         },
         "p791": {
           "title": "Tripolit, 100 g",
-          "description": ""
-        },
-        "p790": {
-          "title": "Zajačí glej, 200 g",
           "description": ""
         },
         "p1247": {
