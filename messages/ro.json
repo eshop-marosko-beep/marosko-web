@@ -5,6 +5,7 @@
     "services": "Categorii",
     "brands": "Mărci",
     "gallery": "Galerie",
+    "videos": "Ghiduri",
     "blog": "Blog",
     "shops": "Magazinele noastre",
     "contact": "Contact"
@@ -1192,6 +1193,34 @@
       "topSale": "Produsul lunii · Reducere"
     }
   },
+  "videos": {
+    "title": "Video-uri și ghiduri",
+    "subtitle": "Vedeți uneltele noastre în acțiune.",
+    "intro": "Clipuri scurte din atelier și din teren — cum se folosesc uneltele noastre la degroșare, scobire, șlefuire și finisarea lemnului. Sub fiecare video găsiți un link către produsele prezentate.",
+    "cta": "Vezi produsele",
+    "items": {
+      "powerChisel": {
+        "title": "Arbortech Power Chisel pe teren – tăierea unei crengi",
+        "description": "Dalta electrică Arbortech Power Chisel în acțiune, direct pe teren — degroșare rapidă și precisă a unei crengi pregătite pentru sculptură."
+      },
+      "voskovanieTramu": {
+        "title": "Cerarea și lustruirea unei grinzi din lemn",
+        "description": "Aplicarea și lustruirea cerii pe o grindă mare din lemn cu polizorul drept — o demonstrație de finisare și protecție a lemnului."
+      },
+      "brusenieSochy": {
+        "title": "Șlefuirea unei statui din lemn cu tamburul Manpa",
+        "description": "Șlefuirea de finisare a unei statui mari din lemn cu tamburul de șlefuit Manpa montat pe polizorul unghiular — suprafață netedă chiar și pe forme complexe."
+      },
+      "orbiCut": {
+        "title": "Scobirea lemnului cu sfera Orbi Cut",
+        "description": "Scobire rapidă și precisă a lemnului cu sfera Orbi Cut montată pe bormașină — ideală pentru boluri, cavități și modelare fină."
+      },
+      "kotuc125mm": {
+        "title": "Disc de frezat 125 mm – margine ascuțită",
+        "description": "Prim-plan al unui disc de frezat din carbură cu diametrul de 125 mm și un dinte extrem de ascuțit pentru îndepărtare rapidă a lemnului."
+      }
+    }
+  },
   "blog": {
     "title": "Blog",
     "subtitle": "Noutăți, sfaturi și prezentări de unelte din magazinul nostru online eshop.marosko.sk.",
@@ -1461,6 +1490,10 @@
     "gallery": {
       "title": "Galerie unelte | Marián s.r.o.",
       "description": "O galerie foto cu uneltele noastre – vedeți discuri de frezat și alte produse din gama noastră."
+    },
+    "videos": {
+      "title": "Ghiduri video și demonstrații unelte | Marián s.r.o.",
+      "description": "Clipuri video scurte cu uneltele noastre de sculptură și prelucrare a lemnului în acțiune — degroșare, scobire, șlefuire și finisarea lemnului."
     },
     "blog": {
       "title": "Blog | Marián s.r.o.",

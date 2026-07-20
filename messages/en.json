@@ -5,6 +5,7 @@
     "services": "Categories",
     "brands": "Brands",
     "gallery": "Gallery",
+    "videos": "Guides",
     "blog": "Blog",
     "shops": "Our Shops",
     "contact": "Contact"
@@ -1192,6 +1193,34 @@
       "topSale": "Top Product of the Month · Sale"
     }
   },
+  "videos": {
+    "title": "Videos & guides",
+    "subtitle": "See our tools in action.",
+    "intro": "Short clips from the workshop and the field — how our tools handle roughing out, hollowing, sanding and finishing wood. Below each video you'll find a link to the products shown in it.",
+    "cta": "View products",
+    "items": {
+      "powerChisel": {
+        "title": "Arbortech Power Chisel in the field – cutting a branch",
+        "description": "The Arbortech Power Chisel electric chisel in action outdoors — fast, precise roughing of a branch ready for further carving."
+      },
+      "voskovanieTramu": {
+        "title": "Waxing and polishing a wooden beam",
+        "description": "Applying and buffing wax on a large wooden beam with a die grinder — a look at wood finishing and protection."
+      },
+      "brusenieSochy": {
+        "title": "Sanding a wooden statue with a Manpa sanding drum",
+        "description": "Finishing a large wooden statue with a Manpa sanding drum on an angle grinder — a smooth surface even on complex shapes and folds."
+      },
+      "orbiCut": {
+        "title": "Hollowing wood with the Orbi Cut ball",
+        "description": "Fast, precise wood hollowing with the Orbi Cut ball mounted on a drill — ideal for bowls, hollows and fine shaping."
+      },
+      "kotuc125mm": {
+        "title": "125 mm carving disc – sharp edge",
+        "description": "A close look at a 125 mm carbide carving disc with an exceptionally sharp edge for fast wood removal."
+      }
+    }
+  },
   "blog": {
     "title": "Blog",
     "subtitle": "News, tips and tool spotlights from our e-shop eshop.marosko.sk.",
@@ -1461,6 +1490,10 @@
     "gallery": {
       "title": "Tool Gallery | Marián s.r.o.",
       "description": "A photo gallery of our tools – browse milling discs and other products from our range."
+    },
+    "videos": {
+      "title": "Video guides and tool demos | Marián s.r.o.",
+      "description": "Short video clips of our woodcarving and woodworking tools in action — roughing out, hollowing, sanding and wood finishing."
     },
     "blog": {
       "title": "Blog | Marián s.r.o.",
