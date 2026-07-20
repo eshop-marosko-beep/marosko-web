@@ -30,12 +30,12 @@ export const videos: Video[] = [
     translationKey: "arbortechContourSander",
   },
   {
-    slug: "brusenie-drevenej-sochy-valcom",
-    file: "brusenie-drevenej-sochy-valcom",
+    slug: "lesticka-sada-brusenie-sochy",
+    file: "lesticka-sada-brusenie-sochy",
     duration: "PT25S",
-    linkUrl: "/galeria/manpa-predlzovacie-rameno",
-    linkType: "internal",
-    translationKey: "brusenieSochy",
+    linkUrl: "https://eshop.marosko.sk/p/968/lestica-sada-hridel-12cm-kotuc-30cm",
+    linkType: "external",
+    translationKey: "lesticaSada",
   },
   {
     slug: "orbi-cut-dlabanie-gulockou",
