@@ -1329,6 +1329,66 @@
       "ihlickovaRasplaPlochaExtraHruba": {
         "title": "Flat Straight Needle Rasp, Ø 100 mm, Extra Coarse (Orange)",
         "description": "An extra coarse needle rasp from Saburrtooth (USA), 100 mm diameter, max. 14,000 rpm. The flat shape is ideal for working on flat surfaces (boards, planks). Extreme material removal, long-lasting carbide needles. Suited for wood, laminate, plastics, and rubber – not for metal or stone."
+      },
+      "kotucovaSekanaRaspla": {
+        "title": "Toothed rasp disc for Arbortech Mini Grinder and Merlin, 50 mm",
+        "description": "Hand-cut 50 mm rasp disc for the Arbortech Mini Grinder, Mini Carver and Merlin. Ideal for fast, aggressive shaping, rough carving and texturing wood."
+      },
+      "diamantovyKotucDrazkovy": {
+        "title": "Grooved diamond grinding disc, grit 126/39",
+        "description": "Grooved diamond grinding disc with two grits and a self-cooling effect. Universal mounting for angle grinders and drills — for sharpening carbide, steel, ceramics and glass."
+      },
+      "rasplovyKotucPlochyGulataHrana": {
+        "title": "Hand-cut rasp disc, flat with rounded edge, 125 mm",
+        "description": "Hand-cut 125 mm rasp disc — flat with a rounded edge. Extreme wood removal, ideal for shaping, debarking and stripping old finishes with an angle grinder."
+      },
+      "miniRasplaSekana": {
+        "title": "Hand-cut mini rasp",
+        "description": "Hand-cut Ø 50 mm mini rasp made of hardened steel for Arbortech, Proxxon, Merlin and Parkside mini carvers. For wood shaping, carving and rough stock removal."
+      },
+      "ihlickovaSikmaDrsna": {
+        "title": "Angled convex needle rasp disc without holes, Ø 100 mm, rough",
+        "description": "Saburrtooth carbide needle rasp disc, angled convex without holes, Ø 100 mm, rough grit. Works on wood, laminate, plastics, rubber, paints and finishes — long life, clog-resistant."
+      },
+      "ihlickovaSikmaJemna": {
+        "title": "Angled convex needle rasp disc without holes, fine, 100 mm",
+        "description": "Angled convex needle rasp disc without holes, Ø 100 mm, fine grit. For fine shaping of wood, chipboard, laminate, plastics and more with an angle grinder."
+      },
+      "ihlickovaSikmaExtraHruba": {
+        "title": "Angled convex needle rasp disc without holes, Ø 100 mm, extra coarse",
+        "description": "Angled convex needle rasp disc without holes, Ø 100 mm, extra coarse (orange). Maximum stock removal when roughing out wood with an angle grinder."
+      },
+      "ihlickovaGulataJemna": {
+        "title": "Convex needle rasp disc without holes, Ø 100 mm, fine",
+        "description": "Convex needle rasp disc without holes, Ø 100 mm, fine grit. Universal use on wood, laminate, plastics, polyurethane and fillers — a smooth finish without burning."
+      },
+      "rasplaValcovaKvo122": {
+        "title": "Cylindrical rasp 120 × 20 × 222 mm, KVO 122",
+        "description": "Cylindrical rasp 120 × 20 × 222 mm (KVO 122) for sanding and shaping wood surfaces, removing under-bark layers and cleaning weathered or painted wood."
+      },
+      "rasplovyPilovyKotuc125": {
+        "title": "Recessed rasp saw disc 125 mm",
+        "description": "Recessed 125 mm rasp saw disc (KUZ-64) — cuts and shapes in one tool. Saw teeth on the rim, rasp teeth on the face; for wood, plastics and aerated concrete."
+      },
+      "nahradnyNozBallGouge": {
+        "title": "Ball Gouge replacement blade",
+        "description": "Genuine replacement blade for the Arbortech Ball Gouge hollowing carver. Hardened steel, 30 mm diameter, quick swap of a worn cutting edge."
+      },
+      "rucneSekaneRasple": {
+        "title": "Hand-cut rasp discs",
+        "description": "Hand-cut rasp discs for angle grinders on wood. Extreme stock removal, 40 HRC hardened steel, a solid and safe design for grinders from 850 W up."
+      },
+      "rasplovyKotucOval": {
+        "title": "Hand-cut rasp disc with rounded edge, 125 mm, oval",
+        "description": "Hand-cut 125 mm rasp disc, oval with a rounded edge (U profile). Ideal for grooves, flutes and shaping rounded surfaces in wood."
+      },
+      "rasplovyKotucVecko": {
+        "title": "Hand-cut rasp disc with sharp edge, 125 mm, V profile",
+        "description": "Hand-cut 125 mm rasp disc with a sharp V-profile edge. For flat surfaces, modelling, grooving and carpentry work on log buildings."
+      },
+      "ihlickovaGulataDrsna": {
+        "title": "Convex needle rasp disc without holes, Ø 100 mm, rough",
+        "description": "Convex needle rasp disc without holes, Ø 100 mm, rough grit. Long-lasting carbide needles for aggressive wood shaping with an angle grinder."
       }
     }
   },
