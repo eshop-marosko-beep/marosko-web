@@ -1329,6 +1329,66 @@
       "ihlickovaRasplaPlochaExtraHruba": {
         "title": "Ihličková rašpľa plochá rovná, priemer 100 mm, extra hrubá (oranžová)",
         "description": "Extra hrubá ihličková rašpla Saburrtooth (USA), priemer 100 mm, max. 14 000 ot./min. Rovný tvar ideálny na prácu na rovných plochách (dosky, fošne). Extrémny úber materiálu, tvrdokovové ihličky s dlhou životnosťou. Vhodná na drevo, laminát, plasty, gumu – nie na kov ani kameň."
+      },
+      "kotucovaSekanaRaspla": {
+        "title": "Kotúčová sekaná rašpľa pre Arbortech Mini Grinder a Merlin, 50 mm",
+        "description": "Ručne sekaná kotúčová rašpľa 50 mm pre Arbortech Mini Grinder, Mini Carver a Merlin. Ideálna na rýchle a agresívne tvarovanie, hrubé obrábanie a tvorbu textúry v dreve."
+      },
+      "diamantovyKotucDrazkovy": {
+        "title": "Diamantový brúsny kotúč drážkový, drsnosť 126/39",
+        "description": "Diamantový drážkový brúsny kotúč s dvoma zrnitosťami a samoochladzovacím efektom. Univerzálne upnutie do uhlovej brúsky aj vŕtačky — na ostrenie tvrdokovu, ocele, keramiky a skla."
+      },
+      "rasplovyKotucPlochyGulataHrana": {
+        "title": "Rašpľový kotúč, ručne sekaný, plochý, guľatá hrana, 125 mm",
+        "description": "Ručne sekaný rašpľový kotúč 125 mm — plochý s guľatou hranou. Extrémny úber dreva, vhodný na tvarovanie, odstraňovanie kôry a starých náterov uhlovou brúskou."
+      },
+      "miniRasplaSekana": {
+        "title": "Mini rašpľa sekaná",
+        "description": "Ručne sekaná mini rašpľa Ø 50 mm z kalenej ocele do mini frézok Arbortech, Proxxon, Merlin či Parkside. Na tvarovanie dreva, rezbárstvo a hrubé úbery."
+      },
+      "ihlickovaSikmaDrsna": {
+        "title": "Ihličková rašpľa šikmá, oblá, bez otvorov, priemer 100 mm, drsná",
+        "description": "Tvrdokovová ihličková rašpľa Saburrtooth, šikmá oblá bez otvorov, Ø 100 mm, drsná. Na drevo, laminát, plasty, gumu aj farby a laky — dlhá životnosť, neupcháva sa."
+      },
+      "ihlickovaSikmaJemna": {
+        "title": "Ihličková rašpľa šikmá, oblá, bez otvorov, jemná, 100 mm",
+        "description": "Ihličková rašpľa šikmá oblá bez otvorov, Ø 100 mm, jemná. Na jemné tvarovanie dreva, drevotriesky, laminátu, plastov a ďalších materiálov uhlovou brúskou."
+      },
+      "ihlickovaSikmaExtraHruba": {
+        "title": "Ihličková rašpľa šikmá, oblá, bez otvorov, priemer 100 mm, extra hrubá",
+        "description": "Ihličková rašpľa šikmá oblá bez otvorov, Ø 100 mm, extra hrubá (oranžová). Maximálny úber materiálu pri hrubovaní dreva uhlovou brúskou."
+      },
+      "ihlickovaGulataJemna": {
+        "title": "Ihličková rašpľa oblá, bez otvorov, priemer 100 mm, jemná",
+        "description": "Ihličková rašpľa oblá bez otvorov, Ø 100 mm, jemná. Univerzálne použitie na drevo, laminát, plasty, polyuretán či tmely — jemný povrch bez pálenia."
+      },
+      "rasplaValcovaKvo122": {
+        "title": "Rašpľa valcová 120 × 20 × 222 mm, KVO 122",
+        "description": "Valcová rašpľa 120 × 20 × 222 mm (KVO 122) na zbrúsenie a tvarovanie povrchu dreva, odstránenie podkôrnych vrstiev aj očistenie zašlého či natretého dreva."
+      },
+      "rasplovyPilovyKotuc125": {
+        "title": "Rašpľový pílový kotúč 125 mm, zapustený",
+        "description": "Rašpľový pílový kotúč 125 mm zapustený (KUZ-64) — reže aj tvaruje v jednom. Pílové zuby na obvode, rašpľový sek na ploche; na drevo, plasty aj pórobetón."
+      },
+      "nahradnyNozBallGouge": {
+        "title": "Náhradný výmenný nôž Ball Gouge",
+        "description": "Originálny náhradný výmenný nôž pre hobľovaciu guličku Arbortech Ball Gouge. Kalená oceľ, priemer 30 mm, rýchla výmena opotrebovaného ostria."
+      },
+      "rucneSekaneRasple": {
+        "title": "Ručne sekané rašple",
+        "description": "Ručne sekané rašpľové kotúče do uhlovej brúsky na drevo. Extrémny úber, kalená oceľ 40 HRC, masívna a bezpečná konštrukcia pre brúsky od 850 W."
+      },
+      "rasplovyKotucOval": {
+        "title": "Rašpľový kotúč sekaný, oblým okrajom, 125 mm, ovál",
+        "description": "Ručne sekaný rašpľový kotúč 125 mm, oválny s oblým okrajom (profil U). Ideálny na drážky, žliabky a tvarovanie zaoblených plôch v dreve."
+      },
+      "rasplovyKotucVecko": {
+        "title": "Rašpľový kotúč sekaný, ostrým okrajom, 125 mm, véčko",
+        "description": "Ručne sekaný rašpľový kotúč 125 mm s ostrým okrajom (véčko). Na rovné plochy, modelovanie, drážkovanie aj tesárske práce na zruboch."
+      },
+      "ihlickovaGulataDrsna": {
+        "title": "Ihličková rašpľa oblá, bez otvoru, priemer 100 mm, drsná",
+        "description": "Ihličková rašpľa oblá bez otvoru, Ø 100 mm, drsná. Tvrdokovové ihličky s dlhou životnosťou na razantné tvarovanie dreva uhlovou brúskou."
       }
     }
   },

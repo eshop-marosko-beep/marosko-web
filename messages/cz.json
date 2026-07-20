@@ -1329,6 +1329,66 @@
       "ihlickovaRasplaPlochaExtraHruba": {
         "title": "Jehličková rašple plochá rovná, průměr 100 mm, extra hrubá (oranžová)",
         "description": "Extra hrubá jehličková rašple Saburrtooth (USA), průměr 100 mm, max. 14 000 ot./min. Rovný tvar ideální pro práci na rovných plochách (desky, fošny). Extrémní úběr materiálu, tvrdokovové jehličky s dlouhou životností. Vhodná na dřevo, laminát, plasty, gumu – nikoli na kov ani kámen."
+      },
+      "kotucovaSekanaRaspla": {
+        "title": "Kotoučová sekaná rašple pro Arbortech Mini Grinder a Merlin, 50 mm",
+        "description": "Ručně sekaná kotoučová rašple 50 mm pro Arbortech Mini Grinder, Mini Carver a Merlin. Ideální pro rychlé a agresivní tvarování, hrubé obrábění a tvorbu textury ve dřevě."
+      },
+      "diamantovyKotucDrazkovy": {
+        "title": "Diamantový brusný kotouč drážkový, drsnost 126/39",
+        "description": "Diamantový drážkový brusný kotouč se dvěma zrnitostmi a samochladicím efektem. Univerzální upnutí do úhlové brusky i vrtačky — na ostření tvrdokovu, oceli, keramiky a skla."
+      },
+      "rasplovyKotucPlochyGulataHrana": {
+        "title": "Rašplový kotouč, ručně sekaný, plochý, kulatá hrana, 125 mm",
+        "description": "Ručně sekaný rašplový kotouč 125 mm — plochý s kulatou hranou. Extrémní úběr dřeva, vhodný pro tvarování, odstraňování kůry a starých nátěrů úhlovou bruskou."
+      },
+      "miniRasplaSekana": {
+        "title": "Mini rašple sekaná",
+        "description": "Ručně sekaná mini rašple Ø 50 mm z kalené oceli do mini frézek Arbortech, Proxxon, Merlin či Parkside. Pro tvarování dřeva, řezbářství a hrubé úběry."
+      },
+      "ihlickovaSikmaDrsna": {
+        "title": "Jehličková rašple šikmá, oblá, bez otvorů, průměr 100 mm, drsná",
+        "description": "Tvrdokovová jehličková rašple Saburrtooth, šikmá oblá bez otvorů, Ø 100 mm, drsná. Na dřevo, laminát, plasty, gumu i barvy a laky — dlouhá životnost, neucpává se."
+      },
+      "ihlickovaSikmaJemna": {
+        "title": "Jehličková rašple šikmá, oblá, bez otvorů, jemná, 100 mm",
+        "description": "Jehličková rašple šikmá oblá bez otvorů, Ø 100 mm, jemná. Pro jemné tvarování dřeva, dřevotřísky, laminátu, plastů a dalších materiálů úhlovou bruskou."
+      },
+      "ihlickovaSikmaExtraHruba": {
+        "title": "Jehličková rašple šikmá, oblá, bez otvorů, průměr 100 mm, extra hrubá",
+        "description": "Jehličková rašple šikmá oblá bez otvorů, Ø 100 mm, extra hrubá (oranžová). Maximální úběr materiálu při hrubování dřeva úhlovou bruskou."
+      },
+      "ihlickovaGulataJemna": {
+        "title": "Jehličková rašple oblá, bez otvorů, průměr 100 mm, jemná",
+        "description": "Jehličková rašple oblá bez otvorů, Ø 100 mm, jemná. Univerzální použití na dřevo, laminát, plasty, polyuretan či tmely — jemný povrch bez pálení."
+      },
+      "rasplaValcovaKvo122": {
+        "title": "Rašple válcová 120 × 20 × 222 mm, KVO 122",
+        "description": "Válcová rašple 120 × 20 × 222 mm (KVO 122) pro zbroušení a tvarování povrchu dřeva, odstranění podkorních vrstev i očištění zašlého či natřeného dřeva."
+      },
+      "rasplovyPilovyKotuc125": {
+        "title": "Rašplový pilový kotouč 125 mm, zapuštěný",
+        "description": "Rašplový pilový kotouč 125 mm zapuštěný (KUZ-64) — řeže i tvaruje v jednom. Pilové zuby na obvodu, rašplový sek na ploše; na dřevo, plasty i pórobeton."
+      },
+      "nahradnyNozBallGouge": {
+        "title": "Náhradní výměnný nůž Ball Gouge",
+        "description": "Originální náhradní výměnný nůž pro hoblovací kuličku Arbortech Ball Gouge. Kalená ocel, průměr 30 mm, rychlá výměna opotřebovaného ostří."
+      },
+      "rucneSekaneRasple": {
+        "title": "Ručně sekané rašple",
+        "description": "Ručně sekané rašplové kotouče do úhlové brusky na dřevo. Extrémní úběr, kalená ocel 40 HRC, masivní a bezpečná konstrukce pro brusky od 850 W."
+      },
+      "rasplovyKotucOval": {
+        "title": "Rašplový kotouč sekaný, oblým okrajem, 125 mm, ovál",
+        "description": "Ručně sekaný rašplový kotouč 125 mm, oválný s oblým okrajem (profil U). Ideální na drážky, žlábky a tvarování zaoblených ploch ve dřevě."
+      },
+      "rasplovyKotucVecko": {
+        "title": "Rašplový kotouč sekaný, ostrým okrajem, 125 mm, véčko",
+        "description": "Ručně sekaný rašplový kotouč 125 mm s ostrým okrajem (véčko). Na rovné plochy, modelování, drážkování i tesařské práce na srubech."
+      },
+      "ihlickovaGulataDrsna": {
+        "title": "Jehličková rašple oblá, bez otvoru, průměr 100 mm, drsná",
+        "description": "Jehličková rašple oblá bez otvoru, Ø 100 mm, drsná. Tvrdokovové jehličky s dlouhou životností pro razantní tvarování dřeva úhlovou bruskou."
       }
     }
   },

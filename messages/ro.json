@@ -1329,6 +1329,66 @@
       "ihlickovaRasplaPlochaExtraHruba": {
         "title": "Pilă cu ace plată dreaptă, Ø 100 mm, extra aspră (portocalie)",
         "description": "Pilă cu ace extra aspră de la Saburrtooth (SUA), diametru 100 mm, max. 14.000 rot/min. Forma plată este ideală pentru lucrul pe suprafețe drepte (scânduri, dulapi). Îndepărtare extremă de material, ace din carbură cu durată lungă de viață. Potrivită pentru lemn, laminat, plastic și cauciuc – nu pentru metal sau piatră."
+      },
+      "kotucovaSekanaRaspla": {
+        "title": "Disc raspel dințat pentru Arbortech Mini Grinder și Merlin, 50 mm",
+        "description": "Disc raspel de 50 mm tăiat manual pentru Arbortech Mini Grinder, Mini Carver și Merlin. Ideal pentru modelare rapidă și agresivă, degroșare și texturarea lemnului."
+      },
+      "diamantovyKotucDrazkovy": {
+        "title": "Disc diamantat de șlefuit cu caneluri, granulație 126/39",
+        "description": "Disc diamantat cu caneluri, cu două granulații și efect de auto-răcire. Prindere universală pe polizor unghiular sau bormașină — pentru ascuțirea carburii, oțelului, ceramicii și sticlei."
+      },
+      "rasplovyKotucPlochyGulataHrana": {
+        "title": "Disc raspel tăiat manual, plat cu margine rotunjită, 125 mm",
+        "description": "Disc raspel de 125 mm tăiat manual — plat cu margine rotunjită. Îndepărtare extremă a lemnului, ideal pentru modelare, decojire și îndepărtarea vopselelor vechi cu polizorul unghiular."
+      },
+      "miniRasplaSekana": {
+        "title": "Mini raspel tăiat manual",
+        "description": "Mini raspel Ø 50 mm tăiat manual din oțel călit pentru mini-frezele Arbortech, Proxxon, Merlin sau Parkside. Pentru modelarea lemnului, sculptură și degroșare."
+      },
+      "ihlickovaSikmaDrsna": {
+        "title": "Disc raspel-ac oblic convex fără orificii, Ø 100 mm, rugos",
+        "description": "Disc raspel-ac Saburrtooth din carbură, oblic convex fără orificii, Ø 100 mm, rugos. Pentru lemn, laminat, plastic, cauciuc, vopsele și lacuri — durată lungă de viață, nu se colmatează."
+      },
+      "ihlickovaSikmaJemna": {
+        "title": "Disc raspel-ac oblic convex fără orificii, fin, 100 mm",
+        "description": "Disc raspel-ac oblic convex fără orificii, Ø 100 mm, fin. Pentru modelarea fină a lemnului, PAL-ului, laminatului, plasticului și a altor materiale cu polizorul unghiular."
+      },
+      "ihlickovaSikmaExtraHruba": {
+        "title": "Disc raspel-ac oblic convex fără orificii, Ø 100 mm, extra aspru",
+        "description": "Disc raspel-ac oblic convex fără orificii, Ø 100 mm, extra aspru (portocaliu). Îndepărtare maximă de material la degroșarea lemnului cu polizorul unghiular."
+      },
+      "ihlickovaGulataJemna": {
+        "title": "Disc raspel-ac convex fără orificii, Ø 100 mm, fin",
+        "description": "Disc raspel-ac convex fără orificii, Ø 100 mm, fin. Utilizare universală pe lemn, laminat, plastic, poliuretan sau chituri — finisaj fin, fără arderea materialului."
+      },
+      "rasplaValcovaKvo122": {
+        "title": "Raspel cilindric 120 × 20 × 222 mm, KVO 122",
+        "description": "Raspel cilindric 120 × 20 × 222 mm (KVO 122) pentru șlefuirea și modelarea suprafețelor din lemn, îndepărtarea straturilor de sub scoarță și curățarea lemnului învechit sau vopsit."
+      },
+      "rasplovyPilovyKotuc125": {
+        "title": "Disc raspel-fierăstrău încastrat, 125 mm",
+        "description": "Disc raspel-fierăstrău încastrat de 125 mm (KUZ-64) — taie și modelează cu o singură unealtă. Dinți de fierăstrău pe circumferință, dinți de raspel pe suprafață; pentru lemn, plastic și BCA."
+      },
+      "nahradnyNozBallGouge": {
+        "title": "Lamă de schimb Ball Gouge",
+        "description": "Lamă de schimb originală pentru sfera de scobit Arbortech Ball Gouge. Oțel călit, diametru 30 mm, înlocuire rapidă a tăișului uzat."
+      },
+      "rucneSekaneRasple": {
+        "title": "Raspele tăiate manual",
+        "description": "Discuri raspel tăiate manual pentru polizoare unghiulare, pentru lemn. Îndepărtare extremă de material, oțel călit 40 HRC, construcție masivă și sigură pentru polizoare de la 850 W."
+      },
+      "rasplovyKotucOval": {
+        "title": "Disc raspel tăiat manual cu margine rotunjită, 125 mm, oval",
+        "description": "Disc raspel de 125 mm tăiat manual, oval cu margine rotunjită (profil U). Ideal pentru caneluri, șanțuri și modelarea suprafețelor rotunjite din lemn."
+      },
+      "rasplovyKotucVecko": {
+        "title": "Disc raspel tăiat manual cu margine ascuțită, 125 mm, profil V",
+        "description": "Disc raspel de 125 mm tăiat manual cu margine ascuțită în profil V. Pentru suprafețe plane, modelare, canelare și lucrări de dulgherie la case din bușteni."
+      },
+      "ihlickovaGulataDrsna": {
+        "title": "Disc raspel-ac convex fără orificii, Ø 100 mm, rugos",
+        "description": "Disc raspel-ac convex fără orificii, Ø 100 mm, rugos. Ace din carbură cu durată lungă de viață pentru modelarea agresivă a lemnului cu polizorul unghiular."
       }
     }
   },
