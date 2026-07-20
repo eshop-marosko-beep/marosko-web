@@ -5,6 +5,7 @@
     "services": "Kategórie",
     "brands": "Značky",
     "gallery": "Galéria",
+    "videos": "Návody",
     "blog": "Blog",
     "shops": "Naše obchody",
     "contact": "Kontakt"
@@ -1192,6 +1193,34 @@
       "topSale": "TOP produkt mesiaca · Akcia"
     }
   },
+  "videos": {
+    "title": "Videá a návody",
+    "subtitle": "Pozrite si naše náradie priamo v akcii.",
+    "intro": "Krátke video ukážky z dielne a z terénu — ako sa naše náradie používa pri hrubovaní, dlabaní, brúsení a povrchovej úprave dreva. Pod každým videom nájdete odkaz na produkty, ktoré v ňom vidíte.",
+    "cta": "Zobraziť produkty",
+    "items": {
+      "powerChisel": {
+        "title": "Arbortech Power Chisel v teréne – rezanie konára",
+        "description": "Elektrické dláto Arbortech Power Chisel v akcii priamo v teréne — rýchle a presné hrubovanie konára pripraveného na ďalšie rezbárske spracovanie."
+      },
+      "voskovanieTramu": {
+        "title": "Voskovanie a leštenie drevného trámu",
+        "description": "Aplikácia a leštenie vosku na veľký drevený trám priamou brúskou — ukážka povrchovej úpravy a ochrany dreva."
+      },
+      "brusenieSochy": {
+        "title": "Brúsenie drevenej sochy brúsnym valcom Manpa",
+        "description": "Dokončovacie brúsenie veľkej drevenej sochy brúsnym valcom na uhlovej brúske Manpa — hladký povrch aj na zložitých tvaroch a záhyboch."
+      },
+      "orbiCut": {
+        "title": "Dlabanie dreva guľôčkou Orbi Cut",
+        "description": "Rýchle a presné dlabanie dreva dlabacou guľôčkou Orbi Cut nasadenou na vŕtačku — ideálne na misky, dutiny a jemné tvarovanie."
+      },
+      "kotuc125mm": {
+        "title": "Frézovací kotúč 125 mm – ostrý kraj",
+        "description": "Detailný pohľad na tvrdokovový frézovací kotúč s priemerom 125 mm a mimoriadne ostrým karbidovým zubom pre rýchly úber dreva."
+      }
+    }
+  },
   "blog": {
     "title": "Blog",
     "subtitle": "Novinky, tipy a predstavenie náradia z nášho e-shopu eshop.marosko.sk.",
@@ -1461,6 +1490,10 @@
     "gallery": {
       "title": "Galéria náradia | Marián s.r.o.",
       "description": "Fotogaléria nášho náradia – pozrite si ukážky frézovacích kotúčov a ďalších produktov z našej ponuky."
+    },
+    "videos": {
+      "title": "Video návody a ukážky náradia | Marián s.r.o.",
+      "description": "Krátke video ukážky rezbárskeho a drevoobrábacieho náradia v akcii — hrubovanie, dlabanie, brúsenie aj povrchová úprava dreva."
     },
     "blog": {
       "title": "Blog | Marián s.r.o.",
