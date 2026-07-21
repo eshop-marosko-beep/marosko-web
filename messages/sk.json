@@ -1289,11 +1289,11 @@
       },
       "diamantovyKotucDrazkovy": {
         "title": "Diamantový brúsny kotúč drážkový, drsnosť 126/39",
-        "description": "Diamantový drážkový brúsny kotúč s dvoma zrnitosťami a samoochladzovacím efektom. Univerzálne upnutie do uhlovej brúsky aj vŕtačky — na ostrenie tvrdokovu, ocele, keramiky a skla."
+        "description": "Kotúč s diamantovým drážkovaním v dvoch zrnitostiach, ktorý sa počas brúsenia sám chladí. Pasuje do uhlovej brúsky aj vŕtačky a poradí si s ostrením tvrdokovových nástrojov, ocele, keramiky či skla."
       },
       "rasplovyKotucPlochyGulataHrana": {
         "title": "Rašpľový kotúč, ručne sekaný, plochý, guľatá hrana, 125 mm",
-        "description": "Ručne sekaný rašpľový kotúč 125 mm — plochý s guľatou hranou. Extrémny úber dreva, vhodný na tvarovanie, odstraňovanie kôry a starých náterov uhlovou brúskou."
+        "description": "Plochý 125 mm kotúč so zaoblenou hranou a ručne sekaným ozubením pre uhlovú brúsku. Zvládne rýchlo obrúsiť kôru, staré nátery aj hrubší tvar dreva vďaka extrémnemu úberu materiálu."
       },
       "miniRasplaSekana": {
         "title": "Mini rašpľa sekaná",
@@ -1321,7 +1321,7 @@
       },
       "rasplovyPilovyKotuc125": {
         "title": "Rašpľový pílový kotúč 125 mm, zapustený",
-        "description": "Rašpľový pílový kotúč 125 mm zapustený (KUZ-64) — reže aj tvaruje v jednom. Pílové zuby na obvode, rašpľový sek na ploche; na drevo, plasty aj pórobetón."
+        "description": "Kombinovaný nástroj KUZ-64 (125 mm, zapustený) spája pílu a rašpľu v jednom kotúči: po obvode reznú pílovú hranu, na ploche rašpľové zuby na tvarovanie. Použiteľný na drevo, plasty aj pórobetón."
       },
       "nahradnyNozBallGouge": {
         "title": "Náhradný výmenný nôž Ball Gouge",
@@ -1329,7 +1329,7 @@
       },
       "rucneSekaneRasple": {
         "title": "Ručne sekané rašple",
-        "description": "Ručne sekané rašpľové kotúče do uhlovej brúsky na drevo. Extrémny úber, kalená oceľ 40 HRC, masívna a bezpečná konštrukcia pre brúsky od 850 W."
+        "description": "Séria kotúčov s ručne sekaným ozubením pre uhlovú brúsku, vyrobených z kalenej ocele (40 HRC) pre extrémny úber pri opracovaní dreva. Robustná konštrukcia zvládne brúsky s výkonom od 850 W."
       },
       "rasplovyKotucOval": {
         "title": "Rašpľový kotúč sekaný, oblým okrajom, 125 mm, ovál",
