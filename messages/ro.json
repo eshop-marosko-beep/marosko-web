@@ -132,63 +132,63 @@
     "categories": {
       "angleGrinder": {
         "name": "Unelte pentru polizor unghiular",
-        "description": "Discuri de frezat, canelat și tăiat, care transformă un polizor unghiular obișnuit într-o unealtă de cioplit de precizie."
+        "description": "Accesorii de frezat, dăltuit și șlefuit, care transformă un polizor unghiular obișnuit într-o unealtă de cioplit de precizie pentru lemn tare și moale, os sau plastic."
       },
       "drill": {
         "name": "Unelte pentru bormașină",
-        "description": "Burghie, prelungitoare și accesorii pentru găurit în lemn, zidărie și piatră."
+        "description": "Freze de ardere și modelare, burghie de scobit și axe flexibile, care transformă o bormașină obișnuită într-o unealtă pentru scobit, modelat și detalii fine în lemn."
       },
       "straightGrinder": {
         "name": "Unelte pentru polizor drept + SABURRTOOTH",
-        "description": "Pile din carbură de tungsten Saburrtooth și accesorii pentru polizoare drepte și micromotoare, pentru lucrări de detaliu fine."
+        "description": "Pile-ac Saburrtooth și freze dințate Manpa pentru micropolizoare drepte – pentru detalii fine, drapaje și zone greu accesibile pe sculpturi."
       },
       "miniMill": {
         "name": "Unelte pentru mini-freză Ø 50 mm",
-        "description": "Accesorii de frezat speciale pentru mini-freze cu coadă de 50 mm diametru."
+        "description": "Accesorii compacte de frezat și șlefuit cu coadă de 50 mm pentru mini-freze precum Proxxon, Arbortech Mini Carver sau Makita."
       },
       "powerTools": {
         "name": "Unelte electrice",
-        "description": "Dălți electrice, polizoare și alte unelte electrice pentru lucrări de cioplit profesionale."
+        "description": "Dălți electrice Power Chisel, freze Mini Carver și alte utilaje profesionale pentru sculptori și cioplitori."
       },
       "cordless": {
         "name": "Unelte cu acumulator",
-        "description": "Unelte fără fir cu care lucrați fără să fiți legați de un cablu prelungitor."
+        "description": "Mini-freze pe acumulator și seturi de cioplit pentru a lucra fără să fiți legați de un cablu prelungitor."
       },
       "customAbrasive": {
         "name": "Abrazivi decupați la comandă",
-        "description": "Hârtie abrazivă și decupaje realizate exact la dimensiunea mașinii sau uneltei dvs."
+        "description": "Decupaje abrazive rotunde de la 50 la 600 mm, cu sau fără scai, realizate exact pentru mașina dvs. și granulația aleasă."
       },
       "handTools": {
         "name": "Unelte manuale",
-        "description": "Dălți de cioplit, cuțite, clești și alte unelte manuale de calitate profesională."
+        "description": "Dălți de cioplit, cuțite, pile și pietre de ascuțit pentru lucrări manuale precise, în atelier sau pe teren."
       },
       "coatings": {
         "name": "Vopsele, chituri, abrazivi și alte produse",
-        "description": "Lacuri, șelac, baiț și abrazivi pentru o finisare impecabilă a lemnului."
+        "description": "Lacuri șelac, baițuri și spirt pentru finisaje ale lemnului cu uscare rapidă și nepericuloase pentru sănătate."
       },
       "protective": {
         "name": "Echipament de protecție și îmbrăcăminte de lucru",
-        "description": "Mănuși, ochelari, măști și îmbrăcăminte care vă protejează în timpul lucrului cu unelte."
+        "description": "Mănuși, ochelari, măști și chiar centuri lombare, care vă protejează în timpul lucrului îndelungat cu uneltele."
       },
       "spareParts": {
         "name": "Piese de schimb înlocuibile",
-        "description": "Piese de schimb și accesorii care prelungesc durata de viață a uneltelor dvs."
+        "description": "Suporturi, adaptoare și piese de schimb care prelungesc durata de viață a uneltelor dvs."
       },
       "stands": {
         "name": "Suporturi și dispozitive de fixare",
-        "description": "Menghine, cleme și suporturi de lucru pentru fixarea stabilă și sigură a materialului."
+        "description": "Menghine, cleme și suporturi de prindere pentru fixarea stabilă și sigură a materialului și a uneltelor."
       },
       "misc": {
         "name": "Sortiment mărunt neclasificat",
-        "description": "Accesorii și articole mărunte care nu s-au încadrat în nicio altă categorie."
+        "description": "Radiere de curățat, paste de lustruit și alte articole mărunte care nu s-au încadrat în nicio altă categorie."
       },
       "carvingBlanks": {
         "name": "Șine de ghidaj pentru motoferăstrău (cioplit)",
-        "description": "Șine de ghidaj speciale pentru motoferăstrău, cunoscute și ca șine pentru chirurgie arboricolă – cu diametru mic al vârfului de 17–25 mm, întărit cu sudură din stelit, destinate în special lucrului cu vârful la modelarea lemnului."
+        "description": "Șine de ghidaj speciale cu vârf întărit de 17–25 mm, destinate lucrului cu vârful la modelarea lemnului."
       },
       "shankTools": {
         "name": "Unelte cu coadă (freze de coadă)",
-        "description": "Freze montate pe coadă, cu diverse profiluri, pentru lucrări de tâmplărie și cioplit."
+        "description": "Freze de coadă, burghie de nod și freze de îmbinare pentru atelierul de tâmplărie și pentru lucrări de cioplit."
       }
     }
   },
