@@ -11,6 +11,18 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      // Legacy Joomla article URL from the site's previous CMS, still indexed
+      // by search engines. Redirect it to the current page instead of 404ing.
+      {
+        source: '/index.php',
+        has: [{ type: 'query', key: 'id', value: '25:gdpr' }],
+        destination: '/gdpr?',
+        permanent: true,
+      },
+    ];
+  },
 };
 
 const withNextIntl = createNextIntlPlugin('./i18n.ts');
