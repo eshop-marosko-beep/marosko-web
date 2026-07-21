@@ -132,63 +132,63 @@
     "categories": {
       "angleGrinder": {
         "name": "Angle grinder tools",
-        "description": "Milling, grooving and cutting discs that turn an ordinary angle grinder into a precision carving tool."
+        "description": "Milling, gouging and sanding attachments that turn an ordinary angle grinder into a precision carving tool for hard and soft wood, bone or plastics."
       },
       "drill": {
         "name": "Drill tools",
-        "description": "Drill bits, extensions and accessories for drilling into wood, masonry and stone."
+        "description": "Burning and shaping cutters, hollowing bits and flexible shafts that turn an ordinary drill into a tool for hollowing, shaping and fine detail work in wood."
       },
       "straightGrinder": {
         "name": "Straight grinder tools + SABURRTOOTH",
-        "description": "Saburrtooth tungsten-carbide rasps and attachments for straight grinders and micromotors for fine detail work."
+        "description": "Saburrtooth needle rasps and Manpa tooth cutters for straight micro-grinders – for fine detail, drapery and hard-to-reach spots on sculptures."
       },
       "miniMill": {
         "name": "Mini mill tools Ø 50 mm",
-        "description": "Specialized milling attachments for mini mills with a 50 mm shank diameter."
+        "description": "Compact milling and sanding attachments with a 50 mm shank for mini mills such as Proxxon, Arbortech Mini Carver or Makita."
       },
       "powerTools": {
         "name": "Power tools",
-        "description": "Power chisels, grinders and other electric tools for professional carving work."
+        "description": "Power Chisel electric chisels, Mini Carver grinders and other professional machines for sculptors and carvers."
       },
       "cordless": {
         "name": "Cordless tools",
-        "description": "Battery-powered tools that let you work without being tied to an extension cord."
+        "description": "Cordless mini-grinders and carving kits for working without being tied to an extension cord."
       },
       "customAbrasive": {
         "name": "Custom-cut abrasives",
-        "description": "Sandpaper and abrasive cutouts made to the exact size of your machine or tool."
+        "description": "Round abrasive cutouts from 50 to 600 mm, with or without hook-and-loop backing, made to match your machine and chosen grit."
       },
       "handTools": {
         "name": "Hand tools",
-        "description": "Carving chisels, knives, pliers and other hand tools in professional quality."
+        "description": "Carving chisels, knives, files and sharpening stones for precise hand work in the workshop or on site."
       },
       "coatings": {
         "name": "Coatings, fillers and abrasives",
-        "description": "Lacquers, shellac, stains and abrasives for a flawless wood finish."
+        "description": "Shellac polishes, wood stains and spirit for fast-drying, food-safe wood finishes."
       },
       "protective": {
         "name": "Protective equipment and workwear",
-        "description": "Gloves, glasses, respirators and clothing that protect you while working with tools."
+        "description": "Gloves, glasses, respirators and even lumbar support belts to protect you during longer sessions with your tools."
       },
       "spareParts": {
         "name": "Replacement spare parts",
-        "description": "Spare parts and accessories that extend the life of your tools."
+        "description": "Replacement carriers, adapters and parts that extend the life of your tools."
       },
       "stands": {
         "name": "Stands and clamping equipment",
-        "description": "Vices, clamps and work supports for stable, safe material clamping."
+        "description": "Vices, clamps and mounting brackets for stable, safe clamping of material and tools."
       },
       "misc": {
         "name": "Miscellaneous small items",
-        "description": "Small odds and accessories that didn't fit into any other category."
+        "description": "Cleaning rubbers, polishing pastes and other small items that didn't fit any other category."
       },
       "carvingBlanks": {
         "name": "Carving guide bars for chainsaws",
-        "description": "Specialized chainsaw guide bars, also known as tree surgery bars – with a small 17–25 mm nose diameter reinforced with a stellite weld, designed mainly for tip-carving work when shaping wood."
+        "description": "Specialized guide bars with a reinforced 17–25 mm nose, designed for tip-carving work when shaping wood."
       },
       "shankTools": {
         "name": "Shank tools",
-        "description": "Shank-mounted cutters with various profiles for both carpentry and carving work."
+        "description": "Shank-mounted cutters, burr bits and joining cutters for both carpentry workshops and carving work."
       }
     }
   },

@@ -132,63 +132,63 @@
     "categories": {
       "angleGrinder": {
         "name": "Nástroje do uhlovej brúsky",
-        "description": "Frézovacie, drážkovacie a rezné kotúče, ktoré premenia bežnú uhlovú brúsku na presný rezbársky nástroj."
+        "description": "Frézovacie, dlabacie a brúsne nástavce, ktorými premeníte bežnú uhlovú brúsku na presný rezbársky nástroj na tvrdé i mäkké drevo, kosť či plasty."
       },
       "drill": {
         "name": "Nástroje do vŕtačky",
-        "description": "Vrtáky, nadstavce a príslušenstvo pre vŕtačky na drevo, murivo aj kameň."
+        "description": "Vypaľovacie a tvarovacie frézky, dlabacie vrtáky a ohybné hriadele, ktoré premenia bežnú vŕtačku na nástroj na hĺbenie, tvarovanie a jemné detaily v dreve."
       },
       "straightGrinder": {
         "name": "Nástroje do priamej brúsky + SABURRTOOTH",
-        "description": "Tvrdokovové rašple a nástavce Saburrtooth pre priame brúsky a mikromotory na jemné opracovanie."
+        "description": "Ihličkové rašple Saburrtooth a zubové frézky Manpa pre priame mikrobrúsky – na jemné detaily, drapérie aj ťažko dostupné miesta na sochách."
       },
       "miniMill": {
         "name": "Nástroje do mini frézky Ø 50 mm",
-        "description": "Špeciálne frézovacie nástavce pre mini frézky s priemerom stopky 50 mm."
+        "description": "Kompaktné frézovacie a brúsne nástavce so stopkou 50 mm pre mini frézky Proxxon, Arbortech Mini Carver či Makita."
       },
       "powerTools": {
         "name": "Elektrické náradie",
-        "description": "Elektrické dláta, brúsky a ďalšie elektrické nástroje pre profesionálne rezbárske práce."
+        "description": "Elektrické dláta Power Chisel, frézky Mini Carver a ďalšie profesionálne stroje pre sochárov a rezbárov."
       },
       "cordless": {
         "name": "Akumulátorové náradie",
-        "description": "Bezkáblové nástroje pre prácu bez obmedzenia predlžovacím káblom."
+        "description": "Bezkáblové aku-frézky a rezbárske sady pre prácu bez obmedzenia predlžovacím káblom."
       },
       "customAbrasive": {
         "name": "Brúsne výseky na mieru",
-        "description": "Brúsny papier a výseky vyrobené presne na mieru podľa vášho stroja či nástroja."
+        "description": "Kruhové brúsne výseky od 50 do 600 mm, na suchý zips aj bez neho, vyrobené presne podľa vášho stroja a zvolenej zrnitosti."
       },
       "handTools": {
         "name": "Ručné náradie",
-        "description": "Rezbárske dláta, nože, kliešte a ďalšie ručné náradie v profesionálnej kvalite."
+        "description": "Rezbárske dláta, nože, pilníky a brúsne kamene pre precíznu ručnú prácu v dielni aj v teréne."
       },
       "coatings": {
         "name": "Nátery, tmely, brúsivá a iné prípravky",
-        "description": "Laky, šelaky, moridlá a brúsivo na dokonalú povrchovú úpravu dreva."
+        "description": "Šelakové politúry, moridlá a lieh na rýchloschnúce, zdravotne nezávadné povrchové úpravy dreva."
       },
       "protective": {
         "name": "Ochranné pomôcky a pracovné odevy",
-        "description": "Rukavice, okuliare, respirátory a odevy, ktoré vás ochránia pri práci s náradím."
+        "description": "Rukavice, okuliare, respirátory aj ľadvinové pásy, ktoré vás ochránia pri dlhšej práci s náradím."
       },
       "spareParts": {
         "name": "Výmenné prídavné náhradné diely",
-        "description": "Náhradné diely a doplnky, ktorými predĺžite životnosť svojho náradia."
+        "description": "Náhradné nosiče, prechodky a diely, ktorými predĺžite životnosť svojho náradia."
       },
       "stands": {
         "name": "Podstavce, upínacie stroje",
-        "description": "Zveráky, svorky a pracovné podpery pre stabilné a bezpečné upnutie materiálu."
+        "description": "Zveráky, svorky a upínacie držiaky pre stabilné a bezpečné upnutie materiálu aj náradia."
       },
       "misc": {
         "name": "Nezaradený drobný sortiment",
-        "description": "Drobný sortiment a doplnky, ktoré sa nezmestili do žiadnej inej kategórie."
+        "description": "Čistiace gumy, leštiace pasty a ďalší drobný sortiment, ktorý sa nezmestil do žiadnej inej kategórie."
       },
       "carvingBlanks": {
         "name": "Výtvarnícke (carvingové) lišty do motorovej píly",
-        "description": "Špecializované vodiace lišty do motorovej píly, známe aj ako lišty na stromovú chirurgiu – s malým priemerom hlavice 17 – 25 mm spevneným stelitovým návarkom, určené najmä na prácu s hrotom pri rezbárskom tvarovaní dreva."
+        "description": "Špecializované vodiace lišty so spevnenou hlavicou 17 – 25 mm, určené na prácu s hrotom pri rezbárskom tvarovaní dreva."
       },
       "shankTools": {
         "name": "Stopkové nástroje",
-        "description": "Stopkové frézy a nástroje s rôznymi profilmi pre stolárske aj rezbárske opracovanie dreva."
+        "description": "Stopkové frézy, sukovníky a spájacie frézky pre stolársku dielňu aj rezbárske opracovanie dreva."
       }
     }
   },
