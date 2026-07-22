@@ -280,6 +280,34 @@
           "description": "Pile-ac Saburrtooth pe tijă de 6,4 mm – o tehnologie unică a dinților abrazivi, care ușurează prelucrarea mai grosieră a lemnului."
         }
       }
+    },
+    "nastrojeDoMiniFrezky": {
+      "title": "Unelte pentru mini-polizor – prezentare completă",
+      "lead": "Un mini-polizor (precum Arbortech Mini Carver, Proxxon, Parkside sau Bosch) este o unealtă compactă cu discuri de 50 mm și alezaj central de 10 mm. Gama noastră include cinci grupe de discuri și pile organizate pe producători – de la accesoriile originale Arbortech până la pilele-ac Saburrtooth și frezele-lanț Merlin.",
+      "brands": "Gama include mărci de încredere precum Arbortech, Manpa, Saburrtooth (Saburr USA), King Arthur's Tools (Merlin) și producătorul ceh Idea Import (Ante) – toate discurile sunt concepute pentru îndepărtarea precisă și rapidă a lemnului cu mini-polizorul.",
+      "subcategoriesTitle": "Subcategorii",
+      "subcategories": {
+        "arbortech": {
+          "name": "Accesorii Arbortech pentru Mini Carver",
+          "description": "Discuri de frezat mini originale și accesorii direct de la Arbortech pentru seria Mini Carver – îndepărtare fiabilă și de calitate a materialului."
+        },
+        "ideaImport": {
+          "name": "Discuri mini de la un producător ceh",
+          "description": "Pile Ante de la producătorul ceh Idea Import, cu alezaj de 10 mm și diametru total al discului de 50 mm."
+        },
+        "saburrtooth": {
+          "name": "Pile-ac Saburrtooth U.S.A.",
+          "description": "Pile-ac abrazive Saburrtooth USA pentru mini-polizoare – îndepărtare puternică a materialului, potrivită atât pentru șlefuire, cât și pentru lustruire lemn."
+        },
+        "manpa": {
+          "name": "Discuri mini Manpa",
+          "description": "Discuri dințate Manpa cu diametru de 50 mm și alezaj central de 10 mm – îndepărtare de calitate și randament ridicat a materialului."
+        },
+        "merlin": {
+          "name": "Pile mini și freze-lanț Merlin",
+          "description": "Discuri accesorii și freze-lanț Merlin (King Arthur's Tools/Kirjes) pentru mini-polizor, disponibile și separat, în afara seturilor Nick Agar."
+        }
+      }
     }
   },
   "brands": {
@@ -1536,6 +1564,10 @@
       "nastrojeDoPriamejBrusky": {
         "title": "Unelte pentru polizor drept – prezentare subcategorii | Marián s.r.o.",
         "description": "Freze pe tijă și pile-ac Saburrtooth și Manpa pentru polizor drept, în diametre de 2,4 până la 6,4 mm – prezentare completă a subcategoriilor și produselor."
+      },
+      "nastrojeDoMiniFrezky": {
+        "title": "Unelte pentru mini-polizor – prezentare subcategorii | Marián s.r.o.",
+        "description": "Discuri și pile mini Arbortech, Manpa, Saburrtooth și Merlin, cu diametru de 50 mm și alezaj de 10 mm – prezentare completă a subcategoriilor și produselor."
       }
     },
     "brands": {

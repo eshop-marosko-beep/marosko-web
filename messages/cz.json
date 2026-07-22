@@ -280,6 +280,34 @@
           "description": "Jehlové rašple Saburrtooth se stopkou 6,4 mm – unikátní technologie brusných zubů, která usnadňuje práci při hrubším opracování dřeva."
         }
       }
+    },
+    "nastrojeDoMiniFrezky": {
+      "title": "Nástroje do mini frézky – kompletní přehled",
+      "lead": "Mini frézka (například Arbortech Mini Carver, Proxxon, Parkside nebo Bosch) je kompaktní nástroj s kotouči o průměru 50 mm a středovým upnutím 10 mm. V nabídce najdete pět skupin kotoučů a rašplí rozdělených podle výrobce – od originálních doplňků Arbortech přes jehlové rašple Saburrtooth až po řetězové frézky Merlin.",
+      "brands": "Sortiment tvoří ověřené značky Arbortech, Manpa, Saburrtooth (Saburr USA), King Arthur's Tools (Merlin) a český výrobce Idea Import (Ante) – všechny kotouče jsou určeny pro přesné a rychlé opracování dřeva mini frézkou.",
+      "subcategoriesTitle": "Podkategorie",
+      "subcategories": {
+        "arbortech": {
+          "name": "Arbortech doplňky pro Mini Carver",
+          "description": "Originální mini frézovací kotouče a doplňky přímo od společnosti Arbortech pro sérii Mini Carver – kvalitní a spolehlivý úběr materiálu."
+        },
+        "ideaImport": {
+          "name": "Mini-frézky od českého výrobce",
+          "description": "Rašple Ante od českého výrobce Idea Import s průměrem upnutí 10 mm a celkovým průměrem kotouče 50 mm."
+        },
+        "saburrtooth": {
+          "name": "Jehlové rašple Saburrtooth U.S.A.",
+          "description": "Jehlové brusné rašple Saburrtooth USA pro mini frézky – kvalitní úběr materiálu vhodný pro broušení i leštění dřeva."
+        },
+        "manpa": {
+          "name": "Manpa mini kotouče",
+          "description": "Zubové kotouče Manpa s průměrem 50 mm a středovým upnutím 10 mm – kvalitní a vydatný úběr materiálu."
+        },
+        "merlin": {
+          "name": "Merlin mini rašple a řetězové frézky",
+          "description": "Doplňkové kotouče a řetězové frézky Merlin (King Arthur's Tools/Kirjes) do mini frézky, dostupné i samostatně mimo sady Nick Agar."
+        }
+      }
     }
   },
   "brands": {
@@ -1536,6 +1564,10 @@
       "nastrojeDoPriamejBrusky": {
         "title": "Nástroje do přímé brusky – přehled podkategorií | Marián s.r.o.",
         "description": "Stopkové frézky a jehlové rašple Saburrtooth a Manpa pro přímou brusku v průměrech 2,4 až 6,4 mm – kompletní přehled podkategorií a produktů."
+      },
+      "nastrojeDoMiniFrezky": {
+        "title": "Nástroje do mini frézky – přehled podkategorií | Marián s.r.o.",
+        "description": "Mini frézovací kotouče a rašple Arbortech, Manpa, Saburrtooth a Merlin s průměrem 50 mm a upnutím 10 mm – kompletní přehled podkategorií a produktů."
       }
     },
     "brands": {

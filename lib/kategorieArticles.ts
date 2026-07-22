@@ -61,6 +61,21 @@ export const kategorieArticles: KategorieArticle[] = [
       { translationKey: "stopky64mm" },
     ],
   },
+  {
+    slug: "mini-kotuce-pre-mini-frezky-50",
+    translationKey: "nastrojeDoMiniFrezky",
+    eshopUrl: "https://eshop.marosko.sk/c/mini-kotuce-pre-mini-frezky-50",
+    subcategories: [
+      { translationKey: "arbortech" },
+      { translationKey: "ideaImport" },
+      {
+        translationKey: "saburrtooth",
+        galleryLinks: ["mini-kotuce-pre-mini-frezky"],
+      },
+      { translationKey: "manpa" },
+      { translationKey: "merlin" },
+    ],
+  },
 ];
 
 export function getKategorieArticle(slug: string) {

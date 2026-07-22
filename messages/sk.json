@@ -280,6 +280,34 @@
           "description": "Ihličkové rašple Saburrtooth so stopkou 6,4 mm – unikátna technológia brúsnych zubov, ktorá uľahčuje prácu pri hrubšom opracovaní dreva."
         }
       }
+    },
+    "nastrojeDoMiniFrezky": {
+      "title": "Nástroje do mini frézky – kompletný prehľad",
+      "lead": "Mini frézka (napríklad Arbortech Mini Carver, Proxxon, Parkside alebo Bosch) je kompaktný nástroj s kotúčmi s priemerom 50 mm a stredovým upnutím 10 mm. V ponuke nájdete päť skupín kotúčov a rašplí rozdelených podľa výrobcu – od originálnych doplnkov Arbortech cez ihličkové rašple Saburrtooth až po reťazové frézky Merlin.",
+      "brands": "Sortiment tvoria overené značky Arbortech, Manpa, Saburrtooth (Saburr USA), King Arthur's Tools (Merlin) a český výrobca Idea Import (Ante) – všetky kotúče sú určené na presné a rýchle opracovanie dreva mini frézkou.",
+      "subcategoriesTitle": "Podkategórie",
+      "subcategories": {
+        "arbortech": {
+          "name": "Arbortech doplnky pre Mini Carver",
+          "description": "Originálne mini frézovacie kotúče a doplnky priamo od spoločnosti Arbortech pre sériu Mini Carver – kvalitný a spoľahlivý úber materiálu."
+        },
+        "ideaImport": {
+          "name": "Mini-frézky od českého výrobcu",
+          "description": "Rašple Ante od českého výrobcu Idea Import s priemerom upnutia 10 mm a celkovým priemerom kotúča 50 mm."
+        },
+        "saburrtooth": {
+          "name": "Ihličkové rašple Saburrtooth U.S.A.",
+          "description": "Ihličkové brusné rašple Saburrtooth USA pre mini frézky – kvalitný úber materiálu vhodný na brúsenie aj leštenie dreva."
+        },
+        "manpa": {
+          "name": "Manpa mini kotúče",
+          "description": "Zubové kotúče Manpa s priemerom 50 mm a stredovým upnutím 10 mm – kvalitný a výdatný úber materiálu."
+        },
+        "merlin": {
+          "name": "Merlin mini rašple a reťazové frézky",
+          "description": "Doplnkové kotúče a reťazové frézky Merlin (King Arthur's Tools/Kirjes) do mini frézky, dostupné aj samostatne mimo súprav Nick Agar."
+        }
+      }
     }
   },
   "brands": {
@@ -1536,6 +1564,10 @@
       "nastrojeDoPriamejBrusky": {
         "title": "Nástroje do priamej brúsky – prehľad podkategórií | Marián s.r.o.",
         "description": "Stopkové frézky a ihličkové rašple Saburrtooth a Manpa pre priamu brúsku v priemeroch 2,4 až 6,4 mm – kompletný prehľad podkategórií a produktov."
+      },
+      "nastrojeDoMiniFrezky": {
+        "title": "Nástroje do mini frézky – prehľad podkategórií | Marián s.r.o.",
+        "description": "Mini frézovacie kotúče a rašple Arbortech, Manpa, Saburrtooth a Merlin s priemerom 50 mm a upnutím 10 mm – kompletný prehľad podkategórií a produktov."
       }
     },
     "brands": {
