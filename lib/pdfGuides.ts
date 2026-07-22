@@ -31,4 +31,11 @@ export const pdfGuides: PdfGuide[] = [
     fileSize: "14,6 MB",
     translationKey: "katalogKirjes",
   },
+  {
+    slug: "katalog-manpa",
+    fileUrl:
+      "https://eshop.marosko.sk/files/na-drevo/do-uhlovych-brusok/manpa-nadstavec/2020-new-manpatools-catalog.pdf",
+    fileSize: "1,2 MB",
+    translationKey: "katalogManpa",
+  },
 ];

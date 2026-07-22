@@ -1164,6 +1164,10 @@
         "katalogKirjes": {
           "title": "Kirjes catalogue",
           "description": "The Swedish Kirjes brand's product catalogue – a system for roughing out, sanding and polishing wood, including Orbi Cut."
+        },
+        "katalogManpa": {
+          "title": "Manpa catalogue",
+          "description": "The South Korean Manpa brand's product catalogue – extension arms, milling heads and attachments for angle grinders."
         }
       }
     }
