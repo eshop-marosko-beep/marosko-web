@@ -224,6 +224,34 @@
           "description": "Specialized discs for sanding and cutting plastic and composite materials without overheating the surface."
         }
       }
+    },
+    "nastrojeDoVrtacky": {
+      "title": "Drill tools for wood – complete overview",
+      "lead": "An ordinary drill can do far more than just bore holes – with the right attachment it becomes a mill, a sander or a sharpening tool. Our range includes 130 specialized tools organized into five groups, from Orbi Cut hollowing balls and sanding flap wheels to diamond sharpening discs and hollowing bits.",
+      "brands": "The range is rounded out by trusted brands such as Manpa, Kirjes, Wolfcraft and other manufacturers – built for precise hollowing, shaping and sanding of wood as well as sharpening other tools.",
+      "subcategoriesTitle": "Subcategories",
+      "subcategories": {
+        "frezovanie": {
+          "name": "Milling tools for the drill",
+          "description": "Orbi Cut hollowing balls and Manpa shaping cutter heads that turn a drill into a tool for hollowing and fine wood shaping."
+        },
+        "brusenie": {
+          "name": "Sanding tools for the drill",
+          "description": "Manpa EZ-Sander flap wheels, drum sanders and sanding cones for fast, effective sanding of rounded shapes directly with a drill."
+        },
+        "ostrenie": {
+          "name": "Diamond sharpening discs",
+          "description": "Diamond-coated discs for sharpening chisels, axes, drill bits, glass and ceramics – precise enough for tungsten carbide rods too."
+        },
+        "nastavce": {
+          "name": "Drill attachments",
+          "description": "Stands, adapters and mounting parts that let you chuck tools originally made for an angle grinder into a drill."
+        },
+        "vrtaky": {
+          "name": "Drilling tools and bits",
+          "description": "Quality drill bits, tapered bits, square hollow-chisel bits and diamond core bits for precise drilling and hollowing of wood."
+        }
+      }
     }
   },
   "brands": {
@@ -1472,6 +1500,10 @@
       "nastrojeDoUhlovejBrusky": {
         "title": "Angle grinder tools for wood – subcategory overview | Marián s.r.o.",
         "description": "Milling discs, planing tools, rasps and Manpa extension arms for angle grinders – a complete overview of subcategories, brands and products."
+      },
+      "nastrojeDoVrtacky": {
+        "title": "Drill tools for wood – subcategory overview | Marián s.r.o.",
+        "description": "Orbi Cut hollowing balls, Manpa sanding flap wheels, diamond sharpening discs and hollowing bits for the drill – a complete overview of subcategories and products."
       }
     },
     "brands": {

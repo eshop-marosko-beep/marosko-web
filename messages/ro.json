@@ -224,6 +224,34 @@
           "description": "Discuri specializate pentru șlefuirea și tăierea materialelor din plastic și compozite fără supraîncălzirea suprafeței."
         }
       }
+    },
+    "nastrojeDoVrtacky": {
+      "title": "Unelte pentru bormașină pe lemn – prezentare completă",
+      "lead": "O bormașină obișnuită poate face mult mai mult decât să găurească – cu accesoriul potrivit devine o freză, un polizor sau o unealtă de ascuțit. Gama noastră include 130 de unelte specializate organizate în cinci grupe, de la sfere de scobit Orbi Cut și evantaie abrazive până la discuri diamantate de ascuțit și burghie de scobit.",
+      "brands": "Gama este completată de mărci de încredere precum Manpa, Kirjes, Wolfcraft și alți producători – concepute pentru scobirea, modelarea și șlefuirea precisă a lemnului, precum și pentru ascuțirea altor unelte.",
+      "subcategoriesTitle": "Subcategorii",
+      "subcategories": {
+        "frezovanie": {
+          "name": "Unelte de frezat pentru bormașină",
+          "description": "Sfere de scobit Orbi Cut și capete de frezat Manpa, care transformă bormașina într-o unealtă pentru scobit și modelarea fină a lemnului."
+        },
+        "brusenie": {
+          "name": "Unelte de șlefuit pentru bormașină",
+          "description": "Evantaie abrazive Manpa EZ-Sander, tamburi abrazivi și conuri de șlefuit pentru șlefuirea rapidă și eficientă a formelor rotunjite direct cu bormașina."
+        },
+        "ostrenie": {
+          "name": "Discuri diamantate de ascuțit",
+          "description": "Discuri acoperite cu diamant pentru ascuțirea daltelor, securilor, burghielor, sticlei și ceramicii – suficient de precise și pentru tije din carbură de wolfram."
+        },
+        "nastavce": {
+          "name": "Accesorii pentru bormașină",
+          "description": "Suporturi, adaptoare și piese de prindere prin care puteți monta pe bormașină și unelte destinate inițial polizorului unghiular."
+        },
+        "vrtaky": {
+          "name": "Unelte și burghie de găurit",
+          "description": "Burghie de calitate, burghie conice, burghie pătrate de scobit și carote diamantate pentru găurire și scobire precisă a lemnului."
+        }
+      }
     }
   },
   "brands": {
@@ -1472,6 +1500,10 @@
       "nastrojeDoUhlovejBrusky": {
         "title": "Unelte pentru polizor unghiular pe lemn – prezentare subcategorii | Marián s.r.o.",
         "description": "Discuri de frezat, unelte de rindeluit, pile și brațe prelungitoare Manpa pentru polizor unghiular – prezentare completă a subcategoriilor, mărcilor și produselor."
+      },
+      "nastrojeDoVrtacky": {
+        "title": "Unelte pentru bormașină pe lemn – prezentare subcategorii | Marián s.r.o.",
+        "description": "Sfere de scobit Orbi Cut, evantaie abrazive Manpa, discuri diamantate de ascuțit și burghie de scobit pentru bormașină – prezentare completă a subcategoriilor și produselor."
       }
     },
     "brands": {

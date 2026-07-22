@@ -31,6 +31,21 @@ export const kategorieArticles: KategorieArticle[] = [
       { translationKey: "plastoveKompozity" },
     ],
   },
+  {
+    slug: "nastroje-do-vrtacky",
+    translationKey: "nastrojeDoVrtacky",
+    eshopUrl: "https://eshop.marosko.sk/c/nastroje-do-vrtacky",
+    subcategories: [
+      {
+        translationKey: "frezovanie",
+        galleryLinks: ["frezovacie-nastroje-do-vrtacky"],
+      },
+      { translationKey: "brusenie" },
+      { translationKey: "ostrenie" },
+      { translationKey: "nastavce" },
+      { translationKey: "vrtaky" },
+    ],
+  },
 ];
 
 export function getKategorieArticle(slug: string) {

@@ -31,9 +31,8 @@ const categoryKeys = [
   {
     key: "drill",
     url: "https://eshop.marosko.sk/c/nastroje-do-vrtacky",
-    image:
-      "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-vrtacky/465-sada-dlabacich-vrtakov-/dlabaci-vrtak-stvorcove-otvory.jpg",
-    slug: null,
+    image: "/kategorie/nastroje-do-vrtacky.png",
+    slug: "nastroje-do-vrtacky",
   },
   {
     key: "straightGrinder",
