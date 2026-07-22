@@ -252,6 +252,34 @@
           "description": "Burghie de calitate, burghie conice, burghie pătrate de scobit și carote diamantate pentru găurire și scobire precisă a lemnului."
         }
       }
+    },
+    "nastrojeDoPriamejBrusky": {
+      "title": "Unelte pentru polizor drept – prezentare completă",
+      "lead": "Un micro-polizor drept (precum Dremel, Proxxon sau un polizor drept profesional) devine, cu accesoriile potrivite, o unealtă precisă pentru detalii de sculptură. Gama noastră include freze pe tijă și pile-ac în cinci diametre de prindere – de la un delicat 2,4 mm până la un puternic 6,4 mm – pentru lucru cu detalii fine și pentru prelucrarea lemnului la scară mai mare.",
+      "brands": "Gama include mărci de încredere precum Saburrtooth (Saburr USA) și Manpa – concepute pentru șlefuire și frezare curată fără supraîncălzirea materialului, cu o durată lungă de viață chiar și la utilizare intensă în sculptură.",
+      "subcategoriesTitle": "Subcategorii",
+      "subcategories": {
+        "stopky24mm": {
+          "name": "Pile-ac pe tijă 2,4 mm",
+          "description": "Pile-ac Saburrtooth pe tijă de 2,4 mm pentru micro-polizoare Dremel, Proxxon și Parkside – șlefuire curată fără supraîncălzirea materialului, ideale pentru detalii fine în lemn și plastic."
+        },
+        "stopky3mm": {
+          "name": "Freze pe tijă 3 mm",
+          "description": "Freze pe tijă Saburrtooth USA cu prindere de 3 mm, în forme de flacără, boboc și cilindru – calitate premium și durată lungă de viață pentru polizorul drept."
+        },
+        "stopky32mm": {
+          "name": "Freze pe tijă 3,2 mm",
+          "description": "Freze pe tijă de 3,2 mm pentru micro-polizoare, ideale pentru lucrul de detaliu în zone greu accesibile, decorare și modelarea fină a suprafețelor."
+        },
+        "stopky6mm": {
+          "name": "Freze și pile pe tijă 6 mm",
+          "description": "Freze-ac și pile profesionale pe tijă de 6 mm pentru polizor drept sau bormașină – șlefuire precisă fără supraîncălzirea materialului, populare printre sculptori. Include și freze din carbură, discuri lamelare și freze cu trei lame Manpa."
+        },
+        "stopky64mm": {
+          "name": "Tije 6,4 mm",
+          "description": "Pile-ac Saburrtooth pe tijă de 6,4 mm – o tehnologie unică a dinților abrazivi, care ușurează prelucrarea mai grosieră a lemnului."
+        }
+      }
     }
   },
   "brands": {
@@ -1504,6 +1532,10 @@
       "nastrojeDoVrtacky": {
         "title": "Unelte pentru bormașină pe lemn – prezentare subcategorii | Marián s.r.o.",
         "description": "Sfere de scobit Orbi Cut, evantaie abrazive Manpa, discuri diamantate de ascuțit și burghie de scobit pentru bormașină – prezentare completă a subcategoriilor și produselor."
+      },
+      "nastrojeDoPriamejBrusky": {
+        "title": "Unelte pentru polizor drept – prezentare subcategorii | Marián s.r.o.",
+        "description": "Freze pe tijă și pile-ac Saburrtooth și Manpa pentru polizor drept, în diametre de 2,4 până la 6,4 mm – prezentare completă a subcategoriilor și produselor."
       }
     },
     "brands": {

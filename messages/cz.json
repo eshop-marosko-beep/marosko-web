@@ -252,6 +252,34 @@
           "description": "Kvalitní vrtáky, kužele, čtyřhranné dlabací vrtáky a diamantové korunky pro přesné vrtání a dlabání dřeva."
         }
       }
+    },
+    "nastrojeDoPriamejBrusky": {
+      "title": "Nástroje do přímé brusky – kompletní přehled",
+      "lead": "Přímá mikrobruska (například Dremel, Proxxon nebo profesionální přímá bruska) se díky výměnným nástavcům promění v přesný nástroj na řezbářské detaily. V nabídce najdete stopkové frézky a jehlové rašple v pěti průměrech upnutí – od jemných 2,4 mm až po výkonné 6,4 mm – pro práci na drobných detailech i rozsáhlejší opracování dřeva.",
+      "brands": "Sortiment tvoří ověřené značky Saburrtooth (Saburr USA) a Manpa – nástroje jsou navrženy pro čisté broušení a frézování bez páleni materiálu, s dlouhou životností i při náročném řezbářském použití.",
+      "subcategoriesTitle": "Podkategorie",
+      "subcategories": {
+        "stopky24mm": {
+          "name": "Stopkové rašple 2,4 mm",
+          "description": "Stopkové rašple Saburrtooth 2,4 mm pro mikrobrusky Dremel, Proxxon i Parkside – čisté broušení bez páleni materiálu, ideální na jemné detaily ve dřevě i plastu."
+        },
+        "stopky3mm": {
+          "name": "Frézovací stopky 3 mm",
+          "description": "Frézovací stopky Saburrtooth USA s upnutím 3 mm ve tvarech plamen, poupě a válec – prémiová kvalita a dlouhá životnost pro přímou brusku."
+        },
+        "stopky32mm": {
+          "name": "Frézky na stopce 3,2 mm",
+          "description": "Stopkové frézky 3,2 mm pro mikrobrusky, ideální na detailní práci na těžko dostupných místech, dekorování a jemné tvarování povrchů."
+        },
+        "stopky6mm": {
+          "name": "Frézy a rašple se stopkou 6 mm",
+          "description": "Profesionální jehlové frézy a rašple se stopkou 6 mm do přímé brusky i vrtačky – přesné broušení bez páleni materiálu, oblíbené mezi řezbáři. Najdete zde i tvrdokovové frézy, lamelové kotouče a trojzubé frézky Manpa."
+        },
+        "stopky64mm": {
+          "name": "Stopky 6,4 mm",
+          "description": "Jehlové rašple Saburrtooth se stopkou 6,4 mm – unikátní technologie brusných zubů, která usnadňuje práci při hrubším opracování dřeva."
+        }
+      }
     }
   },
   "brands": {
@@ -1504,6 +1532,10 @@
       "nastrojeDoVrtacky": {
         "title": "Nástroje do vrtačky na dřevo – přehled podkategorií | Marián s.r.o.",
         "description": "Frézovací kuličky Orbi Cut, brusné vějíře Manpa, diamantové ostřicí kotouče i dlabací vrtáky pro vrtačku – kompletní přehled podkategorií a produktů."
+      },
+      "nastrojeDoPriamejBrusky": {
+        "title": "Nástroje do přímé brusky – přehled podkategorií | Marián s.r.o.",
+        "description": "Stopkové frézky a jehlové rašple Saburrtooth a Manpa pro přímou brusku v průměrech 2,4 až 6,4 mm – kompletní přehled podkategorií a produktů."
       }
     },
     "brands": {

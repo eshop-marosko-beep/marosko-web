@@ -252,6 +252,34 @@
           "description": "Quality drill bits, tapered bits, square hollow-chisel bits and diamond core bits for precise drilling and hollowing of wood."
         }
       }
+    },
+    "nastrojeDoPriamejBrusky": {
+      "title": "Straight grinder tools – complete overview",
+      "lead": "A straight micro-grinder (such as a Dremel, Proxxon or a professional straight grinder) turns into a precise tool for carving details with the right attachment. Our range includes shank-mounted burrs and needle rasps in five shank diameters – from a delicate 2.4 mm up to a powerful 6.4 mm – for both fine detail work and larger-scale wood shaping.",
+      "brands": "The range features trusted brands Saburrtooth (Saburr USA) and Manpa – built for clean sanding and milling without overheating the material, with a long service life even under demanding carving use.",
+      "subcategoriesTitle": "Subcategories",
+      "subcategories": {
+        "stopky24mm": {
+          "name": "2.4 mm shank rasps",
+          "description": "Saburrtooth 2.4 mm shank rasps for micro-grinders like Dremel, Proxxon and Parkside – clean sanding without overheating the material, ideal for fine details in wood and plastic."
+        },
+        "stopky3mm": {
+          "name": "3 mm milling shanks",
+          "description": "Saburrtooth USA milling shanks with a 3 mm mount in flame, bud and cylinder shapes – premium quality and a long service life for a straight grinder."
+        },
+        "stopky32mm": {
+          "name": "3.2 mm shank burrs",
+          "description": "3.2 mm shank burrs for micro-grinders, ideal for detailed work in hard-to-reach spots, decorating and fine surface shaping."
+        },
+        "stopky6mm": {
+          "name": "6 mm shank burrs and rasps",
+          "description": "Professional needle burrs and rasps with a 6 mm shank for a straight grinder or drill – precise sanding without overheating the material, popular among carvers. Also includes carbide burrs, lamella discs and Manpa three-blade cutters."
+        },
+        "stopky64mm": {
+          "name": "6.4 mm shanks",
+          "description": "Saburrtooth needle rasps with a 6.4 mm shank – a unique tooth technology that makes heavier-duty wood shaping easier."
+        }
+      }
     }
   },
   "brands": {
@@ -1504,6 +1532,10 @@
       "nastrojeDoVrtacky": {
         "title": "Drill tools for wood – subcategory overview | Marián s.r.o.",
         "description": "Orbi Cut hollowing balls, Manpa sanding flap wheels, diamond sharpening discs and hollowing bits for the drill – a complete overview of subcategories and products."
+      },
+      "nastrojeDoPriamejBrusky": {
+        "title": "Straight grinder tools – subcategory overview | Marián s.r.o.",
+        "description": "Saburrtooth and Manpa shank-mounted burrs and needle rasps for a straight grinder in 2.4 to 6.4 mm shank diameters – a complete overview of subcategories and products."
       }
     },
     "brands": {
