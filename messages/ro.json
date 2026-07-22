@@ -192,6 +192,40 @@
       }
     }
   },
+  "kategorieDetail": {
+    "nastrojeDoUhlovejBrusky": {
+      "title": "Unelte pentru polizor unghiular pe lemn – prezentare completă",
+      "lead": "Polizorul unghiular este una dintre cele mai versatile unelte din atelier – cu accesoriile potrivite poate tăia, scobi, freza, rindelui și chiar găuri lemnul fără recul. Gama noastră include peste 330 de unelte specializate, organizate în câteva grupe clare – de la discuri de frezat și pile-ac până la accesorii pentru piatră, cărămidă și plastic.",
+      "brands": "Gama include mărci de încredere precum Arbortech, Manpa, King Arthur Tools, Saburrtooth, Kirjes, Silverline, Pferd, Sait, Prano și alți producători consacrați – toate concepute pentru îndepărtarea precisă și sigură a materialului din lemn tare și moale, plastic, plăci OSB și PUR.",
+      "subcategoriesTitle": "Subcategorii",
+      "subcategories": {
+        "naDrevo": {
+          "name": "Unelte pentru polizor unghiular pe lemn",
+          "description": "Cea mai mare grupă – discuri de frezat și rindeluit, discuri abrazive tip ac, unelte de scobit și canelat, precum și perii pentru lemn. Include celebrele Arbortech Woodcarver și Turbo Plane."
+        },
+        "manpaRameno": {
+          "name": "Manpa – braț prelungitor și unelte",
+          "description": "Un sistem complet de brațe prelungitoare, capete de frezat și accesorii de la marca sud-coreeană Manpa, conceput pentru lucru precis chiar și în zone greu accesibile."
+        },
+        "diamantoveKotuce": {
+          "name": "Discuri diamantate de ascuțit",
+          "description": "Discuri pentru ascuțirea uneltelor și tăierea metalului și lemnului, acoperite cu diamant pentru durabilitate și tăiere precisă."
+        },
+        "nadstavce": {
+          "name": "Accesorii pentru polizor unghiular",
+          "description": "Talere de sprijin, adaptoare și prelungitoare care extind posibilitățile polizorului unghiular cu alte tipuri de unelte."
+        },
+        "kamenTehla": {
+          "name": "Unelte pentru piatră și cărămidă",
+          "description": "Accesorii de șlefuit, tăiat și găurit pentru prelucrarea zidăriei, cărămizii și pietrei."
+        },
+        "plastoveKompozity": {
+          "name": "Prelucrarea compozitelor din plastic",
+          "description": "Discuri specializate pentru șlefuirea și tăierea materialelor din plastic și compozite fără supraîncălzirea suprafeței."
+        }
+      }
+    }
+  },
   "brands": {
     "title": "Mărci și producători",
     "subtitle": "Prezentarea tuturor mărcilor de unelte și materiale disponibile în oferta noastră.",
@@ -1433,6 +1467,12 @@
     "categories": {
       "title": "Categorii de unelte | Marián s.r.o.",
       "description": "O prezentare completă a categoriilor noastre de unelte pentru cioplit și prelucrarea lemnului – discuri de frezat, unelte manuale și electrice și accesorii."
+    },
+    "kategorieDetail": {
+      "nastrojeDoUhlovejBrusky": {
+        "title": "Unelte pentru polizor unghiular pe lemn – prezentare subcategorii | Marián s.r.o.",
+        "description": "Discuri de frezat, unelte de rindeluit, pile și brațe prelungitoare Manpa pentru polizor unghiular – prezentare completă a subcategoriilor, mărcilor și produselor."
+      }
     },
     "brands": {
       "title": "Mărci și producători | Marián s.r.o.",
