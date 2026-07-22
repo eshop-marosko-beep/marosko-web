@@ -1143,6 +1143,29 @@
         "title": "Disc raspel 125 mm cu margine ascuțită – prim-plan",
         "description": "Disc raspel tăiat manual de 125 mm cu margine ascuțită (profil V), din oțel carbon călit (40 HRC) — pentru îndepărtarea lemnului, modelare, canelare, lucrări de dulgherie și restaurare."
       }
+    },
+    "pdfGuides": {
+      "title": "Ghiduri și cataloage de descărcat",
+      "subtitle": "Documente PDF direct de la producători și din magazinul nostru online.",
+      "downloadLabel": "Descarcă PDF",
+      "items": {
+        "katalogArbortech": {
+          "title": "Catalog Arbortech",
+          "description": "Catalogul complet de produse Arbortech – dălți electrice, freze și unelte de rindeluit pentru cioplitori și sculptori."
+        },
+        "navodArbortechWoodcarver": {
+          "title": "Manual de utilizare – Arbortech Woodcarver Industrial",
+          "description": "Manualul oficial pentru discul de frezat Arbortech Woodcarver Industrial – montaj, siguranță și utilizare corectă."
+        },
+        "navodArbortechTurboPlane": {
+          "title": "Manual de utilizare – Arbortech Turbo Plane",
+          "description": "Fișă de instrucțiuni pentru discul de rindeluit Arbortech Turbo Plane, cu ilustrații pentru montaj și utilizare sigură."
+        },
+        "katalogKirjes": {
+          "title": "Catalog Kirjes",
+          "description": "Catalogul de produse al mărcii suedeze Kirjes – sistem pentru degroșare, șlefuire și lustruire a lemnului, inclusiv Orbi Cut."
+        }
+      }
     }
   },
   "blog": {

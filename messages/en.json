@@ -1143,6 +1143,29 @@
         "title": "125 mm rasp disc with sharp edge – close-up",
         "description": "Hand-cut 125 mm rasp disc with a sharp V-profile edge, made of hardened carbon steel (40 HRC) — for wood removal, modelling, grooving, carpentry and restoration work."
       }
+    },
+    "pdfGuides": {
+      "title": "Downloadable guides and catalogues",
+      "subtitle": "PDF documents straight from the manufacturers and our e-shop.",
+      "downloadLabel": "Download PDF",
+      "items": {
+        "katalogArbortech": {
+          "title": "Arbortech catalogue",
+          "description": "The full Arbortech product catalogue – power chisels, grinders and planing tools for carvers and sculptors."
+        },
+        "navodArbortechWoodcarver": {
+          "title": "User manual – Arbortech Woodcarver Industrial",
+          "description": "The official manual for the Arbortech Woodcarver Industrial milling disc – assembly, safety and proper use."
+        },
+        "navodArbortechTurboPlane": {
+          "title": "User manual – Arbortech Turbo Plane",
+          "description": "An instruction card for the Arbortech Turbo Plane planing disc with illustrations of assembly and safe use."
+        },
+        "katalogKirjes": {
+          "title": "Kirjes catalogue",
+          "description": "The Swedish Kirjes brand's product catalogue – a system for roughing out, sanding and polishing wood, including Orbi Cut."
+        }
+      }
     }
   },
   "blog": {
