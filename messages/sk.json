@@ -1164,6 +1164,10 @@
         "katalogKirjes": {
           "title": "Katalóg Kirjes",
           "description": "Produktový katalóg švédskej značky Kirjes – systém na hrubovanie, brúsenie a leštenie dreva vrátane Orbi Cut."
+        },
+        "katalogManpa": {
+          "title": "Katalóg Manpa",
+          "description": "Produktový katalóg juhokórejskej značky Manpa – predlžovacie ramená, frézovacie hlavice a nástavce pre uhlové brúsky."
         }
       }
     }

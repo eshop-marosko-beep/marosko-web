@@ -1164,6 +1164,10 @@
         "katalogKirjes": {
           "title": "Catalog Kirjes",
           "description": "Catalogul de produse al mărcii suedeze Kirjes – sistem pentru degroșare, șlefuire și lustruire a lemnului, inclusiv Orbi Cut."
+        },
+        "katalogManpa": {
+          "title": "Catalog Manpa",
+          "description": "Catalogul de produse al mărcii sud-coreene Manpa – brațe prelungitoare, capete de frezat și accesorii pentru polizoare unghiulare."
         }
       }
     }
