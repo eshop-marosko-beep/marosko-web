@@ -25,7 +25,7 @@ const categoryKeys = [
     key: "angleGrinder",
     url: "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky",
     image:
-      "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/arbortech/contour-sander-sada/random-sander/arbortech-contour-sander-gallery-5.jpg",
+      "https://eshop.marosko.sk/resize/e/1600/1600/files/na-drevo/arbortech/arbortech-skrabka/arbortech-turbo-scraper-flex.jpg",
     slug: "nastroje-do-uhlovej-brusky",
   },
   {
