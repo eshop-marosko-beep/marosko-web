@@ -44,9 +44,8 @@ const categoryKeys = [
   {
     key: "miniMill",
     url: "https://eshop.marosko.sk/c/mini-kotuce-pre-mini-frezky-50",
-    image:
-      "https://eshop.marosko.sk/resize/e/440/440/files/vymenne-pridavne-nahradne-diely/predlzovaci-nadstavec.jpg",
-    slug: null,
+    image: "/kategorie/nastroje-do-mini-frezky.jpg",
+    slug: "mini-kotuce-pre-mini-frezky-50",
   },
   {
     key: "powerTools",

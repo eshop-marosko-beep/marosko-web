@@ -280,6 +280,34 @@
           "description": "Saburrtooth needle rasps with a 6.4 mm shank – a unique tooth technology that makes heavier-duty wood shaping easier."
         }
       }
+    },
+    "nastrojeDoMiniFrezky": {
+      "title": "Mini grinder tools – complete overview",
+      "lead": "A mini grinder (such as an Arbortech Mini Carver, Proxxon, Parkside or Bosch) is a compact tool using 50 mm discs with a 10 mm centre bore. Our range includes five groups of discs and rasps organized by manufacturer – from original Arbortech accessories to Saburrtooth needle rasps and Merlin chain-cutter wheels.",
+      "brands": "The range features trusted brands Arbortech, Manpa, Saburrtooth (Saburr USA), King Arthur's Tools (Merlin) and the Czech manufacturer Idea Import (Ante) – all discs are built for precise, fast wood removal with a mini grinder.",
+      "subcategoriesTitle": "Subcategories",
+      "subcategories": {
+        "arbortech": {
+          "name": "Arbortech accessories for the Mini Carver",
+          "description": "Original mini milling discs and accessories straight from Arbortech for the Mini Carver series – reliable, quality material removal."
+        },
+        "ideaImport": {
+          "name": "Mini discs from a Czech manufacturer",
+          "description": "Ante rasps from the Czech manufacturer Idea Import with a 10 mm bore and 50 mm overall disc diameter."
+        },
+        "saburrtooth": {
+          "name": "Saburrtooth U.S.A. needle rasps",
+          "description": "Saburrtooth USA needle sanding rasps for mini grinders – strong material removal suitable for both sanding and polishing wood."
+        },
+        "manpa": {
+          "name": "Manpa mini discs",
+          "description": "Manpa toothed discs with a 50 mm diameter and 10 mm centre bore – quality, high-yield material removal."
+        },
+        "merlin": {
+          "name": "Merlin mini rasps and chain cutters",
+          "description": "Merlin (King Arthur's Tools/Kirjes) accessory discs and chain cutters for the mini grinder, also available separately outside the Nick Agar sets."
+        }
+      }
     }
   },
   "brands": {
@@ -1536,6 +1564,10 @@
       "nastrojeDoPriamejBrusky": {
         "title": "Straight grinder tools – subcategory overview | Marián s.r.o.",
         "description": "Saburrtooth and Manpa shank-mounted burrs and needle rasps for a straight grinder in 2.4 to 6.4 mm shank diameters – a complete overview of subcategories and products."
+      },
+      "nastrojeDoMiniFrezky": {
+        "title": "Mini grinder tools – subcategory overview | Marián s.r.o.",
+        "description": "Arbortech, Manpa, Saburrtooth and Merlin mini milling discs and rasps with a 50 mm diameter and 10 mm bore – a complete overview of subcategories and products."
       }
     },
     "brands": {
