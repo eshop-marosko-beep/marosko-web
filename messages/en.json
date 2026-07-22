@@ -192,6 +192,40 @@
       }
     }
   },
+  "kategorieDetail": {
+    "nastrojeDoUhlovejBrusky": {
+      "title": "Angle grinder tools for wood – complete overview",
+      "lead": "An angle grinder is one of the most versatile tools in the workshop – with the right attachments it can cut, hollow, mill, plane and even drill into wood without kickback. Our range includes over 330 specialized tools, organized into a few clear groups – from milling discs and needle rasps to attachments for stone, brick and plastics.",
+      "brands": "The range features trusted brands such as Arbortech, Manpa, King Arthur Tools, Saburrtooth, Kirjes, Silverline, Pferd, Sait, Prano and other established manufacturers – all designed for precise, safe material removal from hard and soft wood, plastics, OSB and PUR boards.",
+      "subcategoriesTitle": "Subcategories",
+      "subcategories": {
+        "naDrevo": {
+          "name": "Angle grinder tools for wood",
+          "description": "The largest group – milling and planing discs, needle sanding discs, hollowing and grooving tools, and wood brushes. Includes the legendary Arbortech Woodcarver and Turbo Plane."
+        },
+        "manpaRameno": {
+          "name": "Manpa extension arm and tools",
+          "description": "A complete system of extension arms, milling heads and accessories from the South Korean brand Manpa, built for precise work even in hard-to-reach spots."
+        },
+        "diamantoveKotuce": {
+          "name": "Diamond sharpening discs",
+          "description": "Discs for sharpening tools and cutting metal and wood, diamond-coated for a long lifespan and a precise cut."
+        },
+        "nadstavce": {
+          "name": "Angle grinder attachments",
+          "description": "Backing pads, adapters and extensions that expand what your angle grinder can do with other tool types."
+        },
+        "kamenTehla": {
+          "name": "Tools for stone and brick",
+          "description": "Grinding, cutting and drilling attachments for working masonry, brick and stone."
+        },
+        "plastoveKompozity": {
+          "name": "Machining plastic composites",
+          "description": "Specialized discs for sanding and cutting plastic and composite materials without overheating the surface."
+        }
+      }
+    }
+  },
   "brands": {
     "title": "Brands & Manufacturers",
     "subtitle": "An overview of all the tool and material brands available in our range.",
@@ -1433,6 +1467,12 @@
     "categories": {
       "title": "Tool Categories | Marián s.r.o.",
       "description": "A complete overview of our woodcarving and woodworking tool categories – milling discs, hand and power tools, and accessories."
+    },
+    "kategorieDetail": {
+      "nastrojeDoUhlovejBrusky": {
+        "title": "Angle grinder tools for wood – subcategory overview | Marián s.r.o.",
+        "description": "Milling discs, planing tools, rasps and Manpa extension arms for angle grinders – a complete overview of subcategories, brands and products."
+      }
     },
     "brands": {
       "title": "Brands & Manufacturers | Marián s.r.o.",

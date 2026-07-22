@@ -192,6 +192,40 @@
       }
     }
   },
+  "kategorieDetail": {
+    "nastrojeDoUhlovejBrusky": {
+      "title": "Nástroje do úhlové brusky na dřevo – kompletní přehled",
+      "lead": "Úhlová bruska patří mezi nejuniverzálnější nástroje v dílně – se správným příslušenstvím s ní dokážete řezat, dlabat, frézovat, hoblovat i vrtat do dřeva bez zpětných rázů. V nabídce najdete více než 330 specializovaných nástrojů, rozdělených do několika přehledných skupin – od frézovacích kotoučů přes jehlové rašple až po nástavce na kámen, cihlu a plasty.",
+      "brands": "Sortiment tvoří ověřené značky jako Arbortech, Manpa, King Arthur Tools, Saburrtooth, Kirjes, Silverline, Pferd, Sait, Prano a další renomovaní výrobci – všechny nástroje jsou navrženy pro přesný a bezpečný úběr materiálu z tvrdého i měkkého dřeva, plastů, OSB a PUR desek.",
+      "subcategoriesTitle": "Podkategorie",
+      "subcategories": {
+        "naDrevo": {
+          "name": "Nástroje do úhlových brusek na dřevo",
+          "description": "Nejrozsáhlejší skupina – frézovací a hoblovací kotouče, jehlové brusné kotouče, dlabací a drážkovací nástroje i kartáče na dřevo. Najdete zde například legendární Arbortech Woodcarver či Turbo Plane."
+        },
+        "manpaRameno": {
+          "name": "Manpa – prodlužovací rameno a nářadí",
+          "description": "Kompletní systém prodlužovacích ramen, frézovacích hlavic a příslušenství od korejské značky Manpa, který umožňuje přesnou práci i na těžko dostupných místech."
+        },
+        "diamantoveKotuce": {
+          "name": "Diamantové ostřicí kotouče",
+          "description": "Kotouče na ostření nářadí a řezání kovu i dřeva s diamantovým povlakem pro dlouhou životnost a přesný řez."
+        },
+        "nadstavce": {
+          "name": "Nástavce do úhlových brusek",
+          "description": "Podložné talíře, přechodky a prodloužení, které rozšíří možnosti vaší úhlové brusky o další typy nástrojů."
+        },
+        "kamenTehla": {
+          "name": "Nástroje na kámen a cihlu",
+          "description": "Brusné, řezné i vrtací nástavce určené pro opracování zdiva, cihly a kamene."
+        },
+        "plastoveKompozity": {
+          "name": "Opracování plastových kompozitů",
+          "description": "Speciální kotouče na broušení a řezání plastových a kompozitních materiálů bez přehřívání povrchu."
+        }
+      }
+    }
+  },
   "brands": {
     "title": "Značky a výrobci",
     "subtitle": "Přehled všech značek nářadí a materiálů, které najdete v naší nabídce.",
@@ -1433,6 +1467,12 @@
     "categories": {
       "title": "Kategorie nářadí | Marián s.r.o.",
       "description": "Kompletní přehled kategorií řezbářského a dřevoobráběcího nářadí – frézovací kotouče, ruční i elektrické nářadí a příslušenství."
+    },
+    "kategorieDetail": {
+      "nastrojeDoUhlovejBrusky": {
+        "title": "Nástroje do úhlové brusky na dřevo – přehled podkategorií | Marián s.r.o.",
+        "description": "Frézovací kotouče, hoblovací nástroje, rašple i prodlužovací ramena Manpa pro úhlovou brusku – kompletní přehled podkategorií, značek a produktů."
+      }
     },
     "brands": {
       "title": "Značky a výrobci | Marián s.r.o.",
