@@ -1143,6 +1143,29 @@
         "title": "Rašpľový kotúč 125 mm s ostrým okrajom – detail",
         "description": "Ručne sekaný rašpľový kotúč 125 mm s ostrým okrajom (véčko) z kalenej uhlíkovej ocele (40 HRC) — na odoberanie dreva, modelovanie, drážkovanie, tesárske aj reštaurátorské práce."
       }
+    },
+    "pdfGuides": {
+      "title": "Návody a katalógy na stiahnutie",
+      "subtitle": "PDF dokumenty priamo od výrobcov a z nášho e-shopu.",
+      "downloadLabel": "Stiahnuť PDF",
+      "items": {
+        "katalogArbortech": {
+          "title": "Katalóg Arbortech",
+          "description": "Kompletný produktový katalóg značky Arbortech – elektrické dláta, frézky a hobľovacie nástroje pre rezbárov a sochárov."
+        },
+        "navodArbortechWoodcarver": {
+          "title": "Návod na použitie – Arbortech Woodcarver Industrial",
+          "description": "Oficiálny manuál k frézovaciemu kotúču Arbortech Woodcarver Industrial – montáž, bezpečnosť a správne používanie."
+        },
+        "navodArbortechTurboPlane": {
+          "title": "Návod na použitie – Arbortech Turbo Plane",
+          "description": "Inštrukčná karta k hobľovaciemu kotúču Arbortech Turbo Plane s ilustráciami montáže a bezpečného používania."
+        },
+        "katalogKirjes": {
+          "title": "Katalóg Kirjes",
+          "description": "Produktový katalóg švédskej značky Kirjes – systém na hrubovanie, brúsenie a leštenie dreva vrátane Orbi Cut."
+        }
+      }
     }
   },
   "blog": {

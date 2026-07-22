@@ -1,6 +1,7 @@
 import { Link } from "@/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { videos } from "@/lib/videoData";
+import { pdfGuides } from "@/lib/pdfGuides";
 import { buildMetadata } from "@/lib/seo";
 import { buildVideoObjectSchemas } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
@@ -91,6 +92,36 @@ export default async function VideosPage({
               )}
             </div>
           </div>
+        ))}
+      </div>
+
+      <h2 className="text-3xl font-bold text-espresso-800 mt-16 mb-4">{t("pdfGuides.title")}</h2>
+      <p className="text-gray-600 text-lg mb-10 max-w-2xl">{t("pdfGuides.subtitle")}</p>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {pdfGuides.map(({ slug, fileUrl, fileSize, translationKey }) => (
+          <a
+            key={slug}
+            href={fileUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white rounded-xl shadow-lg p-6 flex flex-col border border-transparent hover:border-amber-200 hover:shadow-xl transition-all"
+          >
+            <div className="flex items-start gap-3 mb-3">
+              <span className="shrink-0 bg-amber-50 text-amber-700 text-xs font-bold px-2 py-1 rounded">
+                PDF
+              </span>
+              <h3 className="text-lg font-bold text-espresso-800">
+                {t(`pdfGuides.items.${translationKey}.title`)}
+              </h3>
+            </div>
+            <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1">
+              {t(`pdfGuides.items.${translationKey}.description`)}
+            </p>
+            <span className="mt-auto inline-flex items-center gap-1 text-amber-700 font-semibold text-sm">
+              {t("pdfGuides.downloadLabel")} ({fileSize}) →
+            </span>
+          </a>
         ))}
       </div>
     </div>
