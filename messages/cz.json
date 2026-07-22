@@ -224,6 +224,34 @@
           "description": "Speciální kotouče na broušení a řezání plastových a kompozitních materiálů bez přehřívání povrchu."
         }
       }
+    },
+    "nastrojeDoVrtacky": {
+      "title": "Nástroje do vrtačky na dřevo – kompletní přehled",
+      "lead": "Běžná vrtačka dokáže mnohem víc než jen vrtat díry – se správným nástavcem se promění ve frézku, brusku i ostřicí nástroj. V nabídce najdete 130 specializovaných nástrojů rozdělených do pěti skupin, od frézovacích kuliček Orbi Cut přes brusné vějíře až po diamantové ostřicí kotouče a dlabací vrtáky.",
+      "brands": "Sortiment doplňují ověřené značky jako Manpa, Kirjes, Wolfcraft a další výrobci – nástroje jsou navrženy pro přesné dlabání, tvarování a broušení dřeva i pro ostření dalšího nářadí.",
+      "subcategoriesTitle": "Podkategorie",
+      "subcategories": {
+        "frezovanie": {
+          "name": "Frézovací nástroje do vrtačky",
+          "description": "Dlabací kuličky Orbi Cut a tvarovací frézovací hlavice Manpa, které promění vrtačku v nástroj na hloubení a jemné tvarování dřeva."
+        },
+        "brusenie": {
+          "name": "Brusné nástroje do vrtačky",
+          "description": "Brusné vějíře Manpa EZ-Sander, bubnové válce a brusné hříbky pro rychlé a efektivní broušení oblých tvarů přímo vrtačkou."
+        },
+        "ostrenie": {
+          "name": "Diamantové ostřicí kotouče",
+          "description": "Diamantem potažené kotouče na ostření dlát, seker, vrtáků, skla i keramiky – vysoká přesnost i pro wolframové karbidové tyče."
+        },
+        "nastavce": {
+          "name": "Přídavné nástavce do vrtačky",
+          "description": "Stojany, přechodky a upínací prvky, přes které do vrtačky upnete i nástroje původně určené pro úhlovou brusku."
+        },
+        "vrtaky": {
+          "name": "Vrtací nástroje a vrtáky",
+          "description": "Kvalitní vrtáky, kužele, čtyřhranné dlabací vrtáky a diamantové korunky pro přesné vrtání a dlabání dřeva."
+        }
+      }
     }
   },
   "brands": {
@@ -1472,6 +1500,10 @@
       "nastrojeDoUhlovejBrusky": {
         "title": "Nástroje do úhlové brusky na dřevo – přehled podkategorií | Marián s.r.o.",
         "description": "Frézovací kotouče, hoblovací nástroje, rašple i prodlužovací ramena Manpa pro úhlovou brusku – kompletní přehled podkategorií, značek a produktů."
+      },
+      "nastrojeDoVrtacky": {
+        "title": "Nástroje do vrtačky na dřevo – přehled podkategorií | Marián s.r.o.",
+        "description": "Frézovací kuličky Orbi Cut, brusné vějíře Manpa, diamantové ostřicí kotouče i dlabací vrtáky pro vrtačku – kompletní přehled podkategorií a produktů."
       }
     },
     "brands": {
