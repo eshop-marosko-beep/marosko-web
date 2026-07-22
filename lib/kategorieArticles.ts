@@ -46,6 +46,21 @@ export const kategorieArticles: KategorieArticle[] = [
       { translationKey: "vrtaky" },
     ],
   },
+  {
+    slug: "prislusenstva-do-priamej-brusky-frezky",
+    translationKey: "nastrojeDoPriamejBrusky",
+    eshopUrl: "https://eshop.marosko.sk/c/prislusenstva-do-priamej-brusky-frezky",
+    subcategories: [
+      { translationKey: "stopky24mm" },
+      { translationKey: "stopky3mm" },
+      { translationKey: "stopky32mm" },
+      {
+        translationKey: "stopky6mm",
+        galleryLinks: ["prislusenstvo-priamej-brusky"],
+      },
+      { translationKey: "stopky64mm" },
+    ],
+  },
 ];
 
 export function getKategorieArticle(slug: string) {

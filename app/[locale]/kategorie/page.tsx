@@ -39,7 +39,7 @@ const categoryKeys = [
     url: "https://eshop.marosko.sk/c/prislusenstva-do-priamej-brusky-frezky",
     image:
       "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/18c14/18c14-40-%281%29-02.jpeg",
-    slug: null,
+    slug: "prislusenstva-do-priamej-brusky-frezky",
   },
   {
     key: "miniMill",

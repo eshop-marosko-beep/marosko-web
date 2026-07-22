@@ -252,6 +252,34 @@
           "description": "Kvalitné vrtáky, kužele, štvorhranné dlabacie vrtáky a diamantové korunky pre presné vŕtanie a dlabanie dreva."
         }
       }
+    },
+    "nastrojeDoPriamejBrusky": {
+      "title": "Nástroje do priamej brúsky – kompletný prehľad",
+      "lead": "Priama mikrobrúska (napríklad Dremel, Proxxon alebo profesionálna priama brúska) sa vďaka výmenným nástavcom premení na presný nástroj na rezbárske detaily. V ponuke nájdete stopkové frézky a ihličkové rašple v piatich priemeroch upnutia – od jemných 2,4 mm až po výkonné 6,4 mm – pre prácu na drobných detailoch aj rozsiahlejšie opracovanie dreva.",
+      "brands": "Sortiment tvoria overené značky Saburrtooth (Saburr USA) a Manpa – nástroje sú navrhnuté na čisté brúsenie a frézovanie bez pálenia materiálu, s dlhou životnosťou aj pri náročnom rezbárskom použití.",
+      "subcategoriesTitle": "Podkategórie",
+      "subcategories": {
+        "stopky24mm": {
+          "name": "Stopkové rašple 2,4 mm",
+          "description": "Stopkové rašple Saburrtooth 2,4 mm pre mikrobrúsky Dremel, Proxxon aj Parkside – čisté brúsenie bez pálenia materiálu, ideálne na jemné detaily v dreve aj plaste."
+        },
+        "stopky3mm": {
+          "name": "Frézovacie stopky 3 mm",
+          "description": "Frézovacie stopky Saburrtooth USA s upnutím 3 mm v tvaroch plameň, púčik a valec – prémiová kvalita a dlhá životnosť pre priamu brúsku."
+        },
+        "stopky32mm": {
+          "name": "Frézky na stopke 3,2 mm",
+          "description": "Stopkové frézky 3,2 mm pre mikrobrúsky, ideálne na detailnú prácu na ťažko dostupných miestach, dekorovanie a jemné tvarovanie povrchov."
+        },
+        "stopky6mm": {
+          "name": "Frézy a rašple so stopkou 6 mm",
+          "description": "Profesionálne ihličkové frézy a rašple so stopkou 6 mm do priamej brúsky aj vŕtačky – presné brúsenie bez pálenia materiálu, obľúbené medzi rezbármi. Nájdete tu aj tvrdokovové frézy, lamelové kotúče a trojzubové frézky Manpa."
+        },
+        "stopky64mm": {
+          "name": "Stopky 6,4 mm",
+          "description": "Ihličkové rašple Saburrtooth so stopkou 6,4 mm – unikátna technológia brúsnych zubov, ktorá uľahčuje prácu pri hrubšom opracovaní dreva."
+        }
+      }
     }
   },
   "brands": {
@@ -1504,6 +1532,10 @@
       "nastrojeDoVrtacky": {
         "title": "Nástroje do vŕtačky na drevo – prehľad podkategórií | Marián s.r.o.",
         "description": "Frézovacie guľôčky Orbi Cut, brúsne vejáre Manpa, diamantové ostriace kotúče aj dlabacie vrtáky pre vŕtačku – kompletný prehľad podkategórií a produktov."
+      },
+      "nastrojeDoPriamejBrusky": {
+        "title": "Nástroje do priamej brúsky – prehľad podkategórií | Marián s.r.o.",
+        "description": "Stopkové frézky a ihličkové rašple Saburrtooth a Manpa pre priamu brúsku v priemeroch 2,4 až 6,4 mm – kompletný prehľad podkategórií a produktov."
       }
     },
     "brands": {
