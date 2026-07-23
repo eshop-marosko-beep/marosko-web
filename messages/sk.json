@@ -308,6 +308,34 @@
           "description": "Doplnkové kotúče a reťazové frézky Merlin (King Arthur's Tools/Kirjes) do mini frézky, dostupné aj samostatne mimo súprav Nick Agar."
         }
       }
+    },
+    "brusneVysekyNaMieru": {
+      "title": "Brúsne výseky na mieru – kompletný prehľad",
+      "lead": "Brúsne výseky na mieru vám umožnia prispôsobiť brúsny papier alebo plátno presne priemeru vašej brúsky – od drobných 50 mm kotúčikov pre mikronáradie až po veľkoplošné 600 mm výseky pre profesionálne brúsky. Všetky výseky majú suchý zips, takže sa rýchlo vymieňajú bez lepenia.",
+      "brands": "Výseky sú dostupné v širokej škále zrnitostí a v prevedení brúsny papier aj brúsne plátno, takže si vyberiete presne podľa typu opracovávaného materiálu a požadovanej hrubosti brúsenia.",
+      "subcategoriesTitle": "Podkategórie",
+      "subcategories": {
+        "maleVyseky": {
+          "name": "Malé výseky Ø 50 – 150 mm",
+          "description": "Kompaktné kruhové výseky od 50 do 150 mm pre mini brúsky, excentrické brúsky a mikronáradie – ideálne na precízne a detailné brúsenie."
+        },
+        "strednePriemery": {
+          "name": "Stredné výseky Ø 180 – 300 mm",
+          "description": "Výseky s priemerom 180 až 300 mm pre bežné okrúhle a excentrické brúsky pri opracovaní stredne veľkých plôch."
+        },
+        "velkePriemery": {
+          "name": "Veľké výseky Ø 370 – 600 mm",
+          "description": "Profesionálne veľkoplošné výseky s priemerom 370 až 600 mm pre kotúčové brúsky a brúsne stoly."
+        },
+        "papier115mm": {
+          "name": "Brúsny papier Ø 115 mm",
+          "description": "Brúsny papier s priemerom 115 mm a suchým zipsom, vhodný najmä na uhlové brúsky a stredne veľké plochy."
+        },
+        "podlozky": {
+          "name": "Podložky a príslušenstvo pre suchý zips",
+          "description": "Molitanové medzipodložky medzi unášač a výsek a hačkové podklady pre suchý zips podľa zvoleného priemeru, ktoré predĺžia životnosť brúsiva aj brúsky."
+        }
+      }
     }
   },
   "brands": {
@@ -1568,6 +1596,10 @@
       "nastrojeDoMiniFrezky": {
         "title": "Nástroje do mini frézky – prehľad podkategórií | Marián s.r.o.",
         "description": "Mini frézovacie kotúče a rašple Arbortech, Manpa, Saburrtooth a Merlin s priemerom 50 mm a upnutím 10 mm – kompletný prehľad podkategórií a produktov."
+      },
+      "brusneVysekyNaMieru": {
+        "title": "Brúsne výseky na mieru – prehľad podkategórií | Marián s.r.o.",
+        "description": "Kruhové brúsne výseky od Ø50 do 600 mm na suchý zips, brúsny papier aj plátno, molitanové podložky – kompletný prehľad podkategórií a produktov."
       }
     },
     "brands": {

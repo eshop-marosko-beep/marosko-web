@@ -65,7 +65,7 @@ const categoryKeys = [
     url: "https://eshop.marosko.sk/c/brusne-vyseky-brusny-papier-platno",
     image:
       "https://eshop.marosko.sk/resize/e/440/440/files/brusne-vyseky/samolepiace-podlozky/img-20210924-120931-03.jpeg",
-    slug: null,
+    slug: "brusne-vyseky-brusny-papier-platno",
   },
   {
     key: "handTools",

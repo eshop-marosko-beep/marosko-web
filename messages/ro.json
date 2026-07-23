@@ -308,6 +308,34 @@
           "description": "Discuri accesorii și freze-lanț Merlin (King Arthur's Tools/Kirjes) pentru mini-polizor, disponibile și separat, în afara seturilor Nick Agar."
         }
       }
+    },
+    "brusneVysekyNaMieru": {
+      "title": "Discuri abrazive decupate la comandă – prezentare completă",
+      "lead": "Discurile abrazive decupate la comandă vă permit să potriviți hârtia sau pânza abrazivă exact cu diametrul polizorului dumneavoastră – de la discuri mici de 50 mm pentru scule miniaturale până la discuri mari de 600 mm pentru polizoare profesionale. Toate discurile au prindere velcro, deci se schimbă rapid, fără lipire.",
+      "brands": "Discurile sunt disponibile într-o gamă largă de granulații, atât ca hârtie abrazivă, cât și ca pânză abrazivă, astfel încât alegeți exact în funcție de materialul prelucrat și de gradul de șlefuire dorit.",
+      "subcategoriesTitle": "Subcategorii",
+      "subcategories": {
+        "maleVyseky": {
+          "name": "Discuri mici Ø 50 – 150 mm",
+          "description": "Discuri rotunde compacte de la 50 la 150 mm pentru mini-polizoare, polizoare excentrice și scule miniaturale – ideale pentru șlefuire precisă și de detaliu."
+        },
+        "strednePriemery": {
+          "name": "Discuri medii Ø 180 – 300 mm",
+          "description": "Discuri cu diametru de la 180 la 300 mm pentru polizoare rotative și excentrice obișnuite, la prelucrarea suprafețelor de dimensiuni medii."
+        },
+        "velkePriemery": {
+          "name": "Discuri mari Ø 370 – 600 mm",
+          "description": "Discuri profesionale de mari dimensiuni, de la 370 la 600 mm, pentru polizoare cu disc și mese de șlefuit."
+        },
+        "papier115mm": {
+          "name": "Hârtie abrazivă Ø 115 mm",
+          "description": "Hârtie abrazivă cu diametrul de 115 mm și prindere velcro, potrivită mai ales pentru polizoare unghiulare și suprafețe de dimensiuni medii."
+        },
+        "podlozky": {
+          "name": "Suporturi și accesorii pentru prindere velcro",
+          "description": "Suporturi intermediare din spumă între platan și disc, precum și suporturi velcro potrivite diametrului ales, care prelungesc durata de viață a abrazivului și a polizorului."
+        }
+      }
     }
   },
   "brands": {
@@ -1568,6 +1596,10 @@
       "nastrojeDoMiniFrezky": {
         "title": "Unelte pentru mini-polizor – prezentare subcategorii | Marián s.r.o.",
         "description": "Discuri și pile mini Arbortech, Manpa, Saburrtooth și Merlin, cu diametru de 50 mm și alezaj de 10 mm – prezentare completă a subcategoriilor și produselor."
+      },
+      "brusneVysekyNaMieru": {
+        "title": "Discuri abrazive decupate la comandă – prezentare subcategorii | Marián s.r.o.",
+        "description": "Discuri abrazive rotunde de la Ø50 la 600 mm cu prindere velcro, hârtie și pânză abrazivă, suporturi din spumă – prezentare completă a subcategoriilor și produselor."
       }
     },
     "brands": {
