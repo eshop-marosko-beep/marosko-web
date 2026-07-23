@@ -488,6 +488,26 @@
           "description": "Náhradní díly pro nářadí Manpa Korea – náhradní díl pro frézovací kotouč i řemen pro prodlužovací rameno."
         }
       }
+    },
+    "podstavceZveraky": {
+      "title": "Podstavce, upínací stroje a svěráky – přehled",
+      "lead": "Univerzální podstavce, upínací stroje a svěráky usnadní práci všude tam, kde potřebujete pevně zafixovat materiál nebo samotné nářadí. V nabídce najdete řezbářské svěráky, hliníkové i plastové upínací držáky vrtačky a úhlové brusky, prodlužovací držáky i frézovací šablony na rybinové spoje.",
+      "brands": "Příslušenství oceníte při práci s menšími díly i při přesném vedení nářadí – uvolní vám ruce a zlepší přesnost řezu i broušení."
+    },
+    "drobnySortiment": {
+      "title": "Řezbářské příslušenství a doplňky – přehled",
+      "lead": "Drobný, ale často nepostradatelný sortiment pro každodenní práci v dílně – náhradní pásy, uhlíky, výměnné nože, náhradní zuby na frézovací kotouče, čisticí hranoly na zanesené šmirgle i matice a přechodky na úhlovou brusku.",
+      "brands": "Jde o praktické doplňky, které prodlouží životnost vašeho nářadí a udrží ho v dobrém provozním stavu."
+    },
+    "carvingoveListy": {
+      "title": "Výtvarnické carvingové lišty – přehled",
+      "lead": "Carvingová lišta je speciální vodicí lišta motorové pily určená pro tvarové opracování a detailní řezbu dřeva – vhodná pro práci s hrotem pily a bezpečná díky nižšímu riziku zpětného vrhu. V nabídce najdete lišty Oregon v různých délkách pro malé i velké motorové pily.",
+      "brands": "Carvingové lišty od Oregonu patří mezi ověřené řešení pro řezbáře pracující s motorovou pilou přímo v terénu i v dílně."
+    },
+    "stopkoveNastroje": {
+      "title": "Stopkové truhlářské nástroje – přehled",
+      "lead": "Stopkové nástroje do vrtačky nebo sloupové vrtačky usnadní truhlářské i řezbářské práce – od samostatných sukovníků na vysekávání suků až po sady stopkových fréz na tvarování a opracování dřeva.",
+      "brands": "V nabídce najdete například sukovníky různých průměrů i sady stopkových fréz Silverline."
     }
   },
   "brands": {
@@ -1776,6 +1796,22 @@
       "nahradneDiely": {
         "title": "Výměnné a náhradní díly – přehled podkategorií | Marián s.r.o.",
         "description": "Originální náhradní díly Arbortech a Manpa – uhlíky, řemeny a frézovací zuby. Kompletní přehled podkategorií a produktů."
+      },
+      "podstavceZveraky": {
+        "title": "Podstavce, upínací stroje a svěráky – přehled | Marián s.r.o.",
+        "description": "Řezbářské svěráky, upínací držáky vrtačky a úhlové brusky, prodlužovací držáky i frézovací šablony – kompletní přehled a produkty."
+      },
+      "drobnySortiment": {
+        "title": "Řezbářské příslušenství a doplňky – přehled | Marián s.r.o.",
+        "description": "Náhradní pásy, uhlíky, výměnné nože, čisticí hranoly a další drobné doplňky pro řezbářské nářadí – kompletní přehled a produkty."
+      },
+      "carvingoveListy": {
+        "title": "Výtvarnické carvingové lišty – přehled | Marián s.r.o.",
+        "description": "Carvingové lišty Oregon pro motorové pily na tvarové opracování a detailní řezbu dřeva – kompletní přehled a produkty."
+      },
+      "stopkoveNastroje": {
+        "title": "Stopkové truhlářské nástroje – přehled | Marián s.r.o.",
+        "description": "Sukovníky a sady stopkových fréz Silverline pro truhlářské a řezbářské opracování dřeva – kompletní přehled a produkty."
       }
     },
     "brands": {

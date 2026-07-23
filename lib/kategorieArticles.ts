@@ -150,6 +150,30 @@ export const kategorieArticles: KategorieArticle[] = [
     eshopUrl: "https://eshop.marosko.sk/c/nahradne-noze-nastrojov-diely-arbortech",
     subcategories: [{ translationKey: "arbortechDiely" }, { translationKey: "manpaDiely" }],
   },
+  {
+    slug: "zveraky-svorky-drziaky-vrtacky-naradie",
+    translationKey: "podstavceZveraky",
+    eshopUrl: "https://eshop.marosko.sk/c/zveraky-svorky-drziaky-vrtacky-naradie",
+    subcategories: [],
+  },
+  {
+    slug: "rezbarske-prislusenstvo-doplnky",
+    translationKey: "drobnySortiment",
+    eshopUrl: "https://eshop.marosko.sk/c/rezbarske-prislusenstvo-doplnky",
+    subcategories: [],
+  },
+  {
+    slug: "listy-carvingove-vytvarnicke",
+    translationKey: "carvingoveListy",
+    eshopUrl: "https://eshop.marosko.sk/c/listy-carvingove-vytvarnicke",
+    subcategories: [],
+  },
+  {
+    slug: "stopkove-nastroje",
+    translationKey: "stopkoveNastroje",
+    eshopUrl: "https://eshop.marosko.sk/c/stopkove-nastroje",
+    subcategories: [],
+  },
 ];
 
 export function getKategorieArticle(slug: string) {

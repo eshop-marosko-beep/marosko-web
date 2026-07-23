@@ -488,6 +488,26 @@
           "description": "Piese de schimb pentru uneltele Manpa Coreea – o piesă de schimb pentru discul de frezat și o curea pentru brațul prelungitor."
         }
       }
+    },
+    "podstavceZveraky": {
+      "title": "Suporturi, mașini de prindere și menghine – prezentare",
+      "lead": "Suporturile universale, mașinile de prindere și menghinele ușurează munca oriunde este nevoie să fixați ferm materialul sau unealta în sine. Gama noastră include menghine de sculptură, suporturi de prindere din aluminiu și plastic pentru bormașină și polizor unghiular, suporturi prelungitoare și șabloane pentru îmbinări în coadă de rândunică.",
+      "brands": "Aceste accesorii sunt utile la lucrul cu piese mai mici și la ghidarea precisă a uneltelor – vă eliberează mâinile și îmbunătățesc precizia tăierii și șlefuirii."
+    },
+    "drobnySortiment": {
+      "title": "Accesorii și completări pentru sculptură – prezentare",
+      "lead": "O gamă mică, dar adesea indispensabilă pentru activitatea zilnică din atelier – curele de schimb, perii de carbon, lame de schimb, dinți de schimb pentru discurile de frezat, blocuri de curățare pentru discurile abrazive înfundate, precum și piulițe și adaptoare pentru polizorul unghiular.",
+      "brands": "Sunt completări practice care prelungesc durata de viață a uneltelor dumneavoastră și le mențin în stare bună de funcționare."
+    },
+    "carvingoveListy": {
+      "title": "Lame de ghidaj pentru sculptură – prezentare",
+      "lead": "O lamă de carving este o lamă de ghidaj specială pentru motoferăstrău, concepută pentru modelarea și sculptura detaliată a lemnului – potrivită pentru lucrul cu vârful lamei și mai sigură datorită unui risc redus de recul. Gama noastră include lame Oregon în diverse lungimi, pentru motoferăstraie mici și mari.",
+      "brands": "Lamele de carving Oregon reprezintă o soluție de încredere pentru sculptorii care lucrează cu motoferăstrăul, atât în teren, cât și în atelier."
+    },
+    "stopkoveNastroje": {
+      "title": "Unelte de tâmplărie pe tijă – prezentare",
+      "lead": "Uneltele pe tijă pentru bormașină sau mașină de găurit cu coloană ușurează lucrările de tâmplărie și sculptură – de la tăietoare de noduri independente, pentru îndepărtarea nodurilor, până la seturi de freze pe tijă pentru modelarea și finisarea lemnului.",
+      "brands": "Gama include tăietoare de noduri de diverse diametre, precum și seturi de freze pe tijă Silverline."
     }
   },
   "brands": {
@@ -1776,6 +1796,22 @@
       "nahradneDiely": {
         "title": "Piese de schimb – prezentare subcategorii | Marián s.r.o.",
         "description": "Piese de schimb originale Arbortech și Manpa – perii de carbon, curele și dinți de frezat. Prezentare completă a subcategoriilor și produselor."
+      },
+      "podstavceZveraky": {
+        "title": "Suporturi, mașini de prindere și menghine – prezentare | Marián s.r.o.",
+        "description": "Menghine de sculptură, suporturi de prindere pentru bormașină și polizor unghiular, suporturi prelungitoare și șabloane pentru îmbinări – prezentare completă și produse."
+      },
+      "drobnySortiment": {
+        "title": "Accesorii și completări pentru sculptură – prezentare | Marián s.r.o.",
+        "description": "Curele de schimb, perii de carbon, lame de schimb, blocuri de curățare și alte accesorii mici pentru unelte de sculptură – prezentare completă și produse."
+      },
+      "carvingoveListy": {
+        "title": "Lame de ghidaj pentru sculptură – prezentare | Marián s.r.o.",
+        "description": "Lame de ghidaj Oregon pentru motoferăstrău, pentru modelarea și sculptura detaliată a lemnului – prezentare completă și produse."
+      },
+      "stopkoveNastroje": {
+        "title": "Unelte de tâmplărie pe tijă – prezentare | Marián s.r.o.",
+        "description": "Tăietoare de noduri și seturi de freze pe tijă Silverline pentru tâmplărie și sculptură în lemn – prezentare completă și produse."
       }
     },
     "brands": {

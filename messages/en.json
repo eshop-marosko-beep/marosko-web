@@ -488,6 +488,26 @@
           "description": "Spare parts for Manpa Korea tools – a replacement part for the milling disc and a belt for the extension arm."
         }
       }
+    },
+    "podstavceZveraky": {
+      "title": "Stands, clamping machines and vices – overview",
+      "lead": "Universal stands, clamping machines and vices make work easier wherever you need to firmly secure material or the tool itself. Our range includes carving vices, aluminum and plastic clamping holders for drills and angle grinders, extension holders and dovetail jig templates.",
+      "brands": "This accessory range comes in handy when working with smaller pieces and guiding tools precisely – it frees up your hands and improves cutting and sanding accuracy."
+    },
+    "drobnySortiment": {
+      "title": "Carving accessories and add-ons – overview",
+      "lead": "A small but often indispensable range for everyday workshop use – replacement belts, carbon brushes, replacement blades, spare teeth for milling discs, cleaning blocks for clogged sanding discs, and nuts and adapters for angle grinders.",
+      "brands": "These are practical add-ons that extend the life of your tools and keep them in good working condition."
+    },
+    "carvingoveListy": {
+      "title": "Carving guide bars – overview",
+      "lead": "A carving bar is a special chainsaw guide bar designed for shaping and detailed wood carving – suited to nose-cut work and safer thanks to a lower kickback risk. Our range includes Oregon bars in various lengths for both small and large chainsaws.",
+      "brands": "Oregon carving bars are a trusted choice for carvers working with a chainsaw on site or in the workshop."
+    },
+    "stopkoveNastroje": {
+      "title": "Shank-mounted joinery tools – overview",
+      "lead": "Shank-mounted tools for a drill or pillar drill make joinery and carving work easier – from standalone knot cutters for removing knots to sets of shank-mounted burrs for shaping and finishing wood.",
+      "brands": "The range includes knot cutters in various diameters as well as Silverline shank-mounted burr sets."
     }
   },
   "brands": {
@@ -1776,6 +1796,22 @@
       "nahradneDiely": {
         "title": "Replacement and spare parts – subcategory overview | Marián s.r.o.",
         "description": "Genuine Arbortech and Manpa spare parts – carbon brushes, belts and milling teeth. A complete overview of subcategories and products."
+      },
+      "podstavceZveraky": {
+        "title": "Stands, clamping machines and vices – overview | Marián s.r.o.",
+        "description": "Carving vices, drill and angle grinder clamping holders, extension holders and dovetail jig templates – a complete overview and products."
+      },
+      "drobnySortiment": {
+        "title": "Carving accessories and add-ons – overview | Marián s.r.o.",
+        "description": "Replacement belts, carbon brushes, replacement blades, cleaning blocks and other small add-ons for carving tools – a complete overview and products."
+      },
+      "carvingoveListy": {
+        "title": "Carving guide bars – overview | Marián s.r.o.",
+        "description": "Oregon carving guide bars for chainsaws, for shaping and detailed wood carving – a complete overview and products."
+      },
+      "stopkoveNastroje": {
+        "title": "Shank-mounted joinery tools – overview | Marián s.r.o.",
+        "description": "Knot cutters and Silverline shank-mounted burr sets for joinery and carving wood – a complete overview and products."
       }
     },
     "brands": {
