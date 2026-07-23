@@ -1,7 +1,8 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { FormEvent, useState } from "react";
+import { getEshopUrl } from "@/lib/eshopUrl";
 
 export default function ContactForm({
   title,
@@ -12,6 +13,7 @@ export default function ContactForm({
 }) {
   const t = useTranslations("home.contactCta");
   const tContact = useTranslations("contact");
+  const eshopUrl = getEshopUrl(useLocale());
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -105,7 +107,7 @@ export default function ContactForm({
           <p className="pt-2">
             🛒{" "}
             <a
-              href="https://eshop.marosko.sk"
+              href={eshopUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="text-amber-700 font-bold hover:underline"

@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import ContactForm from "@/components/ContactForm";
 import { buildMetadata } from "@/lib/seo";
+import { getEshopUrl } from "@/lib/eshopUrl";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -22,6 +23,7 @@ export default async function ContactPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("contact");
+  const eshopUrl = getEshopUrl(locale);
 
   return (
     <div className="py-8">
@@ -60,7 +62,7 @@ export default async function ContactPage({
           <p className="p-4 bg-amber-50 border border-amber-200 rounded-lg">
             🛒{" "}
             <a
-              href="https://eshop.marosko.sk"
+              href={eshopUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="text-amber-700 font-bold hover:underline"

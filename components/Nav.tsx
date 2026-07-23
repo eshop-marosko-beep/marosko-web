@@ -3,11 +3,14 @@
 import { useState } from "react";
 import { Link } from "@/navigation";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
+import { getEshopUrl } from "@/lib/eshopUrl";
 
 export default function Nav() {
   const t = useTranslations("navigation");
+  const locale = useLocale();
+  const eshopUrl = getEshopUrl(locale);
   const [open, setOpen] = useState(false);
 
   const links = [
@@ -43,7 +46,7 @@ export default function Nav() {
             </Link>
           ))}
           <a
-            href="https://eshop.marosko.sk"
+            href={eshopUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors"
@@ -85,7 +88,7 @@ export default function Nav() {
             </Link>
           ))}
           <a
-            href="https://eshop.marosko.sk"
+            href={eshopUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors text-center"
