@@ -5,6 +5,15 @@ import { routing } from "@/routing";
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://marosko-web.vercel.app";
 export const DEFAULT_OG_IMAGE = "/gallery/frezovaci-kotuc-detail-rezbarska-praca.jpg";
 
+/** Maps internal locale/URL-prefix codes to valid ISO 639-1 hreflang values.
+ * "cz" is the URL prefix for Czech (kept for the existing /cz URLs), but
+ * "cz" is an ISO 3166-1 country code, not a language code — the correct
+ * hreflang for Czech is "cs". Locales not listed here map to themselves. */
+const HREFLANG_OVERRIDES: Record<string, string> = { cz: "cs" };
+function toHreflang(locale: string): string {
+  return HREFLANG_OVERRIDES[locale] ?? locale;
+}
+
 /** Resolves a possibly-relative image path to an absolute URL. Leaves
  * already-absolute URLs (e.g. images hosted on eshop.marosko.sk) untouched. */
 export function toAbsoluteImageUrl(src: string): string {
@@ -27,7 +36,7 @@ export function buildMetadata({
   const href = path === "" ? "/" : path;
   const url = `${SITE_URL}${getPathname({ locale, href })}`;
   const languages = Object.fromEntries(
-    routing.locales.map((l) => [l, `${SITE_URL}${getPathname({ locale: l, href })}`])
+    routing.locales.map((l) => [toHreflang(l), `${SITE_URL}${getPathname({ locale: l, href })}`])
   );
   languages["x-default"] = `${SITE_URL}${getPathname({ locale: routing.defaultLocale, href })}`;
   const ogImage = toAbsoluteImageUrl(image);
