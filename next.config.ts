@@ -21,6 +21,13 @@ const nextConfig: NextConfig = {
         destination: '/gdpr?',
         permanent: true,
       },
+      // Legacy Joomla "info" (company info) SEF URL, still indexed by search
+      // engines. Redirect it to the current About Us page instead of 404ing.
+      {
+        source: '/index.php/info',
+        destination: '/o-nas',
+        permanent: true,
+      },
     ];
   },
 };
