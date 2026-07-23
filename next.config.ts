@@ -36,6 +36,13 @@ const nextConfig: NextConfig = {
         destination: '/znacky#arbortech',
         permanent: true,
       },
+      // Same legacy Arbortech article, indexed under a nested Joomla menu
+      // path. Same redirect target as /index.php/home.
+      {
+        source: '/index.php/home/arbortech',
+        destination: '/znacky#arbortech',
+        permanent: true,
+      },
       // Legacy Joomla article about the King Arthur's Tools brand, still
       // indexed by search engines under a "/o-nas" alias unrelated to the
       // current About Us page. Redirect it to the matching brand card.
