@@ -23,7 +23,10 @@ export async function generateMetadata({
     locale,
     path: `/galeria/${category}`,
     title: `${t(`${galleryCategory.translationKey}.title`)} | Marián s.r.o.`,
-    description: t(`${galleryCategory.translationKey}.description`),
+    // Use the short blurb, not the long on-page description, to keep the
+    // <meta name="description"> within the ~160 character limit search
+    // engines display.
+    description: t(`${galleryCategory.translationKey}.short`),
     image: galleryCategory.images[0].src,
   });
 }
