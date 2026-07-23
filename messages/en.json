@@ -308,6 +308,34 @@
           "description": "Merlin (King Arthur's Tools/Kirjes) accessory discs and chain cutters for the mini grinder, also available separately outside the Nick Agar sets."
         }
       }
+    },
+    "brusneVysekyNaMieru": {
+      "title": "Custom-cut sanding discs – complete overview",
+      "lead": "Custom-cut sanding discs let you match the sandpaper or cloth exactly to your sander's diameter – from tiny 50 mm discs for micro tools up to large 600 mm discs for professional sanders. All discs use a hook-and-loop backing, so they swap out quickly without gluing.",
+      "brands": "The discs are available in a wide range of grits, in both sandpaper and cloth versions, so you can pick exactly what fits the material and the level of coarseness you need.",
+      "subcategoriesTitle": "Subcategories",
+      "subcategories": {
+        "maleVyseky": {
+          "name": "Small discs Ø 50 – 150 mm",
+          "description": "Compact round discs from 50 to 150 mm for mini sanders, random orbit sanders and micro tools – ideal for precise, detailed sanding."
+        },
+        "strednePriemery": {
+          "name": "Medium discs Ø 180 – 300 mm",
+          "description": "Discs from 180 to 300 mm in diameter for standard disc and orbit sanders working medium-sized surfaces."
+        },
+        "velkePriemery": {
+          "name": "Large discs Ø 370 – 600 mm",
+          "description": "Professional large-format discs from 370 to 600 mm for disc sanders and sanding tables."
+        },
+        "papier115mm": {
+          "name": "Sandpaper Ø 115 mm",
+          "description": "Sandpaper with a 115 mm diameter and hook-and-loop backing, suited especially to angle grinders and medium-sized surfaces."
+        },
+        "podlozky": {
+          "name": "Backing pads and hook-and-loop accessories",
+          "description": "Foam interface pads between the backing plate and the disc, plus hook-and-loop backing pads sized to match your chosen diameter, extending the life of both the abrasive and the sander."
+        }
+      }
     }
   },
   "brands": {
@@ -1568,6 +1596,10 @@
       "nastrojeDoMiniFrezky": {
         "title": "Mini grinder tools – subcategory overview | Marián s.r.o.",
         "description": "Arbortech, Manpa, Saburrtooth and Merlin mini milling discs and rasps with a 50 mm diameter and 10 mm bore – a complete overview of subcategories and products."
+      },
+      "brusneVysekyNaMieru": {
+        "title": "Custom-cut sanding discs – subcategory overview | Marián s.r.o.",
+        "description": "Round sanding discs from Ø50 to 600 mm with hook-and-loop backing, sandpaper and cloth, foam interface pads – a complete overview of subcategories and products."
       }
     },
     "brands": {

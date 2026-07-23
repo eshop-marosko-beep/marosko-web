@@ -76,6 +76,18 @@ export const kategorieArticles: KategorieArticle[] = [
       { translationKey: "merlin" },
     ],
   },
+  {
+    slug: "brusne-vyseky-brusny-papier-platno",
+    translationKey: "brusneVysekyNaMieru",
+    eshopUrl: "https://eshop.marosko.sk/c/brusne-vyseky-brusny-papier-platno",
+    subcategories: [
+      { translationKey: "maleVyseky" },
+      { translationKey: "strednePriemery" },
+      { translationKey: "velkePriemery" },
+      { translationKey: "papier115mm" },
+      { translationKey: "podlozky" },
+    ],
+  },
 ];
 
 export function getKategorieArticle(slug: string) {
