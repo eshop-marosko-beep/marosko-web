@@ -48,36 +48,40 @@ export default async function KategorieDetailPage({
       <p className="text-gray-600 text-lg leading-relaxed mb-4">{t("lead")}</p>
       <p className="text-gray-600 leading-relaxed mb-10">{t("brands")}</p>
 
-      <h2 className="text-2xl font-bold text-espresso-800 mb-6">{t("subcategoriesTitle")}</h2>
-      <div className="space-y-6 mb-10">
-        {article.subcategories.map(({ translationKey, galleryLinks }) => (
-          <div key={translationKey} className="bg-white rounded-xl shadow-lg p-6">
-            <h3 className="text-lg font-bold text-espresso-800 mb-2">
-              {t(`subcategories.${translationKey}.name`)}
-            </h3>
-            <p className="text-gray-600 leading-relaxed">
-              {t(`subcategories.${translationKey}.description`)}
-            </p>
-            {galleryLinks && galleryLinks.length > 0 && (
-              <div className="flex flex-wrap gap-x-4 gap-y-2 mt-4">
-                {galleryLinks.map((gallerySlug) => {
-                  const category = getGalleryCategory(gallerySlug);
-                  if (!category) return null;
-                  return (
-                    <Link
-                      key={gallerySlug}
-                      href={`/galeria/${gallerySlug}`}
-                      className="text-amber-700 font-semibold hover:underline text-sm"
-                    >
-                      {tGallery(`${category.translationKey}.title`)} →
-                    </Link>
-                  );
-                })}
+      {article.subcategories.length > 0 && (
+        <>
+          <h2 className="text-2xl font-bold text-espresso-800 mb-6">{t("subcategoriesTitle")}</h2>
+          <div className="space-y-6 mb-10">
+            {article.subcategories.map(({ translationKey, galleryLinks }) => (
+              <div key={translationKey} className="bg-white rounded-xl shadow-lg p-6">
+                <h3 className="text-lg font-bold text-espresso-800 mb-2">
+                  {t(`subcategories.${translationKey}.name`)}
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  {t(`subcategories.${translationKey}.description`)}
+                </p>
+                {galleryLinks && galleryLinks.length > 0 && (
+                  <div className="flex flex-wrap gap-x-4 gap-y-2 mt-4">
+                    {galleryLinks.map((gallerySlug) => {
+                      const category = getGalleryCategory(gallerySlug);
+                      if (!category) return null;
+                      return (
+                        <Link
+                          key={gallerySlug}
+                          href={`/galeria/${gallerySlug}`}
+                          className="text-amber-700 font-semibold hover:underline text-sm"
+                        >
+                          {tGallery(`${category.translationKey}.title`)} →
+                        </Link>
+                      );
+                    })}
+                  </div>
+                )}
               </div>
-            )}
+            ))}
           </div>
-        ))}
-      </div>
+        </>
+      )}
 
       <a
         href={article.eshopUrl}

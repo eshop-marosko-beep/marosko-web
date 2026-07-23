@@ -20,7 +20,14 @@ export async function generateMetadata({
   });
 }
 
-const categoryKeys = [
+type CategoryCard = {
+  key: string;
+  url: string;
+  image: string;
+  slug: string | null;
+};
+
+const categoryKeys: CategoryCard[] = [
   {
     key: "angleGrinder",
     url: "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky",
@@ -96,28 +103,28 @@ const categoryKeys = [
     key: "stands",
     url: "https://eshop.marosko.sk/c/zveraky-svorky-drziaky-vrtacky-naradie",
     image: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/grinder-holder-/grinder--holder.jpg",
-    slug: null,
+    slug: "zveraky-svorky-drziaky-vrtacky-naradie",
   },
   {
     key: "misc",
     url: "https://eshop.marosko.sk/c/rezbarske-prislusenstvo-doplnky",
     image: "https://eshop.marosko.sk/resize/e/440/440/files/rucne-naradie/brusny-kamen.jpg",
-    slug: null,
+    slug: "rezbarske-prislusenstvo-doplnky",
   },
   {
     key: "carvingBlanks",
     url: "https://eshop.marosko.sk/c/listy-carvingove-vytvarnicke",
     image: "https://eshop.marosko.sk/resize/e/440/440/files/oregon-/lista/oregon-carving-535044.jpg",
-    slug: null,
+    slug: "listy-carvingove-vytvarnicke",
   },
   {
     key: "shankTools",
     url: "https://eshop.marosko.sk/c/stopkove-nastroje",
     image:
       "https://eshop.marosko.sk/resize/e/440/440/files/stopkove-frezky/50mm/8025-2-hrcovnik-50-mm-titan-silverline.webp",
-    slug: null,
+    slug: "stopkove-nastroje",
   },
-] as const;
+];
 
 export default async function CategoriesPage({
   params,
