@@ -336,6 +336,158 @@
           "description": "Molitanové medzipodložky medzi unášač a výsek a hačkové podklady pre suchý zips podľa zvoleného priemeru, ktoré predĺžia životnosť brúsiva aj brúsky."
         }
       }
+    },
+    "elektrickeNaradie": {
+      "title": "Elektrické náradie pre rezbárov – kompletný prehľad",
+      "lead": "Elektrické náradie doplní ručné nástroje tam, kde treba rýchlejší a razantnejší úber materiálu – od priamych brúsok cez viacúčelové brúsky až po špecializované rezbárske stroje. Sortiment je rozdelený podľa výrobcu, aby ste si ľahko našli náhradné diely aj príslušenstvo k svojmu stroju.",
+      "brands": "Nájdete tu produkty značiek Arbortech, Extol Premium, Kirjes, Tuson, Proxxon, Silverline a Total – od austrálskych inovácií cez fínsku presnosť až po cenovo dostupné stroje s dlhou zárukou.",
+      "subcategoriesTitle": "Podkategórie",
+      "subcategories": {
+        "arbortech": {
+          "name": "Arbortech náradie",
+          "description": "Spoľahlivé elektrické náradie z Austrálie – Power Chisel, Mini Carver, Turbo Plane a ďalšie stroje na rezbárske a tesárske opracovanie dreva."
+        },
+        "extolPremium": {
+          "name": "Extol Premium priame brúsky",
+          "description": "Priame brúsky Extol na drevo, kov, plast aj kosti – vhodné na brúsenie, frézovanie a odhrotovanie aj na ťažko dostupných miestach."
+        },
+        "kirjes": {
+          "name": "Náradie Kirjes",
+          "description": "Elektrické náradie fínskej značky Kirjes zamerané na finálne opracovanie a povrchovú úpravu materiálov."
+        },
+        "tusonPriamaBruska": {
+          "name": "Priama brúska Tuson",
+          "description": "Kvalitná priama brúska od značky Tuson – dobrý pomer kvality a ceny pre bežné rezbárske použitie."
+        },
+        "proxxon": {
+          "name": "Proxxon náradie",
+          "description": "Elektrické náradie Proxxon a náhradné šmirgle – výber nástrojov vhodných pre precíznu prácu rezbárov."
+        },
+        "silverline": {
+          "name": "Náradie Silverline",
+          "description": "Elektrické náradie Silverline s 3-ročnou zárukou po registrácii výrobku."
+        },
+        "total": {
+          "name": "Náradie Total",
+          "description": "Cenovo dostupné elektrické náradie značky Total – brúsky, píly aj leštičky s dôrazom na spoľahlivosť."
+        }
+      }
+    },
+    "akumulatoroveNaradie": {
+      "title": "Akumulátorové náradie – kompletný prehľad",
+      "lead": "Akumulátorové náradie oceníte všade tam, kde vás obmedzuje predlžovací kábel – v teréne, v dielni aj pri práci na väčších drevených konštrukciách. Ponuku tvoria akumulátorové brúsky aj reťazové píly od značky Total.",
+      "brands": "Sortiment zastrešuje overená značka Total, ktorá stavia na dobrom pomere kvality a ceny pri akumulátorovom náradí.",
+      "subcategoriesTitle": "Podkategórie",
+      "subcategories": {
+        "bruskyAku": {
+          "name": "Akumulátorové brúsky",
+          "description": "Bezkáblové brúsky Total na brúsenie a rezanie materiálov priamo v teréne aj v dielni."
+        },
+        "pilyAku": {
+          "name": "Akumulátorové píly",
+          "description": "Akumulátorové reťazové píly a súvisiace batériové príslušenstvo Total pre kutilov aj majstrov."
+        }
+      }
+    },
+    "rucneNaradie": {
+      "title": "Ručné náradie do dielne – kompletný prehľad",
+      "lead": "Kvalitné ručné náradie je základom každej rezbárskej a stolárskej dielne. V ponuke nájdete pilníky a rašple, rezbárske dláta aj nože, rydlá na linoryt a drevorezbu, a tesárske dláta – nástroje, ktoré vydržia roky presnej práce.",
+      "brands": "Sortiment tvoria overené značky M. Stein a Stubai – rakúska a slovenská tradícia ručne kovaného náradia z kvalitnej uhlíkovej ocele.",
+      "subcategoriesTitle": "Podkategórie",
+      "subcategories": {
+        "pilniky": {
+          "name": "Pilníky a rašple",
+          "description": "Pilníky pre drevo, kov aj reťaze, diamantové pilníky, tvrdokovové rašple a ostriace bloky – presné nástroje na brúsenie a tvarovanie."
+        },
+        "dlata": {
+          "name": "Rezbárske dláta",
+          "description": "Profesionálne rezbárske dláta značiek Stubai a M. Stein – kalená a ostrá oceľ pre rezbárov, sochárov aj rytcov."
+        },
+        "noze": {
+          "name": "Rezbárske nože",
+          "description": "Ostré a spoľahlivé rezbárske nože na presnú prácu s drevom, vhodné pre začiatočníkov aj pokročilých rezbárov."
+        },
+        "rydla": {
+          "name": "Rydlá na linoryt a drevorezbu",
+          "description": "Rydlá od M. Stein a Stubai vhodné na linoryt, drevorezbu aj umeleckú tvorbu, s kvalitnou oceľou a pohodlnými rukoväťami."
+        },
+        "tesarskeDlata": {
+          "name": "Tesárske dláta",
+          "description": "Kvalitné tesárske dláta rakúskej značky Stubai na presné opracovanie dreva pri tesárskych prácach."
+        }
+      }
+    },
+    "nateryTmelyBrusiva": {
+      "title": "Nátery, tmely, brúsivá a prípravky na drevo – kompletný prehľad",
+      "lead": "Správna povrchová úprava ochráni drevo aj zvýrazní jeho prirodzenú krásu. V ponuke nájdete šelaky a moridlá, vosky a olejové nátery, živice a tmely na odlievanie, prípravky proti červotočom aj materiály na pozlacovanie a striebrenie.",
+      "brands": "Doplnkový sortiment tvoria aj riedidlá a odmasťovacie prípravky na dokonalé čistenie povrchu pred nanesením náteru.",
+      "subcategoriesTitle": "Podkategórie",
+      "subcategories": {
+        "pozlacovanie": {
+          "name": "Pozlacovanie a striebrenie",
+          "description": "Pravé zlaté a strieborné plátky, špeciálne lepidlá a nástroje pre umelecké pozlacovanie a striebrenie dreva, rámov aj sakrálnych predmetov."
+        },
+        "protiCervotocom": {
+          "name": "Prípravky proti červotočom",
+          "description": "Profesionálne prípravky na okamžitú likvidáciu aj preventívnu ochranu dreva pred drevokazným hmyzom."
+        },
+        "riedenie": {
+          "name": "Riedenie a odmasťovanie",
+          "description": "Prípravky na dokonalé odmastenie a čistenie povrchu dreva pred nanesením náteru."
+        },
+        "selakyMoridla": {
+          "name": "Šelaky a moridlá",
+          "description": "Náterový šelak v lupienkovej forme aj hotová náterová politúra pre kvalitné šelakovanie a morenie dreva."
+        },
+        "vosky": {
+          "name": "Vosky a olejové nátery",
+          "description": "Vosky a oleje na voskovanie a olejovanie drevených materiálov, ktoré zvýraznia štruktúru dreva a chránia povrch."
+        },
+        "zivice": {
+          "name": "Živice a tmely",
+          "description": "Akrylové a polymérové živice na odliatky a zalievanie, vhodné aj na tvorbu dekoratívnych prvkov z dreva a živice."
+        }
+      }
+    },
+    "ochrannePomocky": {
+      "title": "Ochranné pomôcky pri práci – kompletný prehľad",
+      "lead": "Bezpečnosť pri práci s rezbárskym a drevoobrábacím náradím je rovnako dôležitá ako kvalita samotných nástrojov. V ponuke nájdete ochranu rúk, tela, tváre, dýchacích ciest a sluchu aj bezpečnostnú pracovnú obuv.",
+      "brands": "Sortiment pokrýva kompletnú ochranu od hlavy až po nohy pre rezbárov, pilčíkov aj domácich majstrov.",
+      "subcategoriesTitle": "Podkategórie",
+      "subcategories": {
+        "obuv": {
+          "name": "Bezpečnostná a pracovná obuv",
+          "description": "Kvalitná bezpečnostná a pracovná obuv pre celodennú prácu v dielni aj v teréne."
+        },
+        "ruky": {
+          "name": "Ochrana rúk",
+          "description": "Pracovné, antivibračné aj protiporezové rukavice chrániace ruky pred záderami aj porezaním."
+        },
+        "telo": {
+          "name": "Ochrana tela",
+          "description": "Montérky, nepremokavé obleky, protiporezové nohavice a návleky pre bezpečnú prácu s rezbárskym náradím."
+        },
+        "tvarDychanieSluch": {
+          "name": "Ochrana tváre, dýchacích ciest a sluchu",
+          "description": "Prilby, masky, respirátory aj chrániče sluchu na ochranu zraku, dýchacích ciest a uší pri práci s náradím."
+        }
+      }
+    },
+    "nahradneDiely": {
+      "title": "Výmenné a náhradné diely – kompletný prehľad",
+      "lead": "Namiesto kúpy nového nástroja často stačí vymeniť opotrebovaný diel. V ponuke nájdete originálne náhradné diely pre náradie Arbortech aj Manpa – zuby do frézovacích kotúčov, uhlíky, remene a ďalšie súčiastky.",
+      "brands": "Diely sú rozdelené podľa výrobcu, aby ste rýchlo našli presne ten diel, ktorý potrebujete k svojmu nástroju Arbortech alebo Manpa.",
+      "subcategoriesTitle": "Podkategórie",
+      "subcategories": {
+        "arbortechDiely": {
+          "name": "Arbortech diely",
+          "description": "Originálne náhradné diely Arbortech – uhlíky, remene aj náhradné frézovacie zuby pre stroje tejto značky."
+        },
+        "manpaDiely": {
+          "name": "Manpa diely",
+          "description": "Náhradné diely pre náradie Manpa Kórea – náhradný diel pre frézovací kotúč aj remeň pre predlžovacie rameno."
+        }
+      }
     }
   },
   "brands": {
@@ -1600,6 +1752,30 @@
       "brusneVysekyNaMieru": {
         "title": "Brúsne výseky na mieru – prehľad podkategórií | Marián s.r.o.",
         "description": "Kruhové brúsne výseky od Ø50 do 600 mm na suchý zips, brúsny papier aj plátno, molitanové podložky – kompletný prehľad podkategórií a produktov."
+      },
+      "elektrickeNaradie": {
+        "title": "Elektrické náradie pre rezbárov – prehľad podkategórií | Marián s.r.o.",
+        "description": "Elektrické náradie Arbortech, Kirjes, Extol Premium, Proxxon, Silverline a Total pre rezbárov – kompletný prehľad podkategórií a produktov."
+      },
+      "akumulatoroveNaradie": {
+        "title": "Akumulátorové náradie – prehľad podkategórií | Marián s.r.o.",
+        "description": "Akumulátorové brúsky a reťazové píly Total – kompletný prehľad podkategórií a produktov bezkáblového náradia pre rezbárov."
+      },
+      "rucneNaradie": {
+        "title": "Ručné náradie do dielne – prehľad podkategórií | Marián s.r.o.",
+        "description": "Pilníky, rezbárske dláta a nože, rydlá na linoryt a tesárske dláta značiek M. Stein a Stubai – kompletný prehľad podkategórií a produktov."
+      },
+      "nateryTmelyBrusiva": {
+        "title": "Nátery, tmely, brúsivá a prípravky na drevo – prehľad podkategórií | Marián s.r.o.",
+        "description": "Šelaky, vosky, živice, tmely aj prípravky proti červotočom na ošetrenie dreva – kompletný prehľad podkategórií a produktov."
+      },
+      "ochrannePomocky": {
+        "title": "Ochranné pomôcky pri práci – prehľad podkategórií | Marián s.r.o.",
+        "description": "Ochranné rukavice, obuv, oblečenie aj ochrana dýchacích ciest a sluchu pre rezbárov – kompletný prehľad podkategórií a produktov."
+      },
+      "nahradneDiely": {
+        "title": "Výmenné a náhradné diely – prehľad podkategórií | Marián s.r.o.",
+        "description": "Originálne náhradné diely Arbortech a Manpa – uhlíky, remene a frézovacie zuby. Kompletný prehľad podkategórií a produktov."
       }
     },
     "brands": {

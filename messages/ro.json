@@ -336,6 +336,158 @@
           "description": "Suporturi intermediare din spumă între platan și disc, precum și suporturi velcro potrivite diametrului ales, care prelungesc durata de viață a abrazivului și a polizorului."
         }
       }
+    },
+    "elektrickeNaradie": {
+      "title": "Unelte electrice pentru sculptori – prezentare completă",
+      "lead": "Uneltele electrice completează uneltele manuale acolo unde este nevoie de o îndepărtare mai rapidă și mai puternică a materialului – de la polizoare drepte la polizoare multifuncționale și mașini specializate de sculptură. Gama este organizată pe producători, pentru a găsi ușor piese de schimb și accesorii pentru mașina dumneavoastră.",
+      "brands": "Aici găsiți produse ale mărcilor Arbortech, Extol Premium, Kirjes, Tuson, Proxxon, Silverline și Total – de la inovațiile australiene la precizia finlandeză și mașini accesibile ca preț, cu garanție îndelungată.",
+      "subcategoriesTitle": "Subcategorii",
+      "subcategories": {
+        "arbortech": {
+          "name": "Unelte Arbortech",
+          "description": "Unelte electrice fiabile din Australia – Power Chisel, Mini Carver, Turbo Plane și alte mașini pentru prelucrarea sculpturală și tâmplărească a lemnului."
+        },
+        "extolPremium": {
+          "name": "Polizoare drepte Extol Premium",
+          "description": "Polizoare drepte Extol pentru lemn, metal, plastic și os – potrivite pentru șlefuire, frezare și debavurare, chiar și în zone greu accesibile."
+        },
+        "kirjes": {
+          "name": "Unelte Kirjes",
+          "description": "Unelte electrice de la marca finlandeză Kirjes, axate pe finisarea finală și tratarea suprafeței materialelor."
+        },
+        "tusonPriamaBruska": {
+          "name": "Polizor drept Tuson",
+          "description": "Un polizor drept de calitate de la marca Tuson – un raport bun calitate-preț pentru utilizarea obișnuită în sculptură."
+        },
+        "proxxon": {
+          "name": "Unelte Proxxon",
+          "description": "Unelte electrice Proxxon și benzi abrazive de schimb – o selecție de unelte potrivite pentru lucrul de precizie al sculptorilor."
+        },
+        "silverline": {
+          "name": "Unelte Silverline",
+          "description": "Unelte electrice Silverline cu garanție de 3 ani după înregistrarea produsului."
+        },
+        "total": {
+          "name": "Unelte Total",
+          "description": "Unelte electrice accesibile ca preț de la marca Total – polizoare, ferăstraie și lustruitoare axate pe fiabilitate."
+        }
+      }
+    },
+    "akumulatoroveNaradie": {
+      "title": "Unelte cu acumulator – prezentare completă",
+      "lead": "Uneltele cu acumulator sunt utile oriunde un cablu prelungitor v-ar limita – în teren, în atelier sau la lucrul pe structuri de lemn mai mari. Gama include polizoare cu acumulator și ferăstraie-lanț de la marca Total.",
+      "brands": "Gama este acoperită de marca de încredere Total, care mizează pe un raport bun calitate-preț pentru uneltele cu acumulator.",
+      "subcategoriesTitle": "Subcategorii",
+      "subcategories": {
+        "bruskyAku": {
+          "name": "Polizoare cu acumulator",
+          "description": "Polizoare fără cablu Total pentru șlefuirea și tăierea materialelor direct în teren sau în atelier."
+        },
+        "pilyAku": {
+          "name": "Ferăstraie cu acumulator",
+          "description": "Ferăstraie-lanț cu acumulator și accesorii pe bază de baterie Total pentru pasionați și meșteri deopotrivă."
+        }
+      }
+    },
+    "rucneNaradie": {
+      "title": "Unelte manuale pentru atelier – prezentare completă",
+      "lead": "Uneltele manuale de calitate sunt fundamentul oricărui atelier de sculptură și tâmplărie. Gama noastră include pile și raspele, dălți și cuțite de sculptură, dăltițe pentru linogravură și gravură în lemn, precum și dălți de tâmplărie – unelte făcute să reziste ani de lucru de precizie.",
+      "brands": "Gama include mărci de încredere M. Stein și Stubai – tradiția austriacă și slovacă a uneltelor forjate manual din oțel carbon de calitate.",
+      "subcategoriesTitle": "Subcategorii",
+      "subcategories": {
+        "pilniky": {
+          "name": "Pile și raspele",
+          "description": "Pile pentru lemn, metal și lanțuri, pile diamantate, raspele din carbură și pietre de ascuțit – unelte precise pentru ascuțire și modelare."
+        },
+        "dlata": {
+          "name": "Dălți de sculptură",
+          "description": "Dălți de sculptură profesionale de la Stubai și M. Stein – oțel călit și ascuțit pentru sculptori, artiști plastici și gravori."
+        },
+        "noze": {
+          "name": "Cuțite de sculptură",
+          "description": "Cuțite de sculptură ascuțite și fiabile pentru lucrul de precizie cu lemnul, potrivite atât începătorilor, cât și sculptorilor avansați."
+        },
+        "rydla": {
+          "name": "Dăltițe pentru linogravură și gravură în lemn",
+          "description": "Dăltițe de la M. Stein și Stubai potrivite pentru linogravură, gravură în lemn și creație artistică, cu oțel de calitate și mânere confortabile."
+        },
+        "tesarskeDlata": {
+          "name": "Dălți de tâmplărie",
+          "description": "Dălți de tâmplărie de calitate de la marca austriacă Stubai pentru prelucrarea precisă a lemnului la lucrările de tâmplărie."
+        }
+      }
+    },
+    "nateryTmelyBrusiva": {
+      "title": "Finisaje, chituri, abrazivi și produse pentru tratarea lemnului – prezentare completă",
+      "lead": "Tratamentul potrivit al suprafeței protejează lemnul și îi scoate în evidență frumusețea naturală. Gama noastră include șelac și baițuri, ceruri și finisaje pe bază de ulei, rășini și chituri pentru turnare, produse împotriva carilor lemnului, precum și materiale pentru poleire cu aur și argint.",
+      "brands": "Gama este completată de diluanți și degresanți pentru curățarea temeinică a suprafeței înainte de aplicarea unui finisaj.",
+      "subcategoriesTitle": "Subcategorii",
+      "subcategories": {
+        "pozlacovanie": {
+          "name": "Poleire cu aur și argint",
+          "description": "Foițe autentice de aur și argint, adezivi speciali și unelte pentru poleirea artistică a lemnului, ramelor și obiectelor sacre."
+        },
+        "protiCervotocom": {
+          "name": "Produse împotriva carilor lemnului",
+          "description": "Produse profesionale pentru eliminarea imediată și protecția preventivă a lemnului împotriva insectelor xilofage."
+        },
+        "riedenie": {
+          "name": "Diluare și degresare",
+          "description": "Produse pentru degresarea și curățarea temeinică a suprafeței lemnului înainte de aplicarea unui finisaj."
+        },
+        "selakyMoridla": {
+          "name": "Șelac și baițuri",
+          "description": "Șelac sub formă de fulgi, precum și lac gata preparat pe bază de șelac, pentru un tratament de calitate al lemnului."
+        },
+        "vosky": {
+          "name": "Ceruri și finisaje pe bază de ulei",
+          "description": "Ceruri și uleiuri pentru tratarea materialelor din lemn, care scot în evidență structura lemnului și protejează suprafața."
+        },
+        "zivice": {
+          "name": "Rășini și chituri",
+          "description": "Rășini acrilice și polimerice pentru turnare, potrivite și pentru crearea de piese decorative din lemn și rășină."
+        }
+      }
+    },
+    "ochrannePomocky": {
+      "title": "Echipamente de protecție la lucru – prezentare completă",
+      "lead": "Siguranța la lucrul cu unelte de sculptură și prelucrarea lemnului este la fel de importantă ca și calitatea uneltelor în sine. Gama noastră include protecție pentru mâini, corp, față, căi respiratorii și auz, precum și încălțăminte de protecție.",
+      "brands": "Gama acoperă protecția completă, din cap până în picioare, pentru sculptori, tăietori de lemne și meșteri casnici deopotrivă.",
+      "subcategoriesTitle": "Subcategorii",
+      "subcategories": {
+        "obuv": {
+          "name": "Încălțăminte de protecție și de lucru",
+          "description": "Încălțăminte de protecție și de lucru de calitate pentru activitate de o zi întreagă în atelier sau în teren."
+        },
+        "ruky": {
+          "name": "Protecție pentru mâini",
+          "description": "Mănuși de lucru, antivibrații și rezistente la tăiere, care protejează mâinile de așchii și tăieturi."
+        },
+        "telo": {
+          "name": "Protecție pentru corp",
+          "description": "Salopete, costume impermeabile, pantaloni și maneci rezistente la tăiere pentru lucrul în siguranță cu unelte de sculptură."
+        },
+        "tvarDychanieSluch": {
+          "name": "Protecție pentru față, căi respiratorii și auz",
+          "description": "Căști, măști, respiratoare și antifoane pentru protecția ochilor, căilor respiratorii și urechilor la lucrul cu unelte."
+        }
+      }
+    },
+    "nahradneDiely": {
+      "title": "Piese de schimb – prezentare completă",
+      "lead": "În loc să cumpărați o unealtă nouă, adesea este suficient să înlocuiți o piesă uzată. Gama noastră include piese de schimb originale pentru uneltele Arbortech și Manpa – dinți pentru discuri de frezat, perii de carbon, curele și alte componente.",
+      "brands": "Piesele sunt organizate pe producători, pentru a găsi rapid exact piesa de care aveți nevoie pentru unealta dumneavoastră Arbortech sau Manpa.",
+      "subcategoriesTitle": "Subcategorii",
+      "subcategories": {
+        "arbortechDiely": {
+          "name": "Piese Arbortech",
+          "description": "Piese de schimb originale Arbortech – perii de carbon, curele și dinți de frezat de schimb pentru mașinile acestei mărci."
+        },
+        "manpaDiely": {
+          "name": "Piese Manpa",
+          "description": "Piese de schimb pentru uneltele Manpa Coreea – o piesă de schimb pentru discul de frezat și o curea pentru brațul prelungitor."
+        }
+      }
     }
   },
   "brands": {
@@ -1600,6 +1752,30 @@
       "brusneVysekyNaMieru": {
         "title": "Discuri abrazive decupate la comandă – prezentare subcategorii | Marián s.r.o.",
         "description": "Discuri abrazive rotunde de la Ø50 la 600 mm cu prindere velcro, hârtie și pânză abrazivă, suporturi din spumă – prezentare completă a subcategoriilor și produselor."
+      },
+      "elektrickeNaradie": {
+        "title": "Unelte electrice pentru sculptori – prezentare subcategorii | Marián s.r.o.",
+        "description": "Unelte electrice Arbortech, Kirjes, Extol Premium, Proxxon, Silverline și Total pentru sculptori – prezentare completă a subcategoriilor și produselor."
+      },
+      "akumulatoroveNaradie": {
+        "title": "Unelte cu acumulator – prezentare subcategorii | Marián s.r.o.",
+        "description": "Polizoare cu acumulator și ferăstraie-lanț Total – prezentare completă a subcategoriilor și produselor pentru unelte de sculptură cu acumulator."
+      },
+      "rucneNaradie": {
+        "title": "Unelte manuale pentru atelier – prezentare subcategorii | Marián s.r.o.",
+        "description": "Pile, dălți și cuțite de sculptură, dăltițe pentru linogravură și dălți de tâmplărie de la M. Stein și Stubai – prezentare completă a subcategoriilor și produselor."
+      },
+      "nateryTmelyBrusiva": {
+        "title": "Finisaje, chituri, abrazivi și produse pentru tratarea lemnului – prezentare subcategorii | Marián s.r.o.",
+        "description": "Șelac, ceruri, rășini, chituri și produse împotriva carilor lemnului pentru tratarea lemnului – prezentare completă a subcategoriilor și produselor."
+      },
+      "ochrannePomocky": {
+        "title": "Echipamente de protecție la lucru – prezentare subcategorii | Marián s.r.o.",
+        "description": "Mănuși, încălțăminte, îmbrăcăminte de protecție și protecție respiratorie și auditivă pentru sculptori – prezentare completă a subcategoriilor și produselor."
+      },
+      "nahradneDiely": {
+        "title": "Piese de schimb – prezentare subcategorii | Marián s.r.o.",
+        "description": "Piese de schimb originale Arbortech și Manpa – perii de carbon, curele și dinți de frezat. Prezentare completă a subcategoriilor și produselor."
       }
     },
     "brands": {
