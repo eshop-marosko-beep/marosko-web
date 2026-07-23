@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { shops } from "@/lib/shopsData";
 import { buildMetadata } from "@/lib/seo";
+import { getEshopUrl } from "@/lib/eshopUrl";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -47,7 +48,7 @@ export default async function ShopsPage({
               </p>
             </div>
             <a
-              href={url}
+              href={slug === "eshop-marosko" ? getEshopUrl(locale) : url}
               target="_blank"
               rel="noopener noreferrer"
               className="mt-4 inline-block text-amber-700 font-semibold hover:underline"

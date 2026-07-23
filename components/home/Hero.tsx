@@ -1,9 +1,11 @@
 import Image from "next/image";
 import { Link } from "@/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import { getEshopUrl } from "@/lib/eshopUrl";
 
 export default function Hero() {
   const t = useTranslations("home.hero");
+  const eshopUrl = getEshopUrl(useLocale());
 
   return (
     <section className="relative overflow-hidden">
@@ -32,7 +34,7 @@ export default function Hero() {
               {t("ctaPrimary")}
             </Link>
             <a
-              href="https://eshop.marosko.sk"
+              href={eshopUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="border-2 border-white text-white px-8 py-3 rounded-lg text-lg font-semibold hover:bg-white/10 transition-colors"

@@ -1,12 +1,14 @@
 "use client";
 
 import { Link } from "@/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { openCookieSettings } from "@/lib/cookieConsent";
 import SocialIcons from "@/components/SocialIcons";
+import { getEshopUrl } from "@/lib/eshopUrl";
 
 export default function Footer() {
   const t = useTranslations("footer");
+  const eshopUrl = getEshopUrl(useLocale());
 
   return (
     <footer className="bg-espresso-900 text-cream-100 mt-12">
@@ -55,7 +57,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="https://eshop.marosko.sk"
+                href={eshopUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-cream-100/80 hover:text-white transition-colors"
