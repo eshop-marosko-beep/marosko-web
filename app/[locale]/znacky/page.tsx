@@ -42,11 +42,12 @@ export default async function BrandsPage({
       <p className="text-gray-600 leading-relaxed mb-10 max-w-2xl">{t("intro")}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
-        {rankedBrands.map(({ id, name, url, logo, description }) => {
+        {rankedBrands.map(({ id, slug, name, url, logo, description }) => {
           return (
             <div
               key={id}
-              className="bg-white rounded-xl shadow-lg p-6 border border-transparent hover:border-amber-200 transition-colors"
+              id={slug}
+              className="bg-white rounded-xl shadow-lg p-6 border border-transparent hover:border-amber-200 transition-colors scroll-mt-24"
             >
               {logo && (
                 <div className="relative h-10 w-28 mb-3">

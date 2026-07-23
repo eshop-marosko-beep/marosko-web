@@ -28,6 +28,22 @@ const nextConfig: NextConfig = {
         destination: '/o-nas',
         permanent: true,
       },
+      // Legacy Joomla article about the Arbortech brand, still indexed by
+      // search engines. Redirect it to the matching brand card instead of
+      // 404ing.
+      {
+        source: '/index.php/home',
+        destination: '/znacky#arbortech',
+        permanent: true,
+      },
+      // Legacy Joomla article about the King Arthur's Tools brand, still
+      // indexed by search engines under a "/o-nas" alias unrelated to the
+      // current About Us page. Redirect it to the matching brand card.
+      {
+        source: '/index.php/o-nas',
+        destination: '/znacky#kingArthurUsa',
+        permanent: true,
+      },
     ];
   },
 };
