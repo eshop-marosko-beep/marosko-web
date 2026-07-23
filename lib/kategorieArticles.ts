@@ -88,6 +88,68 @@ export const kategorieArticles: KategorieArticle[] = [
       { translationKey: "podlozky" },
     ],
   },
+  {
+    slug: "elektricke-naradie-pre-rezbarov",
+    translationKey: "elektrickeNaradie",
+    eshopUrl: "https://eshop.marosko.sk/c/elektricke-naradie-pre-rezbarov",
+    subcategories: [
+      { translationKey: "arbortech" },
+      { translationKey: "extolPremium" },
+      { translationKey: "kirjes" },
+      { translationKey: "tusonPriamaBruska" },
+      { translationKey: "proxxon" },
+      { translationKey: "silverline" },
+      { translationKey: "total" },
+    ],
+  },
+  {
+    slug: "akumulatorove-naradie",
+    translationKey: "akumulatoroveNaradie",
+    eshopUrl: "https://eshop.marosko.sk/c/akumulatorove-naradie",
+    subcategories: [{ translationKey: "bruskyAku" }, { translationKey: "pilyAku" }],
+  },
+  {
+    slug: "rucne-naradie",
+    translationKey: "rucneNaradie",
+    eshopUrl: "https://eshop.marosko.sk/c/rucne-naradie",
+    subcategories: [
+      { translationKey: "pilniky" },
+      { translationKey: "dlata" },
+      { translationKey: "noze" },
+      { translationKey: "rydla" },
+      { translationKey: "tesarskeDlata" },
+    ],
+  },
+  {
+    slug: "lak-selak-natery-tmely-brusiva-pripravky-na-drevo",
+    translationKey: "nateryTmelyBrusiva",
+    eshopUrl: "https://eshop.marosko.sk/c/lak-selak-natery-tmely-brusiva-pripravky-na-drevo",
+    subcategories: [
+      { translationKey: "pozlacovanie" },
+      { translationKey: "protiCervotocom" },
+      { translationKey: "riedenie" },
+      { translationKey: "selakyMoridla" },
+      { translationKey: "vosky", galleryLinks: ["selaky-vosky-natery-na-drevo"] },
+      { translationKey: "zivice" },
+    ],
+  },
+  {
+    slug: "ochranne-pomocky-pri-praci",
+    translationKey: "ochrannePomocky",
+    eshopUrl: "https://eshop.marosko.sk/c/ochranne-pomocky-pri-praci",
+    subcategories: [
+      { translationKey: "obuv" },
+      { translationKey: "ruky" },
+      { translationKey: "telo" },
+      { translationKey: "tvarDychanieSluch" },
+    ],
+  },
+  {
+    slug: "nahradne-noze-nastrojov-diely-arbortech",
+    translationKey: "nahradneDiely",
+    eshopUrl: "https://eshop.marosko.sk/c/nahradne-noze-nastrojov-diely-arbortech",
+    subcategories: [{ translationKey: "arbortechDiely" }, { translationKey: "manpaDiely" }],
+  },
 ];
 
 export function getKategorieArticle(slug: string) {

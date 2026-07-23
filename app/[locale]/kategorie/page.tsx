@@ -51,14 +51,14 @@ const categoryKeys = [
     key: "powerTools",
     url: "https://eshop.marosko.sk/c/elektricke-naradie-pre-rezbarov",
     image: "https://eshop.marosko.sk/resize/e/440/440/files/elektricke-naradie/extol/extol-craft.jpg",
-    slug: null,
+    slug: "elektricke-naradie-pre-rezbarov",
   },
   {
     key: "cordless",
     url: "https://eshop.marosko.sk/c/akumulatorove-naradie",
     image:
       "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/arbortech/aku-mini-grinder-/mg-1000-aku-mini-grinder-.jpg",
-    slug: null,
+    slug: "akumulatorove-naradie",
   },
   {
     key: "customAbrasive",
@@ -71,26 +71,26 @@ const categoryKeys = [
     key: "handTools",
     url: "https://eshop.marosko.sk/c/rucne-naradie",
     image: "https://eshop.marosko.sk/resize/e/440/440/files/rucne-naradie/diamantovy-blok.jpg",
-    slug: null,
+    slug: "rucne-naradie",
   },
   {
     key: "coatings",
     url: "https://eshop.marosko.sk/c/lak-selak-natery-tmely-brusiva-pripravky-na-drevo",
     image: "https://eshop.marosko.sk/resize/e/440/440/files/natery--tmely-brusiva/politury/lopticka-na-selak.jpg",
-    slug: null,
+    slug: "lak-selak-natery-tmely-brusiva-pripravky-na-drevo",
   },
   {
     key: "protective",
     url: "https://eshop.marosko.sk/c/ochranne-pomocky-pri-praci",
     image: "https://eshop.marosko.sk/resize/e/440/440/files/oregon-/ladvinovy-pas/or295488-m.jpg",
-    slug: null,
+    slug: "ochranne-pomocky-pri-praci",
   },
   {
     key: "spareParts",
     url: "https://eshop.marosko.sk/c/nahradne-noze-nastrojov-diely-arbortech",
     image:
       "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/unasac-s-drazkami-chladiaci-efekt-.jpg",
-    slug: null,
+    slug: "nahradne-noze-nastrojov-diely-arbortech",
   },
   {
     key: "stands",

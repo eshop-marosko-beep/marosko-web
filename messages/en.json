@@ -336,6 +336,158 @@
           "description": "Foam interface pads between the backing plate and the disc, plus hook-and-loop backing pads sized to match your chosen diameter, extending the life of both the abrasive and the sander."
         }
       }
+    },
+    "elektrickeNaradie": {
+      "title": "Power tools for carvers – complete overview",
+      "lead": "Power tools complement hand tools wherever you need faster, more forceful material removal – from straight grinders to multi-purpose grinders and dedicated carving machines. The range is organized by manufacturer, so you can quickly find spare parts and accessories for your machine.",
+      "brands": "You'll find products from Arbortech, Extol Premium, Kirjes, Tuson, Proxxon, Silverline and Total – from Australian innovation to Finnish precision and affordable machines with long warranties.",
+      "subcategoriesTitle": "Subcategories",
+      "subcategories": {
+        "arbortech": {
+          "name": "Arbortech tools",
+          "description": "Reliable power tools from Australia – Power Chisel, Mini Carver, Turbo Plane and other machines for carving and carpentry work on wood."
+        },
+        "extolPremium": {
+          "name": "Extol Premium straight grinders",
+          "description": "Extol straight grinders for wood, metal, plastic and bone – suited to sanding, milling and deburring, even in hard-to-reach spots."
+        },
+        "kirjes": {
+          "name": "Kirjes tools",
+          "description": "Power tools from the Finnish brand Kirjes, focused on final material finishing and surface treatment."
+        },
+        "tusonPriamaBruska": {
+          "name": "Tuson straight grinder",
+          "description": "A quality straight grinder from the Tuson brand – a good balance of quality and price for everyday carving use."
+        },
+        "proxxon": {
+          "name": "Proxxon tools",
+          "description": "Proxxon power tools and replacement sanding sleeves – a selection of tools suited to precise carving work."
+        },
+        "silverline": {
+          "name": "Silverline tools",
+          "description": "Silverline power tools with a 3-year warranty after product registration."
+        },
+        "total": {
+          "name": "Total tools",
+          "description": "Affordable power tools from the Total brand – grinders, saws and polishers built for reliability."
+        }
+      }
+    },
+    "akumulatoroveNaradie": {
+      "title": "Cordless tools – complete overview",
+      "lead": "Cordless tools shine wherever an extension cord would hold you back – outdoors, in the workshop, or working on larger wooden structures. The range includes cordless grinders and chainsaws from Total.",
+      "brands": "The range is covered by the trusted Total brand, built on a good balance of quality and price for cordless tools.",
+      "subcategoriesTitle": "Subcategories",
+      "subcategories": {
+        "bruskyAku": {
+          "name": "Cordless grinders",
+          "description": "Cordless Total grinders for sanding and cutting materials on site or in the workshop."
+        },
+        "pilyAku": {
+          "name": "Cordless saws",
+          "description": "Cordless chainsaws and related battery accessories from Total for hobbyists and professionals alike."
+        }
+      }
+    },
+    "rucneNaradie": {
+      "title": "Hand tools for the workshop – complete overview",
+      "lead": "Quality hand tools are the foundation of every carving and joinery workshop. Our range includes files and rasps, carving chisels and knives, linocut and wood-engraving gouges, and carpentry chisels – tools built to last years of precise work.",
+      "brands": "The range features trusted brands M. Stein and Stubai – Austrian and Slovak traditions of hand-forged tools made from quality carbon steel.",
+      "subcategoriesTitle": "Subcategories",
+      "subcategories": {
+        "pilniky": {
+          "name": "Files and rasps",
+          "description": "Files for wood, metal and chains, diamond files, carbide rasps and sharpening stones – precise tools for sharpening and shaping."
+        },
+        "dlata": {
+          "name": "Carving chisels",
+          "description": "Professional carving chisels from Stubai and M. Stein – hardened, sharp steel for carvers, sculptors and engravers."
+        },
+        "noze": {
+          "name": "Carving knives",
+          "description": "Sharp, reliable carving knives for precise woodwork, suited to both beginners and advanced carvers."
+        },
+        "rydla": {
+          "name": "Linocut and wood-engraving gouges",
+          "description": "Gouges from M. Stein and Stubai suited to linocut, wood engraving and artistic work, with quality steel and comfortable handles."
+        },
+        "tesarskeDlata": {
+          "name": "Carpentry chisels",
+          "description": "Quality carpentry chisels from the Austrian brand Stubai for precise wood processing in carpentry work."
+        }
+      }
+    },
+    "nateryTmelyBrusiva": {
+      "title": "Finishes, fillers, abrasives and wood treatments – complete overview",
+      "lead": "The right surface treatment protects wood and brings out its natural beauty. Our range includes shellac and stains, waxes and oil finishes, resins and fillers for casting, woodworm treatments, and materials for gilding and silvering.",
+      "brands": "The range is rounded out by thinners and degreasers for thoroughly cleaning the surface before applying a finish.",
+      "subcategoriesTitle": "Subcategories",
+      "subcategories": {
+        "pozlacovanie": {
+          "name": "Gilding and silvering",
+          "description": "Genuine gold and silver leaf, special adhesives and tools for artistic gilding and silvering of wood, frames and sacred objects."
+        },
+        "protiCervotocom": {
+          "name": "Woodworm treatments",
+          "description": "Professional products for immediate eradication and preventive protection of wood against wood-boring insects."
+        },
+        "riedenie": {
+          "name": "Thinning and degreasing",
+          "description": "Products for thoroughly degreasing and cleaning the wood surface before applying a finish."
+        },
+        "selakyMoridla": {
+          "name": "Shellac and stains",
+          "description": "Shellac in flake form as well as ready-made shellac polish for quality shellacking and staining of wood."
+        },
+        "vosky": {
+          "name": "Waxes and oil finishes",
+          "description": "Waxes and oils for waxing and oiling wood materials, bringing out the grain while protecting the surface."
+        },
+        "zivice": {
+          "name": "Resins and fillers",
+          "description": "Acrylic and polymer resins for casting and pouring, also suited to creating decorative wood-and-resin pieces."
+        }
+      }
+    },
+    "ochrannePomocky": {
+      "title": "Protective equipment – complete overview",
+      "lead": "Safety when working with carving and woodworking tools matters just as much as the quality of the tools themselves. Our range includes hand, body, face, respiratory and hearing protection, plus safety footwear.",
+      "brands": "The range covers complete protection from head to toe for carvers, chainsaw users and hobbyists alike.",
+      "subcategoriesTitle": "Subcategories",
+      "subcategories": {
+        "obuv": {
+          "name": "Safety and work footwear",
+          "description": "Quality safety and work footwear for all-day use in the workshop or on site."
+        },
+        "ruky": {
+          "name": "Hand protection",
+          "description": "Work, anti-vibration and cut-resistant gloves protecting hands from splinters and cuts."
+        },
+        "telo": {
+          "name": "Body protection",
+          "description": "Overalls, waterproof suits, cut-resistant trousers and sleeves for safe work with carving tools."
+        },
+        "tvarDychanieSluch": {
+          "name": "Face, respiratory and hearing protection",
+          "description": "Helmets, masks, respirators and hearing protection for eyes, airways and ears when working with tools."
+        }
+      }
+    },
+    "nahradneDiely": {
+      "title": "Replacement and spare parts – complete overview",
+      "lead": "Instead of buying a new tool, replacing a worn part is often enough. Our range includes genuine spare parts for Arbortech and Manpa tools – milling disc teeth, carbon brushes, belts and other components.",
+      "brands": "Parts are organized by manufacturer so you can quickly find exactly the part you need for your Arbortech or Manpa tool.",
+      "subcategoriesTitle": "Subcategories",
+      "subcategories": {
+        "arbortechDiely": {
+          "name": "Arbortech parts",
+          "description": "Genuine Arbortech spare parts – carbon brushes, belts and replacement milling teeth for this brand's machines."
+        },
+        "manpaDiely": {
+          "name": "Manpa parts",
+          "description": "Spare parts for Manpa Korea tools – a replacement part for the milling disc and a belt for the extension arm."
+        }
+      }
     }
   },
   "brands": {
@@ -1600,6 +1752,30 @@
       "brusneVysekyNaMieru": {
         "title": "Custom-cut sanding discs – subcategory overview | Marián s.r.o.",
         "description": "Round sanding discs from Ø50 to 600 mm with hook-and-loop backing, sandpaper and cloth, foam interface pads – a complete overview of subcategories and products."
+      },
+      "elektrickeNaradie": {
+        "title": "Power tools for carvers – subcategory overview | Marián s.r.o.",
+        "description": "Power tools from Arbortech, Kirjes, Extol Premium, Proxxon, Silverline and Total for carvers – a complete overview of subcategories and products."
+      },
+      "akumulatoroveNaradie": {
+        "title": "Cordless tools – subcategory overview | Marián s.r.o.",
+        "description": "Cordless grinders and chainsaws from Total – a complete overview of subcategories and products for cordless carving tools."
+      },
+      "rucneNaradie": {
+        "title": "Hand tools for the workshop – subcategory overview | Marián s.r.o.",
+        "description": "Files, carving chisels and knives, linocut gouges and carpentry chisels from M. Stein and Stubai – a complete overview of subcategories and products."
+      },
+      "nateryTmelyBrusiva": {
+        "title": "Finishes, fillers, abrasives and wood treatments – subcategory overview | Marián s.r.o.",
+        "description": "Shellac, waxes, resins, fillers and woodworm treatments for treating wood – a complete overview of subcategories and products."
+      },
+      "ochrannePomocky": {
+        "title": "Protective equipment – subcategory overview | Marián s.r.o.",
+        "description": "Protective gloves, footwear, clothing and respiratory and hearing protection for carvers – a complete overview of subcategories and products."
+      },
+      "nahradneDiely": {
+        "title": "Replacement and spare parts – subcategory overview | Marián s.r.o.",
+        "description": "Genuine Arbortech and Manpa spare parts – carbon brushes, belts and milling teeth. A complete overview of subcategories and products."
       }
     },
     "brands": {
