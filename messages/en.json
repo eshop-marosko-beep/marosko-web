@@ -1915,6 +1915,8 @@
   },
   "share": {
     "label": "Share:",
-    "shareOn": "Share on"
+    "shareOn": "Share on",
+    "copyForInstagram": "Copy link for Instagram",
+    "linkCopied": "Link copied – paste it into Instagram"
   }
 }
