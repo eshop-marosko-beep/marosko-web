@@ -1915,6 +1915,8 @@
   },
   "share": {
     "label": "Distribuie:",
-    "shareOn": "Distribuie pe"
+    "shareOn": "Distribuie pe",
+    "copyForInstagram": "Copiază linkul pentru Instagram",
+    "linkCopied": "Link copiat – lipește-l în Instagram"
   }
 }

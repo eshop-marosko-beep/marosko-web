@@ -1915,6 +1915,8 @@
   },
   "share": {
     "label": "Zdieľať:",
-    "shareOn": "Zdieľať na"
+    "shareOn": "Zdieľať na",
+    "copyForInstagram": "Skopírovať odkaz pre Instagram",
+    "linkCopied": "Odkaz skopírovaný – vlož ho do Instagramu"
   }
 }
