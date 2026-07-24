@@ -1912,5 +1912,9 @@
     "send": "Odeslat",
     "errorGeneric": "Omlouváme se, nastala chyba: {error}",
     "errorNetwork": "Omlouváme se, nepodařilo se připojit k serveru. Zkuste to později."
+  },
+  "share": {
+    "label": "Sdílet:",
+    "shareOn": "Sdílet na"
   }
 }

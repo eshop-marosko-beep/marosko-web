@@ -1912,5 +1912,9 @@
     "send": "Send",
     "errorGeneric": "Sorry, an error occurred: {error}",
     "errorNetwork": "Sorry, we couldn't connect to the server. Please try again later."
+  },
+  "share": {
+    "label": "Share:",
+    "shareOn": "Share on"
   }
 }

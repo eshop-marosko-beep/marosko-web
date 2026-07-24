@@ -7,6 +7,7 @@ import Footer from '@/components/Footer';
 import CookieConsent from '@/components/CookieConsent';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import ChatWidget from '@/components/ChatWidget';
+import ShareButtons from '@/components/ShareButtons';
 
 export default async function LocaleLayout({
   children,
@@ -36,6 +37,8 @@ export default async function LocaleLayout({
             <main className="container mx-auto p-4 py-12">
               {children}
             </main>
+
+            <ShareButtons />
 
             <Footer />
             <ChatWidget />
