@@ -16,7 +16,7 @@ export async function generateMetadata({
     path: "/kategorie",
     title: t("title"),
     description: t("description"),
-    image: categoryKeys[0].image,
+    image: "/brand/marosko-share-logo.jpg",
   });
 }
 
