@@ -1912,5 +1912,9 @@
     "send": "Trimite",
     "errorGeneric": "Ne pare rău, a apărut o eroare: {error}",
     "errorNetwork": "Ne pare rău, nu ne-am putut conecta la server. Încercați din nou mai târziu."
+  },
+  "share": {
+    "label": "Distribuie:",
+    "shareOn": "Distribuie pe"
   }
 }

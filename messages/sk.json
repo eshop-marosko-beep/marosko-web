@@ -1912,5 +1912,9 @@
     "send": "Odoslať",
     "errorGeneric": "Prepáčte, nastala chyba: {error}",
     "errorNetwork": "Prepáčte, nepodarilo sa pripojiť k serveru. Skúste to neskôr."
+  },
+  "share": {
+    "label": "Zdieľať:",
+    "shareOn": "Zdieľať na"
   }
 }
