@@ -3,7 +3,7 @@ import { getPathname } from "@/navigation";
 import { routing } from "@/routing";
 
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://marosko-web.vercel.app";
-export const DEFAULT_OG_IMAGE = "/gallery/frezovaci-kotuc-detail-rezbarska-praca.jpg";
+export const DEFAULT_OG_IMAGE = "/brand/marosko-share-logo.jpg";
 
 /** Maps internal locale/URL-prefix codes to valid ISO 639-1 hreflang values.
  * "cz" is the URL prefix for Czech (kept for the existing /cz URLs), but
