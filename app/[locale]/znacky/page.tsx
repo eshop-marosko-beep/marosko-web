@@ -37,9 +37,21 @@ export default async function BrandsPage({
 
   return (
     <div className="py-8 max-w-6xl mx-auto">
-      <h1 className="text-4xl font-bold text-espresso-800 mb-4">{t("title")}</h1>
-      <p className="text-gray-600 text-lg mb-4 max-w-2xl">{t("subtitle")}</p>
-      <p className="text-gray-600 leading-relaxed mb-10 max-w-2xl">{t("intro")}</p>
+      <div className="flex flex-col md:flex-row md:items-center gap-8 mb-10">
+        <div>
+          <h1 className="text-4xl font-bold text-espresso-800 mb-4">{t("title")}</h1>
+          <p className="text-gray-600 text-lg mb-4 max-w-2xl">{t("subtitle")}</p>
+          <p className="text-gray-600 leading-relaxed max-w-2xl">{t("intro")}</p>
+        </div>
+        <div className="relative h-40 w-40 shrink-0 mx-auto md:mx-0">
+          <Image
+            src="/brand/marosko-share-logo.jpg"
+            alt="MAROSKO.SK"
+            fill
+            className="object-contain rounded-full"
+          />
+        </div>
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
         {rankedBrands.map(({ id, slug, name, url, logo, description }) => {

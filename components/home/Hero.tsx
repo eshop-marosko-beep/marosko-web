@@ -19,6 +19,14 @@ export default function Hero() {
           className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-espresso-900/90 via-espresso-900/60 to-espresso-900/30" />
+        <div className="hidden sm:block absolute bottom-6 right-6 z-10 h-24 w-24 md:h-28 md:w-28">
+          <Image
+            src="/brand/marosko-share-logo.jpg"
+            alt="MAROSKO.SK"
+            fill
+            className="object-contain rounded-full shadow-lg ring-2 ring-white/80"
+          />
+        </div>
         <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-lg">
             {t("title")}
