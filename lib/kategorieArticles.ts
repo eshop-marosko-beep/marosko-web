@@ -54,7 +54,7 @@ export const kategorieArticles: KategorieArticle[] = [
     slug: "prislusenstva-do-priamej-brusky-frezky",
     translationKey: "nastrojeDoPriamejBrusky",
     eshopUrl: "https://eshop.marosko.sk/c/prislusenstva-do-priamej-brusky-frezky",
-    image: "https://eshop.marosko.sk/resize/e/1600/1600/files/nastroje-do-priamej-brusky/feature-6mm.jpg",
+    image: "https://eshop.marosko.sk/resize/e/1600/1600/files/nastroje-do-priamej-brusky/stopka-6mm/6s38.jpg",
     subcategories: [
       {
         translationKey: "stopky24mm",
