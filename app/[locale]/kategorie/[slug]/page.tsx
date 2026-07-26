@@ -48,13 +48,13 @@ export default async function KategorieDetailPage({
     <div className="py-8 max-w-3xl mx-auto">
       <h1 className="text-4xl font-bold text-espresso-800 mb-6">{t("title")}</h1>
       {article.image && (
-        <div className="relative h-64 md:h-80 rounded-xl overflow-hidden mb-6">
+        <div className="relative h-64 md:h-80 rounded-xl overflow-hidden mb-6 bg-cream-100">
           <Image
             src={article.image}
             alt={t("title")}
             fill
             sizes="(min-width: 768px) 768px, 100vw"
-            className="object-cover"
+            className="object-contain p-6"
             priority
           />
         </div>
