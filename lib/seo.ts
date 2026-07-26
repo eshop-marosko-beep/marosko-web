@@ -14,15 +14,6 @@ function toHreflang(locale: string): string {
   return HREFLANG_OVERRIDES[locale] ?? locale;
 }
 
-/** Maps internal locale/URL-prefix codes to valid ISO 639-1 hreflang values.
- * "cz" is the URL prefix for Czech (kept for the existing /cz URLs), but
- * "cz" is an ISO 3166-1 country code, not a language code — the correct
- * hreflang for Czech is "cs". Locales not listed here map to themselves. */
-const HREFLANG_OVERRIDES: Record<string, string> = { cz: "cs" };
-function toHreflang(locale: string): string {
-  return HREFLANG_OVERRIDES[locale] ?? locale;
-}
-
 /** Resolves a possibly-relative image path to an absolute URL. Leaves
  * already-absolute URLs (e.g. images hosted on eshop.marosko.sk) untouched. */
 export function toAbsoluteImageUrl(src: string): string {
