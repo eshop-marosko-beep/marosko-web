@@ -2,12 +2,16 @@ export type KategorieSubcategory = {
   translationKey: string;
   /** Slugs into /galeria/[slug] for subcategories we already cover with a dedicated gallery page. */
   galleryLinks?: string[];
+  /** Representative product photo for this subcategory, sourced from eshop.marosko.sk. */
+  image?: string;
 };
 
 export type KategorieArticle = {
   slug: string;
   translationKey: string;
   eshopUrl: string;
+  /** Hero photo for the article, sourced from eshop.marosko.sk. */
+  image?: string;
   subcategories: KategorieSubcategory[];
 };
 
@@ -50,15 +54,31 @@ export const kategorieArticles: KategorieArticle[] = [
     slug: "prislusenstva-do-priamej-brusky-frezky",
     translationKey: "nastrojeDoPriamejBrusky",
     eshopUrl: "https://eshop.marosko.sk/c/prislusenstva-do-priamej-brusky-frezky",
+    image: "https://eshop.marosko.sk/resize/e/1600/1600/files/nastroje-do-priamej-brusky/feature-6mm.jpg",
     subcategories: [
-      { translationKey: "stopky24mm" },
-      { translationKey: "stopky3mm" },
-      { translationKey: "stopky32mm" },
+      {
+        translationKey: "stopky24mm",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/saburr-tooth-32t18/32f18-50.jpg",
+      },
+      {
+        translationKey: "stopky3mm",
+        image:
+          "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/frezovacie/kartacovacia-hriadel/picaty.jpg",
+      },
+      {
+        translationKey: "stopky32mm",
+        image:
+          "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/stopka-3-2mm/valec/valec-gulaty-vrch/18bn14.jpg",
+      },
       {
         translationKey: "stopky6mm",
         galleryLinks: ["prislusenstvo-priamej-brusky"],
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/stopka-6mm/6s38.jpg",
       },
-      { translationKey: "stopky64mm" },
+      {
+        translationKey: "stopky64mm",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/rasple-sabur-usa/buzzout-bz21250/buyoot.jpg",
+      },
     ],
   },
   {
