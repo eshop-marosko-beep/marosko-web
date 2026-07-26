@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/navigation";
@@ -25,6 +26,7 @@ export async function generateMetadata({
     path: `/kategorie/${slug}`,
     title: t("title"),
     description: t("description"),
+    ...(article.image ? { image: article.image } : {}),
   });
 }
 
@@ -45,6 +47,18 @@ export default async function KategorieDetailPage({
   return (
     <div className="py-8 max-w-3xl mx-auto">
       <h1 className="text-4xl font-bold text-espresso-800 mb-6">{t("title")}</h1>
+      {article.image && (
+        <div className="relative h-64 md:h-80 rounded-xl overflow-hidden mb-6">
+          <Image
+            src={article.image}
+            alt={t("title")}
+            fill
+            sizes="(min-width: 768px) 768px, 100vw"
+            className="object-cover"
+            priority
+          />
+        </div>
+      )}
       <p className="text-gray-600 text-lg leading-relaxed mb-4">{t("lead")}</p>
       <p className="text-gray-600 leading-relaxed mb-10">{t("brands")}</p>
 
@@ -52,31 +66,47 @@ export default async function KategorieDetailPage({
         <>
           <h2 className="text-2xl font-bold text-espresso-800 mb-6">{t("subcategoriesTitle")}</h2>
           <div className="space-y-6 mb-10">
-            {article.subcategories.map(({ translationKey, galleryLinks }) => (
-              <div key={translationKey} className="bg-white rounded-xl shadow-lg p-6">
-                <h3 className="text-lg font-bold text-espresso-800 mb-2">
-                  {t(`subcategories.${translationKey}.name`)}
-                </h3>
-                <p className="text-gray-600 leading-relaxed">
-                  {t(`subcategories.${translationKey}.description`)}
-                </p>
-                {galleryLinks && galleryLinks.length > 0 && (
-                  <div className="flex flex-wrap gap-x-4 gap-y-2 mt-4">
-                    {galleryLinks.map((gallerySlug) => {
-                      const category = getGalleryCategory(gallerySlug);
-                      if (!category) return null;
-                      return (
-                        <Link
-                          key={gallerySlug}
-                          href={`/galeria/${gallerySlug}`}
-                          className="text-amber-700 font-semibold hover:underline text-sm"
-                        >
-                          {tGallery(`${category.translationKey}.title`)} →
-                        </Link>
-                      );
-                    })}
+            {article.subcategories.map(({ translationKey, galleryLinks, image }) => (
+              <div
+                key={translationKey}
+                className="bg-white rounded-xl shadow-lg p-6 sm:flex sm:gap-6"
+              >
+                {image && (
+                  <div className="relative h-40 sm:h-32 sm:w-32 shrink-0 rounded-lg overflow-hidden mb-4 sm:mb-0 bg-cream-100">
+                    <Image
+                      src={image}
+                      alt={t(`subcategories.${translationKey}.name`)}
+                      fill
+                      sizes="128px"
+                      className="object-contain p-2"
+                    />
                   </div>
                 )}
+                <div className="min-w-0">
+                  <h3 className="text-lg font-bold text-espresso-800 mb-2">
+                    {t(`subcategories.${translationKey}.name`)}
+                  </h3>
+                  <p className="text-gray-600 leading-relaxed">
+                    {t(`subcategories.${translationKey}.description`)}
+                  </p>
+                  {galleryLinks && galleryLinks.length > 0 && (
+                    <div className="flex flex-wrap gap-x-4 gap-y-2 mt-4">
+                      {galleryLinks.map((gallerySlug) => {
+                        const category = getGalleryCategory(gallerySlug);
+                        if (!category) return null;
+                        return (
+                          <Link
+                            key={gallerySlug}
+                            href={`/galeria/${gallerySlug}`}
+                            className="text-amber-700 font-semibold hover:underline text-sm"
+                          >
+                            {tGallery(`${category.translationKey}.title`)} →
+                          </Link>
+                        );
+                      })}
+                    </div>
+                  )}
+                </div>
               </div>
             ))}
           </div>
