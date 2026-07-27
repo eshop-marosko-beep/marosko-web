@@ -701,14 +701,203 @@ export const kategorieArticles: KategorieArticle[] = [
     slug: "elektricke-naradie-pre-rezbarov",
     translationKey: "elektrickeNaradie",
     eshopUrl: "https://eshop.marosko.sk/c/elektricke-naradie-pre-rezbarov",
+    image: "https://eshop.marosko.sk/resize/e/1600/1600/files/elektricke-naradie/mini-grindr.jpg",
     subcategories: [
-      { translationKey: "arbortech" },
-      { translationKey: "extolPremium" },
-      { translationKey: "kirjes" },
-      { translationKey: "tusonPriamaBruska" },
-      { translationKey: "proxxon" },
-      { translationKey: "silverline" },
-      { translationKey: "total" },
+      {
+        translationKey: "arbortech",
+        slug: "arbortech",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/arbortech-novinka/sada-power-chisel.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/elektricke-naradie-pre-rezbarov/arbortech-naradie",
+        products: [
+          {
+            id: "p838",
+            url: "https://eshop.marosko.sk/p/838/elektricke-dlato-arbortech-power-chisel-7-dielna-sada",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/arbortech-novinka/sada-power-chisel.jpg",
+          },
+          {
+            id: "p196",
+            url: "https://eshop.marosko.sk/p/196/elektricka-frezka-arbortech-mini-carver",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/arbortech-novinka/mini-carver/mini-carver-nova-1000w.png",
+          },
+          {
+            id: "p1396",
+            url: "https://eshop.marosko.sk/p/1396/arbortech-allsaw-as200x-stenova-pila",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/arbortech-allsaw-as200/arbortech-allsaw-as200x-masonry-saw-gallery-1a.jpg",
+          },
+          {
+            id: "p846",
+            url: "https://eshop.marosko.sk/p/846/elektricka-frezka-mini-grinder-trade-sada-remeslo",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/arbortech-novinka/arbortech-novinka-remeslo-.png",
+          },
+        ],
+      },
+      {
+        translationKey: "extolPremium",
+        slug: "extol-premium",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/priama-bruska-6mm-vyrez.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/elektricke-naradie-pre-rezbarov/extol-craft-premium",
+        products: [
+          {
+            id: "p398",
+            url: "https://eshop.marosko.sk/p/398/priama-bruska-500w",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/priama-bruska-6mm-vyrez.jpg",
+          },
+          {
+            id: "p1492",
+            url: "https://eshop.marosko.sk/p/1492/extol-craft-priama-bruska-135w-210ks-set-kufor",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/extol-craft/404117/135w-210-kusov-404117.jpeg",
+          },
+          {
+            id: "p931",
+            url: "https://eshop.marosko.sk/p/931/uhlova-bruska-125-mm-s-regulaciou-otacok-1400-w",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/extol/uhlova-bruska.jpg",
+          },
+          {
+            id: "p1213",
+            url: "https://eshop.marosko.sk/p/1213/aku-priama-bruska-3-6v-li-ion-1300mah-12-dielov",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/extol/aku-priama-bruska.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "kirjes",
+        slug: "kirjes",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/kirjes/kirjes.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/elektricke-naradie-pre-rezbarov/naradie-kirjes",
+        products: [
+          {
+            id: "p897",
+            url: "https://eshop.marosko.sk/p/897/zakladny-brusny-system-kirjes-140k-23",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/kirjes/kirjes.jpg",
+          },
+          {
+            id: "p881",
+            url: "https://eshop.marosko.sk/p/881/pohonna-jednotka-kirjes-913k-23",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/kirjes/pohonna-jednotka-300w.jpg",
+          },
+          {
+            id: "p1095",
+            url: "https://eshop.marosko.sk/p/1095/kompletni-brusny-system-kirjes-101k-23",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/kirjes/-vyr-6262-komplet-baleni.jpg",
+          },
+          {
+            id: "p814",
+            url: "https://eshop.marosko.sk/p/814/ohybna-hriadel-kirjes-so-sklucovadlom-do-10-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/kirjes/86975972-1082513778764906-7550116197820268544-n.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "tusonPriamaBruska",
+        slug: "tuson",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/priame-brusky/tuson/tuson-priama-bruska.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/elektricke-naradie-pre-rezbarov/priama-bruska-tuson",
+        products: [
+          {
+            id: "p736",
+            url: "https://eshop.marosko.sk/p/736/priama-bruska-z-ohybnym-bovdanom-170-w-210",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/priame-brusky/tuson/tuson-priama-bruska.jpg",
+          },
+          {
+            id: "p738",
+            url: "https://eshop.marosko.sk/p/738/ohybny-bovden-tuson-nahradny",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/tuson.jpg",
+          },
+          {
+            id: "p1503",
+            url: "https://eshop.marosko.sk/p/1503/tuson-excentricka-bruska-125mm-430w",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/tuson/tuson.jpeg",
+          },
+        ],
+      },
+      {
+        translationKey: "proxxon",
+        slug: "proxxon",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/proxxon/uhlova-bruska-s-dlhym-krkom-lhw/28547.png",
+        eshopUrl: "https://eshop.marosko.sk/c/elektricke-naradie-pre-rezbarov/proxon-nahradne-smirgle",
+        products: [
+          {
+            id: "p1044",
+            url: "https://eshop.marosko.sk/p/1044/uhlova-bruska-proxxon-s-dlhym-krkom-lhw",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/proxxon/uhlova-bruska-s-dlhym-krkom-lhw/28547.png",
+          },
+          {
+            id: "p1399",
+            url: "https://eshop.marosko.sk/p/1399/elektricke-dlato-proxxon-msg-28644-p",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/proxxon/proxon-dlato/254190005833-1.jpg",
+          },
+          {
+            id: "p964",
+            url: "https://eshop.marosko.sk/p/964/5-ks-nahradne-smirglove-pasy-zrnitost-mix-proxxon",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/silverline/nahradne-smirge-na-pasovu-brusku.jpg",
+          },
+          {
+            id: "p960",
+            url: "https://eshop.marosko.sk/p/960/5-ks-nahradne-smirglove-pasy-40-pasovej-brusky",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/silverline/nahradne-smirge-na-pasovu-brusku.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "silverline",
+        slug: "silverline",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/silverline/lesticka-1200w-180mm/264569-enwnmpro13.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/elektricke-naradie-pre-rezbarov/silverline-naradie",
+        products: [
+          {
+            id: "p1268",
+            url: "https://eshop.marosko.sk/p/1268/bruska-lesticka-180-mm-1200-w",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/silverline/lesticka-1200w-180mm/264569-enwnmpro13.jpg",
+          },
+          {
+            id: "p1332",
+            url: "https://eshop.marosko.sk/p/1332/silverline-priama-bruska-135w",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/silverline/silverine-priama-bruska-.jpg",
+          },
+          {
+            id: "p704",
+            url: "https://eshop.marosko.sk/p/704/teleskopicky-drziak-priamej-brusky",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/silverline/teleskopicky-drziak-priamej-brusky/240271-enwnmpro1-72691311772021.webp",
+          },
+          {
+            id: "p716",
+            url: "https://eshop.marosko.sk/p/716/5-ks-nahradne-smirglove-pasy-40-silverline",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/silverline/nahradne-smirge-na-pasovu-brusku.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "total",
+        slug: "total",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/total/total-pila.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/elektricke-naradie-pre-rezbarov/total-naradie",
+        products: [
+          {
+            id: "p1308",
+            url: "https://eshop.marosko.sk/p/1308/pokosova-stolna-pila-1400-w",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/total/total-pila.jpg",
+          },
+          {
+            id: "p1315",
+            url: "https://eshop.marosko.sk/p/1315/elektricky-hoblik-1050-w",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/total/total-elektricky-hoblik.jpg",
+          },
+          {
+            id: "p1366",
+            url: "https://eshop.marosko.sk/p/1366/aku-uhlova-bruska-total-20-v-li-ion",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/total/uhlova-bruska-aku/-vyr-841tagli201258-d1.jpg",
+          },
+          {
+            id: "p1406",
+            url: "https://eshop.marosko.sk/p/1406/aku-excentricka-bruska-pr-125-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/total/excentricka-bruska-total.jpg",
+          },
+        ],
+      },
     ],
   },
   {
