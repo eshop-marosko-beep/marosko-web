@@ -228,27 +228,152 @@ export const kategorieArticles: KategorieArticle[] = [
     subcategories: [
       {
         translationKey: "frezovanie",
+        slug: "frezovanie",
         galleryLinks: ["frezovacie-nastroje-do-vrtacky"],
         image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-vrtacky-/orbi-cut/orbi-cut.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/nastroje-do-vrtacky/frezovacie-nastroje-do-vrtacky",
+        products: [
+          {
+            id: "p813",
+            url: "https://eshop.marosko.sk/p/813/dlabacia-gulocka-na-stopke-orbi-cut",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-vrtacky-/orbi-cut/orbi-cut.jpg",
+          },
+          {
+            id: "p1472",
+            url: "https://eshop.marosko.sk/p/1472/orbi-cut-dlabacia-gulocka-na-stopke-40mm-nahradne-noze-ostriaca-karta",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/kirjes/d4174dc3-5908-44eb-9884-1b7f97a4ffe5.jpeg",
+          },
+          {
+            id: "p994",
+            url: "https://eshop.marosko.sk/p/994/stopkove-frezky-na-oci-vypalovacie",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/vypalovacie-frezky/img-20210513-080948-01.jpeg",
+          },
+          {
+            id: "p981",
+            url: "https://eshop.marosko.sk/p/981/mini-gulata-16-mm-frezovacia-stopka-6mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/6mm-stopka-gulata/scr-main-features1-orig.jpg",
+          },
+        ],
       },
       {
         translationKey: "brusenie",
+        slug: "brusenie",
         image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-vrtacky-/sada-brusnych-bubnovych-valcov-20-dielov.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/nastroje-do-vrtacky/brusne-nastroje-do-vrtacky",
+        products: [
+          {
+            id: "p805",
+            url: "https://eshop.marosko.sk/p/805/sada-brusnych-bubnovych-valcov-20-dielov",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-vrtacky-/sada-brusnych-bubnovych-valcov-20-dielov.jpg",
+          },
+          {
+            id: "p1353",
+            url: "https://eshop.marosko.sk/p/1353/manpa-5-lamelova-brusna-stopka-ez-sander-brusny-vejar-42",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/brusny-vejar-42/s402289862919970660-p120-i1-w604-%281%29.jpeg",
+          },
+          {
+            id: "p744",
+            url: "https://eshop.marosko.sk/p/744/brusny-hribik-na-dokoncovanie",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/brusny-hrib/brusny-hribik.jpg",
+          },
+          {
+            id: "p913",
+            url: "https://eshop.marosko.sk/p/913/kompetna-brusna-suprava-kirjes-101",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/kirjes/komplatna-sada-101.png",
+          },
+        ],
       },
       {
         translationKey: "ostrenie",
+        slug: "ostrenie",
         image:
-          "https://eshop.marosko.sk/resize/e/800/800/files/na-kov/brusne-diamantove-kotuce-diclear/19848-466--vyrp11-2002-web2-cisty.jpg",
+          "https://eshop.marosko.sk/resize/e/800/800/files/na-kov/brusne-diamantove-kotuce-diclear/drazkovy-diamantovy-kotuc-brusny.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/nastroje-do-vrtacky/ostriace-kotuce-diamantove",
+        products: [
+          {
+            id: "p258",
+            url: "https://eshop.marosko.sk/p/258/diamantovy-brusny-kotuc-drazkovy-126-126",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/na-kov/brusne-diamantove-kotuce-diclear/drazkovy-diamantovy-kotuc-brusny.jpg",
+          },
+          {
+            id: "p1203",
+            url: "https://eshop.marosko.sk/p/1203/diamantova-ostriaca-karta-kirjes",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/vymenne-pridavne-nahradne-diely/desticka-brusna-na-orbi-cut.jpeg",
+          },
+          {
+            id: "p330",
+            url: "https://eshop.marosko.sk/p/330/diamantovy-pilnik-na-carvingove-retezy-pil-3-2-mm",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/frezovacie/kartacovacia-hriadel/pilnik.jpg",
+          },
+          {
+            id: "p691",
+            url: "https://eshop.marosko.sk/p/691/brusne-teliesko-priemer-7-mm",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-vrtacky/mini-unasac-smirglov-na-suchy-zips/brusne-teliesko-pr.7-mm.jpg",
+          },
+        ],
       },
       {
         translationKey: "nastavce",
+        slug: "nastavce",
         image:
           "https://eshop.marosko.sk/resize/e/800/800/files/kirjes/86975972-1082513778764906-7550116197820268544-n.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/nastroje-do-vrtacky/pridavne-nastavce-do-vrtacky",
+        products: [
+          {
+            id: "p814",
+            url: "https://eshop.marosko.sk/p/814/ohybna-hriadel-kirjes-so-sklucovadlom-do-10-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/kirjes/86975972-1082513778764906-7550116197820268544-n.jpg",
+          },
+          {
+            id: "p1319",
+            url: "https://eshop.marosko.sk/p/1319/ohybna-hriadel-so-sklucovadlom-do-6mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-vrtacky-/sklucovadla/hriadel-do-6mm.jpg",
+          },
+          {
+            id: "p1350",
+            url: "https://eshop.marosko.sk/p/1350/rychloupinacie-sklucovadlo-na-hriadel-zavit-m10",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/manpa/predlzovacia-hriadel-do-vrtacky/sklucovadlo-na-hriadel/-vyrp13-8624--keyless-chuck---features-1.jpg",
+          },
+          {
+            id: "p930",
+            url: "https://eshop.marosko.sk/p/930/adapter-do-vrtacky-na-unasace-kotucov-so-zavitom-m-14",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-vrtacky-/nadstavce-/redukcna.jpg",
+          },
+        ],
       },
       {
         translationKey: "vrtaky",
+        slug: "vrtaky",
         image:
           "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-vrtacky/465-sada-dlabacich-vrtakov-/dlabaci-vrtak-stvorcove-otvory.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/nastroje-do-vrtacky/vrtacie-nastroje-do-vrtacky",
+        products: [
+          {
+            id: "p761",
+            url: "https://eshop.marosko.sk/p/761/dlabacie-vrtaky-stvorcove-4-dielna-sada",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-vrtacky/465-sada-dlabacich-vrtakov-/dlabaci-vrtak-stvorcove-otvory.jpg",
+          },
+          {
+            id: "p265",
+            url: "https://eshop.marosko.sk/p/265/diamantove-dute-vrtaky-4-dielna-sada",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/vrtaky/-vyrn-192sada-4.jpg",
+          },
+          {
+            id: "p267",
+            url: "https://eshop.marosko.sk/p/267/diamantovy-duty-vrtak-pr6-mm-stopka-do-vrtacky",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/vrtaky/duty-vrtak-do-vrtacky-diamantovy.jpg",
+          },
+          {
+            id: "p212",
+            url: "https://eshop.marosko.sk/p/212/4-dielna-sada-vrtaku-zlata-artu",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/vrtaky/4-dielna-sada-vrtakov.zlata.jpg",
+          },
+        ],
       },
     ],
   },
