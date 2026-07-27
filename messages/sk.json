@@ -357,31 +357,31 @@
       "subcategories": {
         "arbortech": {
           "name": "Arbortech náradie",
-          "description": "Spoľahlivé elektrické náradie z Austrálie – Power Chisel, Mini Carver, Turbo Plane a ďalšie stroje na rezbárske a tesárske opracovanie dreva."
+          "description": "Spoľahlivé elektrické náradie z Austrálie – elektrické dláto Power Chisel so 7-dielnou sadou dlát, frézka Mini Carver, stenová píla Allsaw AS200X aj kompaktný mini grinder s remeselníckou sadou."
         },
         "extolPremium": {
           "name": "Extol Premium priame brúsky",
-          "description": "Priame brúsky Extol na drevo, kov, plast aj kosti – vhodné na brúsenie, frézovanie a odhrotovanie aj na ťažko dostupných miestach."
+          "description": "Priame brúsky Extol na drevo, kov, plast aj kosti – vhodné na brúsenie, frézovanie a odhrotovanie aj na ťažko dostupných miestach, doplnené o uhlové brúsky s reguláciou otáčok a akumulátorovú mini priamu brúsku."
         },
         "kirjes": {
           "name": "Náradie Kirjes",
-          "description": "Elektrické náradie fínskej značky Kirjes zamerané na finálne opracovanie a povrchovú úpravu materiálov."
+          "description": "Elektrické náradie fínskej značky Kirjes zamerané na finálne opracovanie a povrchovú úpravu materiálov – pohonná jednotka aj kompletné brúsne systémy s výmennými návlekmi a ohybným hriadeľom."
         },
         "tusonPriamaBruska": {
           "name": "Priama brúska Tuson",
-          "description": "Kvalitná priama brúska od značky Tuson – dobrý pomer kvality a ceny pre bežné rezbárske použitie."
+          "description": "Kvalitná priama brúska od značky Tuson – dobrý pomer kvality a ceny pre bežné rezbárske použitie, s ohybným bovdenom a excentrickou brúskou v ponuke."
         },
         "proxxon": {
           "name": "Proxxon náradie",
-          "description": "Elektrické náradie Proxxon a náhradné šmirgle – výber nástrojov vhodných pre precíznu prácu rezbárov."
+          "description": "Elektrické náradie Proxxon a náhradné šmirgle – uhlová brúska s dlhým krkom LHW, elektrické dláto na rezbárske detaily aj náhradné pásy pre pásovú brúsku."
         },
         "silverline": {
           "name": "Náradie Silverline",
-          "description": "Elektrické náradie Silverline s 3-ročnou zárukou po registrácii výrobku."
+          "description": "Elektrické náradie Silverline s 3-ročnou zárukou po registrácii výrobku – brúska-leštička 1200 W, priama brúska 135 W aj teleskopický držiak priamej brúsky."
         },
         "total": {
           "name": "Náradie Total",
-          "description": "Cenovo dostupné elektrické náradie značky Total – brúsky, píly aj leštičky s dôrazom na spoľahlivosť."
+          "description": "Cenovo dostupné elektrické náradie značky Total – brúsky, píly aj leštičky s dôrazom na spoľahlivosť, vrátane akumulátorových verzií uhlovej brúsky, excentrickej brúsky aj reťazovej píly."
         }
       }
     },
@@ -526,6 +526,77 @@
     "common": {
       "productsTitle": "Vybrané produkty",
       "eshopCta": "Zobraziť celú ponuku v e-shope"
+    },
+    "elektrickeNaradie": {
+      "arbortech": {
+        "title": "Arbortech náradie",
+        "intro": "Spoľahlivé elektrické náradie z Austrálie navrhnuté priamo remeselníkmi. Elektrické dláto Power Chisel so 7-dielnou sadou vymeniteľných dlát na hrubovanie, frézka Mini Carver na rezbárske detaily, stenová píla Allsaw AS200X na murivo aj kompaktný mini grinder s kompletnou remeselníckou sadou v taške.",
+        "products": {
+          "p838": "Elektrické dláto Power Chisel, 7-dielna sada",
+          "p196": "Elektrická frézka Arbortech Mini Carver",
+          "p1396": "Arbortech Allsaw AS200X, stenová píla",
+          "p846": "Elektrická frézka Mini Grinder, remeselnícka sada"
+        }
+      },
+      "extolPremium": {
+        "title": "Extol Premium priame brúsky",
+        "intro": "Priame brúsky Extol Industrial a Extol Craft na drevo, kov, plast aj kosti – vhodné na brúsenie, frézovanie a odhrotovanie aj na ťažko dostupných miestach vďaka ohybnému bovdenu. Ponuku dopĺňajú uhlové brúsky s reguláciou otáčok (850 aj 1400 W) a akumulátorová mini priama brúska 3,6 V.",
+        "products": {
+          "p398": "Priama brúska Extol Industrial 500 W",
+          "p1492": "Priama brúska Extol Craft 135 W, 210 dielov v kufri",
+          "p931": "Uhlová brúska 125 mm s reguláciou otáčok, 1400 W",
+          "p1213": "Aku priama brúska 3,6 V Li-ion, 12 dielov"
+        }
+      },
+      "kirjes": {
+        "title": "Náradie Kirjes",
+        "intro": "Elektrické náradie fínskej značky Kirjes zamerané na finálne opracovanie a povrchovú úpravu materiálov. Základný aj kompletný brúsny systém obsahuje pohonnú jednotku, ohybný hriadeľ a sadu výmenných brúsnych návlekov na jemné dokončovacie práce.",
+        "products": {
+          "p897": "Základný brúsny systém Kirjes 140K.23",
+          "p881": "Pohonná jednotka Kirjes 913K.23, 300 W",
+          "p1095": "Kompletný brúsny systém Kirjes 101K.23",
+          "p814": "Ohybná hriadeľ Kirjes so skľučovadlom do 10 mm"
+        }
+      },
+      "tusonPriamaBruska": {
+        "title": "Priama brúska Tuson",
+        "intro": "Kvalitná priama brúska od značky Tuson – dobrý pomer kvality a ceny pre bežné rezbárske použitie. Model RT170 s ohybným bovdenom rozšíri dosah brúsky na ťažko dostupné miesta, k dispozícii je aj excentrická brúska 125 mm s výkonom 430 W.",
+        "products": {
+          "p736": "Priama brúska Tuson RT170 s ohybným bovdenom, 170 W",
+          "p738": "Ohybný hriadeľ Tuson, náhradný k RT170",
+          "p1503": "Tuson excentrická brúska 125 mm, 430 W"
+        }
+      },
+      "proxxon": {
+        "title": "Proxxon náradie",
+        "intro": "Elektrické náradie Proxxon a náhradné šmirgle – výber nástrojov vhodných pre precíznu prácu rezbárov. Uhlová brúska s dlhým krkom LHW sa dostane aj do stiesnených priestorov, elektrické dláto MSG uľahčí rezbárske detaily a v ponuke sú aj náhradné šmirglové pásy v troch zrnitostiach.",
+        "products": {
+          "p1044": "Uhlová brúska Proxxon s dlhým krkom LHW",
+          "p1399": "Elektrické dláto Proxxon MSG",
+          "p964": "Náhradné šmirglové pásy, zrnitosť mix, 5 ks",
+          "p960": "Náhradné šmirglové pásy K40, 5 ks"
+        }
+      },
+      "silverline": {
+        "title": "Náradie Silverline",
+        "intro": "Elektrické náradie Silverline s 3-ročnou zárukou po registrácii výrobku. Brúska-leštička 180 mm s výkonom 1200 W je vhodná na leštenie aj brúsenie veľkých plôch, doplnená o priamu brúsku 135 W, teleskopický držiak a náhradné šmirglové pásy.",
+        "products": {
+          "p1268": "Brúska-leštička 180 mm, 1200 W",
+          "p1332": "Silverline priama brúska 135 W",
+          "p704": "Teleskopický držiak priamej brúsky",
+          "p716": "Náhradné šmirglové pásy K40, 5 ks"
+        }
+      },
+      "total": {
+        "title": "Náradie Total",
+        "intro": "Cenovo dostupné elektrické náradie značky Total s dôrazom na spoľahlivosť – pokosová stolná píla, elektrický hoblík aj akumulátorové verzie uhlovej brúsky, excentrickej brúsky a mini reťazovej píly na 20V Li-ion batériu.",
+        "products": {
+          "p1308": "Pokosová stolná píla, 1400 W",
+          "p1315": "Elektrický hoblík, 1050 W",
+          "p1366": "Aku uhlová brúska Total, 20 V Li-ion",
+          "p1406": "Aku excentrická brúska, priemer 125 mm"
+        }
+      }
     },
     "nastrojeDoPriamejBrusky": {
       "stopky24mm": {
@@ -2050,6 +2121,36 @@
       }
     },
     "kategorieSubcategoryDetail": {
+      "elektrickeNaradie": {
+        "arbortech": {
+          "title": "Arbortech elektrické náradie | Marián s.r.o.",
+          "description": "Power Chisel, Mini Carver, Allsaw AS200X aj mini grinder – elektrické náradie Arbortech pre rezbárov."
+        },
+        "extolPremium": {
+          "title": "Extol Premium priame brúsky | Marián s.r.o.",
+          "description": "Priame brúsky Extol na drevo, kov, plast aj kosti, doplnené o uhlové brúsky s reguláciou otáčok."
+        },
+        "kirjes": {
+          "title": "Náradie Kirjes | Marián s.r.o.",
+          "description": "Pohonná jednotka aj kompletné brúsne systémy Kirjes s výmennými návlekmi a ohybným hriadeľom."
+        },
+        "tusonPriamaBruska": {
+          "title": "Priama brúska Tuson | Marián s.r.o.",
+          "description": "Priama brúska Tuson RT170 s ohybným bovdenom aj excentrická brúska 125 mm."
+        },
+        "proxxon": {
+          "title": "Proxxon náradie | Marián s.r.o.",
+          "description": "Uhlová brúska s dlhým krkom LHW, elektrické dláto MSG aj náhradné šmirglové pásy Proxxon."
+        },
+        "silverline": {
+          "title": "Náradie Silverline | Marián s.r.o.",
+          "description": "Brúska-leštička 1200 W, priama brúska 135 W aj teleskopický držiak Silverline."
+        },
+        "total": {
+          "title": "Náradie Total | Marián s.r.o.",
+          "description": "Pokosová píla, elektrický hoblík aj akumulátorové brúsky a píla značky Total."
+        }
+      },
       "nastrojeDoPriamejBrusky": {
         "stopky24mm": {
           "title": "Stopkové rašple 2,4 mm | Marián s.r.o.",

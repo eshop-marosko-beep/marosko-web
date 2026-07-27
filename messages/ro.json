@@ -357,31 +357,31 @@
       "subcategories": {
         "arbortech": {
           "name": "Unelte Arbortech",
-          "description": "Unelte electrice fiabile din Australia – Power Chisel, Mini Carver, Turbo Plane și alte mașini pentru prelucrarea sculpturală și tâmplărească a lemnului."
+          "description": "Unelte electrice fiabile din Australia — dalta electrică Power Chisel cu set de 7 dalte, freza Mini Carver, ferăstrăul pentru zidărie Allsaw AS200X și un mini polizor compact cu set pentru meșteșugari."
         },
         "extolPremium": {
           "name": "Polizoare drepte Extol Premium",
-          "description": "Polizoare drepte Extol pentru lemn, metal, plastic și os – potrivite pentru șlefuire, frezare și debavurare, chiar și în zone greu accesibile."
+          "description": "Polizoare drepte Extol pentru lemn, metal, plastic și os — potrivite pentru șlefuire, frezare și debavurare chiar și în zone greu accesibile, completate de polizoare unghiulare cu reglaj de turație și un mini polizor drept pe acumulator."
         },
         "kirjes": {
           "name": "Unelte Kirjes",
-          "description": "Unelte electrice de la marca finlandeză Kirjes, axate pe finisarea finală și tratarea suprafeței materialelor."
+          "description": "Unelte electrice de la marca finlandeză Kirjes, dedicate finisării și tratării suprafețelor — o unitate de antrenare și sisteme complete de șlefuit cu manșoane interschimbabile și ax flexibil."
         },
         "tusonPriamaBruska": {
           "name": "Polizor drept Tuson",
-          "description": "Un polizor drept de calitate de la marca Tuson – un raport bun calitate-preț pentru utilizarea obișnuită în sculptură."
+          "description": "Un polizor drept de calitate de la marca Tuson — raport bun calitate-preț pentru utilizare curentă în sculptură, cu ax flexibil și un polizor excentric disponibile în gamă."
         },
         "proxxon": {
           "name": "Unelte Proxxon",
-          "description": "Unelte electrice Proxxon și benzi abrazive de schimb – o selecție de unelte potrivite pentru lucrul de precizie al sculptorilor."
+          "description": "Unelte electrice Proxxon și benzi de schimb — polizorul unghiular cu gât lung LHW, o daltă electrică pentru detalii de sculptură și benzi de schimb pentru polizorul cu bandă."
         },
         "silverline": {
           "name": "Unelte Silverline",
-          "description": "Unelte electrice Silverline cu garanție de 3 ani după înregistrarea produsului."
+          "description": "Unelte electrice Silverline cu garanție de 3 ani la înregistrarea produsului — un polizor-lustruitor de 1200 W, un polizor drept de 135 W și un suport telescopic pentru polizorul drept."
         },
         "total": {
           "name": "Unelte Total",
-          "description": "Unelte electrice accesibile ca preț de la marca Total – polizoare, ferăstraie și lustruitoare axate pe fiabilitate."
+          "description": "Unelte electrice accesibile de la marca Total — polizoare, ferăstraie și lustruitoare axate pe fiabilitate, inclusiv versiuni pe acumulator ale polizorului unghiular, polizorului excentric și ferăstrăului cu lanț."
         }
       }
     },
@@ -526,6 +526,77 @@
     "common": {
       "productsTitle": "Produse recomandate",
       "eshopCta": "Vezi toată gama în eshop"
+    },
+    "elektrickeNaradie": {
+      "arbortech": {
+        "title": "Unelte Arbortech",
+        "intro": "Unelte electrice fiabile din Australia, concepute direct de meșteșugari. Dalta electrică Power Chisel cu set de 7 dalte interschimbabile pentru degroșare, freza Mini Carver pentru detalii de sculptură, ferăstrăul pentru zidărie Allsaw AS200X și un mini polizor compact cu set complet pentru meșteșugari, într-o geantă.",
+        "products": {
+          "p838": "Daltă electrică Power Chisel, set de 7 piese",
+          "p196": "Freză electrică Arbortech Mini Carver",
+          "p1396": "Arbortech Allsaw AS200X, ferăstrău pentru zidărie",
+          "p846": "Freză electrică Mini Grinder, set pentru meșteșugari"
+        }
+      },
+      "extolPremium": {
+        "title": "Polizoare drepte Extol Premium",
+        "intro": "Polizoare drepte Extol Industrial și Extol Craft pentru lemn, metal, plastic și os — potrivite pentru șlefuire, frezare și debavurare chiar și în zone greu accesibile datorită axului flexibil. Gama include și polizoare unghiulare cu reglaj de turație (850 și 1400 W) și un mini polizor drept pe acumulator de 3,6V.",
+        "products": {
+          "p398": "Polizor drept Extol Industrial 500 W",
+          "p1492": "Polizor drept Extol Craft 135 W, set 210 piese în valiză",
+          "p931": "Polizor unghiular 125 mm cu reglaj de turație, 1400 W",
+          "p1213": "Mini polizor drept pe acumulator 3,6V Li-ion, 12 piese"
+        }
+      },
+      "kirjes": {
+        "title": "Unelte Kirjes",
+        "intro": "Unelte electrice de la marca finlandeză Kirjes, dedicate finisării și tratării suprafețelor. Atât sistemul de bază, cât și cel complet de șlefuit includ o unitate de antrenare, un ax flexibil și un set de manșoane abrazive interschimbabile pentru lucrări fine de finisare.",
+        "products": {
+          "p897": "Sistem de bază de șlefuit Kirjes 140K.23",
+          "p881": "Unitate de antrenare Kirjes 913K.23, 300 W",
+          "p1095": "Sistem complet de șlefuit Kirjes 101K.23",
+          "p814": "Ax flexibil Kirjes cu mandrină până la 10 mm"
+        }
+      },
+      "tusonPriamaBruska": {
+        "title": "Polizor drept Tuson",
+        "intro": "Un polizor drept de calitate de la marca Tuson — raport bun calitate-preț pentru utilizare curentă în sculptură. Modelul RT170 cu ax flexibil extinde raza de acțiune a polizorului în zone greu accesibile; este disponibil și un polizor excentric de 125 mm cu putere de 430 W.",
+        "products": {
+          "p736": "Polizor drept Tuson RT170 cu ax flexibil, 170 W",
+          "p738": "Ax flexibil Tuson, de schimb pentru RT170",
+          "p1503": "Polizor excentric Tuson 125 mm, 430 W"
+        }
+      },
+      "proxxon": {
+        "title": "Unelte Proxxon",
+        "intro": "Unelte electrice Proxxon și benzi de schimb — o selecție de unelte potrivite pentru lucrul de precizie al sculptorilor. Polizorul unghiular cu gât lung LHW ajunge și în spații înguste, dalta electrică MSG ușurează detaliile de sculptură, iar benzile abrazive de schimb sunt disponibile în trei granulații.",
+        "products": {
+          "p1044": "Polizor unghiular Proxxon cu gât lung LHW",
+          "p1399": "Daltă electrică Proxxon MSG",
+          "p964": "Benzi abrazive de schimb, granulație mixtă, 5 buc",
+          "p960": "Benzi abrazive de schimb K40, 5 buc"
+        }
+      },
+      "silverline": {
+        "title": "Unelte Silverline",
+        "intro": "Unelte electrice Silverline cu garanție de 3 ani la înregistrarea produsului. Polizorul-lustruitor de 180 mm cu putere de 1200 W este potrivit pentru lustruirea și șlefuirea suprafețelor mari, completat de un polizor drept de 135 W, un suport telescopic și benzi abrazive de schimb.",
+        "products": {
+          "p1268": "Polizor-lustruitor 180 mm, 1200 W",
+          "p1332": "Polizor drept Silverline 135 W",
+          "p704": "Suport telescopic pentru polizor drept",
+          "p716": "Benzi abrazive de schimb K40, 5 buc"
+        }
+      },
+      "total": {
+        "title": "Unelte Total",
+        "intro": "Unelte electrice accesibile de la marca Total, axate pe fiabilitate — un ferăstrău circular cu masă și unghi reglabil, un rindea electrică și versiuni pe acumulator ale polizorului unghiular, polizorului excentric și mini-ferăstrăului cu lanț, alimentate de o baterie Li-ion de 20V.",
+        "products": {
+          "p1308": "Ferăstrău circular cu masă și unghi reglabil, 1400 W",
+          "p1315": "Rindea electrică, 1050 W",
+          "p1366": "Polizor unghiular Total pe acumulator, 20V Li-ion",
+          "p1406": "Polizor excentric pe acumulator, diametru 125 mm"
+        }
+      }
     },
     "nastrojeDoPriamejBrusky": {
       "stopky24mm": {
@@ -2050,6 +2121,36 @@
       }
     },
     "kategorieSubcategoryDetail": {
+      "elektrickeNaradie": {
+        "arbortech": {
+          "title": "Unelte electrice Arbortech | Marián s.r.o.",
+          "description": "Power Chisel, Mini Carver, Allsaw AS200X și mini polizor – unelte electrice Arbortech pentru sculptori."
+        },
+        "extolPremium": {
+          "title": "Polizoare drepte Extol Premium | Marián s.r.o.",
+          "description": "Polizoare drepte Extol pentru lemn, metal, plastic și os, plus polizoare unghiulare cu reglaj de turație."
+        },
+        "kirjes": {
+          "title": "Unelte Kirjes | Marián s.r.o.",
+          "description": "Unitate de antrenare și sisteme complete de șlefuit Kirjes cu manșoane interschimbabile și ax flexibil."
+        },
+        "tusonPriamaBruska": {
+          "title": "Polizor drept Tuson | Marián s.r.o.",
+          "description": "Polizor drept Tuson RT170 cu ax flexibil și un polizor excentric de 125 mm."
+        },
+        "proxxon": {
+          "title": "Unelte Proxxon | Marián s.r.o.",
+          "description": "Polizor unghiular cu gât lung LHW, daltă electrică MSG și benzi abrazive de schimb Proxxon."
+        },
+        "silverline": {
+          "title": "Unelte Silverline | Marián s.r.o.",
+          "description": "Polizor-lustruitor 1200 W, polizor drept 135 W și suport telescopic Silverline."
+        },
+        "total": {
+          "title": "Unelte Total | Marián s.r.o.",
+          "description": "Ferăstrău circular, rindea electrică și polizoare și ferăstrău pe acumulator de la Total."
+        }
+      },
       "nastrojeDoPriamejBrusky": {
         "stopky24mm": {
           "title": "Pile pe tijă 2,4 mm | Marián s.r.o.",

@@ -357,31 +357,31 @@
       "subcategories": {
         "arbortech": {
           "name": "Arbortech tools",
-          "description": "Reliable power tools from Australia – Power Chisel, Mini Carver, Turbo Plane and other machines for carving and carpentry work on wood."
+          "description": "Reliable power tools from Australia – the Power Chisel with a 7-piece chisel set, the Mini Carver cutter, the Allsaw AS200X masonry saw, and a compact mini grinder with a craftsman's kit."
         },
         "extolPremium": {
           "name": "Extol Premium straight grinders",
-          "description": "Extol straight grinders for wood, metal, plastic and bone – suited to sanding, milling and deburring, even in hard-to-reach spots."
+          "description": "Extol straight grinders for wood, metal, plastic and bone – suited for grinding, milling and deburring even in hard-to-reach spots, plus speed-adjustable angle grinders and a cordless mini straight grinder."
         },
         "kirjes": {
           "name": "Kirjes tools",
-          "description": "Power tools from the Finnish brand Kirjes, focused on final material finishing and surface treatment."
+          "description": "Power tools from the Finnish brand Kirjes focused on final finishing and surface treatment – a power unit and complete sanding systems with interchangeable sleeves and a flexible shaft."
         },
         "tusonPriamaBruska": {
           "name": "Tuson straight grinder",
-          "description": "A quality straight grinder from the Tuson brand – a good balance of quality and price for everyday carving use."
+          "description": "A quality straight grinder from Tuson – good value for everyday carving use, with a flexible shaft attachment and a random orbit sander also available."
         },
         "proxxon": {
           "name": "Proxxon tools",
-          "description": "Proxxon power tools and replacement sanding sleeves – a selection of tools suited to precise carving work."
+          "description": "Proxxon electric tools and replacement belts – the LHW long-neck angle grinder, an electric chisel for carving details, and replacement belts for the belt sander."
         },
         "silverline": {
           "name": "Silverline tools",
-          "description": "Silverline power tools with a 3-year warranty after product registration."
+          "description": "Silverline electric tools with a 3-year warranty upon registration – a 1200 W polisher, a 135 W straight grinder, and a telescopic straight-grinder stand."
         },
         "total": {
           "name": "Total tools",
-          "description": "Affordable power tools from the Total brand – grinders, saws and polishers built for reliability."
+          "description": "Affordable electric tools from Total – grinders, saws and polishers built for reliability, including cordless versions of the angle grinder, random orbit sander and chain saw."
         }
       }
     },
@@ -526,6 +526,77 @@
     "common": {
       "productsTitle": "Featured products",
       "eshopCta": "See the full range in the eshop"
+    },
+    "elektrickeNaradie": {
+      "arbortech": {
+        "title": "Arbortech tools",
+        "intro": "Reliable electric tools from Australia, designed directly by craftsmen. The Power Chisel with a 7-piece set of replaceable chisels for roughing out, the Mini Carver cutter for carving details, the Allsaw AS200X masonry saw for stone and brick, and a compact mini grinder with a complete craftsman's kit in a bag.",
+        "products": {
+          "p838": "Power Chisel electric chisel, 7-piece set",
+          "p196": "Arbortech Mini Carver electric cutter",
+          "p1396": "Arbortech Allsaw AS200X masonry saw",
+          "p846": "Mini Grinder electric cutter, craftsman's kit"
+        }
+      },
+      "extolPremium": {
+        "title": "Extol Premium straight grinders",
+        "intro": "Extol Industrial and Extol Craft straight grinders for wood, metal, plastic and bone – suited for grinding, milling and deburring even in hard-to-reach spots thanks to a flexible shaft. The range also includes speed-adjustable angle grinders (850 and 1400 W) and a cordless 3.6V mini straight grinder.",
+        "products": {
+          "p398": "Extol Industrial straight grinder 500 W",
+          "p1492": "Extol Craft straight grinder 135 W, 210-piece case set",
+          "p931": "Angle grinder 125 mm with speed control, 1400 W",
+          "p1213": "Cordless mini straight grinder 3.6V Li-ion, 12 pieces"
+        }
+      },
+      "kirjes": {
+        "title": "Kirjes tools",
+        "intro": "Electric tools from the Finnish brand Kirjes focused on final finishing and surface treatment. Both the basic and complete sanding systems include a power unit, a flexible shaft, and a set of interchangeable sanding sleeves for fine finishing work.",
+        "products": {
+          "p897": "Kirjes 140K.23 basic sanding system",
+          "p881": "Kirjes 913K.23 power unit, 300 W",
+          "p1095": "Kirjes 101K.23 complete sanding system",
+          "p814": "Kirjes flexible shaft with chuck up to 10 mm"
+        }
+      },
+      "tusonPriamaBruska": {
+        "title": "Tuson straight grinder",
+        "intro": "A quality straight grinder from Tuson – good value for everyday carving use. The RT170 model with a flexible shaft extends the grinder's reach into hard-to-reach spots; a 125 mm random orbit sander rated at 430 W is also available.",
+        "products": {
+          "p736": "Tuson RT170 straight grinder with flexible shaft, 170 W",
+          "p738": "Tuson flexible shaft, replacement for RT170",
+          "p1503": "Tuson random orbit sander 125 mm, 430 W"
+        }
+      },
+      "proxxon": {
+        "title": "Proxxon tools",
+        "intro": "Proxxon electric tools and replacement belts – a selection of tools suited for carvers' precision work. The LHW long-neck angle grinder reaches into tight spaces, the MSG electric chisel makes carving details easier, and replacement sanding belts are available in three grits.",
+        "products": {
+          "p1044": "Proxxon LHW long-neck angle grinder",
+          "p1399": "Proxxon MSG electric chisel",
+          "p964": "Replacement sanding belts, mixed grit, 5 pcs",
+          "p960": "Replacement sanding belts K40, 5 pcs"
+        }
+      },
+      "silverline": {
+        "title": "Silverline tools",
+        "intro": "Silverline electric tools with a 3-year warranty upon registration. The 180 mm, 1200 W polisher is suited for polishing and sanding large surfaces, complemented by a 135 W straight grinder, a telescopic stand, and replacement sanding belts.",
+        "products": {
+          "p1268": "Polisher 180 mm, 1200 W",
+          "p1332": "Silverline straight grinder 135 W",
+          "p704": "Telescopic straight-grinder stand",
+          "p716": "Replacement sanding belts K40, 5 pcs"
+        }
+      },
+      "total": {
+        "title": "Total tools",
+        "intro": "Affordable electric tools from Total, built for reliability – a compound miter saw, an electric planer, and cordless versions of the angle grinder, random orbit sander and mini chain saw running on a 20V Li-ion battery.",
+        "products": {
+          "p1308": "Compound miter saw, 1400 W",
+          "p1315": "Electric planer, 1050 W",
+          "p1366": "Total cordless angle grinder, 20V Li-ion",
+          "p1406": "Cordless random orbit sander, 125 mm diameter"
+        }
+      }
     },
     "nastrojeDoPriamejBrusky": {
       "stopky24mm": {
@@ -2050,6 +2121,36 @@
       }
     },
     "kategorieSubcategoryDetail": {
+      "elektrickeNaradie": {
+        "arbortech": {
+          "title": "Arbortech electric tools | Marián s.r.o.",
+          "description": "Power Chisel, Mini Carver, Allsaw AS200X and mini grinder – Arbortech electric tools for carvers."
+        },
+        "extolPremium": {
+          "title": "Extol Premium straight grinders | Marián s.r.o.",
+          "description": "Extol straight grinders for wood, metal, plastic and bone, plus speed-adjustable angle grinders."
+        },
+        "kirjes": {
+          "title": "Kirjes tools | Marián s.r.o.",
+          "description": "Kirjes power unit and complete sanding systems with interchangeable sleeves and a flexible shaft."
+        },
+        "tusonPriamaBruska": {
+          "title": "Tuson straight grinder | Marián s.r.o.",
+          "description": "Tuson RT170 straight grinder with flexible shaft and a 125 mm random orbit sander."
+        },
+        "proxxon": {
+          "title": "Proxxon tools | Marián s.r.o.",
+          "description": "LHW long-neck angle grinder, MSG electric chisel and replacement sanding belts from Proxxon."
+        },
+        "silverline": {
+          "title": "Silverline tools | Marián s.r.o.",
+          "description": "1200 W polisher, 135 W straight grinder and telescopic stand from Silverline."
+        },
+        "total": {
+          "title": "Total tools | Marián s.r.o.",
+          "description": "Miter saw, electric planer, and cordless grinders and saw from Total."
+        }
+      },
       "nastrojeDoPriamejBrusky": {
         "stopky24mm": {
           "title": "2.4 mm shank rasps | Marián s.r.o.",
