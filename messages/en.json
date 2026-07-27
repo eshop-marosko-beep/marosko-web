@@ -295,29 +295,29 @@
     },
     "nastrojeDoMiniFrezky": {
       "title": "Mini grinder tools – complete overview",
-      "lead": "A mini grinder (such as an Arbortech Mini Carver, Proxxon, Parkside or Bosch) is a compact tool using 50 mm discs with a 10 mm centre bore. Our range includes five groups of discs and rasps organized by manufacturer – from original Arbortech accessories to Saburrtooth needle rasps and Merlin chain-cutter wheels.",
+      "lead": "A mini grinder (such as an Arbortech Mini Carver, Proxxon, Parkside or Makita) is a compact tool using 50 mm discs with a 9.5 mm centre bore. Our range includes five groups of discs and rasps organized by manufacturer – from original Arbortech accessories to Saburrtooth needle rasps and Merlin chain-cutter wheels.",
       "brands": "The range features trusted brands Arbortech, Manpa, Saburrtooth (Saburr USA), King Arthur's Tools (Merlin) and the Czech manufacturer Idea Import (Ante) – all discs are built for precise, fast wood removal with a mini grinder.",
       "subcategoriesTitle": "Subcategories",
       "subcategories": {
         "arbortech": {
           "name": "Arbortech accessories for the Mini Carver",
-          "description": "Original mini milling discs and accessories straight from Arbortech for the Mini Carver series – reliable, quality material removal."
+          "description": "Original Arbortech mini milling discs for the Mini Carver series — the Mini Pro milling disc, a diamond milling disc, and sets of sanding and fibre discs for reliable, quality material removal."
         },
         "ideaImport": {
           "name": "Mini discs from a Czech manufacturer",
-          "description": "Ante rasps from the Czech manufacturer Idea Import with a 10 mm bore and 50 mm overall disc diameter."
+          "description": "Hand-cut Ante rasps from the Czech manufacturer Idea Import with a 10 mm bore and 50 mm overall disc diameter, a solid alternative to discs made for the Arbortech Mini Grinder and Merlin."
         },
         "saburrtooth": {
           "name": "Saburrtooth U.S.A. needle rasps",
-          "description": "Saburrtooth USA needle sanding rasps for mini grinders – strong material removal suitable for both sanding and polishing wood."
+          "description": "Saburrtooth USA needle rasps with carbide teeth resistant to clogging — color-coded by grit (yellow fine, green coarse, orange extra coarse) for fast stock removal and fine wood finishing; not intended for metal or ceramics."
         },
         "manpa": {
           "name": "Manpa mini discs",
-          "description": "Manpa toothed discs with a 50 mm diameter and 10 mm centre bore – quality, high-yield material removal."
+          "description": "Manpa toothed discs with a 50 mm diameter and 9.5 mm centre bore – quality, high-yield material removal."
         },
         "merlin": {
           "name": "Merlin mini rasps and chain cutters",
-          "description": "Merlin (King Arthur's Tools/Kirjes) accessory discs and chain cutters for the mini grinder, also available separately outside the Nick Agar sets."
+          "description": "Merlin (King Arthur's Tools/Kirjes) accessory discs and chain cutters for the mini grinder — a 4-tooth cutter for dirty wood, carbide mini rasps, and replacement 8-tooth Merlin and Oregon chains, also available separately outside the Nick Agar sets."
         }
       }
     },

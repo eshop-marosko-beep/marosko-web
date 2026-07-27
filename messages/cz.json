@@ -295,29 +295,29 @@
     },
     "nastrojeDoMiniFrezky": {
       "title": "Nástroje do mini frézky – kompletní přehled",
-      "lead": "Mini frézka (například Arbortech Mini Carver, Proxxon, Parkside nebo Bosch) je kompaktní nástroj s kotouči o průměru 50 mm a středovým upnutím 10 mm. V nabídce najdete pět skupin kotoučů a rašplí rozdělených podle výrobce – od originálních doplňků Arbortech přes jehlové rašple Saburrtooth až po řetězové frézky Merlin.",
+      "lead": "Mini frézka (například Arbortech Mini Carver, Proxxon, Parkside nebo Makita) je kompaktní nástroj s kotouči o průměru 50 mm a středovým upnutím 9,5 mm. V nabídce najdete pět skupin kotoučů a rašplí rozdělených podle výrobce – od originálních doplňků Arbortech přes jehlové rašple Saburrtooth až po řetězové frézky Merlin.",
       "brands": "Sortiment tvoří ověřené značky Arbortech, Manpa, Saburrtooth (Saburr USA), King Arthur's Tools (Merlin) a český výrobce Idea Import (Ante) – všechny kotouče jsou určeny pro přesné a rychlé opracování dřeva mini frézkou.",
       "subcategoriesTitle": "Podkategorie",
       "subcategories": {
         "arbortech": {
           "name": "Arbortech doplňky pro Mini Carver",
-          "description": "Originální mini frézovací kotouče a doplňky přímo od společnosti Arbortech pro sérii Mini Carver – kvalitní a spolehlivý úběr materiálu."
+          "description": "Originální mini frézovací kotouče Arbortech pro sérii Mini Carver – frézovací kotouček Mini Pro, diamantový frézovací kotouček i sady brusných a fíbrových kotoučků pro kvalitní a spolehlivý úběr materiálu."
         },
         "ideaImport": {
           "name": "Mini-frézky od českého výrobce",
-          "description": "Rašple Ante od českého výrobce Idea Import s průměrem upnutí 10 mm a celkovým průměrem kotouče 50 mm."
+          "description": "Ručně sekané rašple Ante od českého výrobce Idea Import s průměrem upnutí 10 mm a celkovým průměrem kotouče 50 mm, vhodné jako alternativa ke kotoučům pro Arbortech Mini Grinder a Merlin."
         },
         "saburrtooth": {
           "name": "Jehlové rašple Saburrtooth U.S.A.",
-          "description": "Jehlové brusné rašple Saburrtooth USA pro mini frézky – kvalitní úběr materiálu vhodný pro broušení i leštění dřeva."
+          "description": "Jehlové rašple Saburrtooth USA s tvrdokovovými jehličkami odolnými proti ucpávání – barevně odlišené podle hrubosti zrna (žlutá jemná, zelená hrubá, oranžová extra hrubá) pro rychlý úběr i jemné dokončování dřeva, nejsou určené pro kov ani keramiku."
         },
         "manpa": {
           "name": "Manpa mini kotouče",
-          "description": "Zubové kotouče Manpa s průměrem 50 mm a středovým upnutím 10 mm – kvalitní a vydatný úběr materiálu."
+          "description": "Zubové kotouče Manpa s průměrem 50 mm a středovým upnutím 9,5 mm – kvalitní a vydatný úběr materiálu."
         },
         "merlin": {
           "name": "Merlin mini rašple a řetězové frézky",
-          "description": "Doplňkové kotouče a řetězové frézky Merlin (King Arthur's Tools/Kirjes) do mini frézky, dostupné i samostatně mimo sady Nick Agar."
+          "description": "Doplňkové kotouče a řetězové frézky Merlin (King Arthur's Tools/Kirjes) do mini frézky – 4zubá frézka na dřevo s nečistotami, tvrdokovové minirašple i náhradní 8zubé řetězy Merlin a Oregon, dostupné i samostatně mimo sady Nick Agar."
         }
       }
     },
