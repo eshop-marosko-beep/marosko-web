@@ -42,30 +42,181 @@ export const kategorieArticles: KategorieArticle[] = [
     subcategories: [
       {
         translationKey: "naDrevo",
+        slug: "na-drevo",
         galleryLinks: ["frezovacie-kotuce", "hoblovacie-naradie", "ihlickove-brusne-kotuce"],
         image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/arbortech/frezovaci-kotuc-industrial.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky/nastroje-do-uhlovych-brusiek-na-drevo",
+        products: [
+          {
+            id: "p156",
+            url: "https://eshop.marosko.sk/p/156/arbortech-industrial-wodcarver-profi-industrial-frezovanie",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/arbortech/frezovaci-kotuc-industrial.jpg",
+          },
+          {
+            id: "p163",
+            url: "https://eshop.marosko.sk/p/163/hoblovaci-kotuc-arbortech-turbo-plane",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/hoblovacie/arbortech-turbo-plane-.jpg",
+          },
+          {
+            id: "p255",
+            url: "https://eshop.marosko.sk/p/255/tvarovacia-gulicka-arbortech-ball-gouge",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/arbortech/gulicka-ball-gouge-orez.jpg",
+          },
+          {
+            id: "p1303",
+            url: "https://eshop.marosko.sk/p/1303/arbortech-turbo-scraper-100-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/arbortech/arbortech-skrabka/arbortech-turbo-scraper-complet.jpg",
+          },
+        ],
       },
       {
         translationKey: "manpaRameno",
+        slug: "manpa-rameno",
         galleryLinks: ["manpa-predlzovacie-rameno"],
         image: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/master/2.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky/manpa-predlzovacie-rameno-naradie",
+        products: [
+          {
+            id: "p1029",
+            url: "https://eshop.marosko.sk/p/1029/predlzovacie-rameno-s-predlzenim-frezovanie-manpa-multi-cutter-master",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/master/2.jpg",
+          },
+          {
+            id: "p765",
+            url: "https://eshop.marosko.sk/p/765/predlzovacie-rameno-s-pasovou-bruskou",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/predlzovaci-rameno-/pasova-bruska/3-154.jpg",
+          },
+          {
+            id: "p1027",
+            url: "https://eshop.marosko.sk/p/1027/frezovacie-rameno-manpa-s-nastavcom-kotucom-zakladna-verzia",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/basic-kit/basic.jpeg",
+          },
+          {
+            id: "p796",
+            url: "https://eshop.marosko.sk/p/796/mini-drazkovacia-frezovacia-stopka-12-mm",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/manpa/mini-drazkovacia-frezovacia-stopka---12-mm/mini-frezovaci-nastavec.jpeg",
+          },
+        ],
       },
       {
         translationKey: "diamantoveKotuce",
+        slug: "diamantove-kotuce",
         image:
           "https://eshop.marosko.sk/resize/e/800/800/files/na-kov/brusne-diamantove-kotuce-diclear/drazkovy-diamantovy-kotuc-brusny.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky/diamantove-ostriace-kotuce",
+        products: [
+          {
+            id: "p258",
+            url: "https://eshop.marosko.sk/p/258/diamantovy-brusny-kotuc-drazkovy-126-126",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/na-kov/brusne-diamantove-kotuce-diclear/drazkovy-diamantovy-kotuc-brusny.jpg",
+          },
+          {
+            id: "p415",
+            url: "https://eshop.marosko.sk/p/415/diamantovy-brusny-kotuc-drazkovy-126-39",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/na-kov/brusne-diamantove-kotuce-diclear/diamantovy-kotuc-ostriaci-do-uhlovej-brusky-univerzalny.jpg",
+          },
+          {
+            id: "p159",
+            url: "https://eshop.marosko.sk/p/159/diamantovy-brusny-kotuc-do-uhlovej-brusky-181-76",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/na-kov/brusne-diamantove-kotuce-diclear/19848-466--vyrp11-2002-web2-cisty.jpg",
+          },
+          {
+            id: "p239",
+            url: "https://eshop.marosko.sk/p/239/univerzalny-rezny-kotuc-multidisc-125mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/rezne/leja-tools/multidisk-lejatools.jpg",
+          },
+        ],
       },
       {
         translationKey: "nadstavce",
+        slug: "nadstavce",
         image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/unasac-s-drazkami-chladiaci-efekt-.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky/nadstavce-do-uhlovych-brusiek",
+        products: [
+          {
+            id: "p1258",
+            url: "https://eshop.marosko.sk/p/1258/nosic-fibrovych-smirglov-pre-uhlovu-brusku-s-chladiacimi-drazkami-115-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/unasac-s-drazkami-chladiaci-efekt-.jpg",
+          },
+          {
+            id: "p1307",
+            url: "https://eshop.marosko.sk/p/1307/stojan-pre-uhlovou-brusku",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/vymenne-pridavne-nahradne-diely/stojan-na-uhlovu-brusku.jpg",
+          },
+          {
+            id: "p1350",
+            url: "https://eshop.marosko.sk/p/1350/rychloupinacie-sklucovadlo-na-hriadel-zavit-m10",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/manpa/predlzovacia-hriadel-do-vrtacky/sklucovadlo-na-hriadel/-vyrp13-8624--keyless-chuck---features-1.jpg",
+          },
+          {
+            id: "p1370",
+            url: "https://eshop.marosko.sk/p/1370/diamantova-brusna-matica-valcek-50mm-m14",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/priruba-/brusna-matica/brusna-matica.jpg",
+          },
+        ],
       },
       {
         translationKey: "kamenTehla",
+        slug: "kamen-tehla",
         image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/rezne/rezny-diamantovy-kotuc.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky/nastroje-kamen-tehla",
+        products: [
+          {
+            id: "p221",
+            url: "https://eshop.marosko.sk/p/221/diamantovy-rezny-kotuc-turbo",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/rezne/rezny-diamantovy-kotuc.jpg",
+          },
+          {
+            id: "p481",
+            url: "https://eshop.marosko.sk/p/481/diamantovy-duty-vrtak-22-mm-zavit-m-14-na-uhlovu-brusku",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/vrtaky/diamantovy-duty-vrtak-22mm-uhlovka.jpg",
+          },
+          {
+            id: "p1178",
+            url: "https://eshop.marosko.sk/p/1178/sada-dutych-diamantovych-vrtakov-priemer-22-35-40-55-68-mm",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/kamenorezba/diamantove-dute-vrtaky/-vyrp11-7647-5-modra-velka-krab-vodo.jpg",
+          },
+          {
+            id: "p1330",
+            url: "https://eshop.marosko.sk/p/1330/diamantovy-brusny-kotuc-150-mm-turbo",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/kamenorezba/475281-1.jpeg",
+          },
+        ],
       },
       {
         translationKey: "plastoveKompozity",
+        slug: "plastove-kompozity",
         image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/rezne/125-diamant-na-zelezobeton.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky/obrabanie-brusenie-plastovych-kompozitov",
+        products: [
+          {
+            id: "p693",
+            url: "https://eshop.marosko.sk/p/693/univerzalny-diamantovy-rezny-kotuc",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/rezne/125-diamant-na-zelezobeton.jpg",
+          },
+          {
+            id: "p435",
+            url: "https://eshop.marosko.sk/p/435/brusny-kotuc-s-tvrdokovom-115mm-stredne-hruby-s-hranou",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/brusne/115-tvrdokov-/hrana-115mm-stredne-hruby-.jpg",
+          },
+          {
+            id: "p175",
+            url: "https://eshop.marosko.sk/p/175/brusny-kotuc-s-tvrdo-kovom-o-115-mm-stredne-hruby",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/brusne/115-tvrdokov-/stredne-hruby-115mm-.jpg",
+          },
+          {
+            id: "p486",
+            url: "https://eshop.marosko.sk/p/486/brusny-kotuc-s-tvrdokovom-125mm-hruby-plochy-rovny",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/brusne/115-tvrdokov-/125mm-hruby-kotuc-.jpg",
+          },
+        ],
       },
     ],
   },
