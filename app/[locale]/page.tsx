@@ -1,6 +1,7 @@
 import Hero from "@/components/home/Hero";
 import StatsBar from "@/components/StatsBar";
 import Categories from "@/components/home/Categories";
+import SaburrtoothSpotlight from "@/components/home/SaburrtoothSpotlight";
 import AboutSection from "@/components/home/AboutSection";
 import Testimonials from "@/components/home/Testimonials";
 import Faq from "@/components/home/Faq";
@@ -36,6 +37,7 @@ export default async function HomePage({
       <Hero />
       <StatsBar />
       <Categories />
+      <SaburrtoothSpotlight />
       <AboutSection />
       <Testimonials locale={locale} />
       <Faq />

@@ -34,6 +34,18 @@
       },
       "cta": "Zobrazit všechny kategorie"
     },
+    "saburrtooth": {
+      "title": "Jehlové rašple Saburrtooth",
+      "subtitle": "Americké karbidové rašple Saburrtooth USA pro mini frézky o průměru 50 mm – různé tvary a hrubosti zrna pro rychlé tvarování i jemné dokončování dřeva.",
+      "cta": "Zobrazit celou nabídku Saburrtooth",
+      "products": {
+        "p1013": { "name": "Šikmá oblá 50 mm" },
+        "p405": { "name": "Šálková extra hrubá 44,5 mm" },
+        "p590": { "name": "Kulatá jemná s otvory 50 mm" },
+        "p591": { "name": "Kulatá hrubá s otvory 50 mm" },
+        "p587": { "name": "Extra hrubá plochá 50 mm" }
+      }
+    },
     "aboutSection": {
       "title": "Kdo jsme",
       "text": "Marián s.r.o. – rodinná společnost, která se už od roku 2013 specializuje na značkové řezbářské a dřevoobráběcí nářadí. Do nabídky vybíráme jen mezinárodně uznávané a osvědčené značky – tvarovací nástroje Arbortech z Austrálie, rašple Saburrtooth z USA, frézovací nástroje Manpa z Koreje a brusné systémy Kirjes ze Švédska.",
