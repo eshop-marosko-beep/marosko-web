@@ -527,6 +527,68 @@
       "productsTitle": "Featured products",
       "eshopCta": "See the full range in the eshop"
     },
+    "nastrojeDoUhlovejBrusky": {
+      "naDrevo": {
+        "title": "Angle grinder tools for wood",
+        "intro": "The largest group of angle grinder tools for wood — the legendary Arbortech Woodcarver PROFI-INDUSTRIAL for roughing out, the Turbo Plane planing disc, the Ball Gouge shaping tool and the Turbo Scraper 100 mm for fine finishing, plus milling discs from Akka Tools and Piranha and the Random Contour Sander attachment. Ideal for carvers who need both fast stock removal and precise shaping directly with an angle grinder.",
+        "products": {
+          "p156": "Arbortech Woodcarver PROFI-INDUSTRIAL milling disc",
+          "p163": "Arbortech Turbo Plane planing disc",
+          "p255": "Arbortech Ball Gouge shaping tool",
+          "p1303": "Arbortech Turbo Scraper 100 mm"
+        }
+      },
+      "manpaRameno": {
+        "title": "Manpa extension arm and tools",
+        "intro": "A complete Manpa extension arm system that turns an angle grinder into a precise tool even in hard-to-reach spots. Includes the flagship Multi Cutter Master with a spare cutter, a belt sander attachment, multi-purpose milling attachments, and grooving cutter shanks in 12 and 20 mm diameters.",
+        "products": {
+          "p1029": "Manpa Multi Cutter Master extension arm with cutter",
+          "p765": "Extension arm with belt sander attachment",
+          "p1027": "Multi-purpose milling attachment, basic set",
+          "p796": "Mini grooving cutter shank 12 mm"
+        }
+      },
+      "diamantoveKotuce": {
+        "title": "Diamond sharpening discs",
+        "intro": "Diamond-coated grooved discs built for sharpening — not for cutting wood. Use them to sharpen chisels, knives, chainsaw chains, and carbide (widia) tools and tungsten rods. The 2.5 mm thickness reaches between saw blade teeth, and the range also includes wire-ring carriers and brush rings for brushing wood.",
+        "products": {
+          "p258": "Diamond grinding disc, grooved D126/126",
+          "p415": "Diamond grinding disc, grooved, grit 126/39",
+          "p159": "Diamond grinding disc, grooved D181/76",
+          "p239": "Universal cutting disc Multidisc 125 mm"
+        }
+      },
+      "nadstavce": {
+        "title": "Angle grinder attachments",
+        "intro": "Backing pads, adapters and M14 shaft extensions that expand what your angle grinder can do. The range includes a stand for the angle grinder, a keyless chuck, a diamond grinding nut, and M14/M22 and M14/6 mm reducers.",
+        "products": {
+          "p1258": "Fibre disc backing pad M14, 115 mm",
+          "p1307": "Angle grinder stand",
+          "p1350": "Keyless chuck, M10 thread",
+          "p1370": "Diamond grinding nut, cylinder 50 mm M14"
+        }
+      },
+      "kamenTehla": {
+        "title": "Tools for stone and brick",
+        "intro": "Attachments built for working masonry, brick and stone — TURBO diamond cutting discs for fast cutting, diamond core bits from 22 to 68 mm for precise drilling, and Ø125 and 150 mm carbide grinding discs for roughing out surfaces.",
+        "products": {
+          "p221": "TURBO diamond cutting disc",
+          "p481": "Diamond core bit 22 mm, M14 thread",
+          "p1178": "Diamond core bit set, 22–68 mm",
+          "p1330": "TURBO diamond grinding disc 150 mm"
+        }
+      },
+      "plastoveKompozity": {
+        "title": "Machining plastic composites",
+        "intro": "Specialized discs for sanding and cutting plastic and composite materials without overheating the surface. Includes a universal diamond cutting disc and Ø115–125 mm carbide grinding discs in medium and coarse grades that also handle fibreglass and plastic sheeting.",
+        "products": {
+          "p693": "Universal diamond cutting disc 125/230 mm",
+          "p435": "Carbide grinding disc Ø115 mm, medium with edge",
+          "p175": "Carbide grinding disc Ø115 mm, medium",
+          "p486": "Carbide grinding disc Ø125 mm, coarse"
+        }
+      }
+    },
     "nastrojeDoMiniFrezky": {
       "arbortech": {
         "title": "Arbortech accessories for the Mini Carver",
@@ -1884,6 +1946,32 @@
       }
     },
     "kategorieSubcategoryDetail": {
+      "nastrojeDoUhlovejBrusky": {
+        "naDrevo": {
+          "title": "Angle grinder tools for wood | Marián s.r.o.",
+          "description": "Arbortech Woodcarver PROFI-INDUSTRIAL, Turbo Plane, Ball Gouge and Turbo Scraper – milling and planing discs for wood for the angle grinder."
+        },
+        "manpaRameno": {
+          "title": "Manpa extension arm and tools | Marián s.r.o.",
+          "description": "Manpa Multi Cutter Master, belt sander attachment and milling attachments – extension arms for the angle grinder."
+        },
+        "diamantoveKotuce": {
+          "title": "Diamond sharpening discs | Marián s.r.o.",
+          "description": "Diamond-coated discs for sharpening chisels, knives, chains and carbide tools for the angle grinder."
+        },
+        "nadstavce": {
+          "title": "Angle grinder attachments | Marián s.r.o.",
+          "description": "Stand, keyless chuck, diamond grinding nut and M14 reducers for the angle grinder."
+        },
+        "kamenTehla": {
+          "title": "Tools for stone and brick | Marián s.r.o.",
+          "description": "TURBO diamond cutting discs, diamond core bits and carbide grinding discs for working masonry and stone."
+        },
+        "plastoveKompozity": {
+          "title": "Machining plastic composites | Marián s.r.o.",
+          "description": "Universal diamond cutting disc and carbide grinding discs for plastic and composite materials."
+        }
+      },
       "nastrojeDoMiniFrezky": {
         "arbortech": {
           "title": "Arbortech accessories for the Mini Carver Ø 50 mm | Marián s.r.o.",

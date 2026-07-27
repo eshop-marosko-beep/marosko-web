@@ -527,6 +527,68 @@
       "productsTitle": "Produse recomandate",
       "eshopCta": "Vezi toată gama în eshop"
     },
+    "nastrojeDoUhlovejBrusky": {
+      "naDrevo": {
+        "title": "Unelte pentru polizor unghiular pe lemn",
+        "intro": "Cea mai amplă grupă de unelte pentru polizor unghiular pe lemn — legendarul Arbortech Woodcarver PROFI-INDUSTRIAL pentru degroșare, discul de rindeluit Turbo Plane, unealta de modelat Ball Gouge și racleta Turbo Scraper 100 mm pentru finisare fină, plus discuri de frezat Akka Tools și Piranha și accesoriul Random Contour Sander. Ideale pentru sculptori care au nevoie atât de îndepărtare rapidă, cât și de modelare precisă direct cu polizorul unghiular.",
+        "products": {
+          "p156": "Disc de frezat Arbortech Woodcarver PROFI-INDUSTRIAL",
+          "p163": "Disc de rindeluit Arbortech Turbo Plane",
+          "p255": "Unealtă de modelat Arbortech Ball Gouge",
+          "p1303": "Arbortech Turbo Scraper 100 mm"
+        }
+      },
+      "manpaRameno": {
+        "title": "Manpa – braț prelungitor și unelte",
+        "intro": "Un sistem complet de brațe prelungitoare Manpa, care transformă polizorul unghiular într-o unealtă precisă chiar și în zone greu accesibile. Include emblematicul Multi Cutter Master cu freză de schimb, un accesoriu de șlefuit cu bandă, capete de frezat multifuncționale și freze canelate pe tijă în diametre de 12 și 20 mm.",
+        "products": {
+          "p1029": "Braț prelungitor Manpa Multi Cutter Master cu freză",
+          "p765": "Braț prelungitor cu accesoriu de șlefuit cu bandă",
+          "p1027": "Accesoriu de frezat multifuncțional, set de bază",
+          "p796": "Freză canelată mini pe tijă 12 mm"
+        }
+      },
+      "diamantoveKotuce": {
+        "title": "Discuri diamantate de ascuțit",
+        "intro": "Discuri canelate acoperite cu diamant, concepute pentru ascuțire — nu pentru tăierea lemnului. Cu ele ascuțiți dalte, cuțite, lanțuri de motoferăstrău și unelte din carbură (widia) și tije de wolfram. Grosimea de 2,5 mm ajunge și printre dinții discurilor de tăiat, iar gama include și suporturi și inele de perii pentru periat lemnul.",
+        "products": {
+          "p258": "Disc de șlefuit diamantat, canelat D126/126",
+          "p415": "Disc de șlefuit diamantat, canelat, granulație 126/39",
+          "p159": "Disc de șlefuit diamantat, canelat D181/76",
+          "p239": "Disc universal de tăiere Multidisc 125 mm"
+        }
+      },
+      "nadstavce": {
+        "title": "Accesorii pentru polizor unghiular",
+        "intro": "Talere de sprijin, adaptoare și prelungitoare de ax M14, care extind posibilitățile polizorului unghiular. Gama include un suport pentru polizorul unghiular, o mandrină cu prindere rapidă, o piuliță de șlefuire diamantată și reductoare M14/M22 și M14/6 mm.",
+        "products": {
+          "p1258": "Suport disc din fibră M14, 115 mm",
+          "p1307": "Suport pentru polizor unghiular",
+          "p1350": "Mandrină cu prindere rapidă, filet M10",
+          "p1370": "Piuliță de șlefuire diamantată, cilindru 50 mm M14"
+        }
+      },
+      "kamenTehla": {
+        "title": "Unelte pentru piatră și cărămidă",
+        "intro": "Accesorii destinate prelucrării zidăriei, cărămizii și pietrei — discuri de tăiere diamantate TURBO pentru tăiere rapidă, burghie tubulare diamantate de la 22 la 68 mm pentru găurire precisă și discuri de șlefuit din carbură Ø125 și 150 mm pentru degroșarea suprafeței.",
+        "products": {
+          "p221": "Disc de tăiere diamantat TURBO",
+          "p481": "Burghiu tubular diamantat 22 mm, filet M14",
+          "p1178": "Set burghie tubulare diamantate, 22–68 mm",
+          "p1330": "Disc de șlefuit diamantat TURBO 150 mm"
+        }
+      },
+      "plastoveKompozity": {
+        "title": "Prelucrarea compozitelor din plastic",
+        "intro": "Discuri specializate pentru șlefuirea și tăierea materialelor din plastic și compozite fără supraîncălzirea suprafeței. Include un disc universal de tăiere diamantat și discuri de șlefuit din carbură Ø115–125 mm în granulație medie și grosieră, care fac față și fibrei de sticlă și plăcilor din plastic.",
+        "products": {
+          "p693": "Disc universal de tăiere diamantat 125/230 mm",
+          "p435": "Disc de șlefuit din carbură Ø115 mm, mediu cu muchie",
+          "p175": "Disc de șlefuit din carbură Ø115 mm, mediu",
+          "p486": "Disc de șlefuit din carbură Ø125 mm, grosier"
+        }
+      }
+    },
     "nastrojeDoMiniFrezky": {
       "arbortech": {
         "title": "Accesorii Arbortech pentru Mini Carver",
@@ -1884,6 +1946,32 @@
       }
     },
     "kategorieSubcategoryDetail": {
+      "nastrojeDoUhlovejBrusky": {
+        "naDrevo": {
+          "title": "Unelte pentru polizor unghiular pe lemn | Marián s.r.o.",
+          "description": "Arbortech Woodcarver PROFI-INDUSTRIAL, Turbo Plane, Ball Gouge și Turbo Scraper – discuri de frezat și rindeluit pe lemn pentru polizorul unghiular."
+        },
+        "manpaRameno": {
+          "title": "Manpa – braț prelungitor și unelte | Marián s.r.o.",
+          "description": "Manpa Multi Cutter Master, accesoriu de șlefuit cu bandă și accesorii de frezat – brațe prelungitoare pentru polizorul unghiular."
+        },
+        "diamantoveKotuce": {
+          "title": "Discuri diamantate de ascuțit | Marián s.r.o.",
+          "description": "Discuri acoperite cu diamant pentru ascuțirea daltelor, cuțitelor, lanțurilor și uneltelor din carbură pentru polizorul unghiular."
+        },
+        "nadstavce": {
+          "title": "Accesorii pentru polizor unghiular | Marián s.r.o.",
+          "description": "Suport, mandrină cu prindere rapidă, piuliță de șlefuire diamantată și reductoare M14 pentru polizorul unghiular."
+        },
+        "kamenTehla": {
+          "title": "Unelte pentru piatră și cărămidă | Marián s.r.o.",
+          "description": "Discuri de tăiere diamantate TURBO, burghie tubulare diamantate și discuri de șlefuit din carbură pentru prelucrarea zidăriei și pietrei."
+        },
+        "plastoveKompozity": {
+          "title": "Prelucrarea compozitelor din plastic | Marián s.r.o.",
+          "description": "Disc universal de tăiere diamantat și discuri de șlefuit din carbură pentru materiale din plastic și compozite."
+        }
+      },
       "nastrojeDoMiniFrezky": {
         "arbortech": {
           "title": "Accesorii Arbortech pentru Mini Carver Ø 50 mm | Marián s.r.o.",

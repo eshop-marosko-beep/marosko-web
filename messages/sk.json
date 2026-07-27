@@ -527,6 +527,68 @@
       "productsTitle": "Vybrané produkty",
       "eshopCta": "Zobraziť celú ponuku v e-shope"
     },
+    "nastrojeDoUhlovejBrusky": {
+      "naDrevo": {
+        "title": "Nástroje do uhlových brúsok na drevo",
+        "intro": "Najrozsiahlejšia skupina nástrojov do uhlovej brúsky na drevo – legendárny Arbortech Woodcarver PROFI-INDUSTRIAL na hrubovanie, hobľovací Turbo Plane, tvarovacia guľôčka Ball Gouge aj Turbo Škrabka 100 mm na jemné dokončenie, doplnené o frézovacie kotúče Akka Tools a Piraňa a brúsny nástavec Random Contour Sander. Ideálne pre rezbárov, ktorí potrebujú rýchly úber aj presné tvarovanie priamo uhlovou brúskou.",
+        "products": {
+          "p156": "Frézovací kotúč Arbortech Woodcarver PROFI-INDUSTRIAL",
+          "p163": "Hobľovací kotúč Arbortech Turbo Plane",
+          "p255": "Tvarovacia guľôčka Arbortech Ball Gouge",
+          "p1303": "Arbortech Turbo Škrabka 100 mm"
+        }
+      },
+      "manpaRameno": {
+        "title": "Manpa – predlžovacie rameno a náradie",
+        "intro": "Kompletný systém predlžovacích ramien Manpa, ktorý premení uhlovú brúsku na presný nástroj aj v ťažko dostupných miestach. Nájdete tu vlajkový Multi Cutter Master s náhradnou frézkou, pásovú brúsku na rameno, viacúčelové frézovacie nadstavce aj drážkovacie frézovacie stopky s priemerom 12 a 20 mm.",
+        "products": {
+          "p1029": "Manpa Multi Cutter Master, predlžovacie rameno s frézkou",
+          "p765": "Predlžovacie rameno s pásovou brúskou",
+          "p1027": "Nadstavec na viacúčelové frézy, základná sada",
+          "p796": "Mini-drážkovacia frézovacia stopka 12 mm"
+        }
+      },
+      "diamantoveKotuce": {
+        "title": "Diamantové ostriace kotúče",
+        "intro": "Diamantom potiahnuté drážkované kotúče určené na ostrenie – nie na rezanie dreva. Nabrúsite nimi dláta, nože, reťaze motorových píl aj tvrdokovové (widia) nástroje a volfrámové tyče. Vďaka hrúbke 2,5 mm sa dostanete aj medzi zuby pílových kotúčov, doplnkovo nájdete aj unášače a kefové prstence na kartáčovanie dreva.",
+        "products": {
+          "p258": "Diamantový brusný kotúč drážkový D126/126",
+          "p415": "Diamantový brusný kotúč drážkový, drsnosť 126/39",
+          "p159": "Diamantový brusný kotúč drážkový D181/76",
+          "p239": "Univerzálny rezný kotúč Multidisc 125 mm"
+        }
+      },
+      "nadstavce": {
+        "title": "Nadstavce do uhlových brúsok",
+        "intro": "Podložné taniere, prechodky a predĺženia hriadeľa M14, ktoré rozšíria možnosti vašej uhlovej brúsky o ďalšie typy nástrojov. V ponuke je stojan pre uhlovú brúsku, rýchloupínacie skľučovadlo, diamantová brúsna matica aj redukcie M14/M22 a M14/6 mm.",
+        "products": {
+          "p1258": "Nosič brúsnych fíbrových výsekov M14, 115 mm",
+          "p1307": "Stojan pre uhlovú brúsku",
+          "p1350": "Rýchloupínacie skľučovadlo, závit M10",
+          "p1370": "Diamantová brúsna matica valček 50 mm M14"
+        }
+      },
+      "kamenTehla": {
+        "title": "Nástroje na kameň a tehlu",
+        "intro": "Nástavce určené na opracovanie muriva, tehly a kameňa – rezné diamantové kotúče TURBO na rýchle delenie, diamantové duté vrtáky s priemerom 22 až 68 mm na presné vŕtanie otvorov aj brúsne kotúče s tvrdokovom Ø125 a 150 mm na hrubovanie povrchu.",
+        "products": {
+          "p221": "Rezný diamantový kotúč TURBO",
+          "p481": "Diamantový dutý vrták 22 mm, závit M14",
+          "p1178": "Sada dutých diamantových vrtákov, 22–68 mm",
+          "p1330": "Diamantový brúsny kotúč TURBO 150 mm"
+        }
+      },
+      "plastoveKompozity": {
+        "title": "Opracovanie plastových kompozitov",
+        "intro": "Špecializované kotúče na brúsenie a rezanie plastových a kompozitných materiálov bez prehrievania povrchu. Nájdete tu univerzálny diamantový rezný kotúč aj brúsne kotúče s tvrdokovom Ø115–125 mm v hrubosti stredne hrubý až hrubý, ktoré si poradia aj so sklolaminátom a plastovými doskami.",
+        "products": {
+          "p693": "Univerzálny diamantový rezný kotúč 125/230 mm",
+          "p435": "Brúsny kotúč s tvrdokovom Ø115 mm, stredne hrubý s hranou",
+          "p175": "Brúsny kotúč s tvrdokovom Ø115 mm, stredne hrubý",
+          "p486": "Brúsny kotúč s tvrdokovom Ø125 mm, hrubý"
+        }
+      }
+    },
     "nastrojeDoMiniFrezky": {
       "arbortech": {
         "title": "Arbortech doplnky pre Mini Carver",
@@ -1884,6 +1946,32 @@
       }
     },
     "kategorieSubcategoryDetail": {
+      "nastrojeDoUhlovejBrusky": {
+        "naDrevo": {
+          "title": "Nástroje do uhlových brúsok na drevo | Marián s.r.o.",
+          "description": "Arbortech Woodcarver PROFI-INDUSTRIAL, Turbo Plane, Ball Gouge aj Turbo Škrabka – frézovacie a hobľovacie kotúče na drevo pre uhlovú brúsku."
+        },
+        "manpaRameno": {
+          "title": "Manpa – predlžovacie rameno a náradie | Marián s.r.o.",
+          "description": "Manpa Multi Cutter Master, pásová brúska na rameno aj frézovacie nadstavce – predlžovacie ramená pre uhlovú brúsku."
+        },
+        "diamantoveKotuce": {
+          "title": "Diamantové ostriace kotúče | Marián s.r.o.",
+          "description": "Diamantom potiahnuté kotúče na ostrenie dlát, nožov, reťazí a tvrdokovových nástrojov pre uhlovú brúsku."
+        },
+        "nadstavce": {
+          "title": "Nadstavce do uhlových brúsok | Marián s.r.o.",
+          "description": "Stojan, rýchloupínacie skľučovadlo, diamantová brúsna matica aj redukcie M14 pre uhlovú brúsku."
+        },
+        "kamenTehla": {
+          "title": "Nástroje na kameň a tehlu | Marián s.r.o.",
+          "description": "Rezné diamantové kotúče TURBO, diamantové duté vrtáky aj brúsne kotúče s tvrdokovom pre opracovanie muriva a kameňa."
+        },
+        "plastoveKompozity": {
+          "title": "Opracovanie plastových kompozitov | Marián s.r.o.",
+          "description": "Univerzálny diamantový rezný kotúč aj brúsne kotúče s tvrdokovom na plastové a kompozitné materiály."
+        }
+      },
       "nastrojeDoMiniFrezky": {
         "arbortech": {
           "title": "Arbortech doplnky pre Mini Carver Ø 50 mm | Marián s.r.o.",
