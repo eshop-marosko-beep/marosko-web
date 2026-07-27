@@ -119,15 +119,32 @@ export const kategorieArticles: KategorieArticle[] = [
     slug: "mini-kotuce-pre-mini-frezky-50",
     translationKey: "nastrojeDoMiniFrezky",
     eshopUrl: "https://eshop.marosko.sk/c/mini-kotuce-pre-mini-frezky-50",
+    image:
+      "https://eshop.marosko.sk/resize/e/1600/1600/files/na-drevo/do-uhlovych-brusok/brusne/saburr-usa/50mm-priemer/sikma-obla/oble-50mm.jpg",
     subcategories: [
-      { translationKey: "arbortech" },
-      { translationKey: "ideaImport" },
+      {
+        translationKey: "arbortech",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/arbortech/mini-pro/arbortech-mini-pro-balenie.jpg",
+      },
+      {
+        translationKey: "ideaImport",
+        image:
+          "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/brusne/rucne-sekane-rasple/rucne-sekane-rasple/036-rasplovy-sekany-kotucik-50mm.jpg",
+      },
       {
         translationKey: "saburrtooth",
         galleryLinks: ["mini-kotuce-pre-mini-frezky"],
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/rasple-sabur-usa/salkova-50mm/cr2-70.jpg",
       },
-      { translationKey: "manpa" },
-      { translationKey: "merlin" },
+      {
+        translationKey: "manpa",
+        image:
+          "https://eshop.marosko.sk/resize/e/800/800/files/manpa/ihlickove/manpa-50mm/s402289862919970660-p5-i4-w640.jpeg",
+      },
+      {
+        translationKey: "merlin",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/arbortech/4zubova-minifrezka-merlin.jpg",
+      },
     ],
   },
   {
