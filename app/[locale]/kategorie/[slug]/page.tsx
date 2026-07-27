@@ -66,7 +66,7 @@ export default async function KategorieDetailPage({
         <>
           <h2 className="text-2xl font-bold text-espresso-800 mb-6">{t("subcategoriesTitle")}</h2>
           <div className="space-y-6 mb-10">
-            {article.subcategories.map(({ translationKey, galleryLinks, image }) => (
+            {article.subcategories.map(({ translationKey, galleryLinks, image, slug: subSlug }) => (
               <div
                 key={translationKey}
                 className="bg-white rounded-xl shadow-lg p-6 sm:flex sm:gap-6"
@@ -84,7 +84,13 @@ export default async function KategorieDetailPage({
                 )}
                 <div className="min-w-0">
                   <h3 className="text-lg font-bold text-espresso-800 mb-2">
-                    {t(`subcategories.${translationKey}.name`)}
+                    {subSlug ? (
+                      <Link href={`/kategorie/${slug}/${subSlug}`} className="hover:text-amber-700 hover:underline">
+                        {t(`subcategories.${translationKey}.name`)}
+                      </Link>
+                    ) : (
+                      t(`subcategories.${translationKey}.name`)
+                    )}
                   </h3>
                   <p className="text-gray-600 leading-relaxed">
                     {t(`subcategories.${translationKey}.description`)}
