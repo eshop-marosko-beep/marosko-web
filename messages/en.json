@@ -201,27 +201,27 @@
       "subcategories": {
         "naDrevo": {
           "name": "Angle grinder tools for wood",
-          "description": "The largest group – milling and planing discs, needle sanding discs, hollowing and grooving tools, and wood brushes. Includes the legendary Arbortech Woodcarver and Turbo Plane."
+          "description": "The largest group — the legendary Arbortech Woodcarver PROFI-INDUSTRIAL, the Turbo Plane planing disc, the Ball Gouge shaping tool and the Turbo Scraper 100 mm, milling discs from Akka Tools and Piranha, plus the Random Contour Sander attachment."
         },
         "manpaRameno": {
           "name": "Manpa extension arm and tools",
-          "description": "A complete system of extension arms, milling heads and accessories from the South Korean brand Manpa, built for precise work even in hard-to-reach spots."
+          "description": "A complete Manpa extension arm system — the Multi Cutter Master with a spare cutter, a belt sander attachment, multi-purpose milling attachments, and 12 and 20 mm grooving cutter shanks for precise work in hard-to-reach spots."
         },
         "diamantoveKotuce": {
           "name": "Diamond sharpening discs",
-          "description": "Diamond-coated discs for sharpening chisels, knives, chainsaw chains, carbide (widia) tools and tungsten rods. The grooved surface prevents the edge from overheating, and the 2.5 mm thickness reaches between saw blade teeth."
+          "description": "Diamond-coated grooved discs for sharpening chisels, knives, chainsaw chains, carbide (widia) tools and tungsten rods, plus wire-ring carriers and brush rings for brushing wood. The 2.5 mm thickness reaches between saw blade teeth."
         },
         "nadstavce": {
           "name": "Angle grinder attachments",
-          "description": "Backing pads, adapters and extensions that expand what your angle grinder can do with other tool types."
+          "description": "Backing pads, adapters and M14 shaft extensions — a stand for the angle grinder, a keyless chuck, a diamond grinding nut, and M14/M22 and M14/6 mm reducers that expand what your angle grinder can do."
         },
         "kamenTehla": {
           "name": "Tools for stone and brick",
-          "description": "Grinding, cutting and drilling attachments for working masonry, brick and stone."
+          "description": "TURBO diamond cutting discs, diamond core bits from 22 to 68 mm, and Ø125 mm carbide grinding discs — attachments built for working masonry, brick and stone."
         },
         "plastoveKompozity": {
           "name": "Machining plastic composites",
-          "description": "Specialized discs for sanding and cutting plastic and composite materials without overheating the surface."
+          "description": "A universal diamond cutting disc and Ø115–125 mm carbide grinding discs in medium and coarse grades, plus Saburrtooth needle rasps — specialized for sanding and cutting plastic and composite materials without overheating the surface."
         }
       }
     },
