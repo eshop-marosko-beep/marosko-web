@@ -201,27 +201,27 @@
       "subcategories": {
         "naDrevo": {
           "name": "Unelte pentru polizor unghiular pe lemn",
-          "description": "Cea mai mare grupă – discuri de frezat și rindeluit, discuri abrazive tip ac, unelte de scobit și canelat, precum și perii pentru lemn. Include celebrele Arbortech Woodcarver și Turbo Plane."
+          "description": "Cea mai amplă grupă — legendarul Arbortech Woodcarver PROFI-INDUSTRIAL, discul de rindeluit Turbo Plane, unealta de modelat Ball Gouge și racleta Turbo Scraper 100 mm, discuri de frezat Akka Tools și Piranha, plus accesoriul Random Contour Sander."
         },
         "manpaRameno": {
           "name": "Manpa – braț prelungitor și unelte",
-          "description": "Un sistem complet de brațe prelungitoare, capete de frezat și accesorii de la marca sud-coreeană Manpa, conceput pentru lucru precis chiar și în zone greu accesibile."
+          "description": "Un sistem complet de brațe prelungitoare Manpa — Multi Cutter Master cu freză de schimb, un accesoriu de șlefuit cu bandă, capete de frezat multifuncționale și freze canelate pe tijă de 12 și 20 mm pentru lucru precis în zone greu accesibile."
         },
         "diamantoveKotuce": {
           "name": "Discuri diamantate de ascuțit",
-          "description": "Discuri acoperite cu diamant pentru ascuțirea daltelor, cuțitelor, lanțurilor de motoferăstrău și a uneltelor din carbură (widia), precum și a tijelor de wolfram. Suprafața canelată previne supraîncălzirea tăișului, iar grosimea de 2,5 mm ajunge și printre dinții discurilor de tăiat."
+          "description": "Discuri canelate acoperite cu diamant pentru ascuțirea daltelor, cuțitelor, lanțurilor de motoferăstrău și a uneltelor din carbură (widia) și a tijelor de wolfram, plus suporturi și inele de perii pentru periat lemnul. Grosimea de 2,5 mm ajunge și printre dinții discurilor de tăiat."
         },
         "nadstavce": {
           "name": "Accesorii pentru polizor unghiular",
-          "description": "Talere de sprijin, adaptoare și prelungitoare care extind posibilitățile polizorului unghiular cu alte tipuri de unelte."
+          "description": "Talere de sprijin, adaptoare și prelungitoare de ax M14 — un suport pentru polizorul unghiular, o mandrină cu prindere rapidă, o piuliță de șlefuire diamantată și reductoare M14/M22 și M14/6 mm, care extind posibilitățile polizorului unghiular."
         },
         "kamenTehla": {
           "name": "Unelte pentru piatră și cărămidă",
-          "description": "Accesorii de șlefuit, tăiat și găurit pentru prelucrarea zidăriei, cărămizii și pietrei."
+          "description": "Discuri de tăiere diamantate TURBO, burghie tubulare diamantate de la 22 la 68 mm și discuri de șlefuit din carbură Ø125 mm — accesorii destinate prelucrării zidăriei, cărămizii și pietrei."
         },
         "plastoveKompozity": {
           "name": "Prelucrarea compozitelor din plastic",
-          "description": "Discuri specializate pentru șlefuirea și tăierea materialelor din plastic și compozite fără supraîncălzirea suprafeței."
+          "description": "Un disc universal de tăiere diamantat și discuri de șlefuit din carbură Ø115–125 mm în granulație medie și grosieră, plus pile-ac Saburrtooth — specializate pentru șlefuirea și tăierea materialelor din plastic și compozite fără supraîncălzirea suprafeței."
         }
       }
     },

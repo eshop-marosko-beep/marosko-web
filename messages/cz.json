@@ -201,27 +201,27 @@
       "subcategories": {
         "naDrevo": {
           "name": "Nástroje do úhlových brusek na dřevo",
-          "description": "Nejrozsáhlejší skupina – frézovací a hoblovací kotouče, jehlové brusné kotouče, dlabací a drážkovací nástroje i kartáče na dřevo. Najdete zde například legendární Arbortech Woodcarver či Turbo Plane."
+          "description": "Nejrozsáhlejší skupina – legendární Arbortech Woodcarver PROFI-INDUSTRIAL, hoblovací Turbo Plane, tvarovací Ball Gouge i Turbo Škrabka 100 mm, frézovací kotouče Akka Tools a Piraňa, doplněné o brusný nástavec Random Contour Sander."
         },
         "manpaRameno": {
           "name": "Manpa – prodlužovací rameno a nářadí",
-          "description": "Kompletní systém prodlužovacích ramen, frézovacích hlavic a příslušenství od korejské značky Manpa, který umožňuje přesnou práci i na těžko dostupných místech."
+          "description": "Kompletní systém prodlužovacích ramen Manpa – Multi Cutter Master s náhradní frézkou, pásová bruska na rameno, víceúčelové frézovací nástavce i drážkovací frézovací stopky 12 a 20 mm pro přesnou práci na těžko dostupných místech."
         },
         "diamantoveKotuce": {
           "name": "Diamantové ostřicí kotouče",
-          "description": "Diamantem potažené kotouče na ostření dlát, nožů, řetězů motorových pil i tvrdokovových (widia) nástrojů a wolframových tyčí. Drážkovaný povrch zabraňuje přehřátí ostří a díky tloušťce 2,5 mm se dostanete i mezi zuby pilových kotoučů."
+          "description": "Diamantem potažené drážkované kotouče na ostření dlát, nožů, řetězů motorových pil i tvrdokovových (widia) nástrojů a wolframových tyčí, doplněné o unašeče a kartáčové prstence na kartáčování dřeva. Díky tloušťce 2,5 mm se dostanete i mezi zuby pilových kotoučů."
         },
         "nadstavce": {
           "name": "Nástavce do úhlových brusek",
-          "description": "Podložné talíře, přechodky a prodloužení, které rozšíří možnosti vaší úhlové brusky o další typy nástrojů."
+          "description": "Podložné talíře, přechodky a prodloužení hřídele M14 – stojan pro úhlovou brusku, rychloupínací sklíčidlo, diamantová brusná matice i redukce M14/M22 a M14/6 mm, které rozšíří možnosti vaší úhlové brusky o další typy nástrojů."
         },
         "kamenTehla": {
           "name": "Nástroje na kámen a cihlu",
-          "description": "Brusné, řezné i vrtací nástavce určené pro opracování zdiva, cihly a kamene."
+          "description": "Řezné diamantové kotouče TURBO, diamantové duté vrtáky o průměru 22 až 68 mm i brusné kotouče s tvrdokovem Ø125 mm – nástavce určené pro opracování zdiva, cihly a kamene."
         },
         "plastoveKompozity": {
           "name": "Opracování plastových kompozitů",
-          "description": "Speciální kotouče na broušení a řezání plastových a kompozitních materiálů bez přehřívání povrchu."
+          "description": "Univerzální diamantový řezný kotouč i brusné kotouče s tvrdokovem Ø115–125 mm v hrubosti středně hrubý až hrubý, doplněné o jehlové rašple Saburrtooth – speciální na broušení a řezání plastových a kompozitních materiálů bez přehřívání povrchu."
         }
       }
     },

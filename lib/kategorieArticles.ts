@@ -20,19 +20,36 @@ export const kategorieArticles: KategorieArticle[] = [
     slug: "nastroje-do-uhlovej-brusky",
     translationKey: "nastrojeDoUhlovejBrusky",
     eshopUrl: "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky",
+    image:
+      "https://eshop.marosko.sk/resize/e/1600/1600/files/na-drevo/do-uhlovych-brusok/hoblovacie/turbo-plane2019-12-12-11-49-47.jpg",
     subcategories: [
       {
         translationKey: "naDrevo",
         galleryLinks: ["frezovacie-kotuce", "hoblovacie-naradie", "ihlickove-brusne-kotuce"],
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/arbortech/frezovaci-kotuc-industrial.jpg",
       },
       {
         translationKey: "manpaRameno",
         galleryLinks: ["manpa-predlzovacie-rameno"],
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/master/2.jpg",
       },
-      { translationKey: "diamantoveKotuce" },
-      { translationKey: "nadstavce" },
-      { translationKey: "kamenTehla" },
-      { translationKey: "plastoveKompozity" },
+      {
+        translationKey: "diamantoveKotuce",
+        image:
+          "https://eshop.marosko.sk/resize/e/800/800/files/na-kov/brusne-diamantove-kotuce-diclear/drazkovy-diamantovy-kotuc-brusny.jpg",
+      },
+      {
+        translationKey: "nadstavce",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/unasac-s-drazkami-chladiaci-efekt-.jpg",
+      },
+      {
+        translationKey: "kamenTehla",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/rezne/rezny-diamantovy-kotuc.jpg",
+      },
+      {
+        translationKey: "plastoveKompozity",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/rezne/125-diamant-na-zelezobeton.jpg",
+      },
     ],
   },
   {
