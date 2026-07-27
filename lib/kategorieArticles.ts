@@ -56,15 +56,32 @@ export const kategorieArticles: KategorieArticle[] = [
     slug: "nastroje-do-vrtacky",
     translationKey: "nastrojeDoVrtacky",
     eshopUrl: "https://eshop.marosko.sk/c/nastroje-do-vrtacky",
+    image: "https://eshop.marosko.sk/resize/e/1600/1600/files/vrtaky/-vyrn-192sada-4.jpg",
     subcategories: [
       {
         translationKey: "frezovanie",
         galleryLinks: ["frezovacie-nastroje-do-vrtacky"],
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-vrtacky-/orbi-cut/orbi-cut.jpg",
       },
-      { translationKey: "brusenie" },
-      { translationKey: "ostrenie" },
-      { translationKey: "nastavce" },
-      { translationKey: "vrtaky" },
+      {
+        translationKey: "brusenie",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-vrtacky-/sada-brusnych-bubnovych-valcov-20-dielov.jpg",
+      },
+      {
+        translationKey: "ostrenie",
+        image:
+          "https://eshop.marosko.sk/resize/e/800/800/files/na-kov/brusne-diamantove-kotuce-diclear/19848-466--vyrp11-2002-web2-cisty.jpg",
+      },
+      {
+        translationKey: "nastavce",
+        image:
+          "https://eshop.marosko.sk/resize/e/800/800/files/kirjes/86975972-1082513778764906-7550116197820268544-n.jpg",
+      },
+      {
+        translationKey: "vrtaky",
+        image:
+          "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-vrtacky/465-sada-dlabacich-vrtakov-/dlabaci-vrtak-stvorcove-otvory.jpg",
+      },
     ],
   },
   {
