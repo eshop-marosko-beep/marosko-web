@@ -589,6 +589,58 @@
         }
       }
     },
+    "nastrojeDoVrtacky": {
+      "frezovanie": {
+        "title": "Unelte de frezat pentru bormașină",
+        "intro": "Sfere de scobit Orbi Cut cu lame interschimbabile și card de ascuțit, plus capete de frezat Manpa care transformă o bormașină obișnuită într-o unealtă pentru scobit și modelarea fină a lemnului. Gama include și freze pe tijă pentru ars ochi și freze mini rotunde cu tijă de 6 mm.",
+        "products": {
+          "p813": "Sferă de scobit Orbi Cut pe tijă",
+          "p1472": "Set complet Orbi Cut cu lame de schimb și card de ascuțit",
+          "p994": "Freze Manpa pe tijă pentru ars ochi, 8 buc",
+          "p981": "Freză mini rotundă pe tijă 6 mm SCR"
+        }
+      },
+      "brusenie": {
+        "title": "Unelte de șlefuit pentru bormașină",
+        "intro": "Evantaie abrazive Manpa EZ-Sander, tamburi abrazivi și conuri de șlefuit pentru șlefuirea rapidă și eficientă a formelor rotunjite direct cu bormașina. Include și setul complet de șlefuit Kirjes 101, cu mandrină gonflabilă și cinci manșoane abrazive.",
+        "products": {
+          "p805": "Set tamburi abrazivi, 20 de piese",
+          "p1353": "Evantai abraziv Manpa EZ-Sander 42",
+          "p744": "Con abraziv pentru finisare",
+          "p913": "Set complet de șlefuit Kirjes 101"
+        }
+      },
+      "ostrenie": {
+        "title": "Discuri diamantate de ascuțit",
+        "intro": "Discuri acoperite cu diamant pentru ascuțirea daltelor, securilor, burghielor, sticlei și ceramicii – suficient de precise și pentru tije din carbură de wolfram. Gama include și un card de ascuțit diamantat pentru retușarea lamelor Orbi Cut și un element abraziv mic pentru lucrări fine de finisare.",
+        "products": {
+          "p258": "Disc de șlefuit diamantat, canelat D126/126",
+          "p1203": "Card de ascuțit diamantat Kirjes",
+          "p330": "Pilă diamantată pentru lanțuri de sculptură, 3,2 mm",
+          "p691": "Element abraziv, diametru 7 mm"
+        }
+      },
+      "nastavce": {
+        "title": "Accesorii pentru bormașină",
+        "intro": "Axe flexibile Kirjes și Wolfcraft cu mandrină până la 6, 8 sau 10 mm, o tijă de reducție M14 și adaptoare de prindere, prin care puteți monta pe bormașină și unelte destinate inițial polizorului unghiular. O mandrină cu prindere rapidă și filet M10 ușurează schimbarea uneltelor fără cheie.",
+        "products": {
+          "p814": "Ax flexibil Kirjes cu mandrină până la 10 mm",
+          "p1319": "Ax flexibil Wolfcraft cu mandrină până la 6 mm",
+          "p1350": "Mandrină cu prindere rapidă, filet M10",
+          "p930": "Tijă de reducție M14 pentru bormașină"
+        }
+      },
+      "vrtaky": {
+        "title": "Unelte și burghie de găurit",
+        "intro": "Burghie tubulare diamantate de la 6 la 12 mm, burghie pătrate de scobit pentru îmbinări și burghie de centrare pentru găurire și scobire precisă a lemnului. Gama include și seturi de burghie ARTU pentru lemn, metal și plastic.",
+        "products": {
+          "p761": "Burghie pătrate de scobit, set de 4 piese",
+          "p265": "Burghie tubulare diamantate, set de 4 piese",
+          "p267": "Burghiu tubular diamantat Ø 6 mm",
+          "p212": "Set burghie ARTU, 4 piese, aurii"
+        }
+      }
+    },
     "nastrojeDoMiniFrezky": {
       "arbortech": {
         "title": "Accesorii Arbortech pentru Mini Carver",
@@ -1970,6 +2022,28 @@
         "plastoveKompozity": {
           "title": "Prelucrarea compozitelor din plastic | Marián s.r.o.",
           "description": "Disc universal de tăiere diamantat și discuri de șlefuit din carbură pentru materiale din plastic și compozite."
+        }
+      },
+      "nastrojeDoVrtacky": {
+        "frezovanie": {
+          "title": "Unelte de frezat pentru bormașină | Marián s.r.o.",
+          "description": "Sfere de scobit Orbi Cut și capete de frezat Manpa pentru bormașină."
+        },
+        "brusenie": {
+          "title": "Unelte de șlefuit pentru bormașină | Marián s.r.o.",
+          "description": "Evantaie abrazive Manpa EZ-Sander, tamburi abrazivi și conuri de șlefuit pentru bormașină."
+        },
+        "ostrenie": {
+          "title": "Discuri diamantate de ascuțit | Marián s.r.o.",
+          "description": "Discuri acoperite cu diamant pentru ascuțirea daltelor, securilor, burghielor, sticlei și ceramicii."
+        },
+        "nastavce": {
+          "title": "Accesorii pentru bormașină | Marián s.r.o.",
+          "description": "Axe flexibile Kirjes și Wolfcraft, o tijă de reducție M14 și o mandrină cu prindere rapidă."
+        },
+        "vrtaky": {
+          "title": "Unelte și burghie de găurit | Marián s.r.o.",
+          "description": "Burghie tubulare diamantate, burghie pătrate de scobit și seturi de burghie ARTU."
         }
       },
       "nastrojeDoMiniFrezky": {

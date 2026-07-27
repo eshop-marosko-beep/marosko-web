@@ -589,6 +589,58 @@
         }
       }
     },
+    "nastrojeDoVrtacky": {
+      "frezovanie": {
+        "title": "Frézovacie nástroje do vŕtačky",
+        "intro": "Dlabacie guľôčky Orbi Cut s vymeniteľnými nožmi a ostriacou kartou aj tvarovacie frézovacie hlavice Manpa, ktoré premenia bežnú vŕtačku na nástroj na hĺbenie a jemné tvarovanie dreva. Súčasťou ponuky sú aj stopkové frézky na vypaľovanie očí a mini guľaté frézovacie stopky s priemerom upnutia 6 mm.",
+        "products": {
+          "p813": "Dlabacia guľôčka na stopke Orbi Cut",
+          "p1472": "Orbi Cut – kompletná sada s náhradnými nožmi a ostriacou kartou",
+          "p994": "Manpa stopkové frézky na vypaľovanie očí, 8 ks",
+          "p981": "Mini guľatá frézovacia stopka 6 mm SCR"
+        }
+      },
+      "brusenie": {
+        "title": "Brúsne nástroje do vŕtačky",
+        "intro": "Brúsne vejáre Manpa EZ-Sander, bubnové brúsne valce a brúsne hríbiky na rýchle a efektívne brúsenie oblých tvarov priamo vŕtačkou. Nájdete tu aj kompletnú brúsnu súpravu Kirjes 101 s nafukovacím unášačom a piatimi brúsnymi rukávmi.",
+        "products": {
+          "p805": "Sada brúsnych bubnových valcov, 20 dielov",
+          "p1353": "Manpa brúsny vejár EZ-Sander 42",
+          "p744": "Brúsny hríbik na dokončovacie práce",
+          "p913": "Kompletná brúsna súprava Kirjes 101"
+        }
+      },
+      "ostrenie": {
+        "title": "Diamantové ostriace kotúče",
+        "intro": "Diamantom potiahnuté kotúče na ostrenie dlát, sekier, vrtákov, skla aj keramiky – vysoká presnosť aj pre volfrámové karbidové tyče. Doplnkovo tu nájdete diamantovú ostriacu kartu na dolaďovanie nožov Orbi Cut aj brúsne teliesko na jemné dokončovacie práce.",
+        "products": {
+          "p258": "Diamantový brusný kotúč drážkový D126/126",
+          "p1203": "Diamantová ostriaca karta Kirjes",
+          "p330": "Diamantový pilník na carvingové reťaze, 3,2 mm",
+          "p691": "Brúsne teliesko, priemer 7 mm"
+        }
+      },
+      "nastavce": {
+        "title": "Prídavné nástavce do vŕtačky",
+        "intro": "Ohybné hriadele Kirjes a Wolfcraft so skľučovadlom do 6, 8 aj 10 mm, redukčná stopka M14 a upínacie prechodky, cez ktoré do vŕtačky upnete aj nástroje pôvodne určené pre uhlovú brúsku. Rýchloupínacie skľučovadlo so závitom M10 uľahčí výmenu nástrojov bez kľúča.",
+        "products": {
+          "p814": "Ohybná hriadeľ Kirjes so skľučovadlom do 10 mm",
+          "p1319": "Wolfcraft flexibilná hriadeľ so skľučovadlom do 6 mm",
+          "p1350": "Rýchloupínacie skľučovadlo, závit M10",
+          "p930": "Redukčná stopka M14 do vŕtačky"
+        }
+      },
+      "vrtaky": {
+        "title": "Vŕtacie nástroje a vrtáky",
+        "intro": "Diamantové duté vrtáky s priemerom 6 až 12 mm, štvorhranné dlabacie vrtáky na spoje aj strediace vrtáky pre presné vŕtanie a dlabanie dreva. V ponuke nájdete aj viacdielne sady vrtákov ARTU do dreva, kovu aj plastu.",
+        "products": {
+          "p761": "Dlabacie vrtáky štvorcové, 4-dielna sada",
+          "p265": "Diamantové duté vrtáky, 4-dielna sada",
+          "p267": "Diamantový dutý vrták Ø 6 mm",
+          "p212": "4-dielna sada vrtákov ARTU, zlatá"
+        }
+      }
+    },
     "nastrojeDoMiniFrezky": {
       "arbortech": {
         "title": "Arbortech doplnky pre Mini Carver",
@@ -1970,6 +2022,28 @@
         "plastoveKompozity": {
           "title": "Opracovanie plastových kompozitov | Marián s.r.o.",
           "description": "Univerzálny diamantový rezný kotúč aj brúsne kotúče s tvrdokovom na plastové a kompozitné materiály."
+        }
+      },
+      "nastrojeDoVrtacky": {
+        "frezovanie": {
+          "title": "Frézovacie nástroje do vŕtačky | Marián s.r.o.",
+          "description": "Dlabacie guľôčky Orbi Cut aj tvarovacie frézovacie hlavice Manpa pre vŕtačku."
+        },
+        "brusenie": {
+          "title": "Brúsne nástroje do vŕtačky | Marián s.r.o.",
+          "description": "Brúsne vejáre Manpa EZ-Sander, bubnové valce a brúsne hríbiky pre vŕtačku."
+        },
+        "ostrenie": {
+          "title": "Diamantové ostriace kotúče | Marián s.r.o.",
+          "description": "Diamantom potiahnuté kotúče na ostrenie dlát, sekier, vrtákov, skla aj keramiky."
+        },
+        "nastavce": {
+          "title": "Prídavné nástavce do vŕtačky | Marián s.r.o.",
+          "description": "Ohybné hriadele Kirjes a Wolfcraft, redukčná stopka M14 aj rýchloupínacie skľučovadlo."
+        },
+        "vrtaky": {
+          "title": "Vŕtacie nástroje a vrtáky | Marián s.r.o.",
+          "description": "Diamantové duté vrtáky, štvorhranné dlabacie vrtáky aj sady vrtákov ARTU."
         }
       },
       "nastrojeDoMiniFrezky": {

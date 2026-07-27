@@ -589,6 +589,58 @@
         }
       }
     },
+    "nastrojeDoVrtacky": {
+      "frezovanie": {
+        "title": "Milling tools for the drill",
+        "intro": "Orbi Cut hollowing balls with replaceable blades and a grinding card, plus Manpa shaping cutter heads that turn an ordinary drill into a tool for hollowing and fine wood shaping. The range also includes shank-mounted burn-in cutters for eye burning and mini round milling shanks with a 6 mm shaft.",
+        "products": {
+          "p813": "Orbi Cut hollowing ball on shank",
+          "p1472": "Orbi Cut complete set with replacement blades and grinding card",
+          "p994": "Manpa shank burn-in cutters for eyes, 8 pcs",
+          "p981": "Mini round milling shank 6 mm SCR"
+        }
+      },
+      "brusenie": {
+        "title": "Sanding tools for the drill",
+        "intro": "Manpa EZ-Sander flap wheels, drum sanders and sanding cones for fast, effective sanding of rounded shapes directly with a drill. Also includes the Kirjes 101 complete sanding kit with an inflatable mandrel and five sanding sleeves.",
+        "products": {
+          "p805": "Drum sanding kit, 20 pieces",
+          "p1353": "Manpa EZ-Sander flap wheel 42",
+          "p744": "Sanding cone for finishing work",
+          "p913": "Kirjes 101 complete sanding kit"
+        }
+      },
+      "ostrenie": {
+        "title": "Diamond sharpening discs",
+        "intro": "Diamond-coated discs for sharpening chisels, axes, drill bits, glass and ceramics – precise enough for tungsten carbide rods too. The range also includes a diamond grinding card for touching up Orbi Cut blades and a small sanding element for fine finishing work.",
+        "products": {
+          "p258": "Diamond grinding disc, grooved D126/126",
+          "p1203": "Kirjes diamond grinding card",
+          "p330": "Diamond file for carving chains, 3.2 mm",
+          "p691": "Sanding element, 7 mm diameter"
+        }
+      },
+      "nastavce": {
+        "title": "Drill attachments",
+        "intro": "Kirjes and Wolfcraft flexible shafts with a chuck up to 6, 8 or 10 mm, an M14 reducing shank, and mounting adapters that let you chuck tools originally made for an angle grinder into a drill. A keyless chuck with an M10 thread makes swapping tools easy without a key.",
+        "products": {
+          "p814": "Kirjes flexible shaft with chuck up to 10 mm",
+          "p1319": "Wolfcraft flexible shaft with chuck up to 6 mm",
+          "p1350": "Keyless chuck, M10 thread",
+          "p930": "M14 reducing shank for the drill"
+        }
+      },
+      "vrtaky": {
+        "title": "Drilling tools and bits",
+        "intro": "Diamond core bits from 6 to 12 mm, square hollow-chisel bits for joinery, and centering bits for precise drilling and hollowing of wood. The range also includes multi-piece ARTU drill bit sets for wood, metal and plastic.",
+        "products": {
+          "p761": "Square hollow-chisel bits, 4-piece set",
+          "p265": "Diamond core bits, 4-piece set",
+          "p267": "Diamond core bit Ø 6 mm",
+          "p212": "ARTU drill bit set, 4 pieces, gold"
+        }
+      }
+    },
     "nastrojeDoMiniFrezky": {
       "arbortech": {
         "title": "Arbortech accessories for the Mini Carver",
@@ -1970,6 +2022,28 @@
         "plastoveKompozity": {
           "title": "Machining plastic composites | Marián s.r.o.",
           "description": "Universal diamond cutting disc and carbide grinding discs for plastic and composite materials."
+        }
+      },
+      "nastrojeDoVrtacky": {
+        "frezovanie": {
+          "title": "Milling tools for the drill | Marián s.r.o.",
+          "description": "Orbi Cut hollowing balls and Manpa shaping cutter heads for the drill."
+        },
+        "brusenie": {
+          "title": "Sanding tools for the drill | Marián s.r.o.",
+          "description": "Manpa EZ-Sander flap wheels, drum sanders and sanding cones for the drill."
+        },
+        "ostrenie": {
+          "title": "Diamond sharpening discs | Marián s.r.o.",
+          "description": "Diamond-coated discs for sharpening chisels, axes, drill bits, glass and ceramics."
+        },
+        "nastavce": {
+          "title": "Drill attachments | Marián s.r.o.",
+          "description": "Kirjes and Wolfcraft flexible shafts, an M14 reducing shank, and a keyless chuck."
+        },
+        "vrtaky": {
+          "title": "Drilling tools and bits | Marián s.r.o.",
+          "description": "Diamond core bits, square hollow-chisel bits, and ARTU drill bit sets."
         }
       },
       "nastrojeDoMiniFrezky": {
