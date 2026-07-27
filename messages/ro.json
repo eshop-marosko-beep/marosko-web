@@ -34,6 +34,18 @@
       },
       "cta": "Vezi toate categoriile"
     },
+    "saburrtooth": {
+      "title": "Pile-ac Saburrtooth",
+      "subtitle": "Pile-ac din carbură Saburrtooth USA pentru mini polizoare de 50 mm — o gamă de forme și granulații pentru modelare rapidă și finisare fină a lemnului.",
+      "cta": "Vezi toată gama Saburrtooth",
+      "products": {
+        "p1013": { "name": "Rotundă înclinată 50 mm" },
+        "p405": { "name": "Tip cupă extra grosieră 44,5 mm" },
+        "p590": { "name": "Rotundă fină cu găuri 50 mm" },
+        "p591": { "name": "Rotundă grosieră cu găuri 50 mm" },
+        "p587": { "name": "Plată extra grosieră 50 mm" }
+      }
+    },
     "aboutSection": {
       "title": "Cine suntem",
       "text": "Marián s.r.o. – o companie de familie specializată, din 2013, în unelte de cioplit și prelucrat lemnul de marcă. Includem în ofertă doar mărci recunoscute și verificate la nivel internațional – uneltele de frezat Arbortech din Australia, pilele Saburrtooth din SUA, frezele Manpa din Coreea și sistemele de șlefuit Kirjes din Suedia.",
