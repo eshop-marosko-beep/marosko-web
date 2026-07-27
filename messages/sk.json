@@ -522,6 +522,63 @@
       "brands": "V ponuke nájdete napríklad sukovníky rôznych priemerov aj sady stopkových fréz Silverline."
     }
   },
+  "kategorieSubcategoryDetail": {
+    "common": {
+      "productsTitle": "Vybrané produkty",
+      "eshopCta": "Zobraziť celú ponuku v e-shope"
+    },
+    "nastrojeDoMiniFrezky": {
+      "arbortech": {
+        "title": "Arbortech doplnky pre Mini Carver",
+        "intro": "Originálne mini frézovacie kotúče a doplnky priamo od austrálskej spoločnosti Arbortech pre sériu Mini Carver. Nájdete tu frézovací kotúčik Mini Pro na presné tvarovanie dreva, diamantový frézovací kotúčik na kameň a keramiku aj sady brúsnych a fibrových kotúčikov na kov – všetko s priemerom 50 mm a upnutím 9,5 mm.",
+        "products": {
+          "p1295": "Malý frézovací kotúčik Mini Pro Ø 50 mm",
+          "p453": "Diamantový frézovací kotúčik Ø 50 mm",
+          "p855": "Sada brúsnych kotúčikov na kov, 3 ks",
+          "p610": "Fibrové brúsne kotúče MIX, 4 ks"
+        }
+      },
+      "ideaImport": {
+        "title": "Mini-frézky od českého výrobcu",
+        "intro": "Ručne sekané rašple Ante od českého výrobcu Idea Import – kvalitná alternatíva ku kotúčom pre Arbortech Mini Grinder a Merlin. Priemer upnutia 10 mm, celkový priemer kotúča 50 mm, oválny aj okrúhly tvar sekania podľa typu opracovávaného povrchu.",
+        "products": {
+          "p368": "Kotúčová sekaná rašpľa, oválne sekanie",
+          "p788": "Frézovací kotúčik Ø 50 mm",
+          "p750": "Kotúčová sekaná rašpľa, okrúhle sekanie"
+        }
+      },
+      "saburrtooth": {
+        "title": "Ihličkové rašple Saburrtooth U.S.A.",
+        "intro": "Ihličkové rašple Saburrtooth USA s tvrdokovovými ihličkami odolnými proti upchávaniu. Hrubosť zrna je farebne odlíšená – žltá jemná, zelená hrubá, oranžová extra hrubá – takže si rýchlo vyberiete správny kotúč na hrubovanie aj na jemné dokončovanie dreva. Nie sú určené na kov ani keramiku.",
+        "products": {
+          "p1013": "Ihličková mini rašpľa šikmá oblá Ø 50 mm",
+          "p409": "Ihličková rašpľa šálková hrubá Ø 50 mm",
+          "p590": "Ihličková mini rašpľa guľatá jemná s otvormi Ø 50 mm",
+          "p591": "Ihličková mini rašpľa guľatá hrubá s otvormi Ø 50 mm"
+        }
+      },
+      "manpa": {
+        "title": "Manpa mini kotúče",
+        "intro": "Zubové frézovacie kotúče od kórejskej spoločnosti Manpa s priemerom 50 mm a upnutím 9,5 mm. Dostupné v guľatom, trojuholníkovom aj hranatom profile zuba – podľa toho, akú hĺbku a tvar úberu materiálu potrebujete – doplnené o ihličkový brúsny kotúčik na jemné dokončenie.",
+        "products": {
+          "p1106": "3-zubá kruhová frézka 45 mm, profil zuba 6 mm",
+          "p1032": "3-zubá trojuholníková frézka 45 mm",
+          "p1033": "3-zubá hranatá frézka 45 mm",
+          "p1183": "Ihličkový brúsny kotúčik Manpa Ø 50 mm"
+        }
+      },
+      "merlin": {
+        "title": "Merlin mini rašple a reťazové frézky",
+        "intro": "Doplnkové kotúče a reťazové frézky Merlin (King Arthur's Tools/Kirjes) do mini frézky, dostupné aj samostatne mimo súprav Nick Agar. 4-zubová frézka zvládne aj drevo so zabudovanými nečistotami, k dispozícii sú aj náhradné 8-zubové reťaze Merlin a Oregon a tvrdokovové minirašple na jemné opracovanie.",
+        "products": {
+          "p608": "Extrémne odolná frézka Merlin, 4-zubová Ø 50 mm",
+          "p609": "Náhradná reťaz Merlin, 8-zubová",
+          "p607": "Náhradná reťaz Oregon, 8-zubová",
+          "p1191": "Tvrdokovová minirašpľa Merlin, plochá jemná Ø 50 mm"
+        }
+      }
+    }
+  },
   "brands": {
     "title": "Značky a výrobcovia",
     "subtitle": "Prehľad všetkých značiek náradia a materiálov, ktoré nájdete v našej ponuke.",
@@ -1779,7 +1836,7 @@
       },
       "nastrojeDoMiniFrezky": {
         "title": "Nástroje do mini frézky – prehľad podkategórií | Marián s.r.o.",
-        "description": "Mini frézovacie kotúče a rašple Arbortech, Manpa, Saburrtooth a Merlin s priemerom 50 mm a upnutím 10 mm – kompletný prehľad podkategórií a produktov."
+        "description": "Mini frézovacie kotúče a rašple Arbortech, Manpa, Saburrtooth a Merlin s priemerom 50 mm a upnutím 9,5 mm – kompletný prehľad podkategórií a produktov."
       },
       "brusneVysekyNaMieru": {
         "title": "Brúsne výseky na mieru – prehľad podkategórií | Marián s.r.o.",
@@ -1824,6 +1881,30 @@
       "stopkoveNastroje": {
         "title": "Stopkové stolárske nástroje – prehľad | Marián s.r.o.",
         "description": "Sukovníky a sady stopkových fréz Silverline pre stolárske a rezbárske opracovanie dreva – kompletný prehľad a produkty."
+      }
+    },
+    "kategorieSubcategoryDetail": {
+      "nastrojeDoMiniFrezky": {
+        "arbortech": {
+          "title": "Arbortech doplnky pre Mini Carver Ø 50 mm | Marián s.r.o.",
+          "description": "Frézovací kotúčik Mini Pro, diamantový kotúčik aj brúsne a fibrové sady od Arbortech pre mini frézku Mini Carver – priemer 50 mm, upnutie 9,5 mm."
+        },
+        "ideaImport": {
+          "title": "Mini-frézky Idea Import (Ante) Ø 50 mm | Marián s.r.o.",
+          "description": "Ručne sekané rašple Ante od českého výrobcu Idea Import s priemerom upnutia 10 mm a celkovým priemerom kotúča 50 mm."
+        },
+        "saburrtooth": {
+          "title": "Ihličkové rašple Saburrtooth U.S.A. Ø 50 mm | Marián s.r.o.",
+          "description": "Ihličkové rašple Saburrtooth USA s tvrdokovovými ihličkami – farebne odlíšená hrubosť zrna pre rýchly úber aj jemné dokončovanie dreva."
+        },
+        "manpa": {
+          "title": "Manpa mini kotúče Ø 50 mm | Marián s.r.o.",
+          "description": "Zubové frézovacie kotúče Manpa v guľatom, trojuholníkovom aj hranatom profile zuba – priemer 50 mm, upnutie 9,5 mm."
+        },
+        "merlin": {
+          "title": "Merlin mini rašple a reťazové frézky Ø 50 mm | Marián s.r.o.",
+          "description": "Reťazové frézky, náhradné reťaze aj tvrdokovové minirašple Merlin (King Arthur's Tools) pre mini frézku."
+        }
       }
     },
     "brands": {

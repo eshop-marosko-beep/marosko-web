@@ -522,6 +522,63 @@
       "brands": "The range includes knot cutters in various diameters as well as Silverline shank-mounted burr sets."
     }
   },
+  "kategorieSubcategoryDetail": {
+    "common": {
+      "productsTitle": "Featured products",
+      "eshopCta": "See the full range in the eshop"
+    },
+    "nastrojeDoMiniFrezky": {
+      "arbortech": {
+        "title": "Arbortech accessories for the Mini Carver",
+        "intro": "Original mini milling discs and accessories straight from the Australian company Arbortech for the Mini Carver series. Includes the Mini Pro milling disc for precise wood shaping, a diamond milling disc for stone and ceramics, and sets of sanding and fibre discs for metal — all with a 50 mm diameter and 9.5 mm bore.",
+        "products": {
+          "p1295": "Mini Pro milling disc Ø 50 mm",
+          "p453": "Diamond milling disc Ø 50 mm",
+          "p855": "Metal sanding disc set, 3 pcs",
+          "p610": "Fibre sanding discs MIX, 4 pcs"
+        }
+      },
+      "ideaImport": {
+        "title": "Mini discs from a Czech manufacturer",
+        "intro": "Hand-cut Ante rasps from the Czech manufacturer Idea Import — a solid alternative to discs made for the Arbortech Mini Grinder and Merlin. 10 mm bore, 50 mm overall disc diameter, in oval or round cut patterns depending on the surface you're working.",
+        "products": {
+          "p368": "Cut rasp disc, oval pattern",
+          "p788": "Milling disc Ø 50 mm",
+          "p750": "Cut rasp disc, round pattern"
+        }
+      },
+      "saburrtooth": {
+        "title": "Saburrtooth U.S.A. needle rasps",
+        "intro": "Saburrtooth USA needle rasps with carbide teeth resistant to clogging. Grit is color-coded — yellow fine, green coarse, orange extra coarse — so you can quickly pick the right disc for roughing out or fine wood finishing. Not intended for metal or ceramics.",
+        "products": {
+          "p1013": "Angled round needle mini rasp Ø 50 mm",
+          "p409": "Cup needle rasp, coarse Ø 50 mm",
+          "p590": "Round needle mini rasp, fine with holes Ø 50 mm",
+          "p591": "Round needle mini rasp, coarse with holes Ø 50 mm"
+        }
+      },
+      "manpa": {
+        "title": "Manpa mini discs",
+        "intro": "Toothed milling discs from the South Korean company Manpa, 50 mm diameter and 9.5 mm bore. Available in round, triangular and square tooth profiles depending on the depth and shape of material removal you need, plus a needle sanding disc for fine finishing.",
+        "products": {
+          "p1106": "3-tooth round cutter 45 mm, 6 mm tooth profile",
+          "p1032": "3-tooth triangular cutter 45 mm",
+          "p1033": "3-tooth square cutter 45 mm",
+          "p1183": "Manpa needle sanding disc Ø 50 mm"
+        }
+      },
+      "merlin": {
+        "title": "Merlin mini rasps and chain cutters",
+        "intro": "Merlin (King Arthur's Tools/Kirjes) accessory discs and chain cutters for the mini grinder, also available separately outside the Nick Agar sets. The 4-tooth cutter handles wood with embedded debris, replacement 8-tooth Merlin and Oregon chains are available, plus carbide mini rasps for fine work.",
+        "products": {
+          "p608": "Extremely durable Merlin cutter, 4-tooth Ø 50 mm",
+          "p609": "Replacement Merlin chain, 8-tooth",
+          "p607": "Replacement Oregon chain, 8-tooth",
+          "p1191": "Carbide Merlin mini rasp, flat fine Ø 50 mm"
+        }
+      }
+    }
+  },
   "brands": {
     "title": "Brands & Manufacturers",
     "subtitle": "An overview of all the tool and material brands available in our range.",
@@ -1779,7 +1836,7 @@
       },
       "nastrojeDoMiniFrezky": {
         "title": "Mini grinder tools – subcategory overview | Marián s.r.o.",
-        "description": "Arbortech, Manpa, Saburrtooth and Merlin mini milling discs and rasps with a 50 mm diameter and 10 mm bore – a complete overview of subcategories and products."
+        "description": "Arbortech, Manpa, Saburrtooth and Merlin mini milling discs and rasps with a 50 mm diameter and 9.5 mm bore – a complete overview of subcategories and products."
       },
       "brusneVysekyNaMieru": {
         "title": "Custom-cut sanding discs – subcategory overview | Marián s.r.o.",
@@ -1824,6 +1881,30 @@
       "stopkoveNastroje": {
         "title": "Shank-mounted joinery tools – overview | Marián s.r.o.",
         "description": "Knot cutters and Silverline shank-mounted burr sets for joinery and carving wood – a complete overview and products."
+      }
+    },
+    "kategorieSubcategoryDetail": {
+      "nastrojeDoMiniFrezky": {
+        "arbortech": {
+          "title": "Arbortech accessories for the Mini Carver Ø 50 mm | Marián s.r.o.",
+          "description": "Mini Pro milling disc, diamond disc, and sanding/fibre disc sets from Arbortech for the Mini Carver mini grinder — 50 mm diameter, 9.5 mm bore."
+        },
+        "ideaImport": {
+          "title": "Idea Import (Ante) mini discs Ø 50 mm | Marián s.r.o.",
+          "description": "Hand-cut Ante rasps from the Czech manufacturer Idea Import with a 10 mm bore and 50 mm overall disc diameter."
+        },
+        "saburrtooth": {
+          "title": "Saburrtooth U.S.A. needle rasps Ø 50 mm | Marián s.r.o.",
+          "description": "Saburrtooth USA needle rasps with carbide teeth — color-coded grit for fast stock removal and fine wood finishing."
+        },
+        "manpa": {
+          "title": "Manpa mini discs Ø 50 mm | Marián s.r.o.",
+          "description": "Manpa toothed milling discs in round, triangular and square tooth profiles — 50 mm diameter, 9.5 mm bore."
+        },
+        "merlin": {
+          "title": "Merlin mini rasps and chain cutters Ø 50 mm | Marián s.r.o.",
+          "description": "Chain cutters, replacement chains, and carbide mini rasps from Merlin (King Arthur's Tools) for the mini grinder."
+        }
       }
     },
     "brands": {

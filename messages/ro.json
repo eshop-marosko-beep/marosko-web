@@ -522,6 +522,63 @@
       "brands": "Gama include tăietoare de noduri de diverse diametre, precum și seturi de freze pe tijă Silverline."
     }
   },
+  "kategorieSubcategoryDetail": {
+    "common": {
+      "productsTitle": "Produse recomandate",
+      "eshopCta": "Vezi toată gama în eshop"
+    },
+    "nastrojeDoMiniFrezky": {
+      "arbortech": {
+        "title": "Accesorii Arbortech pentru Mini Carver",
+        "intro": "Discuri de frezat mini originale și accesorii direct de la compania australiană Arbortech pentru seria Mini Carver. Aici găsiți discul de frezat Mini Pro pentru modelarea precisă a lemnului, un disc de frezat diamantat pentru piatră și ceramică, precum și seturi de discuri abrazive și din fibră pentru metal — toate cu diametru de 50 mm și alezaj de 9,5 mm.",
+        "products": {
+          "p1295": "Disc mic de frezat Mini Pro Ø 50 mm",
+          "p453": "Disc de frezat diamantat Ø 50 mm",
+          "p855": "Set discuri abrazive pentru metal, 3 buc",
+          "p610": "Discuri abrazive din fibră MIX, 4 buc"
+        }
+      },
+      "ideaImport": {
+        "title": "Discuri mini de la un producător ceh",
+        "intro": "Pile Ante tăiate manual de la producătorul ceh Idea Import — o alternativă bună la discurile pentru Arbortech Mini Grinder și Merlin. Alezaj de 10 mm, diametru total al discului de 50 mm, model de tăiere ovală sau rotundă în funcție de suprafața prelucrată.",
+        "products": {
+          "p368": "Disc pilă tăiat, model oval",
+          "p788": "Disc de frezat Ø 50 mm",
+          "p750": "Disc pilă tăiat, model rotund"
+        }
+      },
+      "saburrtooth": {
+        "title": "Pile-ac Saburrtooth U.S.A.",
+        "intro": "Pile-ac Saburrtooth USA cu dinți din carbură rezistenți la colmatare. Granulația este codată pe culori — galben fină, verde grosieră, portocaliu extra grosieră — astfel încât alegeți rapid discul potrivit pentru degroșare sau finisare fină a lemnului. Nu sunt destinate metalului sau ceramicii.",
+        "products": {
+          "p1013": "Pilă-ac mini rotundă înclinată Ø 50 mm",
+          "p409": "Pilă-ac tip cupă, grosieră Ø 50 mm",
+          "p590": "Pilă-ac mini rotundă, fină cu găuri Ø 50 mm",
+          "p591": "Pilă-ac mini rotundă, grosieră cu găuri Ø 50 mm"
+        }
+      },
+      "manpa": {
+        "title": "Discuri mini Manpa",
+        "intro": "Discuri de frezat dințate de la compania sud-coreeană Manpa, diametru 50 mm și alezaj 9,5 mm. Disponibile în profil de dinte rotund, triunghiular și pătrat — în funcție de adâncimea și forma de îndepărtare a materialului de care aveți nevoie — completate cu un disc abraziv cu ace pentru finisare fină.",
+        "products": {
+          "p1106": "Freză rotundă cu 3 dinți 45 mm, profil dinte 6 mm",
+          "p1032": "Freză triunghiulară cu 3 dinți 45 mm",
+          "p1033": "Freză pătrată cu 3 dinți 45 mm",
+          "p1183": "Disc abraziv cu ace Manpa Ø 50 mm"
+        }
+      },
+      "merlin": {
+        "title": "Pile mini și freze-lanț Merlin",
+        "intro": "Discuri accesorii și freze-lanț Merlin (King Arthur's Tools/Kirjes) pentru mini-polizor, disponibile și separat, în afara seturilor Nick Agar. Freza cu 4 dinți face față și lemnului cu impurități încorporate, sunt disponibile și lanțuri de schimb Merlin și Oregon cu 8 dinți, plus mini-pile din carbură pentru lucru fin.",
+        "products": {
+          "p608": "Freză Merlin extrem de rezistentă, 4 dinți Ø 50 mm",
+          "p609": "Lanț de schimb Merlin, 8 dinți",
+          "p607": "Lanț de schimb Oregon, 8 dinți",
+          "p1191": "Mini-pilă din carbură Merlin, plată fină Ø 50 mm"
+        }
+      }
+    }
+  },
   "brands": {
     "title": "Mărci și producători",
     "subtitle": "Prezentarea tuturor mărcilor de unelte și materiale disponibile în oferta noastră.",
@@ -1779,7 +1836,7 @@
       },
       "nastrojeDoMiniFrezky": {
         "title": "Unelte pentru mini-polizor – prezentare subcategorii | Marián s.r.o.",
-        "description": "Discuri și pile mini Arbortech, Manpa, Saburrtooth și Merlin, cu diametru de 50 mm și alezaj de 10 mm – prezentare completă a subcategoriilor și produselor."
+        "description": "Discuri și pile mini Arbortech, Manpa, Saburrtooth și Merlin, cu diametru de 50 mm și alezaj de 9,5 mm – prezentare completă a subcategoriilor și produselor."
       },
       "brusneVysekyNaMieru": {
         "title": "Discuri abrazive decupate la comandă – prezentare subcategorii | Marián s.r.o.",
@@ -1824,6 +1881,30 @@
       "stopkoveNastroje": {
         "title": "Unelte de tâmplărie pe tijă – prezentare | Marián s.r.o.",
         "description": "Tăietoare de noduri și seturi de freze pe tijă Silverline pentru tâmplărie și sculptură în lemn – prezentare completă și produse."
+      }
+    },
+    "kategorieSubcategoryDetail": {
+      "nastrojeDoMiniFrezky": {
+        "arbortech": {
+          "title": "Accesorii Arbortech pentru Mini Carver Ø 50 mm | Marián s.r.o.",
+          "description": "Disc de frezat Mini Pro, disc diamantat și seturi de discuri abrazive și din fibră de la Arbortech pentru mini-polizorul Mini Carver — diametru 50 mm, alezaj 9,5 mm."
+        },
+        "ideaImport": {
+          "title": "Discuri mini Idea Import (Ante) Ø 50 mm | Marián s.r.o.",
+          "description": "Pile Ante tăiate manual de la producătorul ceh Idea Import, cu alezaj de 10 mm și diametru total al discului de 50 mm."
+        },
+        "saburrtooth": {
+          "title": "Pile-ac Saburrtooth U.S.A. Ø 50 mm | Marián s.r.o.",
+          "description": "Pile-ac Saburrtooth USA cu dinți din carbură — granulație codată pe culori pentru îndepărtare rapidă și finisare fină a lemnului."
+        },
+        "manpa": {
+          "title": "Discuri mini Manpa Ø 50 mm | Marián s.r.o.",
+          "description": "Discuri de frezat dințate Manpa în profil rotund, triunghiular și pătrat — diametru 50 mm, alezaj 9,5 mm."
+        },
+        "merlin": {
+          "title": "Pile mini și freze-lanț Merlin Ø 50 mm | Marián s.r.o.",
+          "description": "Freze-lanț, lanțuri de schimb și mini-pile din carbură Merlin (King Arthur's Tools) pentru mini-polizor."
+        }
       }
     },
     "brands": {

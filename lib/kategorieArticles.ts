@@ -1,9 +1,26 @@
+export type KategorieSubcategoryProduct = {
+  /** Matches a `products.<id>` translation key under kategorieSubcategoryDetail. */
+  id: string;
+  url: string;
+  image: string;
+};
+
 export type KategorieSubcategory = {
   translationKey: string;
   /** Slugs into /galeria/[slug] for subcategories we already cover with a dedicated gallery page. */
   galleryLinks?: string[];
   /** Representative product photo for this subcategory, sourced from eshop.marosko.sk. */
   image?: string;
+  /**
+   * URL slug for this subcategory's own detail page at
+   * /kategorie/[articleSlug]/[slug]. Only set for subcategories that have
+   * one — the heading links there instead of staying plain text.
+   */
+  slug?: string;
+  /** Direct eshop.marosko.sk URL for this specific subcategory (used as the detail page's CTA). */
+  eshopUrl?: string;
+  /** Featured products shown on the subcategory detail page. */
+  products?: KategorieSubcategoryProduct[];
 };
 
 export type KategorieArticle = {
@@ -124,26 +141,146 @@ export const kategorieArticles: KategorieArticle[] = [
     subcategories: [
       {
         translationKey: "arbortech",
+        slug: "arbortech",
         image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/arbortech/mini-pro/arbortech-mini-pro-balenie.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/mini-kotuce-pre-mini-frezky-50/arbortech-doplnky-pre-mini-carver",
+        products: [
+          {
+            id: "p1295",
+            url: "https://eshop.marosko.sk/p/1295/maly-frezovaci-kotucik-mini-pro-priemer-50mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/arbortech/mini-pro/arbortech-mini-pro-balenie.jpg",
+          },
+          {
+            id: "p453",
+            url: "https://eshop.marosko.sk/p/453/diamantovy-frezovaci-kotucik-priemer-50-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/kamenorezba/diamantovy-kotucik/arbortech-mini-diamond-disc.jpg",
+          },
+          {
+            id: "p855",
+            url: "https://eshop.marosko.sk/p/855/sada-brusnych-kotucikov-3-kusov-priemer-50-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/mini-frezky/sada-smirglovych-kotucov/brusn-kotuce.jpg",
+          },
+          {
+            id: "p610",
+            url: "https://eshop.marosko.sk/p/610/sada-nahradnych-kotucov-pre-mini-carver-mix",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/vymenne-pridavne-nahradne-diely/arbortech-kotuciky-do-mini-grindra-/nahradne-smirglove-kotuciky-do-minigrindra.jpg",
+          },
+        ],
       },
       {
         translationKey: "ideaImport",
+        slug: "idea-import",
         image:
           "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/brusne/rucne-sekane-rasple/rucne-sekane-rasple/036-rasplovy-sekany-kotucik-50mm.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/mini-kotuce-pre-mini-frezky-50/idea-import-ante-cesky-vyrobca",
+        products: [
+          {
+            id: "p368",
+            url: "https://eshop.marosko.sk/p/368/kotucova-raspla-50-mm-pre-brusky-dlhym-krkom",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/mini-raspla.jpg",
+          },
+          {
+            id: "p788",
+            url: "https://eshop.marosko.sk/p/788/mini-kotuc-pre-arbortech-mini-carver-a-merlin-50-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/mini-frezky/maly-frezovaci-kotucek-profi-50mm.jpg",
+          },
+          {
+            id: "p750",
+            url: "https://eshop.marosko.sk/p/750/kotucova-sekana-raspla-pre-arbortech-mini-grinder-a-merlin-50-mm",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/brusne/rucne-sekane-rasple/rucne-sekane-rasple/036-rasplovy-sekany-kotucik-50mm.jpg",
+          },
+        ],
       },
       {
         translationKey: "saburrtooth",
+        slug: "saburrtooth",
         galleryLinks: ["mini-kotuce-pre-mini-frezky"],
         image: "https://eshop.marosko.sk/resize/e/800/800/files/rasple-sabur-usa/salkova-50mm/cr2-70.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/mini-kotuce-pre-mini-frezky-50/ihlickove-rasple-saburrtooth-usa",
+        products: [
+          {
+            id: "p1013",
+            url: "https://eshop.marosko.sk/p/1013/ihlickova-mini-raspla-sikma-obla-50mm",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/brusne/saburr-usa/50mm-priemer/sikma-obla/oble-50mm.jpg",
+          },
+          {
+            id: "p409",
+            url: "https://eshop.marosko.sk/p/409/ihlickova-raspla-salkova-hruba-priemer-50-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/rasple-sabur-usa/salkova-50mm/cr290.jpg",
+          },
+          {
+            id: "p590",
+            url: "https://eshop.marosko.sk/p/590/ihlickova-mini-raspla-gulata-50mm-jemna-s-otvormi",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/mini-frezky/mini-raspla-gulata-z-otvormi/dw250h.jpg",
+          },
+          {
+            id: "p591",
+            url: "https://eshop.marosko.sk/p/591/ihlickova-mini-raspla-gulata-50mm-hruba-s-otvormi",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/mini-frezky/mini-raspla-gulata-z-otvormi/dw270h.jpg",
+          },
+        ],
       },
       {
         translationKey: "manpa",
+        slug: "manpa",
         image:
           "https://eshop.marosko.sk/resize/e/800/800/files/manpa/ihlickove/manpa-50mm/s402289862919970660-p5-i4-w640.jpeg",
+        eshopUrl: "https://eshop.marosko.sk/c/mini-kotuce-pre-mini-frezky-50/manpa-frezky-50-mm",
+        products: [
+          {
+            id: "p1106",
+            url: "https://eshop.marosko.sk/p/1106/3-zubova-kruhova-frezka-45-mm-priemer-zuba-6-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/mini-frezky/manpa/gulata/gulata-mini-frezka-50mm.jpg",
+          },
+          {
+            id: "p1032",
+            url: "https://eshop.marosko.sk/p/1032/3-zuba-trojuholnikova-frezka-priemer-45-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/mini-frezky/manpa/trojuholnikova/trojuholnikova-45mm.jpg",
+          },
+          {
+            id: "p1033",
+            url: "https://eshop.marosko.sk/p/1033/3-zuba-frezka-stvorcovy-profil-zubu-45-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/mini-frezky/manpa/hranata/hranata-45mm-frezka.jpg",
+          },
+          {
+            id: "p1183",
+            url: "https://eshop.marosko.sk/p/1183/ihlickovy-brusny-kotucik-manpa-50-mm",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/manpa/ihlickove/manpa-50mm/s402289862919970660-p5-i4-w640.jpeg",
+          },
+        ],
       },
       {
         translationKey: "merlin",
+        slug: "merlin",
         image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/arbortech/4zubova-minifrezka-merlin.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/mini-kotuce-pre-mini-frezky-50/merlin-mini-rasple-a-retazove-frezky",
+        products: [
+          {
+            id: "p608",
+            url: "https://eshop.marosko.sk/p/608/mini-frezka-merlin-4-zubova-retazova-50mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/arbortech/4zubova-minifrezka-merlin.jpg",
+          },
+          {
+            id: "p609",
+            url: "https://eshop.marosko.sk/p/609/nahradna-retaz-merlin-8-zubova",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/vymenne-pridavne-nahradne-diely/257-merlin-retaz.jpg",
+          },
+          {
+            id: "p607",
+            url: "https://eshop.marosko.sk/p/607/nahradna-retaz-merlin-8-zubova-nahradna",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/vymenne-pridavne-nahradne-diely/oregon-8-zubova.jpg",
+          },
+          {
+            id: "p1191",
+            url: "https://eshop.marosko.sk/p/1191/tvrdokovova-miniraspla-merlin-plocha-priemer-50mm-jemna",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/mini-frezky/minifrezka-merlin/tvrdokovova/10012-merlin-2---2in-vedge-carbide-flat-green-png--65093.png",
+          },
+        ],
       },
     ],
   },
@@ -249,4 +386,12 @@ export const kategorieArticles: KategorieArticle[] = [
 
 export function getKategorieArticle(slug: string) {
   return kategorieArticles.find((article) => article.slug === slug);
+}
+
+export function getKategorieSubcategory(articleSlug: string, subcategorySlug: string) {
+  const article = getKategorieArticle(articleSlug);
+  if (!article) return undefined;
+  const subcategory = article.subcategories.find((sub) => sub.slug === subcategorySlug);
+  if (!subcategory) return undefined;
+  return { article, subcategory };
 }
