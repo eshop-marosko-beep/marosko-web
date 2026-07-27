@@ -385,26 +385,151 @@ export const kategorieArticles: KategorieArticle[] = [
     subcategories: [
       {
         translationKey: "stopky24mm",
+        slug: "stopky-24mm",
         image: "https://eshop.marosko.sk/resize/e/800/800/files/saburr-tooth-32t18/32f18-50.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/prislusenstva-do-priamej-brusky-frezky/stopky-2-4-mm",
+        products: [
+          {
+            id: "p1502",
+            url: "https://eshop.marosko.sk/p/1502/tvar-plamen-zeleny-priemer-3-2-mm-stopka-2-4-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/saburr-tooth-32t18/32f18-50.jpg",
+          },
+          {
+            id: "p305",
+            url: "https://eshop.marosko.sk/p/305/frezka-rotacna-hrana-priemer-9-5-mm-stopka-2-4-mm",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/frezovacie/kartacovacia-hriadel/rotacna-hrana.jpg",
+          },
+          {
+            id: "p977",
+            url: "https://eshop.marosko.sk/p/977/stopkova-frezka-vnutorny-radius-s-cinnym-celom-priemer-6-4-mm-stopka-2-4-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/frezovacie/kartacovacia-hriadel/9.jpg",
+          },
+          {
+            id: "p778",
+            url: "https://eshop.marosko.sk/p/778/stopka-proxxon-micromot-system-pilove-kotucky-stopka",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/proxon/rezne-kotuce-28830.jpg",
+          },
+        ],
       },
       {
         translationKey: "stopky3mm",
+        slug: "stopky-3mm",
         image:
           "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/frezovacie/kartacovacia-hriadel/picaty.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/prislusenstva-do-priamej-brusky-frezky/stopky-3-mm-do-priamej-brusky",
+        products: [
+          {
+            id: "p573",
+            url: "https://eshop.marosko.sk/p/573/stopkova-frezka-spicateho-valca-9-5mm-priemer-3-mm-stopka",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/frezovacie/kartacovacia-hriadel/picaty.jpg",
+          },
+          {
+            id: "p738",
+            url: "https://eshop.marosko.sk/p/738/ohybny-bovden-tuson-nahradny",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/tuson.jpg",
+          },
+          {
+            id: "p1221",
+            url: "https://eshop.marosko.sk/p/1221/radialne-stetinove-kefky-25-mm-suprava-52-ks",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/stopka-3mm/extol/stetinky-extol.jpeg",
+          },
+          {
+            id: "p1444",
+            url: "https://eshop.marosko.sk/p/1444/karbidove-frezky-10-kusov-stopka-3-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/karbid-3mm/set-karbidove-frezky.jpg",
+          },
+        ],
       },
       {
         translationKey: "stopky32mm",
+        slug: "stopky-32mm",
         image:
           "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/stopka-3-2mm/valec/valec-gulaty-vrch/18bn14.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/prislusenstva-do-priamej-brusky-frezky/frezovacie-stopky-3-2-mm",
+        products: [
+          {
+            id: "p503",
+            url: "https://eshop.marosko.sk/p/503/frezka-tvar-valec-s-gulatym-vrchom-6-4mm-stopka-3-2-mm",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/stopka-3-2mm/valec/valec-gulaty-vrch/18bn14.jpg",
+          },
+          {
+            id: "p310",
+            url: "https://eshop.marosko.sk/p/310/ihlickova-frezka-pucik-6-4-mm-stopka-3-2-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/stopka-3-2mm/pucik/18bud14/18bud14.jpg",
+          },
+          {
+            id: "p767",
+            url: "https://eshop.marosko.sk/p/767/diamond-burr-set-diamantove-frezky-sada-30ks",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/3-3-2mm/silverline-3-2-diamantove-frezky.jpg",
+          },
+          {
+            id: "p762",
+            url: "https://eshop.marosko.sk/p/762/sada-kalenych-frezok-6-ks",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/3-3-2mm/sada-kalnnych-frezok.jpg",
+          },
+        ],
       },
       {
         translationKey: "stopky6mm",
+        slug: "stopky-6mm",
         galleryLinks: ["prislusenstvo-priamej-brusky"],
         image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/stopka-6mm/6s38.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/prislusenstva-do-priamej-brusky-frezky/frezka-do-priamej-brusky-6-mm-stopkou",
+        products: [
+          {
+            id: "p795",
+            url: "https://eshop.marosko.sk/p/795/frezka-tvar-plamen-priemer-9-5-mm-stopka-6-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/stopka-6mm/6s38.jpg",
+          },
+          {
+            id: "p981",
+            url: "https://eshop.marosko.sk/p/981/mini-gulata-16-mm-frezovacia-stopka-6mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/6mm-stopka-gulata/scr-main-features1-orig.jpg",
+          },
+          {
+            id: "p560",
+            url: "https://eshop.marosko.sk/p/560/ihlickova-raspla-tvar-plamen-pr-16mm-hruba-stopka-6mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/stopka-6mm/plamen-16-16mm.jpg",
+          },
+          {
+            id: "p830",
+            url: "https://eshop.marosko.sk/p/830/frezka-rotacna-hrana-19-mm-stopka-6-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/stopka-6mm/rotacne-hrany/6rs34/6rs34.jpg",
+          },
+        ],
       },
       {
         translationKey: "stopky64mm",
-        image: "https://eshop.marosko.sk/resize/e/800/800/files/rasple-sabur-usa/buzzout-bz21250/buyoot.jpg",
+        slug: "stopky-64mm",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/6mm-stopka-trojuholnikova/sct-main-features-1-orig.jpg",
+        eshopUrl:
+          "https://eshop.marosko.sk/c/prislusenstva-do-priamej-brusky-frezky/stopky-do-priamej-brusky-vrtackam-o-priemere-6-4-mm",
+        products: [
+          {
+            id: "p1277",
+            url: "https://eshop.marosko.sk/p/1277/mini-trojuholnikova-16-mm-frezovacia-stopka-6-4-mm-sct",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/6mm-stopka-trojuholnikova/sct-main-features-1-orig.jpg",
+          },
+          {
+            id: "p1036",
+            url: "https://eshop.marosko.sk/p/1036/dlhy-unasaci-valec-pre-navliekacie-rasple",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-vrtacky-/saburr-prstence-navliekacie-/trn.jpg",
+          },
+          {
+            id: "p1166",
+            url: "https://eshop.marosko.sk/p/1166/ihlickova-raspla-dlha-prstencova-priemer-25-4-mm-brusna",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/rasple-sabur-usa/valeckove-rasple/279373504-565437854813128-913794035515776408-n.jpg",
+          },
+          {
+            id: "p595",
+            url: "https://eshop.marosko.sk/p/595/kratky-unasaci-valec-pre-navliekacie-rasple",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/rasple-sabur-usa/ssm34slkratky.jpg",
+          },
+        ],
       },
     ],
   },

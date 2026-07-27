@@ -289,7 +289,7 @@
         },
         "stopky64mm": {
           "name": "Tije 6,4 mm",
-          "description": "Pile-ac Saburrtooth USA pe tijă de 6,4 mm în variantă circulară și inelară, role de antrenare pentru pilele tip lanț, plus un set de 20 tamburi abrazivi în granulații diferite."
+          "description": "Pile-ac Saburrtooth USA cu tijă de 6,4 mm în variantă inelară, role port-sculă pentru pilele glisante și o freză dințată Manpa SCT."
         }
       }
     },
@@ -526,6 +526,58 @@
     "common": {
       "productsTitle": "Produse recomandate",
       "eshopCta": "Vezi toată gama în eshop"
+    },
+    "nastrojeDoPriamejBrusky": {
+      "stopky24mm": {
+        "title": "Pile pe tijă 2,4 mm",
+        "intro": "Pile-ac și freze cu tijă de 2,4 mm pentru micro-polizoarele Dremel, Proxxon și Parkside. Include forma flacără, o muchie rotativă și o freză cu rază interioară, plus un set de 30 de freze diamantate și discuri de tăiere pentru sistemul Proxxon MICROMOT.",
+        "products": {
+          "p1502": "Formă flacără verde, diametru 3,2 mm, tijă 2,4 mm",
+          "p305": "Freză muchie rotativă, diametru 9,5 mm, tijă 2,4 mm",
+          "p977": "Freză cu rază interioară și față activă, 6,4 mm, tijă 2,4 mm",
+          "p778": "Tijă Proxxon Micromot, discuri de tăiere"
+        }
+      },
+      "stopky3mm": {
+        "title": "Freze pe tijă 3 mm",
+        "intro": "Freze pe tijă cu prindere de 3 mm în forme cilindrice și ascuțite. Include un set de 10 freze din carbură Extol, perii radiale din filament (52 buc, 7 culori) pentru curățarea și lustruirea suprafețelor și un ax flexibil de schimb pentru Tuson RT170.",
+        "products": {
+          "p573": "Freză cilindru ascuțit, 9,5 mm, tijă 3 mm",
+          "p738": "Ax flexibil Tuson, de schimb pentru RT170",
+          "p1221": "Perii radiale din filament 25 mm, set de 52",
+          "p1444": "Freze din carbură Extol, 10 bucăți, tijă 3 mm"
+        }
+      },
+      "stopky32mm": {
+        "title": "Freze pe tijă 3,2 mm",
+        "intro": "Cea mai largă gamă de unelte cu tijă de 3,2 mm – forme cilindru, mugur, bilă și con. Include freze diamantate (set de 30 buc), un set de 6 freze călite și o freză dințată Manpa pentru ars.",
+        "products": {
+          "p503": "Freză formă cilindru cu vârf rotund, 6,4 mm, tijă 3,2 mm",
+          "p310": "Freză-ac formă mugur, 6,4 mm, tijă 3,2 mm",
+          "p767": "Diamond Burr Set – freze diamantate, set de 30 buc",
+          "p762": "Set freze călite, 6 buc"
+        }
+      },
+      "stopky6mm": {
+        "title": "Freze și pile pe tijă 6 mm",
+        "intro": "Freze și pile profesionale cu tijă de 6 mm – freze dințate Manpa SCR/SCS/SCT, pile-ac în formă de flacără și freze cu muchie rotativă de 19 mm diametru.",
+        "products": {
+          "p795": "Freză formă flacără, diametru 9,5 mm, tijă 6 mm",
+          "p981": "Freză mini rotundă pe tijă 6 mm SCR",
+          "p560": "Pilă-ac formă flacără, 16 mm, grosieră, tijă 6 mm",
+          "p830": "Freză muchie rotativă, 19 mm, tijă 6 mm"
+        }
+      },
+      "stopky64mm": {
+        "title": "Tije 6,4 mm",
+        "intro": "Pile-ac Saburrtooth USA cu tijă de 6,4 mm în variantă inelară și o freză dințată Manpa SCT. Include și role port-sculă (scurtă și lungă) pentru pilele inelare glisante.",
+        "products": {
+          "p1277": "Freză mini triunghiulară pe tijă 6,4 mm SCT",
+          "p1036": "Rolă port-sculă lungă pentru pile glisante",
+          "p1166": "Pilă-ac inelară lungă, diametru 25,4 mm, abrazivă",
+          "p595": "Rolă port-sculă scurtă pentru pile glisante"
+        }
+      }
     },
     "nastrojeDoUhlovejBrusky": {
       "naDrevo": {
@@ -1998,6 +2050,28 @@
       }
     },
     "kategorieSubcategoryDetail": {
+      "nastrojeDoPriamejBrusky": {
+        "stopky24mm": {
+          "title": "Pile pe tijă 2,4 mm | Marián s.r.o.",
+          "description": "Pile-ac și freze cu tijă de 2,4 mm pentru micro-polizoarele Dremel, Proxxon și Parkside."
+        },
+        "stopky3mm": {
+          "title": "Freze pe tijă 3 mm | Marián s.r.o.",
+          "description": "Freze pe tijă de 3 mm, freze din carbură și perii radiale din filament."
+        },
+        "stopky32mm": {
+          "title": "Freze pe tijă 3,2 mm | Marián s.r.o.",
+          "description": "Cea mai largă gamă de unelte cu tijă de 3,2 mm – forme cilindru, mugur, bilă și con."
+        },
+        "stopky6mm": {
+          "title": "Freze și pile pe tijă 6 mm | Marián s.r.o.",
+          "description": "Freze și pile profesionale cu tijă de 6 mm – freze dințate Manpa și pile-ac."
+        },
+        "stopky64mm": {
+          "title": "Tije 6,4 mm | Marián s.r.o.",
+          "description": "Pile-ac Saburrtooth USA și o freză dințată Manpa, tijă de 6,4 mm."
+        }
+      },
       "nastrojeDoUhlovejBrusky": {
         "naDrevo": {
           "title": "Unelte pentru polizor unghiular pe lemn | Marián s.r.o.",
