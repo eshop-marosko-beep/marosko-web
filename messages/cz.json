@@ -289,7 +289,7 @@
         },
         "stopky64mm": {
           "name": "Stopky 6,4 mm",
-          "description": "Jehlové rašple Saburrtooth USA se stopkou 6,4 mm v obvodovém i prstencovém provedení, unášecí válce pro navlékací rašple a sada 20 brusných bubnových válců různých zrnitostí."
+          "description": "Jehlové rašple Saburrtooth USA se stopkou 6,4 mm v prstencovém provedení, unášecí válce pro navlékací rašple i zubová frézovací stopka Manpa SCT."
         }
       }
     },
@@ -526,6 +526,58 @@
     "common": {
       "productsTitle": "Vybrané produkty",
       "eshopCta": "Zobrazit celou nabídku v e-shopu"
+    },
+    "nastrojeDoPriamejBrusky": {
+      "stopky24mm": {
+        "title": "Stopkové rašple 2,4 mm",
+        "intro": "Jehlové rašple a frézky se stopkou 2,4 mm pro mikrobrusky Dremel, Proxxon a Parkside. Najdete zde tvar plamen, rotační hranu i vnitřní rádius s činným čelem, doplněné o sadu 30 diamantových frézek a pilové kotoučky pro systém Proxxon MICROMOT.",
+        "products": {
+          "p1502": "Tvar plamen zelený, průměr 3,2 mm, stopka 2,4 mm",
+          "p305": "Frézka rotační hrana, průměr 9,5 mm, stopka 2,4 mm",
+          "p977": "Stopková frézka vnitřní radius s činným čelem, 6,4 mm, stopka 2,4 mm",
+          "p778": "Stopka Proxxon Micromot, pilové kotoučky"
+        }
+      },
+      "stopky3mm": {
+        "title": "Frézovací stopky 3 mm",
+        "intro": "Frézovací stopky s upnutím 3 mm ve válcových i špičatých tvarech. V nabídce je sada 10 karbidových frézek Extol, radiální štětinové kartáčky (52 ks, 7 barev) pro čištění a leštění povrchu i náhradní ohebná hřídel Tuson k mikrobrusce RT170.",
+        "products": {
+          "p573": "Stopková frézka špičatého válce, 9,5 mm, stopka 3 mm",
+          "p738": "Ohebná hřídel Tuson, náhradní k RT170",
+          "p1221": "Radiální štětinové kartáčky 25 mm, souprava 52 ks",
+          "p1444": "Karbidové frézky Extol, 10 kusů, stopka 3 mm"
+        }
+      },
+      "stopky32mm": {
+        "title": "Frézky na stopce 3,2 mm",
+        "intro": "Nejširší nabídka nástrojů se stopkou 3,2 mm – tvary válec, poupě, kulička i kužel. Najdete zde diamantové frézky (sada 30 ks), sadu 6 kalených frézek i zubovou frézovací stopku Manpa na vypalování.",
+        "products": {
+          "p503": "Frézka tvar válec s kulatým vrcholem, 6,4 mm, stopka 3,2 mm",
+          "p310": "Jehlová frézka poupě, 6,4 mm, stopka 3,2 mm",
+          "p767": "Diamond Burr Set – diamantové frézky, sada 30 ks",
+          "p762": "Sada kalených frézek, 6 ks"
+        }
+      },
+      "stopky6mm": {
+        "title": "Frézy a rašple se stopkou 6 mm",
+        "intro": "Profesionální frézy a rašple se stopkou 6 mm – zubové frézovací dříky Manpa SCR/SCS/SCT, jehlové rašple ve tvaru plamene i rotační hrany o průměru 19 mm.",
+        "products": {
+          "p795": "Frézka tvar plamen, průměr 9,5 mm, stopka 6 mm",
+          "p981": "Mini kulatá frézovací stopka 6 mm SCR",
+          "p560": "Jehlová rašple tvar plamen, 16 mm, hrubá, stopka 6 mm",
+          "p830": "Frézka rotační hrana, 19 mm, stopka 6 mm"
+        }
+      },
+      "stopky64mm": {
+        "title": "Stopky 6,4 mm",
+        "intro": "Jehlové rašple Saburrtooth USA se stopkou 6,4 mm v prstencovém provedení a zubová frézovací stopka Manpa SCT. Doplňkově najdete unášecí válce (krátký i dlouhý) pro navlékací prstencové rašple.",
+        "products": {
+          "p1277": "Mini trojúhelníková frézovací stopka 6,4 mm SCT",
+          "p1036": "Dlouhý unášecí válec pro navlékací rašple",
+          "p1166": "Jehlová rašple dlouhá prstencová, průměr 25,4 mm, brusná",
+          "p595": "Krátký unášecí válec pro navlékací rašple"
+        }
+      }
     },
     "nastrojeDoUhlovejBrusky": {
       "naDrevo": {
@@ -1998,6 +2050,28 @@
       }
     },
     "kategorieSubcategoryDetail": {
+      "nastrojeDoPriamejBrusky": {
+        "stopky24mm": {
+          "title": "Stopkové rašple 2,4 mm | Marián s.r.o.",
+          "description": "Jehlové rašple a frézky se stopkou 2,4 mm pro mikrobrusky Dremel, Proxxon a Parkside."
+        },
+        "stopky3mm": {
+          "title": "Frézovací stopky 3 mm | Marián s.r.o.",
+          "description": "Frézovací stopky s upnutím 3 mm, karbidové frézky i radiální štětinové kartáčky."
+        },
+        "stopky32mm": {
+          "title": "Frézky na stopce 3,2 mm | Marián s.r.o.",
+          "description": "Nejširší nabídka nástrojů se stopkou 3,2 mm – tvary válec, poupě, kulička i kužel."
+        },
+        "stopky6mm": {
+          "title": "Frézy a rašple se stopkou 6 mm | Marián s.r.o.",
+          "description": "Profesionální frézy a rašple se stopkou 6 mm – zubové dříky Manpa i jehlové rašple."
+        },
+        "stopky64mm": {
+          "title": "Stopky 6,4 mm | Marián s.r.o.",
+          "description": "Jehlové rašple Saburrtooth USA a zubová frézovací stopka Manpa se stopkou 6,4 mm."
+        }
+      },
       "nastrojeDoUhlovejBrusky": {
         "naDrevo": {
           "title": "Nástroje do úhlových brusek na dřevo | Marián s.r.o.",

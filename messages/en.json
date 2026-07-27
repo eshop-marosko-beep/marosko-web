@@ -289,7 +289,7 @@
         },
         "stopky64mm": {
           "name": "6.4 mm shanks",
-          "description": "Saburrtooth USA 6.4 mm shank needle rasps in cylinder and ring styles, mandrels for band-style rasps, plus a 20-piece sanding drum set in various grits."
+          "description": "Saburrtooth USA needle rasps with a 6.4 mm shank in a ring style, mandrel rollers for slip-on rasps, and a Manpa SCT toothed milling shank."
         }
       }
     },
@@ -526,6 +526,58 @@
     "common": {
       "productsTitle": "Featured products",
       "eshopCta": "See the full range in the eshop"
+    },
+    "nastrojeDoPriamejBrusky": {
+      "stopky24mm": {
+        "title": "2.4 mm shank rasps",
+        "intro": "Needle rasps and cutters with a 2.4 mm shank for Dremel, Proxxon and Parkside micro-grinders. Includes a flame shape, a rotary edge and an inner-radius cutter, plus a 30-piece diamond burr set and cutting discs for the Proxxon MICROMOT system.",
+        "products": {
+          "p1502": "Green flame shape, 3.2 mm diameter, 2.4 mm shank",
+          "p305": "Rotary edge cutter, 9.5 mm diameter, 2.4 mm shank",
+          "p977": "Inner-radius end-cutting shank cutter, 6.4 mm, 2.4 mm shank",
+          "p778": "Proxxon Micromot shank, cutting discs"
+        }
+      },
+      "stopky3mm": {
+        "title": "3 mm milling shanks",
+        "intro": "Milling shanks with a 3 mm chuck in cylinder and pointed shapes. Includes a 10-piece Extol carbide burr set, radial bristle brushes (52 pcs, 7 colors) for cleaning and polishing surfaces, and a replacement flexible shaft for the Tuson RT170.",
+        "products": {
+          "p573": "Pointed cylinder shank cutter, 9.5 mm, 3 mm shank",
+          "p738": "Tuson flexible shaft, replacement for RT170",
+          "p1221": "Radial bristle brushes 25 mm, set of 52",
+          "p1444": "Extol carbide burrs, 10 pieces, 3 mm shank"
+        }
+      },
+      "stopky32mm": {
+        "title": "3.2 mm shank cutters",
+        "intro": "The widest range of tools with a 3.2 mm shank – cylinder, bud, ball and cone shapes. Includes diamond burrs (30-piece set), a 6-piece hardened cutter set, and a Manpa toothed milling shank for burning.",
+        "products": {
+          "p503": "Round-top cylinder cutter, 6.4 mm, 3.2 mm shank",
+          "p310": "Bud-shape needle cutter, 6.4 mm, 3.2 mm shank",
+          "p767": "Diamond Burr Set, 30 pieces",
+          "p762": "Hardened cutter set, 6 pieces"
+        }
+      },
+      "stopky6mm": {
+        "title": "6 mm shank cutters and rasps",
+        "intro": "Professional cutters and rasps with a 6 mm shank – Manpa SCR/SCS/SCT toothed milling shanks, flame-shaped needle rasps, and rotary edge cutters 19 mm in diameter.",
+        "products": {
+          "p795": "Flame shape cutter, 9.5 mm diameter, 6 mm shank",
+          "p981": "Mini round milling shank 6 mm SCR",
+          "p560": "Flame-shape needle rasp, 16 mm, coarse, 6 mm shank",
+          "p830": "Rotary edge cutter, 19 mm, 6 mm shank"
+        }
+      },
+      "stopky64mm": {
+        "title": "6.4 mm shanks",
+        "intro": "Saburrtooth USA needle rasps with a 6.4 mm shank in a ring style, plus a Manpa SCT toothed milling shank. Also includes mandrel rollers (short and long) for slip-on ring rasps.",
+        "products": {
+          "p1277": "Mini triangular milling shank 6.4 mm SCT",
+          "p1036": "Long mandrel roller for slip-on rasps",
+          "p1166": "Long ring needle rasp, 25.4 mm diameter, abrasive",
+          "p595": "Short mandrel roller for slip-on rasps"
+        }
+      }
     },
     "nastrojeDoUhlovejBrusky": {
       "naDrevo": {
@@ -1998,6 +2050,28 @@
       }
     },
     "kategorieSubcategoryDetail": {
+      "nastrojeDoPriamejBrusky": {
+        "stopky24mm": {
+          "title": "2.4 mm shank rasps | Marián s.r.o.",
+          "description": "Needle rasps and cutters with a 2.4 mm shank for Dremel, Proxxon and Parkside micro-grinders."
+        },
+        "stopky3mm": {
+          "title": "3 mm milling shanks | Marián s.r.o.",
+          "description": "3 mm milling shanks, carbide burrs, and radial bristle brushes."
+        },
+        "stopky32mm": {
+          "title": "3.2 mm shank cutters | Marián s.r.o.",
+          "description": "The widest range of 3.2 mm shank tools – cylinder, bud, ball and cone shapes."
+        },
+        "stopky6mm": {
+          "title": "6 mm shank cutters and rasps | Marián s.r.o.",
+          "description": "Professional 6 mm shank cutters and rasps – Manpa toothed shanks and needle rasps."
+        },
+        "stopky64mm": {
+          "title": "6.4 mm shanks | Marián s.r.o.",
+          "description": "Saburrtooth USA needle rasps and a Manpa toothed milling shank, 6.4 mm shank."
+        }
+      },
       "nastrojeDoUhlovejBrusky": {
         "naDrevo": {
           "title": "Angle grinder tools for wood | Marián s.r.o.",
