@@ -329,23 +329,23 @@
       "subcategories": {
         "maleVyseky": {
           "name": "Small discs Ø 50 – 150 mm",
-          "description": "Compact round discs from 50 to 150 mm for mini sanders, random orbit sanders and micro tools – ideal for precise, detailed sanding."
+          "description": "Compact round discs from 50 to 150 mm for mini sanders, random orbit sanders and micro tools – ideal for precise, detailed sanding, including 150 mm Silverline self-adhesive sanding discs."
         },
         "strednePriemery": {
           "name": "Medium discs Ø 180 – 300 mm",
-          "description": "Discs from 180 to 300 mm in diameter for standard disc and orbit sanders working medium-sized surfaces."
+          "description": "Discs with a diameter of 180 to 300 mm for standard round and random orbit sanders working medium-sized surfaces, available in D40 to D120 grits."
         },
         "velkePriemery": {
           "name": "Large discs Ø 370 – 600 mm",
-          "description": "Professional large-format discs from 370 to 600 mm for disc sanders and sanding tables."
+          "description": "Professional large-format discs with a diameter of 370 to 600 mm for disc sanders and sanding tables, in D40 to D80 grits."
         },
         "papier115mm": {
           "name": "Sandpaper Ø 115 mm",
-          "description": "Sandpaper with a 115 mm diameter and hook-and-loop backing, suited especially to angle grinders and medium-sized surfaces."
+          "description": "Sandpaper with a 115 mm diameter and hook-and-loop backing, suited especially to angle grinders and medium-sized surfaces, plus fibre discs and a smooth fibre-disc backing pad."
         },
         "podlozky": {
           "name": "Backing pads and hook-and-loop accessories",
-          "description": "Foam interface pads between the backing plate and the disc, plus hook-and-loop backing pads sized to match your chosen diameter, extending the life of both the abrasive and the sander."
+          "description": "Foam interface pads between the backing pad and the disc (Ø 75 to 125 mm), and hook-and-loop backing pads sized to match your disc diameter, extending the life of both the abrasive and the sander."
         }
       }
     },
@@ -526,6 +526,57 @@
     "common": {
       "productsTitle": "Featured products",
       "eshopCta": "See the full range in the eshop"
+    },
+    "brusneVysekyNaMieru": {
+      "maleVyseky": {
+        "title": "Small discs Ø 50 – 150 mm",
+        "intro": "Compact round discs from 50 to 150 mm for mini sanders, random orbit sanders and micro tools – ideal for precise, detailed sanding. The range includes single and 5-piece packs of sandpaper in various diameters, plus 150 mm Silverline self-adhesive sanding discs.",
+        "products": {
+          "p1210": "Sanding disc Ø 50 mm, hook-and-loop, 5-pack",
+          "p1052": "Sanding disc Ø 80 mm, aluminium oxide, 5 pcs",
+          "p973": "Hook-and-loop sandpaper, 125 mm disc",
+          "p1334": "Silverline self-adhesive sanding discs 150 mm, 10 pieces"
+        }
+      },
+      "strednePriemery": {
+        "title": "Medium discs Ø 180 – 300 mm",
+        "intro": "Discs with a diameter of 180 to 300 mm for standard round and random orbit sanders working medium-sized surfaces. Hook-and-loop sandpaper is available from D40 (coarse stock removal) up to D120 (fine finishing).",
+        "products": {
+          "p1251": "Hook-and-loop sandpaper, 180 mm disc, 10-pack",
+          "p1401": "Sandpaper Ø 200 mm D100, hook-and-loop",
+          "p1450": "Sandpaper 250 mm D120, hook-and-loop",
+          "p1155": "Sandpaper Ø 300 mm D40, hook-and-loop"
+        }
+      },
+      "velkePriemery": {
+        "title": "Large discs Ø 370 – 600 mm",
+        "intro": "Professional large-format discs with a diameter of 370 to 600 mm for disc sanders and sanding tables. Hook-and-loop sandpaper comes in D40 to D80 grits, depending on whether you need fast material removal or a finer surface.",
+        "products": {
+          "p1417": "Sandpaper Ø 370 mm D40",
+          "p864": "Sandpaper Ø 400 mm D60",
+          "p1071": "Sandpaper Ø 450 mm D80",
+          "p1144": "Sandpaper Ø 600 mm D40, hook-and-loop"
+        }
+      },
+      "papier115mm": {
+        "title": "Sandpaper Ø 115 mm",
+        "intro": "Sandpaper with a 115 mm diameter and hook-and-loop backing, suited especially to angle grinders and medium-sized surfaces. Also includes fibre sanding discs and a smooth fibre-disc backing pad for the angle grinder.",
+        "products": {
+          "p1316": "Hook-and-loop sandpaper, 115 mm disc",
+          "p875": "Fibre sanding disc, 115 mm diameter",
+          "p1069": "Fibre-disc backing pad for the angle grinder, smooth 115 mm"
+        }
+      },
+      "podlozky": {
+        "title": "Backing pads and hook-and-loop accessories",
+        "intro": "Foam interface pads between the backing pad and the disc, in 75 to 125 mm diameters, plus hook-and-loop backing pads sized to match your disc diameter. The interface pad softens pressure on the sanded surface and extends the life of both the abrasive and the sander itself.",
+        "products": {
+          "p1138": "Foam interface pad, hook-and-loop and fleece, Ø 115 mm",
+          "p1136": "Foam interface pad, hook-and-loop and fleece, Ø 125 mm",
+          "p799": "Foam interface pad, hook-and-loop, 75/100/120 mm",
+          "p1080": "Self-adhesive hook backing pad"
+        }
+      }
     },
     "elektrickeNaradie": {
       "arbortech": {
@@ -2121,6 +2172,28 @@
       }
     },
     "kategorieSubcategoryDetail": {
+      "brusneVysekyNaMieru": {
+        "maleVyseky": {
+          "title": "Small discs Ø 50 – 150 mm | Marián s.r.o.",
+          "description": "Compact round sanding discs for mini sanders and micro tools, including Silverline self-adhesive discs."
+        },
+        "strednePriemery": {
+          "title": "Medium discs Ø 180 – 300 mm | Marián s.r.o.",
+          "description": "Hook-and-loop sandpaper for round and random orbit sanders in D40 to D120 grits."
+        },
+        "velkePriemery": {
+          "title": "Large discs Ø 370 – 600 mm | Marián s.r.o.",
+          "description": "Professional large-format sanding discs for disc sanders and sanding tables, D40 to D80 grits."
+        },
+        "papier115mm": {
+          "title": "Sandpaper Ø 115 mm | Marián s.r.o.",
+          "description": "Hook-and-loop sandpaper for angle grinders, plus fibre discs and a backing pad."
+        },
+        "podlozky": {
+          "title": "Backing pads and hook-and-loop accessories | Marián s.r.o.",
+          "description": "Foam interface pads and hook-and-loop backing pads in various diameters."
+        }
+      },
       "elektrickeNaradie": {
         "arbortech": {
           "title": "Arbortech electric tools | Marián s.r.o.",

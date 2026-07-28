@@ -329,23 +329,23 @@
       "subcategories": {
         "maleVyseky": {
           "name": "Discuri mici Ø 50 – 150 mm",
-          "description": "Discuri rotunde compacte de la 50 la 150 mm pentru mini-polizoare, polizoare excentrice și scule miniaturale – ideale pentru șlefuire precisă și de detaliu."
+          "description": "Discuri rotunde compacte de la 50 la 150 mm pentru mini polizoare, polizoare excentrice și micro-unelte — ideale pentru șlefuire precisă și de detaliu, inclusiv discuri abrazive autoadezive Silverline de 150 mm."
         },
         "strednePriemery": {
           "name": "Discuri medii Ø 180 – 300 mm",
-          "description": "Discuri cu diametru de la 180 la 300 mm pentru polizoare rotative și excentrice obișnuite, la prelucrarea suprafețelor de dimensiuni medii."
+          "description": "Discuri cu diametru de la 180 la 300 mm pentru polizoarele rotunde și excentrice obișnuite, la prelucrarea suprafețelor de dimensiuni medii, disponibile în granulații de la D40 la D120."
         },
         "velkePriemery": {
           "name": "Discuri mari Ø 370 – 600 mm",
-          "description": "Discuri profesionale de mari dimensiuni, de la 370 la 600 mm, pentru polizoare cu disc și mese de șlefuit."
+          "description": "Discuri profesionale de mari dimensiuni, cu diametru de la 370 la 600 mm, pentru polizoare cu disc și mese de șlefuit, în granulații de la D40 la D80."
         },
         "papier115mm": {
           "name": "Hârtie abrazivă Ø 115 mm",
-          "description": "Hârtie abrazivă cu diametrul de 115 mm și prindere velcro, potrivită mai ales pentru polizoare unghiulare și suprafețe de dimensiuni medii."
+          "description": "Hârtie abrazivă cu diametru de 115 mm și prindere velcro, potrivită mai ales pentru polizoarele unghiulare și suprafețe medii, completată de discuri din fibră și un suport neted pentru discuri din fibră."
         },
         "podlozky": {
           "name": "Suporturi și accesorii pentru prindere velcro",
-          "description": "Suporturi intermediare din spumă între platan și disc, precum și suporturi velcro potrivite diametrului ales, care prelungesc durata de viață a abrazivului și a polizorului."
+          "description": "Tampoane intermediare din burete între suport și disc (Ø 75 până la 125 mm) și suporturi velcro potrivite diametrului ales, care prelungesc durata de viață a abrazivului și a polizorului."
         }
       }
     },
@@ -526,6 +526,57 @@
     "common": {
       "productsTitle": "Produse recomandate",
       "eshopCta": "Vezi toată gama în eshop"
+    },
+    "brusneVysekyNaMieru": {
+      "maleVyseky": {
+        "title": "Discuri mici Ø 50 – 150 mm",
+        "intro": "Discuri rotunde compacte de la 50 la 150 mm pentru mini polizoare, polizoare excentrice și micro-unelte — ideale pentru șlefuire precisă și de detaliu. Gama include pachete individuale și de 5 bucăți de hârtie abrazivă în diverse diametre, plus discuri abrazive autoadezive Silverline de 150 mm.",
+        "products": {
+          "p1210": "Disc abraziv Ø 50 mm, velcro, pachet de 5 buc",
+          "p1052": "Disc abraziv Ø 80 mm, corindon, 5 buc",
+          "p973": "Hârtie abrazivă cu velcro, disc 125 mm",
+          "p1334": "Discuri abrazive autoadezive Silverline 150 mm, 10 bucăți"
+        }
+      },
+      "strednePriemery": {
+        "title": "Discuri medii Ø 180 – 300 mm",
+        "intro": "Discuri cu diametru de la 180 la 300 mm pentru polizoarele rotunde și excentrice obișnuite, la prelucrarea suprafețelor de dimensiuni medii. Hârtia abrazivă cu velcro este disponibilă de la D40 (degroșare grosieră) până la D120 (finisare fină).",
+        "products": {
+          "p1251": "Hârtie abrazivă cu velcro, disc 180 mm, pachet de 10 buc",
+          "p1401": "Hârtie abrazivă Ø 200 mm D100, velcro",
+          "p1450": "Hârtie abrazivă 250 mm D120, velcro",
+          "p1155": "Hârtie abrazivă Ø 300 mm D40, velcro"
+        }
+      },
+      "velkePriemery": {
+        "title": "Discuri mari Ø 370 – 600 mm",
+        "intro": "Discuri profesionale de mari dimensiuni, cu diametru de la 370 la 600 mm, pentru polizoare cu disc și mese de șlefuit. Hârtia abrazivă cu velcro este disponibilă în granulații de la D40 la D80, în funcție de nevoia de îndepărtare rapidă a materialului sau de o suprafață mai fină.",
+        "products": {
+          "p1417": "Hârtie abrazivă Ø 370 mm D40",
+          "p864": "Hârtie abrazivă Ø 400 mm D60",
+          "p1071": "Hârtie abrazivă Ø 450 mm D80",
+          "p1144": "Hârtie abrazivă Ø 600 mm D40, velcro"
+        }
+      },
+      "papier115mm": {
+        "title": "Hârtie abrazivă Ø 115 mm",
+        "intro": "Hârtie abrazivă cu diametru de 115 mm și prindere velcro, potrivită mai ales pentru polizoarele unghiulare și suprafețe medii. Gama include și discuri abrazive din fibră și un suport neted pentru discuri din fibră pentru polizorul unghiular.",
+        "products": {
+          "p1316": "Hârtie abrazivă cu velcro, disc 115 mm",
+          "p875": "Disc abraziv din fibră, diametru 115 mm",
+          "p1069": "Suport pentru discuri din fibră pentru polizorul unghiular, neted 115 mm"
+        }
+      },
+      "podlozky": {
+        "title": "Suporturi și accesorii pentru prindere velcro",
+        "intro": "Tampoane intermediare din burete între suport și disc, cu diametru de la 75 la 125 mm, și suporturi velcro potrivite diametrului ales. Tamponul intermediar reduce presiunea pe suprafața șlefuită și prelungește durata de viață a abrazivului și a polizorului.",
+        "products": {
+          "p1138": "Tampon intermediar din burete, velcro și fleece, Ø 115 mm",
+          "p1136": "Tampon intermediar din burete, velcro și fleece, Ø 125 mm",
+          "p799": "Tampon intermediar din burete cu velcro, 75/100/120 mm",
+          "p1080": "Suport velcro autoadeziv"
+        }
+      }
     },
     "elektrickeNaradie": {
       "arbortech": {
@@ -2121,6 +2172,28 @@
       }
     },
     "kategorieSubcategoryDetail": {
+      "brusneVysekyNaMieru": {
+        "maleVyseky": {
+          "title": "Discuri mici Ø 50 – 150 mm | Marián s.r.o.",
+          "description": "Discuri abrazive rotunde compacte pentru mini polizoare și micro-unelte, inclusiv discuri autoadezive Silverline."
+        },
+        "strednePriemery": {
+          "title": "Discuri medii Ø 180 – 300 mm | Marián s.r.o.",
+          "description": "Hârtie abrazivă cu velcro pentru polizoare rotunde și excentrice, în granulații de la D40 la D120."
+        },
+        "velkePriemery": {
+          "title": "Discuri mari Ø 370 – 600 mm | Marián s.r.o.",
+          "description": "Discuri abrazive profesionale de mari dimensiuni pentru polizoare cu disc și mese de șlefuit, granulații D40 până la D80."
+        },
+        "papier115mm": {
+          "title": "Hârtie abrazivă Ø 115 mm | Marián s.r.o.",
+          "description": "Hârtie abrazivă cu velcro pentru polizoare unghiulare, plus discuri din fibră și un suport."
+        },
+        "podlozky": {
+          "title": "Suporturi și accesorii velcro | Marián s.r.o.",
+          "description": "Tampoane intermediare din burete și suporturi velcro în diverse diametre."
+        }
+      },
       "elektrickeNaradie": {
         "arbortech": {
           "title": "Unelte electrice Arbortech | Marián s.r.o.",
