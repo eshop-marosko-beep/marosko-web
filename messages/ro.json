@@ -437,27 +437,27 @@
       "subcategories": {
         "pozlacovanie": {
           "name": "Poleire cu aur și argint",
-          "description": "Foițe autentice de aur și argint, adezivi speciali și unelte pentru poleirea artistică a lemnului, ramelor și obiectelor sacre."
+          "description": "Foițe autentice de aur și argint (23¾ carate), aur comestibil Gourmet Gold și vopsea aurie pe bază de apă Decor Gold cu efect metalic – materiale pentru poleirea artistică a lemnului, ramelor și obiectelor sacre."
         },
         "protiCervotocom": {
           "name": "Produse împotriva carilor lemnului",
-          "description": "Produse profesionale pentru eliminarea imediată și protecția preventivă a lemnului împotriva insectelor xilofage."
+          "description": "Produse profesionale Complet Antitarlo (1 și 5 litri) pentru eliminarea imediată și protecția preventivă a lemnului împotriva insectelor xilofage."
         },
         "riedenie": {
           "name": "Diluare și degresare",
-          "description": "Produse pentru degresarea și curățarea temeinică a suprafeței lemnului înainte de aplicarea unui finisaj."
+          "description": "Bioalcool Uni și alcool denaturat DEL Extra pentru degresarea și curățarea temeinică a suprafeței lemnului, precum și pentru diluarea lacurilor pe bază de șelac, înainte de aplicarea unui finisaj."
         },
         "selakyMoridla": {
           "name": "Șelac și baițuri",
-          "description": "Șelac sub formă de fulgi, precum și lac gata preparat pe bază de șelac, pentru un tratament de calitate al lemnului."
+          "description": "Șelac SONNE, BONA și alb fără ceară sub formă de fulgi, șelac ceruit LEMON, precum și lac gata preparat pe bază de șelac rubiniu, pentru un tratament de calitate al lemnului."
         },
         "vosky": {
           "name": "Ceruri și finisaje pe bază de ulei",
-          "description": "Ceruri și uleiuri pentru tratarea materialelor din lemn, care scot în evidență structura lemnului și protejează suprafața."
+          "description": "Ceară organică suedeză KIRJES, ceară de albine sub formă de pastă și ulei de terebentină fără miros pentru tratarea materialelor din lemn, care scot în evidență structura lemnului și protejează suprafața."
         },
         "zivice": {
           "name": "Rășini și chituri",
-          "description": "Rășini acrilice și polimerice pentru turnare, potrivite și pentru crearea de piese decorative din lemn și rășină."
+          "description": "Rășini epoxidice Veropal pentru turnare și stabilizarea lemnului, Paraloid B72 acrilic, precum și chit Litostucco cu uscare rapidă pentru repararea lemnului și a tencuielii."
         }
       }
     },
@@ -575,6 +575,65 @@
           "p1262": "Daltă plată Triton, 38 mm",
           "p1238": "Daltă dreaptă M-stein",
           "p1432": "Daltă dreaptă plată Stubai, seria S52, profil 1"
+        }
+      }
+    },
+    "nateryTmelyBrusiva": {
+      "pozlacovanie": {
+        "title": "Poleire cu aur și argint",
+        "intro": "Gamă completă pentru poleirea artistică a lemnului, ramelor și obiectelor sacre. Foițele autentice de aur și argint sunt completate de aurul comestibil Gourmet Gold și de vopseaua aurie Decor Gold cu efect metalic, pe bază de apă.",
+        "products": {
+          "p1423": "Foiță de aur 23¾ carate, dublată, dublă, 8×8 cm",
+          "p1462": "Foiță de argint, pură, 9,5×9,5 cm, dublată, carnet de 25 foițe",
+          "p1424": "Aur comestibil Gourmet Gold, set de start",
+          "p1451": "Decor Gold – vopsea aurie metalică pe bază de apă pentru lemn și metal, 500 ml"
+        }
+      },
+      "protiCervotocom": {
+        "title": "Produse împotriva carilor lemnului",
+        "intro": "Produse profesionale Complet Antitarlo pentru eliminarea imediată și protecția preventivă a lemnului împotriva insectelor xilofage și a mucegaiului. Disponibile în ambalaj de 1 L pentru intervenții mici și de 5 L pentru suprafețe mai mari și uz profesional.",
+        "products": {
+          "p944": "Produs împotriva carilor Complet Antitarlo, fungicid, 1 L",
+          "p1435": "Produs împotriva carilor Complet Antitarlo, fungicid profesional, 5 L"
+        }
+      },
+      "riedenie": {
+        "title": "Diluare și degresare",
+        "intro": "Bioalcool și alcool denaturat pentru degresarea și curățarea temeinică a suprafeței lemnului înainte de aplicarea unui finisaj, potrivite și pentru diluarea lacurilor pe bază de șelac.",
+        "products": {
+          "p937": "Bioalcool Uni, 1 L",
+          "p938": "Bioalcool Uni 100, 1 L",
+          "p1116": "DEL Extra, alcool denaturat, 1 L"
+        }
+      },
+      "selakyMoridla": {
+        "title": "Șelac și baițuri",
+        "intro": "Șelac sub formă de fulgi în variantele SONNE, BONA și alb fără ceară, șelac ceruit LEMON, precum și lac gata preparat pe bază de șelac rubiniu – materiale de calitate pentru tratamentul profesional al lemnului.",
+        "products": {
+          "p946": "Lac pe bază de șelac – rubiniu, 250 ml",
+          "p672": "Șelac – alb, fără ceară, 0,5 kg",
+          "p673": "Șelac – LEMON, ceruit, 0,5 kg",
+          "p675": "Șelac – SONNE, fără ceară, 0,5 kg"
+        }
+      },
+      "vosky": {
+        "title": "Ceruri și finisaje pe bază de ulei",
+        "intro": "Ceară organică suedeză KIRJES, ceară de albine sub formă de pastă pentru pardoseli și lemn, ceruri colorate pentru lemn, precum și ulei de terebentină fără miros pentru tratarea materialelor din lemn.",
+        "products": {
+          "p906": "Ceară organică suedeză KIRJES",
+          "p1314": "Ceară de albine sub formă de pastă pentru pardoseli și lemn, 500 ml",
+          "p1165": "Ceară pentru lemn, negru, 500 ml",
+          "p663": "Ulei de terebentină fără miros, 500 ml"
+        }
+      },
+      "zivice": {
+        "title": "Rășini și chituri",
+        "intro": "Rășini epoxidice Veropal UV Plus și WSB E-LV pentru turnare și stabilizarea lemnului, Paraloid B72 acrilic pentru lucrări de conservare și restaurare, precum și chit Litostucco cu uscare rapidă pentru repararea lemnului și a tencuielii.",
+        "products": {
+          "p1247": "Paraloid – B 72, 1 kg",
+          "p1434": "Litostucco – chit dispersat cu uscare rapidă pentru lemn și tencuială",
+          "p1231": "Veropal UV Plus 100, rășină epoxidică transparentă, 1,4 kg",
+          "p1341": "Veropal WSB E-LV, rășină epoxidică stabilizatoare, 1,4 kg"
         }
       }
     },
@@ -2243,6 +2302,32 @@
         "tesarskeDlata": {
           "title": "Dălți de tâmplărie | Marián s.r.o.",
           "description": "Dălți de tâmplărie Triton, M. Stein și Stubai în lățimi de 13 până la 38 mm și pe comandă."
+        }
+      },
+      "nateryTmelyBrusiva": {
+        "pozlacovanie": {
+          "title": "Poleire cu aur și argint | Marián s.r.o.",
+          "description": "Foițe autentice de aur și argint, aur comestibil și vopsea Decor Gold pentru poleirea artistică a lemnului."
+        },
+        "protiCervotocom": {
+          "title": "Produse împotriva carilor lemnului | Marián s.r.o.",
+          "description": "Fungicid profesional Complet Antitarlo pentru eliminarea și protecția lemnului împotriva insectelor xilofage."
+        },
+        "riedenie": {
+          "title": "Diluare și degresare | Marián s.r.o.",
+          "description": "Bioalcool Uni și DEL Extra pentru degresarea suprafeței lemnului și diluarea lacurilor pe bază de șelac."
+        },
+        "selakyMoridla": {
+          "title": "Șelac și baițuri | Marián s.r.o.",
+          "description": "Șelac SONNE, BONA și LEMON sub formă de fulgi, precum și lac pe bază de șelac pentru tratamentul lemnului."
+        },
+        "vosky": {
+          "title": "Ceruri și finisaje pe bază de ulei | Marián s.r.o.",
+          "description": "Ceară KIRJES, ceară de albine sub formă de pastă și ulei de terebentină pentru tratarea lemnului."
+        },
+        "zivice": {
+          "title": "Rășini și chituri | Marián s.r.o.",
+          "description": "Rășini epoxidice Veropal, Paraloid B72 acrilic și chit Litostucco pentru turnare și repararea lemnului."
         }
       },
       "brusneVysekyNaMieru": {

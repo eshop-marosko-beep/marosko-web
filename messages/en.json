@@ -437,27 +437,27 @@
       "subcategories": {
         "pozlacovanie": {
           "name": "Gilding and silvering",
-          "description": "Genuine gold and silver leaf, special adhesives and tools for artistic gilding and silvering of wood, frames and sacred objects."
+          "description": "Genuine gold and silver leaf (23¾ carat), edible Gourmet Gold, and water-based Decor Gold metallic paint – materials for artistic gilding and silvering of wood, frames and sacred objects."
         },
         "protiCervotocom": {
           "name": "Woodworm treatments",
-          "description": "Professional products for immediate eradication and preventive protection of wood against wood-boring insects."
+          "description": "Professional Complet Antitarlo products (1 and 5 litres) for immediate eradication and preventive protection of wood against wood-boring insects."
         },
         "riedenie": {
           "name": "Thinning and degreasing",
-          "description": "Products for thoroughly degreasing and cleaning the wood surface before applying a finish."
+          "description": "Bioalkohol Uni and DEL Extra denatured alcohol for thoroughly degreasing and cleaning the wood surface, and for thinning shellac polishes, before applying a finish."
         },
         "selakyMoridla": {
           "name": "Shellac and stains",
-          "description": "Shellac in flake form as well as ready-made shellac polish for quality shellacking and staining of wood."
+          "description": "SONNE, BONA and white dewaxed shellac in flake form, waxed LEMON shellac, and ready-made ruby shellac polish for quality shellacking and staining of wood."
         },
         "vosky": {
           "name": "Waxes and oil finishes",
-          "description": "Waxes and oils for waxing and oiling wood materials, bringing out the grain while protecting the surface."
+          "description": "Swedish organic KIRJES wax, beeswax paste and fragrance-free turpentine oil for waxing and oiling wood materials, bringing out the grain while protecting the surface."
         },
         "zivice": {
           "name": "Resins and fillers",
-          "description": "Acrylic and polymer resins for casting and pouring, also suited to creating decorative wood-and-resin pieces."
+          "description": "Veropal epoxy resins for casting and stabilizing wood, acrylic Paraloid B72, and fast-drying Litostucco filler for repairing wood and plaster."
         }
       }
     },
@@ -575,6 +575,65 @@
           "p1262": "Triton flat chisel, 38 mm",
           "p1238": "M-stein straight chisel",
           "p1432": "Stubai straight flat chisel, S52 series, profile 1"
+        }
+      }
+    },
+    "nateryTmelyBrusiva": {
+      "pozlacovanie": {
+        "title": "Gilding and silvering",
+        "intro": "A complete range for artistic gilding and silvering of wood, frames and sacred objects. Genuine gold and silver leaf is joined by edible Gourmet Gold and water-based Decor Gold metallic-effect paint.",
+        "products": {
+          "p1423": "Gold leaf 23¾ carat, backed, double, 8×8 cm",
+          "p1462": "Silver leaf, pure, 9.5×9.5 cm, backed, book of 25 leaves",
+          "p1424": "Edible Gourmet Gold, starter set",
+          "p1451": "Decor Gold – water-based metallic gold paint for wood and metal, 500 ml"
+        }
+      },
+      "protiCervotocom": {
+        "title": "Woodworm treatments",
+        "intro": "Professional Complet Antitarlo products for immediate eradication and preventive protection of wood against wood-boring insects and mould. Available in a 1 L pack for small jobs and a 5 L pack for larger surfaces and professional use.",
+        "products": {
+          "p944": "Complet Antitarlo woodworm treatment, fungicide, 1 L",
+          "p1435": "Complet Antitarlo woodworm treatment, professional fungicide, 5 L"
+        }
+      },
+      "riedenie": {
+        "title": "Thinning and degreasing",
+        "intro": "Bioalkohol and denatured alcohol for thoroughly degreasing and cleaning the wood surface before applying a finish, also suited to thinning shellac polishes.",
+        "products": {
+          "p937": "Bioalkohol Uni, 1 L",
+          "p938": "Bioalkohol Uni 100, 1 L",
+          "p1116": "DEL Extra denatured alcohol, 1 L"
+        }
+      },
+      "selakyMoridla": {
+        "title": "Shellac and stains",
+        "intro": "Flake shellac in SONNE, BONA and white dewaxed grades, waxed LEMON shellac, and ready-made ruby shellac polish – quality materials for professional shellacking and staining of wood.",
+        "products": {
+          "p946": "Shellac polish – ruby, 250 ml",
+          "p672": "Shellac – white, dewaxed, 0.5 kg",
+          "p673": "Shellac – LEMON, waxed, 0.5 kg",
+          "p675": "Shellac – SONNE, dewaxed, 0.5 kg"
+        }
+      },
+      "vosky": {
+        "title": "Waxes and oil finishes",
+        "intro": "Swedish organic KIRJES wax, beeswax paste for floors and wood, coloured wood waxes, and fragrance-free turpentine oil for waxing and oiling wood materials.",
+        "products": {
+          "p906": "Swedish organic KIRJES wax",
+          "p1314": "Beeswax paste for floors and wood, 500 ml",
+          "p1165": "Wood wax, black, 500 ml",
+          "p663": "Fragrance-free turpentine oil, 500 ml"
+        }
+      },
+      "zivice": {
+        "title": "Resins and fillers",
+        "intro": "Veropal UV Plus and WSB E-LV epoxy resins for casting and stabilizing wood, acrylic Paraloid B72 for conservation and restoration work, and fast-drying Litostucco filler for repairing wood and plaster.",
+        "products": {
+          "p1247": "Paraloid – B 72, 1 kg",
+          "p1434": "Litostucco – fast-drying dispersion filler for wood and plaster",
+          "p1231": "Veropal UV Plus 100, clear epoxy resin, 1.4 kg",
+          "p1341": "Veropal WSB E-LV, epoxy stabilizing resin, 1.4 kg"
         }
       }
     },
@@ -2243,6 +2302,32 @@
         "tesarskeDlata": {
           "title": "Carpentry chisels | Marián s.r.o.",
           "description": "Triton, M. Stein and Stubai carpentry chisels in 13 to 38 mm widths and custom sizes."
+        }
+      },
+      "nateryTmelyBrusiva": {
+        "pozlacovanie": {
+          "title": "Gilding and silvering | Marián s.r.o.",
+          "description": "Genuine gold and silver leaf, edible gold and Decor Gold paint for artistic gilding of wood."
+        },
+        "protiCervotocom": {
+          "title": "Woodworm treatments | Marián s.r.o.",
+          "description": "Professional Complet Antitarlo fungicide for eradicating and protecting wood against wood-boring insects."
+        },
+        "riedenie": {
+          "title": "Thinning and degreasing | Marián s.r.o.",
+          "description": "Bioalkohol Uni and DEL Extra for degreasing wood surfaces and thinning shellac polishes."
+        },
+        "selakyMoridla": {
+          "title": "Shellac and stains | Marián s.r.o.",
+          "description": "SONNE, BONA and LEMON flake shellac plus shellac polish for shellacking and staining wood."
+        },
+        "vosky": {
+          "title": "Waxes and oil finishes | Marián s.r.o.",
+          "description": "KIRJES wax, beeswax paste and turpentine oil for waxing and oiling wood."
+        },
+        "zivice": {
+          "title": "Resins and fillers | Marián s.r.o.",
+          "description": "Veropal epoxy resins, acrylic Paraloid B72 and Litostucco filler for casting and repairing wood."
         }
       },
       "brusneVysekyNaMieru": {

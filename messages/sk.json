@@ -437,27 +437,27 @@
       "subcategories": {
         "pozlacovanie": {
           "name": "Pozlacovanie a striebrenie",
-          "description": "Pravé zlaté a strieborné plátky, špeciálne lepidlá a nástroje pre umelecké pozlacovanie a striebrenie dreva, rámov aj sakrálnych predmetov."
+          "description": "Pravé plátkové zlato a striebro (23¾ karátov), jedlé zlato Gourmet Gold aj vodou riediteľná zlatá farba Decor Gold s metalickým efektom – materiály pre umelecké pozlacovanie a striebrenie dreva, rámov aj sakrálnych predmetov."
         },
         "protiCervotocom": {
           "name": "Prípravky proti červotočom",
-          "description": "Profesionálne prípravky na okamžitú likvidáciu aj preventívnu ochranu dreva pred drevokazným hmyzom."
+          "description": "Profesionálne prípravky Complet Antitarlo (1 aj 5 litrov) na okamžitú likvidáciu aj preventívnu ochranu dreva pred drevokazným hmyzom."
         },
         "riedenie": {
           "name": "Riedenie a odmasťovanie",
-          "description": "Prípravky na dokonalé odmastenie a čistenie povrchu dreva pred nanesením náteru."
+          "description": "Bioalkohol Uni a denaturovaný lieh DEL Extra na dokonalé odmastenie a čistenie povrchu dreva aj riedenie šelakových politúr pred nanesením náteru."
         },
         "selakyMoridla": {
           "name": "Šelaky a moridlá",
-          "description": "Náterový šelak v lupienkovej forme aj hotová náterová politúra pre kvalitné šelakovanie a morenie dreva."
+          "description": "Náterový šelak SONNE, BONA aj biely bezvoskový v lupienkovej forme, voskový šelak LEMON aj hotová šelaková politúra rubínová pre kvalitné šelakovanie a morenie dreva."
         },
         "vosky": {
           "name": "Vosky a olejové nátery",
-          "description": "Vosky a oleje na voskovanie a olejovanie drevených materiálov, ktoré zvýraznia štruktúru dreva a chránia povrch."
+          "description": "Švédsky organický vosk KIRJES, včelí vosk v paste aj terpentínový olej bez zápachu na voskovanie a olejovanie drevených materiálov, ktoré zvýraznia štruktúru dreva a chránia povrch."
         },
         "zivice": {
           "name": "Živice a tmely",
-          "description": "Akrylové a polymérové živice na odliatky a zalievanie, vhodné aj na tvorbu dekoratívnych prvkov z dreva a živice."
+          "description": "Epoxidové živice Veropal na odlievanie a stabilizáciu dreva, akrylátový Paraloid B72 aj rýchloschnúci tmel Litostucco na opravy dreva a omietky."
         }
       }
     },
@@ -575,6 +575,65 @@
           "p1262": "Ploché dláto Triton, 38 mm",
           "p1238": "Dláto M-stein rovné",
           "p1432": "Rovné dláto Stubai ploché, séria S52, profil 1"
+        }
+      }
+    },
+    "nateryTmelyBrusiva": {
+      "pozlacovanie": {
+        "title": "Pozlacovanie a striebrenie",
+        "intro": "Kompletný sortiment na umelecké pozlacovanie a striebrenie dreva, rámov aj sakrálnych predmetov. Pravé plátkové zlato a striebro dopĺňajú jedlé zlato Gourmet Gold aj vodou riediteľná zlatá farba Decor Gold s metalickým efektom.",
+        "products": {
+          "p1423": "Lístkové zlato 23¾ karátové, podlepované, dvojité, 8×8 cm",
+          "p1462": "Lístkové striebro, čisté, 9,5×9,5 cm, podlepené, knižka 25 lístkov",
+          "p1424": "Jedlé zlato Gourmet Gold, štartovacia sada",
+          "p1451": "Decor Gold – vodou riediteľná zlatá farba na drevo a kov, 500 ml"
+        }
+      },
+      "protiCervotocom": {
+        "title": "Prípravky proti červotočom",
+        "intro": "Profesionálne prípravky Complet Antitarlo na okamžitú likvidáciu aj preventívnu ochranu dreva pred drevokazným hmyzom a plesňami. K dispozícii v balení 1 L na menšie zásahy aj 5 L na väčšie plochy a profesionálne použitie.",
+        "products": {
+          "p944": "Prípravok proti červotočom Complet Antitarlo, fungicíd, 1 L",
+          "p1435": "Prípravok proti červotočom Complet Antitarlo, profesionálny fungicíd, 5 L"
+        }
+      },
+      "riedenie": {
+        "title": "Riedenie a odmasťovanie",
+        "intro": "Bioalkohol a denaturovaný lieh na dokonalé odmastenie a čistenie povrchu dreva pred nanesením náteru, vhodné aj na riedenie šelakových politúr.",
+        "products": {
+          "p937": "Bioalkohol Uni, 1 L",
+          "p938": "Bioalkohol Uni 100, 1 L",
+          "p1116": "DEL Extra, denaturovaný lieh, 1 L"
+        }
+      },
+      "selakyMoridla": {
+        "title": "Šelaky a moridlá",
+        "intro": "Náterový šelak v lupienkovej forme v odtieňoch SONNE, BONA aj biely bezvoskový, voskový šelak LEMON aj hotová šelaková politúra rubínová – kvalitné materiály pre profesionálne šelakovanie a morenie dreva.",
+        "products": {
+          "p946": "Šelaková politúra – rubínová, 250 ml",
+          "p672": "Šelak – biely, bezvoskový, 0,5 kg",
+          "p673": "Šelak – LEMON, voskový, 0,5 kg",
+          "p675": "Šelak – SONNE, bezvoskový, 0,5 kg"
+        }
+      },
+      "vosky": {
+        "title": "Vosky a olejové nátery",
+        "intro": "Švédsky organický vosk KIRJES, včelí vosk v paste na podlahu a drevo, farebné vosky na drevo aj terpentínový olej bez zápachu na voskovanie a olejovanie drevených materiálov.",
+        "products": {
+          "p906": "Švédsky organický vosk KIRJES",
+          "p1314": "Včelí vosk v paste na podlahu a drevo, 500 ml",
+          "p1165": "Vosk na drevo, čierny, 500 ml",
+          "p663": "Terpentínový olej bez zápachu, 500 ml"
+        }
+      },
+      "zivice": {
+        "title": "Živice a tmely",
+        "intro": "Epoxidové živice Veropal UV Plus a WSB E-LV na odlievanie a stabilizáciu dreva, akrylátový Paraloid B72 na konzervátorské a reštaurátorské práce aj rýchloschnúci tmel Litostucco na opravy dreva a omietky.",
+        "products": {
+          "p1247": "Paraloid – B 72, 1 kg",
+          "p1434": "Litostucco – disperzný rýchloschnúci tmel na drevo a omietku",
+          "p1231": "Veropal UV Plus 100, číra epoxidová živica, 1,4 kg",
+          "p1341": "Veropal WSB E-LV, epoxidová stabilizačná živica, 1,4 kg"
         }
       }
     },
@@ -2243,6 +2302,32 @@
         "tesarskeDlata": {
           "title": "Tesárske dláta | Marián s.r.o.",
           "description": "Tesárske dláta Triton, M. Stein a Stubai v šírkach 13 až 38 mm aj na mieru."
+        }
+      },
+      "nateryTmelyBrusiva": {
+        "pozlacovanie": {
+          "title": "Pozlacovanie a striebrenie | Marián s.r.o.",
+          "description": "Pravé plátkové zlato a striebro, jedlé zlato aj zlatá farba Decor Gold na umelecké pozlacovanie dreva."
+        },
+        "protiCervotocom": {
+          "title": "Prípravky proti červotočom | Marián s.r.o.",
+          "description": "Profesionálny fungicíd Complet Antitarlo na likvidáciu a ochranu dreva pred drevokazným hmyzom."
+        },
+        "riedenie": {
+          "title": "Riedenie a odmasťovanie | Marián s.r.o.",
+          "description": "Bioalkohol Uni a DEL Extra na odmastenie povrchu dreva a riedenie šelakových politúr."
+        },
+        "selakyMoridla": {
+          "title": "Šelaky a moridlá | Marián s.r.o.",
+          "description": "Šelak SONNE, BONA a LEMON v lupienkoch aj šelaková politúra na šelakovanie a morenie dreva."
+        },
+        "vosky": {
+          "title": "Vosky a olejové nátery | Marián s.r.o.",
+          "description": "Vosk KIRJES, včelí vosk v paste a terpentínový olej na voskovanie a olejovanie dreva."
+        },
+        "zivice": {
+          "title": "Živice a tmely | Marián s.r.o.",
+          "description": "Epoxidové živice Veropal, akrylátový Paraloid B72 a tmel Litostucco na odlievanie a opravy dreva."
         }
       },
       "brusneVysekyNaMieru": {
