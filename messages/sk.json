@@ -329,23 +329,23 @@
       "subcategories": {
         "maleVyseky": {
           "name": "Malé výseky Ø 50 – 150 mm",
-          "description": "Kompaktné kruhové výseky od 50 do 150 mm pre mini brúsky, excentrické brúsky a mikronáradie – ideálne na precízne a detailné brúsenie."
+          "description": "Kompaktné kruhové výseky od 50 do 150 mm pre mini brúsky, excentrické brúsky a mikronáradie – ideálne na precízne a detailné brúsenie, vrátane samolepiacich brúsnych kotúčov Silverline s priemerom 150 mm."
         },
         "strednePriemery": {
           "name": "Stredné výseky Ø 180 – 300 mm",
-          "description": "Výseky s priemerom 180 až 300 mm pre bežné okrúhle a excentrické brúsky pri opracovaní stredne veľkých plôch."
+          "description": "Výseky s priemerom 180 až 300 mm pre bežné okrúhle a excentrické brúsky pri opracovaní stredne veľkých plôch, dostupné v zrnitostiach D40 až D120."
         },
         "velkePriemery": {
           "name": "Veľké výseky Ø 370 – 600 mm",
-          "description": "Profesionálne veľkoplošné výseky s priemerom 370 až 600 mm pre kotúčové brúsky a brúsne stoly."
+          "description": "Profesionálne veľkoplošné výseky s priemerom 370 až 600 mm pre kotúčové brúsky a brúsne stoly, v zrnitostiach D40 až D80."
         },
         "papier115mm": {
           "name": "Brúsny papier Ø 115 mm",
-          "description": "Brúsny papier s priemerom 115 mm a suchým zipsom, vhodný najmä na uhlové brúsky a stredne veľké plochy."
+          "description": "Brúsny papier s priemerom 115 mm a suchým zipsom, vhodný najmä na uhlové brúsky a stredne veľké plochy, doplnený o fíbrové výseky aj hladký nosič fíbrových šmirglov."
         },
         "podlozky": {
           "name": "Podložky a príslušenstvo pre suchý zips",
-          "description": "Molitanové medzipodložky medzi unášač a výsek a hačkové podklady pre suchý zips podľa zvoleného priemeru, ktoré predĺžia životnosť brúsiva aj brúsky."
+          "description": "Molitanové medzipodložky medzi unášač a výsek (Ø 75 až 125 mm) a hačkové podklady pre suchý zips podľa zvoleného priemeru, ktoré predĺžia životnosť brúsiva aj brúsky."
         }
       }
     },
@@ -526,6 +526,57 @@
     "common": {
       "productsTitle": "Vybrané produkty",
       "eshopCta": "Zobraziť celú ponuku v e-shope"
+    },
+    "brusneVysekyNaMieru": {
+      "maleVyseky": {
+        "title": "Malé výseky Ø 50 – 150 mm",
+        "intro": "Kompaktné kruhové výseky od 50 do 150 mm pre mini brúsky, excentrické brúsky a mikronáradie – ideálne na precízne a detailné brúsenie. V ponuke sú jednotlivé aj 5-kusové balenia brúsneho papiera rôznych priemerov a samolepiace brúsne kotúče Silverline s priemerom 150 mm.",
+        "products": {
+          "p1210": "Brúsny výsek Ø 50 mm, suchý zips, balenie 5 ks",
+          "p1052": "Šmirkový výsek Ø 80 mm, korund, 5 ks",
+          "p973": "Šmirglový papier so suchým zipsom, výsek 125 mm",
+          "p1334": "Silverline samolepiace brúsne kotúče 150 mm, 10 kusov"
+        }
+      },
+      "strednePriemery": {
+        "title": "Stredné výseky Ø 180 – 300 mm",
+        "intro": "Výseky s priemerom 180 až 300 mm pre bežné okrúhle a excentrické brúsky pri opracovaní stredne veľkých plôch. Brúsny papier na suchý zips je dostupný v zrnitostiach od D40 (hrubé hrubovanie) až po D120 (jemné dokončovanie).",
+        "products": {
+          "p1251": "Brúsny papier so suchým zipsom, výsek 180 mm, balenie 10 ks",
+          "p1401": "Brúsny papier Ø 200 mm D100, suchý zips",
+          "p1450": "Brúsny papier 250 mm D120, suchý zips",
+          "p1155": "Brúsny papier Ø 300 mm D40, suchý zips"
+        }
+      },
+      "velkePriemery": {
+        "title": "Veľké výseky Ø 370 – 600 mm",
+        "intro": "Profesionálne veľkoplošné výseky s priemerom 370 až 600 mm pre kotúčové brúsky a brúsne stoly. Brúsny papier na suchý zips je dostupný v zrnitostiach D40 až D80 podľa toho, či potrebujete rýchly úber alebo jemnejší povrch.",
+        "products": {
+          "p1417": "Brúsny papier Ø 370 mm D40",
+          "p864": "Brúsny papier Ø 400 mm D60",
+          "p1071": "Brúsny papier Ø 450 mm D80",
+          "p1144": "Brúsny papier Ø 600 mm D40, suchý zips"
+        }
+      },
+      "papier115mm": {
+        "title": "Brúsny papier Ø 115 mm",
+        "intro": "Brúsny papier s priemerom 115 mm a suchým zipsom, vhodný najmä na uhlové brúsky a stredne veľké plochy. Doplnkovo nájdete aj fíbrové brúsne výseky a hladký nosič fíbrových šmirglov pre uhlovú brúsku.",
+        "products": {
+          "p1316": "Brúsny papier so suchým zipsom, výsek 115 mm",
+          "p875": "Fíbrový brúsny výsek, priemer 115 mm",
+          "p1069": "Nosič fíbrových šmirglov pre uhlovú brúsku, hladký 115 mm"
+        }
+      },
+      "podlozky": {
+        "title": "Podložky a príslušenstvo pre suchý zips",
+        "intro": "Molitanové medzipodložky medzi unášač a výsek s priemerom 75 až 125 mm a hačkové podklady pre suchý zips podľa zvoleného priemeru. Medzipodložka zmäkčí prítlak na brúsený povrch a predĺži životnosť brúsiva aj samotnej brúsky.",
+        "products": {
+          "p1138": "Molitanová medzivrstva, suchý zips a vlies, Ø 115 mm",
+          "p1136": "Molitanová medzivrstva, suchý zips a vlies, Ø 125 mm",
+          "p799": "Molitanová medzivrstva na suchý zips, 75/100/120 mm",
+          "p1080": "Háčková samolepiaca podložka pre suchý zips"
+        }
+      }
     },
     "elektrickeNaradie": {
       "arbortech": {
@@ -2121,6 +2172,28 @@
       }
     },
     "kategorieSubcategoryDetail": {
+      "brusneVysekyNaMieru": {
+        "maleVyseky": {
+          "title": "Malé výseky Ø 50 – 150 mm | Marián s.r.o.",
+          "description": "Kompaktné kruhové výseky pre mini brúsky a mikronáradie, vrátane samolepiacich kotúčov Silverline."
+        },
+        "strednePriemery": {
+          "title": "Stredné výseky Ø 180 – 300 mm | Marián s.r.o.",
+          "description": "Brúsny papier na suchý zips pre okrúhle a excentrické brúsky v zrnitostiach D40 až D120."
+        },
+        "velkePriemery": {
+          "title": "Veľké výseky Ø 370 – 600 mm | Marián s.r.o.",
+          "description": "Profesionálne veľkoplošné výseky pre kotúčové brúsky a brúsne stoly, zrnitosti D40 až D80."
+        },
+        "papier115mm": {
+          "title": "Brúsny papier Ø 115 mm | Marián s.r.o.",
+          "description": "Brúsny papier na suchý zips pre uhlové brúsky, doplnený o fíbrové výseky a nosič šmirglov."
+        },
+        "podlozky": {
+          "title": "Podložky a príslušenstvo pre suchý zips | Marián s.r.o.",
+          "description": "Molitanové medzipodložky a hačkové podklady pre suchý zips rôznych priemerov."
+        }
+      },
       "elektrickeNaradie": {
         "arbortech": {
           "title": "Arbortech elektrické náradie | Marián s.r.o.",

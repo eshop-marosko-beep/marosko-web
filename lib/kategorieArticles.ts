@@ -689,12 +689,147 @@ export const kategorieArticles: KategorieArticle[] = [
     slug: "brusne-vyseky-brusny-papier-platno",
     translationKey: "brusneVysekyNaMieru",
     eshopUrl: "https://eshop.marosko.sk/c/brusne-vyseky-brusny-papier-platno",
+    image: "https://eshop.marosko.sk/resize/e/1600/1600/files/brusne-vyseky/12268.jpg",
     subcategories: [
-      { translationKey: "maleVyseky" },
-      { translationKey: "strednePriemery" },
-      { translationKey: "velkePriemery" },
-      { translationKey: "papier115mm" },
-      { translationKey: "podlozky" },
+      {
+        translationKey: "maleVyseky",
+        slug: "male-vyseky",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/50/smirgle-50mm.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/brusne-vyseky-brusny-papier-platno/priemer-50-mm-brusny-papier-vysek",
+        products: [
+          {
+            id: "p1210",
+            url: "https://eshop.marosko.sk/p/1210/5-ks-balenie-brusne-vyseky-priemer-50-mm-suchy-zips",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/50/smirgle-50mm.jpg",
+          },
+          {
+            id: "p1052",
+            url: "https://eshop.marosko.sk/p/1052/5x-korund-smirkovy-vysek-k-priemer-80-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/smirgle-80mm.jpg",
+          },
+          {
+            id: "p973",
+            url: "https://eshop.marosko.sk/p/973/smirglove-papiere-so-suchym-zipsom-vysek-125-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/brusne/smirgle.jpg",
+          },
+          {
+            id: "p1334",
+            url: "https://eshop.marosko.sk/p/1334/silverline-samolepiace-brusne-kotuce-150-mm-10-kusov",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/silverline/samolepiaci-brusny-papier-150mm/a1vyptnemcl.-ac-sl1500-.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "strednePriemery",
+        slug: "stredne-priemery",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/brusny-papier-300mm/brusny-vysek-silverline.png",
+        eshopUrl: "https://eshop.marosko.sk/c/brusne-vyseky-brusny-papier-platno/brusivo-priemer-200-mm",
+        products: [
+          {
+            id: "p1251",
+            url: "https://eshop.marosko.sk/p/1251/brusny-papier-so-suchym-zipsom-vysek-180-mm-balenie-10ks",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/brusny-papier-300mm/brusny-vysek-silverline.png",
+          },
+          {
+            id: "p1401",
+            url: "https://eshop.marosko.sk/p/1401/brusny-papier-o-200-mm-d100-suchy-zips",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/d-100/275706138-657230568730538-3383061403559715100-n.jpg",
+          },
+          {
+            id: "p1450",
+            url: "https://eshop.marosko.sk/p/1450/brusny-papier-250mm-d120-suchy-zips",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/250mm/brusny-vysek-drsnost-120.png",
+          },
+          {
+            id: "p1155",
+            url: "https://eshop.marosko.sk/p/1155/brusny-papier-priemer-300-mm-drsnost-40-suchy-zips",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/d-40/275761262-483372716706575-7748692713818970183-n.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "velkePriemery",
+        slug: "velke-priemery",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/d-40/275785076-1589923531385968-7179285543427780534-n.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/brusne-vyseky-brusny-papier-platno/priemer-370-mm",
+        products: [
+          {
+            id: "p1417",
+            url: "https://eshop.marosko.sk/p/1417/brusny-papier-o-370-mm-d40",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/d-40/vysek-370mm.jpg",
+          },
+          {
+            id: "p864",
+            url: "https://eshop.marosko.sk/p/864/brusny-papier-brusny-papier-priemer-400-mm-drsnost-60",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/d-60/275877207-270373588628344-5496163316779070496-n.jpg",
+          },
+          {
+            id: "p1071",
+            url: "https://eshop.marosko.sk/p/1071/brusny-papier-450-mm-drsnost-80",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/d-80/276167879-1408251319608919-2254401481016750233-n.jpg",
+          },
+          {
+            id: "p1144",
+            url: "https://eshop.marosko.sk/p/1144/brusny-papier-600-mm-drsnost-40-suchy-zips",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/d-40/275785076-1589923531385968-7179285543427780534-n.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "papier115mm",
+        slug: "papier-115mm",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/brusne/smirgle.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/brusne-vyseky-brusny-papier-platno/brusny-papier-115-mm-suchy-zips",
+        products: [
+          {
+            id: "p1316",
+            url: "https://eshop.marosko.sk/p/1316/brusny-papier-so-suchym-zipsom-vysek-115-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/brusne/smirgle.jpg",
+          },
+          {
+            id: "p875",
+            url: "https://eshop.marosko.sk/p/875/fibrovy-brusny-vysek-priemer-115-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/fibrovy/fibrovy-vysek-120.jpg",
+          },
+          {
+            id: "p1069",
+            url: "https://eshop.marosko.sk/p/1069/nosic-fibrovych-smirglov-pre-uhlovu-brusku-hladky-115-mm",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/brusne/univerzalne/plochy-unasac-fibrovych-smirglov.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "podlozky",
+        slug: "podlozky",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/molitanove-/molitanove-medzipodlozky.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/brusne-vyseky-brusny-papier-platno/molitanove-medzi-podlozky",
+        products: [
+          {
+            id: "p1138",
+            url: "https://eshop.marosko.sk/p/1138/molitanova-medzivrstva-suchy-zips-vlies-115-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/molitanove-/molitanove-medzipodlozky.jpg",
+          },
+          {
+            id: "p1136",
+            url: "https://eshop.marosko.sk/p/1136/molitanova-medzivrstva-suchy-zips-vlies-125-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/molitanove-/molitanove-medzipodlozky.jpg",
+          },
+          {
+            id: "p799",
+            url: "https://eshop.marosko.sk/p/799/molitanova-medzivrstva-suchy-zips-75-100-120",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/vrstvy-manpa-.jpg",
+          },
+          {
+            id: "p1080",
+            url: "https://eshop.marosko.sk/p/1080/podlozka-hackova-samolepiaca-suchy-zips",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/brusne-vyseky/samolepiace-podlozky/img-20210924-120931-03.jpeg",
+          },
+        ],
+      },
     ],
   },
   {
