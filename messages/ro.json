@@ -409,23 +409,23 @@
       "subcategories": {
         "pilniky": {
           "name": "Pile și raspele",
-          "description": "Pile pentru lemn, metal și lanțuri, pile diamantate, raspele din carbură și pietre de ascuțit – unelte precise pentru ascuțire și modelare."
+          "description": "Pile pentru lemn, metal și lanțuri, pile diamantate, raspele din carbură și pietre de ascuțit — unelte precise pentru ascuțire și modelare, inclusiv o piatră de ascuțit diamantată pe două fețe și un bloc de finisat cu 4 fețe."
         },
         "dlata": {
           "name": "Dălți de sculptură",
-          "description": "Dălți de sculptură profesionale de la Stubai și M. Stein – oțel călit și ascuțit pentru sculptori, artiști plastici și gravori."
+          "description": "Dălți de sculptură profesionale de la Stubai și M. Stein — oțel călit și ascuțit pentru sculptori, artiști plastici și gravori, disponibile ca profiluri individuale sau într-un set de început Stubai cu 4 piese."
         },
         "noze": {
           "name": "Cuțite de sculptură",
-          "description": "Cuțite de sculptură ascuțite și fiabile pentru lucrul de precizie cu lemnul, potrivite atât începătorilor, cât și sculptorilor avansați."
+          "description": "Cuțite de sculptură ascuțite și fiabile pentru lucrul de precizie cu lemnul, potrivite atât începătorilor, cât și sculptorilor avansați — de la lame drepte simple până la cuțitul curbat Stubai."
         },
         "rydla": {
           "name": "Dăltițe pentru linogravură și gravură în lemn",
-          "description": "Dăltițe de la M. Stein și Stubai potrivite pentru linogravură, gravură în lemn și creație artistică, cu oțel de calitate și mânere confortabile."
+          "description": "Dăltițe de la M. Stein și Stubai potrivite pentru linogravură, gravură în lemn și creație artistică, cu oțel de calitate și mânere confortabile în formă de pară sau în linie."
         },
         "tesarskeDlata": {
           "name": "Dălți de tâmplărie",
-          "description": "Dălți de tâmplărie de calitate de la marca austriacă Stubai pentru prelucrarea precisă a lemnului la lucrările de tâmplărie."
+          "description": "Dălți de tâmplărie de calitate de la Triton, M. Stein și Stubai pentru prelucrarea precisă a lemnului la lucrările de tâmplărie, în lățimi de la 13 la 38 mm și profiluri variabile la alegere."
         }
       }
     },
@@ -526,6 +526,57 @@
     "common": {
       "productsTitle": "Produse recomandate",
       "eshopCta": "Vezi toată gama în eshop"
+    },
+    "rucneNaradie": {
+      "pilniky": {
+        "title": "Pile și raspele",
+        "intro": "Pile pentru lemn, metal și lanțuri, pile diamantate, raspele din carbură și pietre de ascuțit — unelte precise pentru ascuțire și modelare. O piatră de ascuțit diamantată pe două fețe, montată pe suport, și un bloc de finisat cu 4 fețe acoperă atât degroșarea, cât și retușul fin al tăișului.",
+        "products": {
+          "p774": "Piatră de ascuțit diamantată pe suport, două fețe",
+          "p261": "Plăcuțe de finisat diamantate, 3 buc D-180/260/360",
+          "p692": "Bloc de finisat diamantat cu 4 fețe",
+          "p696": "Raspel de mână plat cu carbură 150 mm, fin"
+        }
+      },
+      "dlata": {
+        "title": "Dălți de sculptură",
+        "intro": "Dălți de sculptură profesionale de la Stubai și M. Stein — oțel călit și ascuțit pentru sculptori, artiști plastici și gravori. Sunt disponibile dălți drepte individuale în diverse profiluri, precum și un set de început Stubai cu 4 piese pentru începători.",
+        "products": {
+          "p1238": "Daltă dreaptă M-stein",
+          "p1240": "Daltă dreaptă M-stein, profil 8",
+          "p1239": "Daltă dreaptă M-stein, profil 10",
+          "p1431": "Set dălți Stubai pentru începători, 4 piese"
+        }
+      },
+      "noze": {
+        "title": "Cuțite de sculptură",
+        "intro": "Cuțite de sculptură ascuțite și fiabile pentru lucrul de precizie cu lemnul, potrivite atât începătorilor, cât și sculptorilor avansați. Lamele drepte și curbate acoperă tăieturile de bază în sculptură, completate de cuțitul curbat Stubai pentru detalii fine.",
+        "products": {
+          "p1241": "Cuțit de sculptură, lamă plată nr. 1",
+          "p1386": "Cuțit de sculptură, lamă nr. 2",
+          "p1433": "Cuțit de sculptură Stubai 510601"
+        }
+      },
+      "rydla": {
+        "title": "Dăltițe pentru linogravură și gravură în lemn",
+        "intro": "Dăltițe de la M. Stein și Stubai potrivite pentru linogravură, gravură în lemn și creație artistică, cu oțel de calitate și mânere confortabile. Mânerul în formă de pară este potrivit pentru apăsare de sus, iar mânerul în linie permite ghidarea precisă a dăltiței înainte.",
+        "products": {
+          "p1305": "Dăltiță cu mâner în formă de pară pentru linogravură, profil 8",
+          "p1304": "Dăltiță cu mâner în formă de pară pentru linogravură, profil 11",
+          "p1390": "Dăltiță pentru linogravură cu mâner în linie, profil 10",
+          "p1389": "Dăltiță pentru linogravură cu mâner în linie, profil 11"
+        }
+      },
+      "tesarskeDlata": {
+        "title": "Dălți de tâmplărie",
+        "intro": "Dălți de tâmplărie de calitate de la Triton, M. Stein și Stubai pentru prelucrarea precisă a lemnului la lucrările de tâmplărie. Gama include dălți plate Triton de 13 și 38 mm, precum și o daltă dreaptă Stubai cu lățimi la alegere de la 1 la 60 mm.",
+        "products": {
+          "p1271": "Daltă plată Triton, 13 mm",
+          "p1262": "Daltă plată Triton, 38 mm",
+          "p1238": "Daltă dreaptă M-stein",
+          "p1432": "Daltă dreaptă plată Stubai, seria S52, profil 1"
+        }
+      }
     },
     "brusneVysekyNaMieru": {
       "maleVyseky": {
@@ -2172,6 +2223,28 @@
       }
     },
     "kategorieSubcategoryDetail": {
+      "rucneNaradie": {
+        "pilniky": {
+          "title": "Pile și raspele | Marián s.r.o.",
+          "description": "Pile diamantate, raspele din carbură și pietre de ascuțit pentru ascuțire și modelare."
+        },
+        "dlata": {
+          "title": "Dălți de sculptură | Marián s.r.o.",
+          "description": "Dălți de sculptură profesionale Stubai și M. Stein, profiluri individuale și seturi."
+        },
+        "noze": {
+          "title": "Cuțite de sculptură | Marián s.r.o.",
+          "description": "Cuțite de sculptură ascuțite pentru lucrul de precizie cu lemnul, inclusiv cuțitul Stubai."
+        },
+        "rydla": {
+          "title": "Dăltițe pentru linogravură și gravură în lemn | Marián s.r.o.",
+          "description": "Dăltițe M. Stein și Stubai cu mâner în formă de pară sau în linie pentru linogravură."
+        },
+        "tesarskeDlata": {
+          "title": "Dălți de tâmplărie | Marián s.r.o.",
+          "description": "Dălți de tâmplărie Triton, M. Stein și Stubai în lățimi de 13 până la 38 mm și pe comandă."
+        }
+      },
       "brusneVysekyNaMieru": {
         "maleVyseky": {
           "title": "Discuri mici Ø 50 – 150 mm | Marián s.r.o.",

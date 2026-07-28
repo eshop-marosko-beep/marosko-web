@@ -409,23 +409,23 @@
       "subcategories": {
         "pilniky": {
           "name": "Files and rasps",
-          "description": "Files for wood, metal and chains, diamond files, carbide rasps and sharpening stones – precise tools for sharpening and shaping."
+          "description": "Files for wood, metal and chains, diamond files, carbide rasps and sharpening stones – precise tools for sharpening and shaping, including a two-sided diamond sharpening stone and a 4-sided honing block."
         },
         "dlata": {
           "name": "Carving chisels",
-          "description": "Professional carving chisels from Stubai and M. Stein – hardened, sharp steel for carvers, sculptors and engravers."
+          "description": "Professional carving chisels from Stubai and M. Stein – hardened, sharp steel for carvers, sculptors and engravers, available as individual profiles or in a starter 4-piece Stubai set."
         },
         "noze": {
           "name": "Carving knives",
-          "description": "Sharp, reliable carving knives for precise woodwork, suited to both beginners and advanced carvers."
+          "description": "Sharp, reliable carving knives for precise woodwork, suited to both beginners and advanced carvers – from simple straight blades to the curved Stubai knife."
         },
         "rydla": {
           "name": "Linocut and wood-engraving gouges",
-          "description": "Gouges from M. Stein and Stubai suited to linocut, wood engraving and artistic work, with quality steel and comfortable handles."
+          "description": "Gouges from M. Stein and Stubai suited to linocut, wood engraving and artistic work, with quality steel and comfortable pear-shaped or in-line handles."
         },
         "tesarskeDlata": {
           "name": "Carpentry chisels",
-          "description": "Quality carpentry chisels from the Austrian brand Stubai for precise wood processing in carpentry work."
+          "description": "Quality carpentry chisels from Triton, M. Stein and Stubai for precise wood processing in carpentry work, in widths from 13 to 38 mm and variable profiles to choose from."
         }
       }
     },
@@ -526,6 +526,57 @@
     "common": {
       "productsTitle": "Featured products",
       "eshopCta": "See the full range in the eshop"
+    },
+    "rucneNaradie": {
+      "pilniky": {
+        "title": "Files and rasps",
+        "intro": "Files for wood, metal and chains, diamond files, carbide rasps and sharpening stones – precise tools for sharpening and shaping. A two-sided diamond sharpening stone on a stand and a 4-sided honing block cover both coarse and fine edge touch-up.",
+        "products": {
+          "p774": "Two-sided diamond sharpening stone on a stand",
+          "p261": "Diamond honing plates, 3 pcs D-180/260/360",
+          "p692": "4-sided diamond honing block",
+          "p696": "Flat hand rasp with carbide coating 150 mm, fine"
+        }
+      },
+      "dlata": {
+        "title": "Carving chisels",
+        "intro": "Professional carving chisels from Stubai and M. Stein – hardened, sharp steel for carvers, sculptors and engravers. Individual straight chisels in various profiles are available, along with a starter 4-piece Stubai set for beginners.",
+        "products": {
+          "p1238": "M-stein straight chisel",
+          "p1240": "M-stein straight chisel, profile 8",
+          "p1239": "M-stein straight chisel, profile 10",
+          "p1431": "Stubai beginner chisel set, 4 pieces"
+        }
+      },
+      "noze": {
+        "title": "Carving knives",
+        "intro": "Sharp, reliable carving knives for precise woodwork, suited to both beginners and advanced carvers. Straight and curved blades cover the basic carving cuts, complemented by the curved Stubai knife for fine detail work.",
+        "products": {
+          "p1241": "Carving knife, flat blade No. 1",
+          "p1386": "Carving knife, blade No. 2",
+          "p1433": "Stubai carving knife 510601"
+        }
+      },
+      "rydla": {
+        "title": "Linocut and wood-engraving gouges",
+        "intro": "Gouges from M. Stein and Stubai suited to linocut, wood engraving and artistic work, with quality steel and comfortable handles. The pear-shaped handle suits pushing from above, while the in-line handle allows precise forward guidance of the gouge.",
+        "products": {
+          "p1305": "Pear-handled gouge for linocut, profile 8",
+          "p1304": "Pear-handled gouge for linocut, profile 11",
+          "p1390": "Linocut gouge with in-line handle, profile 10",
+          "p1389": "Linocut gouge with in-line handle, profile 11"
+        }
+      },
+      "tesarskeDlata": {
+        "title": "Carpentry chisels",
+        "intro": "Quality carpentry chisels from Triton, M. Stein and Stubai for precise wood processing in carpentry work. The range includes 13 and 38 mm Triton flat chisels as well as a straight Stubai chisel with widths from 1 to 60 mm to choose from.",
+        "products": {
+          "p1271": "Triton flat chisel, 13 mm",
+          "p1262": "Triton flat chisel, 38 mm",
+          "p1238": "M-stein straight chisel",
+          "p1432": "Stubai straight flat chisel, S52 series, profile 1"
+        }
+      }
     },
     "brusneVysekyNaMieru": {
       "maleVyseky": {
@@ -2172,6 +2223,28 @@
       }
     },
     "kategorieSubcategoryDetail": {
+      "rucneNaradie": {
+        "pilniky": {
+          "title": "Files and rasps | Marián s.r.o.",
+          "description": "Diamond files, carbide rasps and sharpening stones for sharpening and shaping."
+        },
+        "dlata": {
+          "title": "Carving chisels | Marián s.r.o.",
+          "description": "Professional carving chisels from Stubai and M. Stein, individual profiles and sets."
+        },
+        "noze": {
+          "title": "Carving knives | Marián s.r.o.",
+          "description": "Sharp carving knives for precise woodwork, including the Stubai knife."
+        },
+        "rydla": {
+          "title": "Linocut and wood-engraving gouges | Marián s.r.o.",
+          "description": "M. Stein and Stubai gouges with pear-shaped or in-line handles for linocut and engraving."
+        },
+        "tesarskeDlata": {
+          "title": "Carpentry chisels | Marián s.r.o.",
+          "description": "Triton, M. Stein and Stubai carpentry chisels in 13 to 38 mm widths and custom sizes."
+        }
+      },
       "brusneVysekyNaMieru": {
         "maleVyseky": {
           "title": "Small discs Ø 50 – 150 mm | Marián s.r.o.",

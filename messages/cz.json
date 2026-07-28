@@ -409,23 +409,23 @@
       "subcategories": {
         "pilniky": {
           "name": "Pilníky a rašple",
-          "description": "Pilníky pro dřevo, kov i řetězy, diamantové pilníky, tvrdokovové rašple a ostřicí bloky – přesné nástroje pro broušení a tvarování."
+          "description": "Pilníky pro dřevo, kov i řetězy, diamantové pilníky, tvrdokovové rašple a ostřicí bloky – přesné nástroje pro broušení a tvarování, včetně oboustranného diamantového ostřicího bloku a 4stranného obtahovacího kvádru."
         },
         "dlata": {
           "name": "Řezbářská dláta",
-          "description": "Profesionální řezbářská dláta značek Stubai a M. Stein – kalená a ostrá ocel pro řezbáře, sochaře i rytce."
+          "description": "Profesionální řezbářská dláta značek Stubai a M. Stein – kalená a ostrá ocel pro řezbáře, sochaře i rytce, dostupná v jednotlivých profilech i ve startovací 4dílné sadě Stubai."
         },
         "noze": {
           "name": "Řezbářské nože",
-          "description": "Ostré a spolehlivé řezbářské nože pro přesnou práci se dřevem, vhodné pro začátečníky i pokročilé řezbáře."
+          "description": "Ostré a spolehlivé řezbářské nože pro přesnou práci se dřevem, vhodné pro začátečníky i pokročilé řezbáře – od jednoduchých čepelí až po zahnutý nůž Stubai."
         },
         "rydla": {
           "name": "Rydla na linoryt a dřevořezbu",
-          "description": "Rydla od M. Stein a Stubai vhodná pro linoryt, dřevořezbu i uměleckou tvorbu, s kvalitní ocelí a pohodlnými rukojeťmi."
+          "description": "Rydla od M. Stein a Stubai vhodná pro linoryt, dřevořezbu i uměleckou tvorbu, s kvalitní ocelí a pohodlnými hruškovými i podélnými rukojeťmi."
         },
         "tesarskeDlata": {
           "name": "Tesařská dláta",
-          "description": "Kvalitní tesařská dláta rakouské značky Stubai pro přesné opracování dřeva při tesařských pracích."
+          "description": "Kvalitní tesařská dláta značek Triton, M. Stein a Stubai pro přesné opracování dřeva při tesařských pracích, v šířkách od 13 do 38 mm i ve variabilních profilech na výběr."
         }
       }
     },
@@ -526,6 +526,57 @@
     "common": {
       "productsTitle": "Vybrané produkty",
       "eshopCta": "Zobrazit celou nabídku v e-shopu"
+    },
+    "rucneNaradie": {
+      "pilniky": {
+        "title": "Pilníky a rašple",
+        "intro": "Pilníky pro dřevo, kov i řetězy, diamantové pilníky, tvrdokovové rašple a ostřicí bloky – přesné nástroje pro broušení a tvarování. Oboustranný diamantový ostřicí blok ve stojanu a 4stranný obtahovací kvádr pokryjí hrubování i jemné doostření ostří.",
+        "products": {
+          "p774": "Diamantový ostřicí blok ve stojanu, oboustranný",
+          "p261": "Obtahovací diamantové destičky, 3 ks D-180/260/360",
+          "p692": "4stranný diamantový obtahovací kvádr, brusný",
+          "p696": "Ruční plochá rašple s tvrdokovem 150 mm, jemná"
+        }
+      },
+      "dlata": {
+        "title": "Řezbářská dláta",
+        "intro": "Profesionální řezbářská dláta značek Stubai a M. Stein – kalená a ostrá ocel pro řezbáře, sochaře i rytce. K dispozici jsou jednotlivá rovná dláta v různých profilech i startovací 4dílná sada Stubai pro začátečníky.",
+        "products": {
+          "p1238": "Dláto M-stein rovné",
+          "p1240": "Dláto M-stein rovné, profil 8",
+          "p1239": "Dláto M-stein rovné, profil 10",
+          "p1431": "Sada dlát Stubai pro začátečníky, 4dílná"
+        }
+      },
+      "noze": {
+        "title": "Řezbářské nože",
+        "intro": "Ostré a spolehlivé řezbářské nože pro přesnou práci se dřevem, vhodné pro začátečníky i pokročilé řezbáře. Rovná i zahnutá čepel pokryjí základní řezbářské řezy, doplněné o zahnutý nůž Stubai pro jemné detaily.",
+        "products": {
+          "p1241": "Řezbářský nůž, čepel plochá č. 1",
+          "p1386": "Řezbářský nůž, čepel č. 2",
+          "p1433": "Řezbářský nůž Stubai 510601"
+        }
+      },
+      "rydla": {
+        "title": "Rydla na linoryt a dřevořezbu",
+        "intro": "Rydla od M. Stein a Stubai vhodná pro linoryt, dřevořezbu i uměleckou tvorbu, s kvalitní ocelí a pohodlnými rukojeťmi. Hrušková rukojeť je vhodná pro tlačení shora, podélná rukojeť zase pro přesné vedení rydla vpřed.",
+        "products": {
+          "p1305": "Rydlo s hruškovou rukojetí na linoryt, profil 8",
+          "p1304": "Rydlo s hruškovou rukojetí na linoryt, profil 11",
+          "p1390": "Rydlo na linoryt s podélnou rukojetí, profil 10",
+          "p1389": "Rydlo na linoryt s podélnou rukojetí, profil 11"
+        }
+      },
+      "tesarskeDlata": {
+        "title": "Tesařská dláta",
+        "intro": "Kvalitní tesařská dláta značek Triton, M. Stein a Stubai pro přesné opracování dřeva při tesařských pracích. V nabídce jsou plochá dláta Triton o šířce 13 a 38 mm i rovné dláto Stubai s výběrem šířky od 1 do 60 mm.",
+        "products": {
+          "p1271": "Ploché dláto Triton, 13 mm",
+          "p1262": "Ploché dláto Triton, 38 mm",
+          "p1238": "Dláto M-stein rovné",
+          "p1432": "Rovné dláto Stubai ploché, série S52, profil 1"
+        }
+      }
     },
     "brusneVysekyNaMieru": {
       "maleVyseky": {
@@ -2172,6 +2223,28 @@
       }
     },
     "kategorieSubcategoryDetail": {
+      "rucneNaradie": {
+        "pilniky": {
+          "title": "Pilníky a rašple | Marián s.r.o.",
+          "description": "Diamantové pilníky, tvrdokovové rašple a ostřicí bloky pro broušení a tvarování."
+        },
+        "dlata": {
+          "title": "Řezbářská dláta | Marián s.r.o.",
+          "description": "Profesionální řezbářská dláta Stubai a M. Stein v jednotlivých profilech i sadách."
+        },
+        "noze": {
+          "title": "Řezbářské nože | Marián s.r.o.",
+          "description": "Ostré řezbářské nože pro přesnou práci se dřevem, včetně nože Stubai."
+        },
+        "rydla": {
+          "title": "Rydla na linoryt a dřevořezbu | Marián s.r.o.",
+          "description": "Rydla M. Stein a Stubai s hruškovou i podélnou rukojetí pro linoryt a dřevořezbu."
+        },
+        "tesarskeDlata": {
+          "title": "Tesařská dláta | Marián s.r.o.",
+          "description": "Tesařská dláta Triton, M. Stein a Stubai v šířkách 13 až 38 mm i na míru."
+        }
+      },
       "brusneVysekyNaMieru": {
         "maleVyseky": {
           "title": "Malé výseky Ø 50 – 150 mm | Marián s.r.o.",
