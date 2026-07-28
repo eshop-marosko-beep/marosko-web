@@ -1191,13 +1191,184 @@ export const kategorieArticles: KategorieArticle[] = [
     slug: "lak-selak-natery-tmely-brusiva-pripravky-na-drevo",
     translationKey: "nateryTmelyBrusiva",
     eshopUrl: "https://eshop.marosko.sk/c/lak-selak-natery-tmely-brusiva-pripravky-na-drevo",
+    image: "https://eshop.marosko.sk/resize/e/1600/1600/files/natery--tmely-brusiva/selak-bona-bezvoskovy-05-kg.jpg",
     subcategories: [
-      { translationKey: "pozlacovanie" },
-      { translationKey: "protiCervotocom" },
-      { translationKey: "riedenie" },
-      { translationKey: "selakyMoridla" },
-      { translationKey: "vosky", galleryLinks: ["selaky-vosky-natery-na-drevo"] },
-      { translationKey: "zivice" },
+      {
+        translationKey: "pozlacovanie",
+        slug: "pozlacovanie",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/wad-/platkove-zlato-.jpg",
+        eshopUrl:
+          "https://eshop.marosko.sk/c/lak-selak-natery-tmely-brusiva-pripravky-na-drevo/pozlacovanie-a-striebrenie",
+        products: [
+          {
+            id: "p1423",
+            url: "https://eshop.marosko.sk/p/1423/listkove-zlato-23-3-4-karatove-podlepovane-15-gr-dvojite-uslachtile-extra-hrube-8x8cm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/wad-/platkove-zlato-.jpg",
+          },
+          {
+            id: "p1462",
+            url: "https://eshop.marosko.sk/p/1462/listkove-striebro-ciste-95x95cm-podlepene-knizka-25-listkov",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/pozlatenie-strebrenie/listkove-striebro-platky.jpg",
+          },
+          {
+            id: "p1424",
+            url: "https://eshop.marosko.sk/p/1424/jedle-zlato-gourmet-gold",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/wad-/jedle-zlato-gourmet-gold.jpg",
+          },
+          {
+            id: "p1451",
+            url: "https://eshop.marosko.sk/p/1451/vodou-rieditelna-zlata-farba-decor-gold-500ml-rich-gold",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/pozlatenie-strebrenie/decor-gold.png",
+          },
+        ],
+      },
+      {
+        translationKey: "protiCervotocom",
+        slug: "proti-cervotocom",
+        image:
+          "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/per-xil-proti-cervotocom/pripravok-proti-cervotocom.jpg",
+        eshopUrl:
+          "https://eshop.marosko.sk/c/lak-selak-natery-tmely-brusiva-pripravky-na-drevo/proti-cervotocom",
+        products: [
+          {
+            id: "p944",
+            url: "https://eshop.marosko.sk/p/944/pripravok-proti-cervotocom-antitarlo-1-l",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/per-xil-proti-cervotocom/pripravok-proti-cervotocom.jpg",
+          },
+          {
+            id: "p1435",
+            url: "https://eshop.marosko.sk/p/1435/antitarlo-pripravok-proti-cervotocom-5l-profesionalny-fungicid-na-drevo",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/per-xil-proti-cervotocom/antitario-5l.png",
+          },
+        ],
+      },
+      {
+        translationKey: "riedenie",
+        slug: "riedenie-odmastovanie",
+        image:
+          "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/riedidla-bioalkohol/37.jpg",
+        eshopUrl:
+          "https://eshop.marosko.sk/c/lak-selak-natery-tmely-brusiva-pripravky-na-drevo/riedenie-odmastovanie",
+        products: [
+          {
+            id: "p937",
+            url: "https://eshop.marosko.sk/p/937/bioalkohol-uni-1l",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/riedidla-bioalkohol/37.jpg",
+          },
+          {
+            id: "p938",
+            url: "https://eshop.marosko.sk/p/938/bioalkohol-uni-1l",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/riedidla-bioalkohol/40.jpg",
+          },
+          {
+            id: "p1116",
+            url: "https://eshop.marosko.sk/p/1116/del-extra",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/riedidla-bioalkohol/del-extra.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "selakyMoridla",
+        slug: "selaky-a-moridla",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/lemon-2-768x1024.jpg",
+        eshopUrl:
+          "https://eshop.marosko.sk/c/lak-selak-natery-tmely-brusiva-pripravky-na-drevo/selaky-a-moridla",
+        products: [
+          {
+            id: "p946",
+            url: "https://eshop.marosko.sk/p/946/selakova-politura-rubinova-250",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/politury/2409728d-36e6-40ac-8315-de129fca0e4d-%282%29.jpg",
+          },
+          {
+            id: "p672",
+            url: "https://eshop.marosko.sk/p/672/selak-biely-bezvoskovy",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/selak-biely-bez-vosku.jpg",
+          },
+          {
+            id: "p673",
+            url: "https://eshop.marosko.sk/p/673/selak-lemon-voskovy-500-g",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/lemon-2-768x1024.jpg",
+          },
+          {
+            id: "p675",
+            url: "https://eshop.marosko.sk/p/675/selak-sonne-bezvoskovy-500-g",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/selak-sonne-bezvoskovy-05-kg.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "vosky",
+        slug: "vosky",
+        image:
+          "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/vosk-/434061309-1274872506766208-8944812381452885555-n.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/lak-selak-natery-tmely-brusiva-pripravky-na-drevo/vosky",
+        products: [
+          {
+            id: "p906",
+            url: "https://eshop.marosko.sk/p/906/svedsky-organicky-vosk-kirjes",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/kirjes/699-m.png",
+          },
+          {
+            id: "p1314",
+            url: "https://eshop.marosko.sk/p/1314/vceli-vosk-v-paste-na-podlahu-a-drevo-500-ml",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/vosk-/434061309-1274872506766208-8944812381452885555-n.jpg",
+          },
+          {
+            id: "p1165",
+            url: "https://eshop.marosko.sk/p/1165/vosk-na-drevo-500-ml",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/vosk-/cierny-vosk/v-cierna.jpg",
+          },
+          {
+            id: "p663",
+            url: "https://eshop.marosko.sk/p/663/terpentinovy-olej-bez-zapachu-500-ml",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/1028.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "zivice",
+        slug: "zivice-tmely-polymery",
+        image:
+          "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/zivica/veropal/veropal-uv-plus-100.jpg",
+        eshopUrl:
+          "https://eshop.marosko.sk/c/lak-selak-natery-tmely-brusiva-pripravky-na-drevo/zivice-tmely-polymery",
+        products: [
+          {
+            id: "p1247",
+            url: "https://eshop.marosko.sk/p/1247/paraloid-b-72-1-kg",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/326-paraloid-b-72-100-g-600x450.jpg",
+          },
+          {
+            id: "p1434",
+            url: "https://eshop.marosko.sk/p/1434/litostucco-disperzny-rychleschnuci-tmel-na-drevo-omietku",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/litostucco/litostucco-1-kg.png",
+          },
+          {
+            id: "p1231",
+            url: "https://eshop.marosko.sk/p/1231/veropal-uv-plus-100-cira-epoxidova-zivica-1-4kg",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/zivica/veropal/veropal-uv-plus-100.jpg",
+          },
+          {
+            id: "p1341",
+            url: "https://eshop.marosko.sk/p/1341/veropal-wsb-e-lv-epoxidova-stabilizacna-zivica-1-4kg",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/natery--tmely-brusiva/zivica/veropal-wsb-e-lv/1880-4-wsb-elv.jpg",
+          },
+        ],
+      },
     ],
   },
   {
