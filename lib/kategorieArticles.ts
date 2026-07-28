@@ -1045,12 +1045,146 @@ export const kategorieArticles: KategorieArticle[] = [
     slug: "rucne-naradie",
     translationKey: "rucneNaradie",
     eshopUrl: "https://eshop.marosko.sk/c/rucne-naradie",
+    image: "https://eshop.marosko.sk/resize/e/1600/1600/files/dlata-m-stein-/m-stein.jpg",
     subcategories: [
-      { translationKey: "pilniky" },
-      { translationKey: "dlata" },
-      { translationKey: "noze" },
-      { translationKey: "rydla" },
-      { translationKey: "tesarskeDlata" },
+      {
+        translationKey: "pilniky",
+        slug: "pilniky",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/rucne-naradie/diamantovy-blok.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/rucne-naradie/pilniky",
+        products: [
+          {
+            id: "p774",
+            url: "https://eshop.marosko.sk/p/774/diamantovy-ostriaci-blok-v-stojane-obojstranny",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/rucne-naradie/diamantovy-blok.jpg",
+          },
+          {
+            id: "p261",
+            url: "https://eshop.marosko.sk/p/261/obtahovacie-diamantove-dosticky-3-ks-180-260-360",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/rucne-naradie/brusny-kamen.jpg",
+          },
+          {
+            id: "p692",
+            url: "https://eshop.marosko.sk/p/692/4-stranny-diamantovy-obtahovaci-kvader-brusny",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/rucne-naradie/4-stranny-kvader.jpg",
+          },
+          {
+            id: "p696",
+            url: "https://eshop.marosko.sk/p/696/rucna-plocha-raspla-s-tvrdokovom-150-mm-jemna",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/rucne-naradie/rucne-rasple/raspla-plocha-.jpeg",
+          },
+        ],
+      },
+      {
+        translationKey: "dlata",
+        slug: "dlata",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/dlata-m-stein-/m-stein-/dlato-vr1-10.jpeg",
+        eshopUrl: "https://eshop.marosko.sk/c/rucne-naradie/rezbarske-dlata-m-stein",
+        products: [
+          {
+            id: "p1238",
+            url: "https://eshop.marosko.sk/p/1238/dlato-m-stein-rovne",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/dlata-m-stein-/m-stein-/dlato-vr1-10.jpeg",
+          },
+          {
+            id: "p1240",
+            url: "https://eshop.marosko.sk/p/1240/dlato-mstein-rovne-profil-8",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/dlata-m-stein-/m-stein-/vr815.jpeg",
+          },
+          {
+            id: "p1239",
+            url: "https://eshop.marosko.sk/p/1239/dlato-mstein-rovne-profil-10",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/dlata-m-stein-/m-stein-/vr10-8.jpeg",
+          },
+          {
+            id: "p1431",
+            url: "https://eshop.marosko.sk/p/1431/dlata-stubai-zaciatocnik-4-dielna-sada",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/rucne-naradie/stubai/s520001-stubai-/stubai-zaciatocnik-4-dielna-sada.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "noze",
+        slug: "noze",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/dlata-m-stein-/rezbarsky-noz/rezbarska-noz-profil-1.png",
+        eshopUrl: "https://eshop.marosko.sk/c/rucne-naradie/rezbarske-noze",
+        products: [
+          {
+            id: "p1241",
+            url: "https://eshop.marosko.sk/p/1241/rezbarsky-noz-cepel-plochy-1",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/dlata-m-stein-/rezbarsky-noz/rezbarska-noz-profil-1.png",
+          },
+          {
+            id: "p1386",
+            url: "https://eshop.marosko.sk/p/1386/rezbarsky-noz-cepel-2-plochy",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/dlata-m-stein-/rezbarsky-noz/rezbarsky-noz-cepel-2.png",
+          },
+          {
+            id: "p1433",
+            url: "https://eshop.marosko.sk/p/1433/rezbarsky-noz-stubai-510601",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/rucne-naradie/stubai/rezbarske-noze/rezbarsky-noz-5106/510601-9002793505558-1.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "rydla",
+        slug: "rydla",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/dlata-m-stein-/rydla/rydlo-profil-8/rydlo-hruskova-rukovaet-u-profil-8.png",
+        eshopUrl: "https://eshop.marosko.sk/c/rucne-naradie/rydla-linoryt-drevorezba",
+        products: [
+          {
+            id: "p1305",
+            url: "https://eshop.marosko.sk/p/1305/rydlo-s-hruskovou-rukovatou-na-linoryt-profil-8",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/dlata-m-stein-/rydla/rydlo-profil-8/rydlo-hruskova-rukovaet-u-profil-8.png",
+          },
+          {
+            id: "p1304",
+            url: "https://eshop.marosko.sk/p/1304/rydlo-s-hruskovou-rukovatou-na-linoryt-profil-11",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/dlata-m-stein-/rydlo-priemer-11mm-.jpg",
+          },
+          {
+            id: "p1390",
+            url: "https://eshop.marosko.sk/p/1390/rydlo-na-linoryt-s-pozdlznou-rukovaetou-profil-10",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/dlata-m-stein-/m-stein-/rydlo-profil-10/0017849-lo10-04jpg-768x512.jpeg",
+          },
+          {
+            id: "p1389",
+            url: "https://eshop.marosko.sk/p/1389/rydlo-na-linoryt-s-pozdlznou-rukovatou-profil-11",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/dlata-m-stein-/m-stein-/rydlo-profil-11/rydlo11-03.jpeg",
+          },
+        ],
+      },
+      {
+        translationKey: "tesarskeDlata",
+        slug: "tesarske-dlata",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/rucne-naradie/triton-naradie/ploche-dlato-13mm/748070-enwnmpro2.webp",
+        eshopUrl: "https://eshop.marosko.sk/c/rucne-naradie/tesarske-dlata",
+        products: [
+          {
+            id: "p1271",
+            url: "https://eshop.marosko.sk/p/1271/ploche-dlato-13mm",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/rucne-naradie/triton-naradie/ploche-dlato-13mm/748070-enwnmpro2.webp",
+          },
+          {
+            id: "p1262",
+            url: "https://eshop.marosko.sk/p/1262/ploche-dlato-38mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/triton/triton-dlato-.jpg",
+          },
+          {
+            id: "p1238",
+            url: "https://eshop.marosko.sk/p/1238/dlato-m-stein-rovne",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/dlata-m-stein-/m-stein-/dlato-vr1-10.jpeg",
+          },
+          {
+            id: "p1432",
+            url: "https://eshop.marosko.sk/p/1432/rovne-dlato-ploche-profil-1-seria-s52",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/rucne-naradie/stubai/profil-1-s52/5201.png",
+          },
+        ],
+      },
     ],
   },
   {
