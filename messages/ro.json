@@ -504,7 +504,26 @@
     "podstavceZveraky": {
       "title": "Suporturi, mașini de prindere și menghine – prezentare",
       "lead": "Suporturile universale, mașinile de prindere și menghinele ușurează munca oriunde este nevoie să fixați ferm materialul sau unealta în sine. Gama noastră include menghine de sculptură, suporturi de prindere din aluminiu și plastic pentru bormașină și polizor unghiular, suporturi prelungitoare și șabloane pentru îmbinări în coadă de rândunică.",
-      "brands": "Aceste accesorii sunt utile la lucrul cu piese mai mici și la ghidarea precisă a uneltelor – vă eliberează mâinile și îmbunătățesc precizia tăierii și șlefuirii."
+      "brands": "Aceste accesorii sunt utile la lucrul cu piese mai mici și la ghidarea precisă a uneltelor – vă eliberează mâinile și îmbunătățesc precizia tăierii și șlefuirii.",
+      "subcategoriesTitle": "Subcategorii",
+      "subcategories": {
+        "zveraky": {
+          "name": "Menghine",
+          "description": "Menghină de banc reglabilă, menghină de banc de 180 mm și menghină portabilă pe suport Strongbold S1 cu forță de prindere de 10 kN – pentru fixarea fermă a materialului la lucrul cu lemn sau metal."
+        },
+        "drziakyNaradia": {
+          "name": "Suporturi pentru bormașină și polizor unghiular",
+          "description": "Suport de plastic și metalic ProfiLine pentru bormașină, suport prelungitor și suport pentru polizor unghiular – prinderi universale pentru o muncă precisă și confortabilă."
+        },
+        "podpery": {
+          "name": "Suporturi de lucru și stative",
+          "description": "Suport de lucru cu tavă pentru scule, suport multifuncțional Triton, capră metalică reglabilă și masă de lucru reglabilă – sprijin stabil pentru material și pentru unealtă."
+        },
+        "frezovacieSablony": {
+          "name": "Șabloane și dispozitive de frezare",
+          "description": "Șablonă Silverline pentru îmbinări în coadă de rândunică, bază universală Rockler pentru freze de sus și dispozitiv Triton T4 pentru îmbinări cu cepuri – ghidare precisă a uneltelor la lucrările de tâmplărie."
+        }
+      }
     },
     "drobnySortiment": {
       "title": "Accesorii și completări pentru sculptură – prezentare",
@@ -634,6 +653,48 @@
           "p1434": "Litostucco – chit dispersat cu uscare rapidă pentru lemn și tencuială",
           "p1231": "Veropal UV Plus 100, rășină epoxidică transparentă, 1,4 kg",
           "p1341": "Veropal WSB E-LV, rășină epoxidică stabilizatoare, 1,4 kg"
+        }
+      }
+    },
+    "podstavceZveraky": {
+      "zveraky": {
+        "title": "Menghine",
+        "intro": "Menghine de banc și portabile pentru fixarea fermă a materialului la lucrul cu lemn sau metal. Menghina de banc reglabilă și menghina compactă de banc de 180 mm sunt completate de menghina portabilă pe suport Strongbold S1, cu forță de prindere de 10 kN și deschidere a fălcilor de 95 cm.",
+        "products": {
+          "p751": "Menghină de banc reglabilă, rotativă, metalică",
+          "p1089": "Menghină de banc, 180 mm, 9,5 kg",
+          "p1501": "Menghină portabilă pe suport Strongbold S1, 10 kN, deschidere 95 cm",
+          "p810": "Fălci de schimb pentru lucrul cu metalul, metalice, SJA"
+        }
+      },
+      "drziakyNaradia": {
+        "title": "Suporturi pentru bormașină și polizor unghiular",
+        "intro": "Prinderi universale pentru o muncă precisă și confortabilă, fără a ține unealta în mână. Suportul de plastic cu două poziții și suportul metalic ProfiLine pentru bormașină sunt completate de un suport prelungitor și un suport pentru polizor unghiular.",
+        "products": {
+          "p779": "Suport pentru bormașină, plastic, două poziții",
+          "p629": "Suport pentru bormașină ProfiLine, metalic",
+          "p917": "Suport prelungitor pentru polizor unghiular, Grinder Holder",
+          "p1307": "Suport pentru polizor unghiular"
+        }
+      },
+      "podpery": {
+        "title": "Suporturi de lucru și stative",
+        "intro": "Sprijin stabil pentru material și pentru unealta în sine la tăiere, șlefuire și lucrări de montaj. Suportul de lucru cu tavă pentru scule și suportul multifuncțional Triton sunt completate de o capră metalică reglabilă și o masă de lucru pliabilă.",
+        "products": {
+          "p1128": "Suport de lucru cu tavă pentru scule",
+          "p1127": "Suport multifuncțional Triton",
+          "p352": "Capră metalică, reglabilă, 1 buc.",
+          "p1482": "Masă de lucru, reglabilă, 60,5×71,5×(21–77) cm"
+        }
+      },
+      "frezovacieSablony": {
+        "title": "Șabloane și dispozitive de frezare",
+        "intro": "Ghidare precisă a uneltelor la îmbinările de tâmplărie și frezare. Șablona Silverline pentru îmbinări în coadă de rândunică și baza universală Rockler pentru freze de sus sunt completate de dispozitivul Triton T4 pentru îmbinări cu cepuri și de reducția pentru bormașină destinată burghielor pătrate.",
+        "products": {
+          "p1252": "Șablonă Silverline Dovetail Jig pentru îmbinări în coadă de rândunică",
+          "p1335": "Bază universală Rockler pentru freze de sus, 127 mm",
+          "p1325": "Dispozitiv Triton T4 Easy-Set Pocket-Hole Jig",
+          "p1072": "Reducție pentru bormașină destinată burghielor pătrate"
         }
       }
     },
@@ -2328,6 +2389,24 @@
         "zivice": {
           "title": "Rășini și chituri | Marián s.r.o.",
           "description": "Rășini epoxidice Veropal, Paraloid B72 acrilic și chit Litostucco pentru turnare și repararea lemnului."
+        }
+      },
+      "podstavceZveraky": {
+        "zveraky": {
+          "title": "Menghine | Marián s.r.o.",
+          "description": "Menghine de banc și portabile Strongbold pentru fixarea fermă a materialului la lucrul cu lemn și metal."
+        },
+        "drziakyNaradia": {
+          "title": "Suporturi pentru bormașină și polizor unghiular | Marián s.r.o.",
+          "description": "Suporturi de plastic și metalice pentru bormașină și polizor unghiular, pentru o ghidare precisă a uneltelor."
+        },
+        "podpery": {
+          "title": "Suporturi de lucru și stative | Marián s.r.o.",
+          "description": "Suporturi de lucru, suport multifuncțional Triton, capră reglabilă și masă de lucru."
+        },
+        "frezovacieSablony": {
+          "title": "Șabloane și dispozitive de frezare | Marián s.r.o.",
+          "description": "Șablonă pentru îmbinări în coadă de rândunică, bază universală Rockler și dispozitiv Triton T4."
         }
       },
       "brusneVysekyNaMieru": {

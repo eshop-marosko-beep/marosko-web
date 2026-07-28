@@ -1392,7 +1392,132 @@ export const kategorieArticles: KategorieArticle[] = [
     slug: "zveraky-svorky-drziaky-vrtacky-naradie",
     translationKey: "podstavceZveraky",
     eshopUrl: "https://eshop.marosko.sk/c/zveraky-svorky-drziaky-vrtacky-naradie",
-    subcategories: [],
+    image: "https://eshop.marosko.sk/resize/e/1600/1600/files/rebriky-podstavce/trojnozka-samosvorna.jpg",
+    subcategories: [
+      {
+        translationKey: "zveraky",
+        slug: "zveraky",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/rebriky-podstavce/zverak.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/zveraky-svorky-drziaky-vrtacky-naradie",
+        products: [
+          {
+            id: "p751",
+            url: "https://eshop.marosko.sk/p/751/stolny-polohovatelny-zverak-otocny-kov",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/rebriky-podstavce/zverak.jpg",
+          },
+          {
+            id: "p1089",
+            url: "https://eshop.marosko.sk/p/1089/stolny-zverak-180mm-9-5kg",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/rebriky-podstavce/418z66vulsl.-ac-sy580--01.jpeg",
+          },
+          {
+            id: "p1501",
+            url: "https://eshop.marosko.sk/p/1501/prenosny-stojanovy-zverak-strongbold-s1-10-kn-sila-rozpatie-95-cm",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/upinacie-stroje-podstavce/zverak-prenosny-stojanovy2026-07-03-11-46-36.jpg",
+          },
+          {
+            id: "p810",
+            url: "https://eshop.marosko.sk/p/810/vymenne-celuste-pre-pracu-s-kovom-kovove-sja",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/vymenne-pridavne-nahradne-diely/vymenne-celuste-pre-pracu-s-kovom.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "drziakyNaradia",
+        slug: "drziaky-naradia",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/rebriky-podstavce/drziak-vrtacky/-vyrp14-254drzak-c.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/zveraky-svorky-drziaky-vrtacky-naradie",
+        products: [
+          {
+            id: "p779",
+            url: "https://eshop.marosko.sk/p/779/drziak-vrtacky-plastovy",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-vrtacky-/drziak-vrtaky-plastovy.jpg",
+          },
+          {
+            id: "p629",
+            url: "https://eshop.marosko.sk/p/629/drziak-vrtacky-kovovy-artu",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/rebriky-podstavce/drziak-vrtacky/-vyrp14-254drzak-c.jpg",
+          },
+          {
+            id: "p917",
+            url: "https://eshop.marosko.sk/p/917/predlzovaci-drziak-uhlovej-brusky",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/grinder-holder-/grinder--holder.jpg",
+          },
+          {
+            id: "p1307",
+            url: "https://eshop.marosko.sk/p/1307/stojan-pre-uhlovou-brusku",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/vymenne-pridavne-nahradne-diely/stojan-na-uhlovu-brusku.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "podpery",
+        slug: "podpery-stojany",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/rebriky-podstavce/viacucelova-podpera/multipodpera-skladacia.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/zveraky-svorky-drziaky-vrtacky-naradie",
+        products: [
+          {
+            id: "p1128",
+            url: "https://eshop.marosko.sk/p/1128/zasobnik-na-naradie-pracovna-podpora",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/rebriky-podstavce/predlzovacia-podpera-triton/podpera-triton-z-naradim.jpg",
+          },
+          {
+            id: "p1127",
+            url: "https://eshop.marosko.sk/p/1127/multi-podpera-viacucelova",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/rebriky-podstavce/viacucelova-podpera/multipodpera-skladacia.jpg",
+          },
+          {
+            id: "p352",
+            url: "https://eshop.marosko.sk/p/352/koza-lesenie",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/rebriky-podstavce/koza-nastavitelna/stavebna-koza-nastavitelna.jpg",
+          },
+          {
+            id: "p1482",
+            url: "https://eshop.marosko.sk/p/1482/pracovny-stol-nastavitelny-rozmer-60-5-71-5-21-77cm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/upinacie-stroje-podstavce/pracovny-stol/476873.jpeg",
+          },
+        ],
+      },
+      {
+        translationKey: "frezovacieSablony",
+        slug: "frezovacie-sablony",
+        image:
+          "https://eshop.marosko.sk/resize/e/800/800/files/rebriky-podstavce/frezovacia-sablona-rybinove-spoje/633936.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/zveraky-svorky-drziaky-vrtacky-naradie",
+        products: [
+          {
+            id: "p1252",
+            url: "https://eshop.marosko.sk/p/1252/frezovacia-sablona-pre-rybinove-spoje-silverline-dovetail-jig",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/rebriky-podstavce/frezovacia-sablona-rybinove-spoje/633936.jpg",
+          },
+          {
+            id: "p1335",
+            url: "https://eshop.marosko.sk/p/1335/univerzalna-zakladna-pre-horne-frezky-127-mm-rockler",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/rebriky-podstavce/rockler-/694044-pkg12.webp",
+          },
+          {
+            id: "p1325",
+            url: "https://eshop.marosko.sk/p/1325/pripravok-triton-t4-easy-set-pocket-hole-jig",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/vymenne-pridavne-nahradne-diely/triton.jpg",
+          },
+          {
+            id: "p1072",
+            url: "https://eshop.marosko.sk/p/1072/redukcia-na-vrtacku-pre-ostrohranne-vrtaky",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-vrtacky-/nadstavce-/nastavec-na-zadlabanie/nastvec-na-stvorcove-vrtaky.png",
+          },
+        ],
+      },
+    ],
   },
   {
     slug: "rezbarske-prislusenstvo-doplnky",
