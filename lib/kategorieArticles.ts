@@ -1523,7 +1523,69 @@ export const kategorieArticles: KategorieArticle[] = [
     slug: "rezbarske-prislusenstvo-doplnky",
     translationKey: "drobnySortiment",
     eshopUrl: "https://eshop.marosko.sk/c/rezbarske-prislusenstvo-doplnky",
-    subcategories: [],
+    image: "https://eshop.marosko.sk/resize/e/1600/1600/files/rucne-naradie/brusny-kamen.jpg",
+    subcategories: [
+      {
+        translationKey: "brusneCistiace",
+        slug: "brusne-cistiace-doplnky",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/rucne-naradie/brusny-kamen.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/rezbarske-prislusenstvo-doplnky",
+        products: [
+          {
+            id: "p261",
+            url: "https://eshop.marosko.sk/p/261/obtahovacie-diamantove-dosticky-3-ks-180-260-360",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/rucne-naradie/brusny-kamen.jpg",
+          },
+          {
+            id: "p691",
+            url: "https://eshop.marosko.sk/p/691/brusne-teliesko-priemer-7-mm",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-vrtacky/mini-unasac-smirglov-na-suchy-zips/brusne-teliesko-pr.7-mm.jpg",
+          },
+          {
+            id: "p1046",
+            url: "https://eshop.marosko.sk/p/1046/cistiaci-hranol-na-zanesene-brusivo",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/kirjes/cistiaci-hranol.jpg",
+          },
+          {
+            id: "p1141",
+            url: "https://eshop.marosko.sk/p/1141/cistiaci-blok-na-zanesene-brusivo-150-75-25-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/rucne-naradie/cistiaci-blok-na-brusivo.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "prislusenstvoBrusky",
+        slug: "prislusenstvo-uhlova-bruska",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/prechodky/b01dba73-6b75-4ce0-84ef-4011ee5ce8e4.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/rezbarske-prislusenstvo-doplnky",
+        products: [
+          {
+            id: "p716",
+            url: "https://eshop.marosko.sk/p/716/5-ks-nahradne-smirglove-pasy-40-silverline",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/silverline/nahradne-smirge-na-pasovu-brusku.jpg",
+          },
+          {
+            id: "p615",
+            url: "https://eshop.marosko.sk/p/615/predlzenie-hriadela-na-uhlovej-bruske-m-14-m-14",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/prechodky/b01dba73-6b75-4ce0-84ef-4011ee5ce8e4.jpg",
+          },
+          {
+            id: "p522",
+            url: "https://eshop.marosko.sk/p/522/rychloupinacia-matica-m14",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/vymenne-pridavne-nahradne-diely/-vyr-465rychlomatice1.jpg",
+          },
+          {
+            id: "p491",
+            url: "https://eshop.marosko.sk/p/491/univerzalna-matka-m-14",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/vymenne-pridavne-nahradne-diely/m14/m14-matica.jpeg",
+          },
+        ],
+      },
+    ],
   },
   {
     slug: "listy-carvingove-vytvarnicke",

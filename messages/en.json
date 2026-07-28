@@ -528,7 +528,18 @@
     "drobnySortiment": {
       "title": "Carving accessories and add-ons – overview",
       "lead": "A small but often indispensable range for everyday workshop use – replacement belts, carbon brushes, replacement blades, spare teeth for milling discs, cleaning blocks for clogged sanding discs, and nuts and adapters for angle grinders.",
-      "brands": "These are practical add-ons that extend the life of your tools and keep them in good working condition."
+      "brands": "These are practical add-ons that extend the life of your tools and keep them in good working condition.",
+      "subcategoriesTitle": "Subcategories",
+      "subcategories": {
+        "brusneCistiace": {
+          "name": "Sanding and cleaning add-ons",
+          "description": "Diamond dressing plates, a small sanding drum, and Kirjes cleaning blocks for restoring clogged sanding belts, discs and paper."
+        },
+        "prislusenstvoBrusky": {
+          "name": "Angle grinder accessories and spare parts",
+          "description": "Replacement Silverline sanding belts, an M14 shaft extension, and quick-release and universal M14 nuts for easily swapping angle grinder attachments."
+        }
+      }
     },
     "carvingoveListy": {
       "title": "Carving guide bars – overview",
@@ -695,6 +706,28 @@
           "p1335": "Rockler universal router base, 127 mm",
           "p1325": "Triton T4 Easy-Set Pocket-Hole Jig",
           "p1072": "Drill press attachment for square-hole bits"
+        }
+      }
+    },
+    "drobnySortiment": {
+      "brusneCistiace": {
+        "title": "Sanding and cleaning add-ons",
+        "intro": "Diamond dressing plates, a small sanding drum, and Kirjes cleaning blocks for restoring clogged sanding belts, discs and paper – extending the life of your abrasives and keeping them in good condition.",
+        "products": {
+          "p261": "Diamond dressing plates, 3 pcs, D-180/260/360",
+          "p691": "Sanding drum, 7 mm diameter",
+          "p1046": "Cleaning block for clogged abrasives, Kirjes",
+          "p1141": "Cleaning block for clogged abrasives, 150×75×25 mm"
+        }
+      },
+      "prislusenstvoBrusky": {
+        "title": "Angle grinder accessories and spare parts",
+        "intro": "Practical accessories for easily swapping tools and attachments on the angle grinder. Replacement Silverline sanding belts for belt sanders are joined by an M14 shaft extension and quick-release and universal M14 nuts.",
+        "products": {
+          "p716": "5 replacement sanding belts, K40 grit, for Silverline belt sander",
+          "p615": "Angle grinder shaft extension, M14/M14",
+          "p522": "Quick-release nut, M14",
+          "p491": "Universal nut, M14"
         }
       }
     },
@@ -2407,6 +2440,16 @@
         "frezovacieSablony": {
           "title": "Routing jigs and fixtures | Marián s.r.o.",
           "description": "A dovetail jig, a Rockler universal router base and a Triton T4 pocket-hole jig."
+        }
+      },
+      "drobnySortiment": {
+        "brusneCistiace": {
+          "title": "Sanding and cleaning add-ons | Marián s.r.o.",
+          "description": "Diamond dressing plates, a sanding drum and Kirjes cleaning blocks for restoring abrasives."
+        },
+        "prislusenstvoBrusky": {
+          "title": "Angle grinder accessories and spare parts | Marián s.r.o.",
+          "description": "Replacement sanding belts, a shaft extension and M14 nuts for the angle grinder."
         }
       },
       "brusneVysekyNaMieru": {
