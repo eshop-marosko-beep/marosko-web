@@ -504,7 +504,26 @@
     "podstavceZveraky": {
       "title": "Stands, clamping machines and vices – overview",
       "lead": "Universal stands, clamping machines and vices make work easier wherever you need to firmly secure material or the tool itself. Our range includes carving vices, aluminum and plastic clamping holders for drills and angle grinders, extension holders and dovetail jig templates.",
-      "brands": "This accessory range comes in handy when working with smaller pieces and guiding tools precisely – it frees up your hands and improves cutting and sanding accuracy."
+      "brands": "This accessory range comes in handy when working with smaller pieces and guiding tools precisely – it frees up your hands and improves cutting and sanding accuracy.",
+      "subcategoriesTitle": "Subcategories",
+      "subcategories": {
+        "zveraky": {
+          "name": "Vices",
+          "description": "A swivelling bench vice, a compact 180 mm bench vice, and a portable Strongbold S1 stand vice with 10 kN clamping force – for securely clamping material when working with wood or metal."
+        },
+        "drziakyNaradia": {
+          "name": "Drill and angle grinder holders",
+          "description": "Plastic and metal ProfiLine drill holders, an extension holder and a stand for the angle grinder – universal tool mounts for precise, comfortable work."
+        },
+        "podpery": {
+          "name": "Work supports and stands",
+          "description": "A work support with a tool tray, a Triton multi-stand, a metal adjustable trestle and an adjustable workbench – stable support for both material and the tool itself."
+        },
+        "frezovacieSablony": {
+          "name": "Routing jigs and fixtures",
+          "description": "A Silverline dovetail jig, a Rockler universal router base and a Triton T4 pocket-hole jig – for precise tool guidance in joinery work."
+        }
+      }
     },
     "drobnySortiment": {
       "title": "Carving accessories and add-ons – overview",
@@ -634,6 +653,48 @@
           "p1434": "Litostucco – fast-drying dispersion filler for wood and plaster",
           "p1231": "Veropal UV Plus 100, clear epoxy resin, 1.4 kg",
           "p1341": "Veropal WSB E-LV, epoxy stabilizing resin, 1.4 kg"
+        }
+      }
+    },
+    "podstavceZveraky": {
+      "zveraky": {
+        "title": "Vices",
+        "intro": "Bench and portable vices for securely clamping material when working with wood or metal. A swivelling bench vice and a compact 180 mm bench vice are joined by a portable Strongbold S1 stand vice with 10 kN clamping force and a 95 cm jaw opening.",
+        "products": {
+          "p751": "Bench vice, swivelling, metal",
+          "p1089": "Bench vice, 180 mm, 9.5 kg",
+          "p1501": "Strongbold S1 portable stand vice, 10 kN, 95 cm opening",
+          "p810": "Replacement jaws for metalworking, metal, SJA"
+        }
+      },
+      "drziakyNaradia": {
+        "title": "Drill and angle grinder holders",
+        "intro": "Universal tool mounts for precise, comfortable work without holding the tool by hand. A two-position plastic holder and a metal ProfiLine drill holder are joined by an angle grinder extension holder and stand.",
+        "products": {
+          "p779": "Drill holder, plastic, two-position",
+          "p629": "ProfiLine drill holder, metal",
+          "p917": "Angle grinder extension holder, Grinder Holder",
+          "p1307": "Angle grinder stand"
+        }
+      },
+      "podpery": {
+        "title": "Work supports and stands",
+        "intro": "Stable support for material and the tool itself during cutting, sanding and assembly work. A work support with a tool tray and a Triton multi-stand are joined by a metal adjustable trestle and a folding workbench.",
+        "products": {
+          "p1128": "Work support with tool tray",
+          "p1127": "Triton multi-stand",
+          "p352": "Adjustable metal trestle, 1 pc",
+          "p1482": "Adjustable workbench, 60.5×71.5×(21–77) cm"
+        }
+      },
+      "frezovacieSablony": {
+        "title": "Routing jigs and fixtures",
+        "intro": "Precise tool guidance for joinery and routing work. A Silverline dovetail jig and a Rockler universal router base are joined by a Triton T4 pocket-hole jig and a drill press mortising attachment.",
+        "products": {
+          "p1252": "Silverline Dovetail Jig for dovetail joints",
+          "p1335": "Rockler universal router base, 127 mm",
+          "p1325": "Triton T4 Easy-Set Pocket-Hole Jig",
+          "p1072": "Drill press attachment for square-hole bits"
         }
       }
     },
@@ -2328,6 +2389,24 @@
         "zivice": {
           "title": "Resins and fillers | Marián s.r.o.",
           "description": "Veropal epoxy resins, acrylic Paraloid B72 and Litostucco filler for casting and repairing wood."
+        }
+      },
+      "podstavceZveraky": {
+        "zveraky": {
+          "title": "Vices | Marián s.r.o.",
+          "description": "Bench and portable Strongbold vices for securely clamping material when working with wood and metal."
+        },
+        "drziakyNaradia": {
+          "title": "Drill and angle grinder holders | Marián s.r.o.",
+          "description": "Plastic and metal drill and angle grinder holders for precise, comfortable tool guidance."
+        },
+        "podpery": {
+          "title": "Work supports and stands | Marián s.r.o.",
+          "description": "Work supports, a Triton multi-stand, an adjustable trestle and workbench."
+        },
+        "frezovacieSablony": {
+          "title": "Routing jigs and fixtures | Marián s.r.o.",
+          "description": "A dovetail jig, a Rockler universal router base and a Triton T4 pocket-hole jig."
         }
       },
       "brusneVysekyNaMieru": {

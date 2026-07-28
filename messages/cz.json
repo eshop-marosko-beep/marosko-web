@@ -504,7 +504,26 @@
     "podstavceZveraky": {
       "title": "Podstavce, upínací stroje a svěráky – přehled",
       "lead": "Univerzální podstavce, upínací stroje a svěráky usnadní práci všude tam, kde potřebujete pevně zafixovat materiál nebo samotné nářadí. V nabídce najdete řezbářské svěráky, hliníkové i plastové upínací držáky vrtačky a úhlové brusky, prodlužovací držáky i frézovací šablony na rybinové spoje.",
-      "brands": "Příslušenství oceníte při práci s menšími díly i při přesném vedení nářadí – uvolní vám ruce a zlepší přesnost řezu i broušení."
+      "brands": "Příslušenství oceníte při práci s menšími díly i při přesném vedení nářadí – uvolní vám ruce a zlepší přesnost řezu i broušení.",
+      "subcategoriesTitle": "Podkategorie",
+      "subcategories": {
+        "zveraky": {
+          "name": "Svěráky",
+          "description": "Stolní polohovatelný svěrák, stolní svěrák 180 mm i přenosný stojanový svěrák Strongbold S1 s upínací silou 10 kN – pro pevné upnutí materiálu při práci se dřevem i kovem."
+        },
+        "drziakyNaradia": {
+          "name": "Držáky vrtačky a úhlové brusky",
+          "description": "Plastový i kovový držák vrtačky ProfiLine, prodlužovací držák a stojan pro úhlovou brusku – univerzální uchycení nářadí pro přesnou a pohodlnou práci."
+        },
+        "podpery": {
+          "name": "Pracovní podpěry a stojany",
+          "description": "Pracovní podpěra se zásobníkem na nářadí, multifunkční podpěra Triton, kovová koza i nastavitelný pracovní stůl – stabilní opora pro materiál i samotné nářadí."
+        },
+        "frezovacieSablony": {
+          "name": "Frézovací šablony a přípravky",
+          "description": "Frézovací šablona Silverline na rybinové spoje, univerzální základna Rockler pro horní frézky i přípravek Triton T4 na kolíkové spoje – přesné vedení nářadí při truhlářských pracích."
+        }
+      }
     },
     "drobnySortiment": {
       "title": "Řezbářské příslušenství a doplňky – přehled",
@@ -634,6 +653,48 @@
           "p1434": "Litostucco – disperzní rychleschnoucí tmel na dřevo a omítku",
           "p1231": "Veropal UV Plus 100, čirá epoxidová pryskyřice, 1,4 kg",
           "p1341": "Veropal WSB E-LV, epoxidová stabilizační pryskyřice, 1,4 kg"
+        }
+      }
+    },
+    "podstavceZveraky": {
+      "zveraky": {
+        "title": "Svěráky",
+        "intro": "Stolní i přenosné svěráky pro pevné upnutí materiálu při práci se dřevem i kovem. Stolní polohovatelný svěrák a kompaktní stolní svěrák 180 mm doplňuje přenosný stojanový svěrák Strongbold S1 s upínací silou 10 kN a rozpětím čelistí 95 cm.",
+        "products": {
+          "p751": "Stolní polohovatelný svěrák, otočný, kovový",
+          "p1089": "Stolní svěrák, 180 mm, 9,5 kg",
+          "p1501": "Přenosný stojanový svěrák Strongbold S1, 10 kN, rozpětí 95 cm",
+          "p810": "Výměnné čelisti pro práci s kovem, kovové, SJA"
+        }
+      },
+      "drziakyNaradia": {
+        "title": "Držáky vrtačky a úhlové brusky",
+        "intro": "Univerzální uchycení nářadí pro přesnou a pohodlnou práci bez nutnosti držet nářadí v rukou. Plastový dvoupolohový i kovový držák vrtačky ProfiLine doplňuje prodlužovací držák a stojan pro úhlovou brusku.",
+        "products": {
+          "p779": "Držák vrtačky, plastový, dvoupolohový",
+          "p629": "Držák vrtačky ProfiLine, kovový",
+          "p917": "Prodlužovací držák úhlové brusky Grinder Holder",
+          "p1307": "Stojan pro úhlovou brusku"
+        }
+      },
+      "podpery": {
+        "title": "Pracovní podpěry a stojany",
+        "intro": "Stabilní opora pro materiál i samotné nářadí při řezání, broušení i montážních pracích. Pracovní podpěra se zásobníkem na nářadí a multifunkční podpěra Triton doplňuje kovová nastavitelná koza i skládací pracovní stůl.",
+        "products": {
+          "p1128": "Pracovní podpěra se zásobníkem na nářadí",
+          "p1127": "Multifunkční podpěra Triton",
+          "p352": "Koza kovová, nastavitelná, 1 ks",
+          "p1482": "Pracovní stůl, nastavitelný, 60,5×71,5×(21–77) cm"
+        }
+      },
+      "frezovacieSablony": {
+        "title": "Frézovací šablony a přípravky",
+        "intro": "Přesné vedení nářadí při truhlářských spojích a frézování. Frézovací šablona Silverline na rybinové spoje a univerzální základna Rockler pro horní frézky doplňuje přípravek Triton T4 na kolíkové spoje i redukce na vrtačku pro ostrohranné vrtáky.",
+        "products": {
+          "p1252": "Frézovací šablona pro rybinové spoje Silverline Dovetail Jig",
+          "p1335": "Univerzální základna pro horní frézky Rockler, 127 mm",
+          "p1325": "Přípravek Triton T4 Easy-Set Pocket-Hole Jig",
+          "p1072": "Redukce na vrtačku pro ostrohranné vrtáky"
         }
       }
     },
@@ -2328,6 +2389,24 @@
         "zivice": {
           "title": "Pryskyřice a tmely | Marián s.r.o.",
           "description": "Epoxidové pryskyřice Veropal, akrylátový Paraloid B72 a tmel Litostucco na odlévání a opravy dřeva."
+        }
+      },
+      "podstavceZveraky": {
+        "zveraky": {
+          "title": "Svěráky | Marián s.r.o.",
+          "description": "Stolní i přenosné svěráky Strongbold pro pevné upnutí materiálu při práci se dřevem a kovem."
+        },
+        "drziakyNaradia": {
+          "title": "Držáky vrtačky a úhlové brusky | Marián s.r.o.",
+          "description": "Plastové i kovové držáky vrtačky a úhlové brusky pro přesné a pohodlné vedení nářadí."
+        },
+        "podpery": {
+          "title": "Pracovní podpěry a stojany | Marián s.r.o.",
+          "description": "Pracovní podpěry, multifunkční podpěra Triton, koza a nastavitelný pracovní stůl."
+        },
+        "frezovacieSablony": {
+          "title": "Frézovací šablony a přípravky | Marián s.r.o.",
+          "description": "Šablona na rybinové spoje, univerzální základna Rockler a přípravek Triton T4 na kolíkové spoje."
         }
       },
       "brusneVysekyNaMieru": {
