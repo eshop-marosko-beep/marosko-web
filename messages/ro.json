@@ -528,7 +528,18 @@
     "drobnySortiment": {
       "title": "Accesorii și completări pentru sculptură – prezentare",
       "lead": "O gamă mică, dar adesea indispensabilă pentru activitatea zilnică din atelier – curele de schimb, perii de carbon, lame de schimb, dinți de schimb pentru discurile de frezat, blocuri de curățare pentru discurile abrazive înfundate, precum și piulițe și adaptoare pentru polizorul unghiular.",
-      "brands": "Sunt completări practice care prelungesc durata de viață a uneltelor dumneavoastră și le mențin în stare bună de funcționare."
+      "brands": "Sunt completări practice care prelungesc durata de viață a uneltelor dumneavoastră și le mențin în stare bună de funcționare.",
+      "subcategoriesTitle": "Subcategorii",
+      "subcategories": {
+        "brusneCistiace": {
+          "name": "Accesorii de șlefuire și curățare",
+          "description": "Plăcuțe diamantate de ascuțit, tambur de șlefuit și blocuri de curățare Kirjes pentru refacerea curelelor, discurilor și hârtiei abrazive înfundate."
+        },
+        "prislusenstvoBrusky": {
+          "name": "Accesorii și piese de schimb pentru polizorul unghiular",
+          "description": "Curele abrazive de schimb Silverline, prelungitor de ax și piulițe M14 cu prindere rapidă și universale pentru schimbarea comodă a accesoriilor polizorului unghiular."
+        }
+      }
     },
     "carvingoveListy": {
       "title": "Lame de ghidaj pentru sculptură – prezentare",
@@ -695,6 +706,28 @@
           "p1335": "Bază universală Rockler pentru freze de sus, 127 mm",
           "p1325": "Dispozitiv Triton T4 Easy-Set Pocket-Hole Jig",
           "p1072": "Reducție pentru bormașină destinată burghielor pătrate"
+        }
+      }
+    },
+    "drobnySortiment": {
+      "brusneCistiace": {
+        "title": "Accesorii de șlefuire și curățare",
+        "intro": "Plăcuțe diamantate de ascuțit, tambur de șlefuit și blocuri de curățare Kirjes pentru refacerea curelelor, discurilor și hârtiei abrazive înfundate – prelungesc durata de viață a materialelor abrazive și le mențin în stare bună.",
+        "products": {
+          "p261": "Plăcuțe diamantate de ascuțit, 3 buc., D-180/260/360",
+          "p691": "Tambur de șlefuit, diametru 7 mm",
+          "p1046": "Bloc de curățare pentru materiale abrazive înfundate, Kirjes",
+          "p1141": "Bloc de curățare pentru materiale abrazive înfundate, 150×75×25 mm"
+        }
+      },
+      "prislusenstvoBrusky": {
+        "title": "Accesorii și piese de schimb pentru polizorul unghiular",
+        "intro": "Accesorii practice pentru schimbarea comodă a uneltelor și accesoriilor la polizorul unghiular. Curelele abrazive de schimb Silverline pentru polizoare cu bandă sunt completate de un prelungitor de ax M14 și piulițe M14 cu prindere rapidă și universale.",
+        "products": {
+          "p716": "5 buc. curele abrazive de schimb, granulație K 40, pentru polizor cu bandă Silverline",
+          "p615": "Prelungitor de ax pentru polizorul unghiular, M14/M14",
+          "p522": "Piuliță cu prindere rapidă, M14",
+          "p491": "Piuliță universală, M14"
         }
       }
     },
@@ -2407,6 +2440,16 @@
         "frezovacieSablony": {
           "title": "Șabloane și dispozitive de frezare | Marián s.r.o.",
           "description": "Șablonă pentru îmbinări în coadă de rândunică, bază universală Rockler și dispozitiv Triton T4."
+        }
+      },
+      "drobnySortiment": {
+        "brusneCistiace": {
+          "title": "Accesorii de șlefuire și curățare | Marián s.r.o.",
+          "description": "Plăcuțe diamantate, tambur de șlefuit și blocuri de curățare Kirjes pentru refacerea materialelor abrazive."
+        },
+        "prislusenstvoBrusky": {
+          "title": "Accesorii și piese de schimb pentru polizorul unghiular | Marián s.r.o.",
+          "description": "Curele abrazive de schimb, prelungitor de ax și piulițe M14 pentru polizorul unghiular."
         }
       },
       "brusneVysekyNaMieru": {

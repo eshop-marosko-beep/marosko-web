@@ -528,7 +528,18 @@
     "drobnySortiment": {
       "title": "Řezbářské příslušenství a doplňky – přehled",
       "lead": "Drobný, ale často nepostradatelný sortiment pro každodenní práci v dílně – náhradní pásy, uhlíky, výměnné nože, náhradní zuby na frézovací kotouče, čisticí hranoly na zanesené šmirgle i matice a přechodky na úhlovou brusku.",
-      "brands": "Jde o praktické doplňky, které prodlouží životnost vašeho nářadí a udrží ho v dobrém provozním stavu."
+      "brands": "Jde o praktické doplňky, které prodlouží životnost vašeho nářadí a udrží ho v dobrém provozním stavu.",
+      "subcategoriesTitle": "Podkategorie",
+      "subcategories": {
+        "brusneCistiace": {
+          "name": "Brusné a čisticí doplňky",
+          "description": "Obtahovací diamantové destičky, brusné tělísko i čisticí hranoly a bloky Kirjes na obnovu zanesených brusných pásů, kotoučů a papíru."
+        },
+        "prislusenstvoBrusky": {
+          "name": "Příslušenství a náhradní díly pro úhlovou brusku",
+          "description": "Náhradní šmirglové pásy Silverline, prodloužení hřídele i rychloupínací a univerzální matice M14 pro pohodlnou výměnu příslušenství na úhlové brusce."
+        }
+      }
     },
     "carvingoveListy": {
       "title": "Výtvarnické carvingové lišty – přehled",
@@ -695,6 +706,28 @@
           "p1335": "Univerzální základna pro horní frézky Rockler, 127 mm",
           "p1325": "Přípravek Triton T4 Easy-Set Pocket-Hole Jig",
           "p1072": "Redukce na vrtačku pro ostrohranné vrtáky"
+        }
+      }
+    },
+    "drobnySortiment": {
+      "brusneCistiace": {
+        "title": "Brusné a čisticí doplňky",
+        "intro": "Obtahovací diamantové destičky, brusné tělísko i čisticí hranoly a bloky Kirjes na obnovu zanesených brusných pásů, kotoučů a papíru – prodlouží životnost brusiva a udrží ho v dobrém stavu.",
+        "products": {
+          "p261": "Obtahovací diamantové destičky, 3 ks D-180/260/360",
+          "p691": "Brusné tělísko, průměr 7 mm",
+          "p1046": "Čisticí hranol na zanesené brusivo, Kirjes",
+          "p1141": "Čisticí blok na zanesené brusivo, 150×75×25 mm"
+        }
+      },
+      "prislusenstvoBrusky": {
+        "title": "Příslušenství a náhradní díly pro úhlovou brusku",
+        "intro": "Praktické příslušenství pro pohodlnou výměnu nástrojů a doplňků na úhlové brusce. Náhradní šmirglové pásy Silverline pro pásové brusky doplňuje prodloužení hřídele M14 i rychloupínací a univerzální matice M14.",
+        "products": {
+          "p716": "5 ks náhradní šmirglové pásy, zrnitost K 40, pro pásovou brusku Silverline",
+          "p615": "Prodloužení hřídele na úhlové brusce, M14/M14",
+          "p522": "Rychloupínací matice, M14",
+          "p491": "Univerzální matice, M14"
         }
       }
     },
@@ -2407,6 +2440,16 @@
         "frezovacieSablony": {
           "title": "Frézovací šablony a přípravky | Marián s.r.o.",
           "description": "Šablona na rybinové spoje, univerzální základna Rockler a přípravek Triton T4 na kolíkové spoje."
+        }
+      },
+      "drobnySortiment": {
+        "brusneCistiace": {
+          "title": "Brusné a čisticí doplňky | Marián s.r.o.",
+          "description": "Diamantové destičky, brusné tělísko a čisticí bloky Kirjes na obnovu brusiva."
+        },
+        "prislusenstvoBrusky": {
+          "title": "Příslušenství a náhradní díly pro úhlovou brusku | Marián s.r.o.",
+          "description": "Náhradní šmirglové pásy, prodloužení hřídele a matice M14 pro úhlovou brusku."
         }
       },
       "brusneVysekyNaMieru": {
