@@ -544,7 +544,18 @@
     "carvingoveListy": {
       "title": "Carving guide bars – overview",
       "lead": "A carving bar is a special chainsaw guide bar designed for shaping and detailed wood carving – suited to nose-cut work and safer thanks to a lower kickback risk. Our range includes Oregon bars in various lengths for both small and large chainsaws.",
-      "brands": "Oregon carving bars are a trusted choice for carvers working with a chainsaw on site or in the workshop."
+      "brands": "Oregon carving bars are a trusted choice for carvers working with a chainsaw on site or in the workshop.",
+      "subcategoriesTitle": "Subcategories",
+      "subcategories": {
+        "vodiaceListy": {
+          "name": "Carving guide bars",
+          "description": "Oregon Sculptor guide bars in 25 and 30 cm lengths, a Makita 25 cm carving bar, and an OREGON sawyer's service kit for sharpening and maintaining chains."
+        },
+        "retaze": {
+          "name": "Modified chains for tree surgery",
+          "description": "Specially modified Oregon/Dolmar chains with different tooth counts for precise, safe work with a carving bar in shaping and tree surgery."
+        }
+      }
     },
     "stopkoveNastroje": {
       "title": "Shank-mounted joinery tools – overview",
@@ -728,6 +739,26 @@
           "p615": "Angle grinder shaft extension, M14/M14",
           "p522": "Quick-release nut, M14",
           "p491": "Universal nut, M14"
+        }
+      }
+    },
+    "carvingoveListy": {
+      "vodiaceListy": {
+        "title": "Carving guide bars",
+        "intro": "Oregon Sculptor guide bars in 25 and 30 cm lengths and a Makita 25 cm carving bar for precise shaping and detailed wood carving with a chainsaw. The OREGON sawyer's service kit includes files, gauges and tools for sharpening and maintaining the chain on site.",
+        "products": {
+          "p611": "Carving guide bar Oregon Sculptor, 10\", 25 cm",
+          "p1117": "Carving guide bar Oregon Sculptor, 12\", 30 cm",
+          "p612": "Carving bar, Makita, 25 cm",
+          "p1281": "Sawyer's service kit, OREGON"
+        }
+      },
+      "retaze": {
+        "title": "Modified chains for tree surgery",
+        "intro": "Specially modified Oregon/Dolmar chains with different tooth counts for precise, safe work with a carving bar in shaping and tree surgery.",
+        "products": {
+          "p613": "Modified Oregon/Dolmar chain, 41-link, for tree surgery",
+          "p1326": "Modified Oregon/Dolmar chain, 46-tooth, for tree surgery"
         }
       }
     },
@@ -2450,6 +2481,16 @@
         "prislusenstvoBrusky": {
           "title": "Angle grinder accessories and spare parts | Marián s.r.o.",
           "description": "Replacement sanding belts, a shaft extension and M14 nuts for the angle grinder."
+        }
+      },
+      "carvingoveListy": {
+        "vodiaceListy": {
+          "title": "Carving guide bars | Marián s.r.o.",
+          "description": "Oregon Sculptor and Makita guide bars plus an OREGON service kit for chainsaws."
+        },
+        "retaze": {
+          "title": "Modified chains for tree surgery | Marián s.r.o.",
+          "description": "Oregon/Dolmar chains with different tooth counts for carving bars and shaping work."
         }
       },
       "brusneVysekyNaMieru": {

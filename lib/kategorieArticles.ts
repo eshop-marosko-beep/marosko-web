@@ -1591,7 +1591,56 @@ export const kategorieArticles: KategorieArticle[] = [
     slug: "listy-carvingove-vytvarnicke",
     translationKey: "carvingoveListy",
     eshopUrl: "https://eshop.marosko.sk/c/listy-carvingove-vytvarnicke",
-    subcategories: [],
+    image: "https://eshop.marosko.sk/resize/e/1600/1600/files/oregon-/lista/oregon-carving-535044.jpg",
+    subcategories: [
+      {
+        translationKey: "vodiaceListy",
+        slug: "vodiace-listy",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/oregon-/lista/oregon-carving-535044.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/listy-carvingove-vytvarnicke",
+        products: [
+          {
+            id: "p611",
+            url: "https://eshop.marosko.sk/p/611/carvingova-lista-oregon-25-cm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/oregon-/lista/oregon-carving-535044.jpg",
+          },
+          {
+            id: "p1117",
+            url: "https://eshop.marosko.sk/p/1117/carvingova-lista-oregon-30-cm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/vytvarnicke-listy/oregon-listy.jpg",
+          },
+          {
+            id: "p612",
+            url: "https://eshop.marosko.sk/p/612/carvingova-lista-makita-25-cm",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/prislusenstvo-k-motorovym-pilam/makita-carving/makita-carving.jpg",
+          },
+          {
+            id: "p1281",
+            url: "https://eshop.marosko.sk/p/1281/servisna-sada-pre-pilcikov-oregon",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/oregon-/sada-servisna-pre-pilcikov/or601981.png",
+          },
+        ],
+      },
+      {
+        translationKey: "retaze",
+        slug: "upravene-retaze",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/vytvarnicke-listy/oregon.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/listy-carvingove-vytvarnicke",
+        products: [
+          {
+            id: "p613",
+            url: "https://eshop.marosko.sk/p/613/retaz-na-stromovu-chirurgiu-41-clankova",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/vytvarnicke-listy/oregon.jpg",
+          },
+          {
+            id: "p1326",
+            url: "https://eshop.marosko.sk/p/1326/upravena-retaz-oregondolmar-46-zubova-na-stromovu-chirurgiu",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/vytvarnicke-listy/oregon.jpg",
+          },
+        ],
+      },
+    ],
   },
   {
     slug: "stopkove-nastroje",

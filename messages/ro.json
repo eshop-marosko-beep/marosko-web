@@ -544,7 +544,18 @@
     "carvingoveListy": {
       "title": "Lame de ghidaj pentru sculptură – prezentare",
       "lead": "O lamă de carving este o lamă de ghidaj specială pentru motoferăstrău, concepută pentru modelarea și sculptura detaliată a lemnului – potrivită pentru lucrul cu vârful lamei și mai sigură datorită unui risc redus de recul. Gama noastră include lame Oregon în diverse lungimi, pentru motoferăstraie mici și mari.",
-      "brands": "Lamele de carving Oregon reprezintă o soluție de încredere pentru sculptorii care lucrează cu motoferăstrăul, atât în teren, cât și în atelier."
+      "brands": "Lamele de carving Oregon reprezintă o soluție de încredere pentru sculptorii care lucrează cu motoferăstrăul, atât în teren, cât și în atelier.",
+      "subcategoriesTitle": "Subcategorii",
+      "subcategories": {
+        "vodiaceListy": {
+          "name": "Lame de ghidaj pentru carving",
+          "description": "Lame de ghidaj Oregon Sculptor în lungime de 25 și 30 cm, lamă de carving Makita 25 cm, precum și un set de service pentru operatorii de motoferăstrău OREGON, pentru ascuțirea și întreținerea lanțurilor."
+        },
+        "retaze": {
+          "name": "Lanțuri modificate pentru chirurgia arborilor",
+          "description": "Lanțuri Oregon/Dolmar special modificate, cu un număr diferit de zale, pentru lucrul precis și sigur cu lama de carving la sculptura de formă și chirurgia arborilor."
+        }
+      }
     },
     "stopkoveNastroje": {
       "title": "Unelte de tâmplărie pe tijă – prezentare",
@@ -728,6 +739,26 @@
           "p615": "Prelungitor de ax pentru polizorul unghiular, M14/M14",
           "p522": "Piuliță cu prindere rapidă, M14",
           "p491": "Piuliță universală, M14"
+        }
+      }
+    },
+    "carvingoveListy": {
+      "vodiaceListy": {
+        "title": "Lame de ghidaj pentru carving",
+        "intro": "Lame de ghidaj Oregon Sculptor în lungime de 25 și 30 cm și lamă de carving Makita 25 cm pentru modelarea precisă și sculptura detaliată a lemnului cu motoferăstrăul. Setul de service pentru operatorii de motoferăstrău OREGON include pile, calibre și unelte pentru ascuțirea și întreținerea lanțului direct în teren.",
+        "products": {
+          "p611": "Lamă de ghidaj CARVING Oregon Sculptor, 10\", 25 cm",
+          "p1117": "Lamă de ghidaj CARVING Oregon Sculptor, 12\", 30 cm",
+          "p612": "Lamă de carving Makita, 25 cm",
+          "p1281": "Set de service pentru operatorii de motoferăstrău OREGON"
+        }
+      },
+      "retaze": {
+        "title": "Lanțuri modificate pentru chirurgia arborilor",
+        "intro": "Lanțuri Oregon/Dolmar special modificate, cu un număr diferit de zale, pentru lucrul precis și sigur cu lama de carving la sculptura de formă și chirurgia arborilor.",
+        "products": {
+          "p613": "Lanț modificat Oregon/Dolmar, 41 de zale, pentru chirurgia arborilor",
+          "p1326": "Lanț modificat Oregon/Dolmar, 46 de dinți, pentru chirurgia arborilor"
         }
       }
     },
@@ -2450,6 +2481,16 @@
         "prislusenstvoBrusky": {
           "title": "Accesorii și piese de schimb pentru polizorul unghiular | Marián s.r.o.",
           "description": "Curele abrazive de schimb, prelungitor de ax și piulițe M14 pentru polizorul unghiular."
+        }
+      },
+      "carvingoveListy": {
+        "vodiaceListy": {
+          "title": "Lame de ghidaj pentru carving | Marián s.r.o.",
+          "description": "Lame de ghidaj Oregon Sculptor și Makita, precum și un set de service OREGON pentru motoferăstraie."
+        },
+        "retaze": {
+          "title": "Lanțuri modificate pentru chirurgia arborilor | Marián s.r.o.",
+          "description": "Lanțuri Oregon/Dolmar cu diferit număr de zale, pentru lame de carving și sculptură de formă."
         }
       },
       "brusneVysekyNaMieru": {
