@@ -544,7 +544,18 @@
     "carvingoveListy": {
       "title": "Výtvarnícke carvingové lišty – prehľad",
       "lead": "Carvingová lišta je špeciálna vodiaca lišta motorovej píly určená na tvarové opracovanie a detailnú rezbu dreva – vhodná na prácu s hrotom píly a bezpečná vďaka nižšiemu riziku spätného vrhu. V ponuke nájdete lišty Oregon v rôznych dĺžkach pre malé aj veľké motorové píly.",
-      "brands": "Carvingové lišty od Oregonu patria medzi overené riešenie pre rezbárov pracujúcich motorovou pílou priamo v teréne aj v dielni."
+      "brands": "Carvingové lišty od Oregonu patria medzi overené riešenie pre rezbárov pracujúcich motorovou pílou priamo v teréne aj v dielni.",
+      "subcategoriesTitle": "Podkategórie",
+      "subcategories": {
+        "vodiaceListy": {
+          "name": "Carvingové vodiace lišty",
+          "description": "Vodiace lišty Oregon Sculptor v dĺžke 25 aj 30 cm, carvingová lišta Makita 25 cm aj servisná sada pre pilčíkov OREGON na ostrenie a údržbu reťazí."
+        },
+        "retaze": {
+          "name": "Upravené reťaze na stromovú chirurgiu",
+          "description": "Špeciálne upravené reťaze Oregon/Dolmar s rôznym počtom zubov pre presnú a bezpečnú prácu s carvingovou lištou pri tvarovej rezbe a stromovej chirurgii."
+        }
+      }
     },
     "stopkoveNastroje": {
       "title": "Stopkové stolárske nástroje – prehľad",
@@ -728,6 +739,26 @@
           "p615": "Predĺženie hriadeľa na uhlovej brúske, M14/M14",
           "p522": "Rýchloupínacia matica, M14",
           "p491": "Univerzálna matica, M14"
+        }
+      }
+    },
+    "carvingoveListy": {
+      "vodiaceListy": {
+        "title": "Carvingové vodiace lišty",
+        "intro": "Vodiace lišty Oregon Sculptor v dĺžke 25 aj 30 cm a carvingová lišta Makita 25 cm pre presné tvarové opracovanie a detailnú rezbu dreva motorovou pílou. Servisná sada pre pilčíkov OREGON obsahuje pilníky, meradlá aj nástroje na ostrenie a údržbu reťaze priamo v teréne.",
+        "products": {
+          "p611": "Vodiaca lišta CARVING Oregon Sculptor, 10\", 25 cm",
+          "p1117": "Vodiaca lišta CARVING Oregon Sculptor, 12\", 30 cm",
+          "p612": "Carvingová lišta Makita, 25 cm",
+          "p1281": "Servisná sada pre pilčíkov OREGON"
+        }
+      },
+      "retaze": {
+        "title": "Upravené reťaze na stromovú chirurgiu",
+        "intro": "Špeciálne upravené reťaze Oregon/Dolmar s rôznym počtom zubov pre presnú a bezpečnú prácu s carvingovou lištou pri tvarovej rezbe a stromovej chirurgii.",
+        "products": {
+          "p613": "Upravená reťaz Oregon/Dolmar, 41-článková, na stromovú chirurgiu",
+          "p1326": "Upravená reťaz Oregon/Dolmar, 46-zubová, na stromovú chirurgiu"
         }
       }
     },
@@ -2450,6 +2481,16 @@
         "prislusenstvoBrusky": {
           "title": "Príslušenstvo a náhradné diely na uhlovú brúsku | Marián s.r.o.",
           "description": "Náhradné šmirgľové pásy, predĺženie hriadeľa a matice M14 pre uhlovú brúsku."
+        }
+      },
+      "carvingoveListy": {
+        "vodiaceListy": {
+          "title": "Carvingové vodiace lišty | Marián s.r.o.",
+          "description": "Vodiace lišty Oregon Sculptor a Makita aj servisná sada OREGON pre motorové píly."
+        },
+        "retaze": {
+          "title": "Upravené reťaze na stromovú chirurgiu | Marián s.r.o.",
+          "description": "Reťaze Oregon/Dolmar s rôznym počtom zubov pre carvingové lišty a tvarovú rezbu."
         }
       },
       "brusneVysekyNaMieru": {
