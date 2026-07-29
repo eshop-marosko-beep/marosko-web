@@ -124,6 +124,13 @@ const categoryKeys: CategoryCard[] = [
       "https://eshop.marosko.sk/resize/e/440/440/files/stopkove-frezky/50mm/8025-2-hrcovnik-50-mm-titan-silverline.webp",
     slug: "stopkove-nastroje",
   },
+  {
+    key: "airTools",
+    url: "https://eshop.marosko.sk/c/vzduchove-naradie",
+    image:
+      "https://eshop.marosko.sk/resize/e/440/440/files/pneumaticke-naradie/priama-bruska-/fortum/fortum-balenie-priama-pneumaticka-bruska.webp",
+    slug: "vzduchove-naradie",
+  },
 ];
 
 export default async function CategoriesPage({

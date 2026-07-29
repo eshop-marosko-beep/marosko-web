@@ -201,6 +201,10 @@
       "shankTools": {
         "name": "Shank tools",
         "description": "Shank-mounted cutters, burr bits and joining cutters for both carpentry workshops and carving work."
+      },
+      "airTools": {
+        "name": "Air tools",
+        "description": "Pneumatic straight and orbital sanders, a belt sander and a pneumatic chisel for workshop and industrial use."
       }
     }
   },
@@ -561,6 +565,22 @@
       "title": "Shank-mounted joinery tools – overview",
       "lead": "Shank-mounted tools for a drill or pillar drill make joinery and carving work easier – from standalone knot cutters for removing knots to sets of shank-mounted burrs for shaping and finishing wood.",
       "brands": "The range includes knot cutters in various diameters as well as Silverline shank-mounted burr sets."
+    },
+    "vzduchoveNaradie": {
+      "title": "Air tools – overview",
+      "lead": "Compressed-air-powered pneumatic tools offer high performance at a low weight – ideal for workshop and industrial use. Our range includes pneumatic straight and orbital sanders, a belt sander and a pneumatic chisel.",
+      "brands": "The range features trusted FORTUM and Silverline brands, complemented by a professional Gamma Zinken pneumatic chisel and air-line maintenance accessories.",
+      "subcategoriesTitle": "Subcategories",
+      "subcategories": {
+        "pneumatickeBrusky": {
+          "name": "Air sanders and grinders",
+          "description": "FORTUM pneumatic straight sanders spinning up to 25,000/min, a 150 mm orbital sander, and an air belt sander for powerful, lightweight sanding."
+        },
+        "dlataPrislusenstvo": {
+          "name": "Pneumatic chisel and accessories",
+          "description": "A professional Gamma Zinken pneumatic chisel and an air line lubricator for maintaining and lubricating the compressed-air system."
+        }
+      }
     }
   },
   "kategorieSubcategoryDetail": {
@@ -759,6 +779,26 @@
         "products": {
           "p613": "Modified Oregon/Dolmar chain, 41-link, for tree surgery",
           "p1326": "Modified Oregon/Dolmar chain, 46-tooth, for tree surgery"
+        }
+      }
+    },
+    "vzduchoveNaradie": {
+      "pneumatickeBrusky": {
+        "title": "Air sanders and grinders",
+        "intro": "FORTUM pneumatic straight sanders spinning up to 25,000/min for fast, precise sanding, joined by a 150 mm orbital sander and an air belt sander for powerful, lightweight sanding of metal and wood.",
+        "products": {
+          "p1497": "Pneumatic straight sander, 25,000/min, FORTUM",
+          "p1500": "Pneumatic orbital sander, 150 mm diameter, 0–10,000/min, FORTUM",
+          "p784": "Air belt sander",
+          "p1499": "Pneumatic straight sander with extension, 19,000–25,000/min, FORTUM"
+        }
+      },
+      "dlataPrislusenstvo": {
+        "title": "Pneumatic chisel and accessories",
+        "intro": "A professional Gamma Zinken DAN 96 pneumatic chisel for demanding carving and joinery work, joined by an air line lubricator for maintaining and lubricating the compressed-air system.",
+        "products": {
+          "p1170": "Pneumatic chisel, Gamma Zinken DAN 96",
+          "p1234": "Air line lubricator, 3/8\", 10 bar, A2L-38"
         }
       }
     },
@@ -2404,6 +2444,10 @@
       "stopkoveNastroje": {
         "title": "Shank-mounted joinery tools – overview | Marián s.r.o.",
         "description": "Knot cutters and Silverline shank-mounted burr sets for joinery and carving wood – a complete overview and products."
+      },
+      "vzduchoveNaradie": {
+        "title": "Air tools – overview | Marián s.r.o.",
+        "description": "FORTUM pneumatic sanders, a belt sander and a Gamma Zinken pneumatic chisel – a complete overview and products."
       }
     },
     "kategorieSubcategoryDetail": {
@@ -2491,6 +2535,16 @@
         "retaze": {
           "title": "Modified chains for tree surgery | Marián s.r.o.",
           "description": "Oregon/Dolmar chains with different tooth counts for carving bars and shaping work."
+        }
+      },
+      "vzduchoveNaradie": {
+        "pneumatickeBrusky": {
+          "title": "Air sanders and grinders | Marián s.r.o.",
+          "description": "FORTUM pneumatic straight and orbital sanders plus an air belt sander."
+        },
+        "dlataPrislusenstvo": {
+          "title": "Pneumatic chisel and accessories | Marián s.r.o.",
+          "description": "A Gamma Zinken pneumatic chisel and an air line lubricator."
         }
       },
       "brusneVysekyNaMieru": {

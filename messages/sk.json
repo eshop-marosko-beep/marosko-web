@@ -201,6 +201,10 @@
       "shankTools": {
         "name": "Stopkové nástroje",
         "description": "Stopkové frézy, sukovníky a spájacie frézky pre stolársku dielňu aj rezbárske opracovanie dreva."
+      },
+      "airTools": {
+        "name": "Vzduchové náradie",
+        "description": "Pneumatické priame a excentrické brúsky, pásová brúska aj pneumatické dláto pre dielne a priemyselné použitie."
       }
     }
   },
@@ -561,6 +565,22 @@
       "title": "Stopkové stolárske nástroje – prehľad",
       "lead": "Stopkové nástroje do vŕtačky alebo stĺpovej vŕtačky uľahčia stolárske aj rezbárske práce – od samostatných sukovníkov na vysekávanie hrčí až po sady stopkových fréz na tvarovanie a opracovanie dreva.",
       "brands": "V ponuke nájdete napríklad sukovníky rôznych priemerov aj sady stopkových fréz Silverline."
+    },
+    "vzduchoveNaradie": {
+      "title": "Vzduchové náradie – prehľad",
+      "lead": "Pneumatické náradie poháňané tlakovým vzduchom ponúka vysoký výkon pri nízkej hmotnosti – ideálne pre dielne aj priemyselné použitie. V ponuke nájdete pneumatické priame aj excentrické brúsky, pásovú brúsku aj pneumatické dláto.",
+      "brands": "Sortiment tvoria overené značky FORTUM a Silverline, doplnené o profesionálne pneumatické dláto Gamma Zinken a príslušenstvo na údržbu rozvodu vzduchu.",
+      "subcategoriesTitle": "Podkategórie",
+      "subcategories": {
+        "pneumatickeBrusky": {
+          "name": "Pneumatické brúsky",
+          "description": "Pneumatické priame brúsky FORTUM s otáčkami až 25 000/min, excentrická brúska s priemerom 150 mm aj vzduchová pásová brúska pre výkonné a ľahké brúsenie."
+        },
+        "dlataPrislusenstvo": {
+          "name": "Pneumatické dláto a príslušenstvo",
+          "description": "Profesionálne pneumatické dláto Gamma Zinken aj primazávač na údržbu a mazanie rozvodu tlakového vzduchu."
+        }
+      }
     }
   },
   "kategorieSubcategoryDetail": {
@@ -759,6 +779,26 @@
         "products": {
           "p613": "Upravená reťaz Oregon/Dolmar, 41-článková, na stromovú chirurgiu",
           "p1326": "Upravená reťaz Oregon/Dolmar, 46-zubová, na stromovú chirurgiu"
+        }
+      }
+    },
+    "vzduchoveNaradie": {
+      "pneumatickeBrusky": {
+        "title": "Pneumatické brúsky",
+        "intro": "Pneumatické priame brúsky FORTUM s otáčkami až 25 000/min pre rýchle a presné brúsenie, doplnené o excentrickú brúsku s priemerom 150 mm aj vzduchovú pásovú brúsku pre výkonné a ľahké brúsenie kovu aj dreva.",
+        "products": {
+          "p1497": "Pneumatická brúska priama, otáčky 25 000/min, FORTUM",
+          "p1500": "Brúska excentrická pneumatická, priemer 150 mm, 0–10 000/min, FORTUM",
+          "p784": "Vzduchová pásová brúska",
+          "p1499": "Pneumatická brúska priama s predĺžením, otáčky 19 000–25 000/min, FORTUM"
+        }
+      },
+      "dlataPrislusenstvo": {
+        "title": "Pneumatické dláto a príslušenstvo",
+        "intro": "Profesionálne pneumatické dláto Gamma Zinken DAN 96 pre náročné rezbárske a stolárske práce, doplnené o primazávač na údržbu a mazanie rozvodu tlakového vzduchu.",
+        "products": {
+          "p1170": "Pneumatické dláto Gamma Zinken DAN 96",
+          "p1234": "Primazávač 3/8\", 10 bar, A2L-38"
         }
       }
     },
@@ -2404,6 +2444,10 @@
       "stopkoveNastroje": {
         "title": "Stopkové stolárske nástroje – prehľad | Marián s.r.o.",
         "description": "Sukovníky a sady stopkových fréz Silverline pre stolárske a rezbárske opracovanie dreva – kompletný prehľad a produkty."
+      },
+      "vzduchoveNaradie": {
+        "title": "Vzduchové náradie – prehľad | Marián s.r.o.",
+        "description": "Pneumatické brúsky FORTUM, pásová brúska aj pneumatické dláto Gamma Zinken – kompletný prehľad a produkty."
       }
     },
     "kategorieSubcategoryDetail": {
@@ -2491,6 +2535,16 @@
         "retaze": {
           "title": "Upravené reťaze na stromovú chirurgiu | Marián s.r.o.",
           "description": "Reťaze Oregon/Dolmar s rôznym počtom zubov pre carvingové lišty a tvarovú rezbu."
+        }
+      },
+      "vzduchoveNaradie": {
+        "pneumatickeBrusky": {
+          "title": "Pneumatické brúsky | Marián s.r.o.",
+          "description": "Pneumatické priame a excentrické brúsky FORTUM aj vzduchová pásová brúska."
+        },
+        "dlataPrislusenstvo": {
+          "title": "Pneumatické dláto a príslušenstvo | Marián s.r.o.",
+          "description": "Pneumatické dláto Gamma Zinken a primazávač na údržbu rozvodu vzduchu."
         }
       },
       "brusneVysekyNaMieru": {

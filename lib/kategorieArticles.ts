@@ -1648,6 +1648,66 @@ export const kategorieArticles: KategorieArticle[] = [
     eshopUrl: "https://eshop.marosko.sk/c/stopkove-nastroje",
     subcategories: [],
   },
+  {
+    slug: "vzduchove-naradie",
+    translationKey: "vzduchoveNaradie",
+    eshopUrl: "https://eshop.marosko.sk/c/vzduchove-naradie",
+    image:
+      "https://eshop.marosko.sk/resize/e/1600/1600/files/pneumaticke-naradie/priama-bruska-/fortum/fortum-balenie-priama-pneumaticka-bruska.webp",
+    subcategories: [
+      {
+        translationKey: "pneumatickeBrusky",
+        slug: "pneumaticke-brusky",
+        image:
+          "https://eshop.marosko.sk/resize/e/800/800/files/pneumaticke-naradie/priama-bruska-/fortum/fortum-balenie-priama-pneumaticka-bruska.webp",
+        eshopUrl: "https://eshop.marosko.sk/c/vzduchove-naradie/pneumaticke-brusky-a-vrtacky",
+        products: [
+          {
+            id: "p1497",
+            url: "https://eshop.marosko.sk/p/1497/priama-pneumaticka-bruska-otacky-25000-min-fortum",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/pneumaticke-naradie/priama-bruska-/fortum/fortum-balenie-priama-pneumaticka-bruska.webp",
+          },
+          {
+            id: "p1500",
+            url: "https://eshop.marosko.sk/p/1500/bruska-excentricka-pneumaticka-priemer-150mm-0-10000-min-fortum",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/pneumaticke-naradie/priama-bruska-/fortum/excentricka-bruska/bruska-pneumaticka-excentircka.webp",
+          },
+          {
+            id: "p784",
+            url: "https://eshop.marosko.sk/p/784/vzduchova-pasova-bruska",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/vzduchove-naradie/b797539d-dd67-4a10-979c-78a5092153e5.jpeg",
+          },
+          {
+            id: "p1499",
+            url: "https://eshop.marosko.sk/p/1499/pneumaticka-bruska-priama-s-predlzenim-otacky-19-25-k-ot-min-fortum",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/pneumaticke-naradie/priama-bruska-/fortum/s-predlzenim/priama-bruska-predlzena-fortum.webp",
+          },
+        ],
+      },
+      {
+        translationKey: "dlataPrislusenstvo",
+        slug: "dlato-prislusenstvo",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/vzduchove-naradie/dlato-pneu/1071529-900x900.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/vzduchove-naradie/pneumaticke-dlato",
+        products: [
+          {
+            id: "p1170",
+            url: "https://eshop.marosko.sk/p/1170/pneumaticke-dlato-gamma-zinken-dan-96",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/vzduchove-naradie/dlato-pneu/1071529-900x900.jpg",
+          },
+          {
+            id: "p1234",
+            url: "https://eshop.marosko.sk/p/1234/primazavac-3-8-10bar-a2l-38",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/pneumaticke-pily/primazavac.jpg",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export function getKategorieArticle(slug: string) {
