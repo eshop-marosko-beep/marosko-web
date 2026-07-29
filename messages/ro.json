@@ -201,6 +201,10 @@
       "shankTools": {
         "name": "Unelte cu coadă (freze de coadă)",
         "description": "Freze de coadă, burghie de nod și freze de îmbinare pentru atelierul de tâmplărie și pentru lucrări de cioplit."
+      },
+      "airTools": {
+        "name": "Unelte pneumatice",
+        "description": "Polizoare pneumatice drepte și excentrice, polizor cu bandă și daltă pneumatică pentru ateliere și uz industrial."
       }
     }
   },
@@ -561,6 +565,22 @@
       "title": "Unelte de tâmplărie pe tijă – prezentare",
       "lead": "Uneltele pe tijă pentru bormașină sau mașină de găurit cu coloană ușurează lucrările de tâmplărie și sculptură – de la tăietoare de noduri independente, pentru îndepărtarea nodurilor, până la seturi de freze pe tijă pentru modelarea și finisarea lemnului.",
       "brands": "Gama include tăietoare de noduri de diverse diametre, precum și seturi de freze pe tijă Silverline."
+    },
+    "vzduchoveNaradie": {
+      "title": "Unelte pneumatice – prezentare",
+      "lead": "Uneltele pneumatice acționate cu aer comprimat oferă putere mare la o greutate redusă – ideale pentru ateliere și uz industrial. Gama noastră include polizoare pneumatice drepte și excentrice, un polizor cu bandă și o daltă pneumatică.",
+      "brands": "Gama include mărcile de încredere FORTUM și Silverline, completate de o daltă pneumatică profesională Gamma Zinken și accesorii pentru întreținerea rețelei de aer comprimat.",
+      "subcategoriesTitle": "Subcategorii",
+      "subcategories": {
+        "pneumatickeBrusky": {
+          "name": "Polizoare pneumatice",
+          "description": "Polizoare pneumatice drepte FORTUM cu turație de până la 25.000/min, un polizor excentric cu diametrul de 150 mm, precum și un polizor pneumatic cu bandă pentru șlefuire puternică și ușoară."
+        },
+        "dlataPrislusenstvo": {
+          "name": "Daltă pneumatică și accesorii",
+          "description": "Daltă pneumatică profesională Gamma Zinken, precum și un lubrifiator pentru întreținerea și ungerea rețelei de aer comprimat."
+        }
+      }
     }
   },
   "kategorieSubcategoryDetail": {
@@ -759,6 +779,26 @@
         "products": {
           "p613": "Lanț modificat Oregon/Dolmar, 41 de zale, pentru chirurgia arborilor",
           "p1326": "Lanț modificat Oregon/Dolmar, 46 de dinți, pentru chirurgia arborilor"
+        }
+      }
+    },
+    "vzduchoveNaradie": {
+      "pneumatickeBrusky": {
+        "title": "Polizoare pneumatice",
+        "intro": "Polizoare pneumatice drepte FORTUM cu turație de până la 25.000/min pentru șlefuire rapidă și precisă, completate de un polizor excentric cu diametrul de 150 mm și un polizor pneumatic cu bandă pentru șlefuirea puternică și ușoară a metalului și a lemnului.",
+        "products": {
+          "p1497": "Polizor pneumatic drept, turație 25.000/min, FORTUM",
+          "p1500": "Polizor excentric pneumatic, diametru 150 mm, 0–10.000/min, FORTUM",
+          "p784": "Polizor pneumatic cu bandă",
+          "p1499": "Polizor pneumatic drept cu prelungitor, turație 19.000–25.000/min, FORTUM"
+        }
+      },
+      "dlataPrislusenstvo": {
+        "title": "Daltă pneumatică și accesorii",
+        "intro": "Daltă pneumatică profesională Gamma Zinken DAN 96 pentru lucrări dificile de sculptură și tâmplărie, completată de un lubrifiator pentru întreținerea și ungerea rețelei de aer comprimat.",
+        "products": {
+          "p1170": "Daltă pneumatică Gamma Zinken DAN 96",
+          "p1234": "Lubrifiator 3/8\", 10 bar, A2L-38"
         }
       }
     },
@@ -2404,6 +2444,10 @@
       "stopkoveNastroje": {
         "title": "Unelte de tâmplărie pe tijă – prezentare | Marián s.r.o.",
         "description": "Tăietoare de noduri și seturi de freze pe tijă Silverline pentru tâmplărie și sculptură în lemn – prezentare completă și produse."
+      },
+      "vzduchoveNaradie": {
+        "title": "Unelte pneumatice – prezentare | Marián s.r.o.",
+        "description": "Polizoare pneumatice FORTUM, polizor cu bandă și daltă pneumatică Gamma Zinken – prezentare completă și produse."
       }
     },
     "kategorieSubcategoryDetail": {
@@ -2491,6 +2535,16 @@
         "retaze": {
           "title": "Lanțuri modificate pentru chirurgia arborilor | Marián s.r.o.",
           "description": "Lanțuri Oregon/Dolmar cu diferit număr de zale, pentru lame de carving și sculptură de formă."
+        }
+      },
+      "vzduchoveNaradie": {
+        "pneumatickeBrusky": {
+          "title": "Polizoare pneumatice | Marián s.r.o.",
+          "description": "Polizoare pneumatice drepte și excentrice FORTUM, precum și un polizor pneumatic cu bandă."
+        },
+        "dlataPrislusenstvo": {
+          "title": "Daltă pneumatică și accesorii | Marián s.r.o.",
+          "description": "Daltă pneumatică Gamma Zinken și un lubrifiator pentru rețeaua de aer."
         }
       },
       "brusneVysekyNaMieru": {
