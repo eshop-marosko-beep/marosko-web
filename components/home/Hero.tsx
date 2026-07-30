@@ -18,7 +18,7 @@ export default function Hero() {
           sizes="100vw"
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-espresso-900/90 via-espresso-900/60 to-espresso-900/30" />
+        <div className="absolute inset-0 bg-gradient-to-t from-espresso-900/95 via-espresso-900/80 to-espresso-900/65" />
         <div className="hidden sm:block absolute bottom-6 right-6 z-10 h-24 w-24 md:h-28 md:w-28">
           <Image
             src="/brand/marosko-share-logo.jpg"
