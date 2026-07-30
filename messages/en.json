@@ -2076,6 +2076,10 @@
     "intro": "Short clips from the workshop and the field — how our tools handle roughing out, hollowing, sanding and finishing wood. Below each video you'll find a link to the products shown in it.",
     "cta": "View products",
     "items": {
+      "arbortechBallGouge": {
+        "title": "Arbortech Ball Gouge – hollowing round shapes into wood",
+        "description": "The Arbortech Ball Gouge hollowing carver mounted on an angle grinder in action – carving smooth, hollow, rounded shapes into wood in a single pass. Great for carving wooden spoons, small bowls, or fine details."
+      },
       "manpaMultiCutterMaster": {
         "title": "Manpa Multi Cutter Master – milling in the field",
         "description": "The Manpa Multi Cutter Master extension arm with a milling disc in action outdoors — fast, precise shaping and hollowing of a branch, ready for further carving."

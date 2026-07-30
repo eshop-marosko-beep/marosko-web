@@ -2076,6 +2076,10 @@
     "intro": "Krátke video ukážky z dielne a z terénu — ako sa naše náradie používa pri hrubovaní, dlabaní, brúsení a povrchovej úprave dreva. Pod každým videom nájdete odkaz na produkty, ktoré v ňom vidíte.",
     "cta": "Zobraziť produkty",
     "items": {
+      "arbortechBallGouge": {
+        "title": "Arbortech Ball Gouge – dlabanie oblých tvarov do dreva",
+        "description": "Hobľovacia gulička Arbortech Ball Gouge nasadená na uhlovej brúske v akcii – jediným ťahom vytvára hladké, duté a zaoblené tvary v dreve. Ideálna napríklad na výrobu drevených lyžíc, malých misiek alebo detailov pri rezbárstve."
+      },
       "manpaMultiCutterMaster": {
         "title": "Manpa Multi Cutter Master – frézovanie v teréne",
         "description": "Predlžovacie rameno Manpa Multi Cutter Master s frézovacím kotúčom v akcii priamo v teréne — rýchle a presné tvarovanie a hĺbenie konára, pripraveného na ďalšie rezbárske spracovanie."

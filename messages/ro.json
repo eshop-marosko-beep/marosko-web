@@ -2076,6 +2076,10 @@
     "intro": "Clipuri scurte din atelier și din teren — cum se folosesc uneltele noastre la degroșare, scobire, șlefuire și finisarea lemnului. Sub fiecare video găsiți un link către produsele prezentate.",
     "cta": "Vezi produsele",
     "items": {
+      "arbortechBallGouge": {
+        "title": "Arbortech Ball Gouge – scobirea formelor rotunjite în lemn",
+        "description": "Dalta sferică Arbortech Ball Gouge montată pe polizorul unghiular în acțiune – scobește forme netede, rotunjite și adânci în lemn dintr-o singură trecere. Ideală, de exemplu, pentru linguri din lemn, boluri mici sau detalii de sculptură."
+      },
       "manpaMultiCutterMaster": {
         "title": "Manpa Multi Cutter Master – frezare pe teren",
         "description": "Brațul prelungitor Manpa Multi Cutter Master cu disc de frezat în acțiune, direct pe teren — modelare și scobire rapidă și precisă a unei crengi, pregătită pentru sculptură ulterioară."

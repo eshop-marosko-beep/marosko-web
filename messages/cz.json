@@ -2076,6 +2076,10 @@
     "intro": "Krátké video ukázky z dílny a z terénu — jak se naše nářadí používá při hrubování, dlabání, broušení a povrchové úpravě dřeva. Pod každým videem najdete odkaz na produkty, které v něm vidíte.",
     "cta": "Zobrazit produkty",
     "items": {
+      "arbortechBallGouge": {
+        "title": "Arbortech Ball Gouge – vyhlubování oblých tvarů do dřeva",
+        "description": "Hoblovací kulička Arbortech Ball Gouge nasazená na úhlové brusce v akci – jedním tahem vytváří hladké, duté a zaoblené tvary ve dřevě. Ideální například na výrobu dřevěných lžic, malých misek nebo detailů při řezbářství."
+      },
       "manpaMultiCutterMaster": {
         "title": "Manpa Multi Cutter Master – frézování v terénu",
         "description": "Prodlužovací rameno Manpa Multi Cutter Master s frézovacím kotoučem v akci přímo v terénu — rychlé a přesné tvarování a hloubení větve, připravené na další řezbářské zpracování."
