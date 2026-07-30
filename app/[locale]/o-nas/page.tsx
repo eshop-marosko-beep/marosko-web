@@ -12,7 +12,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta.about" });
-  return buildMetadata({ locale, path: "/o-nas", title: t("title"), description: t("description") });
+  return buildMetadata({
+    locale,
+    path: "/o-nas",
+    title: t("title"),
+    description: t("description"),
+    image: "/gallery/frezovaci-kotuc-detail-rezbarska-praca.jpg",
+  });
 }
 
 export default async function AboutPage({
