@@ -5,6 +5,7 @@ import { Link } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
 import { getKategorieArticle, kategorieArticles } from "@/lib/kategorieArticles";
 import { getGalleryCategory } from "@/lib/galleryData";
+import ShareButtons from "@/components/ShareButtons";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -59,6 +60,9 @@ export default async function KategorieDetailPage({
           />
         </div>
       )}
+      <div className="mb-6">
+        <ShareButtons variant="compact" url={`/kategorie/${slug}`} title={t("title")} />
+      </div>
       <p className="text-gray-600 text-lg leading-relaxed mb-4">{t("lead")}</p>
       <p className="text-gray-600 leading-relaxed mb-10">{t("brands")}</p>
 
@@ -69,7 +73,8 @@ export default async function KategorieDetailPage({
             {article.subcategories.map(({ translationKey, galleryLinks, image, slug: subSlug }) => (
               <div
                 key={translationKey}
-                className="bg-white rounded-xl shadow-lg p-6 sm:flex sm:gap-6"
+                id={subSlug ? undefined : translationKey}
+                className="bg-white rounded-xl shadow-lg p-6 sm:flex sm:gap-6 scroll-mt-24"
               >
                 {image && (
                   <div className="relative h-40 sm:h-32 sm:w-32 shrink-0 rounded-lg overflow-hidden mb-4 sm:mb-0 bg-cream-100">
@@ -112,6 +117,13 @@ export default async function KategorieDetailPage({
                       })}
                     </div>
                   )}
+                  <div className="mt-4">
+                    <ShareButtons
+                      variant="compact"
+                      url={subSlug ? `/kategorie/${slug}/${subSlug}` : `/kategorie/${slug}#${translationKey}`}
+                      title={t(`subcategories.${translationKey}.name`)}
+                    />
+                  </div>
                 </div>
               </div>
             ))}

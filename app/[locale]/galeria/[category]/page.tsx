@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { galleryCategories, getGalleryCategory } from "@/lib/galleryData";
 import { buildMetadata } from "@/lib/seo";
+import ShareButtons from "@/components/ShareButtons";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -67,7 +68,8 @@ export default async function GalleryCategoryPage({
           {images.map(({ src, altKey, productUrl, price, originalPrice, badge }) => (
             <div
               key={src}
-              className="bg-white rounded-xl shadow-lg overflow-hidden border border-transparent hover:border-amber-200 hover:shadow-xl transition-all flex flex-col"
+              id={altKey}
+              className="bg-white rounded-xl shadow-lg overflow-hidden border border-transparent hover:border-amber-200 hover:shadow-xl transition-all flex flex-col scroll-mt-24"
             >
               <div className="relative h-48 bg-cream-100">
                 <Image
@@ -110,6 +112,13 @@ export default async function GalleryCategoryPage({
                     {t("productCta")} →
                   </a>
                 )}
+                <div className="mt-4 pt-4 border-t border-amber-100">
+                  <ShareButtons
+                    variant="compact"
+                    url={`/galeria/${category}#${altKey}`}
+                    title={t(`${translationKey}.products.${altKey}.title`)}
+                  />
+                </div>
               </div>
             </div>
           ))}
@@ -127,22 +136,27 @@ export default async function GalleryCategoryPage({
               />
             );
 
-            return productUrl ? (
-              <a
-                key={src}
-                href={productUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group relative bg-white border border-gray-200 rounded-lg h-40 overflow-hidden hover:border-amber-300 hover:shadow-md transition-all"
-              >
-                {image}
-              </a>
-            ) : (
-              <div
-                key={src}
-                className="relative bg-white border border-gray-200 rounded-lg h-40 overflow-hidden"
-              >
-                {image}
+            return (
+              <div key={src} id={altKey} className="flex flex-col gap-2 scroll-mt-24">
+                {productUrl ? (
+                  <a
+                    href={productUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="group relative bg-white border border-gray-200 rounded-lg h-40 overflow-hidden hover:border-amber-300 hover:shadow-md transition-all"
+                  >
+                    {image}
+                  </a>
+                ) : (
+                  <div className="relative bg-white border border-gray-200 rounded-lg h-40 overflow-hidden">
+                    {image}
+                  </div>
+                )}
+                <ShareButtons
+                  variant="compact"
+                  url={`/galeria/${category}#${altKey}`}
+                  title={t(`${translationKey}.${altKey}`)}
+                />
               </div>
             );
           })}

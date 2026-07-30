@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
 import { getKategorieSubcategory, kategorieArticles } from "@/lib/kategorieArticles";
+import ShareButtons from "@/components/ShareButtons";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -74,6 +75,9 @@ export default async function KategorieSubcategoryDetailPage({
           />
         </div>
       )}
+      <div className="mb-6">
+        <ShareButtons variant="compact" url={`/kategorie/${slug}/${subcategory}`} title={t("title")} />
+      </div>
       <p className="text-gray-600 text-lg leading-relaxed mb-10">{t("intro")}</p>
 
       {sub.products && sub.products.length > 0 && (

@@ -106,17 +106,31 @@ const linkPlatforms = [
 // copy the link so it can be pasted into a post/Story in the app.
 const COPY_PLATFORM = "Instagram";
 
-export default function ShareButtons() {
+type ShareButtonsProps = {
+  /** Absolute or site-relative URL to share. Defaults to the current page URL. */
+  url?: string;
+  /** Title/text passed to platforms that support it. Defaults to document.title. */
+  title?: string;
+  /** "full" = labelled bar used once per page (default). "compact" = small inline row for embedding under an item. */
+  variant?: "full" | "compact";
+};
+
+export default function ShareButtons({ url, title, variant = "full" }: ShareButtonsProps) {
   const pathname = usePathname();
   const t = useTranslations("share");
   const [copied, setCopied] = useState(false);
 
-  if (pathname === "/") return null;
+  // The page-level bar (no explicit url override) is intentionally omitted on the homepage.
+  if (!url && pathname === "/") return null;
+
+  const resolveUrl = () => {
+    if (!url) return window.location.href;
+    return url.startsWith("http") ? url : `${window.location.origin}${url}`;
+  };
+  const resolveTitle = () => title ?? document.title;
 
   const handleLinkShare = (name: string, buildUrl: (url: string, title: string) => string) => {
-    const url = window.location.href;
-    const title = document.title;
-    const target = buildUrl(url, title);
+    const target = buildUrl(resolveUrl(), resolveTitle());
 
     if (name === "Email") {
       window.location.assign(target);
@@ -126,44 +140,55 @@ export default function ShareButtons() {
   };
 
   const handleCopyLink = async () => {
-    await navigator.clipboard.writeText(window.location.href);
+    await navigator.clipboard.writeText(resolveUrl());
     setCopied(true);
     setTimeout(() => setCopied(false), 2500);
   };
 
+  const buttonSize = variant === "compact" ? "h-7 w-7" : "h-9 w-9";
+  const buttonClass = `flex ${buttonSize} items-center justify-center rounded-full border border-amber-300 text-espresso-700 hover:bg-amber-600 hover:text-white hover:border-amber-600 transition-colors`;
+
+  const row = (
+    <div className="flex flex-wrap items-center gap-2">
+      {variant === "full" && (
+        <span className="text-sm font-semibold text-espresso-800 mr-1">{t("label")}</span>
+      )}
+      {linkPlatforms.map(({ name, buildUrl }) => (
+        <button
+          key={name}
+          type="button"
+          onClick={() => handleLinkShare(name, buildUrl)}
+          aria-label={`${t("shareOn")} ${name}`}
+          title={name}
+          className={buttonClass}
+        >
+          <IconGlyph name={name} />
+        </button>
+      ))}
+      <div className="relative">
+        <button
+          type="button"
+          onClick={handleCopyLink}
+          aria-label={t("copyForInstagram")}
+          title={COPY_PLATFORM}
+          className={buttonClass}
+        >
+          <IconGlyph name={COPY_PLATFORM} />
+        </button>
+        {copied && (
+          <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 whitespace-nowrap rounded bg-espresso-800 px-2 py-1 text-xs text-white z-10">
+            {t("linkCopied")}
+          </span>
+        )}
+      </div>
+    </div>
+  );
+
+  if (variant === "compact") return row;
+
   return (
     <div className="border-t border-amber-100">
-      <div className="container mx-auto px-4 py-6 flex flex-wrap items-center gap-3">
-        <span className="text-sm font-semibold text-espresso-800">{t("label")}</span>
-        {linkPlatforms.map(({ name, buildUrl }) => (
-          <button
-            key={name}
-            type="button"
-            onClick={() => handleLinkShare(name, buildUrl)}
-            aria-label={`${t("shareOn")} ${name}`}
-            title={name}
-            className="flex h-9 w-9 items-center justify-center rounded-full border border-amber-300 text-espresso-700 hover:bg-amber-600 hover:text-white hover:border-amber-600 transition-colors"
-          >
-            <IconGlyph name={name} />
-          </button>
-        ))}
-        <div className="relative">
-          <button
-            type="button"
-            onClick={handleCopyLink}
-            aria-label={t("copyForInstagram")}
-            title={COPY_PLATFORM}
-            className="flex h-9 w-9 items-center justify-center rounded-full border border-amber-300 text-espresso-700 hover:bg-amber-600 hover:text-white hover:border-amber-600 transition-colors"
-          >
-            <IconGlyph name={COPY_PLATFORM} />
-          </button>
-          {copied && (
-            <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 whitespace-nowrap rounded bg-espresso-800 px-2 py-1 text-xs text-white">
-              {t("linkCopied")}
-            </span>
-          )}
-        </div>
-      </div>
+      <div className="container mx-auto px-4 py-6">{row}</div>
     </div>
   );
 }
