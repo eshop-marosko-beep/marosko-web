@@ -2121,6 +2121,14 @@
         "katalogManpa": {
           "title": "Manpa catalogue",
           "description": "The South Korean Manpa brand's product catalogue – extension arms, milling heads and attachments for angle grinders."
+        },
+        "reklamacnyFormular": {
+          "title": "Complaint form",
+          "description": "Fill in this form when filing a complaint about goods purchased in our e-shop."
+        },
+        "reklamacnyProtokol": {
+          "title": "Complaint protocol",
+          "description": "Fill in this protocol if you'd like an item under warranty repaired instead of filing a complaint."
         }
       }
     }

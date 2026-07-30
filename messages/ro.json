@@ -2121,6 +2121,14 @@
         "katalogManpa": {
           "title": "Catalog Manpa",
           "description": "Catalogul de produse al mărcii sud-coreene Manpa – brațe prelungitoare, capete de frezat și accesorii pentru polizoare unghiulare."
+        },
+        "reklamacnyFormular": {
+          "title": "Formular de reclamație",
+          "description": "Completați acest formular atunci când depuneți o reclamație pentru un produs cumpărat din magazinul nostru online."
+        },
+        "reklamacnyProtokol": {
+          "title": "Protocol de reclamație",
+          "description": "Protocol de completat dacă doriți repararea unui produs în garanție, în loc de reclamație."
         }
       }
     }
