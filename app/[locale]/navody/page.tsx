@@ -56,8 +56,7 @@ export default async function VideosPage({
         {videos.map(({ slug, file, linkUrl, linkType, translationKey }) => (
           <div
             key={slug}
-            id={slug}
-            className="bg-white rounded-xl shadow-lg overflow-hidden border border-transparent hover:border-amber-200 hover:shadow-xl transition-all flex flex-col scroll-mt-24"
+            className="bg-white rounded-xl shadow-lg overflow-hidden border border-transparent hover:border-amber-200 hover:shadow-xl transition-all flex flex-col"
           >
             <video
               controls
@@ -95,7 +94,7 @@ export default async function VideosPage({
               <div className="mt-4 pt-4 border-t border-amber-100">
                 <ShareButtons
                   variant="compact"
-                  url={`/navody#${slug}`}
+                  url={`/navody/${slug}`}
                   title={t(`items.${translationKey}.title`)}
                 />
               </div>

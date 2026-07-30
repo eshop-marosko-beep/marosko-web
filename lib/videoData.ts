@@ -62,3 +62,7 @@ export const videos: Video[] = [
     translationKey: "rasplovyKotucOstryKraj",
   },
 ];
+
+export function getVideo(slug: string) {
+  return videos.find((video) => video.slug === slug);
+}
