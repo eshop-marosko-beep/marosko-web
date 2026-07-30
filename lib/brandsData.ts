@@ -8,7 +8,6 @@ export type Brand = {
 
 export const brands: Brand[] = [
   { id: 44, slug: "arbortech", name: "Arbortech", url: "https://eshop.marosko.sk/b/Arbortech", logo: "/brand/logos/arbortech.png" },
-  { id: 47, slug: "scraper", name: "Scraper", url: "https://eshop.marosko.sk/b/SCRAPER" },
   { id: 49, slug: "ideaImport", name: "Idea Import.ante s.r.o.", url: "https://eshop.marosko.sk/b/Idea+Import.ante+s.r.o." },
   { id: 50, slug: "artu", name: "Artu", url: "https://eshop.marosko.sk/b/ARTU", logo: "/brand/logos/artu.png" },
   { id: 53, slug: "saburrtoothUsa", name: "Saburrtooth USA", url: "https://eshop.marosko.sk/b/Saburrtooth+USA", logo: "/brand/logos/saburrtoothUsa.jpg" },
@@ -16,10 +15,8 @@ export const brands: Brand[] = [
   { id: 55, slug: "kingArthurUsa", name: "King Arthur, USA", url: "https://eshop.marosko.sk/b/King+Arthur%2CUSA", logo: "/brand/logos/kingArthurUsa.jpg" },
   { id: 56, slug: "silverline", name: "Silverline", url: "https://eshop.marosko.sk/b/Silverline", logo: "/brand/logos/silverline.png" },
   { id: 57, slug: "tarpolProfesional", name: "Tarpol Profesional", url: "https://eshop.marosko.sk/b/TARPOL+Profesional", logo: "/brand/logos/tarpolProfesional.jpg" },
-  { id: 58, slug: "tarpol", name: "Tarpol", url: "https://eshop.marosko.sk/b/TARPOL" },
   { id: 59, slug: "magg", name: "Magg", url: "https://eshop.marosko.sk/b/MAGG" },
   { id: 60, slug: "extolPremium", name: "Extol Premium", url: "https://eshop.marosko.sk/b/Extol+Premium" },
-  { id: 61, slug: "oTools", name: "o.tools", url: "https://eshop.marosko.sk/b/o.tools" },
   { id: 63, slug: "sait", name: "Sait", url: "https://eshop.marosko.sk/b/SAIT" },
   { id: 65, slug: "triton", name: "Triton", url: "https://eshop.marosko.sk/b/Triton", logo: "/brand/logos/triton.png" },
   { id: 66, slug: "dolmar", name: "Dolmar", url: "https://eshop.marosko.sk/b/Dolmar" },
