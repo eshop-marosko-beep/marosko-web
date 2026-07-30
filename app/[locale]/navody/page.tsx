@@ -62,7 +62,7 @@ export default async function VideosPage({
               playsInline
               preload="metadata"
               poster={`/videos/${file}.jpg`}
-              className="w-full aspect-video bg-black"
+              className="w-full aspect-video bg-black object-contain"
             >
               <source src={`/videos/${file}.mp4`} type="video/mp4" />
             </video>

@@ -14,6 +14,14 @@ export type Video = {
 
 export const videos: Video[] = [
   {
+    slug: "arbortech-ball-gouge",
+    file: "arbortech-ball-gouge",
+    duration: "PT18S",
+    linkUrl: "https://eshop.marosko.sk/p/255/tvarovacia-gulicka-arbortech-ball-gouge",
+    linkType: "external",
+    translationKey: "arbortechBallGouge",
+  },
+  {
     slug: "manpa-multi-cutter-master-konar",
     file: "manpa-multi-cutter-master-konar",
     duration: "PT54S",
