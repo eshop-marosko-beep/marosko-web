@@ -2125,6 +2125,14 @@
         "katalogManpa": {
           "title": "Katalog Manpa",
           "description": "Produktový katalog jihokorejské značky Manpa – prodlužovací ramena, frézovací hlavice a nástavce pro úhlové brusky."
+        },
+        "reklamacnyFormular": {
+          "title": "Formulář k reklamaci",
+          "description": "Vyplňte tento formulář při uplatňování reklamace zboží zakoupeného v našem e-shopu."
+        },
+        "reklamacnyProtokol": {
+          "title": "Reklamační protokol",
+          "description": "Protokol k vyplnění v případě, že si přejete zboží v záruce opravit místo reklamace."
         }
       }
     }

@@ -38,4 +38,16 @@ export const pdfGuides: PdfGuide[] = [
     fileSize: "1,2 MB",
     translationKey: "katalogManpa",
   },
+  {
+    slug: "reklamacny-formular",
+    fileUrl: "https://eshop.marosko.sk/files/dokumenty/reklamacny-formular.pdf",
+    fileSize: "0,3 MB",
+    translationKey: "reklamacnyFormular",
+  },
+  {
+    slug: "reklamacny-protokol",
+    fileUrl: "https://eshop.marosko.sk/files/dokumenty/reklamacny-protokol.pdf",
+    fileSize: "0,3 MB",
+    translationKey: "reklamacnyProtokol",
+  },
 ];
