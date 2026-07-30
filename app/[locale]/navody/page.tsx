@@ -5,6 +5,7 @@ import { pdfGuides } from "@/lib/pdfGuides";
 import { buildMetadata } from "@/lib/seo";
 import { buildVideoObjectSchemas } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
+import ShareButtons from "@/components/ShareButtons";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -55,7 +56,8 @@ export default async function VideosPage({
         {videos.map(({ slug, file, linkUrl, linkType, translationKey }) => (
           <div
             key={slug}
-            className="bg-white rounded-xl shadow-lg overflow-hidden border border-transparent hover:border-amber-200 hover:shadow-xl transition-all flex flex-col"
+            id={slug}
+            className="bg-white rounded-xl shadow-lg overflow-hidden border border-transparent hover:border-amber-200 hover:shadow-xl transition-all flex flex-col scroll-mt-24"
           >
             <video
               controls
@@ -90,6 +92,13 @@ export default async function VideosPage({
                   {t("cta")} →
                 </a>
               )}
+              <div className="mt-4 pt-4 border-t border-amber-100">
+                <ShareButtons
+                  variant="compact"
+                  url={`/navody#${slug}`}
+                  title={t(`items.${translationKey}.title`)}
+                />
+              </div>
             </div>
           </div>
         ))}
