@@ -906,3 +906,11 @@ export const galleryCategories: GalleryCategory[] = [
 export function getGalleryCategory(slug: string) {
   return galleryCategories.find((category) => category.slug === slug);
 }
+
+export function getGalleryImage(categorySlug: string, altKey: string) {
+  const category = getGalleryCategory(categorySlug);
+  if (!category) return undefined;
+  const image = category.images.find((img) => img.altKey === altKey);
+  if (!image) return undefined;
+  return { category, image };
+}

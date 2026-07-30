@@ -68,8 +68,7 @@ export default async function GalleryCategoryPage({
           {images.map(({ src, altKey, productUrl, price, originalPrice, badge }) => (
             <div
               key={src}
-              id={altKey}
-              className="bg-white rounded-xl shadow-lg overflow-hidden border border-transparent hover:border-amber-200 hover:shadow-xl transition-all flex flex-col scroll-mt-24"
+              className="bg-white rounded-xl shadow-lg overflow-hidden border border-transparent hover:border-amber-200 hover:shadow-xl transition-all flex flex-col"
             >
               <div className="relative h-48 bg-cream-100">
                 <Image
@@ -115,7 +114,7 @@ export default async function GalleryCategoryPage({
                 <div className="mt-4 pt-4 border-t border-amber-100">
                   <ShareButtons
                     variant="compact"
-                    url={`/galeria/${category}#${altKey}`}
+                    url={`/galeria/${category}/${altKey}`}
                     title={t(`${translationKey}.products.${altKey}.title`)}
                   />
                 </div>
@@ -137,7 +136,7 @@ export default async function GalleryCategoryPage({
             );
 
             return (
-              <div key={src} id={altKey} className="flex flex-col gap-2 scroll-mt-24">
+              <div key={src} className="flex flex-col gap-2">
                 {productUrl ? (
                   <a
                     href={productUrl}
@@ -154,7 +153,7 @@ export default async function GalleryCategoryPage({
                 )}
                 <ShareButtons
                   variant="compact"
-                  url={`/galeria/${category}#${altKey}`}
+                  url={`/galeria/${category}/${altKey}`}
                   title={t(`${translationKey}.${altKey}`)}
                 />
               </div>

@@ -75,25 +75,39 @@ export function buildLocalBusinessSchema() {
  * when new videos are added. */
 const VIDEOS_UPLOAD_DATE = "2026-07-20";
 
+function buildVideoObjectSchema(
+  { file, duration }: { file: string; duration: string },
+  { name, description }: { name: string; description: string }
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "VideoObject",
+    name,
+    description,
+    thumbnailUrl: [`${SITE_URL}/videos/${file}.jpg`],
+    contentUrl: `${SITE_URL}/videos/${file}.mp4`,
+    uploadDate: VIDEOS_UPLOAD_DATE,
+    duration,
+    publisher: {
+      "@type": "Organization",
+      name: "Marián s.r.o.",
+      logo: { "@type": "ImageObject", url: LOGO_URL },
+    },
+  };
+}
+
 export function buildVideoObjectSchemas(
   entries: { slug: string; name: string; description: string }[]
 ) {
-  return videos.map(({ slug, file, duration }) => {
-    const entry = entries.find((e) => e.slug === slug)!;
-    return {
-      "@context": "https://schema.org",
-      "@type": "VideoObject",
-      name: entry.name,
-      description: entry.description,
-      thumbnailUrl: [`${SITE_URL}/videos/${file}.jpg`],
-      contentUrl: `${SITE_URL}/videos/${file}.mp4`,
-      uploadDate: VIDEOS_UPLOAD_DATE,
-      duration,
-      publisher: {
-        "@type": "Organization",
-        name: "Marián s.r.o.",
-        logo: { "@type": "ImageObject", url: LOGO_URL },
-      },
-    };
+  return videos.map((video) => {
+    const entry = entries.find((e) => e.slug === video.slug)!;
+    return buildVideoObjectSchema(video, entry);
   });
+}
+
+export function buildSingleVideoObjectSchema(
+  video: { file: string; duration: string },
+  entry: { name: string; description: string }
+) {
+  return buildVideoObjectSchema(video, entry);
 }
