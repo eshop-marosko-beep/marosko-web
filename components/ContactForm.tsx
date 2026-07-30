@@ -4,6 +4,8 @@ import { useLocale, useTranslations } from "next-intl";
 import { FormEvent, useState } from "react";
 import { getEshopUrl } from "@/lib/eshopUrl";
 
+type Status = "idle" | "sending" | "success" | "error";
+
 export default function ContactForm({
   title,
   subtitle,
@@ -13,17 +15,43 @@ export default function ContactForm({
 }) {
   const t = useTranslations("home.contactCta");
   const tContact = useTranslations("contact");
-  const eshopUrl = getEshopUrl(useLocale());
+  const locale = useLocale();
+  const eshopUrl = getEshopUrl(locale);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
+  const [status, setStatus] = useState<Status>("idle");
+  const [errorMessage, setErrorMessage] = useState("");
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    const subject = encodeURIComponent(`${title} - ${name}`);
-    const body = encodeURIComponent(`${name}\n${email}\n${phone}\n\n${message}`);
-    window.location.href = `mailto:eshop.marosko@gmail.com?subject=${subject}&body=${body}`;
+    setStatus("sending");
+    setErrorMessage("");
+
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, email, phone, message, subject: title, locale }),
+      });
+      const data = await res.json();
+
+      if (!res.ok || !data.success) {
+        setErrorMessage(typeof data.error === "string" ? data.error : t("errorMessage"));
+        setStatus("error");
+        return;
+      }
+
+      setStatus("success");
+      setName("");
+      setEmail("");
+      setPhone("");
+      setMessage("");
+    } catch {
+      setErrorMessage(t("errorMessage"));
+      setStatus("error");
+    }
   };
 
   return (
@@ -92,10 +120,21 @@ export default function ContactForm({
           </div>
           <button
             type="submit"
-            className="w-full bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors"
+            disabled={status === "sending"}
+            className="w-full bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
           >
-            {t("submit")}
+            {status === "sending" ? t("sending") : t("submit")}
           </button>
+          {status === "success" && (
+            <p className="text-sm text-green-700 bg-green-50 border border-green-200 rounded-lg px-4 py-2">
+              {t("successMessage")}
+            </p>
+          )}
+          {status === "error" && (
+            <p className="text-sm text-red-700 bg-red-50 border border-red-200 rounded-lg px-4 py-2">
+              {errorMessage || t("errorMessage")}
+            </p>
+          )}
           <p className="text-xs text-gray-400">{t("note")}</p>
         </form>
 

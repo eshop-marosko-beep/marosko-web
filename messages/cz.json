@@ -108,7 +108,10 @@
       "messageLabel": "Zpráva",
       "messagePlaceholder": "Napište nám, co potřebujete...",
       "submit": "Odeslat zprávu",
-      "note": "Odesláním zprávy se otevře váš emailový klient s předvyplněnou zprávou pro eshop.marosko@gmail.com."
+      "sending": "Odesílám...",
+      "successMessage": "Děkujeme, zpráva byla úspěšně odeslána. Ozveme se vám co nejdříve.",
+      "errorMessage": "Zprávu se nepodařilo odeslat. Zkuste to prosím později nebo nám napište přímo na eshop.marosko@gmail.com.",
+      "note": "Zpráva se odešle přímo na eshop.marosko@gmail.com."
     }
   },
   "about": {
