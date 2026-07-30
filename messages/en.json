@@ -108,7 +108,10 @@
       "messageLabel": "Message",
       "messagePlaceholder": "Tell us what you need...",
       "submit": "Send message",
-      "note": "Sending the message opens your email client with a pre-filled message to eshop.marosko@gmail.com."
+      "sending": "Sending...",
+      "successMessage": "Thank you, your message has been sent. We'll get back to you as soon as possible.",
+      "errorMessage": "The message could not be sent. Please try again later or email us directly at eshop.marosko@gmail.com.",
+      "note": "The message is sent directly to eshop.marosko@gmail.com."
     }
   },
   "about": {

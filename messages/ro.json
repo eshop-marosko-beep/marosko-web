@@ -108,7 +108,10 @@
       "messageLabel": "Mesaj",
       "messagePlaceholder": "Spuneți-ne de ce aveți nevoie...",
       "submit": "Trimiteți mesajul",
-      "note": "Trimiterea mesajului deschide clientul dvs. de email cu un mesaj precompletat către eshop.marosko@gmail.com."
+      "sending": "Se trimite...",
+      "successMessage": "Vă mulțumim, mesajul a fost trimis cu succes. Vă vom contacta cât mai curând posibil.",
+      "errorMessage": "Mesajul nu a putut fi trimis. Încercați din nou mai târziu sau scrieți-ne direct la eshop.marosko@gmail.com.",
+      "note": "Mesajul este trimis direct la eshop.marosko@gmail.com."
     }
   },
   "about": {
