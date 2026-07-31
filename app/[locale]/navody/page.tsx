@@ -1,7 +1,9 @@
+import Image from "next/image";
 import { Link } from "@/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { videos } from "@/lib/videoData";
 import { pdfGuides } from "@/lib/pdfGuides";
+import { guideArticles } from "@/lib/guideArticles";
 import { buildMetadata } from "@/lib/seo";
 import { buildVideoObjectSchemas } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
@@ -33,6 +35,7 @@ export default async function VideosPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("videos");
+  const tGuides = await getTranslations("guideArticles");
 
   const schemas = buildVideoObjectSchemas(
     videos.map(({ slug, translationKey }) => ({
@@ -102,6 +105,44 @@ export default async function VideosPage({
           </div>
         ))}
       </div>
+
+      {locale === "sk" && guideArticles.length > 0 && (
+        <>
+          <h2 className="text-3xl font-bold text-espresso-800 mt-16 mb-4">{tGuides("title")}</h2>
+          <p className="text-gray-600 text-lg mb-10 max-w-2xl">{tGuides("subtitle")}</p>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {guideArticles.map(({ slug, translationKey, image }) => (
+              <Link
+                key={slug}
+                href={`/navody/clanky/${slug}`}
+                className="bg-white rounded-xl shadow-lg overflow-hidden border border-transparent hover:border-amber-200 hover:shadow-xl transition-all flex flex-col"
+              >
+                <div className="relative h-44 bg-cream-100">
+                  <Image
+                    src={image}
+                    alt={tGuides(`items.${translationKey}.title`)}
+                    fill
+                    sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-6 flex flex-col flex-1">
+                  <h3 className="text-lg font-bold text-espresso-800 mb-2">
+                    {tGuides(`items.${translationKey}.title`)}
+                  </h3>
+                  <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1">
+                    {tGuides(`items.${translationKey}.cardDescription`)}
+                  </p>
+                  <span className="mt-auto inline-flex items-center gap-1 text-amber-700 font-semibold text-sm">
+                    {tGuides("readMore")} →
+                  </span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </>
+      )}
 
       <h2 className="text-3xl font-bold text-espresso-800 mt-16 mb-4">{t("pdfGuides.title")}</h2>
       <p className="text-gray-600 text-lg mb-10 max-w-2xl">{t("pdfGuides.subtitle")}</p>

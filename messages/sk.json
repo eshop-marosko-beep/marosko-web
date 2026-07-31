@@ -2070,6 +2070,71 @@
       "topSale": "TOP produkt mesiaca · Akcia"
     }
   },
+  "guideArticles": {
+    "title": "Písané návody",
+    "subtitle": "Podrobné postupy krok za krokom pre náročnejšie rezbárske projekty.",
+    "backToGuides": "Návody",
+    "stepsTitle": "Postup krok za krokom",
+    "relatedLabel": "Na túto fázu sa hodí",
+    "contextTitle": "Rýchlorezba a slovenská rezbárska tradícia",
+    "closingTitle": "Chystáte sa na vlastnú sochu?",
+    "readMore": "Čítať návod",
+    "items": {
+      "sochaMotorovouPilou": {
+        "title": "Ako vyrezať sochu motorovou pílou: postup krok za krokom",
+        "cardDescription": "Od kmeňa cez hrubovanie motorovou pílou až po finálnu povrchovú úpravu – kompletný postup rýchlorezby v ôsmich krokoch.",
+        "eyebrow": "Rezba motorovou pílou",
+        "intro": "Socha v životnej veľkosti nemusí vznikať podľa hlineného modelu – stačí kmeň, motorová píla a jednoduchý náčrt na papieri. Nasledujúci postup ukazuje, ako z guľatiny vzniká ženská postava od prvého rezu až po finálnu povrchovú úpravu, a to v priebehu jediného dňa. Ide o takzvanú rýchlorezbu (speedcarving) – disciplínu, pri ktorej sa socha dokončuje v presnom časovom limite, typicky ako verejná ukážka na sympóziu alebo festivale.",
+        "steps": [
+          {
+            "title": "1. Príprava kmeňa",
+            "body": "Z kmeňa najprv odstránime kôru a zarovnáme čelá – predovšetkým podstavu, s ohľadom na plánovaný postoj sochy a vychýlenie ťažiska. Drevo postavíme do finálnej polohy a podľa náčrtu si na povrch kriedou vyznačíme prvé orientačné rezy."
+          },
+          {
+            "title": "2. Prvé rezy a hlavná os",
+            "body": "Prvé rezy vedieme takmer po celej dĺžke materiálu z prednej aj zadnej strany. Na vzniknutých plochách vyznačíme hlavnú os – kolmú na vodorovnú rovinu, prechádzajúcu krčnou jamkou budúcej postavy. Kriedou dokreslíme rovné línie obrysu a postupne odoberáme prebytočný materiál."
+          },
+          {
+            "title": "3. Hranaté tvary",
+            "body": "V tejto fáze socha ešte zámerne nemá oblé tvary. Hranaté plochy sa dajú oveľa lepšie kontrolovať a merať než zaoblené, preto pracujeme na celej postave naraz, nie len na jednej časti. Línie priebežne obnovujeme kriedou, už presnejšie tvarované než pri prvých rezoch."
+          },
+          {
+            "title": "4. Presnejšie rezy a otvory",
+            "body": "Odoberané kúsky materiálu sú čoraz menšie a rezy musia byť presnejšie – chyba sa tu už dá len ťažko opraviť. Prácu preto pravidelne prerušujeme a hodnotíme postup s odstupom. Veľkú pílu vymieňame za menšiu, a až keď sú vonkajšie obrysy uspokojivé, púšťame sa do otvorov, napríklad medzi rukou a telom. Drobné nedorezy sa dajú doladiť kladivkom alebo páčidlom, ale len ak ide o pár vlákien."
+          },
+          {
+            "title": "5. Detaily a carvingová lišta",
+            "body": "Od tejto chvíle nevyznačujeme len obrysy, ale aj polohu detailov – nosa, uší, brady, prstov. Na jemné tvarovanie sa oveľa lepšie hodí špeciálna carvingová (výtvarnícka) lišta namiesto bežnej vodiacej lišty: hrotom píly sa dostanete aj do ťažšie prístupných miest, viete viesť oblúkové rezy a vypracovať jemnejšie detaily tváre a končatín s nižším rizikom spätného vrhu.",
+            "relatedLinks": [{ "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" }]
+          },
+          {
+            "title": "6. Kontrola proporcií a uhlová brúska",
+            "body": "Čím viac je socha hotová, tým častejšie kontrolujeme vzájomné pomery postavy, postoj a rozloženie detailov – hrubá práca ešte dovoľuje malé korekcie, no táto možnosť sa s postupom prác rýchlo stráca. Keď sme s tvarom spokojní, nastupuje uhlová brúska s uberacím kotúčom, ktorým zaoblíme hranaté plochy a doladíme anatómiu podľa skutočných proporcií."
+          },
+          {
+            "title": "7. Spodné partie, dláta a označenie diela",
+            "body": "Nezabúdame ani na spodné partie, zadnú stranu sochy a úpravu podstavca – tieto miesta sa ľahko obídu, no na hotovom diele sú rovnako viditeľné. Do tejto chvíle sme pracovali výlučne so strojmi; teraz dostávajú slovo aj dláta, ktoré vo finálnej fáze zohrávajú kľúčovú úlohu pri jemnom dotvarovaní. Tesne pred dokončením môžeme sochu na vhodnom mieste označiť."
+          },
+          {
+            "title": "8. Brúsenie a povrchová úprava",
+            "body": "Na záver sa celý povrch prebrúsi brúsnymi kotúčmi a výsekmi a socha je pripravená na finálnu úpravu. Na jemné dobrúsenie detailov, ako sú tvár, prsty alebo ťažšie prístupné záhyby, sa oplatí siahnuť po frézkach a rašliach do priamej brúsky – dostanete sa nimi presne tam, kam sa väčší kotúč nezmestí. Povrchová úprava môže byť viacvrstvová: napríklad farebná medzivrstva (zriedená lazúra), ktorá sa po zaschnutí opäť prebrúsi, a až následne sa povrch upraví matným bezfarebným náterom.",
+            "relatedLinks": [
+              { "labelKey": "brusneVyseky", "href": "/kategorie/brusne-vyseky-brusny-papier-platno" },
+              { "labelKey": "priamaBruska", "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky" }
+            ]
+          }
+        ],
+        "contextBody": "Rezba motorovou pílou (chainsaw carving) je sochárska technika, pri ktorej socha vzniká priamo z kmeňa pomocou motorovej píly, uhlovej brúsky a dlát. Rýchlorezba (speedcarving) označuje zhotovenie diela v presnom časovom limite – typicky počas jedného dňa alebo niekoľkých hodín, často ako verejná ukážka. Na Slovensku má táto technika svoju tradíciu aj vďaka sochárovi Andrejovi Iršovi, ktorý je zároveň autorom odborných publikácií o rezbe motorovou pílou – jedna z nich dnes slúži ako akreditovaný výučbový materiál. Rovnakým postupom, aký opisuje tento návod, vznikajú záhradné plastiky, sochy v životnej veľkosti, figúry aj reliéfy pre verejné priestranstvá.",
+        "contextLinkLabel": "Značka Andrej Irša – a-studio",
+        "closingBody": "Chystáte sa na vlastnú sochu? V ponuke nájdete carvingové lišty na detailnú prácu s motorovou pílou, brúsne výseky na finálne dobrúsenie aj frézky do priamej brúsky na jemné detaily. Ak si nie ste istí výberom, napíšte nám cez kontaktný formulár alebo nás nájdete na eshop.marosko.sk."
+      }
+    },
+    "relatedLinkLabels": {
+      "carvingoveListy": "Carvingové lišty",
+      "brusneVyseky": "Brúsne výseky",
+      "priamaBruska": "Frézky do priamej brúsky"
+    }
+  },
   "videos": {
     "title": "Videá a návody",
     "subtitle": "Pozrite si naše náradie priamo v akcii.",
