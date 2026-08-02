@@ -36,11 +36,6 @@ type GuideItem = {
   closingLinks?: GuideLink[];
 };
 
-// Written guides are Slovak-only for now — no translated copy exists yet for cz/en/ro.
-function assertSlovak(locale: string) {
-  if (locale !== "sk") notFound();
-}
-
 export function generateStaticParams() {
   return guideArticles.map(({ slug }) => ({ article: slug }));
 }
@@ -52,7 +47,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale, article } = await params;
   const found = getGuideArticle(article);
-  if (!found || locale !== "sk") return {};
+  if (!found) return {};
 
   const t = await getTranslations({ locale, namespace: "guideArticles" });
   return buildMetadata({
@@ -72,7 +67,6 @@ export default async function GuideArticlePage({
   const { locale, article } = await params;
   const found = getGuideArticle(article);
   if (!found) notFound();
-  assertSlovak(locale);
   setRequestLocale(locale);
 
   const t = await getTranslations("guideArticles");

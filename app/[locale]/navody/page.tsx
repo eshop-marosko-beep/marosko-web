@@ -106,7 +106,7 @@ export default async function VideosPage({
         ))}
       </div>
 
-      {locale === "sk" && guideArticles.length > 0 && (
+      {guideArticles.length > 0 && (
         <>
           <h2 className="text-3xl font-bold text-espresso-800 mt-16 mb-4">{tGuides("title")}</h2>
           <p className="text-gray-600 text-lg mb-10 max-w-2xl">{tGuides("subtitle")}</p>

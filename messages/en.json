@@ -2071,62 +2071,64 @@
     }
   },
   "guideArticles": {
-    "title": "Písané návody",
-    "subtitle": "Podrobné postupy krok za krokom pre náročnejšie rezbárske projekty.",
-    "backToGuides": "Návody",
-    "stepsTitle": "Postup krok za krokom",
-    "relatedLabel": "Na túto fázu sa hodí",
-    "contextTitle": "Rýchlorezba a slovenská rezbárska tradícia",
-    "closingTitle": "Chystáte sa na vlastnú sochu?",
-    "readMore": "Čítať návod",
+    "title": "Written Guides",
+    "subtitle": "Detailed step-by-step guides for more advanced carving projects.",
+    "backToGuides": "Guides",
+    "stepsTitle": "Step-by-step process",
+    "relatedLabel": "Good for this stage",
+    "contextTitle": "Speedcarving and the Slovak carving tradition",
+    "closingTitle": "Planning your own sculpture?",
+    "readMore": "Read the guide",
     "items": {
       "sochaMotorovouPilou": {
-        "title": "Ako vyrezať sochu motorovou pílou: postup krok za krokom",
-        "cardDescription": "Od kmeňa cez hrubovanie motorovou pílou až po finálnu povrchovú úpravu – kompletný postup rýchlorezby v ôsmich krokoch.",
-        "eyebrow": "Rezba motorovou pílou",
-        "intro": "Socha v životnej veľkosti nemusí vznikať podľa hlineného modelu – stačí kmeň, motorová píla a jednoduchý náčrt na papieri. Nasledujúci postup ukazuje, ako z guľatiny vzniká ženská postava od prvého rezu až po finálnu povrchovú úpravu, a to v priebehu jediného dňa. Ide o takzvanú rýchlorezbu (speedcarving) – disciplínu, pri ktorej sa socha dokončuje v presnom časovom limite, typicky ako verejná ukážka na sympóziu alebo festivale.",
+        "title": "How to carve a sculpture with a chainsaw: step by step",
+        "cardDescription": "From the log through chainsaw roughing to the final finish – a complete speedcarving process in eight steps.",
+        "eyebrow": "Chainsaw carving",
+        "intro": "A life-size sculpture doesn't need a clay model – just a log, a chainsaw, and a simple sketch on paper. The process below shows how a female figure emerges from a log, from the first cut to the final finish, all within a single day. This is so-called speedcarving – a discipline where the sculpture is completed within a strict time limit, typically as a public demonstration at a symposium or festival.",
         "steps": [
           {
-            "title": "1. Príprava kmeňa",
-            "body": "Z kmeňa najprv odstránime kôru a zarovnáme čelá – predovšetkým podstavu, s ohľadom na plánovaný postoj sochy a vychýlenie ťažiska. Drevo postavíme do finálnej polohy a podľa náčrtu si na povrch kriedou vyznačíme prvé orientačné rezy."
+            "title": "1. Preparing the log",
+            "body": "We first strip the bark and level the ends of the log – especially the base, taking into account the sculpture's planned stance and the shift in its center of gravity. We stand the wood in its final position and use chalk to mark the first orientation cuts based on the sketch."
           },
           {
-            "title": "2. Prvé rezy a hlavná os",
-            "body": "Prvé rezy vedieme takmer po celej dĺžke materiálu z prednej aj zadnej strany. Na vzniknutých plochách vyznačíme hlavnú os – kolmú na vodorovnú rovinu, prechádzajúcu krčnou jamkou budúcej postavy. Kriedou dokreslíme rovné línie obrysu a postupne odoberáme prebytočný materiál."
+            "title": "2. First cuts and the main axis",
+            "body": "The first cuts run almost the full length of the material, from both front and back. On the resulting flat surfaces we mark the main axis – perpendicular to the horizontal plane, passing through the future figure's throat notch. We redraw the straight outline in chalk and gradually remove the excess material."
           },
           {
-            "title": "3. Hranaté tvary",
-            "body": "V tejto fáze socha ešte zámerne nemá oblé tvary. Hranaté plochy sa dajú oveľa lepšie kontrolovať a merať než zaoblené, preto pracujeme na celej postave naraz, nie len na jednej časti. Línie priebežne obnovujeme kriedou, už presnejšie tvarované než pri prvých rezoch."
+            "title": "3. Angular shapes",
+            "body": "At this stage the sculpture deliberately still has no rounded forms. Angular surfaces are far easier to check and measure than rounded ones, so we work on the whole figure at once rather than one section at a time. We keep refreshing the outline in chalk, already shaped more precisely than in the first cuts."
           },
           {
-            "title": "4. Presnejšie rezy a otvory",
-            "body": "Odoberané kúsky materiálu sú čoraz menšie a rezy musia byť presnejšie – chyba sa tu už dá len ťažko opraviť. Prácu preto pravidelne prerušujeme a hodnotíme postup s odstupom. Veľkú pílu vymieňame za menšiu, a až keď sú vonkajšie obrysy uspokojivé, púšťame sa do otvorov, napríklad medzi rukou a telom. Drobné nedorezy sa dajú doladiť kladivkom alebo páčidlom, ale len ak ide o pár vlákien."
+            "title": "4. More precise cuts and openings",
+            "body": "The pieces of material being removed get smaller and smaller, and the cuts need to be more precise – a mistake here is hard to fix. We pause regularly to assess progress from a distance. We swap the large saw for a smaller one, and once the outer contours are satisfactory, we start on any openings, for example between the arm and the body. Small uncut bits can be knocked away with a hammer or a small pry bar, but only if it's a few fibers at most."
           },
           {
-            "title": "5. Detaily a carvingová lišta",
-            "body": "Od tejto chvíle nevyznačujeme len obrysy, ale aj polohu detailov – nosa, uší, brady, prstov. Na jemné tvarovanie sa oveľa lepšie hodí špeciálna carvingová (výtvarnícka) lišta namiesto bežnej vodiacej lišty: hrotom píly sa dostanete aj do ťažšie prístupných miest, viete viesť oblúkové rezy a vypracovať jemnejšie detaily tváre a končatín s nižším rizikom spätného vrhu.",
-            "relatedLinks": [{ "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" }]
+            "title": "5. Details and the carving bar",
+            "body": "From this point on we mark not just outlines but also the position of details – the nose, ears, chin, fingers. A special carving (sculpting) bar is far better suited to this fine shaping than a standard guide bar: the tip of the saw lets you reach harder-to-access spots, cut curves, and work out finer facial and limb details with a lower risk of kickback.",
+            "relatedLinks": [
+              { "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" }
+            ]
           },
           {
-            "title": "6. Kontrola proporcií a uhlová brúska",
-            "body": "Čím viac je socha hotová, tým častejšie kontrolujeme vzájomné pomery postavy, postoj a rozloženie detailov – hrubá práca ešte dovoľuje malé korekcie, no táto možnosť sa s postupom prác rýchlo stráca. Keď sme s tvarom spokojní, nastupuje uhlová brúska s uberacím kotúčom, ktorým zaoblíme hranaté plochy a doladíme anatómiu podľa skutočných proporcií."
+            "title": "6. Checking proportions and the angle grinder",
+            "body": "The closer the sculpture gets to finished, the more often we check the figure's proportions, stance, and the placement of details – rough work still allows small corrections, but that margin shrinks fast as the work progresses. Once we're happy with the shape, an angle grinder with a shaping disc comes into play, rounding off the angular surfaces and fine-tuning the anatomy to match real proportions."
           },
           {
-            "title": "7. Spodné partie, dláta a označenie diela",
-            "body": "Nezabúdame ani na spodné partie, zadnú stranu sochy a úpravu podstavca – tieto miesta sa ľahko obídu, no na hotovom diele sú rovnako viditeľné. Do tejto chvíle sme pracovali výlučne so strojmi; teraz dostávajú slovo aj dláta, ktoré vo finálnej fáze zohrávajú kľúčovú úlohu pri jemnom dotvarovaní. Tesne pred dokončením môžeme sochu na vhodnom mieste označiť."
+            "title": "7. Lower body, chisels, and marking the piece",
+            "body": "We don't forget the lower body, the back of the sculpture, or finishing the base – these spots are easy to skip but just as visible on the finished piece. Up to this point we've worked exclusively with power tools; now chisels get their turn too, playing a key role in the final fine-tuning. Just before completion, we can sign the sculpture in a suitable spot."
           },
           {
-            "title": "8. Brúsenie a povrchová úprava",
-            "body": "Na záver sa celý povrch prebrúsi brúsnymi kotúčmi a výsekmi a socha je pripravená na finálnu úpravu. Na jemné dobrúsenie detailov, ako sú tvár, prsty alebo ťažšie prístupné záhyby, sa oplatí siahnuť po frézkach a rašliach do priamej brúsky – dostanete sa nimi presne tam, kam sa väčší kotúč nezmestí. Povrchová úprava môže byť viacvrstvová: napríklad farebná medzivrstva (zriedená lazúra), ktorá sa po zaschnutí opäť prebrúsi, a až následne sa povrch upraví matným bezfarebným náterom.",
+            "title": "8. Sanding and finishing",
+            "body": "Finally, the whole surface is sanded with abrasive discs, and the sculpture is ready for finishing. For fine sanding of details like the face, fingers, or hard-to-reach folds, it's worth reaching for die-grinder burrs and rasps – they get exactly where a bigger disc can't. The finish itself can be layered: for example a colored base coat (thinned stain), which is sanded again once dry, followed by a final matte, colorless coating.",
             "relatedLinks": [
               { "labelKey": "brusneVyseky", "href": "/kategorie/brusne-vyseky-brusny-papier-platno" },
               { "labelKey": "priamaBruska", "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky" }
             ]
           }
         ],
-        "contextBody": "Rezba motorovou pílou (chainsaw carving) je sochárska technika, pri ktorej socha vzniká priamo z kmeňa pomocou motorovej píly, uhlovej brúsky a dlát. Rýchlorezba (speedcarving) označuje zhotovenie diela v presnom časovom limite – typicky počas jedného dňa alebo niekoľkých hodín, často ako verejná ukážka. Na Slovensku má táto technika svoju tradíciu aj vďaka sochárovi Andrejovi Iršovi, ktorý je zároveň autorom odborných publikácií o rezbe motorovou pílou – jedna z nich dnes slúži ako akreditovaný výučbový materiál. Rovnakým postupom, aký opisuje tento návod, vznikajú záhradné plastiky, sochy v životnej veľkosti, figúry aj reliéfy pre verejné priestranstvá.",
-        "contextLinkLabel": "Značka Andrej Irša – a-studio",
-        "closingBody": "Chystáte sa na vlastnú sochu? V ponuke nájdete carvingové lišty na detailnú prácu s motorovou pílou, brúsne výseky na finálne dobrúsenie aj frézky do priamej brúsky na jemné detaily. Ak si nie ste istí výberom, napíšte nám cez kontaktný formulár alebo nás nájdete na eshop.marosko.sk.",
+        "contextBody": "Chainsaw carving is a sculpting technique in which a sculpture is created directly from a log using a chainsaw, an angle grinder, and chisels. Speedcarving refers to completing a piece within a strict time limit – typically within a single day or a few hours, often as a public demonstration. In Slovakia, the technique also has a tradition thanks to sculptor Andrej Irša, who is also the author of professional publications on chainsaw carving – one of which now serves as accredited teaching material. The same process described in this guide is used to create garden sculptures, life-size figures, and reliefs for public spaces.",
+        "contextLinkLabel": "Andrej Irša – a-studio brand",
+        "closingBody": "Planning your own sculpture? Our range includes carving bars for detailed chainsaw work, abrasive discs for the final sanding, and die-grinder bits for fine details. If you're not sure what to choose, reach us through the contact form or find us at eshop.marosko.sk.",
         "closingLinks": [
           { "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" },
           { "labelKey": "brusneVyseky", "href": "/kategorie/brusne-vyseky-brusny-papier-platno" },
@@ -2134,38 +2136,38 @@
         ]
       },
       "knihaRezbaMotorovouPilou": {
-        "title": "Rezba motorovou pílou – príručka pre výtvarníkov (2. vydanie)",
-        "cardDescription": "Odborná príručka Andreja Iršu o rezbe motorovou pílou – od poznania dreva až po bezpečnosť práce a cenotvorbu diel. Teraz v druhom, rozšírenom vydaní.",
-        "eyebrow": "Odporúčaná literatúra",
-        "intro": "Druhé, rozšírené a prepracované vydanie úspešnej príručky slovenského sochára Andreja Iršu zhŕňa desaťročia jeho skúseností s rezbou motorovou pílou – od poznania dreva cez stroje a nástroje až po pracovné postupy, bezpečnosť a cenotvorbu hotových diel.",
+        "title": "Chainsaw Carving – A Handbook for Sculptors (2nd edition)",
+        "cardDescription": "Andrej Irša's professional handbook on chainsaw carving – from understanding wood to workplace safety and pricing your work. Now in its second, expanded edition.",
+        "eyebrow": "Recommended reading",
+        "intro": "The second, expanded and revised edition of Slovak sculptor Andrej Irša's successful handbook sums up decades of his experience with chainsaw carving – from understanding wood, through machines and tools, to work processes, safety, and pricing finished pieces.",
         "sections": [
           {
-            "title": "O čom kniha je",
-            "body": "Publikácia prevedie čitateľa od základov – druhov dreva, ich rastu, ťažby, sušenia, vád a spracovania – cez vzorník až 100 druhov dreva, slohy a históriu spracovania dreva až po výklad výtvarných pojmov a výtvarnú anatómiu. Venuje sa aj výberu a vývoju strojov a nástrojov, samotným pracovným postupom, organizácii podujatí, bezpečnosti pri práci, starostlivosti o hotové diela, ich prezentácii a dokumentácii, a napokon aj cenotvorbe."
+            "title": "What the book covers",
+            "body": "The book takes the reader from the basics – types of wood, how they grow, harvesting, drying, defects, and processing – through a swatch of up to 100 wood species, styles and the history of woodworking, all the way to an explanation of art terminology and artistic anatomy. It also covers selecting and the evolution of machines and tools, work processes themselves, organizing events, workplace safety, caring for finished pieces, presenting and documenting them, and finally, pricing."
           },
           {
-            "title": "Pre koho je kniha vhodná",
-            "body": "Kniha je určená každému, kto sa zaujíma o rezbárstvo a prácu s drevom – profesionálnym výtvarníkom aj remeselníkom, školám a záujmovým organizáciám, organizátorom rezbárskych sympózií a workshopov, ale aj majiteľom záhrad, chalúp a vlastníkom motorových píl, ktorí chcú svoj stroj využiť aj na tvorivú prácu."
+            "title": "Who the book is for",
+            "body": "The book is aimed at anyone interested in woodcarving and working with wood – professional sculptors and craftspeople, schools and hobby organizations, organizers of carving symposiums and workshops, as well as garden and cottage owners and chainsaw owners who'd like to put their saw to creative use."
           }
         ],
-        "factsTitle": "Základné údaje o knihe",
+        "factsTitle": "Key facts about the book",
         "facts": [
-          "Autor: Andrej Irša",
-          "Vydanie: druhé, rozšírené a prepracované",
-          "Vydavateľ: A-studio Andrej Irša",
+          "Author: Andrej Irša",
+          "Edition: second, expanded and revised",
+          "Publisher: A-studio Andrej Irša",
           "ISBN: 978-80-570-1207-8",
-          "Rozsah: 225 strán, 420 fotografií, 68 kresieb, grafov a tabuliek, 19 kapitol, 229 spracovaných hesiel",
-          "Väzba: mäkká"
+          "Length: 225 pages, 420 photographs, 68 drawings, charts and tables, 19 chapters, 229 covered entries",
+          "Binding: softcover"
         ],
-        "ctaLabel": "Objednať knihu v e-shope",
-        "contextBody": "Andrej Irša je výrazná slovenská sochárska osobnosť, ktorej nástroje a produkty nájdete aj v našej ponuke. Vo svojej tvorbe kombinuje drevo, kov, plast aj 3D tlač a venuje sa realistickej figúre aj abstraktným dielam.",
-        "contextLinkLabel": "Značka Andrej Irša – a-studio"
+        "ctaLabel": "Order the book in our shop",
+        "contextBody": "Andrej Irša is a notable Slovak sculptor whose tools and products are also part of our range. His work spans wood, metal, plastic, and 3D printing, from realistic figures to abstract pieces.",
+        "contextLinkLabel": "Andrej Irša – a-studio brand"
       }
     },
     "relatedLinkLabels": {
-      "carvingoveListy": "Carvingové lišty",
-      "brusneVyseky": "Brúsne výseky",
-      "priamaBruska": "Frézky do priamej brúsky"
+      "carvingoveListy": "Carving bars",
+      "brusneVyseky": "Abrasive discs",
+      "priamaBruska": "Die grinder bits"
     }
   },
   "videos": {
