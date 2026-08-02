@@ -13,6 +13,12 @@ export const pdfGuides: PdfGuide[] = [
     translationKey: "katalogArbortech",
   },
   {
+    slug: "katalog-arbortech-2025-en",
+    fileUrl: "/pdfs/arbortech-katalog-2025-en.pdf",
+    fileSize: "6,0 MB",
+    translationKey: "katalogArbortech2025En",
+  },
+  {
     slug: "navod-arbortech-woodcarver-industrial",
     fileUrl:
       "https://eshop.marosko.sk/files/na-drevo/arbortech/industrial/arbortech-industrial-woodcarver-manual-indpkbook100.pdf",
