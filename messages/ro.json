@@ -2071,62 +2071,64 @@
     }
   },
   "guideArticles": {
-    "title": "Písané návody",
-    "subtitle": "Podrobné postupy krok za krokom pre náročnejšie rezbárske projekty.",
-    "backToGuides": "Návody",
-    "stepsTitle": "Postup krok za krokom",
-    "relatedLabel": "Na túto fázu sa hodí",
-    "contextTitle": "Rýchlorezba a slovenská rezbárska tradícia",
-    "closingTitle": "Chystáte sa na vlastnú sochu?",
-    "readMore": "Čítať návod",
+    "title": "Ghiduri scrise",
+    "subtitle": "Instrucțiuni detaliate, pas cu pas, pentru proiecte de cioplit mai avansate.",
+    "backToGuides": "Ghiduri",
+    "stepsTitle": "Pas cu pas",
+    "relatedLabel": "Potrivit pentru această etapă",
+    "contextTitle": "Sculptura rapidă și tradiția slovacă a cioplitului",
+    "closingTitle": "Vă pregătiți pentru propria sculptură?",
+    "readMore": "Citiți ghidul",
     "items": {
       "sochaMotorovouPilou": {
-        "title": "Ako vyrezať sochu motorovou pílou: postup krok za krokom",
-        "cardDescription": "Od kmeňa cez hrubovanie motorovou pílou až po finálnu povrchovú úpravu – kompletný postup rýchlorezby v ôsmich krokoch.",
-        "eyebrow": "Rezba motorovou pílou",
-        "intro": "Socha v životnej veľkosti nemusí vznikať podľa hlineného modelu – stačí kmeň, motorová píla a jednoduchý náčrt na papieri. Nasledujúci postup ukazuje, ako z guľatiny vzniká ženská postava od prvého rezu až po finálnu povrchovú úpravu, a to v priebehu jediného dňa. Ide o takzvanú rýchlorezbu (speedcarving) – disciplínu, pri ktorej sa socha dokončuje v presnom časovom limite, typicky ako verejná ukážka na sympóziu alebo festivale.",
+        "title": "Cum se cioplește o statuie cu drujba: pas cu pas",
+        "cardDescription": "De la trunchi, prin degroșarea cu drujba, până la finisajul final – procesul complet de sculptură rapidă în opt pași.",
+        "eyebrow": "Cioplit cu drujba",
+        "intro": "O statuie la scară naturală nu trebuie neapărat realizată după un model din lut – e nevoie doar de un trunchi, o drujbă și o schiță simplă pe hârtie. Procesul de mai jos arată cum apare o figură feminină dintr-un buștean, de la prima tăietură până la finisajul final, totul în decursul unei singure zile. Este vorba despre așa-numita sculptură rapidă (speedcarving) – o disciplină în care statuia este finalizată într-un interval de timp strict, de obicei ca demonstrație publică la un simpozion sau festival.",
         "steps": [
           {
-            "title": "1. Príprava kmeňa",
-            "body": "Z kmeňa najprv odstránime kôru a zarovnáme čelá – predovšetkým podstavu, s ohľadom na plánovaný postoj sochy a vychýlenie ťažiska. Drevo postavíme do finálnej polohy a podľa náčrtu si na povrch kriedou vyznačíme prvé orientačné rezy."
+            "title": "1. Pregătirea trunchiului",
+            "body": "Mai întâi îndepărtăm coaja și nivelăm capetele trunchiului – în special baza, ținând cont de poziția planificată a statuii și de deplasarea centrului de greutate. Așezăm lemnul în poziția finală și, conform schiței, trasăm cu creta primele tăieturi de orientare pe suprafață."
           },
           {
-            "title": "2. Prvé rezy a hlavná os",
-            "body": "Prvé rezy vedieme takmer po celej dĺžke materiálu z prednej aj zadnej strany. Na vzniknutých plochách vyznačíme hlavnú os – kolmú na vodorovnú rovinu, prechádzajúcu krčnou jamkou budúcej postavy. Kriedou dokreslíme rovné línie obrysu a postupne odoberáme prebytočný materiál."
+            "title": "2. Primele tăieturi și axa principală",
+            "body": "Primele tăieturi se fac pe aproape toată lungimea materialului, atât din față, cât și din spate. Pe suprafețele rezultate trasăm axa principală – perpendiculară pe planul orizontal, trecând prin scobitura gâtului viitoarei figuri. Cu creta redesenăm liniile drepte ale conturului și îndepărtăm treptat materialul în exces."
           },
           {
-            "title": "3. Hranaté tvary",
-            "body": "V tejto fáze socha ešte zámerne nemá oblé tvary. Hranaté plochy sa dajú oveľa lepšie kontrolovať a merať než zaoblené, preto pracujeme na celej postave naraz, nie len na jednej časti. Línie priebežne obnovujeme kriedou, už presnejšie tvarované než pri prvých rezoch."
+            "title": "3. Forme unghiulare",
+            "body": "În această etapă, statuia nu are încă intenționat forme rotunjite. Suprafețele unghiulare sunt mult mai ușor de controlat și măsurat decât cele rotunjite, așa că lucrăm la întreaga figură deodată, nu doar la o singură parte. Reînnoim constant liniile cu creta, deja mai precis conturate decât la primele tăieturi."
           },
           {
-            "title": "4. Presnejšie rezy a otvory",
-            "body": "Odoberané kúsky materiálu sú čoraz menšie a rezy musia byť presnejšie – chyba sa tu už dá len ťažko opraviť. Prácu preto pravidelne prerušujeme a hodnotíme postup s odstupom. Veľkú pílu vymieňame za menšiu, a až keď sú vonkajšie obrysy uspokojivé, púšťame sa do otvorov, napríklad medzi rukou a telom. Drobné nedorezy sa dajú doladiť kladivkom alebo páčidlom, ale len ak ide o pár vlákien."
+            "title": "4. Tăieturi mai precise și deschideri",
+            "body": "Bucățile de material îndepărtate devin din ce în ce mai mici, iar tăieturile trebuie să fie mai precise – o greșeală aici este greu de reparat. De aceea întrerupem lucrul periodic și evaluăm progresul de la distanță. Înlocuim drujba mare cu una mai mică, iar abia când conturul exterior este satisfăcător, trecem la deschideri, de exemplu între braț și corp. Micile porțiuni netăiate pot fi îndepărtate cu un ciocan sau o rangă, dar doar dacă este vorba de câteva fibre."
           },
           {
-            "title": "5. Detaily a carvingová lišta",
-            "body": "Od tejto chvíle nevyznačujeme len obrysy, ale aj polohu detailov – nosa, uší, brady, prstov. Na jemné tvarovanie sa oveľa lepšie hodí špeciálna carvingová (výtvarnícka) lišta namiesto bežnej vodiacej lišty: hrotom píly sa dostanete aj do ťažšie prístupných miest, viete viesť oblúkové rezy a vypracovať jemnejšie detaily tváre a končatín s nižším rizikom spätného vrhu.",
-            "relatedLinks": [{ "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" }]
+            "title": "5. Detalii și șina de sculptură",
+            "body": "Din acest moment nu mai marcăm doar conturul, ci și poziția detaliilor – nasul, urechile, bărbia, degetele. Pentru modelarea fină se potrivește mult mai bine o șină specială de sculptură (carving) decât o șină de ghidare obișnuită: cu vârful lamei ajungeți și în locurile mai greu accesibile, puteți realiza tăieturi curbe și lucra detalii mai fine ale feței și membrelor, cu un risc mai mic de recul.",
+            "relatedLinks": [
+              { "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" }
+            ]
           },
           {
-            "title": "6. Kontrola proporcií a uhlová brúska",
-            "body": "Čím viac je socha hotová, tým častejšie kontrolujeme vzájomné pomery postavy, postoj a rozloženie detailov – hrubá práca ešte dovoľuje malé korekcie, no táto možnosť sa s postupom prác rýchlo stráca. Keď sme s tvarom spokojní, nastupuje uhlová brúska s uberacím kotúčom, ktorým zaoblíme hranaté plochy a doladíme anatómiu podľa skutočných proporcií."
+            "title": "6. Verificarea proporțiilor și polizorul unghiular",
+            "body": "Cu cât statuia este mai aproape de final, cu atât verificăm mai des proporțiile figurii, poziția și dispunerea detaliilor – lucrul brut mai permite corecții mici, însă această posibilitate dispare rapid pe măsură ce lucrarea avansează. Când suntem mulțumiți de formă, intervine polizorul unghiular cu disc de degroșare, cu care rotunjim suprafețele unghiulare și ajustăm anatomia conform proporțiilor reale."
           },
           {
-            "title": "7. Spodné partie, dláta a označenie diela",
-            "body": "Nezabúdame ani na spodné partie, zadnú stranu sochy a úpravu podstavca – tieto miesta sa ľahko obídu, no na hotovom diele sú rovnako viditeľné. Do tejto chvíle sme pracovali výlučne so strojmi; teraz dostávajú slovo aj dláta, ktoré vo finálnej fáze zohrávajú kľúčovú úlohu pri jemnom dotvarovaní. Tesne pred dokončením môžeme sochu na vhodnom mieste označiť."
+            "title": "7. Partea inferioară, dălțile și semnarea lucrării",
+            "body": "Nu uităm nici de partea inferioară, spatele statuii și finisarea soclului – aceste zone sunt ușor de omis, dar sunt la fel de vizibile pe lucrarea finită. Până acum am lucrat exclusiv cu unelte electrice; acum intră în joc și dălțile, care în faza finală au un rol esențial în definitivarea fină. Chiar înainte de finalizare, putem semna statuia într-un loc potrivit."
           },
           {
-            "title": "8. Brúsenie a povrchová úprava",
-            "body": "Na záver sa celý povrch prebrúsi brúsnymi kotúčmi a výsekmi a socha je pripravená na finálnu úpravu. Na jemné dobrúsenie detailov, ako sú tvár, prsty alebo ťažšie prístupné záhyby, sa oplatí siahnuť po frézkach a rašliach do priamej brúsky – dostanete sa nimi presne tam, kam sa väčší kotúč nezmestí. Povrchová úprava môže byť viacvrstvová: napríklad farebná medzivrstva (zriedená lazúra), ktorá sa po zaschnutí opäť prebrúsi, a až následne sa povrch upraví matným bezfarebným náterom.",
+            "title": "8. Șlefuire și finisaj",
+            "body": "În final, întreaga suprafață se șlefuiește cu discuri abrazive, iar statuia este pregătită pentru finisaj. Pentru șlefuirea fină a detaliilor, precum fața, degetele sau cutele greu accesibile, merită folosite freze și pile pentru polizorul drept – cu acestea ajungeți exact acolo unde un disc mai mare nu încape. Finisajul poate fi aplicat în mai multe straturi: de exemplu un strat colorat intermediar (lazură diluată), care se șlefuiește din nou după uscare, iar apoi suprafața se tratează cu un strat mat, incolor.",
             "relatedLinks": [
               { "labelKey": "brusneVyseky", "href": "/kategorie/brusne-vyseky-brusny-papier-platno" },
               { "labelKey": "priamaBruska", "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky" }
             ]
           }
         ],
-        "contextBody": "Rezba motorovou pílou (chainsaw carving) je sochárska technika, pri ktorej socha vzniká priamo z kmeňa pomocou motorovej píly, uhlovej brúsky a dlát. Rýchlorezba (speedcarving) označuje zhotovenie diela v presnom časovom limite – typicky počas jedného dňa alebo niekoľkých hodín, často ako verejná ukážka. Na Slovensku má táto technika svoju tradíciu aj vďaka sochárovi Andrejovi Iršovi, ktorý je zároveň autorom odborných publikácií o rezbe motorovou pílou – jedna z nich dnes slúži ako akreditovaný výučbový materiál. Rovnakým postupom, aký opisuje tento návod, vznikajú záhradné plastiky, sochy v životnej veľkosti, figúry aj reliéfy pre verejné priestranstvá.",
-        "contextLinkLabel": "Značka Andrej Irša – a-studio",
-        "closingBody": "Chystáte sa na vlastnú sochu? V ponuke nájdete carvingové lišty na detailnú prácu s motorovou pílou, brúsne výseky na finálne dobrúsenie aj frézky do priamej brúsky na jemné detaily. Ak si nie ste istí výberom, napíšte nám cez kontaktný formulár alebo nás nájdete na eshop.marosko.sk.",
+        "contextBody": "Cioplitul cu drujba (chainsaw carving) este o tehnică sculpturală în care statuia ia naștere direct dintr-un trunchi, cu ajutorul drujbei, al polizorului unghiular și al dălților. Sculptura rapidă (speedcarving) desemnează realizarea unei lucrări într-un interval de timp strict – de obicei în decursul unei zile sau a câtorva ore, adesea ca demonstrație publică. În Slovacia, această tehnică are o tradiție și datorită sculptorului Andrej Irša, care este totodată autorul unor publicații de specialitate despre cioplitul cu drujba – una dintre ele servind astăzi drept material didactic acreditat. Prin același procedeu descris în acest ghid iau naștere sculpturi de grădină, figuri la scară naturală și reliefuri pentru spații publice.",
+        "contextLinkLabel": "Marca Andrej Irša – a-studio",
+        "closingBody": "Vă pregătiți pentru propria statuie? În oferta noastră găsiți șine de sculptură pentru lucrul de detaliu cu drujba, discuri abrazive pentru șlefuirea finală și freze pentru polizorul drept pentru detalii fine. Dacă nu sunteți sigur ce să alegeți, scrieți-ne prin formularul de contact sau găsiți-ne pe eshop.marosko.sk.",
         "closingLinks": [
           { "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" },
           { "labelKey": "brusneVyseky", "href": "/kategorie/brusne-vyseky-brusny-papier-platno" },
@@ -2134,38 +2136,38 @@
         ]
       },
       "knihaRezbaMotorovouPilou": {
-        "title": "Rezba motorovou pílou – príručka pre výtvarníkov (2. vydanie)",
-        "cardDescription": "Odborná príručka Andreja Iršu o rezbe motorovou pílou – od poznania dreva až po bezpečnosť práce a cenotvorbu diel. Teraz v druhom, rozšírenom vydaní.",
-        "eyebrow": "Odporúčaná literatúra",
-        "intro": "Druhé, rozšírené a prepracované vydanie úspešnej príručky slovenského sochára Andreja Iršu zhŕňa desaťročia jeho skúseností s rezbou motorovou pílou – od poznania dreva cez stroje a nástroje až po pracovné postupy, bezpečnosť a cenotvorbu hotových diel.",
+        "title": "Cioplitul cu drujba – ghid pentru artiști plastici (ediția a 2-a)",
+        "cardDescription": "Ghidul de specialitate al lui Andrej Irša despre cioplitul cu drujba – de la cunoașterea lemnului până la siguranța muncii și stabilirea prețurilor lucrărilor. Acum în a doua ediție, extinsă.",
+        "eyebrow": "Lectură recomandată",
+        "intro": "A doua ediție, extinsă și revizuită, a ghidului de succes al sculptorului slovac Andrej Irša adună zeci de ani de experiență în cioplitul cu drujba – de la cunoașterea lemnului, prin mașini și unelte, până la procesele de lucru, siguranță și stabilirea prețurilor lucrărilor finite.",
         "sections": [
           {
-            "title": "O čom kniha je",
-            "body": "Publikácia prevedie čitateľa od základov – druhov dreva, ich rastu, ťažby, sušenia, vád a spracovania – cez vzorník až 100 druhov dreva, slohy a históriu spracovania dreva až po výklad výtvarných pojmov a výtvarnú anatómiu. Venuje sa aj výberu a vývoju strojov a nástrojov, samotným pracovným postupom, organizácii podujatí, bezpečnosti pri práci, starostlivosti o hotové diela, ich prezentácii a dokumentácii, a napokon aj cenotvorbe."
+            "title": "Despre ce este cartea",
+            "body": "Publicația conduce cititorul de la bază – tipuri de lemn, creșterea, exploatarea, uscarea, defectele și prelucrarea acestora – printr-un eșantion de până la 100 de specii de lemn, stiluri și istoria prelucrării lemnului, până la explicarea termenilor artistici și a anatomiei artistice. Se ocupă și de alegerea și evoluția mașinilor și uneltelor, de procesele de lucru propriu-zise, de organizarea evenimentelor, de siguranța muncii, de îngrijirea lucrărilor finite, de prezentarea și documentarea lor și, în final, de stabilirea prețurilor."
           },
           {
-            "title": "Pre koho je kniha vhodná",
-            "body": "Kniha je určená každému, kto sa zaujíma o rezbárstvo a prácu s drevom – profesionálnym výtvarníkom aj remeselníkom, školám a záujmovým organizáciám, organizátorom rezbárskych sympózií a workshopov, ale aj majiteľom záhrad, chalúp a vlastníkom motorových píl, ktorí chcú svoj stroj využiť aj na tvorivú prácu."
+            "title": "Pentru cine este potrivită cartea",
+            "body": "Cartea se adresează oricui este interesat de cioplit și de lucrul cu lemnul – artiștilor plastici profesioniști și meșteșugarilor, școlilor și organizațiilor de profil, organizatorilor de simpozioane și ateliere de sculptură, dar și proprietarilor de grădini, case de vacanță și drujbe, care doresc să-și folosească utilajul și în scop creativ."
           }
         ],
-        "factsTitle": "Základné údaje o knihe",
+        "factsTitle": "Date esențiale despre carte",
         "facts": [
           "Autor: Andrej Irša",
-          "Vydanie: druhé, rozšírené a prepracované",
-          "Vydavateľ: A-studio Andrej Irša",
+          "Ediție: a doua, extinsă și revizuită",
+          "Editură: A-studio Andrej Irša",
           "ISBN: 978-80-570-1207-8",
-          "Rozsah: 225 strán, 420 fotografií, 68 kresieb, grafov a tabuliek, 19 kapitol, 229 spracovaných hesiel",
-          "Väzba: mäkká"
+          "Întindere: 225 de pagini, 420 de fotografii, 68 de desene, grafice și tabele, 19 capitole, 229 de subiecte tratate",
+          "Legătură: broșată"
         ],
-        "ctaLabel": "Objednať knihu v e-shope",
-        "contextBody": "Andrej Irša je výrazná slovenská sochárska osobnosť, ktorej nástroje a produkty nájdete aj v našej ponuke. Vo svojej tvorbe kombinuje drevo, kov, plast aj 3D tlač a venuje sa realistickej figúre aj abstraktným dielam.",
-        "contextLinkLabel": "Značka Andrej Irša – a-studio"
+        "ctaLabel": "Comandați cartea în magazinul nostru online",
+        "contextBody": "Andrej Irša este o personalitate importantă a sculpturii slovace, ale cărui unelte și produse le găsiți și în oferta noastră. În creația sa combină lemnul, metalul, plasticul și imprimarea 3D și abordează atât figura realistă, cât și lucrările abstracte.",
+        "contextLinkLabel": "Marca Andrej Irša – a-studio"
       }
     },
     "relatedLinkLabels": {
-      "carvingoveListy": "Carvingové lišty",
-      "brusneVyseky": "Brúsne výseky",
-      "priamaBruska": "Frézky do priamej brúsky"
+      "carvingoveListy": "Șine de sculptură (carving)",
+      "brusneVyseky": "Discuri abrazive",
+      "priamaBruska": "Freze pentru polizorul drept"
     }
   },
   "videos": {

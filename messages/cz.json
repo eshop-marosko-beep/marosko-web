@@ -2071,62 +2071,64 @@
     }
   },
   "guideArticles": {
-    "title": "Písané návody",
-    "subtitle": "Podrobné postupy krok za krokom pre náročnejšie rezbárske projekty.",
+    "title": "Psané návody",
+    "subtitle": "Podrobné postupy krok za krokem pro náročnější řezbářské projekty.",
     "backToGuides": "Návody",
-    "stepsTitle": "Postup krok za krokom",
-    "relatedLabel": "Na túto fázu sa hodí",
-    "contextTitle": "Rýchlorezba a slovenská rezbárska tradícia",
-    "closingTitle": "Chystáte sa na vlastnú sochu?",
-    "readMore": "Čítať návod",
+    "stepsTitle": "Postup krok za krokem",
+    "relatedLabel": "Pro tuto fázi se hodí",
+    "contextTitle": "Rychlořezba a slovenská řezbářská tradice",
+    "closingTitle": "Chystáte se na vlastní sochu?",
+    "readMore": "Číst návod",
     "items": {
       "sochaMotorovouPilou": {
-        "title": "Ako vyrezať sochu motorovou pílou: postup krok za krokom",
-        "cardDescription": "Od kmeňa cez hrubovanie motorovou pílou až po finálnu povrchovú úpravu – kompletný postup rýchlorezby v ôsmich krokoch.",
-        "eyebrow": "Rezba motorovou pílou",
-        "intro": "Socha v životnej veľkosti nemusí vznikať podľa hlineného modelu – stačí kmeň, motorová píla a jednoduchý náčrt na papieri. Nasledujúci postup ukazuje, ako z guľatiny vzniká ženská postava od prvého rezu až po finálnu povrchovú úpravu, a to v priebehu jediného dňa. Ide o takzvanú rýchlorezbu (speedcarving) – disciplínu, pri ktorej sa socha dokončuje v presnom časovom limite, typicky ako verejná ukážka na sympóziu alebo festivale.",
+        "title": "Jak vyřezat sochu motorovou pilou: postup krok za krokem",
+        "cardDescription": "Od kmene přes hrubování motorovou pilou až po finální povrchovou úpravu – kompletní postup rychlořezby v osmi krocích.",
+        "eyebrow": "Řezba motorovou pilou",
+        "intro": "Socha v životní velikosti nemusí vznikat podle hliněného modelu – stačí kmen, motorová pila a jednoduchý náčrt na papíře. Následující postup ukazuje, jak z kulatiny vzniká ženská postava od prvního řezu až po finální povrchovou úpravu, a to v průběhu jediného dne. Jde o takzvanou rychlořezbu (speedcarving) – disciplínu, při které se socha dokončuje v přesném časovém limitu, typicky jako veřejná ukázka na sympoziu nebo festivalu.",
         "steps": [
           {
-            "title": "1. Príprava kmeňa",
-            "body": "Z kmeňa najprv odstránime kôru a zarovnáme čelá – predovšetkým podstavu, s ohľadom na plánovaný postoj sochy a vychýlenie ťažiska. Drevo postavíme do finálnej polohy a podľa náčrtu si na povrch kriedou vyznačíme prvé orientačné rezy."
+            "title": "1. Příprava kmene",
+            "body": "Z kmene nejprve odstraníme kůru a zarovnáme čela – především podstavu, s ohledem na plánovaný postoj sochy a vychýlení těžiště. Dřevo postavíme do finální polohy a podle náčrtu si na povrch křídou vyznačíme první orientační řezy."
           },
           {
-            "title": "2. Prvé rezy a hlavná os",
-            "body": "Prvé rezy vedieme takmer po celej dĺžke materiálu z prednej aj zadnej strany. Na vzniknutých plochách vyznačíme hlavnú os – kolmú na vodorovnú rovinu, prechádzajúcu krčnou jamkou budúcej postavy. Kriedou dokreslíme rovné línie obrysu a postupne odoberáme prebytočný materiál."
+            "title": "2. První řezy a hlavní osa",
+            "body": "První řezy vedeme téměř po celé délce materiálu z přední i zadní strany. Na vzniklých plochách vyznačíme hlavní osu – kolmou na vodorovnou rovinu, procházející krční jamkou budoucí postavy. Křídou dokreslíme rovné linie obrysu a postupně odebíráme přebytečný materiál."
           },
           {
             "title": "3. Hranaté tvary",
-            "body": "V tejto fáze socha ešte zámerne nemá oblé tvary. Hranaté plochy sa dajú oveľa lepšie kontrolovať a merať než zaoblené, preto pracujeme na celej postave naraz, nie len na jednej časti. Línie priebežne obnovujeme kriedou, už presnejšie tvarované než pri prvých rezoch."
+            "body": "V této fázi socha ještě záměrně nemá oblé tvary. Hranaté plochy se dají mnohem lépe kontrolovat a měřit než zaoblené, proto pracujeme na celé postavě najednou, ne jen na jedné části. Linie průběžně obnovujeme křídou, už přesněji tvarované než při prvních řezech."
           },
           {
-            "title": "4. Presnejšie rezy a otvory",
-            "body": "Odoberané kúsky materiálu sú čoraz menšie a rezy musia byť presnejšie – chyba sa tu už dá len ťažko opraviť. Prácu preto pravidelne prerušujeme a hodnotíme postup s odstupom. Veľkú pílu vymieňame za menšiu, a až keď sú vonkajšie obrysy uspokojivé, púšťame sa do otvorov, napríklad medzi rukou a telom. Drobné nedorezy sa dajú doladiť kladivkom alebo páčidlom, ale len ak ide o pár vlákien."
+            "title": "4. Přesnější řezy a otvory",
+            "body": "Odebírané kusy materiálu jsou čím dál menší a řezy musí být přesnější – chyba se tu už dá jen těžko opravit. Práci proto pravidelně přerušujeme a hodnotíme postup s odstupem. Velkou pilu vyměníme za menší, a až když jsou vnější obrysy uspokojivé, pouštíme se do otvorů, například mezi rukou a tělem. Drobné nedořezy se dají doladit kladívkem nebo páčidlem, ale jen pokud jde o pár vláken."
           },
           {
             "title": "5. Detaily a carvingová lišta",
-            "body": "Od tejto chvíle nevyznačujeme len obrysy, ale aj polohu detailov – nosa, uší, brady, prstov. Na jemné tvarovanie sa oveľa lepšie hodí špeciálna carvingová (výtvarnícka) lišta namiesto bežnej vodiacej lišty: hrotom píly sa dostanete aj do ťažšie prístupných miest, viete viesť oblúkové rezy a vypracovať jemnejšie detaily tváre a končatín s nižším rizikom spätného vrhu.",
-            "relatedLinks": [{ "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" }]
+            "body": "Od této chvíle nevyznačujeme jen obrysy, ale i polohu detailů – nosu, uší, brady, prstů. Na jemné tvarování se mnohem lépe hodí speciální carvingová (výtvarnická) lišta místo běžné vodicí lišty: hrotem pily se dostanete i do hůře přístupných míst, umíte vést obloukové řezy a vypracovat jemnější detaily obličeje a končetin s nižším rizikem zpětného vrhu.",
+            "relatedLinks": [
+              { "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" }
+            ]
           },
           {
-            "title": "6. Kontrola proporcií a uhlová brúska",
-            "body": "Čím viac je socha hotová, tým častejšie kontrolujeme vzájomné pomery postavy, postoj a rozloženie detailov – hrubá práca ešte dovoľuje malé korekcie, no táto možnosť sa s postupom prác rýchlo stráca. Keď sme s tvarom spokojní, nastupuje uhlová brúska s uberacím kotúčom, ktorým zaoblíme hranaté plochy a doladíme anatómiu podľa skutočných proporcií."
+            "title": "6. Kontrola proporcí a úhlová bruska",
+            "body": "Čím víc je socha hotová, tím častěji kontrolujeme vzájemné poměry postavy, postoj a rozložení detailů – hrubá práce ještě dovoluje malé korekce, ale tato možnost se s postupem prací rychle ztrácí. Když jsme s tvarem spokojeni, nastupuje úhlová bruska s uběracím kotoučem, kterým zaoblíme hranaté plochy a doladíme anatomii podle skutečných proporcí."
           },
           {
-            "title": "7. Spodné partie, dláta a označenie diela",
-            "body": "Nezabúdame ani na spodné partie, zadnú stranu sochy a úpravu podstavca – tieto miesta sa ľahko obídu, no na hotovom diele sú rovnako viditeľné. Do tejto chvíle sme pracovali výlučne so strojmi; teraz dostávajú slovo aj dláta, ktoré vo finálnej fáze zohrávajú kľúčovú úlohu pri jemnom dotvarovaní. Tesne pred dokončením môžeme sochu na vhodnom mieste označiť."
+            "title": "7. Spodní partie, dláta a označení díla",
+            "body": "Nezapomínáme ani na spodní partie, zadní stranu sochy a úpravu podstavce – tato místa se snadno obejdou, ale na hotovém díle jsou stejně viditelná. Do této chvíle jsme pracovali výhradně se stroji; teď dostávají slovo i dláta, která ve finální fázi hrají klíčovou roli při jemném dotváření. Těsně před dokončením můžeme sochu na vhodném místě označit."
           },
           {
-            "title": "8. Brúsenie a povrchová úprava",
-            "body": "Na záver sa celý povrch prebrúsi brúsnymi kotúčmi a výsekmi a socha je pripravená na finálnu úpravu. Na jemné dobrúsenie detailov, ako sú tvár, prsty alebo ťažšie prístupné záhyby, sa oplatí siahnuť po frézkach a rašliach do priamej brúsky – dostanete sa nimi presne tam, kam sa väčší kotúč nezmestí. Povrchová úprava môže byť viacvrstvová: napríklad farebná medzivrstva (zriedená lazúra), ktorá sa po zaschnutí opäť prebrúsi, a až následne sa povrch upraví matným bezfarebným náterom.",
+            "title": "8. Broušení a povrchová úprava",
+            "body": "Na závěr se celý povrch přebrousí brusnými kotouči a výseky a socha je připravena na finální úpravu. Na jemné dobroušení detailů, jako jsou obličej, prsty nebo hůře přístupné záhyby, se vyplatí sáhnout po frézkách a rašplích do přímé brusky – dostanete se jimi přesně tam, kam se větší kotouč nevejde. Povrchová úprava může být vícevrstvá: například barevná mezivrstva (zředěná lazura), která se po zaschnutí znovu přebrousí, a až následně se povrch upraví matným bezbarvým nátěrem.",
             "relatedLinks": [
               { "labelKey": "brusneVyseky", "href": "/kategorie/brusne-vyseky-brusny-papier-platno" },
               { "labelKey": "priamaBruska", "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky" }
             ]
           }
         ],
-        "contextBody": "Rezba motorovou pílou (chainsaw carving) je sochárska technika, pri ktorej socha vzniká priamo z kmeňa pomocou motorovej píly, uhlovej brúsky a dlát. Rýchlorezba (speedcarving) označuje zhotovenie diela v presnom časovom limite – typicky počas jedného dňa alebo niekoľkých hodín, často ako verejná ukážka. Na Slovensku má táto technika svoju tradíciu aj vďaka sochárovi Andrejovi Iršovi, ktorý je zároveň autorom odborných publikácií o rezbe motorovou pílou – jedna z nich dnes slúži ako akreditovaný výučbový materiál. Rovnakým postupom, aký opisuje tento návod, vznikajú záhradné plastiky, sochy v životnej veľkosti, figúry aj reliéfy pre verejné priestranstvá.",
+        "contextBody": "Řezba motorovou pilou (chainsaw carving) je sochařská technika, při které socha vzniká přímo z kmene pomocí motorové pily, úhlové brusky a dlát. Rychlořezba (speedcarving) označuje zhotovení díla v přesném časovém limitu – typicky během jednoho dne nebo několika hodin, často jako veřejná ukázka. Na Slovensku má tato technika svou tradici i díky sochaři Andreji Iršovi, který je zároveň autorem odborných publikací o řezbě motorovou pilou – jedna z nich dnes slouží jako akreditovaný výukový materiál. Stejným postupem, jaký popisuje tento návod, vznikají zahradní plastiky, sochy v životní velikosti, figury i reliéfy pro veřejná prostranství.",
         "contextLinkLabel": "Značka Andrej Irša – a-studio",
-        "closingBody": "Chystáte sa na vlastnú sochu? V ponuke nájdete carvingové lišty na detailnú prácu s motorovou pílou, brúsne výseky na finálne dobrúsenie aj frézky do priamej brúsky na jemné detaily. Ak si nie ste istí výberom, napíšte nám cez kontaktný formulár alebo nás nájdete na eshop.marosko.sk.",
+        "closingBody": "Chystáte se na vlastní sochu? V nabídce najdete carvingové lišty na detailní práci s motorovou pilou, brusné výseky na finální dobroušení i frézky do přímé brusky na jemné detaily. Pokud si nejste jisti výběrem, napište nám přes kontaktní formulář nebo nás najdete na eshop.marosko.sk.",
         "closingLinks": [
           { "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" },
           { "labelKey": "brusneVyseky", "href": "/kategorie/brusne-vyseky-brusny-papier-platno" },
@@ -2134,38 +2136,38 @@
         ]
       },
       "knihaRezbaMotorovouPilou": {
-        "title": "Rezba motorovou pílou – príručka pre výtvarníkov (2. vydanie)",
-        "cardDescription": "Odborná príručka Andreja Iršu o rezbe motorovou pílou – od poznania dreva až po bezpečnosť práce a cenotvorbu diel. Teraz v druhom, rozšírenom vydaní.",
-        "eyebrow": "Odporúčaná literatúra",
-        "intro": "Druhé, rozšírené a prepracované vydanie úspešnej príručky slovenského sochára Andreja Iršu zhŕňa desaťročia jeho skúseností s rezbou motorovou pílou – od poznania dreva cez stroje a nástroje až po pracovné postupy, bezpečnosť a cenotvorbu hotových diel.",
+        "title": "Řezba motorovou pilou – příručka pro výtvarníky (2. vydání)",
+        "cardDescription": "Odborná příručka Andreje Irši o řezbě motorovou pilou – od poznání dřeva až po bezpečnost práce a cenotvorbu děl. Nyní ve druhém, rozšířeném vydání.",
+        "eyebrow": "Doporučená literatura",
+        "intro": "Druhé, rozšířené a přepracované vydání úspěšné příručky slovenského sochaře Andreje Irši shrnuje desítky let jeho zkušeností s řezbou motorovou pilou – od poznání dřeva přes stroje a nástroje až po pracovní postupy, bezpečnost a cenotvorbu hotových děl.",
         "sections": [
           {
-            "title": "O čom kniha je",
-            "body": "Publikácia prevedie čitateľa od základov – druhov dreva, ich rastu, ťažby, sušenia, vád a spracovania – cez vzorník až 100 druhov dreva, slohy a históriu spracovania dreva až po výklad výtvarných pojmov a výtvarnú anatómiu. Venuje sa aj výberu a vývoju strojov a nástrojov, samotným pracovným postupom, organizácii podujatí, bezpečnosti pri práci, starostlivosti o hotové diela, ich prezentácii a dokumentácii, a napokon aj cenotvorbe."
+            "title": "O čem kniha je",
+            "body": "Publikace provede čtenáře od základů – druhů dřeva, jejich růstu, těžby, sušení, vad a zpracování – přes vzorník až 100 druhů dřeva, slohy a historii zpracování dřeva až po výklad výtvarných pojmů a výtvarnou anatomii. Věnuje se i výběru a vývoji strojů a nástrojů, samotným pracovním postupům, organizaci akcí, bezpečnosti při práci, péči o hotová díla, jejich prezentaci a dokumentaci, a nakonec i cenotvorbě."
           },
           {
-            "title": "Pre koho je kniha vhodná",
-            "body": "Kniha je určená každému, kto sa zaujíma o rezbárstvo a prácu s drevom – profesionálnym výtvarníkom aj remeselníkom, školám a záujmovým organizáciám, organizátorom rezbárskych sympózií a workshopov, ale aj majiteľom záhrad, chalúp a vlastníkom motorových píl, ktorí chcú svoj stroj využiť aj na tvorivú prácu."
+            "title": "Pro koho je kniha vhodná",
+            "body": "Kniha je určena každému, kdo se zajímá o řezbářství a práci se dřevem – profesionálním výtvarníkům i řemeslníkům, školám a zájmovým organizacím, organizátorům řezbářských sympozií a workshopů, ale i majitelům zahrad, chalup a vlastníkům motorových pil, kteří chtějí svůj stroj využít i k tvořivé práci."
           }
         ],
-        "factsTitle": "Základné údaje o knihe",
+        "factsTitle": "Základní údaje o knize",
         "facts": [
           "Autor: Andrej Irša",
-          "Vydanie: druhé, rozšírené a prepracované",
-          "Vydavateľ: A-studio Andrej Irša",
+          "Vydání: druhé, rozšířené a přepracované",
+          "Vydavatel: A-studio Andrej Irša",
           "ISBN: 978-80-570-1207-8",
-          "Rozsah: 225 strán, 420 fotografií, 68 kresieb, grafov a tabuliek, 19 kapitol, 229 spracovaných hesiel",
-          "Väzba: mäkká"
+          "Rozsah: 225 stran, 420 fotografií, 68 kreseb, grafů a tabulek, 19 kapitol, 229 zpracovaných hesel",
+          "Vazba: měkká"
         ],
-        "ctaLabel": "Objednať knihu v e-shope",
-        "contextBody": "Andrej Irša je výrazná slovenská sochárska osobnosť, ktorej nástroje a produkty nájdete aj v našej ponuke. Vo svojej tvorbe kombinuje drevo, kov, plast aj 3D tlač a venuje sa realistickej figúre aj abstraktným dielam.",
+        "ctaLabel": "Objednat knihu v e-shopu",
+        "contextBody": "Andrej Irša je výrazná slovenská sochařská osobnost, jejíž nástroje a produkty najdete i v naší nabídce. Ve své tvorbě kombinuje dřevo, kov, plast i 3D tisk a věnuje se realistické figuře i abstraktním dílům.",
         "contextLinkLabel": "Značka Andrej Irša – a-studio"
       }
     },
     "relatedLinkLabels": {
       "carvingoveListy": "Carvingové lišty",
-      "brusneVyseky": "Brúsne výseky",
-      "priamaBruska": "Frézky do priamej brúsky"
+      "brusneVyseky": "Brusné výseky",
+      "priamaBruska": "Frézky do přímé brusky"
     }
   },
   "videos": {
