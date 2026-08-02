@@ -8,8 +8,8 @@ export type PdfGuide = {
 export const pdfGuides: PdfGuide[] = [
   {
     slug: "katalog-arbortech",
-    fileUrl: "/pdfs/arbortech-katalog-2025.pdf",
-    fileSize: "6,0 MB",
+    fileUrl: "https://eshop.marosko.sk/files/elektricke-naradie/arbortech-katalog.pdf",
+    fileSize: "2,2 MB",
     translationKey: "katalogArbortech",
   },
   {
