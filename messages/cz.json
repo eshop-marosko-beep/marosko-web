@@ -2126,7 +2126,40 @@
         ],
         "contextBody": "Rezba motorovou pílou (chainsaw carving) je sochárska technika, pri ktorej socha vzniká priamo z kmeňa pomocou motorovej píly, uhlovej brúsky a dlát. Rýchlorezba (speedcarving) označuje zhotovenie diela v presnom časovom limite – typicky počas jedného dňa alebo niekoľkých hodín, často ako verejná ukážka. Na Slovensku má táto technika svoju tradíciu aj vďaka sochárovi Andrejovi Iršovi, ktorý je zároveň autorom odborných publikácií o rezbe motorovou pílou – jedna z nich dnes slúži ako akreditovaný výučbový materiál. Rovnakým postupom, aký opisuje tento návod, vznikajú záhradné plastiky, sochy v životnej veľkosti, figúry aj reliéfy pre verejné priestranstvá.",
         "contextLinkLabel": "Značka Andrej Irša – a-studio",
-        "closingBody": "Chystáte sa na vlastnú sochu? V ponuke nájdete carvingové lišty na detailnú prácu s motorovou pílou, brúsne výseky na finálne dobrúsenie aj frézky do priamej brúsky na jemné detaily. Ak si nie ste istí výberom, napíšte nám cez kontaktný formulár alebo nás nájdete na eshop.marosko.sk."
+        "closingBody": "Chystáte sa na vlastnú sochu? V ponuke nájdete carvingové lišty na detailnú prácu s motorovou pílou, brúsne výseky na finálne dobrúsenie aj frézky do priamej brúsky na jemné detaily. Ak si nie ste istí výberom, napíšte nám cez kontaktný formulár alebo nás nájdete na eshop.marosko.sk.",
+        "closingLinks": [
+          { "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" },
+          { "labelKey": "brusneVyseky", "href": "/kategorie/brusne-vyseky-brusny-papier-platno" },
+          { "labelKey": "priamaBruska", "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky" }
+        ]
+      },
+      "knihaRezbaMotorovouPilou": {
+        "title": "Rezba motorovou pílou – príručka pre výtvarníkov (2. vydanie)",
+        "cardDescription": "Odborná príručka Andreja Iršu o rezbe motorovou pílou – od poznania dreva až po bezpečnosť práce a cenotvorbu diel. Teraz v druhom, rozšírenom vydaní.",
+        "eyebrow": "Odporúčaná literatúra",
+        "intro": "Druhé, rozšírené a prepracované vydanie úspešnej príručky slovenského sochára Andreja Iršu zhŕňa desaťročia jeho skúseností s rezbou motorovou pílou – od poznania dreva cez stroje a nástroje až po pracovné postupy, bezpečnosť a cenotvorbu hotových diel.",
+        "sections": [
+          {
+            "title": "O čom kniha je",
+            "body": "Publikácia prevedie čitateľa od základov – druhov dreva, ich rastu, ťažby, sušenia, vád a spracovania – cez vzorník až 100 druhov dreva, slohy a históriu spracovania dreva až po výklad výtvarných pojmov a výtvarnú anatómiu. Venuje sa aj výberu a vývoju strojov a nástrojov, samotným pracovným postupom, organizácii podujatí, bezpečnosti pri práci, starostlivosti o hotové diela, ich prezentácii a dokumentácii, a napokon aj cenotvorbe."
+          },
+          {
+            "title": "Pre koho je kniha vhodná",
+            "body": "Kniha je určená každému, kto sa zaujíma o rezbárstvo a prácu s drevom – profesionálnym výtvarníkom aj remeselníkom, školám a záujmovým organizáciám, organizátorom rezbárskych sympózií a workshopov, ale aj majiteľom záhrad, chalúp a vlastníkom motorových píl, ktorí chcú svoj stroj využiť aj na tvorivú prácu."
+          }
+        ],
+        "factsTitle": "Základné údaje o knihe",
+        "facts": [
+          "Autor: Andrej Irša",
+          "Vydanie: druhé, rozšírené a prepracované",
+          "Vydavateľ: A-studio Andrej Irša",
+          "ISBN: 978-80-570-1207-8",
+          "Rozsah: 225 strán, 420 fotografií, 68 kresieb, grafov a tabuliek, 19 kapitol, 229 spracovaných hesiel",
+          "Väzba: mäkká"
+        ],
+        "ctaLabel": "Objednať knihu v e-shope",
+        "contextBody": "Andrej Irša je výrazná slovenská sochárska osobnosť, ktorej nástroje a produkty nájdete aj v našej ponuke. Vo svojej tvorbe kombinuje drevo, kov, plast aj 3D tlač a venuje sa realistickej figúre aj abstraktným dielam.",
+        "contextLinkLabel": "Značka Andrej Irša – a-studio"
       }
     },
     "relatedLinkLabels": {

@@ -112,7 +112,7 @@ export default async function VideosPage({
           <p className="text-gray-600 text-lg mb-10 max-w-2xl">{tGuides("subtitle")}</p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {guideArticles.map(({ slug, translationKey, image }) => (
+            {guideArticles.map(({ slug, translationKey, image, imageIsCover }) => (
               <Link
                 key={slug}
                 href={`/navody/clanky/${slug}`}
@@ -124,7 +124,7 @@ export default async function VideosPage({
                     alt={tGuides(`items.${translationKey}.title`)}
                     fill
                     sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-                    className="object-cover"
+                    className={imageIsCover ? "object-contain p-4" : "object-cover"}
                   />
                 </div>
                 <div className="p-6 flex flex-col flex-1">
