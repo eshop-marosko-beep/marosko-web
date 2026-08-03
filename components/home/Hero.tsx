@@ -14,7 +14,8 @@ export default function Hero() {
           src="/gallery/frezovaci-kotuc-detail-rezbarska-praca.jpg"
           alt=""
           fill
-          priority
+          loading="eager"
+          fetchPriority="high"
           sizes="100vw"
           className="object-cover"
         />
