@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 
 const items = [
   { key: "milling", icon: "⚙️" },
-  { key: "hand", icon: "🔧" },
+  { key: "hand", icon: "🔧", externalUrl: "https://eshop.marosko.sk/c/rucne-naradie" },
   { key: "power", icon: "🔌" },
 ] as const;
 
@@ -21,21 +21,32 @@ export default function Categories() {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        {items.map(({ key, icon }) => (
-          <Link
-            key={key}
-            href="/kategorie"
-            className="block bg-white rounded-xl shadow-lg p-8 text-center border border-transparent hover:border-amber-200 hover:shadow-xl transition-all"
-          >
-            <div className="text-5xl mb-4">{icon}</div>
-            <h3 className="text-xl font-bold text-espresso-800 mb-3">
-              {t(`${key}.name`)}
-            </h3>
-            <p className="text-gray-600 leading-relaxed">
-              {t(`${key}.description`)}
-            </p>
-          </Link>
-        ))}
+        {items.map(({ key, icon, ...rest }) => {
+          const externalUrl = "externalUrl" in rest ? rest.externalUrl : undefined;
+          const className =
+            "block bg-white rounded-xl shadow-lg p-8 text-center border border-transparent hover:border-amber-200 hover:shadow-xl transition-all";
+          const content = (
+            <>
+              <div className="text-5xl mb-4">{icon}</div>
+              <h3 className="text-xl font-bold text-espresso-800 mb-3">
+                {t(`${key}.name`)}
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                {t(`${key}.description`)}
+              </p>
+            </>
+          );
+
+          return externalUrl ? (
+            <a key={key} href={externalUrl} target="_blank" rel="noopener noreferrer" className={className}>
+              {content}
+            </a>
+          ) : (
+            <Link key={key} href="/kategorie" className={className}>
+              {content}
+            </Link>
+          );
+        })}
       </div>
       <div className="text-center mt-10">
         <Link
