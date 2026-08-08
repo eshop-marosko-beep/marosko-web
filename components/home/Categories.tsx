@@ -22,9 +22,10 @@ export default function Categories() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {items.map(({ key, icon }) => (
-          <div
+          <Link
             key={key}
-            className="bg-white rounded-xl shadow-lg p-8 text-center border border-transparent hover:border-amber-200 hover:shadow-xl transition-all"
+            href="/kategorie"
+            className="block bg-white rounded-xl shadow-lg p-8 text-center border border-transparent hover:border-amber-200 hover:shadow-xl transition-all"
           >
             <div className="text-5xl mb-4">{icon}</div>
             <h3 className="text-xl font-bold text-espresso-800 mb-3">
@@ -33,7 +34,7 @@ export default function Categories() {
             <p className="text-gray-600 leading-relaxed">
               {t(`${key}.description`)}
             </p>
-          </div>
+          </Link>
         ))}
       </div>
       <div className="text-center mt-10">
