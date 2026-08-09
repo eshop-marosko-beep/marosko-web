@@ -2206,6 +2206,10 @@
       "subtitle": "PDF documents straight from the manufacturers and our e-shop.",
       "downloadLabel": "Download PDF",
       "items": {
+        "obchodnePodmienky": {
+          "title": "Terms and Conditions",
+          "description": "General terms and conditions of our online store – ordering, payments, delivery, complaints and withdrawal from the contract."
+        },
         "katalogArbortech": {
           "title": "Arbortech catalogue",
           "description": "The full Arbortech product catalogue – power chisels, grinders and planing tools for carvers and sculptors."

@@ -148,10 +148,10 @@ export default async function VideosPage({
       <p className="text-gray-600 text-lg mb-10 max-w-2xl">{t("pdfGuides.subtitle")}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {pdfGuides.map(({ slug, fileUrl, fileSize, translationKey }) => (
+        {pdfGuides.map(({ slug, fileUrl, fileUrlByLocale, fileSize, translationKey }) => (
           <a
             key={slug}
-            href={fileUrl}
+            href={fileUrlByLocale?.[locale] ?? fileUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="bg-white rounded-xl shadow-lg p-6 flex flex-col border border-transparent hover:border-amber-200 hover:shadow-xl transition-all"
