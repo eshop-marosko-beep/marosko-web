@@ -30,29 +30,26 @@ function isoDurationToSeconds(iso: string): number {
 }
 
 export async function GET() {
-  const urls = routing.locales.map((locale) => {
+  const urls = routing.locales.flatMap((locale) => {
     const items = messagesByLocale[locale].videos.items as Record<
       string,
       { title: string; description: string }
     >;
-    const loc = `${SITE_URL}${getPathname({ locale, href: "/navody" })}`;
-    const videoTags = videos
-      .map(({ file, duration, translationKey }) => {
-        const { title, description } = items[translationKey];
-        return (
-          `<video:video>` +
-          `<video:thumbnail_loc>${escapeXml(`${SITE_URL}/videos/${file}.jpg`)}</video:thumbnail_loc>` +
-          `<video:title>${escapeXml(title)}</video:title>` +
-          `<video:description>${escapeXml(description)}</video:description>` +
-          `<video:content_loc>${escapeXml(`${SITE_URL}/videos/${file}.mp4`)}</video:content_loc>` +
-          `<video:duration>${isoDurationToSeconds(duration)}</video:duration>` +
-          `<video:publication_date>${UPLOAD_DATE}</video:publication_date>` +
-          `<video:family_friendly>yes</video:family_friendly>` +
-          `</video:video>`
-        );
-      })
-      .join("");
-    return `<url><loc>${escapeXml(loc)}</loc>${videoTags}</url>`;
+    return videos.map(({ slug, file, duration, translationKey }) => {
+      const { title, description } = items[translationKey];
+      const loc = `${SITE_URL}${getPathname({ locale, href: `/navody/${slug}` })}`;
+      const videoTag =
+        `<video:video>` +
+        `<video:thumbnail_loc>${escapeXml(`${SITE_URL}/videos/${file}.jpg`)}</video:thumbnail_loc>` +
+        `<video:title>${escapeXml(title)}</video:title>` +
+        `<video:description>${escapeXml(description)}</video:description>` +
+        `<video:content_loc>${escapeXml(`${SITE_URL}/videos/${file}.mp4`)}</video:content_loc>` +
+        `<video:duration>${isoDurationToSeconds(duration)}</video:duration>` +
+        `<video:publication_date>${UPLOAD_DATE}</video:publication_date>` +
+        `<video:family_friendly>yes</video:family_friendly>` +
+        `</video:video>`;
+      return `<url><loc>${escapeXml(loc)}</loc>${videoTag}</url>`;
+    });
   });
 
   const xml =
