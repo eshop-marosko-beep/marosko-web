@@ -1,11 +1,26 @@
 export type PdfGuide = {
   slug: string;
   fileUrl: string;
+  /** Per-locale override of fileUrl, for documents translated into every
+   * site language (e.g. legal documents). Falls back to fileUrl when the
+   * current locale has no entry. */
+  fileUrlByLocale?: Record<string, string>;
   fileSize: string;
   translationKey: string;
 };
 
 export const pdfGuides: PdfGuide[] = [
+  {
+    slug: "obchodne-podmienky",
+    fileUrl: "/pdfs/obchodne-podmienky-sk.pdf",
+    fileUrlByLocale: {
+      cz: "/pdfs/obchodni-podminky-cz.pdf",
+      en: "/pdfs/terms-and-conditions-en.pdf",
+      ro: "/pdfs/conditii-comerciale-ro.pdf",
+    },
+    fileSize: "0,1 MB",
+    translationKey: "obchodnePodmienky",
+  },
   {
     slug: "katalog-arbortech",
     fileUrl: "https://eshop.marosko.sk/files/elektricke-naradie/arbortech-katalog.pdf",

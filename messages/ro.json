@@ -2206,6 +2206,10 @@
       "subtitle": "Documente PDF direct de la producători și din magazinul nostru online.",
       "downloadLabel": "Descarcă PDF",
       "items": {
+        "obchodnePodmienky": {
+          "title": "Condiții comerciale",
+          "description": "Condițiile generale comerciale ale magazinului nostru online – comenzi, plăți, livrare, reclamații și retragerea din contract."
+        },
         "katalogArbortech": {
           "title": "Catalog Arbortech",
           "description": "Catalogul complet de produse Arbortech – dălți electrice, freze și unelte de rindeluit pentru cioplitori și sculptori."

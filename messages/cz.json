@@ -2206,6 +2206,10 @@
       "subtitle": "PDF dokumenty přímo od výrobců a z našeho e-shopu.",
       "downloadLabel": "Stáhnout PDF",
       "items": {
+        "obchodnePodmienky": {
+          "title": "Obchodní podmínky",
+          "description": "Všeobecné obchodní podmínky našeho e-shopu – objednávání, platby, dodání, reklamace a odstoupení od smlouvy."
+        },
         "katalogArbortech": {
           "title": "Katalog Arbortech",
           "description": "Kompletní produktový katalog značky Arbortech – elektrická dláta, frézky a hoblovací nástroje pro řezbáře a sochaře."
