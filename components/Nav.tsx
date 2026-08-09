@@ -39,9 +39,9 @@ export default function Nav() {
           />
         </Link>
 
-        <div className="hidden lg:flex items-center space-x-6">
+        <div className="hidden xl:flex items-center space-x-5">
           {links.map((link) => (
-            <Link key={link.href} href={link.href} className="hover:text-amber-700">
+            <Link key={link.href} href={link.href} className="whitespace-nowrap hover:text-amber-700">
               {link.label}
             </Link>
           ))}
@@ -49,7 +49,7 @@ export default function Nav() {
             href={eshopUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors"
+            className="whitespace-nowrap bg-amber-600 text-white px-4 py-2 rounded-lg hover:bg-amber-700 transition-colors"
           >
             🛒 E-shop
           </a>
@@ -61,7 +61,7 @@ export default function Nav() {
           onClick={() => setOpen((v) => !v)}
           aria-label={open ? "Zavrieť menu" : "Otvoriť menu"}
           aria-expanded={open}
-          className="lg:hidden p-2 -mr-2 text-espresso-800"
+          className="xl:hidden p-2 -mr-2 text-espresso-800"
         >
           {open ? (
             <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -76,7 +76,7 @@ export default function Nav() {
       </div>
 
       {open && (
-        <div className="lg:hidden container mx-auto mt-4 flex flex-col space-y-3 pb-2">
+        <div className="xl:hidden container mx-auto mt-4 flex flex-col space-y-3 pb-2">
           {links.map((link) => (
             <Link
               key={link.href}
