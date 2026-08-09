@@ -1,14 +1,20 @@
 import { Link } from "@/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 const items = [
   { key: "milling", icon: "⚙️" },
-  { key: "hand", icon: "🔧", externalUrl: "https://eshop.marosko.sk/c/rucne-naradie" },
+  {
+    key: "hand",
+    icon: "🔧",
+    externalUrl: "https://eshop.marosko.sk/c/rucne-naradie",
+    externalUrlRo: "https://eshop.marosko.sk/ro/c/unelte-manuale",
+  },
   { key: "power", icon: "🔌" },
 ] as const;
 
 export default function Categories() {
   const t = useTranslations("home.categories");
+  const locale = useLocale();
 
   return (
     <section id="kategorie" className="py-16">
@@ -22,7 +28,12 @@ export default function Categories() {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {items.map(({ key, icon, ...rest }) => {
-          const externalUrl = "externalUrl" in rest ? rest.externalUrl : undefined;
+          const externalUrl =
+            "externalUrl" in rest
+              ? locale === "ro" && "externalUrlRo" in rest
+                ? rest.externalUrlRo
+                : rest.externalUrl
+              : undefined;
           const className =
             "block bg-white rounded-xl shadow-lg p-8 text-center border border-transparent hover:border-amber-200 hover:shadow-xl transition-all";
           const content = (
