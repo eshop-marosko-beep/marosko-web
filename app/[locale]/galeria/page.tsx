@@ -3,6 +3,8 @@ import { Link } from "@/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { galleryCategories } from "@/lib/galleryData";
 import { buildMetadata } from "@/lib/seo";
+import { buildBreadcrumbListSchema, buildItemListSchema } from "@/lib/structuredData";
+import StructuredData from "@/components/StructuredData";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -30,9 +32,25 @@ export default async function GalleryPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("gallery");
+  const tNav = await getTranslations("navigation");
+
+  const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
+    { name: tNav("home"), path: "/" },
+    { name: tNav("gallery"), path: "/galeria" },
+  ]);
+  const itemListSchema = buildItemListSchema(
+    locale,
+    galleryCategories.map(({ slug, translationKey }) => ({
+      name: t(`${translationKey}.title`),
+      path: `/galeria/${slug}`,
+    }))
+  );
 
   return (
     <div className="py-8">
+      <StructuredData data={breadcrumbSchema} />
+      <StructuredData data={itemListSchema} />
+
       <h1 className="text-4xl font-bold text-espresso-800 mb-4">
         {t("title")}
       </h1>

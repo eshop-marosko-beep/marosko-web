@@ -4,6 +4,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
 import { galleryCategories, getGalleryImage } from "@/lib/galleryData";
+import { buildBreadcrumbListSchema } from "@/lib/structuredData";
+import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
 import type { Metadata } from "next";
 
@@ -51,6 +53,7 @@ export default async function GalleryImagePage({
   setRequestLocale(locale);
 
   const t = await getTranslations("gallery");
+  const tNav = await getTranslations("navigation");
   const { category: galleryCategory, image: img } = found;
   const isProduct = galleryCategory.cardStyle === "product";
   const title = isProduct
@@ -59,9 +62,19 @@ export default async function GalleryImagePage({
   const description = isProduct
     ? t(`${galleryCategory.translationKey}.products.${image}.description`)
     : "";
+  const categoryTitle = t(`${galleryCategory.translationKey}.title`);
+
+  const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
+    { name: tNav("home"), path: "/" },
+    { name: tNav("gallery"), path: "/galeria" },
+    { name: categoryTitle, path: `/galeria/${category}` },
+    { name: title, path: `/galeria/${category}/${image}` },
+  ]);
 
   return (
     <div className="py-8 max-w-2xl mx-auto">
+      <StructuredData data={breadcrumbSchema} />
+
       <Link
         href={`/galeria/${category}`}
         className="text-amber-700 font-semibold hover:underline mb-6 inline-block"
