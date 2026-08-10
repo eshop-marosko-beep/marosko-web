@@ -39,11 +39,87 @@
       "subtitle": "Pile-ac din carbură Saburrtooth USA pentru mini polizoare de 50 mm — o gamă de forme și granulații pentru modelare rapidă și finisare fină a lemnului.",
       "cta": "Vezi toată gama Saburrtooth",
       "products": {
-        "p1013": { "name": "Rotundă înclinată 50 mm" },
-        "p405": { "name": "Tip cupă extra grosieră 44,5 mm" },
-        "p590": { "name": "Rotundă fină cu găuri 50 mm" },
-        "p591": { "name": "Rotundă grosieră cu găuri 50 mm" },
-        "p587": { "name": "Plată extra grosieră 50 mm" }
+        "p1013": {
+          "name": "Rotundă înclinată 50 mm"
+        },
+        "p405": {
+          "name": "Tip cupă extra grosieră 44,5 mm"
+        },
+        "p590": {
+          "name": "Rotundă fină cu găuri 50 mm"
+        },
+        "p591": {
+          "name": "Rotundă grosieră cu găuri 50 mm"
+        },
+        "p587": {
+          "name": "Plată extra grosieră 50 mm"
+        }
+      }
+    },
+    "manpa": {
+      "title": "Brațe prelungitoare MANPA",
+      "subtitle": "Brațe prelungitoare și accesorii versatile MANPA pentru polizor unghiular – frezare, șlefuire și modelare a lemnului chiar și în locuri greu accesibile.",
+      "cta": "Vezi toată gama MANPA",
+      "products": {
+        "p765": {
+          "name": "Braț cu bandă abrazivă"
+        },
+        "p789": {
+          "name": "Braț cu accesoriu multifuncțional"
+        },
+        "p768": {
+          "name": "Set segmente prelungitoare"
+        },
+        "p796": {
+          "name": "Ax mini pentru caneluri 12 mm"
+        },
+        "p803": {
+          "name": "Dinți de schimb, formă rotundă"
+        }
+      }
+    },
+    "arbortech": {
+      "title": "Scule Arbortech",
+      "subtitle": "Accesorii originale australiene Arbortech pentru polizor unghiular – rindeluire rapidă, sculptură și modelare a lemnului la calitate profesională.",
+      "cta": "Vezi toată gama Arbortech",
+      "products": {
+        "p163": {
+          "name": "Disc rindeluire Turbo Plane"
+        },
+        "p196": {
+          "name": "Freză electrică Mini Carver"
+        },
+        "p164": {
+          "name": "Ax frezare TurboShaft"
+        },
+        "p978": {
+          "name": "Sistem sculptură Precision Carving"
+        },
+        "p1338": {
+          "name": "Accesoriu frezare SpheroPlane"
+        }
+      }
+    },
+    "kirjes": {
+      "title": "Sisteme de șlefuire Kirjes",
+      "subtitle": "Sisteme suedeze de șlefuire și lustruire Kirjes – suporturi și manșoane flexibile pentru finisarea fină a lemnului, fără riscul de șlefuire excesivă.",
+      "cta": "Vezi toată gama Kirjes",
+      "products": {
+        "p813": {
+          "name": "Bilă de sculptură Orbi Cut"
+        },
+        "p897": {
+          "name": "Sistem de șlefuire de bază 140K"
+        },
+        "p898": {
+          "name": "Suporturi gonflabile din cauciuc"
+        },
+        "p906": {
+          "name": "Ceară organică suedeză"
+        },
+        "p814": {
+          "name": "Ax flexibil cu mandrină"
+        }
       }
     },
     "aboutSection": {
@@ -2106,7 +2182,10 @@
             "title": "5. Detalii și șina de sculptură",
             "body": "Din acest moment nu mai marcăm doar conturul, ci și poziția detaliilor – nasul, urechile, bărbia, degetele. Pentru modelarea fină se potrivește mult mai bine o șină specială de sculptură (carving) decât o șină de ghidare obișnuită: cu vârful lamei ajungeți și în locurile mai greu accesibile, puteți realiza tăieturi curbe și lucra detalii mai fine ale feței și membrelor, cu un risc mai mic de recul.",
             "relatedLinks": [
-              { "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" }
+              {
+                "labelKey": "carvingoveListy",
+                "href": "/kategorie/listy-carvingove-vytvarnicke"
+              }
             ]
           },
           {
@@ -2121,8 +2200,14 @@
             "title": "8. Șlefuire și finisaj",
             "body": "În final, întreaga suprafață se șlefuiește cu discuri abrazive, iar statuia este pregătită pentru finisaj. Pentru șlefuirea fină a detaliilor, precum fața, degetele sau cutele greu accesibile, merită folosite freze și pile pentru polizorul drept – cu acestea ajungeți exact acolo unde un disc mai mare nu încape. Finisajul poate fi aplicat în mai multe straturi: de exemplu un strat colorat intermediar (lazură diluată), care se șlefuiește din nou după uscare, iar apoi suprafața se tratează cu un strat mat, incolor.",
             "relatedLinks": [
-              { "labelKey": "brusneVyseky", "href": "/kategorie/brusne-vyseky-brusny-papier-platno" },
-              { "labelKey": "priamaBruska", "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky" }
+              {
+                "labelKey": "brusneVyseky",
+                "href": "/kategorie/brusne-vyseky-brusny-papier-platno"
+              },
+              {
+                "labelKey": "priamaBruska",
+                "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky"
+              }
             ]
           }
         ],
@@ -2130,9 +2215,18 @@
         "contextLinkLabel": "Marca Andrej Irša – a-studio",
         "closingBody": "Vă pregătiți pentru propria statuie? În oferta noastră găsiți șine de sculptură pentru lucrul de detaliu cu drujba, discuri abrazive pentru șlefuirea finală și freze pentru polizorul drept pentru detalii fine. Dacă nu sunteți sigur ce să alegeți, scrieți-ne prin formularul de contact sau găsiți-ne pe eshop.marosko.sk.",
         "closingLinks": [
-          { "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" },
-          { "labelKey": "brusneVyseky", "href": "/kategorie/brusne-vyseky-brusny-papier-platno" },
-          { "labelKey": "priamaBruska", "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky" }
+          {
+            "labelKey": "carvingoveListy",
+            "href": "/kategorie/listy-carvingove-vytvarnicke"
+          },
+          {
+            "labelKey": "brusneVyseky",
+            "href": "/kategorie/brusne-vyseky-brusny-papier-platno"
+          },
+          {
+            "labelKey": "priamaBruska",
+            "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky"
+          }
         ]
       },
       "knihaRezbaMotorovouPilou": {

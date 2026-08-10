@@ -39,11 +39,87 @@
       "subtitle": "American carbide Saburrtooth USA rasps for 50 mm mini grinders — a range of shapes and grits for fast shaping and fine wood finishing.",
       "cta": "See the full Saburrtooth range",
       "products": {
-        "p1013": { "name": "Angled Round 50 mm" },
-        "p405": { "name": "Cup Extra Coarse 44.5 mm" },
-        "p590": { "name": "Round Fine with Holes 50 mm" },
-        "p591": { "name": "Round Coarse with Holes 50 mm" },
-        "p587": { "name": "Extra Coarse Flat 50 mm" }
+        "p1013": {
+          "name": "Angled Round 50 mm"
+        },
+        "p405": {
+          "name": "Cup Extra Coarse 44.5 mm"
+        },
+        "p590": {
+          "name": "Round Fine with Holes 50 mm"
+        },
+        "p591": {
+          "name": "Round Coarse with Holes 50 mm"
+        },
+        "p587": {
+          "name": "Extra Coarse Flat 50 mm"
+        }
+      }
+    },
+    "manpa": {
+      "title": "MANPA Extension Arms",
+      "subtitle": "Versatile MANPA extension arms and attachments for angle grinders — milling, sanding and shaping wood even in hard-to-reach spots.",
+      "cta": "See the full MANPA range",
+      "products": {
+        "p765": {
+          "name": "Arm with Belt Sander"
+        },
+        "p789": {
+          "name": "Arm with Multi-Purpose Attachment"
+        },
+        "p768": {
+          "name": "Extension Segment Set"
+        },
+        "p796": {
+          "name": "Mini Grooving Shaft 12 mm"
+        },
+        "p803": {
+          "name": "Replacement Teeth, Round"
+        }
+      }
+    },
+    "arbortech": {
+      "title": "Arbortech Tools",
+      "subtitle": "Original Australian Arbortech attachments for angle grinders — fast planing, carving and wood shaping at professional quality.",
+      "cta": "See the full Arbortech range",
+      "products": {
+        "p163": {
+          "name": "Turbo Plane Blade"
+        },
+        "p196": {
+          "name": "Mini Carver Power Tool"
+        },
+        "p164": {
+          "name": "TurboShaft Milling Bit"
+        },
+        "p978": {
+          "name": "Precision Carving System"
+        },
+        "p1338": {
+          "name": "SpheroPlane Attachment"
+        }
+      }
+    },
+    "kirjes": {
+      "title": "Kirjes Sanding Systems",
+      "subtitle": "Swedish Kirjes sanding and polishing systems — flexible carriers and sleeves for fine wood finishing with no risk of oversanding.",
+      "cta": "See the full Kirjes range",
+      "products": {
+        "p813": {
+          "name": "Orbi Cut Carving Ball"
+        },
+        "p897": {
+          "name": "Basic Sanding System 140K"
+        },
+        "p898": {
+          "name": "Inflatable Rubber Carriers"
+        },
+        "p906": {
+          "name": "Swedish Organic Wax"
+        },
+        "p814": {
+          "name": "Flexible Shaft with Chuck"
+        }
       }
     },
     "aboutSection": {
@@ -2106,7 +2182,10 @@
             "title": "5. Details and the carving bar",
             "body": "From this point on we mark not just outlines but also the position of details – the nose, ears, chin, fingers. A special carving (sculpting) bar is far better suited to this fine shaping than a standard guide bar: the tip of the saw lets you reach harder-to-access spots, cut curves, and work out finer facial and limb details with a lower risk of kickback.",
             "relatedLinks": [
-              { "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" }
+              {
+                "labelKey": "carvingoveListy",
+                "href": "/kategorie/listy-carvingove-vytvarnicke"
+              }
             ]
           },
           {
@@ -2121,8 +2200,14 @@
             "title": "8. Sanding and finishing",
             "body": "Finally, the whole surface is sanded with abrasive discs, and the sculpture is ready for finishing. For fine sanding of details like the face, fingers, or hard-to-reach folds, it's worth reaching for die-grinder burrs and rasps – they get exactly where a bigger disc can't. The finish itself can be layered: for example a colored base coat (thinned stain), which is sanded again once dry, followed by a final matte, colorless coating.",
             "relatedLinks": [
-              { "labelKey": "brusneVyseky", "href": "/kategorie/brusne-vyseky-brusny-papier-platno" },
-              { "labelKey": "priamaBruska", "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky" }
+              {
+                "labelKey": "brusneVyseky",
+                "href": "/kategorie/brusne-vyseky-brusny-papier-platno"
+              },
+              {
+                "labelKey": "priamaBruska",
+                "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky"
+              }
             ]
           }
         ],
@@ -2130,9 +2215,18 @@
         "contextLinkLabel": "Andrej Irša – a-studio brand",
         "closingBody": "Planning your own sculpture? Our range includes carving bars for detailed chainsaw work, abrasive discs for the final sanding, and die-grinder bits for fine details. If you're not sure what to choose, reach us through the contact form or find us at eshop.marosko.sk.",
         "closingLinks": [
-          { "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" },
-          { "labelKey": "brusneVyseky", "href": "/kategorie/brusne-vyseky-brusny-papier-platno" },
-          { "labelKey": "priamaBruska", "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky" }
+          {
+            "labelKey": "carvingoveListy",
+            "href": "/kategorie/listy-carvingove-vytvarnicke"
+          },
+          {
+            "labelKey": "brusneVyseky",
+            "href": "/kategorie/brusne-vyseky-brusny-papier-platno"
+          },
+          {
+            "labelKey": "priamaBruska",
+            "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky"
+          }
         ]
       },
       "knihaRezbaMotorovouPilou": {
