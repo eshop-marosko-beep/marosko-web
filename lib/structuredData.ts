@@ -1,6 +1,7 @@
 import { SITE_URL } from "@/lib/seo";
 import { socialLinks } from "@/lib/socialLinks";
 import { videos } from "@/lib/videoData";
+import { getPathname } from "@/navigation";
 
 const LOGO_URL = `${SITE_URL}/brand/marian-logo.jpg`;
 
@@ -96,13 +97,28 @@ function buildVideoObjectSchema(
   };
 }
 
-export function buildVideoObjectSchemas(
-  entries: { slug: string; name: string; description: string }[]
+/** Listing pages that show multiple videos should not duplicate the full
+ * VideoObject markup for each one — that's already on each video's own
+ * page (see [video]/page.tsx), which is also what the video sitemap
+ * declares as that video's canonical URL. An ItemList just points to
+ * those pages instead of duplicating their VideoObject data. */
+export function buildVideoListSchema(
+  locale: string,
+  entries: { slug: string; name: string }[]
 ) {
-  return videos.map((video) => {
-    const entry = entries.find((e) => e.slug === video.slug)!;
-    return buildVideoObjectSchema(video, entry);
-  });
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: videos.map((video, index) => {
+      const entry = entries.find((e) => e.slug === video.slug)!;
+      return {
+        "@type": "ListItem",
+        position: index + 1,
+        url: `${SITE_URL}${getPathname({ locale, href: `/navody/${video.slug}` })}`,
+        name: entry.name,
+      };
+    }),
+  };
 }
 
 export function buildSingleVideoObjectSchema(

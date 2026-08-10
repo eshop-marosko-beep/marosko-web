@@ -5,7 +5,7 @@ import { videos } from "@/lib/videoData";
 import { pdfGuides } from "@/lib/pdfGuides";
 import { guideArticles } from "@/lib/guideArticles";
 import { buildMetadata } from "@/lib/seo";
-import { buildVideoObjectSchemas } from "@/lib/structuredData";
+import { buildVideoListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
 import type { Metadata } from "next";
@@ -37,19 +37,17 @@ export default async function VideosPage({
   const t = await getTranslations("videos");
   const tGuides = await getTranslations("guideArticles");
 
-  const schemas = buildVideoObjectSchemas(
+  const videoListSchema = buildVideoListSchema(
+    locale,
     videos.map(({ slug, translationKey }) => ({
       slug,
       name: t(`items.${translationKey}.title`),
-      description: t(`items.${translationKey}.description`),
     }))
   );
 
   return (
     <div className="py-8 max-w-6xl mx-auto">
-      {schemas.map((schema, i) => (
-        <StructuredData key={i} data={schema} />
-      ))}
+      <StructuredData data={videoListSchema} />
 
       <h1 className="text-4xl font-bold text-espresso-800 mb-4">{t("title")}</h1>
       <p className="text-gray-600 text-lg mb-4 max-w-2xl">{t("subtitle")}</p>
