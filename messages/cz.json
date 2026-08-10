@@ -39,11 +39,87 @@
       "subtitle": "Americké karbidové rašple Saburrtooth USA pro mini frézky o průměru 50 mm – různé tvary a hrubosti zrna pro rychlé tvarování i jemné dokončování dřeva.",
       "cta": "Zobrazit celou nabídku Saburrtooth",
       "products": {
-        "p1013": { "name": "Šikmá oblá 50 mm" },
-        "p405": { "name": "Šálková extra hrubá 44,5 mm" },
-        "p590": { "name": "Kulatá jemná s otvory 50 mm" },
-        "p591": { "name": "Kulatá hrubá s otvory 50 mm" },
-        "p587": { "name": "Extra hrubá plochá 50 mm" }
+        "p1013": {
+          "name": "Šikmá oblá 50 mm"
+        },
+        "p405": {
+          "name": "Šálková extra hrubá 44,5 mm"
+        },
+        "p590": {
+          "name": "Kulatá jemná s otvory 50 mm"
+        },
+        "p591": {
+          "name": "Kulatá hrubá s otvory 50 mm"
+        },
+        "p587": {
+          "name": "Extra hrubá plochá 50 mm"
+        }
+      }
+    },
+    "manpa": {
+      "title": "Prodlužovací ramena MANPA",
+      "subtitle": "Univerzální prodlužovací ramena a nástavce MANPA pro úhlovou brusku – frézování, broušení a tvarování dřeva i na těžko dostupných místech.",
+      "cta": "Zobrazit celou nabídku MANPA",
+      "products": {
+        "p765": {
+          "name": "Rameno s pásovou bruskou"
+        },
+        "p789": {
+          "name": "Rameno s víceúčelovým nástavcem"
+        },
+        "p768": {
+          "name": "Sada prodlužovacích segmentů"
+        },
+        "p796": {
+          "name": "Mini-drážkovací stopka 12 mm"
+        },
+        "p803": {
+          "name": "Náhradní zuby, kulatý tvar"
+        }
+      }
+    },
+    "arbortech": {
+      "title": "Nářadí Arbortech",
+      "subtitle": "Originální australské nástavce Arbortech na úhlovou brusku – rychlé hoblování, řezbářství a tvarování dřeva v profesionální kvalitě.",
+      "cta": "Zobrazit celou nabídku Arbortech",
+      "products": {
+        "p163": {
+          "name": "Hoblovací kotouč Turbo Plane"
+        },
+        "p196": {
+          "name": "Elektrická frézka Mini Carver"
+        },
+        "p164": {
+          "name": "Frézovací stopka TurboShaft"
+        },
+        "p978": {
+          "name": "Řezbářský systém Precision Carving"
+        },
+        "p1338": {
+          "name": "Frézovací nástavec SpheroPlane"
+        }
+      }
+    },
+    "kirjes": {
+      "title": "Brusné systémy Kirjes",
+      "subtitle": "Švédské brusné a leštící systémy Kirjes – pružné unašeče a návleky pro jemné dokončování dřeva bez rizika přebroušení.",
+      "cta": "Zobrazit celou nabídku Kirjes",
+      "products": {
+        "p813": {
+          "name": "Dlabací kulička Orbi Cut"
+        },
+        "p897": {
+          "name": "Základní brusný systém 140K"
+        },
+        "p898": {
+          "name": "Nafukovací gumové unašeče"
+        },
+        "p906": {
+          "name": "Švédský organický vosk"
+        },
+        "p814": {
+          "name": "Ohebná hřídel se sklíčidlem"
+        }
       }
     },
     "aboutSection": {
@@ -2106,7 +2182,10 @@
             "title": "5. Detaily a carvingová lišta",
             "body": "Od této chvíle nevyznačujeme jen obrysy, ale i polohu detailů – nosu, uší, brady, prstů. Na jemné tvarování se mnohem lépe hodí speciální carvingová (výtvarnická) lišta místo běžné vodicí lišty: hrotem pily se dostanete i do hůře přístupných míst, umíte vést obloukové řezy a vypracovat jemnější detaily obličeje a končetin s nižším rizikem zpětného vrhu.",
             "relatedLinks": [
-              { "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" }
+              {
+                "labelKey": "carvingoveListy",
+                "href": "/kategorie/listy-carvingove-vytvarnicke"
+              }
             ]
           },
           {
@@ -2121,8 +2200,14 @@
             "title": "8. Broušení a povrchová úprava",
             "body": "Na závěr se celý povrch přebrousí brusnými kotouči a výseky a socha je připravena na finální úpravu. Na jemné dobroušení detailů, jako jsou obličej, prsty nebo hůře přístupné záhyby, se vyplatí sáhnout po frézkách a rašplích do přímé brusky – dostanete se jimi přesně tam, kam se větší kotouč nevejde. Povrchová úprava může být vícevrstvá: například barevná mezivrstva (zředěná lazura), která se po zaschnutí znovu přebrousí, a až následně se povrch upraví matným bezbarvým nátěrem.",
             "relatedLinks": [
-              { "labelKey": "brusneVyseky", "href": "/kategorie/brusne-vyseky-brusny-papier-platno" },
-              { "labelKey": "priamaBruska", "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky" }
+              {
+                "labelKey": "brusneVyseky",
+                "href": "/kategorie/brusne-vyseky-brusny-papier-platno"
+              },
+              {
+                "labelKey": "priamaBruska",
+                "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky"
+              }
             ]
           }
         ],
@@ -2130,9 +2215,18 @@
         "contextLinkLabel": "Značka Andrej Irša – a-studio",
         "closingBody": "Chystáte se na vlastní sochu? V nabídce najdete carvingové lišty na detailní práci s motorovou pilou, brusné výseky na finální dobroušení i frézky do přímé brusky na jemné detaily. Pokud si nejste jisti výběrem, napište nám přes kontaktní formulář nebo nás najdete na eshop.marosko.sk.",
         "closingLinks": [
-          { "labelKey": "carvingoveListy", "href": "/kategorie/listy-carvingove-vytvarnicke" },
-          { "labelKey": "brusneVyseky", "href": "/kategorie/brusne-vyseky-brusny-papier-platno" },
-          { "labelKey": "priamaBruska", "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky" }
+          {
+            "labelKey": "carvingoveListy",
+            "href": "/kategorie/listy-carvingove-vytvarnicke"
+          },
+          {
+            "labelKey": "brusneVyseky",
+            "href": "/kategorie/brusne-vyseky-brusny-papier-platno"
+          },
+          {
+            "labelKey": "priamaBruska",
+            "href": "/kategorie/prislusenstva-do-priamej-brusky-frezky"
+          }
         ]
       },
       "knihaRezbaMotorovouPilou": {

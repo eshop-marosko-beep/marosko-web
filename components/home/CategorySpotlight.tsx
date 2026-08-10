@@ -1,36 +1,20 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-const products = [
-  {
-    key: "p1013",
-    src: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/brusne/saburr-usa/50mm-priemer/sikma-obla/oble-50mm.jpg",
-    productUrl: "https://eshop.marosko.sk/p/1013/ihlickova-mini-raspla-sikma-obla-50mm",
-  },
-  {
-    key: "p405",
-    src: "https://eshop.marosko.sk/resize/e/800/800/files/rasple-sabur-usa/salkova-44-5mm/cr134-125.jpg",
-    productUrl: "https://eshop.marosko.sk/p/405/ihlickova-raspla-salkova-extra-hruba-priemer-44-5-mm",
-  },
-  {
-    key: "p590",
-    src: "https://eshop.marosko.sk/resize/e/800/800/files/mini-frezky/mini-raspla-gulata-z-otvormi/dw250h.jpg",
-    productUrl: "https://eshop.marosko.sk/p/590/ihlickova-mini-raspla-gulata-50mm-jemna-s-otvormi",
-  },
-  {
-    key: "p591",
-    src: "https://eshop.marosko.sk/resize/e/800/800/files/mini-frezky/mini-raspla-gulata-z-otvormi/dw270h.jpg",
-    productUrl: "https://eshop.marosko.sk/p/591/ihlickova-mini-raspla-gulata-50mm-hruba-s-otvormi",
-  },
-  {
-    key: "p587",
-    src: "https://eshop.marosko.sk/resize/e/800/800/files/mini-frezky/mini-rasple/-vyr-445fd290-o-vyrez.jpg",
-    productUrl: "https://eshop.marosko.sk/p/587/ihlickova-mini-raspla-extra-hruba-50-mm",
-  },
-] as const;
+export interface SpotlightProduct {
+  key: string;
+  src: string;
+  productUrl: string;
+}
 
-export default function SaburrtoothSpotlight() {
-  const t = useTranslations("home.saburrtooth");
+interface CategorySpotlightProps {
+  namespace: string;
+  ctaUrl: string;
+  products: readonly SpotlightProduct[];
+}
+
+export default function CategorySpotlight({ namespace, ctaUrl, products }: CategorySpotlightProps) {
+  const t = useTranslations(namespace);
 
   return (
     <section className="py-16">
@@ -70,7 +54,7 @@ export default function SaburrtoothSpotlight() {
       </div>
       <div className="text-center">
         <a
-          href="https://eshop.marosko.sk/c/mini-kotuce-pre-mini-frezky-50/ihlickove-rasple-saburrtooth-usa"
+          href={ctaUrl}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors"
