@@ -1,7 +1,7 @@
 import Hero from "@/components/home/Hero";
 import StatsBar from "@/components/StatsBar";
 import Categories from "@/components/home/Categories";
-import CategorySpotlight from "@/components/home/CategorySpotlight";
+import BrandSpotlightTabs from "@/components/home/BrandSpotlightTabs";
 import AboutSection from "@/components/home/AboutSection";
 import Testimonials from "@/components/home/Testimonials";
 import Faq from "@/components/home/Faq";
@@ -10,16 +10,7 @@ import StructuredData from "@/components/StructuredData";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/seo";
 import { buildOrganizationSchema, buildLocalBusinessSchema } from "@/lib/structuredData";
-import {
-  saburrtoothProducts,
-  saburrtoothCtaUrl,
-  manpaProducts,
-  manpaCtaUrl,
-  arbortechProducts,
-  arbortechCtaUrl,
-  kirjesProducts,
-  kirjesCtaUrl,
-} from "@/lib/spotlightData";
+import { spotlightTabs } from "@/lib/spotlightData";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -47,18 +38,7 @@ export default async function HomePage({
       <Hero />
       <StatsBar />
       <Categories />
-      <CategorySpotlight
-        namespace="home.saburrtooth"
-        ctaUrl={saburrtoothCtaUrl}
-        products={saburrtoothProducts}
-      />
-      <CategorySpotlight namespace="home.manpa" ctaUrl={manpaCtaUrl} products={manpaProducts} />
-      <CategorySpotlight
-        namespace="home.arbortech"
-        ctaUrl={arbortechCtaUrl}
-        products={arbortechProducts}
-      />
-      <CategorySpotlight namespace="home.kirjes" ctaUrl={kirjesCtaUrl} products={kirjesProducts} />
+      <BrandSpotlightTabs tabs={spotlightTabs} />
       <AboutSection />
       <Testimonials locale={locale} />
       <Faq />

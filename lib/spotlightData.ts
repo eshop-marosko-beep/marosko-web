@@ -125,3 +125,34 @@ export const kirjesProducts = [
 ] as const satisfies readonly SpotlightProduct[];
 
 export const kirjesCtaUrl = "https://eshop.marosko.sk/b/Kirjes";
+
+export const spotlightTabs = [
+  {
+    id: "saburrtooth",
+    label: "Saburrtooth",
+    namespace: "home.saburrtooth",
+    ctaUrl: saburrtoothCtaUrl,
+    products: saburrtoothProducts,
+  },
+  {
+    id: "manpa",
+    label: "MANPA",
+    namespace: "home.manpa",
+    ctaUrl: manpaCtaUrl,
+    products: manpaProducts,
+  },
+  {
+    id: "arbortech",
+    label: "Arbortech",
+    namespace: "home.arbortech",
+    ctaUrl: arbortechCtaUrl,
+    products: arbortechProducts,
+  },
+  {
+    id: "kirjes",
+    label: "Kirjes",
+    namespace: "home.kirjes",
+    ctaUrl: kirjesCtaUrl,
+    products: kirjesProducts,
+  },
+] as const;
