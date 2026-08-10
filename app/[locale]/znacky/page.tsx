@@ -2,6 +2,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import { brands } from "@/lib/brandsData";
 import { buildMetadata } from "@/lib/seo";
+import { buildBreadcrumbListSchema } from "@/lib/structuredData";
+import StructuredData from "@/components/StructuredData";
 import type { Metadata } from "next";
 
 const ESHOP_BRANDS_URL = "https://eshop.marosko.sk/drevorezba-naradie-rezbarske-naradie/vyrobcovia-znacky";
@@ -25,6 +27,11 @@ export default async function BrandsPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("brands");
+  const tNav = await getTranslations("navigation");
+  const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
+    { name: tNav("home"), path: "/" },
+    { name: tNav("brands"), path: "/znacky" },
+  ]);
 
   // Richest cards first: logo + description, then description only, then name only.
   const rankedBrands = brands
@@ -37,6 +44,7 @@ export default async function BrandsPage({
 
   return (
     <div className="py-8 max-w-6xl mx-auto">
+      <StructuredData data={breadcrumbSchema} />
       <div className="flex flex-col md:flex-row md:items-center gap-8 mb-10">
         <div>
           <h1 className="text-4xl font-bold text-espresso-800 mb-4">{t("title")}</h1>

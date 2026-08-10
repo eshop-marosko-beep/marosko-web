@@ -1,5 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/seo";
+import { buildBreadcrumbListSchema, buildItemListSchema } from "@/lib/structuredData";
+import StructuredData from "@/components/StructuredData";
 import { Link } from "@/navigation";
 import Image from "next/image";
 import type { Metadata } from "next";
@@ -160,9 +162,24 @@ export default async function CategoriesPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("services");
+  const tNav = await getTranslations("navigation");
+
+  const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
+    { name: tNav("home"), path: "/" },
+    { name: tNav("services"), path: "/kategorie" },
+  ]);
+  const itemListSchema = buildItemListSchema(
+    locale,
+    categoryKeys
+      .filter((c): c is CategoryCard & { slug: string } => c.slug !== null)
+      .map(({ key, slug }) => ({ name: t(`categories.${key}.name`), path: `/kategorie/${slug}` }))
+  );
 
   return (
     <div className="py-8 max-w-6xl mx-auto">
+      <StructuredData data={breadcrumbSchema} />
+      <StructuredData data={itemListSchema} />
+
       <h1 className="text-4xl font-bold text-espresso-800 mb-4">{t("title")}</h1>
       <p className="text-gray-600 text-lg mb-10 max-w-2xl">{t("subtitle")}</p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

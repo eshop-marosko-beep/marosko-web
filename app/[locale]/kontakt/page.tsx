@@ -2,6 +2,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import ContactForm from "@/components/ContactForm";
 import { buildMetadata } from "@/lib/seo";
 import { getEshopUrl } from "@/lib/eshopUrl";
+import { buildBreadcrumbListSchema } from "@/lib/structuredData";
+import StructuredData from "@/components/StructuredData";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -23,10 +25,16 @@ export default async function ContactPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("contact");
+  const tNav = await getTranslations("navigation");
   const eshopUrl = getEshopUrl(locale);
+  const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
+    { name: tNav("home"), path: "/" },
+    { name: tNav("contact"), path: "/kontakt" },
+  ]);
 
   return (
     <div className="py-8">
+      <StructuredData data={breadcrumbSchema} />
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold text-espresso-800 mb-6">
           {t("title")}

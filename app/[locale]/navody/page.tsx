@@ -5,7 +5,7 @@ import { videos } from "@/lib/videoData";
 import { pdfGuides } from "@/lib/pdfGuides";
 import { guideArticles } from "@/lib/guideArticles";
 import { buildMetadata } from "@/lib/seo";
-import { buildVideoListSchema } from "@/lib/structuredData";
+import { buildVideoListSchema, buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
 import type { Metadata } from "next";
@@ -36,7 +36,12 @@ export default async function VideosPage({
 
   const t = await getTranslations("videos");
   const tGuides = await getTranslations("guideArticles");
+  const tNav = await getTranslations("navigation");
 
+  const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
+    { name: tNav("home"), path: "/" },
+    { name: tNav("videos"), path: "/navody" },
+  ]);
   const videoListSchema = buildVideoListSchema(
     locale,
     videos.map(({ slug, translationKey }) => ({
@@ -47,6 +52,7 @@ export default async function VideosPage({
 
   return (
     <div className="py-8 max-w-6xl mx-auto">
+      <StructuredData data={breadcrumbSchema} />
       <StructuredData data={videoListSchema} />
 
       <h1 className="text-4xl font-bold text-espresso-800 mb-4">{t("title")}</h1>

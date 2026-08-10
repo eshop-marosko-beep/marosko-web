@@ -1,5 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/seo";
+import { buildBreadcrumbListSchema } from "@/lib/structuredData";
+import StructuredData from "@/components/StructuredData";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -21,6 +23,11 @@ export default async function GdprPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("gdpr");
+  const tNav = await getTranslations("navigation");
+  const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
+    { name: tNav("home"), path: "/" },
+    { name: t("title"), path: "/gdpr" },
+  ]);
   const sectionKeys = [
     "controller",
     "purposes",
@@ -34,6 +41,7 @@ export default async function GdprPage({
 
   return (
     <div className="py-8 max-w-3xl mx-auto">
+      <StructuredData data={breadcrumbSchema} />
       <h1 className="text-4xl font-bold text-espresso-800 mb-4">{t("title")}</h1>
       <p className="text-gray-600 mb-10 leading-relaxed">{t("intro")}</p>
 
