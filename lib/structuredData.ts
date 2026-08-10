@@ -97,6 +97,25 @@ function buildVideoObjectSchema(
   };
 }
 
+/** Generic "this page lists these other pages" schema, used instead of
+ * duplicating each linked page's own full markup (VideoObject, Product, ...)
+ * on the listing page itself. */
+export function buildItemListSchema(
+  locale: string,
+  entries: { name: string; path: string }[]
+) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: entries.map(({ name, path }, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: `${SITE_URL}${getPathname({ locale, href: path })}`,
+      name,
+    })),
+  };
+}
+
 /** Listing pages that show multiple videos should not duplicate the full
  * VideoObject markup for each one — that's already on each video's own
  * page (see [video]/page.tsx), which is also what the video sitemap
@@ -106,18 +125,31 @@ export function buildVideoListSchema(
   locale: string,
   entries: { slug: string; name: string }[]
 ) {
+  return buildItemListSchema(
+    locale,
+    videos.map((video) => {
+      const entry = entries.find((e) => e.slug === video.slug)!;
+      return { name: entry.name, path: `/navody/${video.slug}` };
+    })
+  );
+}
+
+/** Breadcrumb trail for a page, shown by Google in search results in place
+ * of the raw URL. `items` excludes the current/home page framing — pass the
+ * full trail from home downward, e.g. [Home, Gallery, "Frézovacie kotúče"]. */
+export function buildBreadcrumbListSchema(
+  locale: string,
+  items: { name: string; path: string }[]
+) {
   return {
     "@context": "https://schema.org",
-    "@type": "ItemList",
-    itemListElement: videos.map((video, index) => {
-      const entry = entries.find((e) => e.slug === video.slug)!;
-      return {
-        "@type": "ListItem",
-        position: index + 1,
-        url: `${SITE_URL}${getPathname({ locale, href: `/navody/${video.slug}` })}`,
-        name: entry.name,
-      };
-    }),
+    "@type": "BreadcrumbList",
+    itemListElement: items.map(({ name, path }, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name,
+      item: `${SITE_URL}${getPathname({ locale, href: path })}`,
+    })),
   };
 }
 

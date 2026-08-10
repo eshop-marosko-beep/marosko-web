@@ -4,6 +4,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
 import { guideArticles, getGuideArticle } from "@/lib/guideArticles";
+import { buildBreadcrumbListSchema } from "@/lib/structuredData";
+import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
 import type { Metadata } from "next";
 
@@ -71,11 +73,20 @@ export default async function GuideArticlePage({
 
   const t = await getTranslations("guideArticles");
   const tLinks = await getTranslations("guideArticles.relatedLinkLabels");
+  const tNav = await getTranslations("navigation");
   const key = found.translationKey;
   const item = t.raw(`items.${key}`) as GuideItem;
 
+  const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
+    { name: tNav("home"), path: "/" },
+    { name: tNav("videos"), path: "/navody" },
+    { name: item.title, path: `/navody/clanky/${article}` },
+  ]);
+
   return (
     <div className="py-8 max-w-3xl mx-auto">
+      <StructuredData data={breadcrumbSchema} />
+
       <Link href="/navody" className="text-amber-700 font-semibold hover:underline mb-6 inline-block">
         ← {t("backToGuides")}
       </Link>

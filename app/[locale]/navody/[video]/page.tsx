@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
 import { videos, getVideo } from "@/lib/videoData";
-import { buildSingleVideoObjectSchema } from "@/lib/structuredData";
+import { buildSingleVideoObjectSchema, buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
 import type { Metadata } from "next";
@@ -42,14 +42,21 @@ export default async function VideoDetailPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("videos");
+  const tNav = await getTranslations("navigation");
   const title = t(`items.${found.translationKey}.title`);
   const description = t(`items.${found.translationKey}.description`);
 
   const schema = buildSingleVideoObjectSchema(found, { name: title, description });
+  const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
+    { name: tNav("home"), path: "/" },
+    { name: tNav("videos"), path: "/navody" },
+    { name: title, path: `/navody/${video}` },
+  ]);
 
   return (
     <div className="py-8 max-w-2xl mx-auto">
       <StructuredData data={schema} />
+      <StructuredData data={breadcrumbSchema} />
 
       <Link href="/navody" className="text-amber-700 font-semibold hover:underline mb-6 inline-block">
         ← {t("title")}

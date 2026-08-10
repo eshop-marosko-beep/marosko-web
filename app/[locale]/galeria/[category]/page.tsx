@@ -4,6 +4,8 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { galleryCategories, getGalleryCategory } from "@/lib/galleryData";
 import { buildMetadata } from "@/lib/seo";
+import { buildBreadcrumbListSchema, buildItemListSchema } from "@/lib/structuredData";
+import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
 import type { Metadata } from "next";
 
@@ -46,10 +48,31 @@ export default async function GalleryCategoryPage({
   }
 
   const t = await getTranslations("gallery");
+  const tNav = await getTranslations("navigation");
   const { translationKey, images, eshopUrl, cardStyle } = galleryCategory;
+  const categoryTitle = t(`${translationKey}.title`);
+  const isProduct = cardStyle === "product";
+
+  const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
+    { name: tNav("home"), path: "/" },
+    { name: tNav("gallery"), path: "/galeria" },
+    { name: categoryTitle, path: `/galeria/${category}` },
+  ]);
+  const itemListSchema = buildItemListSchema(
+    locale,
+    images.map(({ altKey }) => ({
+      name: isProduct
+        ? t(`${translationKey}.products.${altKey}.title`)
+        : t(`${translationKey}.${altKey}`),
+      path: `/galeria/${category}/${altKey}`,
+    }))
+  );
 
   return (
     <div className="py-8">
+      <StructuredData data={breadcrumbSchema} />
+      <StructuredData data={itemListSchema} />
+
       <Link
         href="/galeria"
         className="text-amber-700 font-semibold hover:underline mb-6 inline-block"
@@ -57,7 +80,7 @@ export default async function GalleryCategoryPage({
         ← {t("backToGallery")}
       </Link>
       <h1 className="text-4xl font-bold text-espresso-800 mb-4">
-        {t(`${translationKey}.title`)}
+        {categoryTitle}
       </h1>
       <p className="text-gray-600 leading-relaxed mb-8 max-w-3xl">
         {t(`${translationKey}.description`)}
