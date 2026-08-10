@@ -2,7 +2,11 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/seo";
 import StatsBar from "@/components/StatsBar";
 import StructuredData from "@/components/StructuredData";
-import { buildOrganizationSchema, buildLocalBusinessSchema } from "@/lib/structuredData";
+import {
+  buildOrganizationSchema,
+  buildLocalBusinessSchema,
+  buildBreadcrumbListSchema,
+} from "@/lib/structuredData";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -30,11 +34,17 @@ export default async function AboutPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("about");
+  const tNav = await getTranslations("navigation");
+  const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
+    { name: tNav("home"), path: "/" },
+    { name: tNav("about"), path: "/o-nas" },
+  ]);
 
   return (
     <div className="py-8">
       <StructuredData data={buildOrganizationSchema()} />
       <StructuredData data={buildLocalBusinessSchema()} />
+      <StructuredData data={breadcrumbSchema} />
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold text-espresso-800 mb-6">
           {t("title")}

@@ -5,6 +5,8 @@ import { Link } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
 import { getKategorieArticle, kategorieArticles } from "@/lib/kategorieArticles";
 import { getGalleryCategory } from "@/lib/galleryData";
+import { buildBreadcrumbListSchema, buildItemListSchema } from "@/lib/structuredData";
+import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
 import type { Metadata } from "next";
 
@@ -44,9 +46,29 @@ export default async function KategorieDetailPage({
   const t = await getTranslations(`kategorieDetail.${article.translationKey}`);
   const tGallery = await getTranslations("gallery");
   const tServices = await getTranslations("services");
+  const tNav = await getTranslations("navigation");
+
+  const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
+    { name: tNav("home"), path: "/" },
+    { name: tNav("services"), path: "/kategorie" },
+    { name: t("title"), path: `/kategorie/${slug}` },
+  ]);
+  const subcategoriesWithSlug = article.subcategories.filter(
+    (sub): sub is typeof sub & { slug: string } => Boolean(sub.slug)
+  );
+  const itemListSchema = buildItemListSchema(
+    locale,
+    subcategoriesWithSlug.map(({ translationKey, slug: subSlug }) => ({
+      name: t(`subcategories.${translationKey}.name`),
+      path: `/kategorie/${slug}/${subSlug}`,
+    }))
+  );
 
   return (
     <div className="py-8 max-w-3xl mx-auto">
+      <StructuredData data={breadcrumbSchema} />
+      {subcategoriesWithSlug.length > 0 && <StructuredData data={itemListSchema} />}
+
       <h1 className="text-4xl font-bold text-espresso-800 mb-6">{t("title")}</h1>
       {article.image && (
         <div className="relative h-64 md:h-80 rounded-xl overflow-hidden mb-6 bg-cream-100">

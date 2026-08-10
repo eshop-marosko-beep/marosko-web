@@ -4,6 +4,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
 import { getKategorieSubcategory, kategorieArticles } from "@/lib/kategorieArticles";
+import { buildBreadcrumbListSchema } from "@/lib/structuredData";
+import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
 import type { Metadata } from "next";
 
@@ -53,9 +55,19 @@ export default async function KategorieSubcategoryDetailPage({
   );
   const tParent = await getTranslations(`kategorieDetail.${article.translationKey}`);
   const tCommon = await getTranslations("kategorieSubcategoryDetail.common");
+  const tNav = await getTranslations("navigation");
+
+  const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
+    { name: tNav("home"), path: "/" },
+    { name: tNav("services"), path: "/kategorie" },
+    { name: tParent("title"), path: `/kategorie/${slug}` },
+    { name: t("title"), path: `/kategorie/${slug}/${subcategory}` },
+  ]);
 
   return (
     <div className="py-8 max-w-3xl mx-auto">
+      <StructuredData data={breadcrumbSchema} />
+
       <Link
         href={`/kategorie/${slug}`}
         className="text-amber-700 font-semibold hover:underline mb-6 inline-block"

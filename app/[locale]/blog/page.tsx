@@ -2,6 +2,8 @@ import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { blogPosts } from "@/lib/blogData";
 import { buildMetadata } from "@/lib/seo";
+import { buildBreadcrumbListSchema } from "@/lib/structuredData";
+import StructuredData from "@/components/StructuredData";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -23,12 +25,18 @@ export default async function BlogPage({
   setRequestLocale(locale);
 
   const t = await getTranslations("blog");
+  const tNav = await getTranslations("navigation");
+  const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
+    { name: tNav("home"), path: "/" },
+    { name: tNav("blog"), path: "/blog" },
+  ]);
 
   const featured = blogPosts.filter((post) => post.translationKey && post.image);
   const rest = blogPosts.filter((post) => !(post.translationKey && post.image));
 
   return (
     <div className="py-8 max-w-6xl mx-auto">
+      <StructuredData data={breadcrumbSchema} />
       <h1 className="text-4xl font-bold text-espresso-800 mb-4">{t("title")}</h1>
       <p className="text-gray-600 text-lg mb-4 max-w-2xl">{t("subtitle")}</p>
       <p className="text-gray-600 leading-relaxed mb-10 max-w-2xl">{t("intro")}</p>
