@@ -56,6 +56,7 @@ export default async function BrandsPage({
             src="/brand/marosko-share-logo.jpg"
             alt="MAROSKO.SK"
             fill
+            unoptimized
             className="object-contain rounded-full"
           />
         </div>
@@ -71,7 +72,13 @@ export default async function BrandsPage({
             >
               {logo && (
                 <div className="relative h-10 w-28 mb-3">
-                  <Image src={logo} alt={`Logo ${name}`} fill className="object-contain object-left" />
+                  <Image
+                    src={logo}
+                    alt={`Logo ${name}`}
+                    fill
+                    unoptimized
+                    className="object-contain object-left"
+                  />
                 </div>
               )}
               <h2 className="text-lg font-bold text-espresso-800 mb-2">
