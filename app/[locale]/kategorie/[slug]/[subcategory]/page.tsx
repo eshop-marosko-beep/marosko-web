@@ -81,7 +81,7 @@ export default async function KategorieSubcategoryDetailPage({
             src={sub.image}
             alt={t("title")}
             fill
-            sizes="(min-width: 768px) 768px, 100vw"
+            unoptimized
             className="object-contain p-6"
             priority
           />
@@ -109,7 +109,7 @@ export default async function KategorieSubcategoryDetailPage({
                     src={image}
                     alt={t(`products.${id}`)}
                     fill
-                    sizes="(min-width: 1024px) 25vw, (min-width: 640px) 33vw, 50vw"
+                    unoptimized
                     className="object-contain p-3 group-hover:scale-105 transition-transform"
                   />
                 </div>

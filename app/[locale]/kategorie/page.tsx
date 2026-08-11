@@ -197,7 +197,7 @@ export default async function CategoriesPage({
                       src={image}
                       alt={t(`categories.${key}.name`)}
                       fill
-                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      unoptimized
                       className="object-contain p-4"
                     />
                   </Link>
@@ -206,7 +206,7 @@ export default async function CategoriesPage({
                     src={image}
                     alt={t(`categories.${key}.name`)}
                     fill
-                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    unoptimized
                     className="object-contain p-4"
                   />
                 )}

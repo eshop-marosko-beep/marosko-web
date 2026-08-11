@@ -98,7 +98,7 @@ export default async function GalleryCategoryPage({
                   src={src}
                   alt={t(`${translationKey}.products.${altKey}.title`)}
                   fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                  unoptimized
                   className="object-contain p-4"
                 />
                 {badge && (
@@ -153,7 +153,7 @@ export default async function GalleryCategoryPage({
                 src={src}
                 alt={t(`${translationKey}.${altKey}`)}
                 fill
-                sizes="(min-width: 768px) 20vw, 50vw"
+                unoptimized
                 className="object-contain p-2 group-hover:scale-105 transition-transform"
               />
             );

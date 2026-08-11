@@ -76,7 +76,7 @@ export default async function KategorieDetailPage({
             src={article.image}
             alt={t("title")}
             fill
-            sizes="(min-width: 768px) 768px, 100vw"
+            unoptimized
             className="object-contain p-6"
             priority
           />
@@ -104,7 +104,7 @@ export default async function KategorieDetailPage({
                       src={image}
                       alt={t(`subcategories.${translationKey}.name`)}
                       fill
-                      sizes="128px"
+                      unoptimized
                       className="object-contain p-2"
                     />
                   </div>

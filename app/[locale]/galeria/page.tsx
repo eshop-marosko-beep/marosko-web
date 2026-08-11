@@ -71,7 +71,7 @@ export default async function GalleryPage({
                 alt={t(`${translationKey}.title`)}
                 fill
                 priority={index === 0}
-                sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                unoptimized
                 className="object-contain p-4 group-hover:scale-105 transition-transform"
               />
             </div>

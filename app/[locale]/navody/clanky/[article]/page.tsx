@@ -103,7 +103,7 @@ export default async function GuideArticlePage({
           src={found.image}
           alt={item.title}
           fill
-          sizes={found.imageIsCover ? "192px" : "(min-width: 768px) 768px, 100vw"}
+          unoptimized
           className={found.imageIsCover ? "object-contain" : "object-cover"}
           priority
         />
