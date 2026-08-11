@@ -36,23 +36,23 @@
     },
     "saburrtooth": {
       "title": "Pile-ac Saburrtooth",
-      "subtitle": "Pile-ac din carbură Saburrtooth USA pentru mini polizoare de 50 mm — o gamă de forme și granulații pentru modelare rapidă și finisare fină a lemnului.",
+      "subtitle": "Unelte-ac din carbură Saburrtooth USA – de la freze pe ax și mini polizoare, până la discuri abrazive mari, pentru modelarea și finisarea lemnului la orice scară.",
       "cta": "Vezi toată gama Saburrtooth",
       "products": {
         "p1013": {
           "name": "Rotundă înclinată 50 mm"
         },
-        "p405": {
-          "name": "Tip cupă extra grosieră 44,5 mm"
+        "p310": {
+          "name": "Freză pe ax Mugur Ø 6,4 mm"
         },
-        "p590": {
-          "name": "Rotundă fină cu găuri 50 mm"
+        "p703": {
+          "name": "Freză pe ax Bilă Ø 6,4 mm"
         },
-        "p591": {
-          "name": "Rotundă grosieră cu găuri 50 mm"
+        "p506": {
+          "name": "Disc abraziv rotund Ø 100 mm"
         },
-        "p587": {
-          "name": "Plată extra grosieră 50 mm"
+        "p998": {
+          "name": "Disc abraziv rotund înclinat Ø 180 mm"
         }
       }
     },
