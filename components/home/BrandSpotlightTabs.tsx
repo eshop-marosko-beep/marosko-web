@@ -34,7 +34,7 @@ function ProductImage({ src, alt }: { src: string; alt: string }) {
       src={src}
       alt={alt}
       fill
-      sizes="(min-width: 1024px) 20vw, (min-width: 640px) 33vw, 50vw"
+      unoptimized
       className="object-contain p-3 group-hover:scale-105 transition-transform"
       onError={() => setFailed(true)}
     />
