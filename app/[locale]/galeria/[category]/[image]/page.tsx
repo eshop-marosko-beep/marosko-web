@@ -88,7 +88,7 @@ export default async function GalleryImagePage({
             src={img.src}
             alt={title}
             fill
-            sizes="(min-width: 640px) 640px, 100vw"
+            unoptimized
             className="object-contain p-6"
             priority
           />

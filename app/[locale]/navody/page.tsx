@@ -127,7 +127,7 @@ export default async function VideosPage({
                     src={image}
                     alt={tGuides(`items.${translationKey}.title`)}
                     fill
-                    sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                    unoptimized
                     className={imageIsCover ? "object-contain p-4" : "object-cover"}
                   />
                 </div>

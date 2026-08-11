@@ -16,7 +16,7 @@ export default function Hero() {
           fill
           loading="eager"
           fetchPriority="high"
-          sizes="100vw"
+          unoptimized
           className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-espresso-900/95 via-espresso-900/80 to-espresso-900/65" />
@@ -25,6 +25,7 @@ export default function Hero() {
             src="/brand/marosko-share-logo.jpg"
             alt="MAROSKO.SK"
             fill
+            unoptimized
             className="object-contain rounded-full shadow-lg ring-2 ring-white/80"
           />
         </div>
