@@ -36,23 +36,23 @@
     },
     "saburrtooth": {
       "title": "Saburrtooth Needle Rasps",
-      "subtitle": "American carbide Saburrtooth USA rasps for 50 mm mini grinders — a range of shapes and grits for fast shaping and fine wood finishing.",
+      "subtitle": "American carbide Saburrtooth USA needle tools — from shank-mounted burrs and mini grinders to large grinding discs, for shaping and finishing wood at every scale.",
       "cta": "See the full Saburrtooth range",
       "products": {
         "p1013": {
           "name": "Angled Round 50 mm"
         },
-        "p405": {
-          "name": "Cup Extra Coarse 44.5 mm"
+        "p310": {
+          "name": "Shank Burr Bud Ø 6.4 mm"
         },
-        "p590": {
-          "name": "Round Fine with Holes 50 mm"
+        "p703": {
+          "name": "Shank Burr Ball Ø 6.4 mm"
         },
-        "p591": {
-          "name": "Round Coarse with Holes 50 mm"
+        "p506": {
+          "name": "Grinding Disc Round Ø 100 mm"
         },
-        "p587": {
-          "name": "Extra Coarse Flat 50 mm"
+        "p998": {
+          "name": "Grinding Disc Angled Round Ø 180 mm"
         }
       }
     },

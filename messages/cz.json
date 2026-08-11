@@ -36,23 +36,23 @@
     },
     "saburrtooth": {
       "title": "Jehlové rašple Saburrtooth",
-      "subtitle": "Americké karbidové rašple Saburrtooth USA pro mini frézky o průměru 50 mm – různé tvary a hrubosti zrna pro rychlé tvarování i jemné dokončování dřeva.",
+      "subtitle": "Americké karbidové jehlové nástroje Saburrtooth USA – od stopkových fréz přes mini frézky až po velké brusné kotouče, pro tvarování a dokončování dřeva v každé velikosti.",
       "cta": "Zobrazit celou nabídku Saburrtooth",
       "products": {
         "p1013": {
           "name": "Šikmá oblá 50 mm"
         },
-        "p405": {
-          "name": "Šálková extra hrubá 44,5 mm"
+        "p310": {
+          "name": "Stopková frézka Poupě Ø 6,4 mm"
         },
-        "p590": {
-          "name": "Kulatá jemná s otvory 50 mm"
+        "p703": {
+          "name": "Stopková frézka Kulička Ø 6,4 mm"
         },
-        "p591": {
-          "name": "Kulatá hrubá s otvory 50 mm"
+        "p506": {
+          "name": "Brusný kotouč kulatý Ø 100 mm"
         },
-        "p587": {
-          "name": "Extra hrubá plochá 50 mm"
+        "p998": {
+          "name": "Brusný kotouč šikmý oblý Ø 180 mm"
         }
       }
     },

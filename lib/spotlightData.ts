@@ -11,29 +11,28 @@ export const saburrtoothProducts = [
     productUrl: "https://eshop.marosko.sk/p/1013/ihlickova-mini-raspla-sikma-obla-50mm",
   },
   {
-    key: "p405",
-    src: "https://eshop.marosko.sk/resize/e/800/800/files/rasple-sabur-usa/salkova-44-5mm/cr134-125.jpg",
-    productUrl: "https://eshop.marosko.sk/p/405/ihlickova-raspla-salkova-extra-hruba-priemer-44-5-mm",
+    key: "p310",
+    src: "https://eshop.marosko.sk/resize/e/800/800/files/nastroje-do-priamej-brusky/stopka-3-2mm/pucik/18bud14/18bud14-40.jpg",
+    productUrl: "https://eshop.marosko.sk/p/310/ihlickova-frezka-pucik-6-4-mm-stopka-3-2-mm",
   },
   {
-    key: "p590",
-    src: "https://eshop.marosko.sk/resize/e/800/800/files/mini-frezky/mini-raspla-gulata-z-otvormi/dw250h.jpg",
-    productUrl: "https://eshop.marosko.sk/p/590/ihlickova-mini-raspla-gulata-50mm-jemna-s-otvormi",
+    key: "p703",
+    src: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/frezovacie/kartacovacia-hriadel/gula.jpg",
+    productUrl: "https://eshop.marosko.sk/p/703/tvrdokovova-rotacna-ihlickova-gulicka-6-4-mm-stopka-3-2mm",
   },
   {
-    key: "p591",
-    src: "https://eshop.marosko.sk/resize/e/800/800/files/mini-frezky/mini-raspla-gulata-z-otvormi/dw270h.jpg",
-    productUrl: "https://eshop.marosko.sk/p/591/ihlickova-mini-raspla-gulata-50mm-hruba-s-otvormi",
+    key: "p506",
+    src: "https://eshop.marosko.sk/resize/e/800/800/files/vrtaky/bodlinova-raspla-gulata-drsna.jpg",
+    productUrl: "https://eshop.marosko.sk/p/506/ihlickova-raspla-gulata-bez-otvorov-priemer-100mm-hruba",
   },
   {
-    key: "p587",
-    src: "https://eshop.marosko.sk/resize/e/800/800/files/mini-frezky/mini-rasple/-vyr-445fd290-o-vyrez.jpg",
-    productUrl: "https://eshop.marosko.sk/p/587/ihlickova-mini-raspla-extra-hruba-50-mm",
+    key: "p998",
+    src: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/brusne/rasple/sd770.jpg",
+    productUrl: "https://eshop.marosko.sk/p/998/ihlickova-raspla-sikma-obla-bez-otvorov-180-mm-drsna",
   },
 ] as const satisfies readonly SpotlightProduct[];
 
-export const saburrtoothCtaUrl =
-  "https://eshop.marosko.sk/c/mini-kotuce-pre-mini-frezky-50/ihlickove-rasple-saburrtooth-usa";
+export const saburrtoothCtaUrl = "https://eshop.marosko.sk/b/Saburrtooth+USA";
 
 export const manpaProducts = [
   {
