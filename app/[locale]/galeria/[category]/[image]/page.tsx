@@ -36,7 +36,7 @@ export async function generateMetadata({
   return buildMetadata({
     locale,
     path: `/galeria/${category}/${image}`,
-    title: `${title} | Marián s.r.o.`,
+    title: `${title} | Marosko`,
     description,
     image: found.image.src,
   });

@@ -2590,351 +2590,351 @@
   },
   "meta": {
     "home": {
-      "title": "Marián s.r.o. – Woodcarving & Woodworking Tools",
+      "title": "Marosko – Woodcarving & Woodworking Tools",
       "description": "Milling discs, carving chisels, and power tools from Arbortech, Manpa, and Saburrtooth. A family business since 2013."
     },
     "about": {
-      "title": "About Us | Marián s.r.o.",
+      "title": "About Us | Marosko",
       "description": "Welcome to Marián! We're a family business that's been hand-picking branded woodcarving and woodworking tools for craftspeople and hobbyists alike since 2013. Learn our story and the brands we trust."
     },
     "categories": {
-      "title": "Tool Categories | Marián s.r.o.",
+      "title": "Tool Categories | Marosko",
       "description": "A complete overview of our woodcarving and woodworking tool categories – milling discs, hand and power tools, and accessories."
     },
     "kategorieDetail": {
       "nastrojeDoUhlovejBrusky": {
-        "title": "Angle grinder tools for wood – subcategory overview | Marián s.r.o.",
+        "title": "Angle grinder tools for wood – subcategory overview | Marosko",
         "description": "Milling discs, planing tools, rasps and Manpa extension arms for angle grinders – a complete overview of subcategories, brands and products."
       },
       "nastrojeDoVrtacky": {
-        "title": "Drill tools for wood – subcategory overview | Marián s.r.o.",
+        "title": "Drill tools for wood – subcategory overview | Marosko",
         "description": "Orbi Cut hollowing balls, Manpa sanding flap wheels, diamond sharpening discs and hollowing bits for the drill – full subcategory overview."
       },
       "nastrojeDoPriamejBrusky": {
-        "title": "Straight grinder tools – subcategory overview | Marián s.r.o.",
+        "title": "Straight grinder tools – subcategory overview | Marosko",
         "description": "Saburrtooth and Manpa shank-mounted burrs and needle rasps for a straight grinder, 2.4–6.4 mm shanks – full subcategory overview."
       },
       "nastrojeDoMiniFrezky": {
-        "title": "Mini grinder tools – subcategory overview | Marián s.r.o.",
+        "title": "Mini grinder tools – subcategory overview | Marosko",
         "description": "Arbortech, Manpa, Saburrtooth and Merlin mini milling discs and rasps with a 50 mm diameter and 9.5 mm bore – a complete overview of subcategories and products."
       },
       "brusneVysekyNaMieru": {
-        "title": "Custom-cut sanding discs – subcategory overview | Marián s.r.o.",
+        "title": "Custom-cut sanding discs – subcategory overview | Marosko",
         "description": "Round sanding discs from Ø50 to 600 mm with hook-and-loop backing, sandpaper and cloth, foam interface pads – a complete overview of subcategories and products."
       },
       "elektrickeNaradie": {
-        "title": "Power tools for carvers – subcategory overview | Marián s.r.o.",
+        "title": "Power tools for carvers – subcategory overview | Marosko",
         "description": "Power tools from Arbortech, Kirjes, Extol Premium, Proxxon, Silverline and Total for carvers – a complete overview of subcategories and products."
       },
       "akumulatoroveNaradie": {
-        "title": "Cordless tools – subcategory overview | Marián s.r.o.",
+        "title": "Cordless tools – subcategory overview | Marosko",
         "description": "Cordless grinders and chainsaws from Total – a complete overview of subcategories and products for cordless carving tools."
       },
       "rucneNaradie": {
-        "title": "Hand tools for the workshop – subcategory overview | Marián s.r.o.",
+        "title": "Hand tools for the workshop – subcategory overview | Marosko",
         "description": "Files, carving chisels and knives, linocut gouges and carpentry chisels from M. Stein and Stubai – a complete overview of subcategories and products."
       },
       "nateryTmelyBrusiva": {
-        "title": "Finishes, fillers, abrasives and wood treatments – subcategory overview | Marián s.r.o.",
+        "title": "Finishes, fillers, abrasives and wood treatments – subcategory overview | Marosko",
         "description": "Shellac, waxes, resins, fillers and woodworm treatments for treating wood – a complete overview of subcategories and products."
       },
       "ochrannePomocky": {
-        "title": "Protective equipment – subcategory overview | Marián s.r.o.",
+        "title": "Protective equipment – subcategory overview | Marosko",
         "description": "Protective gloves, footwear, clothing and respiratory and hearing protection for carvers – a complete overview of subcategories and products."
       },
       "nahradneDiely": {
-        "title": "Replacement and spare parts – subcategory overview | Marián s.r.o.",
+        "title": "Replacement and spare parts – subcategory overview | Marosko",
         "description": "Genuine Arbortech and Manpa spare parts – carbon brushes, belts and milling teeth. A complete overview of subcategories and products."
       },
       "podstavceZveraky": {
-        "title": "Stands, clamping machines and vices – overview | Marián s.r.o.",
+        "title": "Stands, clamping machines and vices – overview | Marosko",
         "description": "Carving vices, drill and angle grinder clamping holders, extension holders and dovetail jig templates – a complete overview and products."
       },
       "drobnySortiment": {
-        "title": "Carving accessories and add-ons – overview | Marián s.r.o.",
+        "title": "Carving accessories and add-ons – overview | Marosko",
         "description": "Replacement belts, carbon brushes, replacement blades, cleaning blocks and other small add-ons for carving tools – a complete overview and products."
       },
       "carvingoveListy": {
-        "title": "Carving guide bars – overview | Marián s.r.o.",
+        "title": "Carving guide bars – overview | Marosko",
         "description": "Oregon carving guide bars for chainsaws, for shaping and detailed wood carving – a complete overview and products."
       },
       "stopkoveNastroje": {
-        "title": "Shank-mounted joinery tools – overview | Marián s.r.o.",
+        "title": "Shank-mounted joinery tools – overview | Marosko",
         "description": "Knot cutters and Silverline shank-mounted burr sets for joinery and carving wood – a complete overview and products."
       },
       "vzduchoveNaradie": {
-        "title": "Air tools – overview | Marián s.r.o.",
+        "title": "Air tools – overview | Marosko",
         "description": "FORTUM pneumatic sanders, a belt sander and a Gamma Zinken pneumatic chisel – a complete overview and products."
       }
     },
     "kategorieSubcategoryDetail": {
       "rucneNaradie": {
         "pilniky": {
-          "title": "Files and rasps | Marián s.r.o.",
+          "title": "Files and rasps | Marosko",
           "description": "Diamond files, carbide rasps and sharpening stones for sharpening and shaping."
         },
         "dlata": {
-          "title": "Carving chisels | Marián s.r.o.",
+          "title": "Carving chisels | Marosko",
           "description": "Professional carving chisels from Stubai and M. Stein, individual profiles and sets."
         },
         "noze": {
-          "title": "Carving knives | Marián s.r.o.",
+          "title": "Carving knives | Marosko",
           "description": "Sharp carving knives for precise woodwork, including the Stubai knife."
         },
         "rydla": {
-          "title": "Linocut and wood-engraving gouges | Marián s.r.o.",
+          "title": "Linocut and wood-engraving gouges | Marosko",
           "description": "M. Stein and Stubai gouges with pear-shaped or in-line handles for linocut and engraving."
         },
         "tesarskeDlata": {
-          "title": "Carpentry chisels | Marián s.r.o.",
+          "title": "Carpentry chisels | Marosko",
           "description": "Triton, M. Stein and Stubai carpentry chisels in 13 to 38 mm widths and custom sizes."
         }
       },
       "nateryTmelyBrusiva": {
         "pozlacovanie": {
-          "title": "Gilding and silvering | Marián s.r.o.",
+          "title": "Gilding and silvering | Marosko",
           "description": "Genuine gold and silver leaf, edible gold and Decor Gold paint for artistic gilding of wood."
         },
         "protiCervotocom": {
-          "title": "Woodworm treatments | Marián s.r.o.",
+          "title": "Woodworm treatments | Marosko",
           "description": "Professional Complet Antitarlo fungicide for eradicating and protecting wood against wood-boring insects."
         },
         "riedenie": {
-          "title": "Thinning and degreasing | Marián s.r.o.",
+          "title": "Thinning and degreasing | Marosko",
           "description": "Bioalkohol Uni and DEL Extra for degreasing wood surfaces and thinning shellac polishes."
         },
         "selakyMoridla": {
-          "title": "Shellac and stains | Marián s.r.o.",
+          "title": "Shellac and stains | Marosko",
           "description": "SONNE, BONA and LEMON flake shellac plus shellac polish for shellacking and staining wood."
         },
         "vosky": {
-          "title": "Waxes and oil finishes | Marián s.r.o.",
+          "title": "Waxes and oil finishes | Marosko",
           "description": "KIRJES wax, beeswax paste and turpentine oil for waxing and oiling wood."
         },
         "zivice": {
-          "title": "Resins and fillers | Marián s.r.o.",
+          "title": "Resins and fillers | Marosko",
           "description": "Veropal epoxy resins, acrylic Paraloid B72 and Litostucco filler for casting and repairing wood."
         }
       },
       "podstavceZveraky": {
         "zveraky": {
-          "title": "Vices | Marián s.r.o.",
+          "title": "Vices | Marosko",
           "description": "Bench and portable Strongbold vices for securely clamping material when working with wood and metal."
         },
         "drziakyNaradia": {
-          "title": "Drill and angle grinder holders | Marián s.r.o.",
+          "title": "Drill and angle grinder holders | Marosko",
           "description": "Plastic and metal drill and angle grinder holders for precise, comfortable tool guidance."
         },
         "podpery": {
-          "title": "Work supports and stands | Marián s.r.o.",
+          "title": "Work supports and stands | Marosko",
           "description": "Work supports, a Triton multi-stand, an adjustable trestle and workbench."
         },
         "frezovacieSablony": {
-          "title": "Routing jigs and fixtures | Marián s.r.o.",
+          "title": "Routing jigs and fixtures | Marosko",
           "description": "A dovetail jig, a Rockler universal router base and a Triton T4 pocket-hole jig."
         }
       },
       "drobnySortiment": {
         "brusneCistiace": {
-          "title": "Sanding and cleaning add-ons | Marián s.r.o.",
+          "title": "Sanding and cleaning add-ons | Marosko",
           "description": "Diamond dressing plates, a sanding drum and Kirjes cleaning blocks for restoring abrasives."
         },
         "prislusenstvoBrusky": {
-          "title": "Angle grinder accessories and spare parts | Marián s.r.o.",
+          "title": "Angle grinder accessories and spare parts | Marosko",
           "description": "Replacement sanding belts, a shaft extension and M14 nuts for the angle grinder."
         }
       },
       "carvingoveListy": {
         "vodiaceListy": {
-          "title": "Carving guide bars | Marián s.r.o.",
+          "title": "Carving guide bars | Marosko",
           "description": "Oregon Sculptor and Makita guide bars plus an OREGON service kit for chainsaws."
         },
         "retaze": {
-          "title": "Modified chains for tree surgery | Marián s.r.o.",
+          "title": "Modified chains for tree surgery | Marosko",
           "description": "Oregon/Dolmar chains with different tooth counts for carving bars and shaping work."
         }
       },
       "vzduchoveNaradie": {
         "pneumatickeBrusky": {
-          "title": "Air sanders and grinders | Marián s.r.o.",
+          "title": "Air sanders and grinders | Marosko",
           "description": "FORTUM pneumatic straight and orbital sanders plus an air belt sander."
         },
         "dlataPrislusenstvo": {
-          "title": "Pneumatic chisel and accessories | Marián s.r.o.",
+          "title": "Pneumatic chisel and accessories | Marosko",
           "description": "A Gamma Zinken pneumatic chisel and an air line lubricator."
         }
       },
       "brusneVysekyNaMieru": {
         "maleVyseky": {
-          "title": "Small discs Ø 50 – 150 mm | Marián s.r.o.",
+          "title": "Small discs Ø 50 – 150 mm | Marosko",
           "description": "Compact round sanding discs for mini sanders and micro tools, including Silverline self-adhesive discs."
         },
         "strednePriemery": {
-          "title": "Medium discs Ø 180 – 300 mm | Marián s.r.o.",
+          "title": "Medium discs Ø 180 – 300 mm | Marosko",
           "description": "Hook-and-loop sandpaper for round and random orbit sanders in D40 to D120 grits."
         },
         "velkePriemery": {
-          "title": "Large discs Ø 370 – 600 mm | Marián s.r.o.",
+          "title": "Large discs Ø 370 – 600 mm | Marosko",
           "description": "Professional large-format sanding discs for disc sanders and sanding tables, D40 to D80 grits."
         },
         "papier115mm": {
-          "title": "Sandpaper Ø 115 mm | Marián s.r.o.",
+          "title": "Sandpaper Ø 115 mm | Marosko",
           "description": "Hook-and-loop sandpaper for angle grinders, plus fibre discs and a backing pad."
         },
         "podlozky": {
-          "title": "Backing pads and hook-and-loop accessories | Marián s.r.o.",
+          "title": "Backing pads and hook-and-loop accessories | Marosko",
           "description": "Foam interface pads and hook-and-loop backing pads in various diameters."
         }
       },
       "elektrickeNaradie": {
         "arbortech": {
-          "title": "Arbortech electric tools | Marián s.r.o.",
+          "title": "Arbortech electric tools | Marosko",
           "description": "Power Chisel, Mini Carver, Allsaw AS200X and mini grinder – Arbortech electric tools for carvers."
         },
         "extolPremium": {
-          "title": "Extol Premium straight grinders | Marián s.r.o.",
+          "title": "Extol Premium straight grinders | Marosko",
           "description": "Extol straight grinders for wood, metal, plastic and bone, plus speed-adjustable angle grinders."
         },
         "kirjes": {
-          "title": "Kirjes tools | Marián s.r.o.",
+          "title": "Kirjes tools | Marosko",
           "description": "Kirjes power unit and complete sanding systems with interchangeable sleeves and a flexible shaft."
         },
         "tusonPriamaBruska": {
-          "title": "Tuson straight grinder | Marián s.r.o.",
+          "title": "Tuson straight grinder | Marosko",
           "description": "Tuson RT170 straight grinder with flexible shaft and a 125 mm random orbit sander."
         },
         "proxxon": {
-          "title": "Proxxon tools | Marián s.r.o.",
+          "title": "Proxxon tools | Marosko",
           "description": "LHW long-neck angle grinder, MSG electric chisel and replacement sanding belts from Proxxon."
         },
         "silverline": {
-          "title": "Silverline tools | Marián s.r.o.",
+          "title": "Silverline tools | Marosko",
           "description": "1200 W polisher, 135 W straight grinder and telescopic stand from Silverline."
         },
         "total": {
-          "title": "Total tools | Marián s.r.o.",
+          "title": "Total tools | Marosko",
           "description": "Miter saw, electric planer, and cordless grinders and saw from Total."
         }
       },
       "nastrojeDoPriamejBrusky": {
         "stopky24mm": {
-          "title": "2.4 mm shank rasps | Marián s.r.o.",
+          "title": "2.4 mm shank rasps | Marosko",
           "description": "Needle rasps and cutters with a 2.4 mm shank for Dremel, Proxxon and Parkside micro-grinders."
         },
         "stopky3mm": {
-          "title": "3 mm milling shanks | Marián s.r.o.",
+          "title": "3 mm milling shanks | Marosko",
           "description": "3 mm milling shanks, carbide burrs, and radial bristle brushes."
         },
         "stopky32mm": {
-          "title": "3.2 mm shank cutters | Marián s.r.o.",
+          "title": "3.2 mm shank cutters | Marosko",
           "description": "The widest range of 3.2 mm shank tools – cylinder, bud, ball and cone shapes."
         },
         "stopky6mm": {
-          "title": "6 mm shank cutters and rasps | Marián s.r.o.",
+          "title": "6 mm shank cutters and rasps | Marosko",
           "description": "Professional 6 mm shank cutters and rasps – Manpa toothed shanks and needle rasps."
         },
         "stopky64mm": {
-          "title": "6.4 mm shanks | Marián s.r.o.",
+          "title": "6.4 mm shanks | Marosko",
           "description": "Saburrtooth USA needle rasps and a Manpa toothed milling shank, 6.4 mm shank."
         }
       },
       "nastrojeDoUhlovejBrusky": {
         "naDrevo": {
-          "title": "Angle grinder tools for wood | Marián s.r.o.",
+          "title": "Angle grinder tools for wood | Marosko",
           "description": "Arbortech Woodcarver PROFI-INDUSTRIAL, Turbo Plane, Ball Gouge and Turbo Scraper – milling and planing discs for wood for the angle grinder."
         },
         "manpaRameno": {
-          "title": "Manpa extension arm and tools | Marián s.r.o.",
+          "title": "Manpa extension arm and tools | Marosko",
           "description": "Manpa Multi Cutter Master, belt sander attachment and milling attachments – extension arms for the angle grinder."
         },
         "diamantoveKotuce": {
-          "title": "Diamond sharpening discs | Marián s.r.o.",
+          "title": "Diamond sharpening discs | Marosko",
           "description": "Diamond-coated discs for sharpening chisels, knives, chains and carbide tools for the angle grinder."
         },
         "nadstavce": {
-          "title": "Angle grinder attachments | Marián s.r.o.",
+          "title": "Angle grinder attachments | Marosko",
           "description": "Stand, keyless chuck, diamond grinding nut and M14 reducers for the angle grinder."
         },
         "kamenTehla": {
-          "title": "Tools for stone and brick | Marián s.r.o.",
+          "title": "Tools for stone and brick | Marosko",
           "description": "TURBO diamond cutting discs, diamond core bits and carbide grinding discs for working masonry and stone."
         },
         "plastoveKompozity": {
-          "title": "Machining plastic composites | Marián s.r.o.",
+          "title": "Machining plastic composites | Marosko",
           "description": "Universal diamond cutting disc and carbide grinding discs for plastic and composite materials."
         }
       },
       "nastrojeDoVrtacky": {
         "frezovanie": {
-          "title": "Milling tools for the drill | Marián s.r.o.",
+          "title": "Milling tools for the drill | Marosko",
           "description": "Orbi Cut hollowing balls and Manpa shaping cutter heads for the drill."
         },
         "brusenie": {
-          "title": "Sanding tools for the drill | Marián s.r.o.",
+          "title": "Sanding tools for the drill | Marosko",
           "description": "Manpa EZ-Sander flap wheels, drum sanders and sanding cones for the drill."
         },
         "ostrenie": {
-          "title": "Diamond sharpening discs | Marián s.r.o.",
+          "title": "Diamond sharpening discs | Marosko",
           "description": "Diamond-coated discs for sharpening chisels, axes, drill bits, glass and ceramics."
         },
         "nastavce": {
-          "title": "Drill attachments | Marián s.r.o.",
+          "title": "Drill attachments | Marosko",
           "description": "Kirjes and Wolfcraft flexible shafts, an M14 reducing shank, and a keyless chuck."
         },
         "vrtaky": {
-          "title": "Drilling tools and bits | Marián s.r.o.",
+          "title": "Drilling tools and bits | Marosko",
           "description": "Diamond core bits, square hollow-chisel bits, and ARTU drill bit sets."
         }
       },
       "nastrojeDoMiniFrezky": {
         "arbortech": {
-          "title": "Arbortech accessories for the Mini Carver Ø 50 mm | Marián s.r.o.",
+          "title": "Arbortech accessories for the Mini Carver Ø 50 mm | Marosko",
           "description": "Mini Pro milling disc, diamond disc, and sanding/fibre disc sets from Arbortech for the Mini Carver mini grinder — 50 mm diameter, 9.5 mm bore."
         },
         "ideaImport": {
-          "title": "Idea Import (Ante) mini discs Ø 50 mm | Marián s.r.o.",
+          "title": "Idea Import (Ante) mini discs Ø 50 mm | Marosko",
           "description": "Hand-cut Ante rasps from the Czech manufacturer Idea Import with a 10 mm bore and 50 mm overall disc diameter."
         },
         "saburrtooth": {
-          "title": "Saburrtooth U.S.A. needle rasps Ø 50 mm | Marián s.r.o.",
+          "title": "Saburrtooth U.S.A. needle rasps Ø 50 mm | Marosko",
           "description": "Saburrtooth USA needle rasps with carbide teeth — color-coded grit for fast stock removal and fine wood finishing."
         },
         "manpa": {
-          "title": "Manpa mini discs Ø 50 mm | Marián s.r.o.",
+          "title": "Manpa mini discs Ø 50 mm | Marosko",
           "description": "Manpa toothed milling discs in round, triangular and square tooth profiles — 50 mm diameter, 9.5 mm bore."
         },
         "merlin": {
-          "title": "Merlin mini rasps and chain cutters Ø 50 mm | Marián s.r.o.",
+          "title": "Merlin mini rasps and chain cutters Ø 50 mm | Marosko",
           "description": "Chain cutters, replacement chains, and carbide mini rasps from Merlin (King Arthur's Tools) for the mini grinder."
         }
       }
     },
     "brands": {
-      "title": "Brands & Manufacturers | Marián s.r.o.",
+      "title": "Brands & Manufacturers | Marosko",
       "description": "An overview of trusted woodcarving and woodworking tool brands and manufacturers available at eshop.marosko.sk."
     },
     "gallery": {
-      "title": "Tool Gallery | Marián s.r.o.",
+      "title": "Tool Gallery | Marosko",
       "description": "A photo gallery of our tools – browse milling discs and other products from our range."
     },
     "videos": {
-      "title": "Video guides and tool demos | Marián s.r.o.",
+      "title": "Video guides and tool demos | Marosko",
       "description": "Short video clips of our woodcarving and woodworking tools in action — roughing out, hollowing, sanding and wood finishing."
     },
     "blog": {
-      "title": "Blog | Marián s.r.o.",
+      "title": "Blog | Marosko",
       "description": "News, tips and tool spotlights from our e-shop eshop.marosko.sk."
     },
     "shops": {
-      "title": "Our Shops | Marián s.r.o.",
+      "title": "Our Shops | Marosko",
       "description": "An overview of all our e-shops – eshop.marosko.sk, Vercajch.eu, and RezbárskeNáradie.sk."
     },
     "contact": {
-      "title": "Contact | Marián s.r.o.",
+      "title": "Contact | Marosko",
       "description": "Contact and billing details for Marián s.r.o. Write to us or reach us by phone."
     },
     "gdpr": {
-      "title": "Privacy Policy | Marián s.r.o.",
+      "title": "Privacy Policy | Marosko",
       "description": "Information about personal data processing and cookie usage on the Marián s.r.o. website."
     }
   },

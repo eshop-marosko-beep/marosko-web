@@ -2590,351 +2590,351 @@
   },
   "meta": {
     "home": {
-      "title": "Marián s.r.o. – Unelte pentru cioplit și prelucrarea lemnului",
+      "title": "Marosko – Unelte pentru cioplit și prelucrarea lemnului",
       "description": "Discuri de frezat, dălți de cioplit și unelte electrice de la Arbortech, Manpa și Saburrtooth. Afacere de familie din 2013."
     },
     "about": {
-      "title": "Despre noi | Marián s.r.o.",
+      "title": "Despre noi | Marosko",
       "description": "Bine ați venit la Marián! Suntem o afacere de familie care alege cu grijă, din 2013, unelte de marcă pentru cioplit și prelucrarea lemnului, pentru meșteri și pasionați deopotrivă. Aflați povestea noastră și mărcile în care avem încredere."
     },
     "categories": {
-      "title": "Categorii de unelte | Marián s.r.o.",
+      "title": "Categorii de unelte | Marosko",
       "description": "O prezentare completă a categoriilor noastre de unelte pentru cioplit și prelucrarea lemnului – discuri de frezat, unelte manuale și electrice și accesorii."
     },
     "kategorieDetail": {
       "nastrojeDoUhlovejBrusky": {
-        "title": "Unelte pentru polizor unghiular pe lemn – prezentare subcategorii | Marián s.r.o.",
+        "title": "Unelte pentru polizor unghiular pe lemn – prezentare subcategorii | Marosko",
         "description": "Discuri de frezat, unelte de rindeluit, pile și brațe prelungitoare Manpa pentru polizor unghiular – prezentare completă a subcategoriilor."
       },
       "nastrojeDoVrtacky": {
-        "title": "Unelte pentru bormașină pe lemn – prezentare subcategorii | Marián s.r.o.",
+        "title": "Unelte pentru bormașină pe lemn – prezentare subcategorii | Marosko",
         "description": "Sfere de scobit Orbi Cut, evantaie abrazive Manpa, discuri diamantate de ascuțit și burghie de scobit pentru bormașină – prezentare subcategorii."
       },
       "nastrojeDoPriamejBrusky": {
-        "title": "Unelte pentru polizor drept – prezentare subcategorii | Marián s.r.o.",
+        "title": "Unelte pentru polizor drept – prezentare subcategorii | Marosko",
         "description": "Freze pe tijă și pile-ac Saburrtooth și Manpa pentru polizor drept, în diametre de 2,4 până la 6,4 mm – prezentare completă a subcategoriilor și produselor."
       },
       "nastrojeDoMiniFrezky": {
-        "title": "Unelte pentru mini-polizor – prezentare subcategorii | Marián s.r.o.",
+        "title": "Unelte pentru mini-polizor – prezentare subcategorii | Marosko",
         "description": "Discuri și pile mini Arbortech, Manpa, Saburrtooth și Merlin, cu diametru de 50 mm și alezaj de 9,5 mm – prezentare completă a subcategoriilor și produselor."
       },
       "brusneVysekyNaMieru": {
-        "title": "Discuri abrazive decupate la comandă – prezentare subcategorii | Marián s.r.o.",
+        "title": "Discuri abrazive decupate la comandă – prezentare subcategorii | Marosko",
         "description": "Discuri abrazive rotunde de la Ø50 la 600 mm cu prindere velcro, hârtie și pânză abrazivă, suporturi din spumă – prezentare subcategorii."
       },
       "elektrickeNaradie": {
-        "title": "Unelte electrice pentru sculptori – prezentare subcategorii | Marián s.r.o.",
+        "title": "Unelte electrice pentru sculptori – prezentare subcategorii | Marosko",
         "description": "Unelte electrice Arbortech, Kirjes, Extol Premium, Proxxon, Silverline și Total pentru sculptori – prezentare completă a subcategoriilor și produselor."
       },
       "akumulatoroveNaradie": {
-        "title": "Unelte cu acumulator – prezentare subcategorii | Marián s.r.o.",
+        "title": "Unelte cu acumulator – prezentare subcategorii | Marosko",
         "description": "Polizoare cu acumulator și ferăstraie-lanț Total – prezentare completă a subcategoriilor și produselor pentru unelte de sculptură cu acumulator."
       },
       "rucneNaradie": {
-        "title": "Unelte manuale pentru atelier – prezentare subcategorii | Marián s.r.o.",
+        "title": "Unelte manuale pentru atelier – prezentare subcategorii | Marosko",
         "description": "Pile, dălți și cuțite de sculptură, dăltițe pentru linogravură și dălți de tâmplărie de la M. Stein și Stubai – prezentare subcategorii."
       },
       "nateryTmelyBrusiva": {
-        "title": "Finisaje, chituri, abrazivi și produse pentru tratarea lemnului – prezentare subcategorii | Marián s.r.o.",
+        "title": "Finisaje, chituri, abrazivi și produse pentru tratarea lemnului – prezentare subcategorii | Marosko",
         "description": "Șelac, ceruri, rășini, chituri și produse împotriva carilor lemnului pentru tratarea lemnului – prezentare completă a subcategoriilor și produselor."
       },
       "ochrannePomocky": {
-        "title": "Echipamente de protecție la lucru – prezentare subcategorii | Marián s.r.o.",
+        "title": "Echipamente de protecție la lucru – prezentare subcategorii | Marosko",
         "description": "Mănuși, încălțăminte, îmbrăcăminte de protecție și protecție respiratorie și auditivă pentru sculptori – prezentare completă a subcategoriilor și produselor."
       },
       "nahradneDiely": {
-        "title": "Piese de schimb – prezentare subcategorii | Marián s.r.o.",
+        "title": "Piese de schimb – prezentare subcategorii | Marosko",
         "description": "Piese de schimb originale Arbortech și Manpa – perii de carbon, curele și dinți de frezat. Prezentare completă a subcategoriilor și produselor."
       },
       "podstavceZveraky": {
-        "title": "Suporturi, mașini de prindere și menghine – prezentare | Marián s.r.o.",
+        "title": "Suporturi, mașini de prindere și menghine – prezentare | Marosko",
         "description": "Menghine de sculptură, suporturi de prindere pentru bormașină și polizor unghiular, suporturi prelungitoare și șabloane – prezentare completă."
       },
       "drobnySortiment": {
-        "title": "Accesorii și completări pentru sculptură – prezentare | Marián s.r.o.",
+        "title": "Accesorii și completări pentru sculptură – prezentare | Marosko",
         "description": "Curele de schimb, perii de carbon, lame de schimb, blocuri de curățare și alte accesorii mici pentru unelte de sculptură – prezentare completă și produse."
       },
       "carvingoveListy": {
-        "title": "Lame de ghidaj pentru sculptură – prezentare | Marián s.r.o.",
+        "title": "Lame de ghidaj pentru sculptură – prezentare | Marosko",
         "description": "Lame de ghidaj Oregon pentru motoferăstrău, pentru modelarea și sculptura detaliată a lemnului – prezentare completă și produse."
       },
       "stopkoveNastroje": {
-        "title": "Unelte de tâmplărie pe tijă – prezentare | Marián s.r.o.",
+        "title": "Unelte de tâmplărie pe tijă – prezentare | Marosko",
         "description": "Tăietoare de noduri și seturi de freze pe tijă Silverline pentru tâmplărie și sculptură în lemn – prezentare completă și produse."
       },
       "vzduchoveNaradie": {
-        "title": "Unelte pneumatice – prezentare | Marián s.r.o.",
+        "title": "Unelte pneumatice – prezentare | Marosko",
         "description": "Polizoare pneumatice FORTUM, polizor cu bandă și daltă pneumatică Gamma Zinken – prezentare completă și produse."
       }
     },
     "kategorieSubcategoryDetail": {
       "rucneNaradie": {
         "pilniky": {
-          "title": "Pile și raspele | Marián s.r.o.",
+          "title": "Pile și raspele | Marosko",
           "description": "Pile diamantate, raspele din carbură și pietre de ascuțit pentru ascuțire și modelare."
         },
         "dlata": {
-          "title": "Dălți de sculptură | Marián s.r.o.",
+          "title": "Dălți de sculptură | Marosko",
           "description": "Dălți de sculptură profesionale Stubai și M. Stein, profiluri individuale și seturi."
         },
         "noze": {
-          "title": "Cuțite de sculptură | Marián s.r.o.",
+          "title": "Cuțite de sculptură | Marosko",
           "description": "Cuțite de sculptură ascuțite pentru lucrul de precizie cu lemnul, inclusiv cuțitul Stubai."
         },
         "rydla": {
-          "title": "Dăltițe pentru linogravură și gravură în lemn | Marián s.r.o.",
+          "title": "Dăltițe pentru linogravură și gravură în lemn | Marosko",
           "description": "Dăltițe M. Stein și Stubai cu mâner în formă de pară sau în linie pentru linogravură."
         },
         "tesarskeDlata": {
-          "title": "Dălți de tâmplărie | Marián s.r.o.",
+          "title": "Dălți de tâmplărie | Marosko",
           "description": "Dălți de tâmplărie Triton, M. Stein și Stubai în lățimi de 13 până la 38 mm și pe comandă."
         }
       },
       "nateryTmelyBrusiva": {
         "pozlacovanie": {
-          "title": "Poleire cu aur și argint | Marián s.r.o.",
+          "title": "Poleire cu aur și argint | Marosko",
           "description": "Foițe autentice de aur și argint, aur comestibil și vopsea Decor Gold pentru poleirea artistică a lemnului."
         },
         "protiCervotocom": {
-          "title": "Produse împotriva carilor lemnului | Marián s.r.o.",
+          "title": "Produse împotriva carilor lemnului | Marosko",
           "description": "Fungicid profesional Complet Antitarlo pentru eliminarea și protecția lemnului împotriva insectelor xilofage."
         },
         "riedenie": {
-          "title": "Diluare și degresare | Marián s.r.o.",
+          "title": "Diluare și degresare | Marosko",
           "description": "Bioalcool Uni și DEL Extra pentru degresarea suprafeței lemnului și diluarea lacurilor pe bază de șelac."
         },
         "selakyMoridla": {
-          "title": "Șelac și baițuri | Marián s.r.o.",
+          "title": "Șelac și baițuri | Marosko",
           "description": "Șelac SONNE, BONA și LEMON sub formă de fulgi, precum și lac pe bază de șelac pentru tratamentul lemnului."
         },
         "vosky": {
-          "title": "Ceruri și finisaje pe bază de ulei | Marián s.r.o.",
+          "title": "Ceruri și finisaje pe bază de ulei | Marosko",
           "description": "Ceară KIRJES, ceară de albine sub formă de pastă și ulei de terebentină pentru tratarea lemnului."
         },
         "zivice": {
-          "title": "Rășini și chituri | Marián s.r.o.",
+          "title": "Rășini și chituri | Marosko",
           "description": "Rășini epoxidice Veropal, Paraloid B72 acrilic și chit Litostucco pentru turnare și repararea lemnului."
         }
       },
       "podstavceZveraky": {
         "zveraky": {
-          "title": "Menghine | Marián s.r.o.",
+          "title": "Menghine | Marosko",
           "description": "Menghine de banc și portabile Strongbold pentru fixarea fermă a materialului la lucrul cu lemn și metal."
         },
         "drziakyNaradia": {
-          "title": "Suporturi pentru bormașină și polizor unghiular | Marián s.r.o.",
+          "title": "Suporturi pentru bormașină și polizor unghiular | Marosko",
           "description": "Suporturi de plastic și metalice pentru bormașină și polizor unghiular, pentru o ghidare precisă a uneltelor."
         },
         "podpery": {
-          "title": "Suporturi de lucru și stative | Marián s.r.o.",
+          "title": "Suporturi de lucru și stative | Marosko",
           "description": "Suporturi de lucru, suport multifuncțional Triton, capră reglabilă și masă de lucru."
         },
         "frezovacieSablony": {
-          "title": "Șabloane și dispozitive de frezare | Marián s.r.o.",
+          "title": "Șabloane și dispozitive de frezare | Marosko",
           "description": "Șablonă pentru îmbinări în coadă de rândunică, bază universală Rockler și dispozitiv Triton T4."
         }
       },
       "drobnySortiment": {
         "brusneCistiace": {
-          "title": "Accesorii de șlefuire și curățare | Marián s.r.o.",
+          "title": "Accesorii de șlefuire și curățare | Marosko",
           "description": "Plăcuțe diamantate, tambur de șlefuit și blocuri de curățare Kirjes pentru refacerea materialelor abrazive."
         },
         "prislusenstvoBrusky": {
-          "title": "Accesorii și piese de schimb pentru polizorul unghiular | Marián s.r.o.",
+          "title": "Accesorii și piese de schimb pentru polizorul unghiular | Marosko",
           "description": "Curele abrazive de schimb, prelungitor de ax și piulițe M14 pentru polizorul unghiular."
         }
       },
       "carvingoveListy": {
         "vodiaceListy": {
-          "title": "Lame de ghidaj pentru carving | Marián s.r.o.",
+          "title": "Lame de ghidaj pentru carving | Marosko",
           "description": "Lame de ghidaj Oregon Sculptor și Makita, precum și un set de service OREGON pentru motoferăstraie."
         },
         "retaze": {
-          "title": "Lanțuri modificate pentru chirurgia arborilor | Marián s.r.o.",
+          "title": "Lanțuri modificate pentru chirurgia arborilor | Marosko",
           "description": "Lanțuri Oregon/Dolmar cu diferit număr de zale, pentru lame de carving și sculptură de formă."
         }
       },
       "vzduchoveNaradie": {
         "pneumatickeBrusky": {
-          "title": "Polizoare pneumatice | Marián s.r.o.",
+          "title": "Polizoare pneumatice | Marosko",
           "description": "Polizoare pneumatice drepte și excentrice FORTUM, precum și un polizor pneumatic cu bandă."
         },
         "dlataPrislusenstvo": {
-          "title": "Daltă pneumatică și accesorii | Marián s.r.o.",
+          "title": "Daltă pneumatică și accesorii | Marosko",
           "description": "Daltă pneumatică Gamma Zinken și un lubrifiator pentru rețeaua de aer."
         }
       },
       "brusneVysekyNaMieru": {
         "maleVyseky": {
-          "title": "Discuri mici Ø 50 – 150 mm | Marián s.r.o.",
+          "title": "Discuri mici Ø 50 – 150 mm | Marosko",
           "description": "Discuri abrazive rotunde compacte pentru mini polizoare și micro-unelte, inclusiv discuri autoadezive Silverline."
         },
         "strednePriemery": {
-          "title": "Discuri medii Ø 180 – 300 mm | Marián s.r.o.",
+          "title": "Discuri medii Ø 180 – 300 mm | Marosko",
           "description": "Hârtie abrazivă cu velcro pentru polizoare rotunde și excentrice, în granulații de la D40 la D120."
         },
         "velkePriemery": {
-          "title": "Discuri mari Ø 370 – 600 mm | Marián s.r.o.",
+          "title": "Discuri mari Ø 370 – 600 mm | Marosko",
           "description": "Discuri abrazive profesionale de mari dimensiuni pentru polizoare cu disc și mese de șlefuit, granulații D40 până la D80."
         },
         "papier115mm": {
-          "title": "Hârtie abrazivă Ø 115 mm | Marián s.r.o.",
+          "title": "Hârtie abrazivă Ø 115 mm | Marosko",
           "description": "Hârtie abrazivă cu velcro pentru polizoare unghiulare, plus discuri din fibră și un suport."
         },
         "podlozky": {
-          "title": "Suporturi și accesorii velcro | Marián s.r.o.",
+          "title": "Suporturi și accesorii velcro | Marosko",
           "description": "Tampoane intermediare din burete și suporturi velcro în diverse diametre."
         }
       },
       "elektrickeNaradie": {
         "arbortech": {
-          "title": "Unelte electrice Arbortech | Marián s.r.o.",
+          "title": "Unelte electrice Arbortech | Marosko",
           "description": "Power Chisel, Mini Carver, Allsaw AS200X și mini polizor – unelte electrice Arbortech pentru sculptori."
         },
         "extolPremium": {
-          "title": "Polizoare drepte Extol Premium | Marián s.r.o.",
+          "title": "Polizoare drepte Extol Premium | Marosko",
           "description": "Polizoare drepte Extol pentru lemn, metal, plastic și os, plus polizoare unghiulare cu reglaj de turație."
         },
         "kirjes": {
-          "title": "Unelte Kirjes | Marián s.r.o.",
+          "title": "Unelte Kirjes | Marosko",
           "description": "Unitate de antrenare și sisteme complete de șlefuit Kirjes cu manșoane interschimbabile și ax flexibil."
         },
         "tusonPriamaBruska": {
-          "title": "Polizor drept Tuson | Marián s.r.o.",
+          "title": "Polizor drept Tuson | Marosko",
           "description": "Polizor drept Tuson RT170 cu ax flexibil și un polizor excentric de 125 mm."
         },
         "proxxon": {
-          "title": "Unelte Proxxon | Marián s.r.o.",
+          "title": "Unelte Proxxon | Marosko",
           "description": "Polizor unghiular cu gât lung LHW, daltă electrică MSG și benzi abrazive de schimb Proxxon."
         },
         "silverline": {
-          "title": "Unelte Silverline | Marián s.r.o.",
+          "title": "Unelte Silverline | Marosko",
           "description": "Polizor-lustruitor 1200 W, polizor drept 135 W și suport telescopic Silverline."
         },
         "total": {
-          "title": "Unelte Total | Marián s.r.o.",
+          "title": "Unelte Total | Marosko",
           "description": "Ferăstrău circular, rindea electrică și polizoare și ferăstrău pe acumulator de la Total."
         }
       },
       "nastrojeDoPriamejBrusky": {
         "stopky24mm": {
-          "title": "Pile pe tijă 2,4 mm | Marián s.r.o.",
+          "title": "Pile pe tijă 2,4 mm | Marosko",
           "description": "Pile-ac și freze cu tijă de 2,4 mm pentru micro-polizoarele Dremel, Proxxon și Parkside."
         },
         "stopky3mm": {
-          "title": "Freze pe tijă 3 mm | Marián s.r.o.",
+          "title": "Freze pe tijă 3 mm | Marosko",
           "description": "Freze pe tijă de 3 mm, freze din carbură și perii radiale din filament."
         },
         "stopky32mm": {
-          "title": "Freze pe tijă 3,2 mm | Marián s.r.o.",
+          "title": "Freze pe tijă 3,2 mm | Marosko",
           "description": "Cea mai largă gamă de unelte cu tijă de 3,2 mm – forme cilindru, mugur, bilă și con."
         },
         "stopky6mm": {
-          "title": "Freze și pile pe tijă 6 mm | Marián s.r.o.",
+          "title": "Freze și pile pe tijă 6 mm | Marosko",
           "description": "Freze și pile profesionale cu tijă de 6 mm – freze dințate Manpa și pile-ac."
         },
         "stopky64mm": {
-          "title": "Tije 6,4 mm | Marián s.r.o.",
+          "title": "Tije 6,4 mm | Marosko",
           "description": "Pile-ac Saburrtooth USA și o freză dințată Manpa, tijă de 6,4 mm."
         }
       },
       "nastrojeDoUhlovejBrusky": {
         "naDrevo": {
-          "title": "Unelte pentru polizor unghiular pe lemn | Marián s.r.o.",
+          "title": "Unelte pentru polizor unghiular pe lemn | Marosko",
           "description": "Arbortech Woodcarver PROFI-INDUSTRIAL, Turbo Plane, Ball Gouge și Turbo Scraper – discuri de frezat și rindeluit pe lemn pentru polizorul unghiular."
         },
         "manpaRameno": {
-          "title": "Manpa – braț prelungitor și unelte | Marián s.r.o.",
+          "title": "Manpa – braț prelungitor și unelte | Marosko",
           "description": "Manpa Multi Cutter Master, accesoriu de șlefuit cu bandă și accesorii de frezat – brațe prelungitoare pentru polizorul unghiular."
         },
         "diamantoveKotuce": {
-          "title": "Discuri diamantate de ascuțit | Marián s.r.o.",
+          "title": "Discuri diamantate de ascuțit | Marosko",
           "description": "Discuri acoperite cu diamant pentru ascuțirea daltelor, cuțitelor, lanțurilor și uneltelor din carbură pentru polizorul unghiular."
         },
         "nadstavce": {
-          "title": "Accesorii pentru polizor unghiular | Marián s.r.o.",
+          "title": "Accesorii pentru polizor unghiular | Marosko",
           "description": "Suport, mandrină cu prindere rapidă, piuliță de șlefuire diamantată și reductoare M14 pentru polizorul unghiular."
         },
         "kamenTehla": {
-          "title": "Unelte pentru piatră și cărămidă | Marián s.r.o.",
+          "title": "Unelte pentru piatră și cărămidă | Marosko",
           "description": "Discuri de tăiere diamantate TURBO, burghie tubulare diamantate și discuri de șlefuit din carbură pentru prelucrarea zidăriei și pietrei."
         },
         "plastoveKompozity": {
-          "title": "Prelucrarea compozitelor din plastic | Marián s.r.o.",
+          "title": "Prelucrarea compozitelor din plastic | Marosko",
           "description": "Disc universal de tăiere diamantat și discuri de șlefuit din carbură pentru materiale din plastic și compozite."
         }
       },
       "nastrojeDoVrtacky": {
         "frezovanie": {
-          "title": "Unelte de frezat pentru bormașină | Marián s.r.o.",
+          "title": "Unelte de frezat pentru bormașină | Marosko",
           "description": "Sfere de scobit Orbi Cut și capete de frezat Manpa pentru bormașină."
         },
         "brusenie": {
-          "title": "Unelte de șlefuit pentru bormașină | Marián s.r.o.",
+          "title": "Unelte de șlefuit pentru bormașină | Marosko",
           "description": "Evantaie abrazive Manpa EZ-Sander, tamburi abrazivi și conuri de șlefuit pentru bormașină."
         },
         "ostrenie": {
-          "title": "Discuri diamantate de ascuțit | Marián s.r.o.",
+          "title": "Discuri diamantate de ascuțit | Marosko",
           "description": "Discuri acoperite cu diamant pentru ascuțirea daltelor, securilor, burghielor, sticlei și ceramicii."
         },
         "nastavce": {
-          "title": "Accesorii pentru bormașină | Marián s.r.o.",
+          "title": "Accesorii pentru bormașină | Marosko",
           "description": "Axe flexibile Kirjes și Wolfcraft, o tijă de reducție M14 și o mandrină cu prindere rapidă."
         },
         "vrtaky": {
-          "title": "Unelte și burghie de găurit | Marián s.r.o.",
+          "title": "Unelte și burghie de găurit | Marosko",
           "description": "Burghie tubulare diamantate, burghie pătrate de scobit și seturi de burghie ARTU."
         }
       },
       "nastrojeDoMiniFrezky": {
         "arbortech": {
-          "title": "Accesorii Arbortech pentru Mini Carver Ø 50 mm | Marián s.r.o.",
+          "title": "Accesorii Arbortech pentru Mini Carver Ø 50 mm | Marosko",
           "description": "Disc de frezat Mini Pro, disc diamantat și seturi de discuri abrazive și din fibră de la Arbortech pentru mini-polizorul Mini Carver — diametru 50 mm, alezaj 9,5 mm."
         },
         "ideaImport": {
-          "title": "Discuri mini Idea Import (Ante) Ø 50 mm | Marián s.r.o.",
+          "title": "Discuri mini Idea Import (Ante) Ø 50 mm | Marosko",
           "description": "Pile Ante tăiate manual de la producătorul ceh Idea Import, cu alezaj de 10 mm și diametru total al discului de 50 mm."
         },
         "saburrtooth": {
-          "title": "Pile-ac Saburrtooth U.S.A. Ø 50 mm | Marián s.r.o.",
+          "title": "Pile-ac Saburrtooth U.S.A. Ø 50 mm | Marosko",
           "description": "Pile-ac Saburrtooth USA cu dinți din carbură — granulație codată pe culori pentru îndepărtare rapidă și finisare fină a lemnului."
         },
         "manpa": {
-          "title": "Discuri mini Manpa Ø 50 mm | Marián s.r.o.",
+          "title": "Discuri mini Manpa Ø 50 mm | Marosko",
           "description": "Discuri de frezat dințate Manpa în profil rotund, triunghiular și pătrat — diametru 50 mm, alezaj 9,5 mm."
         },
         "merlin": {
-          "title": "Pile mini și freze-lanț Merlin Ø 50 mm | Marián s.r.o.",
+          "title": "Pile mini și freze-lanț Merlin Ø 50 mm | Marosko",
           "description": "Freze-lanț, lanțuri de schimb și mini-pile din carbură Merlin (King Arthur's Tools) pentru mini-polizor."
         }
       }
     },
     "brands": {
-      "title": "Mărci și producători | Marián s.r.o.",
+      "title": "Mărci și producători | Marosko",
       "description": "Prezentare a mărcilor și producătorilor de încredere de unelte pentru sculptură și prelucrarea lemnului, disponibile pe eshop.marosko.sk."
     },
     "gallery": {
-      "title": "Galerie unelte | Marián s.r.o.",
+      "title": "Galerie unelte | Marosko",
       "description": "O galerie foto cu uneltele noastre – vedeți discuri de frezat și alte produse din gama noastră."
     },
     "videos": {
-      "title": "Ghiduri video și demonstrații unelte | Marián s.r.o.",
+      "title": "Ghiduri video și demonstrații unelte | Marosko",
       "description": "Clipuri video scurte cu uneltele noastre de sculptură și prelucrare a lemnului în acțiune — degroșare, scobire, șlefuire și finisarea lemnului."
     },
     "blog": {
-      "title": "Blog | Marián s.r.o.",
+      "title": "Blog | Marosko",
       "description": "Noutăți, sfaturi și prezentări de unelte din magazinul nostru online eshop.marosko.sk."
     },
     "shops": {
-      "title": "Magazinele noastre | Marián s.r.o.",
+      "title": "Magazinele noastre | Marosko",
       "description": "O prezentare a tuturor magazinelor noastre online – eshop.marosko.sk, Vercajch.eu și RezbárskeNáradie.sk."
     },
     "contact": {
-      "title": "Contact | Marián s.r.o.",
+      "title": "Contact | Marosko",
       "description": "Date de contact și facturare pentru Marián s.r.o. Scrieți-ne sau contactați-ne telefonic."
     },
     "gdpr": {
-      "title": "Protecția datelor cu caracter personal | Marián s.r.o.",
+      "title": "Protecția datelor cu caracter personal | Marosko",
       "description": "Informații despre prelucrarea datelor cu caracter personal și utilizarea cookie-urilor pe site-ul Marián s.r.o."
     }
   },
