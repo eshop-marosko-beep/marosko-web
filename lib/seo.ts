@@ -53,7 +53,7 @@ export function buildMetadata({
       title,
       description,
       url,
-      siteName: "Marián s.r.o.",
+      siteName: "Marosko",
       locale,
       type: "website",
       images: [{ url: ogImage }],

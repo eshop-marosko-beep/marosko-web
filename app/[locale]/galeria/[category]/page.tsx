@@ -25,7 +25,7 @@ export async function generateMetadata({
   return buildMetadata({
     locale,
     path: `/galeria/${category}`,
-    title: `${t(`${galleryCategory.translationKey}.title`)} | Marián s.r.o.`,
+    title: `${t(`${galleryCategory.translationKey}.title`)} | Marosko`,
     // Use the short blurb, not the long on-page description, to keep the
     // <meta name="description"> within the ~160 character limit search
     // engines display.
