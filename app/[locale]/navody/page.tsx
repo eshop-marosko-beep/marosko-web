@@ -65,15 +65,25 @@ export default async function VideosPage({
             key={slug}
             className="bg-white rounded-xl shadow-lg overflow-hidden border border-transparent hover:border-amber-200 hover:shadow-xl transition-all flex flex-col"
           >
-            <video
-              controls
-              playsInline
-              preload="metadata"
-              poster={`/videos/${file}.jpg`}
-              className="w-full aspect-video bg-black object-contain"
+            <Link
+              href={`/navody/${slug}`}
+              className="relative block aspect-video bg-black group"
             >
-              <source src={`/videos/${file}.mp4`} type="video/mp4" />
-            </video>
+              <Image
+                src={`/videos/${file}.jpg`}
+                alt={t(`items.${translationKey}.title`)}
+                fill
+                unoptimized
+                className="object-contain"
+              />
+              <span className="absolute inset-0 flex items-center justify-center">
+                <span className="w-14 h-14 rounded-full bg-white/90 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                  <svg viewBox="0 0 24 24" className="w-6 h-6 text-espresso-800 translate-x-0.5" fill="currentColor">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </span>
+              </span>
+            </Link>
             <div className="p-6 flex flex-col flex-1">
               <h2 className="text-lg font-bold text-espresso-800 mb-2">
                 {t(`items.${translationKey}.title`)}
