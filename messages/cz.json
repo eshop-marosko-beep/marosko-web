@@ -2595,7 +2595,7 @@
     },
     "about": {
       "title": "O nás | Marosko",
-      "description": "Vítejte u Mariána! Jsme rodinná firma, která od roku 2013 s láskou vybírá značkové řezbářské a dřevoobráběcí nářadí pro řemeslníky i domácí kutily. Poznejte náš příběh a značky, kterým důvěřujeme."
+      "description": "Vítejte u Mariána! Jsme rodinná firma, která od roku 2013 vybírá značkové řezbářské a dřevoobráběcí nářadí pro řemeslníky i domácí kutily."
     },
     "categories": {
       "title": "Kategorie nářadí | Marosko",
@@ -2603,7 +2603,7 @@
     },
     "kategorieDetail": {
       "nastrojeDoUhlovejBrusky": {
-        "title": "Nástroje do úhlové brusky na dřevo – přehled podkategorií | Marosko",
+        "title": "Nástroje do úhlové brusky na dřevo – podkategorie | Marosko",
         "description": "Frézovací kotouče, hoblovací nástroje, rašple i prodlužovací ramena Manpa pro úhlovou brusku – kompletní přehled podkategorií, značek a produktů."
       },
       "nastrojeDoVrtacky": {
@@ -2635,7 +2635,7 @@
         "description": "Pilníky, řezbářská dláta a nože, rydla na linoryt a tesařská dláta značek M. Stein a Stubai – kompletní přehled podkategorií a produktů."
       },
       "nateryTmelyBrusiva": {
-        "title": "Nátěry, tmely, brusiva a přípravky na dřevo – přehled podkategorií | Marosko",
+        "title": "Nátěry, tmely, brusiva a přípravky – podkategorie | Marosko",
         "description": "Šelaky, vosky, pryskyřice, tmely i přípravky proti červotoči pro ošetření dřeva – kompletní přehled podkategorií a produktů."
       },
       "ochrannePomocky": {

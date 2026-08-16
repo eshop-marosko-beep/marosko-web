@@ -2595,7 +2595,7 @@
     },
     "about": {
       "title": "O nás | Marosko",
-      "description": "Vitajte u Mariána! Sme rodinná firma, ktorá od roku 2013 s láskou vyberá značkové rezbárske a drevoobrábacie náradie pre remeselníkov aj domácich majstrov. Spoznajte náš príbeh a značky, ktorým dôverujeme."
+      "description": "Vitajte u Mariána! Sme rodinná firma, ktorá od roku 2013 vyberá značkové rezbárske a drevoobrábacie náradie pre remeselníkov aj domácich majstrov."
     },
     "categories": {
       "title": "Kategórie náradia | Marosko",
@@ -2603,7 +2603,7 @@
     },
     "kategorieDetail": {
       "nastrojeDoUhlovejBrusky": {
-        "title": "Nástroje do uhlovej brúsky na drevo – prehľad podkategórií | Marosko",
+        "title": "Nástroje do uhlovej brúsky na drevo – podkategórie | Marosko",
         "description": "Frézovacie kotúče, hobľovacie nástroje, rašple aj predlžovacie ramená Manpa pre uhlovú brúsku – kompletný prehľad podkategórií, značiek a produktov."
       },
       "nastrojeDoVrtacky": {
@@ -2635,7 +2635,7 @@
         "description": "Pilníky, rezbárske dláta a nože, rydlá na linoryt a tesárske dláta značiek M. Stein a Stubai – kompletný prehľad podkategórií a produktov."
       },
       "nateryTmelyBrusiva": {
-        "title": "Nátery, tmely, brúsivá a prípravky na drevo – prehľad podkategórií | Marosko",
+        "title": "Nátery, tmely, brúsivá a prípravky – podkategórie | Marosko",
         "description": "Šelaky, vosky, živice, tmely aj prípravky proti červotočom na ošetrenie dreva – kompletný prehľad podkategórií a produktov."
       },
       "ochrannePomocky": {
@@ -2697,7 +2697,7 @@
         },
         "protiCervotocom": {
           "title": "Prípravky proti červotočom | Marosko",
-          "description": "Profesionálny fungicíd Complet Antitarlo na likvidáciu a ochranu dreva pred drevokazným hmyzom. Vhodný na preventívne aj sanačné ošetrenie nábytku a drevených konštrukcií."
+          "description": "Profesionálny fungicíd Complet Antitarlo na likvidáciu a ochranu dreva pred drevokazným hmyzom. Vhodný na preventívne aj sanačné ošetrenie nábytku."
         },
         "riedenie": {
           "title": "Riedenie a odmasťovanie | Marosko",
