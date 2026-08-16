@@ -303,7 +303,7 @@
           "description": "Un sistem complet de brațe prelungitoare Manpa — Multi Cutter Master cu freză de schimb, un accesoriu de șlefuit cu bandă, capete de frezat multifuncționale și freze canelate pe tijă de 12 și 20 mm pentru lucru precis în zone greu accesibile."
         },
         "diamantoveKotuce": {
-          "name": "Discuri diamantate de ascuțit",
+          "name": "Discuri diamantate de ascuțit pentru polizor unghiular",
           "description": "Discuri canelate acoperite cu diamant pentru ascuțirea daltelor, cuțitelor, lanțurilor de motoferăstrău și a uneltelor din carbură (widia) și a tijelor de wolfram, plus suporturi și inele de perii pentru periat lemnul. Grosimea de 2,5 mm ajunge și printre dinții discurilor de tăiat."
         },
         "nadstavce": {
@@ -335,7 +335,7 @@
           "description": "Evantaie abrazive Manpa EZ-Sander, tamburi abrazivi și conuri de șlefuit pentru șlefuirea rapidă și eficientă a formelor rotunjite direct cu bormașina."
         },
         "ostrenie": {
-          "name": "Discuri diamantate de ascuțit",
+          "name": "Accesorii diamantate de ascuțit pentru bormașină",
           "description": "Discuri acoperite cu diamant pentru ascuțirea daltelor, securilor, burghielor, sticlei și ceramicii – suficient de precise și pentru tije din carbură de wolfram."
         },
         "nastavce": {
@@ -1077,7 +1077,7 @@
         }
       },
       "diamantoveKotuce": {
-        "title": "Discuri diamantate de ascuțit",
+        "title": "Discuri diamantate de ascuțit pentru polizor unghiular",
         "intro": "Discuri canelate acoperite cu diamant, concepute pentru ascuțire — nu pentru tăierea lemnului. Cu ele ascuțiți dalte, cuțite, lanțuri de motoferăstrău și unelte din carbură (widia) și tije de wolfram. Grosimea de 2,5 mm ajunge și printre dinții discurilor de tăiat, iar gama include și suporturi și inele de perii pentru periat lemnul.",
         "products": {
           "p258": "Disc de șlefuit diamantat, canelat D126/126",
@@ -1139,7 +1139,7 @@
         }
       },
       "ostrenie": {
-        "title": "Discuri diamantate de ascuțit",
+        "title": "Accesorii diamantate de ascuțit pentru bormașină",
         "intro": "Discuri acoperite cu diamant pentru ascuțirea daltelor, securilor, burghielor, sticlei și ceramicii – suficient de precise și pentru tije din carbură de wolfram. Gama include și un card de ascuțit diamantat pentru retușarea lamelor Orbi Cut și un element abraziv mic pentru lucrări fine de finisare.",
         "products": {
           "p258": "Disc de șlefuit diamantat, canelat D126/126",
@@ -2848,7 +2848,7 @@
           "description": "Manpa Multi Cutter Master, accesoriu de șlefuit cu bandă și accesorii de frezat – brațe prelungitoare pentru polizorul unghiular."
         },
         "diamantoveKotuce": {
-          "title": "Discuri diamantate de ascuțit | Marosko",
+          "title": "Discuri diamantate de ascuțit pentru polizor unghiular | Marosko",
           "description": "Discuri acoperite cu diamant pentru ascuțirea daltelor, cuțitelor, lanțurilor și uneltelor din carbură pentru polizorul unghiular."
         },
         "nadstavce": {
@@ -2874,7 +2874,7 @@
           "description": "Evantaie abrazive Manpa EZ-Sander, tamburi abrazivi și conuri de șlefuit pentru bormașină. Permit șlefuirea și netezirea lemnului fără scule speciale suplimentare."
         },
         "ostrenie": {
-          "title": "Discuri diamantate de ascuțit | Marosko",
+          "title": "Accesorii diamantate de ascuțit pentru bormașină | Marosko",
           "description": "Discuri acoperite cu diamant pentru ascuțirea daltelor, securilor, burghielor, sticlei și ceramicii."
         },
         "nastavce": {

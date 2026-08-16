@@ -303,7 +303,7 @@
           "description": "Kompletní systém prodlužovacích ramen Manpa – Multi Cutter Master s náhradní frézkou, pásová bruska na rameno, víceúčelové frézovací nástavce i drážkovací frézovací stopky 12 a 20 mm pro přesnou práci na těžko dostupných místech."
         },
         "diamantoveKotuce": {
-          "name": "Diamantové ostřicí kotouče",
+          "name": "Diamantové ostřicí kotouče na úhlovou brusku",
           "description": "Diamantem potažené drážkované kotouče na ostření dlát, nožů, řetězů motorových pil i tvrdokovových (widia) nástrojů a wolframových tyčí, doplněné o unašeče a kartáčové prstence na kartáčování dřeva. Díky tloušťce 2,5 mm se dostanete i mezi zuby pilových kotoučů."
         },
         "nadstavce": {
@@ -335,7 +335,7 @@
           "description": "Brusné vějíře Manpa EZ-Sander, bubnové válce a brusné hříbky pro rychlé a efektivní broušení oblých tvarů přímo vrtačkou."
         },
         "ostrenie": {
-          "name": "Diamantové ostřicí kotouče",
+          "name": "Diamantové ostřicí nástavce do vrtačky",
           "description": "Diamantem potažené kotouče na ostření dlát, seker, vrtáků, skla i keramiky – vysoká přesnost i pro wolframové karbidové tyče."
         },
         "nastavce": {
@@ -1077,7 +1077,7 @@
         }
       },
       "diamantoveKotuce": {
-        "title": "Diamantové ostřicí kotouče",
+        "title": "Diamantové ostřicí kotouče na úhlovou brusku",
         "intro": "Diamantem potažené drážkované kotouče určené k ostření – ne k řezání dřeva. Nabrousíte jimi dláta, nože, řetězy motorových pil i tvrdokovové (widia) nástroje a wolframové tyče. Díky tloušťce 2,5 mm se dostanete i mezi zuby pilových kotoučů, doplňkově najdete i unašeče a kartáčové prstence na kartáčování dřeva.",
         "products": {
           "p258": "Diamantový brusný kotouč drážkový D126/126",
@@ -1139,7 +1139,7 @@
         }
       },
       "ostrenie": {
-        "title": "Diamantové ostřicí kotouče",
+        "title": "Diamantové ostřicí nástavce do vrtačky",
         "intro": "Diamantem potažené kotouče na ostření dlát, seker, vrtáků, skla i keramiky – vysoká přesnost i pro wolframové karbidové tyče. Doplňkově zde najdete diamantovou ostřicí kartu na doostření nožů Orbi Cut i brusné tělísko pro jemné dokončovací práce.",
         "products": {
           "p258": "Diamantový brusný kotouč drážkový D126/126",
@@ -2848,7 +2848,7 @@
           "description": "Manpa Multi Cutter Master, pásová bruska na rameno i frézovací nástavce – prodlužovací ramena pro úhlovou brusku."
         },
         "diamantoveKotuce": {
-          "title": "Diamantové ostřicí kotouče | Marosko",
+          "title": "Diamantové ostřicí kotouče na úhlovou brusku | Marosko",
           "description": "Diamantem potažené kotouče na ostření dlát, nožů, řetězů a tvrdokovových nástrojů pro úhlovou brusku."
         },
         "nadstavce": {
@@ -2874,7 +2874,7 @@
           "description": "Brusné vějíře Manpa EZ-Sander, bubnové válce a brusné hříbky pro vrtačku. Umožňují broušení a hlazení dřeva bez dalšího speciálního nářadí."
         },
         "ostrenie": {
-          "title": "Diamantové ostřicí kotouče | Marosko",
+          "title": "Diamantové ostřicí nástavce do vrtačky | Marosko",
           "description": "Diamantem potažené kotouče na ostření dlát, seker, vrtáků, skla i keramiky. Vhodné pro obnovu ostří přímo ve vlastní dílně."
         },
         "nastavce": {

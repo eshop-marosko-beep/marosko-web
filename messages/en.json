@@ -303,7 +303,7 @@
           "description": "A complete Manpa extension arm system — the Multi Cutter Master with a spare cutter, a belt sander attachment, multi-purpose milling attachments, and 12 and 20 mm grooving cutter shanks for precise work in hard-to-reach spots."
         },
         "diamantoveKotuce": {
-          "name": "Diamond sharpening discs",
+          "name": "Diamond sharpening discs for angle grinders",
           "description": "Diamond-coated grooved discs for sharpening chisels, knives, chainsaw chains, carbide (widia) tools and tungsten rods, plus wire-ring carriers and brush rings for brushing wood. The 2.5 mm thickness reaches between saw blade teeth."
         },
         "nadstavce": {
@@ -335,7 +335,7 @@
           "description": "Manpa EZ-Sander flap wheels, drum sanders and sanding cones for fast, effective sanding of rounded shapes directly with a drill."
         },
         "ostrenie": {
-          "name": "Diamond sharpening discs",
+          "name": "Diamond sharpening attachments for drills",
           "description": "Diamond-coated discs for sharpening chisels, axes, drill bits, glass and ceramics – precise enough for tungsten carbide rods too."
         },
         "nastavce": {
@@ -1077,7 +1077,7 @@
         }
       },
       "diamantoveKotuce": {
-        "title": "Diamond sharpening discs",
+        "title": "Diamond sharpening discs for angle grinders",
         "intro": "Diamond-coated grooved discs built for sharpening — not for cutting wood. Use them to sharpen chisels, knives, chainsaw chains, and carbide (widia) tools and tungsten rods. The 2.5 mm thickness reaches between saw blade teeth, and the range also includes wire-ring carriers and brush rings for brushing wood.",
         "products": {
           "p258": "Diamond grinding disc, grooved D126/126",
@@ -1139,7 +1139,7 @@
         }
       },
       "ostrenie": {
-        "title": "Diamond sharpening discs",
+        "title": "Diamond sharpening attachments for drills",
         "intro": "Diamond-coated discs for sharpening chisels, axes, drill bits, glass and ceramics – precise enough for tungsten carbide rods too. The range also includes a diamond grinding card for touching up Orbi Cut blades and a small sanding element for fine finishing work.",
         "products": {
           "p258": "Diamond grinding disc, grooved D126/126",
@@ -2848,7 +2848,7 @@
           "description": "Manpa Multi Cutter Master, belt sander attachment and milling attachments – extension arms for the angle grinder."
         },
         "diamantoveKotuce": {
-          "title": "Diamond sharpening discs | Marosko",
+          "title": "Diamond sharpening discs for angle grinders | Marosko",
           "description": "Diamond-coated discs for sharpening chisels, knives, chains and carbide tools for the angle grinder."
         },
         "nadstavce": {
@@ -2874,7 +2874,7 @@
           "description": "Manpa EZ-Sander flap wheels, drum sanders and sanding cones for the drill. They let you sand and smooth wood without extra specialised tools."
         },
         "ostrenie": {
-          "title": "Diamond sharpening discs | Marosko",
+          "title": "Diamond sharpening attachments for drills | Marosko",
           "description": "Diamond-coated discs for sharpening chisels, axes, drill bits, glass and ceramics. Suited to restoring an edge right in your own workshop."
         },
         "nastavce": {
