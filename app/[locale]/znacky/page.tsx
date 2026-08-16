@@ -65,10 +65,13 @@ export default async function BrandsPage({
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
         {rankedBrands.map(({ id, slug, name, url, logo, description }) => {
           return (
-            <div
+            <a
               key={id}
               id={slug}
-              className="bg-white rounded-xl shadow-lg p-6 border border-transparent hover:border-amber-200 transition-colors scroll-mt-24"
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block bg-white rounded-xl shadow-lg p-6 border border-transparent hover:border-amber-200 transition-colors scroll-mt-24"
             >
               {logo && (
                 <div className="relative h-10 w-28 mb-3">
@@ -81,15 +84,13 @@ export default async function BrandsPage({
                   />
                 </div>
               )}
-              <h2 className="text-lg font-bold text-espresso-800 mb-2">
-                <a href={url} target="_blank" rel="noopener noreferrer" className="hover:text-amber-700">
-                  {name}
-                </a>
+              <h2 className="text-lg font-bold text-espresso-800 mb-2 group-hover:text-amber-700">
+                {name}
               </h2>
               {description && (
                 <p className="text-gray-600 text-sm leading-relaxed">{description}</p>
               )}
-            </div>
+            </a>
           );
         })}
       </div>
