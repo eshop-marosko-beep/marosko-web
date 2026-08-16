@@ -303,7 +303,7 @@
           "description": "Un sistem complet de brațe prelungitoare Manpa — Multi Cutter Master cu freză de schimb, un accesoriu de șlefuit cu bandă, capete de frezat multifuncționale și freze canelate pe tijă de 12 și 20 mm pentru lucru precis în zone greu accesibile."
         },
         "diamantoveKotuce": {
-          "name": "Discuri diamantate de ascuțit",
+          "name": "Discuri diamantate de ascuțit pentru polizor unghiular",
           "description": "Discuri canelate acoperite cu diamant pentru ascuțirea daltelor, cuțitelor, lanțurilor de motoferăstrău și a uneltelor din carbură (widia) și a tijelor de wolfram, plus suporturi și inele de perii pentru periat lemnul. Grosimea de 2,5 mm ajunge și printre dinții discurilor de tăiat."
         },
         "nadstavce": {
@@ -335,7 +335,7 @@
           "description": "Evantaie abrazive Manpa EZ-Sander, tamburi abrazivi și conuri de șlefuit pentru șlefuirea rapidă și eficientă a formelor rotunjite direct cu bormașina."
         },
         "ostrenie": {
-          "name": "Discuri diamantate de ascuțit",
+          "name": "Accesorii diamantate de ascuțit pentru bormașină",
           "description": "Discuri acoperite cu diamant pentru ascuțirea daltelor, securilor, burghielor, sticlei și ceramicii – suficient de precise și pentru tije din carbură de wolfram."
         },
         "nastavce": {
@@ -1077,7 +1077,7 @@
         }
       },
       "diamantoveKotuce": {
-        "title": "Discuri diamantate de ascuțit",
+        "title": "Discuri diamantate de ascuțit pentru polizor unghiular",
         "intro": "Discuri canelate acoperite cu diamant, concepute pentru ascuțire — nu pentru tăierea lemnului. Cu ele ascuțiți dalte, cuțite, lanțuri de motoferăstrău și unelte din carbură (widia) și tije de wolfram. Grosimea de 2,5 mm ajunge și printre dinții discurilor de tăiat, iar gama include și suporturi și inele de perii pentru periat lemnul.",
         "products": {
           "p258": "Disc de șlefuit diamantat, canelat D126/126",
@@ -1139,7 +1139,7 @@
         }
       },
       "ostrenie": {
-        "title": "Discuri diamantate de ascuțit",
+        "title": "Accesorii diamantate de ascuțit pentru bormașină",
         "intro": "Discuri acoperite cu diamant pentru ascuțirea daltelor, securilor, burghielor, sticlei și ceramicii – suficient de precise și pentru tije din carbură de wolfram. Gama include și un card de ascuțit diamantat pentru retușarea lamelor Orbi Cut și un element abraziv mic pentru lucrări fine de finisare.",
         "products": {
           "p258": "Disc de șlefuit diamantat, canelat D126/126",
@@ -2595,7 +2595,7 @@
     },
     "about": {
       "title": "Despre noi | Marosko",
-      "description": "Bine ați venit la Marián! Suntem o afacere de familie care alege cu grijă, din 2013, unelte de marcă pentru cioplit și prelucrarea lemnului, pentru meșteri și pasionați deopotrivă. Aflați povestea noastră și mărcile în care avem încredere."
+      "description": "Bine ați venit la Marián! Suntem o afacere de familie care alege cu grijă unelte de marcă pentru cioplit și prelucrarea lemnului, din 2013."
     },
     "categories": {
       "title": "Categorii de unelte | Marosko",
@@ -2603,11 +2603,11 @@
     },
     "kategorieDetail": {
       "nastrojeDoUhlovejBrusky": {
-        "title": "Unelte pentru polizor unghiular pe lemn – prezentare subcategorii | Marosko",
+        "title": "Unelte pentru polizor unghiular pe lemn – subcategorii | Marosko",
         "description": "Discuri de frezat, unelte de rindeluit, pile și brațe prelungitoare Manpa pentru polizor unghiular – prezentare completă a subcategoriilor."
       },
       "nastrojeDoVrtacky": {
-        "title": "Unelte pentru bormașină pe lemn – prezentare subcategorii | Marosko",
+        "title": "Unelte pentru bormașină pe lemn – subcategorii | Marosko",
         "description": "Sfere de scobit Orbi Cut, evantaie abrazive Manpa, discuri diamantate de ascuțit și burghie de scobit pentru bormașină – prezentare subcategorii."
       },
       "nastrojeDoPriamejBrusky": {
@@ -2619,11 +2619,11 @@
         "description": "Discuri și pile mini Arbortech, Manpa, Saburrtooth și Merlin, cu diametru de 50 mm și alezaj de 9,5 mm – prezentare completă a subcategoriilor și produselor."
       },
       "brusneVysekyNaMieru": {
-        "title": "Discuri abrazive decupate la comandă – prezentare subcategorii | Marosko",
+        "title": "Discuri abrazive decupate la comandă – subcategorii | Marosko",
         "description": "Discuri abrazive rotunde de la Ø50 la 600 mm cu prindere velcro, hârtie și pânză abrazivă, suporturi din spumă – prezentare subcategorii."
       },
       "elektrickeNaradie": {
-        "title": "Unelte electrice pentru sculptori – prezentare subcategorii | Marosko",
+        "title": "Unelte electrice pentru sculptori – subcategorii | Marosko",
         "description": "Unelte electrice Arbortech, Kirjes, Extol Premium, Proxxon, Silverline și Total pentru sculptori – prezentare completă a subcategoriilor și produselor."
       },
       "akumulatoroveNaradie": {
@@ -2635,11 +2635,11 @@
         "description": "Pile, dălți și cuțite de sculptură, dăltițe pentru linogravură și dălți de tâmplărie de la M. Stein și Stubai – prezentare subcategorii."
       },
       "nateryTmelyBrusiva": {
-        "title": "Finisaje, chituri, abrazivi și produse pentru tratarea lemnului – prezentare subcategorii | Marosko",
+        "title": "Finisaje, chituri, abrazivi pentru lemn – subcategorii | Marosko",
         "description": "Șelac, ceruri, rășini, chituri și produse împotriva carilor lemnului pentru tratarea lemnului – prezentare completă a subcategoriilor și produselor."
       },
       "ochrannePomocky": {
-        "title": "Echipamente de protecție la lucru – prezentare subcategorii | Marosko",
+        "title": "Echipamente de protecție la lucru – subcategorii | Marosko",
         "description": "Mănuși, încălțăminte, îmbrăcăminte de protecție și protecție respiratorie și auditivă pentru sculptori – prezentare completă a subcategoriilor și produselor."
       },
       "nahradneDiely": {
@@ -2671,11 +2671,11 @@
       "rucneNaradie": {
         "pilniky": {
           "title": "Pile și raspele | Marosko",
-          "description": "Pile diamantate, raspele din carbură și pietre de ascuțit pentru ascuțire și modelare. Potrivite pentru întreținerea și refacerea tăișului daltelor, cuțitelor și altor unelte de sculptură."
+          "description": "Pile diamantate, raspele din carbură și pietre de ascuțit pentru ascuțire și modelare. Potrivite pentru daltele, cuțitele și alte unelte."
         },
         "dlata": {
           "title": "Dălți de sculptură | Marosko",
-          "description": "Dălți de sculptură profesionale Stubai și M. Stein, profiluri individuale și seturi. Ideale pentru lucrări de sculptură și tâmplărie de precizie într-un atelier profesionist."
+          "description": "Dălți de sculptură profesionale Stubai și M. Stein, profiluri individuale și seturi. Ideale pentru sculptură și tâmplărie de precizie."
         },
         "noze": {
           "title": "Cuțite de sculptură | Marosko",
@@ -2683,11 +2683,11 @@
         },
         "rydla": {
           "title": "Dăltițe pentru linogravură și gravură în lemn | Marosko",
-          "description": "Dăltițe M. Stein și Stubai cu mâner în formă de pară sau în linie pentru linogravură. Diferite lățimi ale tăișului permit atât linii fine, cât și mai accentuate în tăiere."
+          "description": "Dăltițe M. Stein și Stubai cu mâner în formă de pară sau în linie pentru linogravură. Diferite lățimi permit linii fine sau accentuate."
         },
         "tesarskeDlata": {
           "title": "Dălți de tâmplărie | Marosko",
-          "description": "Dălți de tâmplărie Triton, M. Stein și Stubai în lățimi de 13 până la 38 mm și pe comandă. Concepute pentru îmbinări de tâmplărie și prelucrarea mai grosieră a lemnului masiv."
+          "description": "Dălți de tâmplărie Triton, M. Stein și Stubai, lățimi de 13-38 mm și pe comandă. Pentru îmbinări de tâmplărie și lemn masiv."
         }
       },
       "nateryTmelyBrusiva": {
@@ -2741,7 +2741,7 @@
         },
         "prislusenstvoBrusky": {
           "title": "Accesorii și piese de schimb pentru polizorul unghiular | Marosko",
-          "description": "Curele abrazive de schimb, prelungitor de ax și piulițe M14 pentru polizorul unghiular. Piese de schimb pentru întreținerea și extinderea posibilităților polizorului unghiular."
+          "description": "Curele abrazive de schimb, prelungitor de ax și piulițe M14 pentru polizorul unghiular. Piese pentru întreținerea și extinderea uneltei."
         }
       },
       "carvingoveListy": {
@@ -2848,7 +2848,7 @@
           "description": "Manpa Multi Cutter Master, accesoriu de șlefuit cu bandă și accesorii de frezat – brațe prelungitoare pentru polizorul unghiular."
         },
         "diamantoveKotuce": {
-          "title": "Discuri diamantate de ascuțit | Marosko",
+          "title": "Discuri diamantate de ascuțit pentru polizor unghiular | Marosko",
           "description": "Discuri acoperite cu diamant pentru ascuțirea daltelor, cuțitelor, lanțurilor și uneltelor din carbură pentru polizorul unghiular."
         },
         "nadstavce": {
@@ -2874,12 +2874,12 @@
           "description": "Evantaie abrazive Manpa EZ-Sander, tamburi abrazivi și conuri de șlefuit pentru bormașină. Permit șlefuirea și netezirea lemnului fără scule speciale suplimentare."
         },
         "ostrenie": {
-          "title": "Discuri diamantate de ascuțit | Marosko",
+          "title": "Accesorii diamantate de ascuțit pentru bormașină | Marosko",
           "description": "Discuri acoperite cu diamant pentru ascuțirea daltelor, securilor, burghielor, sticlei și ceramicii."
         },
         "nastavce": {
           "title": "Accesorii pentru bormașină | Marosko",
-          "description": "Axe flexibile Kirjes și Wolfcraft, o tijă de reducție M14 și o mandrină cu prindere rapidă. Extind capacitățile unei mașini de găurit obișnuite cu o ghidare mai precisă a sculei."
+          "description": "Axe flexibile Kirjes și Wolfcraft, o tijă de reducție M14 și o mandrină cu prindere rapidă. Extind capacitățile unei mașini de găurit."
         },
         "vrtaky": {
           "title": "Unelte și burghie de găurit | Marosko",
