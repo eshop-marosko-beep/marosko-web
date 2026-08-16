@@ -8,6 +8,7 @@ import CookieConsent from '@/components/CookieConsent';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import ChatWidget from '@/components/ChatWidget';
 import ShareButtons from '@/components/ShareButtons';
+import { Analytics } from '@vercel/analytics/next';
 
 export default async function LocaleLayout({
   children,
@@ -44,6 +45,7 @@ export default async function LocaleLayout({
             <ChatWidget />
             <CookieConsent />
             <GoogleAnalytics />
+            <Analytics />
           </div>
         </NextIntlClientProvider>
       </body>
