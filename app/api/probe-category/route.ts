@@ -26,8 +26,8 @@ query ListRootCategories {
 `;
 
 const PRODUCT_LIST_QUERY = `
-query GetProductList($lang_code: CountryCodeAlpha2!, $filter: ProductFilter) {
-  getProductList(lang_code: $lang_code, filter: $filter) {
+query GetProductList($lang_code: CountryCodeAlpha2!) {
+  getProductList(lang_code: $lang_code) {
     data {
       id
       title
@@ -84,18 +84,18 @@ export async function GET(request: Request) {
 
   const categoryId = url.searchParams.get("id");
   const typeName = url.searchParams.get("type");
-  const producer = url.searchParams.get("producer");
+  const listProducts = url.searchParams.get("products");
   const query = typeName
     ? TYPE_QUERY
-    : producer
+    : listProducts
       ? PRODUCT_LIST_QUERY
       : categoryId
         ? CATEGORY_QUERY
         : ROOT_QUERY;
   const variables = typeName
     ? { name: typeName }
-    : producer
-      ? { lang_code: "SK", filter: { producer } }
+    : listProducts
+      ? { lang_code: "SK" }
       : categoryId
         ? { category_id: categoryId }
         : {};
