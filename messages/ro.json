@@ -1219,6 +1219,85 @@
           "p1191": "Mini-pilă din carbură Merlin, plată fină Ø 50 mm"
         }
       }
+    },
+    "akumulatoroveNaradie": {
+      "bruskyAku": {
+        "title": "Polizoare cu acumulator",
+        "intro": "Polizoare fără cablu Total și mini-polizorul cu acumulator Arbortech pentru sculptori și meșteri care au nevoie să șlefuiască și să taie materiale fără limitarea unui cablu prelungitor – în teren sau în atelier.",
+        "products": {
+          "p1441": "Mini-polizor cu acumulator, set de sculptură Arbortech",
+          "p1365": "Polizor drept cu acumulator Total cu cablu flexibil, set de 40 de accesorii",
+          "p1366": "Polizor unghiular cu acumulator Total 20V, Li-ion",
+          "p1406": "Polizor excentric cu acumulator Total, Ø 125 mm"
+        }
+      },
+      "pilyAku": {
+        "title": "Ferăstraie cu acumulator",
+        "intro": "Ferăstraie-lanț cu acumulator Total în diverse dimensiuni – de la mini-ferăstraie pentru lucrări mici de sculptură până la un ferăstrău-lanț mai puternic cu baterie și încărcător incluse.",
+        "products": {
+          "p1369": "Mini-ferăstrău-lanț cu acumulator, fără baterie și încărcător",
+          "p1445": "Mini-ferăstrău-lanț cu acumulator, lamă 150 mm, fără baterie și încărcător",
+          "p1446": "Mini-ferăstrău-lanț cu acumulator, lamă 150 mm, cu baterie și încărcător",
+          "p1407": "Ferăstrău-lanț cu acumulator, 2× baterie 4,0 Ah și încărcător"
+        }
+      }
+    },
+    "ochrannePomocky": {
+      "obuv": {
+        "title": "Încălțăminte de protecție și de lucru",
+        "intro": "Încălțăminte de protecție și de lucru pentru activitate de o zi întreagă în atelier sau în teren. Găsiți oferta actuală direct în magazinul online."
+      },
+      "ruky": {
+        "title": "Protecție pentru mâini",
+        "intro": "Mănuși rezistente la tăiere Nevada și Fiordland care protejează mâinile de tăieturi la lucrul cu ferăstrăul-lanț, polizorul unghiular sau unelte de sculptură ascuțite.",
+        "products": {
+          "p1475": "Mănuși rezistente la tăiere Nevada, clasa 1",
+          "p1474": "Mănuși rezistente la tăiere Premium Nevada, protecție pentru mâna stângă",
+          "p1109": "Mănuși rezistente la tăiere Fiordland"
+        }
+      },
+      "telo": {
+        "title": "Protecție pentru corp",
+        "intro": "Pantaloni și maneci rezistente la tăiere, precum și un set complet de siguranță Oregon pentru utilizatorii de ferăstrău-lanț – protecție pentru corp la lucrul cu ferăstrăul-lanț.",
+        "products": {
+          "p1279": "Set de siguranță pentru tăietori de lemne Oregon",
+          "p665": "Maneci universale rezistente la tăiere Oregon",
+          "p1209": "Pantaloni rezistenți la tăiere Yukon, tip A",
+          "p1398": "Pantaloni rezistenți la tăiere Waipoua, roșu-galben"
+        }
+      },
+      "tvarDychanieSluch": {
+        "title": "Protecție pentru față, căi respiratorii și auz",
+        "intro": "Respiratoare FFP2 și FFP3, cască pentru tăietori de lemne cu antifoane și vizieră reglabilă din plasă – protecție completă a feței, respirației și auzului la lucrul cu unelte.",
+        "products": {
+          "p1012": "Respirator 3M FFP2, pliabil",
+          "p1287": "Respirator FFP3 Silverline",
+          "p1280": "Cască pentru tăietori de lemne Yukon",
+          "p1063": "Vizieră din plasă, reglabilă, combinată"
+        }
+      }
+    },
+    "nahradneDiely": {
+      "arbortechDiely": {
+        "title": "Piese Arbortech",
+        "intro": "Piese de schimb originale Arbortech – perii de carbon pentru motor, lame de schimb Ball Gouge, curea trapezoidală pentru Mini Carver și role abrazive pentru Precision Carving System.",
+        "products": {
+          "p497": "Perii de carbon de schimb Arbortech",
+          "p601": "Lamă de schimb Ball Gouge Arbortech",
+          "p461": "Curea trapezoidală pentru Mini Carver Arbortech",
+          "p1200": "Role abrazive de schimb Precision Carving System Arbortech"
+        }
+      },
+      "manpaDiely": {
+        "title": "Piese Manpa",
+        "intro": "Piese de schimb pentru uneltele Manpa Coreea – dinți de schimb pentru discuri de frezat în profil rotund și triunghiular, un adaptor prelungitor și un suport pentru polizorul unghiular.",
+        "products": {
+          "p797": "Adaptor prelungitor M14 / M10 (+M16)",
+          "p803": "Dinți de schimb pentru discuri de frezat Manpa, rotunzi",
+          "p1284": "Dinți de schimb Manpa, triunghiulari",
+          "p917": "Suport prelungitor pentru polizorul unghiular, Grinder Holder"
+        }
+      }
     }
   },
   "brands": {
@@ -2906,6 +2985,44 @@
         "merlin": {
           "title": "Pile mini și freze-lanț Merlin Ø 50 mm | Marosko",
           "description": "Freze-lanț, lanțuri de schimb și mini-pile din carbură Merlin (King Arthur's Tools) pentru mini-polizor."
+        }
+      },
+      "akumulatoroveNaradie": {
+        "bruskyAku": {
+          "title": "Polizoare cu acumulator | Marosko",
+          "description": "Polizoare cu acumulator Total și mini-polizorul Arbortech pe baterie – polizor unghiular, drept și excentric pentru lucrul fără cablu."
+        },
+        "pilyAku": {
+          "title": "Ferăstraie cu acumulator | Marosko",
+          "description": "Ferăstraie-lanț cu acumulator Total – mini-ferăstraie și un ferăstrău-lanț mai puternic cu baterie și încărcător incluse, pentru sculptori și meșteri."
+        }
+      },
+      "ochrannePomocky": {
+        "obuv": {
+          "title": "Încălțăminte de protecție și de lucru | Marosko",
+          "description": "Încălțăminte de protecție și de lucru pentru activitate de o zi întreagă în atelier sau în teren – oferta actuală în magazinul online Marosko."
+        },
+        "ruky": {
+          "title": "Protecție pentru mâini | Marosko",
+          "description": "Mănuși rezistente la tăiere Nevada și Fiordland pentru protecția mâinilor la lucrul cu ferăstrăul-lanț, polizorul unghiular sau unelte de sculptură."
+        },
+        "telo": {
+          "title": "Protecție pentru corp | Marosko",
+          "description": "Pantaloni și maneci rezistente la tăiere Oregon, plus un set complet de siguranță pentru tăietori de lemne – protecție pentru corp la lucrul cu ferăstrăul-lanț."
+        },
+        "tvarDychanieSluch": {
+          "title": "Protecție pentru față, căi respiratorii și auz | Marosko",
+          "description": "Respiratoare FFP2/FFP3, cască pentru tăietori de lemne și vizieră din plasă – protecție pentru față, căi respiratorii și auz la lucrul cu unelte de sculptură."
+        }
+      },
+      "nahradneDiely": {
+        "arbortechDiely": {
+          "title": "Piese Arbortech | Marosko",
+          "description": "Piese de schimb originale Arbortech – perii de carbon, lame de schimb Ball Gouge, curele și role abrazive pentru uneltele acestei mărci."
+        },
+        "manpaDiely": {
+          "title": "Piese Manpa | Marosko",
+          "description": "Piese de schimb pentru uneltele Manpa Coreea – dinți de schimb pentru discuri de frezat, un adaptor prelungitor și un suport pentru polizorul unghiular."
         }
       }
     },

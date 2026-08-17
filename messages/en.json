@@ -1219,6 +1219,85 @@
           "p1191": "Carbide Merlin mini rasp, flat fine Ø 50 mm"
         }
       }
+    },
+    "akumulatoroveNaradie": {
+      "bruskyAku": {
+        "title": "Cordless grinders",
+        "intro": "Cordless Total grinders and the Arbortech battery-powered mini grinder for carvers and craftsmen who need to grind and cut material without being limited by an extension cord – on site or in the workshop.",
+        "products": {
+          "p1441": "Cordless mini grinder, Arbortech carving kit",
+          "p1365": "Cordless straight grinder Total with flexible shaft, 40-piece accessory set",
+          "p1366": "Cordless angle grinder Total 20V, Li-ion",
+          "p1406": "Cordless random orbit sander Total, Ø 125 mm"
+        }
+      },
+      "pilyAku": {
+        "title": "Cordless saws",
+        "intro": "Cordless Total chainsaws in various sizes – from mini saws for small carving jobs to a more powerful chainsaw with a battery and charger included.",
+        "products": {
+          "p1369": "Cordless mini chainsaw, without battery and charger",
+          "p1445": "Cordless mini chainsaw, 150 mm bar, without battery and charger",
+          "p1446": "Cordless mini chainsaw, 150 mm bar, with battery and charger",
+          "p1407": "Cordless chainsaw, 2× 4.0 Ah battery and charger"
+        }
+      }
+    },
+    "ochrannePomocky": {
+      "obuv": {
+        "title": "Safety and work footwear",
+        "intro": "Safety and work footwear for all-day use in the workshop or on site. Check the current selection directly in the e-shop."
+      },
+      "ruky": {
+        "title": "Hand protection",
+        "intro": "Cut-resistant Nevada and Fiordland gloves protecting hands from cuts when working with a chainsaw, angle grinder or sharp carving tools.",
+        "products": {
+          "p1475": "Cut-resistant gloves Nevada, class 1",
+          "p1474": "Cut-resistant gloves Premium Nevada, left-hand protection",
+          "p1109": "Cut-resistant gloves Fiordland"
+        }
+      },
+      "telo": {
+        "title": "Body protection",
+        "intro": "Cut-resistant trousers, sleeves and a complete Oregon safety kit for chainsaw users – body protection when working with a chainsaw.",
+        "products": {
+          "p1279": "Chainsaw safety kit Oregon",
+          "p665": "Universal cut-resistant sleeves Oregon",
+          "p1209": "Cut-resistant trousers Yukon, type A",
+          "p1398": "Cut-resistant trousers Waipoua, red-yellow"
+        }
+      },
+      "tvarDychanieSluch": {
+        "title": "Face, respiratory and hearing protection",
+        "intro": "FFP2 and FFP3 respirators, a chainsaw helmet with hearing protection and an adjustable mesh visor – complete protection for the face, airways and hearing when working with tools.",
+        "products": {
+          "p1012": "Respirator 3M FFP2, foldable",
+          "p1287": "Respirator FFP3 Silverline",
+          "p1280": "Chainsaw helmet Yukon",
+          "p1063": "Mesh visor, adjustable, combined"
+        }
+      }
+    },
+    "nahradneDiely": {
+      "arbortechDiely": {
+        "title": "Arbortech parts",
+        "intro": "Genuine Arbortech spare parts – motor carbon brushes, replacement Ball Gouge blades, a wedge belt for the Mini Carver and sanding drums for the Precision Carving System.",
+        "products": {
+          "p497": "Replacement carbon brushes Arbortech",
+          "p601": "Replacement Ball Gouge blade Arbortech",
+          "p461": "Wedge belt for Mini Carver Arbortech",
+          "p1200": "Replacement sanding drums Precision Carving System Arbortech"
+        }
+      },
+      "manpaDiely": {
+        "title": "Manpa parts",
+        "intro": "Spare parts for Manpa Korea tools – replacement milling disc teeth in round and triangular profiles, an extension adapter and an angle grinder holder.",
+        "products": {
+          "p797": "Extension adapter M14 / M10 (+M16)",
+          "p803": "Replacement milling disc teeth Manpa, round",
+          "p1284": "Replacement teeth Manpa, triangular",
+          "p917": "Angle grinder extension holder, Grinder Holder"
+        }
+      }
     }
   },
   "brands": {
@@ -2906,6 +2985,44 @@
         "merlin": {
           "title": "Merlin mini rasps and chain cutters Ø 50 mm | Marosko",
           "description": "Chain cutters, replacement chains, and carbide mini rasps from Merlin (King Arthur's Tools) for the mini grinder."
+        }
+      },
+      "akumulatoroveNaradie": {
+        "bruskyAku": {
+          "title": "Cordless grinders | Marosko",
+          "description": "Cordless Total grinders and a battery-powered Arbortech mini grinder – angle, straight and random orbit grinders for cord-free work."
+        },
+        "pilyAku": {
+          "title": "Cordless saws | Marosko",
+          "description": "Cordless Total chainsaws – mini saws and a more powerful chainsaw with a battery and charger included, for carvers and craftsmen."
+        }
+      },
+      "ochrannePomocky": {
+        "obuv": {
+          "title": "Safety and work footwear | Marosko",
+          "description": "Safety and work footwear for all-day use in the workshop or on site – current selection at the Marosko e-shop."
+        },
+        "ruky": {
+          "title": "Hand protection | Marosko",
+          "description": "Cut-resistant Nevada and Fiordland gloves for hand protection when working with a chainsaw, angle grinder or carving tools."
+        },
+        "telo": {
+          "title": "Body protection | Marosko",
+          "description": "Cut-resistant Oregon trousers, sleeves and a complete safety kit for chainsaw users – body protection when working with a chainsaw."
+        },
+        "tvarDychanieSluch": {
+          "title": "Face, respiratory and hearing protection | Marosko",
+          "description": "FFP2/FFP3 respirators, a chainsaw helmet and a mesh visor – face, respiratory and hearing protection when working with carving tools."
+        }
+      },
+      "nahradneDiely": {
+        "arbortechDiely": {
+          "title": "Arbortech parts | Marosko",
+          "description": "Genuine Arbortech spare parts – carbon brushes, replacement Ball Gouge blades, belts and sanding drums for this brand's tools."
+        },
+        "manpaDiely": {
+          "title": "Manpa parts | Marosko",
+          "description": "Spare parts for Manpa Korea tools – replacement milling disc teeth, an extension adapter and an angle grinder holder."
         }
       }
     },
