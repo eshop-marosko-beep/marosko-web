@@ -1219,6 +1219,85 @@
           "p1191": "Tvrdokovová minirašple Merlin, plochá jemná Ø 50 mm"
         }
       }
+    },
+    "akumulatoroveNaradie": {
+      "bruskyAku": {
+        "title": "Akumulátorové brusky",
+        "intro": "Bezkabelové brusky Total a akumulátorová mini frézka Arbortech pro řezbáře i mistry, kteří potřebují brousit a řezat materiál bez omezení prodlužovacím kabelem – v terénu i v dílně.",
+        "products": {
+          "p1441": "Aku mini frézka, řezbářská sada Arbortech",
+          "p1365": "Aku přímá bruska Total s ohebným bovdenem, 40 ks příslušenství",
+          "p1366": "Aku úhlová bruska Total 20V, Li-ion",
+          "p1406": "Aku excentrická bruska Total, Ø 125 mm"
+        }
+      },
+      "pilyAku": {
+        "title": "Akumulátorové pily",
+        "intro": "Akumulátorové řetězové pily Total v různých velikostech – od mini pil na drobné řezbářské zásahy až po výkonnější řetězovou pilu s baterií a nabíječkou v balení.",
+        "products": {
+          "p1369": "Aku mini řetězová pila, bez baterie a nabíječky",
+          "p1445": "Aku mini řetězová pila, lišta 150 mm, bez baterie a nabíječky",
+          "p1446": "Aku mini řetězová pila, lišta 150 mm, s baterií a nabíječkou",
+          "p1407": "Aku řetězová pila, 2× 4,0 Ah baterie a nabíječka"
+        }
+      }
+    },
+    "ochrannePomocky": {
+      "obuv": {
+        "title": "Bezpečnostní a pracovní obuv",
+        "intro": "Bezpečnostní a pracovní obuv pro celodenní práci v dílně i v terénu. Aktuální nabídku najdete přímo v e-shopu."
+      },
+      "ruky": {
+        "title": "Ochrana rukou",
+        "intro": "Protiřezné rukavice Nevada a Fiordland chránící ruce před pořezáním při práci s řetězovou pilou, úhlovou bruskou i ostrým řezbářským nářadím.",
+        "products": {
+          "p1475": "Rukavice protiřezné Nevada, třída 1",
+          "p1474": "Rukavice protiřezné Premium Nevada, ochrana levé ruky",
+          "p1109": "Rukavice protiřezné Fiordland"
+        }
+      },
+      "telo": {
+        "title": "Ochrana těla",
+        "intro": "Protiřezné kalhoty, návleky i kompletní bezpečnostní sada Oregon pro pilaře – ochrana těla při práci s řetězovou pilou.",
+        "products": {
+          "p1279": "Bezpečnostní sada pro pilaře Oregon",
+          "p665": "Univerzální protiřezné návleky Oregon",
+          "p1209": "Kalhoty protiřezné Yukon, typ A",
+          "p1398": "Kalhoty protiřezné Waipoua, červeno-žluté"
+        }
+      },
+      "tvarDychanieSluch": {
+        "title": "Ochrana obličeje, dýchacích cest a sluchu",
+        "intro": "Respirátory FFP2 a FFP3, pilařská přilba s chráničem sluchu i síťkový ochranný štít – kompletní ochrana obličeje, dýchání a sluchu při práci s nářadím.",
+        "products": {
+          "p1012": "Respirátor 3M FFP2, skládací",
+          "p1287": "Respirátor FFP3 Silverline",
+          "p1280": "Pilařská přilba Yukon",
+          "p1063": "Ochranný štít síťkový, nastavitelný, kombinovaný"
+        }
+      }
+    },
+    "nahradneDiely": {
+      "arbortechDiely": {
+        "title": "Arbortech díly",
+        "intro": "Originální náhradní díly Arbortech – uhlíky do motoru, výměnné nože Ball Gouge, klínový řemen pro Mini Carver i brusné válečky pro Precision Carving System.",
+        "products": {
+          "p497": "Náhradní uhlíky Arbortech",
+          "p601": "Náhradní výměnný nůž Ball Gouge Arbortech",
+          "p461": "Klínový řemen pro Mini Carver Arbortech",
+          "p1200": "Náhradní brusné válečky Precision Carving System Arbortech"
+        }
+      },
+      "manpaDiely": {
+        "title": "Manpa díly",
+        "intro": "Náhradní díly pro nářadí Manpa Korea – výměnné zuby na frézovací kotouče v kulatém i trojúhelníkovém profilu, prodlužovací přechodka a držák úhlové brusky.",
+        "products": {
+          "p797": "Prodlužovací přechodka M14 / M10 (+M16)",
+          "p803": "Náhradní výměnné zuby na frézovací kotouče Manpa, kulaté",
+          "p1284": "Náhradní výměnné zuby Manpa, trojúhelníkové hranaté",
+          "p917": "Prodlužovací držák úhlové brusky Grinder Holder"
+        }
+      }
     }
   },
   "brands": {
@@ -2906,6 +2985,44 @@
         "merlin": {
           "title": "Merlin mini rašple a řetězové frézky Ø 50 mm | Marosko",
           "description": "Řetězové frézky, náhradní řetězy i tvrdokovové minirašple Merlin (King Arthur's Tools) pro mini frézku."
+        }
+      },
+      "akumulatoroveNaradie": {
+        "bruskyAku": {
+          "title": "Akumulátorové brusky | Marosko",
+          "description": "Akumulátorové brusky Total a mini frézka Arbortech na baterie – úhlová, přímá i excentrická bruska pro práci bez prodlužovacího kabelu."
+        },
+        "pilyAku": {
+          "title": "Akumulátorové pily | Marosko",
+          "description": "Akumulátorové řetězové pily Total – mini pily i výkonnější řetězová pila s baterií a nabíječkou v balení pro řezbáře a mistry."
+        }
+      },
+      "ochrannePomocky": {
+        "obuv": {
+          "title": "Bezpečnostní a pracovní obuv | Marosko",
+          "description": "Bezpečnostní a pracovní obuv pro celodenní práci v dílně i v terénu – aktuální nabídka v e-shopu Marosko."
+        },
+        "ruky": {
+          "title": "Ochrana rukou | Marosko",
+          "description": "Protiřezné rukavice Nevada a Fiordland na ochranu rukou při práci s řetězovou pilou, úhlovou bruskou i řezbářským nářadím."
+        },
+        "telo": {
+          "title": "Ochrana těla | Marosko",
+          "description": "Protiřezné kalhoty a návleky Oregon i kompletní bezpečnostní sada pro pilaře – ochrana těla při práci s řetězovou pilou."
+        },
+        "tvarDychanieSluch": {
+          "title": "Ochrana obličeje, dýchacích cest a sluchu | Marosko",
+          "description": "Respirátory FFP2/FFP3, pilařská přilba a ochranný štít – ochrana obličeje, dýchacích cest a sluchu při práci s řezbářským nářadím."
+        }
+      },
+      "nahradneDiely": {
+        "arbortechDiely": {
+          "title": "Arbortech díly | Marosko",
+          "description": "Originální náhradní díly Arbortech – uhlíky, výměnné nože Ball Gouge, řemeny i brusné válečky pro nástroje této značky."
+        },
+        "manpaDiely": {
+          "title": "Manpa díly | Marosko",
+          "description": "Náhradní díly pro nářadí Manpa Korea – výměnné zuby na frézovací kotouče, prodlužovací přechodka i držák úhlové brusky."
         }
       }
     },
