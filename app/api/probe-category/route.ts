@@ -25,6 +25,26 @@ query ListRootCategories {
 }
 `;
 
+const TYPE_QUERY = `
+query IntrospectType($name: String!) {
+  __type(name: $name) {
+    name
+    fields {
+      name
+      description
+      type {
+        name
+        kind
+        ofType {
+          name
+          kind
+        }
+      }
+    }
+  }
+}
+`;
+
 export async function GET(request: Request) {
   const url = new URL(request.url);
   if (url.searchParams.get("key") !== "4ba6785bf2c5d17814727403") {
@@ -37,8 +57,9 @@ export async function GET(request: Request) {
   }
 
   const categoryId = url.searchParams.get("id");
-  const query = categoryId ? CATEGORY_QUERY : ROOT_QUERY;
-  const variables = categoryId ? { category_id: categoryId } : {};
+  const typeName = url.searchParams.get("type");
+  const query = typeName ? TYPE_QUERY : categoryId ? CATEGORY_QUERY : ROOT_QUERY;
+  const variables = typeName ? { name: typeName } : categoryId ? { category_id: categoryId } : {};
 
   const res = await fetch(API_URL, {
     method: "POST",
