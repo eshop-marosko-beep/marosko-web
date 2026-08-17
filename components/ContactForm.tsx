@@ -166,7 +166,7 @@ export default function ContactForm({
             />
           </div>
           <a
-            href="https://www.google.com/maps?q=48.825509,17.188902"
+            href="https://www.google.com/maps?cid=3771718462339881731"
             target="_blank"
             rel="noopener noreferrer"
             className="block text-center text-amber-700 font-semibold hover:underline"

@@ -19,10 +19,17 @@ const GEO = {
   longitude: 17.188902,
 } as const;
 
+/** Canonical link to the verified Google Business Profile listing (via its
+ * permanent CID, not the name/coordinate-based URL, which can drift). */
+const MAPS_URL = "https://www.google.com/maps?cid=3771718462339881731";
+
+const ORGANIZATION_ID = `${SITE_URL}/#organization`;
+
 export function buildOrganizationSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": ORGANIZATION_ID,
     name: "Marián s.r.o.",
     url: SITE_URL,
     logo: LOGO_URL,
@@ -52,6 +59,7 @@ export function buildOrganizationSchema() {
       "https://eshop.marosko.sk",
       "https://vercajch.eu",
       "https://rezbarskenaradie.sk",
+      MAPS_URL,
       ...socialLinks.map(({ url }) => url),
     ],
   };
@@ -61,6 +69,7 @@ export function buildLocalBusinessSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
+    "@id": ORGANIZATION_ID,
     name: "Marián s.r.o.",
     image: LOGO_URL,
     url: SITE_URL,
@@ -68,6 +77,7 @@ export function buildLocalBusinessSchema() {
     email: "eshop.marosko@gmail.com",
     address: ADDRESS,
     geo: GEO,
+    hasMap: MAPS_URL,
     priceRange: "€1–€1500",
   };
 }
