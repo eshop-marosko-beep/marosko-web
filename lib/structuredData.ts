@@ -30,7 +30,7 @@ const OPENING_HOURS = [
     "@type": "OpeningHoursSpecification",
     dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
     opens: "08:00",
-    closes: "16:00",
+    closes: "14:00",
   },
 ] as const;
 
