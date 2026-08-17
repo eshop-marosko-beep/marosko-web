@@ -41,6 +41,18 @@ query IntrospectType($name: String!) {
         }
       }
     }
+    inputFields {
+      name
+      description
+      type {
+        name
+        kind
+        ofType {
+          name
+          kind
+        }
+      }
+    }
   }
 }
 `;
