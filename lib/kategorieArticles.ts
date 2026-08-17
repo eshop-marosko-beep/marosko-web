@@ -1434,18 +1434,166 @@ export const kategorieArticles: KategorieArticle[] = [
     slug: "ochranne-pomocky-pri-praci",
     translationKey: "ochrannePomocky",
     eshopUrl: "https://eshop.marosko.sk/c/ochranne-pomocky-pri-praci",
+    image:
+      "https://eshop.marosko.sk/resize/e/1600/1600/files/ochranne-pomocky/protiporezove-nohavice/waipoua/712954692xl-%281%29.jpg",
     subcategories: [
-      { translationKey: "obuv" },
-      { translationKey: "ruky" },
-      { translationKey: "telo" },
-      { translationKey: "tvarDychanieSluch" },
+      {
+        translationKey: "obuv",
+        slug: "bezpecnostna-a-pracovna-obuv",
+        eshopUrl: "https://eshop.marosko.sk/c/ochranne-pomocky-pri-praci/bezpecnostna-a-pracovna-obuv",
+      },
+      {
+        translationKey: "ruky",
+        slug: "ochrana-ruk",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/rukavice-nevada/nevada.jpeg",
+        eshopUrl: "https://eshop.marosko.sk/c/ochranne-pomocky-pri-praci/ochrana-ruk",
+        products: [
+          {
+            id: "p1475",
+            url: "https://eshop.marosko.sk/p/1475/rukavice-protiporezove-nevada-trieda1",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/rukavice-nevada/nevada.jpeg",
+          },
+          {
+            id: "p1474",
+            url: "https://eshop.marosko.sk/p/1474/rukavice-protiporezove-premium-nevada-parts",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/protiporezove-rukavice-/premium-nevada/00771598.jpg",
+          },
+          {
+            id: "p1109",
+            url: "https://eshop.marosko.sk/p/1109/rukavice-protiporezove-fiordland",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/oregon-/fiorland/or295395.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "telo",
+        slug: "ochrana-tela",
+        image:
+          "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/protiporezove-nohavice/waipoua/712954692xl-%281%29.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/ochranne-pomocky-pri-praci/ochrana-tela",
+        products: [
+          {
+            id: "p1279",
+            url: "https://eshop.marosko.sk/p/1279/bezpecnostna-sada-pre-pilcikov-oregon",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/sada-oregon.jpg",
+          },
+          {
+            id: "p665",
+            url: "https://eshop.marosko.sk/p/665/univerzalne-protiporezove-navleky-oregon",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/oregon-navleky.jpg",
+          },
+          {
+            id: "p1209",
+            url: "https://eshop.marosko.sk/p/1209/nohavice-protiporezove-yukon-typu-a",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/protiporezove-nohavice/or295435-m.jpg",
+          },
+          {
+            id: "p1398",
+            url: "https://eshop.marosko.sk/p/1398/nohavice-protiporezove-cerveno-zlte-waipoua",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/protiporezove-nohavice/waipoua/712954692xl-%281%29.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "tvarDychanieSluch",
+        slug: "ochrana-tvare-dychacich-ciest-a-sluchu",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/ochranny-stit/00429702.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/ochranne-pomocky-pri-praci/ochrana-tvare-dychacich-ciest-a-sluchu",
+        products: [
+          {
+            id: "p1012",
+            url: "https://eshop.marosko.sk/p/1012/respirator-3m-9322-ffp2-skladaci-respirator",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/respirator-ffp2/respirator-ffp2.jpg",
+          },
+          {
+            id: "p1287",
+            url: "https://eshop.marosko.sk/p/1287/respirator-ffp3-silverline",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/respirator-ffp3/silverline/427698-silverline-mask.jpg",
+          },
+          {
+            id: "p1280",
+            url: "https://eshop.marosko.sk/p/1280/pilcicka-prilba-yukon",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/oregon-/prilba-pilcicka-yukon/or562412.jpeg",
+          },
+          {
+            id: "p1063",
+            url: "https://eshop.marosko.sk/p/1063/ochranny-stit-sietkovy-nastavitelny-kombinovany",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/ochranny-stit/img-20210614-115225-02.jpeg",
+          },
+        ],
+      },
     ],
   },
   {
     slug: "nahradne-noze-nastrojov-diely-arbortech",
     translationKey: "nahradneDiely",
     eshopUrl: "https://eshop.marosko.sk/c/nahradne-noze-nastrojov-diely-arbortech",
-    subcategories: [{ translationKey: "arbortechDiely" }, { translationKey: "manpaDiely" }],
+    image: "https://eshop.marosko.sk/resize/e/1600/1600/files/manpa/zuby-na-manpu.jpg",
+    subcategories: [
+      {
+        translationKey: "arbortechDiely",
+        slug: "arbortech-diely",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/vymenne-pridavne-nahradne-diely/nahradne-uhliky/nahradne-uhliky.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/nahradne-noze-nastrojov-diely-arbortech/arbortech-diely",
+        products: [
+          {
+            id: "p497",
+            url: "https://eshop.marosko.sk/p/497/nahradne-uhliky-arbortech",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/vymenne-pridavne-nahradne-diely/nahradne-uhliky/nahradne-uhliky.jpg",
+          },
+          {
+            id: "p601",
+            url: "https://eshop.marosko.sk/p/601/vymenny-noz-ball-gouge-arbortech",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/vymenne-pridavne-nahradne-diely/nahradny-noz-ball-gouge.jpg",
+          },
+          {
+            id: "p461",
+            url: "https://eshop.marosko.sk/p/461/klinovy-remen-pre-mini-carver-arbortech",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/vymenne-pridavne-nahradne-diely/klinovy-remen-pre-mini-grinder/klinovy-remen-pre-grinder.jpg",
+          },
+          {
+            id: "p1200",
+            url: "https://eshop.marosko.sk/p/1200/nahradne-brusne-valceky-precision-carving-system-arbortech",
+            image:
+              "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/arbortech/precision-carving-system-sada/nahradne-brusne-valce/arbortech-spiral-sanders-60-grit-gallery.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "manpaDiely",
+        slug: "manpa-diely",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/zuby-na-manpu.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/nahradne-noze-nastrojov-diely-arbortech/manpa-diely",
+        products: [
+          {
+            id: "p797",
+            url: "https://eshop.marosko.sk/p/797/predlzovacia-prechodka-m14-m-10-16-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/vymenne-pridavne-nahradne-diely/m14-m10/bez-matice-.jpg",
+          },
+          {
+            id: "p803",
+            url: "https://eshop.marosko.sk/p/803/nahradne-vymenne-zuby-na-frezu-manpa",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/zuby-na-manpu.jpg",
+          },
+          {
+            id: "p1284",
+            url: "https://eshop.marosko.sk/p/1284/nahradne-vymenne-zuby-na-frezovacie-kotuce-manpa",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/zuby-na-manpu.jpg",
+          },
+          {
+            id: "p917",
+            url: "https://eshop.marosko.sk/p/917/predlzovaci-drziak-uhlovej-brusky",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/grinder-holder-/grinder--holder.jpg",
+          },
+        ],
+      },
+    ],
   },
   {
     slug: "zveraky-svorky-drziaky-vrtacky-naradie",
