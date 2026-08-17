@@ -1039,7 +1039,66 @@ export const kategorieArticles: KategorieArticle[] = [
     slug: "akumulatorove-naradie",
     translationKey: "akumulatoroveNaradie",
     eshopUrl: "https://eshop.marosko.sk/c/akumulatorove-naradie",
-    subcategories: [{ translationKey: "bruskyAku" }, { translationKey: "pilyAku" }],
+    image:
+      "https://eshop.marosko.sk/resize/e/1600/1600/files/elektricke-naradie/total/uhlova-bruska-aku/-vyr-841tagli201258-d1.jpg",
+    subcategories: [
+      {
+        translationKey: "bruskyAku",
+        slug: "brusky-aku",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/total/uhlova-bruska-aku/-vyr-841tagli201258-d1.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/akumulatorove-naradie/brusky-akumulatorove",
+        products: [
+          {
+            id: "p1441",
+            url: "https://eshop.marosko.sk/p/1441/aku-mini-frezka-rezbarska-sada-arbortech",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/arbortech/aku-mini-grinder-/mg-1000-aku-mini-grinder-.jpg",
+          },
+          {
+            id: "p1365",
+            url: "https://eshop.marosko.sk/p/1365/aku-priama-bruska-total-s-ohybnym-bovdenom-40-ks-prislusenstva",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/total/aku-priama-bruska/-vyr-851tmgli20011.jpg",
+          },
+          {
+            id: "p1366",
+            url: "https://eshop.marosko.sk/p/1366/aku-uhlova-bruska-total-20-v-li-ion",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/total/uhlova-bruska-aku/-vyr-841tagli201258-d1.jpg",
+          },
+          {
+            id: "p1406",
+            url: "https://eshop.marosko.sk/p/1406/aku-excentricka-bruska-pr-125-mm",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/total/excentricka-bruska-total.jpg",
+          },
+        ],
+      },
+      {
+        translationKey: "pilyAku",
+        slug: "pily-aku",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/total-tools/mini-pila/-vyr-847tgsli2068-bez.jpg",
+        eshopUrl: "https://eshop.marosko.sk/c/akumulatorove-naradie/pily-akumulatorove",
+        products: [
+          {
+            id: "p1369",
+            url: "https://eshop.marosko.sk/p/1369/aku-mini-retazova-pila-bez-baterie-a-nabijacky",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/total/mini-retazova-pila/-vyrp11-846tgsli2058.jpg",
+          },
+          {
+            id: "p1445",
+            url: "https://eshop.marosko.sk/p/1445/aku-mini-retazova-pila-150mm-lista-bez-baterie-a-nabijacky",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/total-tools/mini-pila/-vyr-847tgsli2068-bez.jpg",
+          },
+          {
+            id: "p1446",
+            url: "https://eshop.marosko.sk/p/1446/aku-mini-retazova-pila-150-mm-lista-s-bateriuo-nabijackou",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/total-tools/mini-pila/-vyr-994tgsli20685-vc.jpg",
+          },
+          {
+            id: "p1407",
+            url: "https://eshop.marosko.sk/p/1407/aku-retazova-pila-2x-4-0ah-bateria-nabijacka",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/total/retazova-pila-aku/-vyrp13-845tgsli201286-d2.jpg",
+          },
+        ],
+      },
+    ],
   },
   {
     slug: "rucne-naradie",
