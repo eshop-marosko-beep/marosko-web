@@ -25,6 +25,15 @@ const MAPS_URL = "https://www.google.com/maps?cid=3771718462339881731";
 
 const ORGANIZATION_ID = `${SITE_URL}/#organization`;
 
+const OPENING_HOURS = [
+  {
+    "@type": "OpeningHoursSpecification",
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    opens: "08:00",
+    closes: "16:00",
+  },
+] as const;
+
 export function buildOrganizationSchema() {
   return {
     "@context": "https://schema.org",
@@ -78,6 +87,7 @@ export function buildLocalBusinessSchema() {
     address: ADDRESS,
     geo: GEO,
     hasMap: MAPS_URL,
+    openingHoursSpecification: OPENING_HOURS,
     priceRange: "€1–€1500",
   };
 }
