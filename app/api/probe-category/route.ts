@@ -25,6 +25,20 @@ query ListRootCategories {
 }
 `;
 
+const PRODUCT_LIST_QUERY = `
+query GetProductList($lang_code: CountryCodeAlpha2!, $filter: ProductFilter) {
+  getProductList(lang_code: $lang_code, filter: $filter) {
+    data {
+      id
+      title
+      link
+      main_category { id title link }
+      assigned_categories { id title link }
+    }
+  }
+}
+`;
+
 const TYPE_QUERY = `
 query IntrospectType($name: String!) {
   __type(name: $name) {
@@ -70,8 +84,21 @@ export async function GET(request: Request) {
 
   const categoryId = url.searchParams.get("id");
   const typeName = url.searchParams.get("type");
-  const query = typeName ? TYPE_QUERY : categoryId ? CATEGORY_QUERY : ROOT_QUERY;
-  const variables = typeName ? { name: typeName } : categoryId ? { category_id: categoryId } : {};
+  const producer = url.searchParams.get("producer");
+  const query = typeName
+    ? TYPE_QUERY
+    : producer
+      ? PRODUCT_LIST_QUERY
+      : categoryId
+        ? CATEGORY_QUERY
+        : ROOT_QUERY;
+  const variables = typeName
+    ? { name: typeName }
+    : producer
+      ? { lang_code: "SK", filter: { producer } }
+      : categoryId
+        ? { category_id: categoryId }
+        : {};
 
   const res = await fetch(API_URL, {
     method: "POST",
