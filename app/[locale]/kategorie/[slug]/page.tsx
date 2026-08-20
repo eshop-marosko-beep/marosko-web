@@ -47,6 +47,7 @@ export default async function KategorieDetailPage({
   const tGallery = await getTranslations("gallery");
   const tServices = await getTranslations("services");
   const tNav = await getTranslations("navigation");
+  const tCommon = await getTranslations("kategorieSubcategoryDetail.common");
 
   const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
     { name: tNav("home"), path: "/" },
@@ -87,6 +88,36 @@ export default async function KategorieDetailPage({
       </div>
       <p className="text-gray-600 text-lg leading-relaxed mb-4">{t("lead")}</p>
       <p className="text-gray-600 leading-relaxed mb-10">{t("brands")}</p>
+
+      {article.products && article.products.length > 0 && (
+        <>
+          <h2 className="text-2xl font-bold text-espresso-800 mb-6">{tCommon("productsTitle")}</h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mb-10">
+            {article.products.map(({ id, url, image }) => (
+              <a
+                key={id}
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group bg-white rounded-xl shadow-lg overflow-hidden border border-transparent hover:border-amber-200 hover:shadow-xl transition-all flex flex-col"
+              >
+                <div className="relative h-32 sm:h-36 bg-cream-100">
+                  <Image
+                    src={image}
+                    alt={t(`products.${id}`)}
+                    fill
+                    unoptimized
+                    className="object-contain p-3 group-hover:scale-105 transition-transform"
+                  />
+                </div>
+                <div className="p-3 text-center">
+                  <p className="text-sm font-semibold text-espresso-800">{t(`products.${id}`)}</p>
+                </div>
+              </a>
+            ))}
+          </div>
+        </>
+      )}
 
       {article.subcategories.length > 0 && (
         <>

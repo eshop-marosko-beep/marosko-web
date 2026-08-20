@@ -566,6 +566,10 @@
           "name": "Ochrana tváre, dýchacích ciest a sluchu",
           "description": "Prilby, masky, respirátory aj chrániče sluchu na ochranu zraku, dýchacích ciest a uší pri práci s náradím."
         }
+      },
+      "products": {
+        "p1279": "Bezpečnostná sada pre pilčíkov Oregon",
+        "p665": "Univerzálne protiporezové návleky Oregon"
       }
     },
     "nahradneDiely": {

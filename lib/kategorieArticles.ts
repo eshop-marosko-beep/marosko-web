@@ -29,6 +29,8 @@ export type KategorieArticle = {
   eshopUrl: string;
   /** Hero photo for the article, sourced from eshop.marosko.sk. */
   image?: string;
+  /** Featured products shown directly on the category detail page. */
+  products?: KategorieSubcategoryProduct[];
   subcategories: KategorieSubcategory[];
 };
 
@@ -1436,6 +1438,18 @@ export const kategorieArticles: KategorieArticle[] = [
     eshopUrl: "https://eshop.marosko.sk/c/ochranne-pomocky-pri-praci",
     image:
       "https://eshop.marosko.sk/resize/e/1600/1600/files/ochranne-pomocky/protiporezove-nohavice/waipoua/712954692xl-%281%29.jpg",
+    products: [
+      {
+        id: "p1279",
+        url: "https://eshop.marosko.sk/p/1279/bezpecnostna-sada-pre-pilcikov-oregon",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/sada-oregon.jpg",
+      },
+      {
+        id: "p665",
+        url: "https://eshop.marosko.sk/p/665/univerzalne-protiporezove-navleky-oregon",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/oregon-navleky.jpg",
+      },
+    ],
     subcategories: [
       {
         translationKey: "obuv",

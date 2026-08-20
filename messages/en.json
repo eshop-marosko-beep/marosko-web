@@ -566,6 +566,10 @@
           "name": "Face, respiratory and hearing protection",
           "description": "Helmets, masks, respirators and hearing protection for eyes, airways and ears when working with tools."
         }
+      },
+      "products": {
+        "p1279": "Chainsaw safety kit Oregon",
+        "p665": "Universal cut-resistant sleeves Oregon"
       }
     },
     "nahradneDiely": {
