@@ -566,6 +566,10 @@
           "name": "Protecție pentru față, căi respiratorii și auz",
           "description": "Căști, măști, respiratoare și antifoane pentru protecția ochilor, căilor respiratorii și urechilor la lucrul cu unelte."
         }
+      },
+      "products": {
+        "p1279": "Set de siguranță pentru tăietori de lemne Oregon",
+        "p665": "Maneci universale rezistente la tăiere Oregon"
       }
     },
     "nahradneDiely": {

@@ -566,6 +566,10 @@
           "name": "Ochrana obličeje, dýchacích cest a sluchu",
           "description": "Přilby, masky, respirátory i chrániče sluchu pro ochranu zraku, dýchacích cest a uší při práci s nářadím."
         }
+      },
+      "products": {
+        "p1279": "Bezpečnostní sada pro pilaře Oregon",
+        "p665": "Univerzální protiřezné návleky Oregon"
       }
     },
     "nahradneDiely": {
