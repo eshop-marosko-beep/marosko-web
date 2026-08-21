@@ -3134,5 +3134,12 @@
     "shareOn": "Zdieľať na",
     "copyForInstagram": "Skopírovať odkaz pre Instagram",
     "linkCopied": "Odkaz skopírovaný – vlož ho do Instagramu"
+  },
+  "llms": {
+    "title": "Marosko.sk – rezbárske náradie a návody pre rezbárov",
+    "tagline": "Informačný a prezentačný web o rezbárstve, návodoch a náradí. Produkty si môžete zakúpiť v našom e-shope.",
+    "shopHeading": "Nákup",
+    "shopLinkLabel": "Eshop – rezbárske náradie",
+    "pagesHeading": "Hlavné stránky"
   }
 }

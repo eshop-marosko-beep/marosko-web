@@ -3134,5 +3134,13 @@
     "shareOn": "Share on",
     "copyForInstagram": "Copy link for Instagram",
     "linkCopied": "Link copied – paste it into Instagram"
+  },
+  "llms": {
+    "title": "Marosko.sk – Woodcarving Tools & Guides",
+    "tagline": "An informational and presentation website about woodcarving, tutorials and tools. Products can be purchased through our e-shop.",
+    "shopHeading": "Shop",
+    "shopLinkLabel": "Shop – woodcarving tools",
+    "shopNote": "Our e-shop is currently available in Slovak, Czech and Romanian — an English-language checkout is not yet available.",
+    "pagesHeading": "Main pages"
   }
 }
