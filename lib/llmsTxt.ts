@@ -1,5 +1,21 @@
 import { SITE_URL } from "@/lib/seo";
 import { getPathname } from "@/navigation";
+import { categoryKeys } from "@/lib/categoriesData";
+import { brands } from "@/lib/brandsData";
+import { socialLinks } from "@/lib/socialLinks";
+import {
+  COMPANY_NAME,
+  COMPANY_STREET_ADDRESS,
+  COMPANY_POSTAL_CODE,
+  COMPANY_ADDRESS_LOCALITY,
+  COMPANY_COUNTRY,
+  COMPANY_VAT_ID,
+  COMPANY_TAX_ID,
+  COMPANY_IDENTIFIER,
+  COMPANY_PHONE_SALES,
+  COMPANY_PHONE_SERVICE,
+  COMPANY_EMAIL,
+} from "@/lib/companyInfo";
 import skMessages from "@/messages/sk.json";
 import czMessages from "@/messages/cz.json";
 import enMessages from "@/messages/en.json";
@@ -38,8 +54,17 @@ const MAIN_PAGES: { navKey: keyof (typeof skMessages)["navigation"]; path: strin
   { navKey: "contact", path: "/kontakt" },
 ];
 
+/** eshop.marosko.sk's Czech section mirrors the Slovak category slugs 1:1
+ * under a "/cz/c/..." prefix (verified live), unlike Romanian, which uses
+ * fully translated slugs — hence categoryKeys carries an explicit roUrl. */
+function eshopCategoryUrl(locale: LlmsLocale, category: (typeof categoryKeys)[number]): string {
+  if (locale === "ro") return category.roUrl ?? category.url;
+  if (locale === "cz") return category.url.replace("eshop.marosko.sk/c/", "eshop.marosko.sk/cz/c/");
+  return category.url;
+}
+
 export function buildLlmsTxt(locale: LlmsLocale): string {
-  const { llms, navigation } = messagesByLocale[locale];
+  const { llms, navigation, services } = messagesByLocale[locale];
 
   const lines: string[] = [
     `# ${llms.title}`,
@@ -60,6 +85,30 @@ export function buildLlmsTxt(locale: LlmsLocale): string {
     const url = `${SITE_URL}${getPathname({ locale, href: path })}`;
     lines.push(`- [${label}](${url})`);
   }
+
+  lines.push("", `## ${llms.categoriesHeading}`);
+  for (const category of categoryKeys) {
+    const { name, description } = services.categories[category.key as keyof typeof services.categories];
+    const url = eshopCategoryUrl(locale, category);
+    lines.push(`- [${name}](${url}): ${description}`);
+  }
+
+  lines.push(
+    "",
+    `## ${llms.companyHeading}`,
+    `- ${COMPANY_NAME}, ${COMPANY_STREET_ADDRESS}, ${COMPANY_POSTAL_CODE} ${COMPANY_ADDRESS_LOCALITY}, ${COMPANY_COUNTRY}`,
+    `- IČO/ID: ${COMPANY_IDENTIFIER}, DIČ/Tax ID: ${COMPANY_TAX_ID}, IČ DPH/VAT: ${COMPANY_VAT_ID}`,
+    `- ${COMPANY_PHONE_SALES} / ${COMPANY_PHONE_SERVICE}`,
+    `- ${COMPANY_EMAIL}`
+  );
+
+  lines.push("", `## ${llms.brandsHeading}`, brands.map(({ name }) => name).join(", "));
+
+  lines.push("", `## ${llms.socialHeading}`);
+  for (const { name, url } of socialLinks) {
+    lines.push(`- [${name}](${url})`);
+  }
+
   lines.push("");
 
   return lines.join("\n");

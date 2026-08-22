@@ -3141,6 +3141,10 @@
     "shopHeading": "Shop",
     "shopLinkLabel": "Shop – woodcarving tools",
     "shopNote": "Our e-shop is currently available in Slovak, Czech and Romanian — an English-language checkout is not yet available.",
-    "pagesHeading": "Main pages"
+    "pagesHeading": "Main pages",
+    "categoriesHeading": "Product Categories",
+    "companyHeading": "Company",
+    "brandsHeading": "Brands",
+    "socialHeading": "Social Media"
   }
 }
