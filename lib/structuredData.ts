@@ -2,14 +2,26 @@ import { SITE_URL } from "@/lib/seo";
 import { socialLinks } from "@/lib/socialLinks";
 import { videos } from "@/lib/videoData";
 import { getPathname } from "@/navigation";
+import {
+  COMPANY_NAME,
+  COMPANY_STREET_ADDRESS,
+  COMPANY_POSTAL_CODE,
+  COMPANY_ADDRESS_LOCALITY,
+  COMPANY_VAT_ID,
+  COMPANY_TAX_ID,
+  COMPANY_IDENTIFIER,
+  COMPANY_PHONE_SALES,
+  COMPANY_PHONE_SERVICE,
+  COMPANY_EMAIL,
+} from "@/lib/companyInfo";
 
 const LOGO_URL = `${SITE_URL}/brand/marian-logo.jpg`;
 
 const ADDRESS = {
   "@type": "PostalAddress",
-  streetAddress: "Vrádište 138",
-  postalCode: "908 49",
-  addressLocality: "Vrádište",
+  streetAddress: COMPANY_STREET_ADDRESS,
+  postalCode: COMPANY_POSTAL_CODE,
+  addressLocality: COMPANY_ADDRESS_LOCALITY,
   addressCountry: "SK",
 } as const;
 
@@ -39,26 +51,26 @@ export function buildOrganizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "@id": ORGANIZATION_ID,
-    name: "Marián s.r.o.",
+    name: COMPANY_NAME,
     url: SITE_URL,
     logo: LOGO_URL,
     foundingDate: "2013",
     address: ADDRESS,
-    vatID: "SK2023992916",
-    taxID: "2023992916",
-    identifier: "47546298",
+    vatID: COMPANY_VAT_ID,
+    taxID: COMPANY_TAX_ID,
+    identifier: COMPANY_IDENTIFIER,
     contactPoint: [
       {
         "@type": "ContactPoint",
-        telephone: "+421915723250",
+        telephone: COMPANY_PHONE_SALES,
         contactType: "sales",
-        email: "eshop.marosko@gmail.com",
+        email: COMPANY_EMAIL,
         areaServed: "SK",
         availableLanguage: ["Slovak", "Czech", "English", "Romanian"],
       },
       {
         "@type": "ContactPoint",
-        telephone: "+421949584525",
+        telephone: COMPANY_PHONE_SERVICE,
         contactType: "customer service",
         areaServed: "SK",
         availableLanguage: ["Slovak", "Czech", "English", "Romanian"],
@@ -79,11 +91,11 @@ export function buildLocalBusinessSchema() {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
     "@id": ORGANIZATION_ID,
-    name: "Marián s.r.o.",
+    name: COMPANY_NAME,
     image: LOGO_URL,
     url: SITE_URL,
-    telephone: "+421915723250",
-    email: "eshop.marosko@gmail.com",
+    telephone: COMPANY_PHONE_SALES,
+    email: COMPANY_EMAIL,
     address: ADDRESS,
     geo: GEO,
     hasMap: MAPS_URL,
