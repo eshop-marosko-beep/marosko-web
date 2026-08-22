@@ -1442,12 +1442,12 @@ export const kategorieArticles: KategorieArticle[] = [
       {
         id: "p1279",
         url: "https://eshop.marosko.sk/p/1279/bezpecnostna-sada-pre-pilcikov-oregon",
-        image: "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/sada-oregon.jpg",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/oregon-/sada-bezpecnostna-pre-pilcikov-/or574742.png",
       },
       {
         id: "p665",
         url: "https://eshop.marosko.sk/p/665/univerzalne-protiporezove-navleky-oregon",
-        image: "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/oregon-navleky.jpg",
+        image: "https://eshop.marosko.sk/resize/e/800/800/files/oregon-/navleky-protiporezove/71575780.jpg",
       },
     ],
     subcategories: [
@@ -1490,12 +1490,12 @@ export const kategorieArticles: KategorieArticle[] = [
           {
             id: "p1279",
             url: "https://eshop.marosko.sk/p/1279/bezpecnostna-sada-pre-pilcikov-oregon",
-            image: "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/sada-oregon.jpg",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/oregon-/sada-bezpecnostna-pre-pilcikov-/or574742.png",
           },
           {
             id: "p665",
             url: "https://eshop.marosko.sk/p/665/univerzalne-protiporezove-navleky-oregon",
-            image: "https://eshop.marosko.sk/resize/e/800/800/files/ochranne-pomocky/oregon-navleky.jpg",
+            image: "https://eshop.marosko.sk/resize/e/800/800/files/oregon-/navleky-protiporezove/71575780.jpg",
           },
           {
             id: "p1209",
