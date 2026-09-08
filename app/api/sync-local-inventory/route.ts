@@ -41,6 +41,7 @@ async function searchReport(authClient: JWT, query: string) {
   return res.data as {
     results?: Array<{
       productView?: {
+        id?: string;
         offerId?: string;
       };
     }>;
@@ -110,6 +111,7 @@ export async function GET() {
 
     const query = `
       SELECT
+        id,
         offer_id
       FROM product_view
       WHERE feed_label = 'SK'
