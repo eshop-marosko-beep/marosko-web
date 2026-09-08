@@ -1,6 +1,10 @@
 {
   "crons": [
     {
+      "path": "/api/sync-local-inventory",
+      "schedule": "0 3 * * *"
+    },
+    {
       "path": "/api/sync-merchant",
       "schedule": "0 4 * * *"
     }
