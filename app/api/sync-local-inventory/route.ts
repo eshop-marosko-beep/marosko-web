@@ -65,12 +65,30 @@ async function getFloxAvailableQuantity(productId: string): Promise<number> {
     }),
   });
 
-  const json = await res.json();
-  if (json.errors) {
-    throw new Error(json.errors.map((e: { message: string }) => e.message).join("; "));
+  const rawBody = await res.text();
+  let json: any = null;
+  try {
+    json = JSON.parse(rawBody);
+  } catch {
+    // response body wasn't JSON — fall through with json === null
   }
 
-  const product = json.data?.getProduct;
+  if (!res.ok) {
+    const detail = json?.errors
+      ? json.errors.map((e: { message: string }) => e.message).join("; ")
+      : rawBody.slice(0, 500);
+    throw new Error(`Flox HTTP ${res.status} ${res.statusText}: ${detail}`);
+  }
+
+  if (json?.errors) {
+    throw new Error(
+      `Flox GraphQL error: ${json.errors
+        .map((e: { message: string }) => e.message)
+        .join("; ")}`
+    );
+  }
+
+  const product = json?.data?.getProduct;
   if (!product) {
     throw new Error(`Produkt "${productId}" neexistuje vo Flox`);
   }
@@ -82,6 +100,46 @@ async function getFloxAvailableQuantity(productId: string): Promise<number> {
     (sum, item) => sum + (item.available_quantity ?? 0),
     0
   );
+}
+
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function chunk<T>(items: T[], size: number): T[][] {
+  const chunks: T[][] = [];
+  for (let i = 0; i < items.length; i += size) {
+    chunks.push(items.slice(i, i + size));
+  }
+  return chunks;
+}
+
+const FLOX_BATCH_SIZE = 15;
+const FLOX_BATCH_DELAY_MS = 300;
+
+async function getFloxAvailableQuantities(
+  productIds: string[]
+): Promise<PromiseSettledResult<{ baseId: string; quantity: number }>[]> {
+  const results: PromiseSettledResult<{ baseId: string; quantity: number }>[] =
+    [];
+
+  const batches = chunk(productIds, FLOX_BATCH_SIZE);
+  for (let i = 0; i < batches.length; i++) {
+    const batch = batches[i];
+    const batchResults = await Promise.allSettled(
+      batch.map(async (baseId) => ({
+        baseId,
+        quantity: await getFloxAvailableQuantity(baseId),
+      }))
+    );
+    results.push(...batchResults);
+
+    if (i < batches.length - 1) {
+      await sleep(FLOX_BATCH_DELAY_MS);
+    }
+  }
+
+  return results;
 }
 
 async function upsertLocalInventory(
@@ -124,12 +182,7 @@ export async function GET() {
 
     const baseIds = Array.from(new Set(offerIds.map(getBaseProductId)));
 
-    const quantityResults = await Promise.allSettled(
-      baseIds.map(async (baseId) => ({
-        baseId,
-        quantity: await getFloxAvailableQuantity(baseId),
-      }))
-    );
+    const quantityResults = await getFloxAvailableQuantities(baseIds);
 
     const quantityByBaseId = new Map<string, number>();
     const floxLookupFailures: Array<{ baseId: string; error: string }> = [];
