@@ -22,9 +22,9 @@ function getAuthClient() {
 }
 
 function getFloxApiKey() {
-  const key = process.env.FLOX_API_KEY;
+  const key = process.env.BIZNISWEB_API_TOKEN;
   if (!key) {
-    throw new Error("Chýba env premenná FLOX_API_KEY");
+    throw new Error("Chýba env premenná BIZNISWEB_API_TOKEN");
   }
   return key;
 }
