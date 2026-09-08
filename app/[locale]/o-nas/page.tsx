@@ -21,7 +21,6 @@ export async function generateMetadata({
     path: "/o-nas",
     title: t("title"),
     description: t("description"),
-    image: "/gallery/frezovaci-kotuc-detail-rezbarska-praca.jpg",
   });
 }
 
