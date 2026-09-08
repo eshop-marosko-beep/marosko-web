@@ -11,18 +11,18 @@ export default function Hero() {
     <section className="relative overflow-hidden">
       <div className="relative h-[420px] md:h-[560px]">
         <Image
-          src="/gallery/frezovaci-kotuc-detail-rezbarska-praca.jpg"
+          src="/gallery/frezovaci-kotuc-detail-rezbarska-praca.webp"
           alt=""
           fill
           loading="eager"
           fetchPriority="high"
-          unoptimized
+          sizes="100vw"
           className="object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-espresso-900/95 via-espresso-900/80 to-espresso-900/65" />
         <div className="hidden sm:block absolute bottom-6 right-6 z-10 h-24 w-24 md:h-28 md:w-28">
           <Image
-            src="/brand/marosko-share-logo.jpg"
+            src="/brand/marosko-share-logo.webp"
             alt="MAROSKO.SK"
             fill
             unoptimized

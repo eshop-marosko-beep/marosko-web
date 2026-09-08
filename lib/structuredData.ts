@@ -15,7 +15,7 @@ import {
   COMPANY_EMAIL,
 } from "@/lib/companyInfo";
 
-const LOGO_URL = `${SITE_URL}/brand/marian-logo.jpg`;
+const LOGO_URL = `${SITE_URL}/brand/marian-logo.webp`;
 
 const ADDRESS = {
   "@type": "PostalAddress",
@@ -117,7 +117,7 @@ function buildVideoObjectSchema(
     "@type": "VideoObject",
     name,
     description,
-    thumbnailUrl: [`${SITE_URL}/videos/${file}.jpg`],
+    thumbnailUrl: [`${SITE_URL}/videos/${file}.webp`],
     contentUrl: `${SITE_URL}/videos/${file}.mp4`,
     uploadDate: VIDEOS_UPLOAD_DATE,
     duration,
@@ -126,6 +126,21 @@ function buildVideoObjectSchema(
       name: "Marián s.r.o.",
       logo: { "@type": "ImageObject", url: LOGO_URL },
     },
+  };
+}
+
+export function buildFaqSchema(faqs: { question: string; answer: string }[]) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: faqs.map(({ question, answer }) => ({
+      "@type": "Question",
+      name: question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: answer,
+      },
+    })),
   };
 }
 

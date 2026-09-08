@@ -22,7 +22,7 @@ export async function generateMetadata({
     path: "/navody",
     title: t("title"),
     description: t("description"),
-    image: `/videos/${videos[0].file}.jpg`,
+    image: `/videos/${videos[0].file}.webp`,
   });
 }
 
@@ -70,7 +70,7 @@ export default async function VideosPage({
               className="relative block aspect-video bg-black group"
             >
               <Image
-                src={`/videos/${file}.jpg`}
+                src={`/videos/${file}.webp`}
                 alt={t(`items.${translationKey}.title`)}
                 fill
                 unoptimized

@@ -12,7 +12,7 @@ export const imagesByPath: Record<string, string[]> = {
   "/blog": blogPosts
     .filter((post) => post.image)
     .map(({ image }) => toAbsoluteImageUrl(image!)),
-  "/navody": videos.map(({ file }) => toAbsoluteImageUrl(`/videos/${file}.jpg`)),
+  "/navody": videos.map(({ file }) => toAbsoluteImageUrl(`/videos/${file}.webp`)),
   ...Object.fromEntries(
     galleryCategories.map(({ slug, images }) => [
       `/galeria/${slug}`,

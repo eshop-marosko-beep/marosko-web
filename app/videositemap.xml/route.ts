@@ -40,7 +40,7 @@ export async function GET() {
       const loc = `${SITE_URL}${getPathname({ locale, href: `/navody/${slug}` })}`;
       const videoTag =
         `<video:video>` +
-        `<video:thumbnail_loc>${escapeXml(`${SITE_URL}/videos/${file}.jpg`)}</video:thumbnail_loc>` +
+        `<video:thumbnail_loc>${escapeXml(`${SITE_URL}/videos/${file}.webp`)}</video:thumbnail_loc>` +
         `<video:title>${escapeXml(title)}</video:title>` +
         `<video:description>${escapeXml(description)}</video:description>` +
         `<video:content_loc>${escapeXml(`${SITE_URL}/videos/${file}.mp4`)}</video:content_loc>` +

@@ -30,7 +30,7 @@ export default function Nav() {
       <div className="container mx-auto flex justify-between items-center">
         <Link href="/" className="flex items-center hover:opacity-80 transition-opacity">
           <Image
-            src="/brand/marian-logo.jpg"
+            src="/brand/marian-logo.webp"
             alt="Marián s.r.o."
             width={220}
             height={70}

@@ -9,7 +9,7 @@ import ContactSection from "@/components/home/ContactSection";
 import StructuredData from "@/components/StructuredData";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/seo";
-import { buildOrganizationSchema, buildLocalBusinessSchema } from "@/lib/structuredData";
+import { buildOrganizationSchema, buildLocalBusinessSchema, buildFaqSchema } from "@/lib/structuredData";
 import { spotlightTabs } from "@/lib/spotlightData";
 import type { Metadata } from "next";
 
@@ -31,10 +31,20 @@ export default async function HomePage({
   const { locale } = await params;
   setRequestLocale(locale);
 
+  const tFaq = await getTranslations({ locale, namespace: "home.faq" });
+  const faqKeys = ["q1", "q2", "q3", "q4"] as const;
+  const faqSchema = buildFaqSchema(
+    faqKeys.map((key) => ({
+      question: tFaq(`${key}.question`),
+      answer: tFaq(`${key}.answer`),
+    }))
+  );
+
   return (
     <div className="divide-y divide-amber-100">
       <StructuredData data={buildOrganizationSchema()} />
       <StructuredData data={buildLocalBusinessSchema()} />
+      <StructuredData data={faqSchema} />
       <Hero />
       <StatsBar />
       <Categories />

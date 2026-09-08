@@ -27,7 +27,7 @@ export async function generateMetadata({
     path: `/navody/${video}`,
     title: t(`items.${found.translationKey}.title`),
     description: t(`items.${found.translationKey}.description`),
-    image: `/videos/${found.file}.jpg`,
+    image: `/videos/${found.file}.webp`,
   });
 }
 
@@ -67,7 +67,7 @@ export default async function VideoDetailPage({
           controls
           playsInline
           preload="metadata"
-          poster={`/videos/${found.file}.jpg`}
+          poster={`/videos/${found.file}.webp`}
           className="w-full aspect-video bg-black"
         >
           <source src={`/videos/${found.file}.mp4`} type="video/mp4" />

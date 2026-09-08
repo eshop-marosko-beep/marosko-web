@@ -23,7 +23,7 @@ export const categoryKeys: CategoryCard[] = [
     key: "drill",
     url: "https://eshop.marosko.sk/c/nastroje-do-vrtacky",
     roUrl: "https://eshop.marosko.sk/ro/c/accesorii-bormasini-sculptura",
-    image: "/kategorie/nastroje-do-vrtacky.png",
+    image: "/kategorie/nastroje-do-vrtacky.webp",
     slug: "nastroje-do-vrtacky",
   },
   {
@@ -38,7 +38,7 @@ export const categoryKeys: CategoryCard[] = [
     key: "miniMill",
     url: "https://eshop.marosko.sk/c/mini-kotuce-pre-mini-frezky-50",
     roUrl: "https://eshop.marosko.sk/ro/c/mini-discuri-50mm",
-    image: "/kategorie/nastroje-do-mini-frezky.jpg",
+    image: "/kategorie/nastroje-do-mini-frezky.webp",
     slug: "mini-kotuce-pre-mini-frezky-50",
   },
   {

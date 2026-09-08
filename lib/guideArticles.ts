@@ -13,12 +13,12 @@ export const guideArticles: GuideArticle[] = [
   {
     slug: "ako-vyrezat-sochu-motorovou-pilou",
     translationKey: "sochaMotorovouPilou",
-    image: "/gallery/frezovaci-kotuc-detail-rezbarska-praca.jpg",
+    image: "/gallery/frezovaci-kotuc-detail-rezbarska-praca.webp",
   },
   {
     slug: "kniha-rezba-motorovou-pilou",
     translationKey: "knihaRezbaMotorovouPilou",
-    image: "/brand/logos/andrejIrsa.jpg",
+    image: "/brand/logos/andrejIrsa.webp",
     imageIsCover: true,
     primaryCta: { href: "https://eshop.marosko.sk/p/800/rezba-motorovou-pilou-prirucka-pre-vytvarnikov?pp=c3e878e2" },
   },

@@ -53,7 +53,7 @@ export default async function BrandsPage({
         </div>
         <div className="relative h-40 w-40 shrink-0 mx-auto md:mx-0">
           <Image
-            src="/brand/marosko-share-logo.jpg"
+            src="/brand/marosko-share-logo.webp"
             alt="MAROSKO.SK"
             fill
             unoptimized
