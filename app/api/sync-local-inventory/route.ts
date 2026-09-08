@@ -53,6 +53,22 @@ function getBaseProductId(offerId: string) {
   return underscoreIndex === -1 ? offerId : offerId.slice(0, underscoreIndex);
 }
 
+const UUID_REGEX =
+  /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+
+function isLocalMerchantCenterId(baseId: string) {
+  return UUID_REGEX.test(baseId);
+}
+
+class FloxHttpError extends Error {
+  status: number;
+
+  constructor(status: number, message: string) {
+    super(message);
+    this.status = status;
+  }
+}
+
 async function getFloxAvailableQuantity(productId: string): Promise<number> {
   const res = await fetch(FLOX_GRAPHQL_URL, {
     method: "POST",
@@ -77,7 +93,10 @@ async function getFloxAvailableQuantity(productId: string): Promise<number> {
     const detail = json?.errors
       ? json.errors.map((e: { message: string }) => e.message).join("; ")
       : rawBody.slice(0, 500);
-    throw new Error(`Flox HTTP ${res.status} ${res.statusText}: ${detail}`);
+    throw new FloxHttpError(
+      res.status,
+      `Flox HTTP ${res.status} ${res.statusText}: ${detail}`
+    );
   }
 
   if (json?.errors) {
@@ -114,8 +133,26 @@ function chunk<T>(items: T[], size: number): T[][] {
   return chunks;
 }
 
-const FLOX_BATCH_SIZE = 15;
+const FLOX_BATCH_SIZE = 5;
 const FLOX_BATCH_DELAY_MS = 300;
+const FLOX_MAX_RETRIES = 3;
+const FLOX_RETRY_BASE_DELAY_MS = 500;
+
+async function getFloxAvailableQuantityWithRetry(
+  productId: string
+): Promise<number> {
+  for (let attempt = 0; ; attempt++) {
+    try {
+      return await getFloxAvailableQuantity(productId);
+    } catch (err) {
+      const isRateLimited = err instanceof FloxHttpError && err.status === 429;
+      if (!isRateLimited || attempt >= FLOX_MAX_RETRIES) {
+        throw err;
+      }
+      await sleep(FLOX_RETRY_BASE_DELAY_MS * 2 ** attempt);
+    }
+  }
+}
 
 async function getFloxAvailableQuantities(
   productIds: string[]
@@ -129,7 +166,7 @@ async function getFloxAvailableQuantities(
     const batchResults = await Promise.allSettled(
       batch.map(async (baseId) => ({
         baseId,
-        quantity: await getFloxAvailableQuantity(baseId),
+        quantity: await getFloxAvailableQuantityWithRetry(baseId),
       }))
     );
     results.push(...batchResults);
@@ -181,14 +218,24 @@ export async function GET() {
       .filter((id): id is string => Boolean(id));
 
     const baseIds = Array.from(new Set(offerIds.map(getBaseProductId)));
+    const floxBaseIds = baseIds.filter((id) => !isLocalMerchantCenterId(id));
+    const localBaseIds = baseIds.filter((id) => isLocalMerchantCenterId(id));
 
-    const quantityResults = await getFloxAvailableQuantities(baseIds);
+    const quantityResults = await getFloxAvailableQuantities(floxBaseIds);
 
     const quantityByBaseId = new Map<string, number>();
     const floxLookupFailures: Array<{ baseId: string; error: string }> = [];
 
+    for (const baseId of localBaseIds) {
+      floxLookupFailures.push({
+        baseId,
+        error:
+          "Lokálny Merchant Center produkt (UUID formát) nemá zodpovedajúci Flox produkt — preskočené",
+      });
+    }
+
     quantityResults.forEach((result, index) => {
-      const baseId = baseIds[index];
+      const baseId = floxBaseIds[index];
       if (result.status === "fulfilled") {
         quantityByBaseId.set(baseId, result.value.quantity);
       } else {
