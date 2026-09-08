@@ -202,6 +202,13 @@ export async function GET() {
       }
     });
 
+    if (floxLookupFailures.length > 0) {
+      console.error(
+        "sync-local-inventory floxLookupFailures sample:",
+        JSON.stringify(floxLookupFailures.slice(0, 5))
+      );
+    }
+
     const insertResults = await Promise.allSettled(
       offerIds.map(async (offerId) => {
         const baseId = getBaseProductId(offerId);
