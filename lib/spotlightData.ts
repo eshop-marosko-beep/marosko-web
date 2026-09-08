@@ -36,9 +36,9 @@ export const saburrtoothCtaUrl = "https://eshop.marosko.sk/b/Saburrtooth+USA";
 
 export const manpaProducts = [
   {
-    key: "p765",
-    src: "https://eshop.marosko.sk/resize/e/800/800/files/na-drevo/do-uhlovych-brusok/predlzovaci-rameno-/pasova-bruska/3-154.jpg",
-    productUrl: "https://eshop.marosko.sk/p/765/predlzovacie-rameno-s-pasovou-bruskou",
+    key: "p1029",
+    src: "https://eshop.marosko.sk/resize/e/800/800/files/manpa/master/2.jpg",
+    productUrl: "https://eshop.marosko.sk/p/1029/predlzovacie-rameno-s-predlzenim-frezovanie-manpa-multi-cutter-master",
   },
   {
     key: "p789",
@@ -127,18 +127,18 @@ export const kirjesCtaUrl = "https://eshop.marosko.sk/b/Kirjes";
 
 export const spotlightTabs = [
   {
-    id: "saburrtooth",
-    label: "Saburrtooth",
-    namespace: "home.saburrtooth",
-    ctaUrl: saburrtoothCtaUrl,
-    products: saburrtoothProducts,
-  },
-  {
     id: "manpa",
     label: "MANPA",
     namespace: "home.manpa",
     ctaUrl: manpaCtaUrl,
     products: manpaProducts,
+  },
+  {
+    id: "saburrtooth",
+    label: "Saburrtooth",
+    namespace: "home.saburrtooth",
+    ctaUrl: saburrtoothCtaUrl,
+    products: saburrtoothProducts,
   },
   {
     id: "arbortech",
