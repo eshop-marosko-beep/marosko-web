@@ -2624,21 +2624,21 @@
   },
   "shops": {
     "title": "Naše obchody",
-    "subtitle": "Tři e-shopy, jeden cíl – kvalitní řezbářské a dřevoobráběcí nářadí pro každého zákazníka.",
+    "subtitle": "Stejný osvědčený sortiment najdete na více místech – vyberte si, kde nakoupíte nejraději.",
     "primaryBadge": "Hlavní obchod",
     "marosko": {
       "name": "eshop.marosko.sk",
-      "description": "Náš hlavní a největší obchod, kde nakupuje nejvíce zákazníků. Najdete zde kompletní sortiment – řezbářské a dřevoobráběcí nářadí, frézovací kotouče, ruční i elektrické nářadí a veškeré příslušenství na jednom místě.",
+      "description": "Náš největší a nejoblíbenější obchod, kde najdete kompletní nabídku řezbářského a dřevoobráběcího nářadí na jednom místě.",
       "cta": "Přejít na eshop.marosko.sk"
     },
     "vercajch": {
       "name": "Vercajch.eu",
-      "description": "Projekt, který vznikl v roce 2011. Veškerá jeho práva jsme převzali v roce 2018 a od té doby je součástí naší rodiny obchodů.",
+      "description": "Další místo, kde nakoupíte stejné značky a nářadí – šikovná alternativa k našemu hlavnímu obchodu.",
       "cta": "Přejít na Vercajch.eu"
     },
     "rezbarskeNaradie": {
       "name": "RezbárskeNáradie.sk",
-      "description": "Náš nejnovější projekt, vytvořený pro jednodušší orientaci zákazníků. Zatímco eshop.marosko.sk je všeobecný obchod s nářadím, RezbárskeNáradie.sk se věnuje čistě řezbářskému nářadí – abyste ho snadněji našli a zapamatovali si adresu.",
+      "description": "Osvědčený výběr téhož kvalitního nářadí, přehledně zpracovaný pro rychlý a jednoduchý nákup.",
       "cta": "Přejít na RezbárskeNáradie.sk"
     }
   },
@@ -3048,7 +3048,7 @@
     },
     "shops": {
       "title": "Naše obchody | Marosko",
-      "description": "Přehled všech našich e-shopů – eshop.marosko.sk, Vercajch.eu a RezbárskeNáradie.sk. Vyberte si obchod, který vám vyhovuje nejvíce."
+      "description": "Přehled našich obchodů s řezbářským a dřevoobráběcím nářadím značek Arbortech, Manpa a Saburrtooth. Stejný osvědčený sortiment najdete na více místech – vyberte si obchod, který vám vyhovuje nejvíce."
     },
     "contact": {
       "title": "Kontakt | Marosko",

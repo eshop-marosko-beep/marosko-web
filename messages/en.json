@@ -2624,21 +2624,21 @@
   },
   "shops": {
     "title": "Our Shops",
-    "subtitle": "Three e-shops, one goal – quality woodcarving and woodworking tools for every customer.",
+    "subtitle": "The same trusted range is available in more than one place – pick whichever shop you prefer.",
     "primaryBadge": "Main shop",
     "marosko": {
       "name": "eshop.marosko.sk",
-      "description": "Our main and largest shop, where most of our customers order. You'll find our complete range here – woodcarving and woodworking tools, milling discs, hand and power tools, and all the accessories in one place.",
+      "description": "Our largest and most popular shop, with our complete range of woodcarving and woodworking tools all in one place.",
       "cta": "Go to eshop.marosko.sk"
     },
     "vercajch": {
       "name": "Vercajch.eu",
-      "description": "A project that started back in 2011. We took over all its rights in 2018, and it's been part of our family of shops ever since.",
+      "description": "Another place to shop the same brands and tools – a handy alternative to our main shop.",
       "cta": "Go to Vercajch.eu"
     },
     "rezbarskeNaradie": {
       "name": "RezbárskeNáradie.sk",
-      "description": "Our newest project, created to make it easier for customers to find their way around. While eshop.marosko.sk is a general tool shop, RezbárskeNáradie.sk focuses purely on woodcarving tools – so it's easier to find and easier to remember.",
+      "description": "A trusted selection of the same quality tools, laid out for a quick and simple purchase.",
       "cta": "Go to RezbárskeNáradie.sk"
     }
   },
@@ -3048,7 +3048,7 @@
     },
     "shops": {
       "title": "Our Shops | Marosko",
-      "description": "An overview of all our e-shops – eshop.marosko.sk, Vercajch.eu, and RezbárskeNáradie.sk. Pick whichever store suits you best."
+      "description": "An overview of our shops for woodcarving and woodworking tools from Arbortech, Manpa, and Saburrtooth. The same trusted range is available in more than one place – pick whichever store suits you best."
     },
     "contact": {
       "title": "Contact | Marosko",

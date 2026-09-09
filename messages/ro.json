@@ -2624,21 +2624,21 @@
   },
   "shops": {
     "title": "Magazinele noastre",
-    "subtitle": "Trei magazine online, un singur scop – unelte de calitate pentru cioplit și prelucrarea lemnului pentru fiecare client.",
+    "subtitle": "Aceeași gamă de încredere o găsiți în mai multe locuri – alegeți magazinul care vi se potrivește cel mai bine.",
     "primaryBadge": "Magazinul principal",
     "marosko": {
       "name": "eshop.marosko.sk",
-      "description": "Magazinul nostru principal și cel mai mare, unde comandă cei mai mulți clienți. Aici găsiți gama completă – unelte pentru cioplit și prelucrarea lemnului, discuri de frezat, unelte manuale și electrice, precum și toate accesoriile într-un singur loc.",
+      "description": "Magazinul nostru cel mai mare și mai popular, cu gama completă de unelte pentru cioplit și prelucrarea lemnului într-un singur loc.",
       "cta": "Mergeți la eshop.marosko.sk"
     },
     "vercajch": {
       "name": "Vercajch.eu",
-      "description": "Un proiect apărut încă din 2011. Am preluat toate drepturile sale în 2018 și de atunci face parte din familia noastră de magazine.",
+      "description": "Un alt loc de unde puteți cumpăra aceleași mărci și unelte – o alternativă practică la magazinul nostru principal.",
       "cta": "Mergeți la Vercajch.eu"
     },
     "rezbarskeNaradie": {
       "name": "RezbárskeNáradie.sk",
-      "description": "Cel mai nou proiect al nostru, creat pentru o orientare mai ușoară a clienților. În timp ce eshop.marosko.sk este un magazin general de unelte, RezbárskeNáradie.sk se ocupă exclusiv de uneltele pentru cioplit – astfel încât să le găsiți mai ușor și să vă amintiți mai ușor adresa.",
+      "description": "O selecție de încredere a acelorași unelte de calitate, prezentată clar pentru o cumpărare rapidă și simplă.",
       "cta": "Mergeți la RezbárskeNáradie.sk"
     }
   },
@@ -3048,7 +3048,7 @@
     },
     "shops": {
       "title": "Magazinele noastre | Marosko",
-      "description": "O prezentare a tuturor magazinelor noastre online – eshop.marosko.sk, Vercajch.eu și RezbárskeNáradie.sk."
+      "description": "O prezentare a magazinelor noastre cu unelte pentru cioplit și prelucrarea lemnului de la Arbortech, Manpa și Saburrtooth. Aceeași gamă de încredere o găsiți în mai multe locuri – alegeți magazinul care vi se potrivește cel mai bine."
     },
     "contact": {
       "title": "Contact | Marosko",
