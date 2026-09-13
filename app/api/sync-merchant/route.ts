@@ -3,10 +3,6 @@ import { JWT } from "google-auth-library";
 
 const MERCHANT_ACCOUNT_ID = "5365276597";
 
-const RESEND_API_KEY = process.env.RESEND_API_KEY;
-const NOTIFY_EMAIL_TO = process.env.NOTIFY_EMAIL_TO ?? "eshop.marosko@gmail.com";
-const NOTIFY_EMAIL_FROM = process.env.NOTIFY_EMAIL_FROM ?? "onboarding@resend.dev";
-
 function getAuthClient() {
   const raw = process.env.GOOGLE_SERVICE_ACCOUNT_KEY;
   if (!raw) {
@@ -64,42 +60,6 @@ export async function GET() {
 
     const report = await searchReport(authClient, query);
     const problematic = report.results ?? [];
-
-    if (problematic.length > 0 && RESEND_API_KEY) {
-      const rows = problematic
-        .slice(0, 50)
-        .map((r) => {
-          const pv = r.productView;
-          const issues =
-            pv?.itemIssues?.map((i) => i.description).join(", ") ?? "?";
-          return `<tr><td>${pv?.offerId ?? pv?.id ?? ""}</td><td>${
-            pv?.title ?? ""
-          }</td><td>${issues}</td></tr>`;
-        })
-        .join("");
-
-      const html = `
-        <h2>Merchant Center: ${problematic.length} produktov s problémom</h2>
-        <table border="1" cellpadding="6" cellspacing="0">
-          <tr><th>Offer ID</th><th>Názov</th><th>Problém</th></tr>
-          ${rows}
-        </table>
-      `;
-
-      await fetch("https://api.resend.com/emails", {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${RESEND_API_KEY}`,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          from: NOTIFY_EMAIL_FROM,
-          to: [NOTIFY_EMAIL_TO],
-          subject: `⚠️ Merchant Center: ${problematic.length} produktov s problémom`,
-          html,
-        }),
-      });
-    }
 
     return NextResponse.json({
       checkedAt: new Date().toISOString(),
