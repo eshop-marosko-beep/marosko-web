@@ -8,7 +8,8 @@
     "videos": "Ghiduri",
     "blog": "Blog",
     "shops": "Magazinele noastre",
-    "contact": "Contact"
+    "contact": "Contact",
+    "promotions": "Promoții"
   },
   "home": {
     "hero": {
@@ -3057,6 +3058,10 @@
     "gdpr": {
       "title": "Protecția datelor cu caracter personal | Marosko",
       "description": "Informații despre prelucrarea datelor cu caracter personal și utilizarea cookie-urilor pe site-ul Marián s.r.o."
+    },
+    "promotions": {
+      "title": "Promoții | Marosko",
+      "description": "Promoții curente și lichidări de stoc pe eshop.marosko.sk – oferte limitate, cât mai sunt stocuri."
     }
   },
   "cookies": {
@@ -3145,5 +3150,10 @@
     "companyHeading": "Companie",
     "brandsHeading": "Mărci",
     "socialHeading": "Rețele sociale"
+  },
+  "promotions": {
+    "title": "Promoții și lichidări de stoc",
+    "subtitle": "Oferte limitate și lichidări de stoc – nu rata ocazia.",
+    "empty": "Momentan nu avem nicio promoție activă. Reveniți mai târziu!"
   }
 }

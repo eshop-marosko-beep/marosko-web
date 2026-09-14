@@ -6,7 +6,7 @@ import { galleryCategories } from "@/lib/galleryData";
 import { kategorieArticles } from "@/lib/kategorieArticles";
 import { guideArticles } from "@/lib/guideArticles";
 
-const staticPaths = ["/", "/o-nas", "/kategorie", "/znacky", "/galeria", "/navody", "/blog", "/obchody", "/kontakt", "/gdpr"];
+const staticPaths = ["/", "/o-nas", "/kategorie", "/akcie", "/znacky", "/galeria", "/navody", "/blog", "/obchody", "/kontakt", "/gdpr"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const galleryCategoryPaths = galleryCategories.map(({ slug }) => `/galeria/${slug}`);

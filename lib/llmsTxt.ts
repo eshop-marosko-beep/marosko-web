@@ -45,6 +45,7 @@ const ESHOP_URL_BY_LOCALE: Record<LlmsLocale, string> = {
 const MAIN_PAGES: { navKey: keyof (typeof skMessages)["navigation"]; path: string }[] = [
   { navKey: "home", path: "/" },
   { navKey: "services", path: "/kategorie" },
+  { navKey: "promotions", path: "/akcie" },
   { navKey: "brands", path: "/znacky" },
   { navKey: "gallery", path: "/galeria" },
   { navKey: "videos", path: "/navody" },
