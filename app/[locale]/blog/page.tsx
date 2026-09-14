@@ -4,6 +4,7 @@ import { blogPosts } from "@/lib/blogData";
 import { buildMetadata } from "@/lib/seo";
 import { buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
+import { Link } from "@/navigation";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -39,7 +40,14 @@ export default async function BlogPage({
       <StructuredData data={breadcrumbSchema} />
       <h1 className="text-4xl font-bold text-espresso-800 mb-4">{t("title")}</h1>
       <p className="text-gray-600 text-lg mb-4 max-w-2xl">{t("subtitle")}</p>
-      <p className="text-gray-600 leading-relaxed mb-10 max-w-2xl">{t("intro")}</p>
+      <p className="text-gray-600 leading-relaxed mb-6 max-w-2xl">{t("intro")}</p>
+
+      <Link
+        href="/akcie"
+        className="block bg-amber-600 hover:bg-amber-700 transition-colors rounded-xl p-5 mb-10 text-white font-semibold"
+      >
+        {t("promotionsCta")} →
+      </Link>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
         {featured.map(({ slug, url, image, translationKey }) => (
