@@ -8,7 +8,8 @@
     "videos": "Guides",
     "blog": "Blog",
     "shops": "Our Shops",
-    "contact": "Contact"
+    "contact": "Contact",
+    "promotions": "Promotions"
   },
   "home": {
     "hero": {
@@ -3057,6 +3058,10 @@
     "gdpr": {
       "title": "Privacy Policy | Marosko",
       "description": "Information about personal data processing and cookie usage on the Marián s.r.o. website. Find out what data we process and how we protect your privacy."
+    },
+    "promotions": {
+      "title": "Promotions | Marosko",
+      "description": "Current promotions and clearance sales at eshop.marosko.sk – limited offers while stocks last."
     }
   },
   "cookies": {
@@ -3146,5 +3151,10 @@
     "companyHeading": "Company",
     "brandsHeading": "Brands",
     "socialHeading": "Social Media"
+  },
+  "promotions": {
+    "title": "Promotions & Clearance",
+    "subtitle": "Limited-time offers and clearance sales while stocks last.",
+    "empty": "There are no active promotions right now. Check back soon!"
   }
 }

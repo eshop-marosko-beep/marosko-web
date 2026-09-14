@@ -8,7 +8,8 @@
     "videos": "Návody",
     "blog": "Blog",
     "shops": "Naše obchody",
-    "contact": "Kontakt"
+    "contact": "Kontakt",
+    "promotions": "Akcie a výpredaje"
   },
   "home": {
     "hero": {
@@ -3057,6 +3058,10 @@
     "gdpr": {
       "title": "Ochrana osobných údajov | Marosko",
       "description": "Informácie o spracovaní osobných údajov a používaní cookies na webe Marián s.r.o. Zistite, aké údaje spracúvame a ako chránime vaše súkromie."
+    },
+    "promotions": {
+      "title": "Akcie a výpredaje | Marosko",
+      "description": "Aktuálne akcie a výpredaje skladových zásob na eshop.marosko.sk – limitovaná ponuka, kým vydrží zásoba."
     }
   },
   "cookies": {
@@ -3145,5 +3150,10 @@
     "companyHeading": "Firma",
     "brandsHeading": "Značky",
     "socialHeading": "Sociálne siete"
+  },
+  "promotions": {
+    "title": "Akcie a výpredaje",
+    "subtitle": "Limitované ponuky a výpredaj skladových zásob – oplatí sa nezaspať.",
+    "empty": "Momentálne nemáme žiadnu aktívnu akciu. Pozrite sa opäť neskôr!"
   }
 }
