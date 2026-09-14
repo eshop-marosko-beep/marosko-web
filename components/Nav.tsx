@@ -17,7 +17,6 @@ export default function Nav() {
     { href: "/", label: t("home") },
     { href: "/o-nas", label: t("about") },
     { href: "/kategorie", label: t("services") },
-    { href: "/akcie", label: t("promotions") },
     { href: "/znacky", label: t("brands") },
     { href: "/galeria", label: t("gallery") },
     { href: "/navody", label: t("videos") },
