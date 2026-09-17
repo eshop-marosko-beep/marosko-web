@@ -19,6 +19,7 @@ export async function generateMetadata({
     path: "/kategorie",
     title: t("title"),
     description: t("description"),
+    image: "/og/kategorie.jpg",
   });
 }
 
