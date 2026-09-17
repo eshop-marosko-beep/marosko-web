@@ -37,8 +37,8 @@ export async function GET() {
     const [shippingSettings, returnPolicies, productReviews, merchantReviews] = await Promise.all([
       tryGet(authClient, `https://merchantapi.googleapis.com/accounts/v1/accounts/${MERCHANT_ACCOUNT_ID}/shippingSettings`),
       tryGet(authClient, `https://merchantapi.googleapis.com/accounts/v1/accounts/${MERCHANT_ACCOUNT_ID}/onlineReturnPolicies`),
-      tryGet(authClient, `https://merchantapi.googleapis.com/reviews/v1beta/accounts/${MERCHANT_ACCOUNT_ID}/productReviews`),
-      tryGet(authClient, `https://merchantapi.googleapis.com/reviews/v1beta/accounts/${MERCHANT_ACCOUNT_ID}/merchantReviews`),
+      tryGet(authClient, `https://merchantapi.googleapis.com/reviews/v1/accounts/${MERCHANT_ACCOUNT_ID}/productReviews`),
+      tryGet(authClient, `https://merchantapi.googleapis.com/reviews/v1/accounts/${MERCHANT_ACCOUNT_ID}/merchantReviews`),
     ]);
 
     return NextResponse.json({
