@@ -21,6 +21,7 @@ export async function generateMetadata({
     path: "/o-nas",
     title: t("title"),
     description: t("description"),
+    image: "/og/o-nas.jpg",
   });
 }
 

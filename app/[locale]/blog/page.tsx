@@ -14,7 +14,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta.blog" });
-  return buildMetadata({ locale, path: "/blog", title: t("title"), description: t("description") });
+  return buildMetadata({
+    locale,
+    path: "/blog",
+    title: t("title"),
+    description: t("description"),
+    image: "/og/blog.jpg",
+  });
 }
 
 export default async function BlogPage({

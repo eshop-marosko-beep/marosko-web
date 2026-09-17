@@ -13,7 +13,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta.shops" });
-  return buildMetadata({ locale, path: "/obchody", title: t("title"), description: t("description") });
+  return buildMetadata({
+    locale,
+    path: "/obchody",
+    title: t("title"),
+    description: t("description"),
+    image: "/og/obchody.jpg",
+  });
 }
 
 export default async function ShopsPage({
