@@ -56,12 +56,10 @@ export default async function BlogPage({
       </Link>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
-        {featured.map(({ slug, url, image, translationKey }) => (
-          <a
+        {featured.map(({ slug, image, translationKey }) => (
+          <Link
             key={slug}
-            href={url}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={`/blog/${slug}`}
             className="group bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow flex flex-col"
           >
             <div className="relative h-48 bg-cream-100">
@@ -84,21 +82,19 @@ export default async function BlogPage({
                 {t("readMore")} →
               </span>
             </div>
-          </a>
+          </Link>
         ))}
       </div>
 
       <ul className="space-y-3">
-        {rest.map(({ slug, title, url }) => (
+        {rest.map(({ slug, title }) => (
           <li key={slug}>
-            <a
-              href={url}
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href={`/blog/${slug}`}
               className="block bg-white rounded-lg shadow p-4 text-espresso-800 font-semibold hover:text-amber-700 hover:shadow-md transition-all"
             >
               {title} →
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
