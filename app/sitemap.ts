@@ -5,6 +5,7 @@ import { routing } from "@/routing";
 import { galleryCategories } from "@/lib/galleryData";
 import { kategorieArticles } from "@/lib/kategorieArticles";
 import { guideArticles } from "@/lib/guideArticles";
+import { blogPosts } from "@/lib/blogData";
 
 const staticPaths = ["/", "/o-nas", "/kategorie", "/akcie", "/znacky", "/galeria", "/navody", "/blog", "/obchody", "/kontakt", "/gdpr"];
 
@@ -20,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       .map((sub) => `/kategorie/${slug}/${sub.slug}`)
   );
   const guideArticlePaths = guideArticles.map(({ slug }) => `/navody/clanky/${slug}`);
+  const blogPostPaths = blogPosts.map(({ slug }) => `/blog/${slug}`);
 
   const paths = [
     ...staticPaths,
@@ -28,6 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...kategorieDetailPaths,
     ...kategorieSubcategoryPaths,
     ...guideArticlePaths,
+    ...blogPostPaths,
   ];
 
   return routing.locales.flatMap((locale) =>

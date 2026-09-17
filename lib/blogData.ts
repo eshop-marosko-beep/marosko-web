@@ -7,6 +7,10 @@ export type BlogPost = {
   translationKey?: string;
 };
 
+export function getBlogPost(slug: string): BlogPost | undefined {
+  return blogPosts.find((post) => post.slug === slug);
+}
+
 export const blogPosts: BlogPost[] = [
   {
     slug: "stopkove-rasple-saburrtooth-usa-sprievodca",
