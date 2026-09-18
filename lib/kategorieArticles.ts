@@ -1867,6 +1867,8 @@ export const kategorieArticles: KategorieArticle[] = [
     slug: "stopkove-nastroje",
     translationKey: "stopkoveNastroje",
     eshopUrl: "https://eshop.marosko.sk/c/stopkove-nastroje",
+    image:
+      "https://eshop.marosko.sk/resize/e/1600/1600/files/stopkove-frezky/50mm/8025-2-hrcovnik-50-mm-titan-silverline.webp",
     subcategories: [],
   },
   {
