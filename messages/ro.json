@@ -11,6 +11,9 @@
     "contact": "Contact",
     "promotions": "Promoții"
   },
+  "common": {
+    "openImage": "Deschide imaginea la mărimea completă"
+  },
   "home": {
     "hero": {
       "title": "Unelte pe care te poți baza",
@@ -2623,7 +2626,7 @@
       }
     },
     "promotionsCta": "Vezi promoțiile și lichidările de stoc curente",
-    "openImage": "Deschide imaginea la mărimea completă"
+    "secondImageAlt": "{title} – detaliu produs"
   },
   "shops": {
     "title": "Magazinele noastre",

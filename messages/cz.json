@@ -11,6 +11,9 @@
     "contact": "Kontakt",
     "promotions": "Akce a výprodeje"
   },
+  "common": {
+    "openImage": "Otevřít obrázek v plné velikosti"
+  },
   "home": {
     "hero": {
       "title": "Nářadí, na které se můžete spolehnout",
@@ -2623,7 +2626,7 @@
       }
     },
     "promotionsCta": "Podívejte se na aktuální akce a výprodeje skladových zásob",
-    "openImage": "Otevřít obrázek v plné velikosti"
+    "secondImageAlt": "{title} – detail produktu"
   },
   "shops": {
     "title": "Naše obchody",

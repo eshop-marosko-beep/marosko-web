@@ -7,6 +7,7 @@ import { getKategorieSubcategory, kategorieArticles } from "@/lib/kategorieArtic
 import { buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
+import ZoomableImage from "@/components/ZoomableImage";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -56,6 +57,8 @@ export default async function KategorieSubcategoryDetailPage({
   const tParent = await getTranslations(`kategorieDetail.${article.translationKey}`);
   const tCommon = await getTranslations("kategorieSubcategoryDetail.common");
   const tNav = await getTranslations("navigation");
+  const tShared = await getTranslations("common");
+  const openImageLabel = tShared("openImage");
 
   const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
     { name: tNav("home"), path: "/" },
@@ -76,16 +79,13 @@ export default async function KategorieSubcategoryDetailPage({
       </Link>
       <h1 className="text-4xl font-bold text-espresso-800 mb-6">{t("title")}</h1>
       {sub.image && (
-        <div className="relative h-64 md:h-80 rounded-xl overflow-hidden mb-6 bg-cream-100">
-          <Image
-            src={sub.image}
-            alt={t("title")}
-            fill
-            unoptimized
-            className="object-contain p-6"
-            priority
-          />
-        </div>
+        <ZoomableImage
+          src={sub.image}
+          alt={t("title")}
+          openLabel={openImageLabel}
+          className="relative block h-64 md:h-80 rounded-xl overflow-hidden mb-6 bg-cream-100"
+          priority
+        />
       )}
       <div className="mb-6">
         <ShareButtons variant="compact" url={`/kategorie/${slug}/${subcategory}`} title={t("title")} />
