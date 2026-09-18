@@ -3,6 +3,10 @@ export type BlogPost = {
   title: string;
   url: string;
   image?: string;
+  /** A second product photo for the detail page (e.g. product alone vs. product in use),
+   * shown alongside `image` when present. Sourced from the product's own eshop.marosko.sk
+   * gallery, not just the news article. */
+  secondImage?: string;
   /** When set, the card's title/description are read from messages.blog.posts.<translationKey> instead of the static `title` above. */
   translationKey?: string;
 };
@@ -31,6 +35,7 @@ export const blogPosts: BlogPost[] = [
     title: "Manpa EZ Sander 65 mm – brúsny vejár",
     url: "https://eshop.marosko.sk/n/manpa-brusny-vejar-65mm-ez-sander-stopka",
     image: "https://eshop.marosko.sk/resize/k/465/310/files/manpa/brusny-vejar-65/insert-special-orig.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/manpa/brusny-vejar-65/ez-sander-65-feature-3-flexible-on-curved-surface-orig.jpg",
     translationKey: "manpaEzSander",
   },
   {
@@ -38,6 +43,7 @@ export const blogPosts: BlogPost[] = [
     title: "Výber dlát pre začiatočníkov (M-stein)",
     url: "https://eshop.marosko.sk/n/dlata-pre-zaciatocnika",
     image: "https://eshop.marosko.sk/resize/k/465/310/files/dlata-m-stein-/img-20210506-104954-01.jpeg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/dlata-m-stein-/kyjanicka80.jpg",
     translationKey: "dlataZaciatocnik",
   },
   {
@@ -52,6 +58,7 @@ export const blogPosts: BlogPost[] = [
     title: "Arbortech Mini Grinder MG1000 – akumulátorový set",
     url: "https://eshop.marosko.sk/n/arbortech-mini-grinder-mg1000-akumulatorovy-frezovaci-a-rezbarsky-set-rezbarska-sada",
     image: "https://eshop.marosko.sk/resize/k/465/310/files/na-drevo/arbortech/aku-mini-grinder-/mg-1000-aku-mini-grinder-.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-drevo/arbortech/aku-mini-grinder-/aku-mini-grinder-1000.jpeg",
     translationKey: "arbortechMiniGrinder",
   },
   {
@@ -59,6 +66,7 @@ export const blogPosts: BlogPost[] = [
     title: "Leštička 180 mm, 1200 W, Silverline",
     url: "https://eshop.marosko.sk/n/lesticka-180-mm-1200-w-silverline1",
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/elektricke-naradie/silverline/lesticka-1200w-180mm/264569-enwnmpro13.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/elektricke-naradie/silverline/lesticka-1200w-180mm/264569-lesticka.jpg",
     translationKey: "silverlineLesticka",
   },
   {
@@ -73,6 +81,7 @@ export const blogPosts: BlogPost[] = [
     title: "Arbortech Contour Random Sander",
     url: "https://eshop.marosko.sk/n/arbortech-contour-random-sander",
     image: "/blog/arbortech-contour-random-sander.webp",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-drevo/arbortech/contour-sander-sada/random-sander/arbortech-contour-sander-benefit-smooth-finish-1-jpg-728-480.jpg",
     translationKey: "arbortechContourSander",
   },
   {
@@ -80,6 +89,7 @@ export const blogPosts: BlogPost[] = [
     title: "Arbortech Turbo Scraper",
     url: "https://eshop.marosko.sk/n/arbortech-turbo-scraper",
     image: "/blog/arbortech-turbo-scraper.webp",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-drevo/arbortech/arbortech-skrabka/arbortech-turbo-scraper-complet.jpg",
     translationKey: "arbortechTurboScraper",
   },
   {
@@ -87,6 +97,7 @@ export const blogPosts: BlogPost[] = [
     title: "Arbortech SpheroPlane",
     url: "https://eshop.marosko.sk/n/arbortech-spheroplane",
     image: "/blog/arbortech-spheroplane.webp",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-drevo/arbortech/sphero-plane/arbortech-spheroplane-gallery-8.jpg",
     translationKey: "arbortechSpheroplane",
   },
   {
@@ -94,6 +105,7 @@ export const blogPosts: BlogPost[] = [
     title: "Arbortech Turbo Plane",
     url: "https://eshop.marosko.sk/n/arbortech-turbo-plane",
     image: "/blog/arbortech-turbo-plane.webp",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-drevo/do-uhlovych-brusok/hoblovacie/turbo-plane2019-12-12-11-49-47.jpg",
     translationKey: "arbortechTurboPlane",
   },
   {
@@ -101,6 +113,7 @@ export const blogPosts: BlogPost[] = [
     title: "Manpa 3-zubá frézka s trojuholníkovým profilom, Ø 100 mm",
     url: "https://eshop.marosko.sk/n/manpa-novinky-frezky-trojuholnikove",
     image: "/blog/manpa-3-zuba-frezka-trojuholnikova.webp",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/manpa/frezovacie-kotuce/trojzuby-frezovaci-kotuc/trojuholnikovy-tvar/4-triangle-cutter-featuer-1-orig.jpg",
     translationKey: "manpaTrojuholnikovaFrezka",
   },
   {
@@ -115,6 +128,7 @@ export const blogPosts: BlogPost[] = [
     title: "Hriadeľ do leštičky určený pre kotúč",
     url: "https://eshop.marosko.sk/n/hriadel-do-lesticky-urceny-pre-kotuc",
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/na-velke-projekty/hriadel-.2020-11-12-09-02-38.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-velke-projekty/hriadel.jpg",
     translationKey: "hriadelDoLestickyKotuc",
   },
   {
@@ -129,6 +143,7 @@ export const blogPosts: BlogPost[] = [
     title: "Hĺbiace zvonkové frézy",
     url: "https://eshop.marosko.sk/n/hlbiace-zvonkove-frezy",
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/manpa/zvonkove-/frezy-hlbiace.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/manpa/zvonkove-/zvonkova-freza-na-uhlovu-brusku-60-mm.jpg",
     translationKey: "hlbiaceZvonkoveFrezy",
   },
   {
@@ -136,6 +151,7 @@ export const blogPosts: BlogPost[] = [
     title: "Brúsny papier – výseky na mieru",
     url: "https://eshop.marosko.sk/n/brusny-papier-vyseky-na-mieru",
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/brusne-vyseky/brusny-papier-300mm/bruska-300mm.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/brusne-vyseky/brusny-papier-300mm/b3fc49f2-1fce-4a2a-9dae-a50059baab63.jpeg",
     translationKey: "brusnyPapierVysekyNaMieru",
   },
   {
@@ -164,6 +180,7 @@ export const blogPosts: BlogPost[] = [
     title: "Kotúčová sekaná rašpľa pre Arbortech Mini Grinder a Merlin, 50 mm",
     url: "https://eshop.marosko.sk/n/kotucova-sekana-raspla-pre-arbortech-okruhla-mini-grinder-a-merlin-50-mm",
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/na-drevo/do-uhlovych-brusok/brusne/rucne-sekane-rasple/rucne-sekane-rasple/036.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-drevo/do-uhlovych-brusok/brusne/rucne-sekane-rasple/rucne-sekane-rasple/036-rasplovy-sekany-kotucik-50mm.jpg",
     translationKey: "kotucovaSekanaRaspla",
   },
   {
@@ -178,6 +195,7 @@ export const blogPosts: BlogPost[] = [
     title: "Predlžovacie rameno s viacúčelovým nadstavcom",
     url: "https://eshop.marosko.sk/n/predlzovacie-rameno-s-viacucelovym-nadstavcom",
     image: "https://eshop.marosko.sk/resize/e/1098/1098/files/manpa/basic-kit/balenie-multi-basic.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/manpa/basic-kit/multi-cutter-s-malym-nastavcom.jpg",
     translationKey: "predlzovacieRamenoMulticutter",
   },
   {
@@ -185,6 +203,7 @@ export const blogPosts: BlogPost[] = [
     title: "Arbortech Mini Carver 1000W – elektrická frézka",
     url: "https://eshop.marosko.sk/n/novinka-od-spolocnosti-arbortech",
     image: "https://eshop.marosko.sk/resize/k/465/310/files/elektricke-naradie/arbortech-novinka/mini-carver/mini-carver-nova-1000w.png",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/elektricke-naradie/arbortech-novinka/mini-carver/arbortech-mini-carver-900-black-benefit-fine-wood-shaping-jpg-728-480.jpg",
     translationKey: "arbortechMiniCarver",
   },
   {
@@ -192,6 +211,7 @@ export const blogPosts: BlogPost[] = [
     title: "Rustikálny efekt dreva (kartáčovačka)",
     url: "https://eshop.marosko.sk/n/rustikalny-efekt-dreva",
     image: "https://eshop.marosko.sk/resize/e/1098/1098/files/na-drevo/kartacovacie-/ocelove-draty-na-hriadely.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-drevo/kartacovacie-/rustikalne-prvky-na-drevo.jpg",
     translationKey: "rustikalnyEfektDreva",
   },
   {
@@ -199,6 +219,7 @@ export const blogPosts: BlogPost[] = [
     title: "Priama brúska 500 W (Extol)",
     url: "https://eshop.marosko.sk/n/priama-bruska-500w",
     image: "https://eshop.marosko.sk/resize/e/1098/1098/files/elektricke-naradie/priama-bruska-extol.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/elektricke-naradie/priama-bruska-6mm-detail.jpg",
     translationKey: "priamaBruska500w",
   },
   {
@@ -206,6 +227,7 @@ export const blogPosts: BlogPost[] = [
     title: "Suchý zips – podklad pre šmirgle na mieru",
     url: "https://eshop.marosko.sk/n/suchy-zips-na-mieru",
     image: "https://eshop.marosko.sk/resize/k/465/310/files/brusne-vyseky/samolepiace-podlozky/-vyr-podlozka-suchy-zip.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/brusne-vyseky/samolepiace-podlozky/img-20210924-120931-03.jpeg",
     translationKey: "suchyZips",
   },
   {
@@ -213,6 +235,7 @@ export const blogPosts: BlogPost[] = [
     title: "Predĺženie hriadeľa na uhlovej brúske, M14 – M14",
     url: "https://eshop.marosko.sk/n/predlzenie-hriadela-na-uhlovej-bruske-m-14-m-14",
     image: "https://eshop.marosko.sk/resize/e/1098/1098/files/vymenne-pridavne-nahradne-diely/predlzovaci-nadstavec2019-01-09-14-17-18.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/prechodky/m14-m14-dlhe-.jpg",
     translationKey: "predlzenieHriadelaM14",
   },
   {
@@ -220,6 +243,7 @@ export const blogPosts: BlogPost[] = [
     title: "Redukcia M14 na 6 mm (priechodka)",
     url: "https://eshop.marosko.sk/n/redukcia-m146mm",
     image: "https://eshop.marosko.sk/resize/e/1098/1098/files/vymenne-pridavne-nahradne-diely/redukcna-prechodka.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/prechodky/redukcna-stopka-do-brusky-.jpg",
     translationKey: "redukciaM146mm",
   },
   {
@@ -227,6 +251,7 @@ export const blogPosts: BlogPost[] = [
     title: "Diamantový brúsny kotúč drážkový, drsnosť 126/39",
     url: "https://eshop.marosko.sk/n/diamantovy-brusny-kotuc-drazkovy-drsnost-12639",
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/na-kov/brusne-diamantove-kotuce-diclear/diamantovy-kotuc-ostriaci-do-uhlovej-brusky-univerzalny.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-drevo/brusne/diamantovy-kotuc-pohlad.jpg",
     translationKey: "diamantovyKotucDrazkovy",
   },
   {
@@ -241,6 +266,7 @@ export const blogPosts: BlogPost[] = [
     title: "Mini rašpľa sekaná",
     url: "https://eshop.marosko.sk/n/mini-raspla-sekana",
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/mini-raspla.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-drevo/do-uhlovych-brusok/brusne/rasple/raspla-mini-grinder.jpg",
     translationKey: "miniRasplaSekana",
   },
   {
@@ -248,6 +274,7 @@ export const blogPosts: BlogPost[] = [
     title: "Ihličková rašpľa šikmá, oblá, bez otvorov, priemer 100 mm, drsná",
     url: "https://eshop.marosko.sk/n/ihlickova-raspla-sikma-obla-bez-otvorov-o-100mm-drsna",
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/na-drevo/do-uhlovych-brusok/brusne/rasple/ihlickova-raspla-drsna-100mm.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-drevo/do-uhlovych-brusok/brusne/rasple/sa100detailb.jpg",
     translationKey: "ihlickovaSikmaDrsna",
   },
   {
@@ -269,6 +296,7 @@ export const blogPosts: BlogPost[] = [
     title: "Ihličková rašpľa šikmá, oblá, bez otvorov, priemer 100 mm, extra hrubá",
     url: "https://eshop.marosko.sk/n/ihlickova-raspla-sikma-obla-bez-otvorov-o-100mm-extra-hruba",
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/rasple-sabur-usa/ihlickova-raspla-sikma-obla-bez-otvorov-100mm.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/rasple-sabur-usa/ihlickova-sikma-100-jemna.jpg",
     translationKey: "ihlickovaSikmaExtraHruba",
   },
   {
@@ -276,6 +304,7 @@ export const blogPosts: BlogPost[] = [
     title: "Ihličková rašpľa oblá, bez otvorov, priemer 100 mm, jemná",
     url: "https://eshop.marosko.sk/n/ihlickova-raspla-gulata-bez-otvorov-pr100mm-jemna",
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/rasple-sabur-usa/ihlickova-raspla-jemna-100mm-bez-otvorov.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/rasple-sabur-usa/ihlickova-raspla-plna-gulata-hruba.jpg",
     translationKey: "ihlickovaGulataJemna",
   },
   {
@@ -283,6 +312,7 @@ export const blogPosts: BlogPost[] = [
     title: "Rašpľa zapustená, jemná, 115 mm, rovná (KZR-53)",
     url: "https://eshop.marosko.sk/n/raspla-zapustena-jemna-115mm-rovna-kzr-53",
     image: "https://eshop.marosko.sk/resize/e/1098/1098/files/na-drevo/do-uhlovych-brusok/brusne/rasple/tarpol/tarpol.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-drevo/do-uhlovych-brusok/brusne/rasple/raspla-plocha/raspl-plocha.jpg",
     translationKey: "rasplaZapustenaJemna115mm",
   },
   {
@@ -290,6 +320,7 @@ export const blogPosts: BlogPost[] = [
     title: "Rašpľa valcová 120 × 20 × 222 mm, KVO 122",
     url: "https://eshop.marosko.sk/n/raspla-valcova-120-20-x-222mm-kvo-122",
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/na-drevo/do-uhlovych-brusok/brusne/rasple/%28kvo-122%29-raspla.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-drevo/do-uhlovych-brusok/brusne/rasple/raspla-%28kvo-122%29.jpg",
     translationKey: "rasplaValcovaKvo122",
   },
   {
@@ -297,6 +328,7 @@ export const blogPosts: BlogPost[] = [
     title: "Rašpľový pílový kotúč 125 mm, zapustený",
     url: "https://eshop.marosko.sk/n/rasplovy-pilovy-kotuc-125-zapusteny",
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/na-drevo/do-uhlovych-brusok/brusne/rasple/rasplovy-pilovy-kotuc---125-zapusteny.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-drevo/do-uhlovych-brusok/brusne/rasple/rasplovy-pilovy-kotuc---125-zapusteny2018-10-22-11-39-49.jpg",
     translationKey: "rasplovyPilovyKotuc125",
   },
   {
@@ -304,6 +336,7 @@ export const blogPosts: BlogPost[] = [
     title: "Náhradný výmenný nôž Ball Gouge",
     url: "https://eshop.marosko.sk/n/nahradny-vymenny-noz-ball-gouge",
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/vymenne-pridavne-nahradne-diely/nahradny-noz-ball-gouge.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-drevo/arbortech/ball-gouge/lama-inelara-arbortech.webp",
     translationKey: "nahradnyNozBallGouge",
   },
   {
@@ -325,6 +358,7 @@ export const blogPosts: BlogPost[] = [
     title: "Rašpľový kotúč sekaný, ostrým okrajom, 125 mm, véčko",
     url: "https://eshop.marosko.sk/n/rasplovy-kotuc-sekany-ostrim-okrajom-125-mm-vecko",
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/na-drevo/do-uhlovych-brusok/brusne/rucne-sekane-rasple/rucne-sekane-rasple/kotucova-raspla125mm01.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-drevo/do-uhlovych-brusok/brusne/rucne-sekane-rasple/rucne-sekane-rasple/sekana-raspla-ostra-vecko-125mm.jpg",
     translationKey: "rasplovyKotucVecko",
   },
   {
@@ -332,6 +366,7 @@ export const blogPosts: BlogPost[] = [
     title: "Frézovacia stopka Turboshaft",
     url: "https://eshop.marosko.sk/n/frezovacia-stopka-turboshaft",
     image: "https://eshop.marosko.sk/resize/e/1098/1098/files/na-drevo/arbortech/-vyrp12-363turboshaft-na-flexe-web.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/na-drevo/arbortech/arbortech-turbo-shaft/arbortech-turbo-shaft-benefit-free-hand-wood-carving-jpg-728-480.jpg",
     translationKey: "frezovaciaStopkaTurboshaft",
   },
   {
@@ -346,6 +381,7 @@ export const blogPosts: BlogPost[] = [
     title: "Ihličková rašpľa oblá, bez otvoru, priemer 100 mm, drsná",
     url: "https://eshop.marosko.sk/n/ihlickova-raspla-gulata-bez-otvoru-pr100mm-drsna",
     image: "https://eshop.marosko.sk/resize/e/1200/630/files/rasple-sabur-usa/ihlickova-raspla-plna-gulata-hruba.jpg",
+    secondImage: "https://eshop.marosko.sk/resize/e/1200/1200/files/rasple-sabur-usa/detail.jpg",
     translationKey: "ihlickovaGulataDrsna",
   },
 ];

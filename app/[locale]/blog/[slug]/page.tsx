@@ -66,8 +66,15 @@ export default async function BlogPostPage({
       <h1 className="text-4xl font-bold text-espresso-800 mb-6">{title}</h1>
 
       {post.image && (
-        <div className="relative h-64 md:h-80 rounded-xl overflow-hidden mb-6 bg-cream-100">
-          <Image src={post.image} alt={title} fill unoptimized className="object-contain p-6" priority />
+        <div className={post.secondImage ? "grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6" : "mb-6"}>
+          <div className="relative h-64 md:h-80 rounded-xl overflow-hidden bg-cream-100">
+            <Image src={post.image} alt={title} fill unoptimized className="object-contain p-6" priority />
+          </div>
+          {post.secondImage && (
+            <div className="relative h-64 md:h-80 rounded-xl overflow-hidden bg-cream-100">
+              <Image src={post.secondImage} alt={title} fill unoptimized className="object-contain p-6" />
+            </div>
+          )}
         </div>
       )}
 
