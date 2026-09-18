@@ -8,6 +8,7 @@ import { getGalleryCategory } from "@/lib/galleryData";
 import { buildBreadcrumbListSchema, buildItemListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
+import ZoomableImage from "@/components/ZoomableImage";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -48,6 +49,8 @@ export default async function KategorieDetailPage({
   const tServices = await getTranslations("services");
   const tNav = await getTranslations("navigation");
   const tCommon = await getTranslations("kategorieSubcategoryDetail.common");
+  const tShared = await getTranslations("common");
+  const openImageLabel = tShared("openImage");
 
   const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
     { name: tNav("home"), path: "/" },
@@ -72,16 +75,13 @@ export default async function KategorieDetailPage({
 
       <h1 className="text-4xl font-bold text-espresso-800 mb-6">{t("title")}</h1>
       {article.image && (
-        <div className="relative h-64 md:h-80 rounded-xl overflow-hidden mb-6 bg-cream-100">
-          <Image
-            src={article.image}
-            alt={t("title")}
-            fill
-            unoptimized
-            className="object-contain p-6"
-            priority
-          />
-        </div>
+        <ZoomableImage
+          src={article.image}
+          alt={t("title")}
+          openLabel={openImageLabel}
+          className="relative block h-64 md:h-80 rounded-xl overflow-hidden mb-6 bg-cream-100"
+          priority
+        />
       )}
       <div className="mb-6">
         <ShareButtons variant="compact" url={`/kategorie/${slug}`} title={t("title")} />
@@ -130,15 +130,13 @@ export default async function KategorieDetailPage({
                 className="bg-white rounded-xl shadow-lg p-6 sm:flex sm:gap-6 scroll-mt-24"
               >
                 {image && (
-                  <div className="relative h-40 sm:h-32 sm:w-32 shrink-0 rounded-lg overflow-hidden mb-4 sm:mb-0 bg-cream-100">
-                    <Image
-                      src={image}
-                      alt={t(`subcategories.${translationKey}.name`)}
-                      fill
-                      unoptimized
-                      className="object-contain p-2"
-                    />
-                  </div>
+                  <ZoomableImage
+                    src={image}
+                    alt={t(`subcategories.${translationKey}.name`)}
+                    openLabel={openImageLabel}
+                    className="relative block h-40 sm:h-32 sm:w-32 shrink-0 rounded-lg overflow-hidden mb-4 sm:mb-0 bg-cream-100"
+                    imageClassName="object-contain p-2"
+                  />
                 )}
                 <div className="min-w-0">
                   <h3 className="text-lg font-bold text-espresso-800 mb-2">

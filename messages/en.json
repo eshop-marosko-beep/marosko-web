@@ -11,6 +11,9 @@
     "contact": "Contact",
     "promotions": "Promotions"
   },
+  "common": {
+    "openImage": "Open image in full size"
+  },
   "home": {
     "hero": {
       "title": "Tools you can rely on",
@@ -2623,7 +2626,7 @@
       }
     },
     "promotionsCta": "Check out our current promotions and clearance sales",
-    "openImage": "Open image in full size"
+    "secondImageAlt": "{title} – product detail"
   },
   "shops": {
     "title": "Our Shops",
