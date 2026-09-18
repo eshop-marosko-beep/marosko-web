@@ -15,7 +15,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta.brands" });
-  return buildMetadata({ locale, path: "/znacky", title: t("title"), description: t("description") });
+  return buildMetadata({
+    locale,
+    path: "/znacky",
+    title: t("title"),
+    description: t("description"),
+    image: "/og/znacky.jpg",
+  });
 }
 
 export default async function BrandsPage({

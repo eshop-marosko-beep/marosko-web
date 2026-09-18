@@ -13,7 +13,13 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "meta.contact" });
-  return buildMetadata({ locale, path: "/kontakt", title: t("title"), description: t("description") });
+  return buildMetadata({
+    locale,
+    path: "/kontakt",
+    title: t("title"),
+    description: t("description"),
+    image: "/og/kontakt.jpg",
+  });
 }
 
 export default async function ContactPage({
