@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useEffect, useState, type FormEvent } from "react";
 import { useLocale, useTranslations } from "next-intl";
 
 type ChatMessage = {
@@ -9,7 +9,9 @@ type ChatMessage = {
 };
 
 const SESSION_STORAGE_KEY = "marosko_chat_session_id";
+const TRANSCRIPT_STORAGE_KEY = "marosko_chat_messages";
 const MAX_MESSAGE_LENGTH = 2000;
+const MAX_STORED_MESSAGES = 40;
 
 function getSessionId(): string {
   const existing = window.localStorage.getItem(SESSION_STORAGE_KEY);
@@ -17,6 +19,21 @@ function getSessionId(): string {
   const id = `session_${Date.now()}_${Math.random().toString(36).slice(2, 11)}`;
   window.localStorage.setItem(SESSION_STORAGE_KEY, id);
   return id;
+}
+
+/** Reads a previously saved transcript for this tab, if any. sessionStorage
+ * (not localStorage) on purpose: it survives page navigation and reloads
+ * within the same tab — which is what was missing — but doesn't resurrect a
+ * days-old conversation when the visitor returns in a new tab/session. */
+function loadStoredMessages(): ChatMessage[] | null {
+  try {
+    const raw = window.sessionStorage.getItem(TRANSCRIPT_STORAGE_KEY);
+    if (!raw) return null;
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) && parsed.length > 0 ? parsed : null;
+  } catch {
+    return null;
+  }
 }
 
 /** Renders **bold** text and bare URLs as safe React elements — no raw HTML injection. */
@@ -67,6 +84,32 @@ export default function ChatWidget() {
   ]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
+  const [hydrated, setHydrated] = useState(false);
+
+  // Restore this tab's transcript (if any) once, after mount — kept out of
+  // the initial useState so server-rendered and first-client-render HTML
+  // stay identical (no SSR/sessionStorage hydration mismatch).
+  useEffect(() => {
+    const stored = loadStoredMessages();
+    if (stored) setMessages(stored);
+    setHydrated(true);
+  }, []);
+
+  // Persist on every change, once the restore above has had its chance to
+  // run first — otherwise the initial greeting-only state would overwrite a
+  // real saved conversation before it's loaded.
+  useEffect(() => {
+    if (!hydrated) return;
+    try {
+      window.sessionStorage.setItem(
+        TRANSCRIPT_STORAGE_KEY,
+        JSON.stringify(messages.slice(-MAX_STORED_MESSAGES))
+      );
+    } catch {
+      // Private browsing / storage full / blocked — the chat still works,
+      // it just won't survive a page navigation this time.
+    }
+  }, [messages, hydrated]);
 
   const sendMessage = async (e: FormEvent) => {
     e.preventDefault();
