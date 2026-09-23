@@ -1,6 +1,12 @@
 const CHAT_BACKEND_URL = process.env.CHAT_BACKEND_URL ?? "https://mari-n-chatbot.onrender.com";
 const MAX_MESSAGE_LENGTH = 2000;
 
+// Without this, Vercel's own default function duration (as low as 10s on
+// some plans) could kill this route before our 45s AbortSignal below ever
+// gets a chance to return a clean "backend unavailable" response — the
+// visitor would see a raw connection failure instead of our error message.
+export const maxDuration = 45;
+
 // Kept in sync with messages/*.json's `chat` namespace. The frontend
 // interpolates this string as-is into its own localized error template
 // (see ChatWidget's t("errorGeneric", { error })), so it must already be in
