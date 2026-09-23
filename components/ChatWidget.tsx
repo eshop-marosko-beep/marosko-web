@@ -22,7 +22,7 @@ function getSessionId(): string {
 /** Renders **bold** text and bare URLs as safe React elements — no raw HTML injection. */
 function formatBotMessage(text: string): React.ReactNode[] {
   const nodes: React.ReactNode[] = [];
-  const regex = /(\*\*[^*]+\*\*)|(https?:\/\/[^\s<>)]+)/g;
+  const regex = /(\*\*[^*]+\*\*)|(https?:\/\/[^\s<>)"'”’]+)/g;
   let lastIndex = 0;
   let key = 0;
 
@@ -39,7 +39,7 @@ function formatBotMessage(text: string): React.ReactNode[] {
     if (match[1]) {
       nodes.push(<strong key={`b-${key++}`}>{match[1].slice(2, -2)}</strong>);
     } else if (match[2]) {
-      const cleanUrl = match[2].replace(/[)]+$/, "");
+      const cleanUrl = match[2].replace(/[)\]}.,;:!?]+$/, "");
       nodes.push(
         <a
           key={`a-${key++}`}
