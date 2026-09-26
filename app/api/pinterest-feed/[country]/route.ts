@@ -162,6 +162,15 @@ function toPinterestItem({ fields, extraImages }: ParsedItem, currency: string):
     condition: (fields.condition ?? "new").toLowerCase(),
     description: (fields.description ? stripHtml(fields.description) : "").slice(0, 10000) || title,
   };
+  // BiznisWeb double-escapes the category separator ("&amp;gt;"), so Pinterest would see a literal
+  // "&gt;" and could not split the category path into levels for product groups.
+  if (fields.product_type) {
+    item.product_type = decodeEntities(fields.product_type)
+      .split(">")
+      .map((level) => level.replace(/\s+/g, " ").trim())
+      .filter(Boolean)
+      .join(" > ");
+  }
   const salePrice = normalizePrice(fields.sale_price, currency);
   if (salePrice) item.sale_price = salePrice;
   else delete item.sale_price;
