@@ -181,6 +181,28 @@ function toPinterestItem({ fields, extraImages }: ParsedItem, currency: string):
   };
 }
 
+/** The CZ export leaves google_product_category empty (or as Czech text) for most
+ * products, which Pinterest flags as limiting visibility. Product ids are shared
+ * across the language versions, so borrow the numeric category from the SK feed. */
+async function fillCategoriesFromSk(country: string, items: ParsedItem[]): Promise<void> {
+  const skUrl = process.env[COUNTRIES.sk.envVar];
+  if (country === "sk" || !skUrl) return;
+  if (items.every(({ fields }) => /^\d+$/.test(fields.google_product_category ?? ""))) return;
+
+  const sk = await fetch(skUrl, { cache: "no-store" }).catch(() => undefined);
+  if (!sk?.ok) return;
+  const skCategories = new Map(
+    parseFeed(await sk.text())
+      .filter(({ fields }) => fields.id && /^\d+$/.test(fields.google_product_category ?? ""))
+      .map(({ fields }) => [fields.id, fields.google_product_category]),
+  );
+  for (const { fields } of items) {
+    if (/^\d+$/.test(fields.google_product_category ?? "")) continue;
+    const category = skCategories.get(fields.id);
+    if (category) fields.google_product_category = category;
+  }
+}
+
 export async function GET(request: NextRequest, { params }: { params: Promise<{ country: string }> }) {
   const { country } = await params;
   const config = COUNTRIES[country.toLowerCase()];
@@ -197,6 +219,7 @@ export async function GET(request: NextRequest, { params }: { params: Promise<{ 
     return new Response(`Zdrojový feed vrátil HTTP ${source.status}`, { status: 502 });
   }
   const parsed = parseFeed(await source.text());
+  await fillCategoriesFromSk(country.toLowerCase(), parsed);
 
   const problems: string[] = [];
   const seen = new Set<string>();
