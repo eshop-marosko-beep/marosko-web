@@ -14,7 +14,7 @@ export const promos: Promo[] = [
   {
     slug: "manpa-multi-cutter-master",
     image: "/promos/manpa-multi-cutter-master.png",
-    alt: "MANPA Multi Cutter Master – výpredaj zásob, 400 € teraz za 340 €",
+    alt: "MANPA Multi Cutter Master – výpredaj zásob, 413 € teraz za 369 €",
     productUrl:
       "https://eshop.marosko.sk/p/1029/predlzovacie-rameno-s-predlzenim-frezovanie-manpa-multi-cutter-master",
   },
