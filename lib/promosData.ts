@@ -9,7 +9,15 @@ export type Promo = {
 
 /** Active promotions/clearance banners shown on /akcie. Add an entry here
  * (and its banner image under public/promos) to publish a new one; remove
- * it once the promotion ends. */
+ * it once the promotion ends.
+ *
+ * If a product's price changes but the promo itself is still running,
+ * don't hand-edit the banner PNG — the price text was pulled back out of
+ * the image into `scripts/update-promo-banner-price.mjs`, e.g.:
+ *   node scripts/update-promo-banner-price.mjs \
+ *     --file public/promos/manpa-multi-cutter-master.png \
+ *     --original 413 --sale 369
+ * and update `alt` below to match. */
 export const promos: Promo[] = [
   {
     slug: "manpa-multi-cutter-master",
