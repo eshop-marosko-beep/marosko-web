@@ -2768,7 +2768,7 @@
         },
         "noze": {
           "title": "Cuțite de sculptură | Marosko",
-          "description": "Cuțite de sculptură ascuțite pentru lucrul de precizie cu lemnul, inclusiv cuțitul Stubai. Potrivite pentru sculptură de detaliu și modelarea formelor mici din lemn."
+          "description": "Cuțite de sculptură ascuțite pentru lucrul de precizie cu lemnul, inclusiv cuțitul Stubai. Potrivite pentru detalii și forme mici din lemn."
         },
         "rydla": {
           "title": "Dăltițe pentru linogravură și gravură în lemn | Marosko",
@@ -2798,7 +2798,7 @@
         },
         "vosky": {
           "title": "Ceruri și finisaje pe bază de ulei | Marosko",
-          "description": "Ceară KIRJES, ceară de albine sub formă de pastă și ulei de terebentină pentru tratarea lemnului. Protejează suprafața și pun în evidență textura naturală a lemnului."
+          "description": "Ceară KIRJES, ceară de albine sub formă de pastă și ulei de terebentină pentru tratarea lemnului. Protejează suprafața și scot în evidență textura lemnului."
         },
         "zivice": {
           "title": "Rășini și chituri | Marosko",
@@ -2836,11 +2836,11 @@
       "carvingoveListy": {
         "vodiaceListy": {
           "title": "Lame de ghidaj pentru carving | Marosko",
-          "description": "Lame de ghidaj Oregon Sculptor și Makita, precum și un set de service OREGON pentru motoferăstraie. Potrivite atât pentru sculptură, cât și pentru uz forestier obișnuit."
+          "description": "Lame de ghidaj Oregon Sculptor și Makita, plus un set de service OREGON pentru motoferăstraie — pentru sculptură și uz forestier obișnuit."
         },
         "retaze": {
           "title": "Lanțuri modificate pentru chirurgia arborilor | Marosko",
-          "description": "Lanțuri Oregon/Dolmar cu diferit număr de zale, pentru lame de carving și sculptură de formă. Diverse variante pentru un control precis al tăierii în lucrul de sculptură."
+          "description": "Lanțuri Oregon/Dolmar cu diferit număr de zale, pentru lame de carving și sculptură. Variante pentru un control precis al tăierii."
         }
       },
       "vzduchoveNaradie": {
@@ -2860,7 +2860,7 @@
         },
         "strednePriemery": {
           "title": "Discuri medii Ø 180 – 300 mm | Marosko",
-          "description": "Hârtie abrazivă cu velcro pentru polizoare rotunde și excentrice, în granulații de la D40 la D120. Pentru degroșare și șlefuire fină de finisare a suprafețelor din lemn."
+          "description": "Hârtie abrazivă cu velcro pentru polizoare rotunde și excentrice, granulații D40–D120. Pentru degroșare și șlefuire fină a suprafețelor din lemn."
         },
         "velkePriemery": {
           "title": "Discuri mari Ø 370 – 600 mm | Marosko",
@@ -2898,7 +2898,7 @@
         },
         "silverline": {
           "title": "Unelte Silverline | Marosko",
-          "description": "Polizor-lustruitor 1200 W, polizor drept 135 W și suport telescopic Silverline. Scule accesibile ca preț, potrivite atât pentru amatori, cât și pentru profesioniști."
+          "description": "Polizor-lustruitor 1200 W, polizor drept 135 W și suport telescopic Silverline. Scule accesibile ca preț, pentru amatori și profesioniști."
         },
         "total": {
           "title": "Unelte Total | Marosko",
@@ -2916,7 +2916,7 @@
         },
         "stopky32mm": {
           "title": "Freze pe tijă 3,2 mm | Marosko",
-          "description": "Cea mai largă gamă de unelte cu tijă de 3,2 mm – forme cilindru, mugur, bilă și con. Diametrul de tijă cel mai folosit pentru polizoare drepte și micro-polizoare."
+          "description": "Cea mai largă gamă de unelte cu tijă de 3,2 mm – forme cilindru, mugur, bilă și con. Diametrul cel mai folosit pentru polizoare drepte și micro-polizoare."
         },
         "stopky6mm": {
           "title": "Freze și pile pe tijă 6 mm | Marosko",
@@ -2960,7 +2960,7 @@
         },
         "brusenie": {
           "title": "Unelte de șlefuit pentru bormașină | Marosko",
-          "description": "Evantaie abrazive Manpa EZ-Sander, tamburi abrazivi și conuri de șlefuit pentru bormașină. Permit șlefuirea și netezirea lemnului fără scule speciale suplimentare."
+          "description": "Evantaie abrazive Manpa EZ-Sander, tamburi abrazivi și conuri de șlefuit pentru bormașină. Pentru șlefuirea și netezirea lemnului fără scule suplimentare."
         },
         "ostrenie": {
           "title": "Accesorii diamantate de ascuțit pentru bormașină | Marosko",
@@ -2978,7 +2978,7 @@
       "nastrojeDoMiniFrezky": {
         "arbortech": {
           "title": "Accesorii Arbortech pentru Mini Carver Ø 50 mm | Marosko",
-          "description": "Disc de frezat Mini Pro, disc diamantat și seturi de discuri abrazive și din fibră de la Arbortech pentru mini-polizorul Mini Carver — diametru 50 mm, alezaj 9,5 mm."
+          "description": "Disc de frezat Mini Pro, disc diamantat și discuri abrazive/din fibră Arbortech pentru mini-polizorul Mini Carver — diametru 50 mm, alezaj 9,5 mm."
         },
         "ideaImport": {
           "title": "Discuri mini Idea Import (Ante) Ø 50 mm | Marosko",
