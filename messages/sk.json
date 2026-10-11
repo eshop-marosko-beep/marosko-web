@@ -3151,6 +3151,7 @@
     "shopHeading": "Nákup",
     "shopLinkLabel": "Eshop – rezbárske náradie",
     "feedLinkLabel": "Produktový feed (JSON) – všetky produkty e-shopu s cenou s DPH, dostupnosťou, EAN a variantmi; obnovuje sa denne",
+    "eshopLlmsLabel": "Podrobný llms.txt e-shopu (doprava, platba, kategórie)",
     "pagesHeading": "Hlavné stránky",
     "categoriesHeading": "Kategórie produktov",
     "companyHeading": "Firma",

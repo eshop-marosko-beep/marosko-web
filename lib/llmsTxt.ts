@@ -40,6 +40,15 @@ const ESHOP_URL_BY_LOCALE: Record<LlmsLocale, string> = {
   en: "https://eshop.marosko.sk/",
 };
 
+/** Per-language llms.txt for the shop itself (see lib/llmsEshop.ts); English
+ * has no shop section, so it points at the Slovak one. */
+const ESHOP_LLMS_PATH_BY_LOCALE: Record<LlmsLocale, string> = {
+  sk: "/eshop/llms.txt",
+  cz: "/cz/eshop/llms.txt",
+  ro: "/ro/eshop/llms.txt",
+  en: "/eshop/llms.txt",
+};
+
 /** Mirrors the primary header navigation (see messages/*.json's `navigation`
  * namespace) so llms.txt never drifts from the site's actual main pages. */
 const MAIN_PAGES: { navKey: keyof (typeof skMessages)["navigation"]; path: string }[] = [
@@ -55,12 +64,12 @@ const MAIN_PAGES: { navKey: keyof (typeof skMessages)["navigation"]; path: strin
   { navKey: "contact", path: "/kontakt" },
 ];
 
-/** eshop.marosko.sk's Czech section mirrors the Slovak category slugs 1:1
- * under a "/cz/c/..." prefix (verified live), unlike Romanian, which uses
+/** eshop.marosko.sk's Czech section mostly mirrors the Slovak category slugs
+ * under a "/cz/c/..." prefix (exceptions carry an explicit czUrl), unlike Romanian, which uses
  * fully translated slugs — hence categoryKeys carries an explicit roUrl. */
-function eshopCategoryUrl(locale: LlmsLocale, category: (typeof categoryKeys)[number]): string {
+export function eshopCategoryUrl(locale: LlmsLocale, category: (typeof categoryKeys)[number]): string {
   if (locale === "ro") return category.roUrl ?? category.url;
-  if (locale === "cz") return category.url.replace("eshop.marosko.sk/c/", "eshop.marosko.sk/cz/c/");
+  if (locale === "cz") return category.czUrl ?? category.url.replace("eshop.marosko.sk/c/", "eshop.marosko.sk/cz/c/");
   return category.url;
 }
 
@@ -84,6 +93,7 @@ export function buildLlmsTxt(locale: LlmsLocale): string {
   // BiznisWeb, which cannot host custom files, so the feed is generated on the
   // rezbarskenaradie.sk server and proxied here (see rewrites in next.config.ts).
   lines.push(`- [${llms.feedLinkLabel}](${SITE_URL}/agent-feed.json)`);
+  lines.push(`- [${llms.eshopLlmsLabel}](${SITE_URL}${ESHOP_LLMS_PATH_BY_LOCALE[locale]})`);
 
   lines.push("", `## ${llms.pagesHeading}`);
   for (const { navKey, path } of MAIN_PAGES) {

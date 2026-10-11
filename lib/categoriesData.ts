@@ -6,6 +6,10 @@ export type CategoryCard = {
    * to `url` (Slovak) when absent, since eshop.marosko.sk doesn't cover
    * every category in every language. */
   roUrl?: string;
+  /** eshop.marosko.sk Czech version, only where its slug differs from the
+   * Slovak one; otherwise the Czech URL is the Slovak slug under "/cz/c/".
+   * Categories missing from the Czech shop point to the Slovak page. */
+  czUrl?: string;
   image: string;
   slug: string | null;
 };
@@ -73,6 +77,7 @@ export const categoryKeys: CategoryCard[] = [
   {
     key: "coatings",
     url: "https://eshop.marosko.sk/c/lak-selak-natery-tmely-brusiva-pripravky-na-drevo",
+    czUrl: "https://eshop.marosko.sk/cz/c/selak-natery-tmely-brusiva-pripravky-na-drevo",
     roUrl: "https://eshop.marosko.sk/ro/c/produse-intretinere-finisare-lemn",
     image: "https://eshop.marosko.sk/resize/e/440/440/files/natery--tmely-brusiva/politury/lopticka-na-selak.jpg",
     slug: "lak-selak-natery-tmely-brusiva-pripravky-na-drevo",
@@ -87,6 +92,7 @@ export const categoryKeys: CategoryCard[] = [
   {
     key: "spareParts",
     url: "https://eshop.marosko.sk/c/nahradne-noze-nastrojov-diely-arbortech",
+    czUrl: "https://eshop.marosko.sk/cz/c/nahradni-dily",
     roUrl: "https://eshop.marosko.sk/ro/c/nahradne-noze-nastrojov-diely-arbortech",
     image:
       "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/unasac-s-drazkami-chladiaci-efekt-.jpg",
@@ -102,6 +108,7 @@ export const categoryKeys: CategoryCard[] = [
   {
     key: "misc",
     url: "https://eshop.marosko.sk/c/rezbarske-prislusenstvo-doplnky",
+    czUrl: "https://eshop.marosko.sk/c/rezbarske-prislusenstvo-doplnky",
     roUrl: "https://eshop.marosko.sk/ro/c/accesorii-universale-scule",
     image: "https://eshop.marosko.sk/resize/e/440/440/files/rucne-naradie/brusny-kamen.jpg",
     slug: "rezbarske-prislusenstvo-doplnky",
@@ -115,6 +122,7 @@ export const categoryKeys: CategoryCard[] = [
   {
     key: "shankTools",
     url: "https://eshop.marosko.sk/c/stopkove-nastroje",
+    czUrl: "https://eshop.marosko.sk/c/stopkove-nastroje",
     image:
       "https://eshop.marosko.sk/resize/e/440/440/files/stopkove-frezky/50mm/8025-2-hrcovnik-50-mm-titan-silverline.webp",
     slug: "stopkove-nastroje",
@@ -122,7 +130,7 @@ export const categoryKeys: CategoryCard[] = [
   {
     key: "airTools",
     url: "https://eshop.marosko.sk/c/vzduchove-naradie",
-    roUrl: "https://eshop.marosko.sk/ro/c/vzduchove-naradie",
+    roUrl: "https://eshop.marosko.sk/ro/c/scule-pneumatice",
     image:
       "https://eshop.marosko.sk/resize/e/440/440/files/pneumaticke-naradie/priama-bruska-/fortum/fortum-balenie-priama-pneumaticka-bruska.webp",
     slug: "vzduchove-naradie",
