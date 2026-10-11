@@ -11,6 +11,17 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // AI product feed for eshop.marosko.sk. BiznisWeb cannot host custom files,
+  // so the feed is generated daily from the BiznisWeb API on the
+  // rezbarskenaradie.sk server and served here under the marosko.sk brand.
+  async rewrites() {
+    return [
+      {
+        source: '/agent-feed.json',
+        destination: 'https://www.rezbarskenaradie.sk/marosko/agent-feed.json',
+      },
+    ];
+  },
   async redirects() {
     return [
       // Legacy Joomla article URL from the site's previous CMS, still indexed

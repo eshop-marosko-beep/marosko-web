@@ -15,6 +15,9 @@ export async function GET() {
     `# EN: ${SITE_URL}/en/llms.txt`,
     `# RO: ${SITE_URL}/ro/llms.txt`,
     "",
+    "# Product feed (JSON) for AI shopping agents:",
+    `# ${SITE_URL}/agent-feed.json`,
+    "",
   ].join("\n");
 
   return new Response(body, {

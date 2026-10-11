@@ -3150,6 +3150,7 @@
     "tagline": "An informational and presentation website about woodcarving, tutorials and tools. Products can be purchased through our e-shop.",
     "shopHeading": "Shop",
     "shopLinkLabel": "Shop – woodcarving tools",
+    "feedLinkLabel": "Product feed (JSON) – all e-shop products with VAT-inclusive EUR prices, availability, EAN and variants (Slovak shop data); refreshed daily",
     "shopNote": "Our e-shop is currently available in Slovak, Czech and Romanian — an English-language checkout is not yet available.",
     "pagesHeading": "Main pages",
     "categoriesHeading": "Product Categories",

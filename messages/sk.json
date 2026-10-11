@@ -3150,6 +3150,7 @@
     "tagline": "Informačný a prezentačný web o rezbárstve, návodoch a náradí. Produkty si môžete zakúpiť v našom e-shope.",
     "shopHeading": "Nákup",
     "shopLinkLabel": "Eshop – rezbárske náradie",
+    "feedLinkLabel": "Produktový feed (JSON) – všetky produkty e-shopu s cenou s DPH, dostupnosťou, EAN a variantmi; obnovuje sa denne",
     "pagesHeading": "Hlavné stránky",
     "categoriesHeading": "Kategórie produktov",
     "companyHeading": "Firma",

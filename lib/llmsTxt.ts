@@ -80,6 +80,11 @@ export function buildLlmsTxt(locale: LlmsLocale): string {
     lines.push(`  ${llms.shopNote}`);
   }
 
+  // Machine-readable product catalogue for AI shopping agents. The shop runs on
+  // BiznisWeb, which cannot host custom files, so the feed is generated on the
+  // rezbarskenaradie.sk server and proxied here (see rewrites in next.config.ts).
+  lines.push(`- [${llms.feedLinkLabel}](${SITE_URL}/agent-feed.json)`);
+
   lines.push("", `## ${llms.pagesHeading}`);
   for (const { navKey, path } of MAIN_PAGES) {
     const label = navigation[navKey];

@@ -3150,6 +3150,7 @@
     "tagline": "Informační a prezentační web o řezbářství, návodech a nářadí. Produkty si můžete zakoupit v naší e-shopu.",
     "shopHeading": "Nákup",
     "shopLinkLabel": "Eshop – řezbářské nářadí (CZ)",
+    "feedLinkLabel": "Produktový feed (JSON) – všechny produkty e-shopu s cenou vč. DPH, dostupností, EAN a variantami (slovenská data, EUR); aktualizuje se denně",
     "pagesHeading": "Hlavní stránky",
     "categoriesHeading": "Kategorie produktů",
     "companyHeading": "Firma",
