@@ -1522,7 +1522,7 @@
           "description": "Disc de frezat pentru polizor unghiular, folosit la degroșarea, modelarea și sculptarea lemnului."
         },
         "p1313": {
-          "title": "Disc de frezat Arbortech Woodcarver PROFI-INDUSTRIAL cu apărătoare",
+          "title": "Disc Arbortech Woodcarver PROFI-INDUSTRIAL cu apărătoare",
           "description": "Disc de frezat pentru polizor unghiular, folosit la degroșarea, modelarea și sculptarea lemnului."
         },
         "p1303": {
@@ -1534,7 +1534,7 @@
           "description": "Disc de frezat pentru polizor unghiular, folosit la degroșarea, modelarea și sculptarea lemnului."
         },
         "p720": {
-          "title": "Freză cu 4 dinți cu profil rotund de 8 mm, Ø 95 mm, prindere M10",
+          "title": "Freză 4 dinți, profil rotund 8 mm, Ø 95 mm, prindere M10",
           "description": "Freză cu mai mulți dinți pentru polizor unghiular, pentru modelare grosieră și îndepărtare rapidă a lemnului."
         },
         "p255": {
@@ -1562,7 +1562,7 @@
           "description": "Disc de sculptat cu lanț pentru polizor unghiular, cu prindere agresivă pentru degroșarea și modelarea rapidă a lemnului."
         },
         "p368": {
-          "title": "Disc raspel dințat 50 mm pentru Arbortech Mini Grinder și Merlin",
+          "title": "Disc raspel 50 mm pentru Arbortech Mini Grinder și Merlin",
           "description": "Disc raspel pentru mini-polizor (Arbortech Mini Grinder, Merlin), pentru degroșare agresivă și modelarea lemnului."
         }
       }
@@ -1603,7 +1603,7 @@
           "description": "Disc conceput pentru a minimiza smulgerea și așchierea fibrelor datorită unghiului de tăiere negativ. Alunecă ușor pe lemn și asigură un rezultat impecabil chiar și la proiecte complexe."
         },
         "arbortechSpheroPlane": {
-          "title": "Arbortech SpheroPlane – accesoriu de frezat cu sistem de șlefuire",
+          "title": "Arbortech SpheroPlane – accesoriu de frezat cu șlefuire",
           "description": "Noutate de la Arbortech - creează un bol sau o sferă rotundă din lemn fără a fi nevoie de strung."
         }
       }
@@ -1620,11 +1620,11 @@
           "description": "Ax flexibil de schimb care transmite mișcarea de rotație de la motorul polizorului drept la accesoriul de lucru."
         },
         "p705": {
-          "title": "Cablu flexibil EXTOL – de schimb pentru polizorul drept CRAFT",
+          "title": "Cablu flexibil EXTOL de schimb – polizor drept CRAFT",
           "description": "Cablu bowden flexibil de schimb, care transmite acționarea de la polizorul drept la accesoriul de lucru."
         },
         "p1049": {
-          "title": "Cablu flexibil EXTOL – de schimb pentru polizorul drept PREMIUM",
+          "title": "Cablu flexibil EXTOL de schimb – polizor drept PREMIUM",
           "description": "Cablu bowden flexibil de schimb, care transmite acționarea de la polizorul drept la accesoriul de lucru."
         },
         "p704": {
@@ -1644,11 +1644,11 @@
           "description": "Freză cilindrică prelungită pentru polizor drept, pentru modelarea și îndepărtarea materialului din lemn și metal în zone mai adânci."
         },
         "p316": {
-          "title": "Cilindru cu margine rotunjită și centru neted Ø 13 mm, tijă 3,2 mm",
+          "title": "Cilindru, margine rotunjită, centru neted Ø 13, tijă 3,2 mm",
           "description": "Freză cilindrică (pilă rotativă) pentru polizor drept, pentru modelare, canelare și îndepărtarea materialului din lemn și metal."
         },
         "p1285": {
-          "title": "Cilindru cu margine rotunjită și capăt activ Ø 13 mm, tijă 3,2 mm",
+          "title": "Cilindru, margine rotunjită, capăt activ Ø 13, tijă 3,2 mm",
           "description": "Freză cilindrică (pilă rotativă) pentru polizor drept, pentru modelare, canelare și îndepărtarea materialului din lemn și metal."
         },
         "p323": {
@@ -1676,7 +1676,7 @@
           "description": "Freză cu rază interioară pentru polizor drept, pentru rotunjirea și netezirea muchiilor și colțurilor interioare."
         },
         "p321": {
-          "title": "Freză coadă de rândunică cu capăt activ Ø 9,5 mm, tijă 3,2 mm",
+          "title": "Freză coadă de rândunică, capăt activ Ø 9,5 mm, tijă 3,2 mm",
           "description": "Freză cu profil coadă de rândunică pentru polizor drept, pentru canelare și modelarea muchiilor din lemn și metal."
         },
         "p703": {
@@ -1760,7 +1760,7 @@
           "description": "Freză cilindrică (pilă rotativă) pentru polizor drept, pentru modelare, canelare și îndepărtarea materialului din lemn și metal."
         },
         "p815": {
-          "title": "Cilindru cu vârf sferic Ø 19 mm, tijă 6 mm – degroșare extremă",
+          "title": "Cilindru vârf sferic Ø 19 mm, tijă 6 mm – degroșare extremă",
           "description": "Freză cilindrică (pilă rotativă) pentru polizor drept, pentru modelare, canelare și îndepărtarea materialului din lemn și metal."
         },
         "p835": {
@@ -1772,7 +1772,7 @@
           "description": "Freză cilindrică (pilă rotativă) pentru polizor drept, pentru modelare, canelare și îndepărtarea materialului din lemn și metal."
         },
         "p827": {
-          "title": "Cilindru cu margine rotunjită și capăt activ Ø 25,4 mm, tijă 6 mm",
+          "title": "Cilindru, margine rotunjită, capăt activ Ø 25,4, tijă 6 mm",
           "description": "Freză cilindrică (pilă rotativă) pentru polizor drept, pentru modelare, canelare și îndepărtarea materialului din lemn și metal."
         },
         "p834": {
@@ -1902,7 +1902,7 @@
           "description": "Cap mini de frezat pentru mașină de găurit, pentru modelarea și scobirea detaliilor din lemn."
         },
         "p1277": {
-          "title": "Cap de frezare mini triunghiular 16 mm, tijă 6,4 mm – SCT (lichidare)",
+          "title": "Cap de frezare mini triunghiular 16 mm, tijă 6,4 mm – SCT",
           "description": "Cap mini de frezat pentru mașină de găurit, pentru modelarea și scobirea detaliilor din lemn."
         }
       }
@@ -1927,7 +1927,7 @@
           "description": "Disc mic diamantat pentru mini-polizor, pentru șlefuirea de precizie a materialelor dure."
         },
         "p368": {
-          "title": "Disc raspel dințat 50 mm pentru Arbortech Mini Grinder și Merlin",
+          "title": "Disc raspel 50 mm pentru Arbortech Mini Grinder și Merlin",
           "description": "Disc raspel pentru mini-polizor (Arbortech Mini Grinder, Merlin), pentru degroșare agresivă și modelarea lemnului."
         },
         "p590": {
@@ -1980,7 +1980,7 @@
           "description": "Set de segmente de prelungire pentru brațul Manpa, pentru ajustarea lungimii de acțiune necesare."
         },
         "p837": {
-          "title": "Benzi abrazive pentru șlefuitorul cu bandă Manpa, 30 × 620 mm",
+          "title": "Benzi abrazive pentru șlefuitorul Manpa, 30 × 620 mm",
           "description": "Benzi abrazive pentru șlefuitor cu bandă, pentru degroșarea și netezirea lemnului."
         },
         "p797": {
@@ -2000,7 +2000,7 @@
           "description": "Freză cu mai mulți dinți pentru polizor unghiular, pentru modelare grosieră și îndepărtare rapidă a lemnului."
         },
         "p720": {
-          "title": "Freză cu 4 dinți cu profil rotund de 8 mm, Ø 95 mm, prindere M10",
+          "title": "Freză 4 dinți, profil rotund 8 mm, Ø 95 mm, prindere M10",
           "description": "Freză cu mai mulți dinți pentru polizor unghiular, pentru modelare grosieră și îndepărtare rapidă a lemnului."
         },
         "p792": {
@@ -2028,7 +2028,7 @@
           "description": "Flanșe de montaj cu pini, pentru fixarea sigură și precisă a discurilor de frezat Manpa."
         },
         "p1015": {
-          "title": "Prelungitor de ax pentru polizor unghiular 120 mm, filet M10/M10",
+          "title": "Prelungitor de ax, polizor unghiular 120 mm, M10/M10",
           "description": "Ax prelungitor pentru o mai bună accesibilitate și un lucru mai confortabil cu polizorul unghiular sau mașina de găurit."
         },
         "p917": {
@@ -2221,7 +2221,7 @@
           "description": "Burete de lustruit cu scai, pentru lustruire manuală sau mecanică a suprafeței."
         },
         "p1434": {
-          "title": "Litostucco – chit rapid pe bază de dispersie pentru lemn și tencuială",
+          "title": "Litostucco – chit rapid pe bază de dispersie, lemn/tencuială",
           "description": "Chit cu uscare rapidă, pentru repararea micilor defecte din lemn și tencuială înainte de finisare."
         }
       }

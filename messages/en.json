@@ -1522,7 +1522,7 @@
           "description": "A carving disc for angle grinders, used for roughing out, shaping and wood-carving work."
         },
         "p1313": {
-          "title": "Arbortech Woodcarver PROFI-INDUSTRIAL carving disc with guard",
+          "title": "Arbortech Woodcarver PROFI-INDUSTRIAL disc with guard",
           "description": "A carving disc for angle grinders, used for roughing out, shaping and wood-carving work."
         },
         "p1303": {
@@ -1562,7 +1562,7 @@
           "description": "A chain-tooth carving disc for angle grinders, with an aggressive bite for fast roughing and shaping of wood."
         },
         "p368": {
-          "title": "Toothed rasp disc 50 mm for Arbortech Mini Grinder and Merlin",
+          "title": "Rasp disc 50 mm for Arbortech Mini Grinder and Merlin",
           "description": "A chip-carving rasp disc for mini grinders (Arbortech Mini Grinder, Merlin), for aggressive roughing and shaping of wood."
         }
       }
@@ -1603,7 +1603,7 @@
           "description": "A disc designed to minimize tear-out and splintering thanks to its negative cutting angle. Glides gently across the wood for a flawless result even on demanding projects."
         },
         "arbortechSpheroPlane": {
-          "title": "Arbortech SpheroPlane – milling attachment with sanding system",
+          "title": "Arbortech SpheroPlane – milling attachment with sanding",
           "description": "New from Arbortech - creates a round wooden bowl or sphere without needing a lathe."
         }
       }
@@ -1644,11 +1644,11 @@
           "description": "An elongated cylindrical burr for die grinders, for shaping and material removal in wood and metal, reaching deeper areas."
         },
         "p316": {
-          "title": "Cylinder with rounded edge and smooth centre Ø 13 mm, 3.2 mm shank",
+          "title": "Cylinder, rounded edge, smooth centre Ø 13 mm, 3.2 mm shank",
           "description": "A cylindrical burr (rotary file) for die grinders, for shaping, grooving and material removal in wood and metal."
         },
         "p1285": {
-          "title": "Cylinder with rounded edge and cutting end Ø 13 mm, 3.2 mm shank",
+          "title": "Cylinder, rounded edge, cutting end Ø 13 mm, 3.2 mm shank",
           "description": "A cylindrical burr (rotary file) for die grinders, for shaping, grooving and material removal in wood and metal."
         },
         "p323": {
@@ -1760,7 +1760,7 @@
           "description": "A cylindrical burr (rotary file) for die grinders, for shaping, grooving and material removal in wood and metal."
         },
         "p815": {
-          "title": "Ball-nose cylinder Ø 19 mm, 6 mm shank – extreme stock removal",
+          "title": "Ball-nose cylinder Ø 19 mm, 6 mm shank – extreme removal",
           "description": "A cylindrical burr (rotary file) for die grinders, for shaping, grooving and material removal in wood and metal."
         },
         "p835": {
@@ -1772,7 +1772,7 @@
           "description": "A cylindrical burr (rotary file) for die grinders, for shaping, grooving and material removal in wood and metal."
         },
         "p827": {
-          "title": "Cylinder with rounded edge and cutting end Ø 25.4 mm, 6 mm shank",
+          "title": "Cylinder, rounded edge, cutting end Ø 25.4 mm, 6 mm shank",
           "description": "A cylindrical burr (rotary file) for die grinders, for shaping, grooving and material removal in wood and metal."
         },
         "p834": {
@@ -1902,7 +1902,7 @@
           "description": "A mini milling head for power drills, for shaping and hollowing fine detail in wood."
         },
         "p1277": {
-          "title": "Mini triangular cutter head 16 mm, 6.4 mm shank – SCT (clearance)",
+          "title": "Mini triangular cutter head 16 mm, 6.4 mm shank – SCT",
           "description": "A mini milling head for power drills, for shaping and hollowing fine detail in wood."
         }
       }
@@ -1927,7 +1927,7 @@
           "description": "A small diamond grinding disc for a mini grinder, for precise grinding of hard materials."
         },
         "p368": {
-          "title": "Toothed rasp disc 50 mm for Arbortech Mini Grinder and Merlin",
+          "title": "Rasp disc 50 mm for Arbortech Mini Grinder and Merlin",
           "description": "A chip-carving rasp disc for mini grinders (Arbortech Mini Grinder, Merlin), for aggressive roughing and shaping of wood."
         },
         "p590": {
@@ -2221,7 +2221,7 @@
           "description": "A hook-and-loop foam polishing pad for both hand and machine buffing."
         },
         "p1434": {
-          "title": "Litostucco – fast-drying dispersion filler for wood and plaster",
+          "title": "Litostucco – fast-drying filler for wood and plaster",
           "description": "A fast-drying filler for repairing small defects in wood and plaster before finishing."
         }
       }
