@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { blogPosts, getBlogPost } from "@/lib/blogData";
-import { buildMetadata } from "@/lib/seo";
+import { buildMetadata, excerptForMetaDescription } from "@/lib/seo";
 import { buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
@@ -30,7 +30,7 @@ export async function generateMetadata({
     locale,
     path: `/blog/${slug}`,
     title,
-    description: description ?? title,
+    description: excerptForMetaDescription(description ?? title),
     ...(post.image ? { image: post.image } : {}),
   });
 }
