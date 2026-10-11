@@ -20,6 +20,25 @@ export function toAbsoluteImageUrl(src: string): string {
   return /^https?:\/\//.test(src) ? src : `${SITE_URL}${src}`;
 }
 
+/** Shortens a long display-purposed text into a search-engine-safe meta
+ * description, cutting at the last sentence boundary within range, or
+ * else the last word boundary. Leaves short text untouched. */
+export function excerptForMetaDescription(text: string, maxLength = 160): string {
+  if (text.length <= maxLength) return text;
+  const truncated = text.slice(0, maxLength);
+  const lastSentenceEnd = Math.max(
+    truncated.lastIndexOf(". "),
+    truncated.lastIndexOf("! "),
+    truncated.lastIndexOf("? ")
+  );
+  if (lastSentenceEnd > maxLength * 0.5) {
+    return truncated.slice(0, lastSentenceEnd + 1).trim();
+  }
+  const lastSpace = truncated.lastIndexOf(" ");
+  const cut = lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated;
+  return cut.trim() + "…";
+}
+
 export function buildMetadata({
   locale,
   path,
