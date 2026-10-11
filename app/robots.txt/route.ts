@@ -20,8 +20,10 @@ export async function GET() {
     `# CZ: ${SITE_URL}/cz/eshop/llms.txt`,
     `# RO: ${SITE_URL}/ro/eshop/llms.txt`,
     "",
-    "# Product feed (JSON) for AI shopping agents:",
-    `# ${SITE_URL}/agent-feed.json`,
+    "# Product feeds (JSON) for AI shopping agents:",
+    `# SK (EUR): ${SITE_URL}/agent-feed.json`,
+    `# CZ (CZK): ${SITE_URL}/cz/agent-feed.json`,
+    `# RO (RON): ${SITE_URL}/ro/agent-feed.json`,
     "",
   ].join("\n");
 

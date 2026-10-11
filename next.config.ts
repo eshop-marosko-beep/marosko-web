@@ -20,6 +20,11 @@ const nextConfig: NextConfig = {
         source: '/agent-feed.json',
         destination: 'https://www.rezbarskenaradie.sk/marosko/agent-feed.json',
       },
+      // Czech (CZK) and Romanian (RON) versions of the same feed.
+      {
+        source: '/:lang(cz|ro)/agent-feed.json',
+        destination: 'https://www.rezbarskenaradie.sk/marosko/:lang/agent-feed.json',
+      },
     ];
   },
   async redirects() {

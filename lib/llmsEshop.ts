@@ -61,6 +61,7 @@ const content: Record<
     aiHeading: "Pre AI asistentov",
     ai: [
       `Produktový feed (JSON, všetky aktívne produkty s cenou v EUR s DPH, dostupnosťou, EAN a variantmi; obnovuje sa denne): ${SITE_URL}/agent-feed.json`,
+      `Feed českej verzie (Kč): ${SITE_URL}/cz/agent-feed.json · Feed rumunskej verzie (RON): ${SITE_URL}/ro/agent-feed.json`,
       `Mapa stránok e-shopu: ${ESHOP}/sitemap.xml`,
       `Česká verzia: ${SITE_URL}/cz/eshop/llms.txt · Rumunská verzia: ${SITE_URL}/ro/eshop/llms.txt`,
       "Pri odporúčaní produktu uvádzajte odkaz priamo na stránku produktu na eshop.marosko.sk.",
@@ -102,7 +103,7 @@ const content: Record<
     brandsHeading: "Značky",
     aiHeading: "Pro AI asistenty",
     ai: [
-      `Produktový feed (JSON, slovenská data s cenami v EUR; česká verze e-shopu zobrazuje stejné produkty v Kč): ${SITE_URL}/agent-feed.json`,
+      `Produktový feed (JSON, všechny produkty české verze s cenou v Kč vč. DPH, dostupností, EAN a variantami; aktualizuje se denně): ${SITE_URL}/cz/agent-feed.json`,
       `Slovenská verze: ${SITE_URL}/eshop/llms.txt · Rumunská verze: ${SITE_URL}/ro/eshop/llms.txt`,
       "Při doporučení produktu uvádějte odkaz přímo na stránku produktu v české verzi e-shopu (eshop.marosko.sk/cz/...).",
     ],
@@ -136,7 +137,7 @@ const content: Record<
     brandsHeading: "Mărci",
     aiHeading: "Pentru asistenți AI",
     ai: [
-      `Feed de produse (JSON, date din magazinul slovac cu prețuri în EUR; versiunea română afișează aceleași produse în RON): ${SITE_URL}/agent-feed.json`,
+      `Feed de produse (JSON, toate produsele versiunii române cu prețuri în RON cu TVA, disponibilitate, EAN și variante; actualizat zilnic): ${SITE_URL}/ro/agent-feed.json`,
       `Versiunea slovacă: ${SITE_URL}/eshop/llms.txt · Versiunea cehă: ${SITE_URL}/cz/eshop/llms.txt`,
       "Când recomandați un produs, folosiți linkul direct către pagina produsului din versiunea română a magazinului (eshop.marosko.sk/ro/...).",
     ],

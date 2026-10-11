@@ -40,6 +40,15 @@ const ESHOP_URL_BY_LOCALE: Record<LlmsLocale, string> = {
   en: "https://eshop.marosko.sk/",
 };
 
+/** Product feed in the shop's currency for that language (CZK for cz, RON
+ * for ro); English has no shop section, so it gets the Slovak EUR feed. */
+const FEED_PATH_BY_LOCALE: Record<LlmsLocale, string> = {
+  sk: "/agent-feed.json",
+  cz: "/cz/agent-feed.json",
+  ro: "/ro/agent-feed.json",
+  en: "/agent-feed.json",
+};
+
 /** Per-language llms.txt for the shop itself (see lib/llmsEshop.ts); English
  * has no shop section, so it points at the Slovak one. */
 const ESHOP_LLMS_PATH_BY_LOCALE: Record<LlmsLocale, string> = {
@@ -92,7 +101,7 @@ export function buildLlmsTxt(locale: LlmsLocale): string {
   // Machine-readable product catalogue for AI shopping agents. The shop runs on
   // BiznisWeb, which cannot host custom files, so the feed is generated on the
   // rezbarskenaradie.sk server and proxied here (see rewrites in next.config.ts).
-  lines.push(`- [${llms.feedLinkLabel}](${SITE_URL}/agent-feed.json)`);
+  lines.push(`- [${llms.feedLinkLabel}](${SITE_URL}${FEED_PATH_BY_LOCALE[locale]})`);
   lines.push(`- [${llms.eshopLlmsLabel}](${SITE_URL}${ESHOP_LLMS_PATH_BY_LOCALE[locale]})`);
 
   lines.push("", `## ${llms.pagesHeading}`);

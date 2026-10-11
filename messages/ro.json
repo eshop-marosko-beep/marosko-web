@@ -3150,7 +3150,7 @@
     "tagline": "Site informativ și de prezentare despre sculptura în lemn, tutoriale și unelte. Produsele pot fi achiziționate din magazinul nostru online.",
     "shopHeading": "Comandă",
     "shopLinkLabel": "Magazin online – unelte de sculptură (RO)",
-    "feedLinkLabel": "Feed de produse (JSON) – toate produsele magazinului cu prețuri în EUR cu TVA, disponibilitate, EAN și variante (date din magazinul slovac); actualizat zilnic",
+    "feedLinkLabel": "Feed de produse (JSON) – toate produsele versiunii române a magazinului cu prețuri în RON cu TVA, disponibilitate, EAN și variante; actualizat zilnic",
     "eshopLlmsLabel": "llms.txt detaliat al magazinului (livrare, plată, categorii)",
     "pagesHeading": "Pagini principale",
     "categoriesHeading": "Categorii de produse",
