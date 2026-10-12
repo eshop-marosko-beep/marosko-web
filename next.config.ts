@@ -29,6 +29,23 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // Visiting the site via any *.vercel.app alias or per-deployment URL
+      // (instead of the custom domain) is unprofessional to share/copy and
+      // creates duplicate-content exposure outside the canonical domain.
+      // Gated to VERCEL_ENV === "production" so this never applies to
+      // preview/branch deployments — those are only ever reached via their
+      // own *.vercel.app URL, and redirecting them to production would
+      // defeat the point of testing a PR before it's merged.
+      ...(process.env.VERCEL_ENV === "production"
+        ? [
+            {
+              source: "/:path*",
+              has: [{ type: "host" as const, value: "^.*\\.vercel\\.app$" }],
+              destination: "https://www.marosko.sk/:path*",
+              permanent: true,
+            },
+          ]
+        : []),
       // Legacy Joomla article URL from the site's previous CMS, still indexed
       // by search engines. Redirect it to the current page instead of 404ing.
       {
