@@ -1,8 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { usePathname } from "@/navigation";
-import { useTranslations } from "next-intl";
+import { usePathname, getPathname } from "@/navigation";
+import { useLocale, useTranslations } from "next-intl";
+import { SITE_URL } from "@/lib/seo";
 
 function IconGlyph({ name }: { name: string }) {
   switch (name) {
@@ -117,15 +118,22 @@ type ShareButtonsProps = {
 
 export default function ShareButtons({ url, title, variant = "full" }: ShareButtonsProps) {
   const pathname = usePathname();
+  const locale = useLocale();
   const t = useTranslations("share");
   const [copied, setCopied] = useState(false);
 
   // The page-level bar (no explicit url override) is intentionally omitted on the homepage.
   if (!url && pathname === "/") return null;
 
+  // Always resolve against the canonical production domain and the current
+  // locale's prefix — never window.location.origin (which would reflect
+  // whatever host the page is currently viewed from, e.g. a *.vercel.app
+  // preview/deployment URL) and never the bare `url` prop as-is (every
+  // caller passes it without a locale prefix, so without getPathname this
+  // silently shared the Slovak URL even when viewing cz/en/ro pages).
   const resolveUrl = () => {
-    if (!url) return window.location.href;
-    return url.startsWith("http") ? url : `${window.location.origin}${url}`;
+    if (url?.startsWith("http")) return url;
+    return `${SITE_URL}${getPathname({ locale, href: url ?? pathname })}`;
   };
   const resolveTitle = () => title ?? document.title;
 
