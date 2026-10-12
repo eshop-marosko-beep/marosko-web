@@ -3,13 +3,16 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
 import { videos, getVideo } from "@/lib/videoData";
+import { routing } from "@/routing";
 import { buildSingleVideoObjectSchema, buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
-  return videos.map(({ slug }) => ({ video: slug }));
+  return routing.locales.flatMap((locale) =>
+    videos.map(({ slug }) => ({ locale, video: slug }))
+  );
 }
 
 export async function generateMetadata({

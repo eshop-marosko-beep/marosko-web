@@ -3,6 +3,7 @@ import { Link } from "@/navigation";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { galleryCategories, getGalleryCategory } from "@/lib/galleryData";
+import { routing } from "@/routing";
 import { buildMetadata } from "@/lib/seo";
 import { buildBreadcrumbListSchema, buildItemListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
@@ -10,7 +11,9 @@ import ShareButtons from "@/components/ShareButtons";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
-  return galleryCategories.map(({ slug }) => ({ category: slug }));
+  return routing.locales.flatMap((locale) =>
+    galleryCategories.map(({ slug }) => ({ locale, category: slug }))
+  );
 }
 
 export async function generateMetadata({

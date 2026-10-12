@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
 import { getKategorieArticle, kategorieArticles } from "@/lib/kategorieArticles";
+import { routing } from "@/routing";
 import { getGalleryCategory } from "@/lib/galleryData";
 import { buildBreadcrumbListSchema, buildItemListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
@@ -12,7 +13,9 @@ import ZoomableImage from "@/components/ZoomableImage";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
-  return kategorieArticles.map(({ slug }) => ({ slug }));
+  return routing.locales.flatMap((locale) =>
+    kategorieArticles.map(({ slug }) => ({ locale, slug }))
+  );
 }
 
 export async function generateMetadata({
