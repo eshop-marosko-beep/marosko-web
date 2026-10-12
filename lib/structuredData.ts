@@ -1,4 +1,4 @@
-import { SITE_URL } from "@/lib/seo";
+import { SITE_URL, toAbsoluteImageUrl } from "@/lib/seo";
 import { socialLinks } from "@/lib/socialLinks";
 import { videos } from "@/lib/videoData";
 import { getPathname } from "@/navigation";
@@ -46,16 +46,28 @@ const OPENING_HOURS = [
   },
 ] as const;
 
+/** Combines what used to be separate Organization and LocalBusiness schemas
+ * into one node. Both described the same company under the same @id, which
+ * search engines can treat as a conflicting duplicate node — a single
+ * node with both types in `@type` is the correct way to say "this one
+ * entity is both of these things". */
 export function buildOrganizationSchema() {
   return {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": ["Organization", "LocalBusiness"],
     "@id": ORGANIZATION_ID,
     name: COMPANY_NAME,
     url: SITE_URL,
     logo: LOGO_URL,
+    image: LOGO_URL,
     foundingDate: "2013",
     address: ADDRESS,
+    geo: GEO,
+    hasMap: MAPS_URL,
+    telephone: COMPANY_PHONE_SALES,
+    email: COMPANY_EMAIL,
+    openingHoursSpecification: OPENING_HOURS,
+    priceRange: "€1–€1500",
     vatID: COMPANY_VAT_ID,
     taxID: COMPANY_TAX_ID,
     identifier: COMPANY_IDENTIFIER,
@@ -86,28 +98,6 @@ export function buildOrganizationSchema() {
   };
 }
 
-export function buildLocalBusinessSchema() {
-  return {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "@id": ORGANIZATION_ID,
-    name: COMPANY_NAME,
-    image: LOGO_URL,
-    url: SITE_URL,
-    telephone: COMPANY_PHONE_SALES,
-    email: COMPANY_EMAIL,
-    address: ADDRESS,
-    geo: GEO,
-    hasMap: MAPS_URL,
-    openingHoursSpecification: OPENING_HOURS,
-    priceRange: "€1–€1500",
-  };
-}
-
-/** Upload date for the video library, kept in one place so it's easy to bump
- * when new videos are added. */
-const VIDEOS_UPLOAD_DATE = "2026-07-20";
-
 function buildVideoObjectSchema(
   { file, duration }: { file: string; duration: string },
   { name, description }: { name: string; description: string }
@@ -119,7 +109,10 @@ function buildVideoObjectSchema(
     description,
     thumbnailUrl: [`${SITE_URL}/videos/${file}.webp`],
     contentUrl: `${SITE_URL}/videos/${file}.mp4`,
-    uploadDate: VIDEOS_UPLOAD_DATE,
+    // No real per-video upload date is tracked anywhere in this codebase —
+    // `uploadDate` is a recommended, not required, VideoObject field, so it's
+    // left out rather than filled with a fabricated (and previously
+    // identical-across-all-videos) placeholder date.
     duration,
     publisher: {
       "@type": "Organization",
@@ -205,4 +198,82 @@ export function buildSingleVideoObjectSchema(
   entry: { name: string; description: string }
 ) {
   return buildVideoObjectSchema(video, entry);
+}
+
+/** No real publish date is tracked for blog posts anywhere in this
+ * codebase, so `datePublished`/`dateModified` are left out rather than
+ * filled with a guessed value — both are recommended, not required,
+ * BlogPosting fields. */
+export function buildBlogPostingSchema({
+  locale,
+  path,
+  headline,
+  description,
+  image,
+}: {
+  locale: string;
+  path: string;
+  headline: string;
+  description?: string;
+  image?: string;
+}) {
+  const url = `${SITE_URL}${getPathname({ locale, href: path })}`;
+  return {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline,
+    ...(description ? { description } : {}),
+    ...(image ? { image: [toAbsoluteImageUrl(image)] } : {}),
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    author: { "@type": "Organization", name: COMPANY_NAME, url: SITE_URL },
+    publisher: {
+      "@type": "Organization",
+      name: COMPANY_NAME,
+      logo: { "@type": "ImageObject", url: LOGO_URL },
+    },
+  };
+}
+
+/** Gallery product pages have no reliable price/availability data in this
+ * codebase (GalleryImage.price is defined in the type but unset on every
+ * entry) — `offers` is only added when a price is actually present, and
+ * `availability` is never guessed, since a wrong value there is an actively
+ * misleading signal to search engines rather than just an absent one. */
+export function buildProductSchema({
+  locale,
+  path,
+  name,
+  description,
+  image,
+  url,
+  price,
+}: {
+  locale: string;
+  path: string;
+  name: string;
+  description?: string;
+  image: string;
+  url?: string;
+  price?: string;
+}) {
+  const pageUrl = `${SITE_URL}${getPathname({ locale, href: path })}`;
+  const numericPrice = price ? price.replace(/[^\d,.-]/g, "").replace(",", ".") : undefined;
+  const offers =
+    numericPrice && !Number.isNaN(Number(numericPrice))
+      ? {
+          "@type": "Offer",
+          price: numericPrice,
+          priceCurrency: "EUR",
+          url: url ?? pageUrl,
+        }
+      : undefined;
+  return {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    name,
+    ...(description ? { description } : {}),
+    image: [toAbsoluteImageUrl(image)],
+    url: pageUrl,
+    ...(offers ? { offers } : {}),
+  };
 }

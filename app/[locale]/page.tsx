@@ -9,7 +9,7 @@ import ContactSection from "@/components/home/ContactSection";
 import StructuredData from "@/components/StructuredData";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/seo";
-import { buildOrganizationSchema, buildLocalBusinessSchema, buildFaqSchema } from "@/lib/structuredData";
+import { buildOrganizationSchema, buildFaqSchema } from "@/lib/structuredData";
 import { spotlightTabs } from "@/lib/spotlightData";
 import type { Metadata } from "next";
 
@@ -43,7 +43,6 @@ export default async function HomePage({
   return (
     <div className="divide-y divide-amber-100">
       <StructuredData data={buildOrganizationSchema()} />
-      <StructuredData data={buildLocalBusinessSchema()} />
       <StructuredData data={faqSchema} />
       <Hero />
       <StatsBar />

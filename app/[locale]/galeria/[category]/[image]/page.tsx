@@ -5,7 +5,7 @@ import { Link } from "@/navigation";
 import { buildMetadata, excerptForMetaDescription } from "@/lib/seo";
 import { galleryCategories, getGalleryImage } from "@/lib/galleryData";
 import { routing } from "@/routing";
-import { buildBreadcrumbListSchema } from "@/lib/structuredData";
+import { buildBreadcrumbListSchema, buildProductSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
 import type { Metadata } from "next";
@@ -77,10 +77,22 @@ export default async function GalleryImagePage({
     { name: categoryTitle, path: `/galeria/${category}` },
     { name: title, path: `/galeria/${category}/${image}` },
   ]);
+  const productSchema = isProduct
+    ? buildProductSchema({
+        locale,
+        path: `/galeria/${category}/${image}`,
+        name: title,
+        description: description || undefined,
+        image: img.src,
+        url: img.productUrl,
+        price: img.price,
+      })
+    : null;
 
   return (
     <div className="py-8 max-w-2xl mx-auto">
       <StructuredData data={breadcrumbSchema} />
+      {productSchema && <StructuredData data={productSchema} />}
 
       <Link
         href={`/galeria/${category}`}

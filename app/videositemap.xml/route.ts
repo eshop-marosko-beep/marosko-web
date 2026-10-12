@@ -14,9 +14,6 @@ const messagesByLocale: Record<string, typeof skMessages> = {
   ro: roMessages,
 };
 
-/** Kept in sync with lib/structuredData.ts's VIDEOS_UPLOAD_DATE. */
-const UPLOAD_DATE = "2026-07-20";
-
 function escapeXml(value: string): string {
   return value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
@@ -45,7 +42,6 @@ export async function GET() {
         `<video:description>${escapeXml(description)}</video:description>` +
         `<video:content_loc>${escapeXml(`${SITE_URL}/videos/${file}.mp4`)}</video:content_loc>` +
         `<video:duration>${isoDurationToSeconds(duration)}</video:duration>` +
-        `<video:publication_date>${UPLOAD_DATE}</video:publication_date>` +
         `<video:family_friendly>yes</video:family_friendly>` +
         `</video:video>`;
       return `<url><loc>${escapeXml(loc)}</loc>${videoTag}</url>`;
