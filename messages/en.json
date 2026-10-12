@@ -2078,6 +2078,22 @@
         "p1415": {
           "title": "Diamond cutting disc 85 mm",
           "description": "A diamond cutting disc for angle grinders, for precise, clean cuts."
+        },
+        "p1505": {
+          "title": "Manpa Multi Cutter Head 70 mm (3″) cutting head",
+          "description": "A replacement 3″ Ø70 mm cutting head for the Manpa arm – upgrade an existing arm without buying a new one, belt drive guards against kickback."
+        },
+        "p1506": {
+          "title": "Manpa Belt Cutter Master 2″ – pro kit with extension",
+          "description": "A professional Manpa kit with a 45 mm head, belt drive and two extensions for working in tight spaces and detailed shaping."
+        },
+        "p1223": {
+          "title": "Manpa Belt Cutter 2″ – bare arm, no cutter",
+          "description": "A Manpa extension arm with a 45 mm head and kickback-resistant belt drive, sold without a cutter disc – choose your own."
+        },
+        "p712": {
+          "title": "Manpa Belt Cutter Basic 2″ – basic kit with cutter",
+          "description": "A basic Manpa kit with a 43 mm three-tooth carbide cutter and belt drive, for detailed shaping in tight spaces."
         }
       }
     },
