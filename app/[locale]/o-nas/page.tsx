@@ -4,7 +4,6 @@ import StatsBar from "@/components/StatsBar";
 import StructuredData from "@/components/StructuredData";
 import {
   buildOrganizationSchema,
-  buildLocalBusinessSchema,
   buildBreadcrumbListSchema,
 } from "@/lib/structuredData";
 import type { Metadata } from "next";
@@ -43,7 +42,6 @@ export default async function AboutPage({
   return (
     <div className="py-8">
       <StructuredData data={buildOrganizationSchema()} />
-      <StructuredData data={buildLocalBusinessSchema()} />
       <StructuredData data={breadcrumbSchema} />
       <div className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold text-espresso-800 mb-6">

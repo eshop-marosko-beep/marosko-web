@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { blogPosts, getBlogPost } from "@/lib/blogData";
 import { buildMetadata, excerptForMetaDescription } from "@/lib/seo";
 import { routing } from "@/routing";
-import { buildBreadcrumbListSchema } from "@/lib/structuredData";
+import { buildBreadcrumbListSchema, buildBlogPostingSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
 import ZoomableImage from "@/components/ZoomableImage";
@@ -63,10 +63,18 @@ export default async function BlogPostPage({
     { name: tNav("blog"), path: "/blog" },
     { name: title, path: `/blog/${slug}` },
   ]);
+  const blogPostingSchema = buildBlogPostingSchema({
+    locale,
+    path: `/blog/${slug}`,
+    headline: title,
+    description,
+    image: post.image,
+  });
 
   return (
     <div className="py-8 max-w-3xl mx-auto">
       <StructuredData data={breadcrumbSchema} />
+      <StructuredData data={blogPostingSchema} />
 
       <h1 className="text-4xl font-bold text-espresso-800 mb-6">{title}</h1>
 
