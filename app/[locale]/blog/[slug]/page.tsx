@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { blogPosts, getBlogPost } from "@/lib/blogData";
 import { buildMetadata, excerptForMetaDescription } from "@/lib/seo";
+import { routing } from "@/routing";
 import { buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
@@ -10,7 +11,9 @@ import { Link } from "@/navigation";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
-  return blogPosts.map(({ slug }) => ({ slug }));
+  return routing.locales.flatMap((locale) =>
+    blogPosts.map(({ slug }) => ({ locale, slug }))
+  );
 }
 
 export async function generateMetadata({

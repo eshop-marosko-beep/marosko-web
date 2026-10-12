@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
 import { guideArticles, getGuideArticle } from "@/lib/guideArticles";
+import { routing } from "@/routing";
 import { buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
@@ -39,7 +40,9 @@ type GuideItem = {
 };
 
 export function generateStaticParams() {
-  return guideArticles.map(({ slug }) => ({ article: slug }));
+  return routing.locales.flatMap((locale) =>
+    guideArticles.map(({ slug }) => ({ locale, article: slug }))
+  );
 }
 
 export async function generateMetadata({

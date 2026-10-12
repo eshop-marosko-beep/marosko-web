@@ -4,14 +4,21 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/navigation";
 import { buildMetadata, excerptForMetaDescription } from "@/lib/seo";
 import { galleryCategories, getGalleryImage } from "@/lib/galleryData";
+import { routing } from "@/routing";
 import { buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
-  return galleryCategories.flatMap((category) =>
-    category.images.map((image) => ({ category: category.slug, image: image.altKey }))
+  return routing.locales.flatMap((locale) =>
+    galleryCategories.flatMap((category) =>
+      category.images.map((image) => ({
+        locale,
+        category: category.slug,
+        image: image.altKey,
+      }))
+    )
   );
 }
 

@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
 import { getKategorieSubcategory, kategorieArticles } from "@/lib/kategorieArticles";
+import { routing } from "@/routing";
 import { buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
@@ -11,10 +12,12 @@ import ZoomableImage from "@/components/ZoomableImage";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
-  return kategorieArticles.flatMap((article) =>
-    article.subcategories
-      .filter((sub): sub is typeof sub & { slug: string } => Boolean(sub.slug))
-      .map((sub) => ({ slug: article.slug, subcategory: sub.slug }))
+  return routing.locales.flatMap((locale) =>
+    kategorieArticles.flatMap((article) =>
+      article.subcategories
+        .filter((sub): sub is typeof sub & { slug: string } => Boolean(sub.slug))
+        .map((sub) => ({ locale, slug: article.slug, subcategory: sub.slug }))
+    )
   );
 }
 
