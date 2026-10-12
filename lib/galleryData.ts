@@ -720,6 +720,26 @@ export const galleryCategories: GalleryCategory[] = [
         altKey: "p1415",
         productUrl: "https://eshop.marosko.sk/p/1415/diamantovy-rezny-kotuc-85mm",
       },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/manpa-nadstavec-vymenitelny/frezovaci-nastavec-manpa-----pr.70-mm.jpeg",
+        altKey: "p1505",
+        productUrl: "https://eshop.marosko.sk/p/1505/frezovaci-nastavec-manpa-pr-70mm-multi-cutter-head",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/belt-basic/manpa-belt-cutter-master-43mm.jpg",
+        altKey: "p1506",
+        productUrl: "https://eshop.marosko.sk/p/1506/manpa-belt-cutter-master-2-profesionalna-sada-s-malym-nastavcom",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/predlzovaci-rameno-/manpa-bez-kotuca/manpa-sada-bez-kotuca.jpeg",
+        altKey: "p1223",
+        productUrl: "https://eshop.marosko.sk/p/1223/predlzovacie-rameno-s-malym-nastavcom-bez-kotuca",
+      },
+      {
+        src: "https://eshop.marosko.sk/resize/e/440/440/files/manpa/belt-basic/3833a9c3-fc6b-4934-b8ef-c46478a32f55.jpeg",
+        altKey: "p712",
+        productUrl: "https://eshop.marosko.sk/p/712/predlzovacie-rameno-manpa-s-malym-nadstavcom-zakladna-verzia",
+      },
     ],
   },
   {
