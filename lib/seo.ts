@@ -10,8 +10,18 @@ export const DEFAULT_OG_IMAGE = "/gallery/frezovaci-kotuc-detail-rezbarska-praca
  * "cz" is an ISO 3166-1 country code, not a language code — the correct
  * hreflang for Czech is "cs". Locales not listed here map to themselves. */
 const HREFLANG_OVERRIDES: Record<string, string> = { cz: "cs" };
-function toHreflang(locale: string): string {
+export function toHreflang(locale: string): string {
   return HREFLANG_OVERRIDES[locale] ?? locale;
+}
+
+/** hreflang → absolute URL for every locale version of `href`, plus
+ * x-default (the default locale). Shared by page metadata and sitemaps. */
+export function alternateLanguageUrls(href: string): Record<string, string> {
+  const languages = Object.fromEntries(
+    routing.locales.map((l) => [toHreflang(l), `${SITE_URL}${getPathname({ locale: l, href })}`])
+  );
+  languages["x-default"] = `${SITE_URL}${getPathname({ locale: routing.defaultLocale, href })}`;
+  return languages;
 }
 
 /** Resolves a possibly-relative image path to an absolute URL. Leaves
@@ -54,10 +64,7 @@ export function buildMetadata({
 }): Metadata {
   const href = path === "" ? "/" : path;
   const url = `${SITE_URL}${getPathname({ locale, href })}`;
-  const languages = Object.fromEntries(
-    routing.locales.map((l) => [toHreflang(l), `${SITE_URL}${getPathname({ locale: l, href })}`])
-  );
-  languages["x-default"] = `${SITE_URL}${getPathname({ locale: routing.defaultLocale, href })}`;
+  const languages = alternateLanguageUrls(href);
   const ogImage = toAbsoluteImageUrl(image);
 
   return {
