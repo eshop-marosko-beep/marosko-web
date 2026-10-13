@@ -43,16 +43,21 @@ export function localeSitemapResponse(locale: string): Response {
   const urls = sitemapPaths().map((path) => {
     const loc = `${SITE_URL}${getPathname({ locale, href: path })}`;
     const alternates = Object.entries(alternateLanguageUrls(path))
-      .map(([hreflang, href]) => `<xhtml:link rel="alternate" hreflang="${hreflang}" href="${escapeXml(href)}"/>`)
-      .join("");
-    return `<url><loc>${escapeXml(loc)}</loc><lastmod>${lastmod}</lastmod>${alternates}</url>`;
+      .map(([hreflang, href]) => `    <xhtml:link rel="alternate" hreflang="${hreflang}" href="${escapeXml(href)}"/>`)
+      .join("\n");
+    return `  <url>\n    <loc>${escapeXml(loc)}</loc>\n    <lastmod>${lastmod}</lastmod>\n${alternates}\n  </url>`;
   });
 
-  const xml =
-    `<?xml version="1.0" encoding="UTF-8"?>` +
-    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">` +
-    urls.join("") +
-    `</urlset>`;
+  // The stylesheet only affects how a browser displays the file; search
+  // engines read the XML itself.
+  const xml = [
+    `<?xml version="1.0" encoding="UTF-8"?>`,
+    `<?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>`,
+    `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">`,
+    ...urls,
+    `</urlset>`,
+    "",
+  ].join("\n");
 
   return new Response(xml, {
     headers: { "Content-Type": "application/xml; charset=utf-8" },
