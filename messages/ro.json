@@ -2417,6 +2417,10 @@
       "arbortechPowerCarvingUnit": {
         "title": "Arbortech Power Carving Unit – polizor de sculptură pentru accesoriile Arbortech",
         "description": "Unitatea de sculptură Arbortech Power Carving Unit în acțiune. Turația reglabilă între 3.000 și 12.000 rot./min permite tăierea, rindeluirea și șlefuirea fină, iar apărătoarea și mânerul antivibrații sunt adaptate discurilor Arbortech, de exemplu Turbo Plane."
+      },
+      "sochaPodlaPredlohy": {
+        "title": "Statuie după model – finisare cu setul de lustruit Ø 30 cm",
+        "description": "O statuie din lemn realizată după un model. Pentru finisarea fină a suprafețelor mari ale unei astfel de statui se folosește setul de lustruit cu ax de 12 cm și disc de lustruit Ø 30 cm – discul mare acoperă mai multă suprafață dintr-o dată, iar axul se potrivește majorității polizoarelor de lustruit."
       }
     },
     "pdfGuides": {
