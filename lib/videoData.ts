@@ -1,9 +1,5 @@
-export type Video = {
+type VideoBase = {
   slug: string;
-  /** File under public/videos/, without extension. */
-  file: string;
-  /** Video duration in ISO 8601 form, e.g. "PT38S". */
-  duration: string;
   /** Where the "Zobraziť produkty" CTA points. */
   linkUrl: string;
   /** Whether linkUrl is an internal app path (Link) or an external eshop URL (<a>). */
@@ -12,8 +8,30 @@ export type Video = {
   translationKey: string;
 };
 
+/** A clip we recorded ourselves and host under public/videos/. */
+export type FileVideo = VideoBase & {
+  source: "file";
+  /** File under public/videos/, without extension. */
+  file: string;
+  /** Video duration in ISO 8601 form, e.g. "PT38S". */
+  duration: string;
+};
+
+/** A public video on YouTube (e.g. the manufacturer's own product demo),
+ * embedded rather than re-hosted. */
+export type YouTubeVideo = VideoBase & {
+  source: "youtube";
+  youtubeId: string;
+  /** Product photo from eshop.marosko.sk shown until the visitor presses
+   * play, so no request goes to YouTube before then. */
+  poster: string;
+};
+
+export type Video = FileVideo | YouTubeVideo;
+
 export const videos: Video[] = [
   {
+    source: "file",
     slug: "arbortech-ball-gouge",
     file: "arbortech-ball-gouge",
     duration: "PT18S",
@@ -22,6 +40,7 @@ export const videos: Video[] = [
     translationKey: "arbortechBallGouge",
   },
   {
+    source: "file",
     slug: "manpa-multi-cutter-master-konar",
     file: "manpa-multi-cutter-master-konar",
     duration: "PT54S",
@@ -30,6 +49,7 @@ export const videos: Video[] = [
     translationKey: "manpaMultiCutterMaster",
   },
   {
+    source: "file",
     slug: "arbortech-contour-sander-tram",
     file: "arbortech-contour-sander-tram",
     duration: "PT1M1S",
@@ -38,6 +58,7 @@ export const videos: Video[] = [
     translationKey: "arbortechContourSander",
   },
   {
+    source: "file",
     slug: "lesticka-sada-brusenie-sochy",
     file: "lesticka-sada-brusenie-sochy",
     duration: "PT25S",
@@ -46,6 +67,7 @@ export const videos: Video[] = [
     translationKey: "lesticaSada",
   },
   {
+    source: "file",
     slug: "orbi-cut-dlabanie-gulockou",
     file: "orbi-cut-dlabanie-gulockou",
     duration: "PT9S",
@@ -54,6 +76,7 @@ export const videos: Video[] = [
     translationKey: "orbiCut",
   },
   {
+    source: "file",
     slug: "rasplovy-kotuc-125mm-ostry-kraj",
     file: "rasplovy-kotuc-125mm-ostry-kraj",
     duration: "PT38S",
@@ -61,8 +84,63 @@ export const videos: Video[] = [
     linkType: "external",
     translationKey: "rasplovyKotucOstryKraj",
   },
+  {
+    source: "youtube",
+    slug: "arbortech-spheroplane",
+    youtubeId: "4D5aO8ol96E",
+    poster: "https://eshop.marosko.sk/resize/e/1200/630/files/na-drevo/arbortech/sphero-plane/arbortech-spheroplane-gallery-1.jpg",
+    linkUrl: "https://eshop.marosko.sk/p/1338/arbortech-sphero-plane-frezovaci-nastavec",
+    linkType: "external",
+    translationKey: "arbortechSpheroPlane",
+  },
+  {
+    source: "youtube",
+    slug: "arbortech-power-chisel",
+    youtubeId: "Mi4rfU106P0",
+    poster: "https://eshop.marosko.sk/resize/e/1200/630/files/na-drevo/arbortech/power-cisel-7-dielna-sada/power-chisel-pack.jpg",
+    linkUrl: "https://eshop.marosko.sk/p/838/elektricke-dlato-arbortech-power-chisel-7-dielna-sada",
+    linkType: "external",
+    translationKey: "arbortechPowerChisel",
+  },
+  {
+    source: "youtube",
+    slug: "arbortech-mini-carver",
+    youtubeId: "98mfo2EUdGo",
+    poster: "https://eshop.marosko.sk/resize/e/1200/630/files/elektricke-naradie/arbortech-novinka/mini-carver/mini-carver-nova-1000w.png",
+    linkUrl: "https://eshop.marosko.sk/p/196/elektricka-frezka-arbortech-mini-carver",
+    linkType: "external",
+    translationKey: "arbortechMiniCarver",
+  },
+  {
+    source: "youtube",
+    slug: "arbortech-turbo-scraper",
+    youtubeId: "NkYq0SqF5O0",
+    poster: "https://eshop.marosko.sk/resize/e/1200/630/files/na-drevo/arbortech/arbortech-skrabka/arbortech-turbo-scraper-complet.jpg",
+    linkUrl: "https://eshop.marosko.sk/p/1303/arbortech-turbo-scraper-100-mm",
+    linkType: "external",
+    translationKey: "arbortechTurboScraper",
+  },
+  {
+    source: "youtube",
+    slug: "arbortech-power-carving-unit",
+    youtubeId: "Tsd2flxWC94",
+    poster: "https://eshop.marosko.sk/resize/e/1200/630/files/na-drevo/arbortech/arbortech-power-carving-unit/img-1229-copy-copy-2.jpg",
+    linkUrl: "https://eshop.marosko.sk/p/743/arbortech-power-carving-unit-brusny-komplet",
+    linkType: "external",
+    translationKey: "arbortechPowerCarvingUnit",
+  },
 ];
 
 export function getVideo(slug: string) {
   return videos.find((video) => video.slug === slug);
+}
+
+/** Still image for cards, og:image, sitemaps and VideoObject.thumbnailUrl. */
+export function videoThumbnail(video: Video): string {
+  return video.source === "file" ? `/videos/${video.file}.webp` : video.poster;
+}
+
+/** Privacy-enhanced embed URL (no YouTube cookies until playback). */
+export function youTubeEmbedUrl(youtubeId: string): string {
+  return `https://www.youtube-nocookie.com/embed/${youtubeId}`;
 }

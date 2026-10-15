@@ -2,11 +2,12 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
-import { videos, getVideo } from "@/lib/videoData";
+import { videos, getVideo, videoThumbnail } from "@/lib/videoData";
 import { routing } from "@/routing";
 import { buildSingleVideoObjectSchema, buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
+import YouTubePlayer from "@/components/YouTubePlayer";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -30,7 +31,7 @@ export async function generateMetadata({
     path: `/navody/${video}`,
     title: t(`items.${found.translationKey}.title`),
     description: t(`items.${found.translationKey}.description`),
-    image: `/videos/${found.file}.webp`,
+    image: videoThumbnail(found),
   });
 }
 
@@ -66,15 +67,24 @@ export default async function VideoDetailPage({
       </Link>
 
       <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-        <video
-          controls
-          playsInline
-          preload="metadata"
-          poster={`/videos/${found.file}.webp`}
-          className="w-full aspect-video bg-black"
-        >
-          <source src={`/videos/${found.file}.mp4`} type="video/mp4" />
-        </video>
+        {found.source === "youtube" ? (
+          <YouTubePlayer
+            youtubeId={found.youtubeId}
+            poster={found.poster}
+            title={title}
+            playLabel={t("play")}
+          />
+        ) : (
+          <video
+            controls
+            playsInline
+            preload="metadata"
+            poster={`/videos/${found.file}.webp`}
+            className="w-full aspect-video bg-black"
+          >
+            <source src={`/videos/${found.file}.mp4`} type="video/mp4" />
+          </video>
+        )}
         <div className="p-6">
           <h1 className="text-2xl font-bold text-espresso-800 mb-2">{title}</h1>
           <p className="text-gray-600 leading-relaxed mb-6">{description}</p>

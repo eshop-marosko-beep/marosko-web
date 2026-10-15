@@ -1,7 +1,7 @@
 import { DEFAULT_OG_IMAGE, toAbsoluteImageUrl } from "@/lib/seo";
 import { galleryCategories } from "@/lib/galleryData";
 import { blogPosts } from "@/lib/blogData";
-import { videos } from "@/lib/videoData";
+import { videos, videoThumbnail } from "@/lib/videoData";
 import { kategorieArticles } from "@/lib/kategorieArticles";
 import { guideArticles } from "@/lib/guideArticles";
 
@@ -12,7 +12,7 @@ export const imagesByPath: Record<string, string[]> = {
   "/blog": blogPosts
     .filter((post) => post.image)
     .map(({ image }) => toAbsoluteImageUrl(image!)),
-  "/navody": videos.map(({ file }) => toAbsoluteImageUrl(`/videos/${file}.webp`)),
+  "/navody": videos.map((video) => toAbsoluteImageUrl(videoThumbnail(video))),
   ...Object.fromEntries(
     galleryCategories.map(({ slug, images }) => [
       `/galeria/${slug}`,

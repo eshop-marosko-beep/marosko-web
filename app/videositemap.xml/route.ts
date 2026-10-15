@@ -1,7 +1,7 @@
-import { SITE_URL } from "@/lib/seo";
+import { SITE_URL, toAbsoluteImageUrl } from "@/lib/seo";
 import { getPathname } from "@/navigation";
 import { routing } from "@/routing";
-import { videos } from "@/lib/videoData";
+import { videos, videoThumbnail, youTubeEmbedUrl } from "@/lib/videoData";
 import skMessages from "@/messages/sk.json";
 import czMessages from "@/messages/cz.json";
 import enMessages from "@/messages/en.json";
@@ -32,16 +32,22 @@ export async function GET() {
       string,
       { title: string; description: string }
     >;
-    return videos.map(({ slug, file, duration, translationKey }) => {
-      const { title, description } = items[translationKey];
-      const loc = `${SITE_URL}${getPathname({ locale, href: `/navody/${slug}` })}`;
+    return videos.map((video) => {
+      const { title, description } = items[video.translationKey];
+      const loc = `${SITE_URL}${getPathname({ locale, href: `/navody/${video.slug}` })}`;
+      // Self-hosted clips declare the file itself; embedded YouTube videos
+      // declare the player instead (Google accepts either).
+      const locationTags =
+        video.source === "youtube"
+          ? `<video:player_loc>${escapeXml(youTubeEmbedUrl(video.youtubeId))}</video:player_loc>`
+          : `<video:content_loc>${escapeXml(`${SITE_URL}/videos/${video.file}.mp4`)}</video:content_loc>` +
+            `<video:duration>${isoDurationToSeconds(video.duration)}</video:duration>`;
       const videoTag =
         `<video:video>` +
-        `<video:thumbnail_loc>${escapeXml(`${SITE_URL}/videos/${file}.webp`)}</video:thumbnail_loc>` +
+        `<video:thumbnail_loc>${escapeXml(toAbsoluteImageUrl(videoThumbnail(video)))}</video:thumbnail_loc>` +
         `<video:title>${escapeXml(title)}</video:title>` +
         `<video:description>${escapeXml(description)}</video:description>` +
-        `<video:content_loc>${escapeXml(`${SITE_URL}/videos/${file}.mp4`)}</video:content_loc>` +
-        `<video:duration>${isoDurationToSeconds(duration)}</video:duration>` +
+        locationTags +
         `<video:family_friendly>yes</video:family_friendly>` +
         `</video:video>`;
       return `<url><loc>${escapeXml(loc)}</loc>${videoTag}</url>`;
