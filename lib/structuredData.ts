@@ -1,6 +1,6 @@
 import { SITE_URL, toAbsoluteImageUrl } from "@/lib/seo";
 import { socialLinks } from "@/lib/socialLinks";
-import { videos } from "@/lib/videoData";
+import { videos, videoThumbnail, youTubeEmbedUrl, type Video } from "@/lib/videoData";
 import { getPathname } from "@/navigation";
 import {
   COMPANY_NAME,
@@ -99,21 +99,30 @@ export function buildOrganizationSchema() {
 }
 
 function buildVideoObjectSchema(
-  { file, duration }: { file: string; duration: string },
+  video: Video,
   { name, description }: { name: string; description: string }
 ) {
-  return {
+  const base = {
     "@context": "https://schema.org",
     "@type": "VideoObject",
     name,
     description,
-    thumbnailUrl: [`${SITE_URL}/videos/${file}.webp`],
-    contentUrl: `${SITE_URL}/videos/${file}.mp4`,
+    thumbnailUrl: [toAbsoluteImageUrl(videoThumbnail(video))],
     // No real per-video upload date is tracked anywhere in this codebase —
     // `uploadDate` is a recommended, not required, VideoObject field, so it's
     // left out rather than filled with a fabricated (and previously
     // identical-across-all-videos) placeholder date.
-    duration,
+  };
+  if (video.source === "youtube") {
+    // Embedded third-party video: we neither host the file nor publish it,
+    // so there is no contentUrl/publisher of ours to declare. Duration isn't
+    // tracked for these and is optional, so it's left out too.
+    return { ...base, embedUrl: youTubeEmbedUrl(video.youtubeId) };
+  }
+  return {
+    ...base,
+    contentUrl: `${SITE_URL}/videos/${video.file}.mp4`,
+    duration: video.duration,
     publisher: {
       "@type": "Organization",
       name: "Marián s.r.o.",
@@ -194,7 +203,7 @@ export function buildBreadcrumbListSchema(
 }
 
 export function buildSingleVideoObjectSchema(
-  video: { file: string; duration: string },
+  video: Video,
   entry: { name: string; description: string }
 ) {
   return buildVideoObjectSchema(video, entry);

@@ -2372,6 +2372,7 @@
     "subtitle": "Vedeți uneltele noastre în acțiune.",
     "intro": "Clipuri scurte din atelier și din teren — cum se folosesc uneltele noastre la degroșare, scobire, șlefuire și finisarea lemnului. Sub fiecare video găsiți un link către produsele prezentate.",
     "cta": "Vezi produsele",
+    "play": "Redă videoclipul",
     "items": {
       "arbortechBallGouge": {
         "title": "Arbortech Ball Gouge – scobirea formelor rotunjite în lemn",
@@ -2396,6 +2397,26 @@
       "rasplovyKotucOstryKraj": {
         "title": "Disc raspel 125 mm cu margine ascuțită – prim-plan",
         "description": "Disc raspel tăiat manual de 125 mm cu margine ascuțită (profil V), din oțel carbon călit (40 HRC) — pentru îndepărtarea lemnului, modelare, canelare, lucrări de dulgherie și restaurare."
+      },
+      "arbortechSpheroPlane": {
+        "title": "Arbortech SpheroPlane – bol sau sferă din lemn fără strung",
+        "description": "Accesoriul Arbortech SpheroPlane pentru polizorul unghiular în acțiune. Cu raza de tăiere reglabilă realizați un bol sferic sau o sferă fără strung, apoi o finisați direct cu sistemul de șlefuire inclus. Se potrivește pe Power Carving Unit și pe polizoarele standard de 115 și 125 mm."
+      },
+      "arbortechPowerChisel": {
+        "title": "Arbortech Power Chisel – daltă electrică pentru sculptură și basoreliefuri",
+        "description": "Dalta electrică Arbortech Power Chisel cu 7 dălți interschimbabile în lucru. Acționarea liniară imită dalta manuală, astfel încât realizați detalii, basoreliefuri și modelarea grosieră a sculpturilor fără să vă obosească mâinile – și mai silențios decât cu o daltă pneumatică."
+      },
+      "arbortechMiniCarver": {
+        "title": "Arbortech Mini Carver 1000 W – freză electrică pentru sculptură în lemn",
+        "description": "Freza electrică Arbortech Mini Carver, succesoarea lui Mini Grinder, în acțiune. Motorul de 1000 W cu turație reglabilă între 6.000 și 18.000 rot./min face față atât modelării grosiere, cât și finisării fine, iar capul decalat oferă vizibilitate bună și în locuri înguste."
+      },
+      "arbortechTurboScraper": {
+        "title": "Arbortech Turbo Scraper – netezirea lemnului ca o răzuitoare",
+        "description": "Discul Arbortech Turbo Scraper de 100 mm pentru polizorul unghiular în lucru. Nu îndepărtează mult material, ci netezește suprafața ca o răzuitoare manuală – fără așchii. Cei trei dinți din carbură pot fi rotiți sau înlocuiți după tocire."
+      },
+      "arbortechPowerCarvingUnit": {
+        "title": "Arbortech Power Carving Unit – polizor de sculptură pentru accesoriile Arbortech",
+        "description": "Unitatea de sculptură Arbortech Power Carving Unit în acțiune. Turația reglabilă între 3.000 și 12.000 rot./min permite tăierea, rindeluirea și șlefuirea fină, iar apărătoarea și mânerul antivibrații sunt adaptate discurilor Arbortech, de exemplu Turbo Plane."
       }
     },
     "pdfGuides": {

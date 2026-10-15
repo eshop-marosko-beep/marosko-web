@@ -2372,6 +2372,7 @@
     "subtitle": "Podívejte se na naše nářadí přímo v akci.",
     "intro": "Krátké video ukázky z dílny a z terénu — jak se naše nářadí používá při hrubování, dlabání, broušení a povrchové úpravě dřeva. Pod každým videem najdete odkaz na produkty, které v něm vidíte.",
     "cta": "Zobrazit produkty",
+    "play": "Přehrát video",
     "items": {
       "arbortechBallGouge": {
         "title": "Arbortech Ball Gouge – vyhlubování oblých tvarů do dřeva",
@@ -2396,6 +2397,26 @@
       "rasplovyKotucOstryKraj": {
         "title": "Rašplový kotouč 125 mm s ostrým okrajem – detail",
         "description": "Ručně sekaný rašplový kotouč 125 mm s ostrým okrajem (véčko) z kalené uhlíkové oceli (40 HRC) — pro odebírání dřeva, modelování, drážkování, tesařské i restaurátorské práce."
+      },
+      "arbortechSpheroPlane": {
+        "title": "Arbortech SpheroPlane – kulová miska ze dřeva bez soustruhu",
+        "description": "Frézovací nástavec Arbortech SpheroPlane na úhlovou brusku v akci. S nastavitelným poloměrem řezu vytvoříte kulovou misku nebo kouli bez soustruhu a přiloženým brusným systémem ji rovnou dobrousíte. Pasuje na Power Carving Unit i běžné brusky 115 a 125 mm."
+      },
+      "arbortechPowerChisel": {
+        "title": "Arbortech Power Chisel – elektrické dláto na řezbu a reliéfy",
+        "description": "Elektrické dláto Arbortech Power Chisel se 7 výměnnými dláty při práci. Lineární pohon napodobuje ruční dláto, takže zvládnete detaily, reliéfy i hrubé tvarování soch bez únavy rukou – a tišeji než s pneumatickým dlátem."
+      },
+      "arbortechMiniCarver": {
+        "title": "Arbortech Mini Carver 1000 W – elektrická řezbářská fréza",
+        "description": "Elektrická fréza Arbortech Mini Carver, nástupce Mini Grinderu, v akci. Motor 1000 W s regulací otáček 6 000 – 18 000 ot./min zvládne hrubé tvarování i jemné dokončování; předsunutá hlava dává dobrý výhled i v úzkých místech."
+      },
+      "arbortechTurboScraper": {
+        "title": "Arbortech Turbo Scraper – hlazení dřeva jako škrabkou",
+        "description": "Kotouč Arbortech Turbo Scraper 100 mm do úhlové brusky při práci. Neubírá mnoho materiálu, ale hladí povrch jako ruční škrabka – bez třísek. Tři karbidové zuby lze po otupení otočit nebo vyměnit."
+      },
+      "arbortechPowerCarvingUnit": {
+        "title": "Arbortech Power Carving Unit – řezbářská bruska pro příslušenství Arbortech",
+        "description": "Řezbářská jednotka Arbortech Power Carving Unit v akci. Plynulá regulace 3 000 – 12 000 ot./min umožňuje řezat, hoblovat i jemně brousit; kryt a antivibrační rukojeť jsou přizpůsobeny kotoučům Arbortech, například Turbo Plane."
       }
     },
     "pdfGuides": {

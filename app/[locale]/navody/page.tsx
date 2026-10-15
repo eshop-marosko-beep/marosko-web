@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Link } from "@/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { videos } from "@/lib/videoData";
+import { videos, videoThumbnail } from "@/lib/videoData";
 import { pdfGuides } from "@/lib/pdfGuides";
 import { guideArticles } from "@/lib/guideArticles";
 import { buildMetadata } from "@/lib/seo";
@@ -22,7 +22,7 @@ export async function generateMetadata({
     path: "/navody",
     title: t("title"),
     description: t("description"),
-    image: `/videos/${videos[0].file}.webp`,
+    image: videoThumbnail(videos[0]),
   });
 }
 
@@ -50,6 +50,8 @@ export default async function VideosPage({
     }))
   );
 
+  const videoCards = videos.map((video) => ({ ...video, thumbnail: videoThumbnail(video) }));
+
   return (
     <div className="py-8 max-w-6xl mx-auto">
       <StructuredData data={breadcrumbSchema} />
@@ -60,7 +62,7 @@ export default async function VideosPage({
       <p className="text-gray-600 leading-relaxed mb-10 max-w-2xl">{t("intro")}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {videos.map(({ slug, file, linkUrl, linkType, translationKey }) => (
+        {videoCards.map(({ slug, thumbnail, linkUrl, linkType, translationKey }) => (
           <div
             key={slug}
             className="bg-white rounded-xl shadow-lg overflow-hidden border border-transparent hover:border-amber-200 hover:shadow-xl transition-all flex flex-col"
@@ -70,7 +72,7 @@ export default async function VideosPage({
               className="relative block aspect-video bg-black group"
             >
               <Image
-                src={`/videos/${file}.webp`}
+                src={thumbnail}
                 alt={t(`items.${translationKey}.title`)}
                 fill
                 unoptimized
