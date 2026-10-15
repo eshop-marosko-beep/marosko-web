@@ -2421,6 +2421,14 @@
       "sochaPodlaPredlohy": {
         "title": "Socha podle předlohy – dokončení lešticí sadou Ø 30 cm",
         "description": "Dřevěná socha vytvořená podle předlohy. K jemnému dokončení velkých ploch takové sochy slouží lešticí sada s hřídelí 12 cm a lešticím kotoučem Ø 30 cm – velký kotouč pokryje více plochy najednou a hřídel pasuje do většiny leštiček."
+      },
+      "manpaMultiCutterMasterSada": {
+        "title": "Manpa Multi Cutter Master – sada se třemi délkami ramene",
+        "description": "Profesionální sada Manpa Multi Cutter Master na úhlovou brusku v akci. Tři délky ramene (200, 270 a 348 mm) a dva frézovací kotouče 70 a 95 mm pro hrubé i jemné tvarování dřeva. Řemenový převod při zaseknutí kotouče přeskočí a zabrání zpětnému rázu."
+      },
+      "manpaMultiCutterRameno": {
+        "title": "Manpa Multi Cutter 3\" – prodlužovací rameno k úhlové brusce",
+        "description": "Prodlužovací rameno Manpa Multi Cutter na úhlovou brusku při práci. Prodloužení o 160 mm a nastavení úhlu v rozsahu 180° umožní frézovat i v hloubkách a úzkých prostorách; řemenový převod snižuje riziko zpětného rázu. Verze bez kotouče – nástavec si vyberete podle práce."
       }
     },
     "pdfGuides": {

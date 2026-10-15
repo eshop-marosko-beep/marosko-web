@@ -2421,6 +2421,14 @@
       "sochaPodlaPredlohy": {
         "title": "Statue carved from a model – finishing with a Ø 30 cm polishing set",
         "description": "A wooden statue carved from a model. For fine finishing of large surfaces on a statue like this there is a polishing set with a 12 cm shaft and a Ø 30 cm polishing disc – the large disc covers more surface at once, and the shaft fits most polishers."
+      },
+      "manpaMultiCutterMasterSada": {
+        "title": "Manpa Multi Cutter Master – kit with three arm lengths",
+        "description": "The professional Manpa Multi Cutter Master angle-grinder kit in action. Three arm lengths (200, 270 and 348 mm) and two milling discs, 70 and 95 mm, for rough and fine wood shaping. The belt drive slips if the disc jams, preventing kickback."
+      },
+      "manpaMultiCutterRameno": {
+        "title": "Manpa Multi Cutter 3\" – extension arm for angle grinders",
+        "description": "The Manpa Multi Cutter extension arm for angle grinders at work. A 160 mm extension and 180° angle adjustment let you mill deep down and in tight spaces, and the belt drive reduces the risk of kickback. Bare-tool version – choose the cutter to suit the job."
       }
     },
     "pdfGuides": {
