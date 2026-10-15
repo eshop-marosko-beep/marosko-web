@@ -129,6 +129,15 @@ export const videos: Video[] = [
     linkType: "external",
     translationKey: "arbortechPowerCarvingUnit",
   },
+  {
+    source: "youtube",
+    slug: "socha-podla-predlohy-lesticka-sada",
+    youtubeId: "-6F279ng5Qo",
+    poster: "https://eshop.marosko.sk/resize/e/1200/630/files/na-velke-projekty/kotuc-do-lesticky.jpg",
+    linkUrl: "https://eshop.marosko.sk/p/968/lestica-sada-hridel-12cm-kotuc-30cm",
+    linkType: "external",
+    translationKey: "sochaPodlaPredlohy",
+  },
 ];
 
 export function getVideo(slug: string) {
