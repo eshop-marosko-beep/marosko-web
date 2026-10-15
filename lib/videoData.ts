@@ -138,6 +138,33 @@ export const videos: Video[] = [
     linkType: "external",
     translationKey: "sochaPodlaPredlohy",
   },
+  {
+    source: "youtube",
+    slug: "manpa-multi-cutter-master-sada",
+    youtubeId: "GOM9lPK7-s0",
+    poster: "https://eshop.marosko.sk/resize/e/1200/630/files/manpa/master/2.jpg",
+    linkUrl: "https://eshop.marosko.sk/p/1029/predlzovacie-rameno-s-predlzenim-frezovanie-manpa-multi-cutter-master",
+    linkType: "external",
+    translationKey: "manpaMultiCutterMasterSada",
+  },
+  {
+    source: "youtube",
+    slug: "manpa-multi-cutter-predlzovacie-rameno",
+    youtubeId: "wOrxQ1y40FY",
+    poster: "https://eshop.marosko.sk/resize/e/1200/630/files/na-drevo/do-uhlovych-brusok/predlzovaci-rameno-/multi-cutter-mp21-bez-frezky.jpeg",
+    linkUrl: "https://eshop.marosko.sk/p/789/predlzovacie-rameno-s-viacucelovym-nadstavcom-manpa",
+    linkType: "external",
+    translationKey: "manpaMultiCutterRameno",
+  },
+  {
+    source: "youtube",
+    slug: "saburrtooth-ihlickove-rasple-uhlova-bruska",
+    youtubeId: "nGL3Jke0JMU",
+    poster: "https://eshop.marosko.sk/resize/e/1200/630/files/na-drevo/do-uhlovych-brusok/brusne/saburr-usa/detail.jpg",
+    linkUrl: "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky/nastroje-do-uhlovych-brusiek-na-drevo/brusne-kotuce-na-drevo/ihlickove-brusne-kotuce",
+    linkType: "external",
+    translationKey: "saburrtoothIhlickoveRasple",
+  },
 ];
 
 export function getVideo(slug: string) {
