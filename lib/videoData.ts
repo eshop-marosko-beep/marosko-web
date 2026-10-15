@@ -156,6 +156,15 @@ export const videos: Video[] = [
     linkType: "external",
     translationKey: "manpaMultiCutterRameno",
   },
+  {
+    source: "youtube",
+    slug: "saburrtooth-ihlickove-rasple-uhlova-bruska",
+    youtubeId: "nGL3Jke0JMU",
+    poster: "https://eshop.marosko.sk/resize/e/1200/630/files/na-drevo/do-uhlovych-brusok/brusne/saburr-usa/detail.jpg",
+    linkUrl: "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky/nastroje-do-uhlovych-brusiek-na-drevo/brusne-kotuce-na-drevo/ihlickove-brusne-kotuce",
+    linkType: "external",
+    translationKey: "saburrtoothIhlickoveRasple",
+  },
 ];
 
 export function getVideo(slug: string) {
