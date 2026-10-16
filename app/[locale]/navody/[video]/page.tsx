@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
-import { videos, getVideo, videoThumbnail } from "@/lib/videoData";
+import { videos, getVideo, videoThumbnail, videoLinkUrl } from "@/lib/videoData";
 import { routing } from "@/routing";
 import { buildSingleVideoObjectSchema, buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
@@ -49,6 +49,7 @@ export default async function VideoDetailPage({
   const tNav = await getTranslations("navigation");
   const title = t(`items.${found.translationKey}.title`);
   const description = t(`items.${found.translationKey}.description`);
+  const linkUrl = videoLinkUrl(found, locale);
 
   const schema = buildSingleVideoObjectSchema(found, { name: title, description });
   const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
@@ -91,14 +92,14 @@ export default async function VideoDetailPage({
 
           {found.linkType === "internal" ? (
             <Link
-              href={found.linkUrl}
+              href={linkUrl}
               className="inline-block bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors mb-6"
             >
               {t("cta")} →
             </Link>
           ) : (
             <a
-              href={found.linkUrl}
+              href={linkUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors mb-6"

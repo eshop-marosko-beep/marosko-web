@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Link } from "@/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { videos, videoThumbnail } from "@/lib/videoData";
+import { videos, videoThumbnail, videoLinkUrl } from "@/lib/videoData";
 import { pdfGuides } from "@/lib/pdfGuides";
 import { guideArticles } from "@/lib/guideArticles";
 import { buildMetadata } from "@/lib/seo";
@@ -50,7 +50,11 @@ export default async function VideosPage({
     }))
   );
 
-  const videoCards = videos.map((video) => ({ ...video, thumbnail: videoThumbnail(video) }));
+  const videoCards = videos.map((video) => ({
+    ...video,
+    thumbnail: videoThumbnail(video),
+    linkUrl: videoLinkUrl(video, locale),
+  }));
 
   return (
     <div className="py-8 max-w-6xl mx-auto">
