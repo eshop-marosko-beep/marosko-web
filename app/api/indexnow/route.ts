@@ -17,11 +17,11 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const host = new URL(SITE_URL).host;
-  // Previews run on *.vercel.app, which must not be submitted.
-  if (host.endsWith(".vercel.app")) {
-    return NextResponse.json({ skipped: true, reason: `Host ${host} sa neodosiela` });
+  // Only production serves the real host; previews must not submit.
+  if (process.env.VERCEL_ENV !== "production") {
+    return NextResponse.json({ skipped: true, reason: "Odosiela sa len z produkcie" });
   }
+  const host = new URL(SITE_URL).host;
 
   const urlList = routing.locales.flatMap((locale) =>
     sitemapPaths().map((href) => `${SITE_URL}${getPathname({ locale, href })}`)
