@@ -9,7 +9,8 @@
     "blog": "Blog",
     "shops": "Our Shops",
     "contact": "Contact",
-    "promotions": "Promotions"
+    "promotions": "Promotions",
+    "rental": "Tool rental"
   },
   "common": {
     "openImage": "Open image in full size"
@@ -3120,6 +3121,10 @@
     "promotions": {
       "title": "Promotions | Marosko",
       "description": "Current promotions and clearance sales at eshop.marosko.sk – limited offers while stocks last."
+    },
+    "rental": {
+      "title": "Wood carving tool rental | Marosko",
+      "description": "Rent Arbortech and Manpa wood carving tools and try them on your own work. Online availability calendar and booking after registration."
     }
   },
   "cookies": {
@@ -3155,23 +3160,23 @@
       },
       "purposes": {
         "title": "What data we process and why",
-        "text": "If you contact us through the contact form on the site, we process the data you provide yourself – name, email, phone number, and the content of your message. We process this data to handle your inquiry, based on our legitimate interest in responding to visitor inquiries, or based on steps taken toward entering into a contract (Article 6(1)(b) and (f) GDPR).\n\nIf you consent to analytics cookies in the cookie banner, we also process data about your behavior on the site through Google Analytics, solely on the basis of your consent (Article 6(1)(a) GDPR), which you may withdraw at any time."
+        "text": "If you contact us through the contact form on the site, we process the data you provide yourself – name, email, phone number, and the content of your message. We process this data to handle your inquiry, based on our legitimate interest in responding to visitor inquiries, or based on steps taken toward entering into a contract (Article 6(1)(b) and (f) GDPR).\n\nIf you consent to analytics cookies in the cookie banner, we also process data about your behavior on the site through Google Analytics, solely on the basis of your consent (Article 6(1)(a) GDPR), which you may withdraw at any time.\n\nTool rental. If you create a rental account, we process the data you give us when registering – your name, e-mail, phone number and password (stored only in an encrypted form that we cannot read back). When you book, we also process the booking details – the tool, dates, price, deposit and your note – and the customer group you belong to. We process this data to run your account, handle bookings, and conclude and perform the rental contract (Art. 6(1)(b) GDPR).\n\nWhen handing over a tool, we write down the number of your identity document. We do this on the basis of our legitimate interest in protecting the rented property (Art. 6(1)(f) GDPR). We do not copy or scan the document.\n\nTo protect accounts from misuse, we briefly record failed sign-in attempts (for at most 15 minutes), on the basis of our legitimate interest in the security of the service (Art. 6(1)(f) GDPR)."
       },
       "retention": {
         "title": "Data retention period",
-        "text": "We keep contact-form data only for as long as necessary to handle your inquiry and a reasonable period afterward in case of follow-up communication, but no longer than 12 months from the last exchange, unless a specific legal requirement (e.g. accounting or tax law) requires a longer retention period. Data processed on the basis of consent (analytics) is retained for as long as that consent remains valid."
+        "text": "We keep contact-form data only for as long as necessary to handle your inquiry and a reasonable period afterward in case of follow-up communication, but no longer than 12 months from the last exchange, unless a specific legal requirement (e.g. accounting or tax law) requires a longer retention period. Data processed on the basis of consent (analytics) is retained for as long as that consent remains valid.\n\nWe keep rental account data for as long as you use the account. If you do not use the account for 3 years, or ask us to close it, we delete the data. We keep booking data for the duration of the rental and a further 3 years in case of claims (e.g. damage to a tool). If an invoice or other accounting document was issued for the rental, we keep it for 10 years as required by accounting law. We keep the identity document number until the tool is returned and the deposit is settled, and at most until the period for raising claims has expired."
       },
       "recipients": {
         "title": "Recipients of personal data",
-        "text": "Your personal data may be shared with the following recipients who provide us with technical services: Vercel Inc. (website hosting and operation) and Google LLC (Google Analytics – only if you consent to analytics cookies). We do not share your data with other third parties for marketing purposes."
+        "text": "Your personal data may be disclosed to the following recipients who provide technical services to us: Vercel Inc. (website hosting and operation), Upstash Inc. (database of rental accounts and bookings, servers in Frankfurt, Germany), Resend Inc. (sending e-mails from the contact form and the rental) and Google LLC (Google Analytics – only if you consent to analytics cookies). We do not share data with other third parties for marketing purposes."
       },
       "transfers": {
         "title": "International data transfers",
-        "text": "Our service providers (Vercel, Google) may process data on servers located outside the European Union/EEA. In such cases, the transfer is protected by appropriate safeguards under GDPR, in particular the Standard Contractual Clauses approved by the European Commission under Article 46 GDPR."
+        "text": "We store rental account and booking data in a database on servers in the European Union (Frankfurt, Germany). Our service providers (Vercel, Resend, Google, Upstash) may, however, also process data on servers outside the European Union/EEA, for example when delivering the website or e-mails. In that case the transfer is protected by appropriate safeguards under the GDPR, in particular standard contractual clauses approved by the European Commission under Art. 46 GDPR."
       },
       "rights": {
         "title": "Your rights",
-        "text": "In connection with the processing of your personal data, you have the right to access your data, request its correction or erasure, restrict its processing, request data portability, and object to processing. Where processing is based on consent, you have the right to withdraw that consent at any time, without affecting the lawfulness of processing carried out before the withdrawal. You can exercise your rights by emailing eshop.marosko@gmail.com."
+        "text": "In connection with the processing of your personal data, you have the right to access your data, request its correction or erasure, restrict its processing, request data portability, and object to processing. Where processing is based on consent, you have the right to withdraw that consent at any time, without affecting the lawfulness of processing carried out before the withdrawal. You can exercise your rights by emailing eshop.marosko@gmail.com. If you want to close your rental account and have its data deleted, write to us at eshop.marosko@gmail.com – we will do so without undue delay unless ongoing rentals or legal obligations prevent it."
       },
       "complaint": {
         "title": "Right to lodge a complaint",
@@ -3179,7 +3184,7 @@
       },
       "cookiesTech": {
         "title": "Cookies used on this site",
-        "text": "This site uses three categories of cookies: necessary (required for basic site functionality, cannot be disabled), performance/analytics (Google Analytics – only with consent), and preference cookies (display of embedded content such as maps or videos – only with consent). You can change your choice at any time using the \"Cookie settings\" link in the site footer."
+        "text": "This site uses three categories of cookies: necessary (required for basic site functionality, cannot be disabled), performance/analytics (Google Analytics – only with consent), and preference cookies (display of embedded content such as maps or videos – only with consent). You can change your choice at any time using the \"Cookie settings\" link in the site footer. If you sign in to the rental, we store a strictly necessary sign-in cookie in your browser that keeps you signed in for at most 30 days or until you sign out. Sign-in does not work without it, so it does not require consent."
       }
     }
   },
@@ -3216,5 +3221,141 @@
     "title": "Promotions & Clearance",
     "subtitle": "Limited-time offers and clearance sales while stocks last.",
     "empty": "There are no active promotions right now. Check back soon!"
+  },
+  "rental": {
+    "title": "Tool rental",
+    "subtitle": "Try professional wood carving tools before you buy them.",
+    "intro": "We rent out selected Arbortech and Manpa tools. Once registered, you'll see prices and the availability calendar and can book a date straight away. We'll confirm your booking and arrange the handover.",
+    "signedInAs": "Signed in as {name}",
+    "myAccount": "My account and bookings",
+    "logout": "Sign out",
+    "lockedNote": "Prices, the availability calendar and booking are available after registration. It's free and takes a minute.",
+    "registerCta": "Register",
+    "loginCta": "Sign in",
+    "priceDay": "1 day",
+    "priceWeekend": "Weekend (Fri – Mon)",
+    "priceWeek": "7 days",
+    "deposit": "Refundable deposit",
+    "reserveCta": "See dates and book",
+    "pricesAfterLogin": "Sign in to see prices and free dates.",
+    "buyNew": "Buy new in the e-shop",
+    "howTitle": "How it works",
+    "how": {
+      "step1": "Register and sign in.",
+      "step2": "Pick a free date range in the calendar and send your booking.",
+      "step3": "We confirm the booking and agree a handover time with you.",
+      "step4": "You collect the tool and pay the rental fee and a refundable deposit. We return the deposit when you bring the tool back."
+    },
+    "conditionsTitle": "Rental terms",
+    "conditions": {
+      "c1": "A booking is valid only once we confirm it. You can see its status in your account.",
+      "c2": "Tools are handed over and returned in person at our shop in Vrádište (Vrádište 138, 908 49 Vrádište, Slovakia), Monday to Friday 9:00–17:00, at a time we agree on.",
+      "c3": "On collection you pay the rental fee and a refundable deposit. We return the deposit once the tool comes back complete and undamaged.",
+      "c4": "On collection we note the number of your ID document and check the tool's condition and accessories together with you.",
+      "c5": "Each day of late return is charged at the daily rate. Damage, missing accessories or excessively worn cutter teeth are paid by the renter.",
+      "c6": "Consumables (e.g. sanding discs) are not included in the rental; you can buy them in our e-shop."
+    },
+    "tools": {
+      "contourSander": {
+        "name": "Arbortech Contour Random Sander",
+        "description": "Arbortech random-orbit sander with a flexible Ø 50 mm pad on an angle grinder. For sanding rounded shapes, hollows and contours without burning the wood."
+      },
+      "manpaBasic": {
+        "name": "Manpa Multi Cutter Basic 3\"",
+        "description": "Extension arm with a 70 mm milling disc. We rent it mounted on an angle grinder, ready to work. For milling and shaping wood deep down and in tight spaces; the belt drive reduces the risk of kickback."
+      },
+      "manpaMaster": {
+        "name": "Manpa Multi Cutter Master 3\"/4\"",
+        "description": "Complete professional kit with three arm lengths (200, 270 and 348 mm) and 70 and 95 mm discs for rough and fine shaping of large pieces."
+      },
+      "karcherPuzzi": {
+        "name": "Kärcher Puzzi 10/1",
+        "description": "Professional spray-extraction cleaner for carpets, sofas, car seats and upholstery. 10 l fresh water and 9 l dirty water tanks, spray hose and a hand nozzle for upholstery. Cleaning agent is not included in the rental."
+      }
+    },
+    "calendar": {
+      "title": "Pick your dates",
+      "pickStart": "Click the first day of the rental.",
+      "pickEnd": "Now click the last day of the rental (or the same day for a single day).",
+      "prev": "Previous month",
+      "next": "Next month",
+      "legendFree": "Free",
+      "legendBooked": "Booked",
+      "legendSelected": "Your selection",
+      "selected": "Dates",
+      "days": "{count, plural, one {# day} other {# days}}",
+      "estimate": "Indicative price",
+      "priceNote": "We'll confirm the final price together with the booking.",
+      "note": "Note (optional)",
+      "notePlaceholder": "E.g. when collection suits you",
+      "sending": "Sending…",
+      "submit": "Send booking",
+      "clear": "Clear selection",
+      "success": "Your booking has been sent and the dates are held for you. We'll get back to you with a confirmation.",
+      "successLink": "My bookings",
+      "successConfirmed": "Your booking is confirmed and the dates are yours. We'll contact you about the handover time."
+    },
+    "auth": {
+      "registerTitle": "Register for tool rental",
+      "registerSubtitle": "Once registered, you'll see prices and the availability calendar and can book tools.",
+      "loginTitle": "Sign in to tool rental",
+      "loginSubtitle": "Sign in with the email and password you registered with.",
+      "name": "Full name",
+      "phone": "Phone",
+      "email": "Email",
+      "password": "Password",
+      "passwordHint": "At least 8 characters.",
+      "consent": "I agree to the <terms>rental terms</terms> and to the processing of my personal data under the <gdpr>privacy policy</gdpr>.",
+      "sending": "One moment…",
+      "submitRegister": "Register",
+      "submitLogin": "Sign in",
+      "haveAccount": "Already have an account?",
+      "noAccount": "Don't have an account yet?",
+      "loginLink": "Sign in",
+      "registerLink": "Register",
+      "adminVerifySent": "This address belongs to the rental admin. We've emailed a confirmation link – the account is created only once you open it."
+    },
+    "account": {
+      "title": "My account",
+      "bookingsTitle": "My bookings",
+      "empty": "You don't have any bookings yet.",
+      "status": {
+        "pending": "Awaiting confirmation",
+        "confirmed": "Confirmed",
+        "declined": "Declined",
+        "cancelled": "Cancelled"
+      },
+      "toRental": "Go to tool rental",
+      "group": "Customer group",
+      "adminLink": "Rental admin"
+    },
+    "errors": {
+      "invalid_request": "Invalid request.",
+      "invalid_fields": "Please fill in your name, a valid email and a phone number.",
+      "weak_password": "The password must be at least 8 characters long.",
+      "consent_required": "Registration requires agreeing to the terms.",
+      "email_taken": "An account with this email already exists. Please sign in.",
+      "invalid_login": "Wrong email or password.",
+      "too_many_attempts": "Too many failed attempts. Please try again in 15 minutes.",
+      "not_signed_in": "Please sign in again.",
+      "unknown_tool": "This tool isn't available for rent.",
+      "invalid_dates": "Please pick valid dates (up to 6 months ahead).",
+      "too_long": "You can book at most 30 days at once.",
+      "dates_taken": "These dates are already booked. Please pick others.",
+      "try_again": "Another booking is being made right now. Please try again in a moment.",
+      "generic": "Something went wrong. Please try again or give us a call.",
+      "blocked": "Your account is suspended; bookings aren't possible.",
+      "tool_not_allowed": "This tool isn't available to your customer group.",
+      "forbidden": "You don't have permission for this action.",
+      "not_found": "Record not found."
+    },
+    "email": {
+      "confirmedHeading": "Booking confirmed",
+      "confirmedText": "Your booking is confirmed. We'll contact you about the handover time.",
+      "declinedHeading": "Booking declined",
+      "declinedText": "Sorry, we can't confirm these dates. Please pick other dates or contact us."
+    },
+    "discountBadge": "Your discount: {percent} %",
+    "blockedNote": "Your account is suspended and bookings aren't possible at the moment. If this is a mistake, please contact us."
   }
 }

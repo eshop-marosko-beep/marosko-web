@@ -9,7 +9,8 @@
     "blog": "Blog",
     "shops": "Naše obchody",
     "contact": "Kontakt",
-    "promotions": "Akce a výprodeje"
+    "promotions": "Akce a výprodeje",
+    "rental": "Půjčovna"
   },
   "common": {
     "openImage": "Otevřít obrázek v plné velikosti"
@@ -3120,6 +3121,10 @@
     "promotions": {
       "title": "Akce a výprodeje | Marosko",
       "description": "Aktuální akce a výprodeje skladových zásob na eshop.marosko.sk – limitovaná nabídka, dokud vydrží zásoby."
+    },
+    "rental": {
+      "title": "Půjčovna řezbářského nářadí | Marosko",
+      "description": "Půjčte si řezbářské nářadí Arbortech a Manpa a vyzkoušejte ho při vlastní práci. Online kalendář dostupnosti a rezervace po registraci."
     }
   },
   "cookies": {
@@ -3155,23 +3160,23 @@
       },
       "purposes": {
         "title": "Jaké údaje zpracováváme a za jakým účelem",
-        "text": "Pokud nás kontaktujete prostřednictvím kontaktního formuláře na stránce, zpracováváme údaje, které nám sami poskytnete – jméno a příjmení, e-mail, telefonní číslo a obsah vaší zprávy. Tyto údaje zpracováváme za účelem vyřízení vašeho dotazu, na základě našeho oprávněného zájmu odpovídat na dotazy návštěvníků stránky, případně na základě kroků směřujících k uzavření smlouvy (čl. 6 odst. 1 písm. b) a f) GDPR).\n\nPokud v cookie liště udělíte souhlas s analytickými cookies, zpracováváme i údaje o vašem chování na stránce prostřednictvím nástroje Google Analytics, a to pouze na základě vašeho souhlasu (čl. 6 odst. 1 písm. a) GDPR), který můžete kdykoli odvolat."
+        "text": "Pokud nás kontaktujete prostřednictvím kontaktního formuláře na stránce, zpracováváme údaje, které nám sami poskytnete – jméno a příjmení, e-mail, telefonní číslo a obsah vaší zprávy. Tyto údaje zpracováváme za účelem vyřízení vašeho dotazu, na základě našeho oprávněného zájmu odpovídat na dotazy návštěvníků stránky, případně na základě kroků směřujících k uzavření smlouvy (čl. 6 odst. 1 písm. b) a f) GDPR).\n\nPokud v cookie liště udělíte souhlas s analytickými cookies, zpracováváme i údaje o vašem chování na stránce prostřednictvím nástroje Google Analytics, a to pouze na základě vašeho souhlasu (čl. 6 odst. 1 písm. a) GDPR), který můžete kdykoli odvolat.\n\nPůjčovna nářadí. Pokud si vytvoříte účet v půjčovně, zpracováváme údaje, které nám při registraci poskytnete – jméno a příjmení, e-mail, telefonní číslo a heslo (ukládáme ho jen v zašifrované podobě, kterou nedokážeme zpětně přečíst). Při rezervaci zpracováváme také údaje o rezervaci – vybrané nářadí, termín, cenu, zálohu a vaši poznámku – a zákaznickou skupinu, do které jste zařazeni. Tyto údaje zpracováváme za účelem vedení vašeho účtu, vyřízení rezervací a uzavření a plnění smlouvy o pronájmu (čl. 6 odst. 1 písm. b) GDPR).\n\nPři předání nářadí si zapíšeme číslo vašeho dokladu totožnosti. Činíme tak na základě našeho oprávněného zájmu na ochraně půjčeného majetku (čl. 6 odst. 1 písm. f) GDPR). Doklad nekopírujeme ani neskenujeme.\n\nK ochraně účtů před zneužitím krátkodobě evidujeme neúspěšné pokusy o přihlášení (nejvýše 15 minut), na základě našeho oprávněného zájmu na bezpečnosti služby (čl. 6 odst. 1 písm. f) GDPR)."
       },
       "retention": {
         "title": "Doba uchovávání údajů",
-        "text": "Údaje z kontaktního formuláře uchováváme jen po dobu nezbytnou k vyřízení vašeho dotazu a přiměřenou dobu poté pro případ navazující komunikace, nejdéle však 12 měsíců od poslední vzájemné komunikace, pokud zvláštní právní předpis (např. účetní nebo daňové předpisy) nevyžaduje delší dobu uchovávání. Údaje zpracovávané na základě souhlasu (analytika) uchováváme po dobu platnosti tohoto souhlasu."
+        "text": "Údaje z kontaktního formuláře uchováváme jen po dobu nezbytnou k vyřízení vašeho dotazu a přiměřenou dobu poté pro případ navazující komunikace, nejdéle však 12 měsíců od poslední vzájemné komunikace, pokud zvláštní právní předpis (např. účetní nebo daňové předpisy) nevyžaduje delší dobu uchovávání. Údaje zpracovávané na základě souhlasu (analytika) uchováváme po dobu platnosti tohoto souhlasu.\n\nÚdaje zákaznického účtu v půjčovně uchováváme, dokud účet používáte. Pokud účet 3 roky nepoužijete nebo nás požádáte o jeho zrušení, údaje vymažeme. Údaje o rezervacích uchováváme po dobu trvání pronájmu a další 3 roky pro případ uplatnění nároků (např. při poškození nářadí). Pokud byla k pronájmu vystavena faktura nebo jiný účetní doklad, uchováváme ho 10 let, jak vyžaduje zákon o účetnictví. Záznam čísla dokladu totožnosti uchováváme do vrácení nářadí a vyrovnání zálohy, nejdéle však do uplynutí lhůty pro uplatnění nároků."
       },
       "recipients": {
         "title": "Příjemci osobních údajů",
-        "text": "Vaše osobní údaje mohou být zpřístupněny následujícím příjemcům, kteří nám poskytují technické služby: Vercel Inc. (hosting a provoz webové stránky) a Google LLC (nástroj Google Analytics – pouze v případě, že udělíte souhlas s analytickými cookies). Údaje neposkytujeme jiným třetím stranám pro marketingové účely."
+        "text": "Vaše osobní údaje mohou být zpřístupněny následujícím příjemcům, kteří nám poskytují technické služby: Vercel Inc. (hosting a provoz webové stránky), Upstash Inc. (databáze účtů a rezervací půjčovny, servery ve Frankfurtu, Německo), Resend Inc. (odesílání e-mailů z kontaktního formuláře a půjčovny) a Google LLC (nástroj Google Analytics – pouze v případě, že udělíte souhlas s analytickými cookies). Údaje neposkytujeme jiným třetím stranám pro marketingové účely."
       },
       "transfers": {
         "title": "Předání údajů do třetích zemí",
-        "text": "Naši poskytovatelé služeb (Vercel, Google) mohou zpracovávat údaje i na serverech mimo Evropskou unii/EHP. V takovém případě je předání zajištěno přiměřenými zárukami ve smyslu GDPR, zejména standardními smluvními doložkami schválenými Evropskou komisí podle čl. 46 GDPR."
+        "text": "Údaje účtů a rezervací půjčovny ukládáme v databázi na serverech v Evropské unii (Frankfurt, Německo). Naši poskytovatelé služeb (Vercel, Resend, Google, Upstash) však mohou údaje zpracovávat i na serverech mimo Evropskou unii/EHP, například při doručování stránky nebo e-mailů. V takovém případě je přenos zabezpečen přiměřenými zárukami ve smyslu GDPR, zejména standardními smluvními doložkami schválenými Evropskou komisí podle čl. 46 GDPR."
       },
       "rights": {
         "title": "Vaše práva",
-        "text": "V souvislosti se zpracováním vašich osobních údajů máte právo na přístup k údajům, jejich opravu, výmaz, omezení zpracování, přenositelnost údajů, jakož i právo vznést námitku proti zpracování. Je-li zpracování založeno na souhlasu, máte právo tento souhlas kdykoli odvolat, aniž je tím dotčena zákonnost zpracování před jeho odvoláním. Svá práva můžete uplatnit na e-mailu eshop.marosko@gmail.com."
+        "text": "V souvislosti se zpracováním vašich osobních údajů máte právo na přístup k údajům, jejich opravu, výmaz, omezení zpracování, přenositelnost údajů, jakož i právo vznést námitku proti zpracování. Je-li zpracování založeno na souhlasu, máte právo tento souhlas kdykoli odvolat, aniž je tím dotčena zákonnost zpracování před jeho odvoláním. Svá práva můžete uplatnit na e-mailu eshop.marosko@gmail.com. Pokud chcete zrušit svůj účet v půjčovně a vymazat jeho údaje, napište nám na eshop.marosko@gmail.com – učiníme tak bez zbytečného odkladu, pokud výmazu nebrání probíhající pronájmy nebo zákonné povinnosti."
       },
       "complaint": {
         "title": "Právo podat stížnost",
@@ -3179,7 +3184,7 @@
       },
       "cookiesTech": {
         "title": "Cookies používané na stránce",
-        "text": "Tato stránka používá tři kategorie cookies: nezbytné (zajišťují základní funkčnost stránky a nelze je vypnout), výkonnostní/analytické (Google Analytics – pouze se souhlasem) a preferenční (zobrazení vloženého obsahu jako map nebo videí – pouze se souhlasem). Svou volbu můžete kdykoli změnit pomocí odkazu \"Nastavení cookies\" v patičce stránky."
+        "text": "Tato stránka používá tři kategorie cookies: nezbytné (zajišťují základní funkčnost stránky a nelze je vypnout), výkonnostní/analytické (Google Analytics – pouze se souhlasem) a preferenční (zobrazení vloženého obsahu jako map nebo videí – pouze se souhlasem). Svou volbu můžete kdykoli změnit pomocí odkazu \"Nastavení cookies\" v patičce stránky. Pokud se přihlásíte do půjčovny, uložíme do vašeho prohlížeče nezbytnou přihlašovací cookie, která vás udrží přihlášené nejvýše 30 dní nebo do odhlášení. Bez ní přihlášení nefunguje, proto k ní není potřeba souhlas."
       }
     }
   },
@@ -3215,5 +3220,141 @@
     "title": "Akce a výprodeje",
     "subtitle": "Limitované nabídky a výprodej skladových zásob – vyplatí se nezaspat.",
     "empty": "Momentálně nemáme žádnou aktivní akci. Podívejte se znovu později!"
+  },
+  "rental": {
+    "title": "Půjčovna nářadí",
+    "subtitle": "Vyzkoušejte profesionální řezbářské nářadí dřív, než si ho koupíte.",
+    "intro": "Půjčujeme vybrané nástroje Arbortech a Manpa. Po registraci uvidíte ceny, kalendář dostupnosti a termín si můžete rovnou rezervovat. Rezervaci vám potvrdíme a domluvíme předání.",
+    "signedInAs": "Přihlášen: {name}",
+    "myAccount": "Můj účet a rezervace",
+    "logout": "Odhlásit se",
+    "lockedNote": "Ceny, kalendář dostupnosti a rezervace jsou dostupné po registraci. Je zdarma a trvá minutu.",
+    "registerCta": "Zaregistrovat se",
+    "loginCta": "Přihlásit se",
+    "priceDay": "1 den",
+    "priceWeekend": "Víkend (pá – po)",
+    "priceWeek": "7 dní",
+    "deposit": "Vratná záloha",
+    "reserveCta": "Zobrazit termíny a rezervovat",
+    "pricesAfterLogin": "Ceny a volné termíny uvidíte po přihlášení.",
+    "buyNew": "Koupit nový v e-shopu",
+    "howTitle": "Jak to funguje",
+    "how": {
+      "step1": "Zaregistrujte se a přihlaste.",
+      "step2": "V kalendáři vyberte volný termín od – do a odešlete rezervaci.",
+      "step3": "Rezervaci potvrdíme a domluvíme s vámi čas předání.",
+      "step4": "Nářadí si převezmete, zaplatíte nájemné a vratnou zálohu. Po vrácení vám zálohu vrátíme."
+    },
+    "conditionsTitle": "Podmínky pronájmu",
+    "conditions": {
+      "c1": "Rezervace je platná až po našem potvrzení. Stav rezervace vidíte ve svém účtu.",
+      "c2": "Nářadí předáváme a přebíráme osobně na naší prodejně ve Vrádišti (Vrádište 138, 908 49 Vrádište, Slovensko) v pondělí až pátek od 9:00 do 17:00, v čase, na kterém se domluvíme.",
+      "c3": "Při převzetí zaplatíte nájemné a vratnou zálohu. Zálohu vrátíme po vrácení kompletního a nepoškozeného nářadí.",
+      "c4": "Při převzetí si zapíšeme číslo vašeho dokladu totožnosti a společně zkontrolujeme stav a příslušenství.",
+      "c5": "Za každý den prodlení účtujeme denní sazbu. Poškození, chybějící příslušenství nebo nadměrně opotřebené zuby kotouče hradí nájemce.",
+      "c6": "Spotřební materiál (např. brusné výseky) není součástí pronájmu, koupíte ho v našem e-shopu."
+    },
+    "tools": {
+      "contourSander": {
+        "name": "Arbortech Contour Random Sander",
+        "description": "Excentrická bruska Arbortech s pružnou podložkou Ø 50 mm na úhlové brusce. Na broušení oblých tvarů, dutin a kontur bez pálení dřeva."
+      },
+      "manpaBasic": {
+        "name": "Manpa Multi Cutter Basic 3\"",
+        "description": "Prodlužovací rameno s frézovacím kotoučem 70 mm. Půjčujeme ho nasazené na úhlové brusce, připravené k práci. Na frézování a tvarování dřeva v hloubkách a úzkých prostorách; řemenový převod snižuje riziko zpětného rázu."
+      },
+      "manpaMaster": {
+        "name": "Manpa Multi Cutter Master 3\"/4\"",
+        "description": "Kompletní profesionální sada se třemi délkami ramene (200, 270 a 348 mm) a kotouči 70 a 95 mm na hrubé i jemné tvarování velkých děl."
+      },
+      "karcherPuzzi": {
+        "name": "Kärcher Puzzi 10/1",
+        "description": "Profesionální tepovač na koberce, sedačky, autosedačky a čalounění. Nádrž na čistou vodu 10 l a na špinavou vodu 9 l, hadice s rozprašováním a ruční hubice na čalounění. Čisticí prostředek není součástí pronájmu."
+      }
+    },
+    "calendar": {
+      "title": "Vyberte termín",
+      "pickStart": "Klikněte na první den pronájmu.",
+      "pickEnd": "Nyní klikněte na poslední den pronájmu (nebo na tentýž den pro 1 den).",
+      "prev": "Předchozí měsíc",
+      "next": "Následující měsíc",
+      "legendFree": "Volné",
+      "legendBooked": "Obsazené",
+      "legendSelected": "Váš výběr",
+      "selected": "Termín",
+      "days": "{count, plural, one {# den} few {# dny} other {# dní}}",
+      "estimate": "Orientační cena",
+      "priceNote": "Konečnou cenu vám potvrdíme spolu s rezervací.",
+      "note": "Poznámka (nepovinné)",
+      "notePlaceholder": "Např. kdy se vám hodí převzetí",
+      "sending": "Odesílám…",
+      "submit": "Odeslat rezervaci",
+      "clear": "Zrušit výběr",
+      "success": "Rezervace je odeslána a termín je pro vás zablokovaný. Ozveme se vám s potvrzením.",
+      "successLink": "Moje rezervace",
+      "successConfirmed": "Rezervace je potvrzená a termín je váš. Ozveme se vám ohledně času předání."
+    },
+    "auth": {
+      "registerTitle": "Registrace do půjčovny",
+      "registerSubtitle": "Po registraci uvidíte ceny a kalendář dostupnosti a můžete si rezervovat nářadí.",
+      "loginTitle": "Přihlášení do půjčovny",
+      "loginSubtitle": "Přihlaste se e-mailem a heslem, které jste zadali při registraci.",
+      "name": "Jméno a příjmení",
+      "phone": "Telefon",
+      "email": "E-mail",
+      "password": "Heslo",
+      "passwordHint": "Alespoň 8 znaků.",
+      "consent": "Souhlasím s <terms>podmínkami pronájmu</terms> a se zpracováním osobních údajů podle <gdpr>zásad ochrany osobních údajů</gdpr>.",
+      "sending": "Okamžik…",
+      "submitRegister": "Zaregistrovat se",
+      "submitLogin": "Přihlásit se",
+      "haveAccount": "Už máte účet?",
+      "noAccount": "Ještě nemáte účet?",
+      "loginLink": "Přihlaste se",
+      "registerLink": "Zaregistrujte se",
+      "adminVerifySent": "Tato adresa patří správci půjčovny. Na e-mail jsme poslali potvrzovací odkaz – účet se vytvoří, až když ho otevřete."
+    },
+    "account": {
+      "title": "Můj účet",
+      "bookingsTitle": "Moje rezervace",
+      "empty": "Zatím nemáte žádnou rezervaci.",
+      "status": {
+        "pending": "Čeká na potvrzení",
+        "confirmed": "Potvrzená",
+        "declined": "Zamítnutá",
+        "cancelled": "Zrušená"
+      },
+      "toRental": "Přejít do půjčovny",
+      "group": "Zákaznická skupina",
+      "adminLink": "Administrace půjčovny"
+    },
+    "errors": {
+      "invalid_request": "Neplatný požadavek.",
+      "invalid_fields": "Vyplňte prosím jméno, platný e-mail a telefon.",
+      "weak_password": "Heslo musí mít alespoň 8 znaků.",
+      "consent_required": "K registraci je potřeba souhlas s podmínkami.",
+      "email_taken": "Účet s tímto e-mailem už existuje. Přihlaste se.",
+      "invalid_login": "Nesprávný e-mail nebo heslo.",
+      "too_many_attempts": "Příliš mnoho neúspěšných pokusů. Zkuste to znovu za 15 minut.",
+      "not_signed_in": "Přihlaste se prosím znovu.",
+      "unknown_tool": "Toto nářadí se nepůjčuje.",
+      "invalid_dates": "Vyberte prosím platný termín (nejvýše 6 měsíců dopředu).",
+      "too_long": "Najednou lze rezervovat nejvýše 30 dní.",
+      "dates_taken": "Vybraný termín je už obsazený. Vyberte prosím jiný.",
+      "try_again": "Právě probíhá jiná rezervace. Zkuste to prosím za chvíli.",
+      "generic": "Něco se nepovedlo. Zkuste to prosím znovu nebo nám zavolejte.",
+      "blocked": "Váš účet je pozastaven, rezervace nejsou možné.",
+      "tool_not_allowed": "Toto nářadí není dostupné pro vaši zákaznickou skupinu.",
+      "forbidden": "K této akci nemáte oprávnění.",
+      "not_found": "Záznam nebyl nalezen."
+    },
+    "email": {
+      "confirmedHeading": "Rezervace potvrzena",
+      "confirmedText": "Vaše rezervace je potvrzena. Ozveme se vám ohledně času předání.",
+      "declinedHeading": "Rezervace zamítnuta",
+      "declinedText": "Je nám líto, tento termín vám nemůžeme potvrdit. Vyberte si prosím jiný termín nebo nás kontaktujte."
+    },
+    "discountBadge": "Vaše sleva {percent} %",
+    "blockedNote": "Váš účet je pozastaven, rezervace momentálně nejsou možné. Pokud jde o omyl, kontaktujte nás."
   }
 }

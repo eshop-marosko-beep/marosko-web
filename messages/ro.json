@@ -9,7 +9,8 @@
     "blog": "Blog",
     "shops": "Magazinele noastre",
     "contact": "Contact",
-    "promotions": "Promoții"
+    "promotions": "Promoții",
+    "rental": "Închiriere"
   },
   "common": {
     "openImage": "Deschide imaginea la mărimea completă"
@@ -3120,6 +3121,10 @@
     "promotions": {
       "title": "Promoții | Marosko",
       "description": "Promoții curente și lichidări de stoc pe eshop.marosko.sk – oferte limitate, cât mai sunt stocuri."
+    },
+    "rental": {
+      "title": "Închiriere scule de sculptură în lemn | Marosko",
+      "description": "Închiriați scule de sculptură Arbortech și Manpa și încercați-le în propria lucrare. Calendar online de disponibilitate și rezervare după înregistrare."
     }
   },
   "cookies": {
@@ -3155,23 +3160,23 @@
       },
       "purposes": {
         "title": "Ce date prelucrăm și în ce scop",
-        "text": "Dacă ne contactați prin formularul de contact de pe site, prelucrăm datele pe care ni le furnizați dumneavoastră – nume și prenume, e-mail, număr de telefon și conținutul mesajului. Prelucrăm aceste date pentru a răspunde solicitării dumneavoastră, în baza interesului nostru legitim de a răspunde vizitatorilor site-ului, sau în baza demersurilor pentru încheierea unui contract (art. 6 alin. (1) lit. b) și f) GDPR).\n\nDacă acordați consimțământul pentru cookies de analiză în bannerul de cookies, prelucrăm și date despre comportamentul dumneavoastră pe site prin Google Analytics, exclusiv pe baza consimțământului dumneavoastră (art. 6 alin. (1) lit. a) GDPR), pe care îl puteți retrage oricând."
+        "text": "Dacă ne contactați prin formularul de contact de pe site, prelucrăm datele pe care ni le furnizați dumneavoastră – nume și prenume, e-mail, număr de telefon și conținutul mesajului. Prelucrăm aceste date pentru a răspunde solicitării dumneavoastră, în baza interesului nostru legitim de a răspunde vizitatorilor site-ului, sau în baza demersurilor pentru încheierea unui contract (art. 6 alin. (1) lit. b) și f) GDPR).\n\nDacă acordați consimțământul pentru cookies de analiză în bannerul de cookies, prelucrăm și date despre comportamentul dumneavoastră pe site prin Google Analytics, exclusiv pe baza consimțământului dumneavoastră (art. 6 alin. (1) lit. a) GDPR), pe care îl puteți retrage oricând.\n\nÎnchirierea de scule. Dacă vă creați un cont pentru închirieri, prelucrăm datele pe care ni le furnizați la înregistrare – numele și prenumele, e-mailul, numărul de telefon și parola (o stocăm doar într-o formă criptată, pe care nu o putem citi înapoi). La rezervare prelucrăm și datele rezervării – scula aleasă, perioada, prețul, garanția și nota dvs. – precum și grupul de clienți din care faceți parte. Prelucrăm aceste date în scopul administrării contului, al gestionării rezervărilor și al încheierii și executării contractului de închiriere (art. 6 alin. (1) lit. b) GDPR).\n\nLa predarea sculei notăm numărul actului dvs. de identitate. Facem acest lucru în temeiul interesului nostru legitim de a proteja bunurile închiriate (art. 6 alin. (1) lit. f) GDPR). Nu copiem și nu scanăm actul.\n\nPentru a proteja conturile împotriva utilizării abuzive, înregistrăm pentru scurt timp încercările de autentificare eșuate (cel mult 15 minute), în temeiul interesului nostru legitim privind securitatea serviciului (art. 6 alin. (1) lit. f) GDPR)."
       },
       "retention": {
         "title": "Perioada de stocare a datelor",
-        "text": "Păstrăm datele din formularul de contact doar pe perioada necesară soluționării solicitării dumneavoastră și o perioadă rezonabilă ulterior, pentru eventuale comunicări ulterioare, dar nu mai mult de 12 luni de la ultima comunicare, cu excepția cazului în care o reglementare legală specifică (de ex. contabilă sau fiscală) impune o perioadă mai lungă. Datele prelucrate pe baza consimțământului (analiză) sunt păstrate pe durata valabilității acestui consimțământ."
+        "text": "Păstrăm datele din formularul de contact doar pe perioada necesară soluționării solicitării dumneavoastră și o perioadă rezonabilă ulterior, pentru eventuale comunicări ulterioare, dar nu mai mult de 12 luni de la ultima comunicare, cu excepția cazului în care o reglementare legală specifică (de ex. contabilă sau fiscală) impune o perioadă mai lungă. Datele prelucrate pe baza consimțământului (analiză) sunt păstrate pe durata valabilității acestui consimțământ.\n\nPăstrăm datele contului de închiriere cât timp utilizați contul. Dacă nu utilizați contul timp de 3 ani sau ne cereți închiderea lui, ștergem datele. Datele rezervărilor le păstrăm pe durata închirierii și încă 3 ani pentru eventuale pretenții (de ex. deteriorarea sculei). Dacă pentru închiriere s-a emis o factură sau alt document contabil, îl păstrăm 10 ani, conform legislației contabile. Numărul actului de identitate îl păstrăm până la returnarea sculei și decontarea garanției, dar cel mult până la expirarea termenului pentru formularea pretențiilor."
       },
       "recipients": {
         "title": "Destinatarii datelor cu caracter personal",
-        "text": "Datele dumneavoastră cu caracter personal pot fi puse la dispoziția următorilor destinatari, care ne furnizează servicii tehnice: Vercel Inc. (găzduirea și operarea site-ului) și Google LLC (Google Analytics – doar dacă acordați consimțământul pentru cookies de analiză). Nu furnizăm datele altor terți în scopuri de marketing."
+        "text": "Datele dvs. personale pot fi puse la dispoziția următorilor destinatari, care ne furnizează servicii tehnice: Vercel Inc. (găzduirea și operarea site-ului), Upstash Inc. (baza de date a conturilor și rezervărilor de închiriere, servere în Frankfurt, Germania), Resend Inc. (trimiterea e-mailurilor din formularul de contact și de la închirieri) și Google LLC (Google Analytics – doar dacă vă dați acordul pentru cookie-urile analitice). Nu transmitem datele altor terți în scopuri de marketing."
       },
       "transfers": {
         "title": "Transferul datelor către țări terțe",
-        "text": "Furnizorii noștri de servicii (Vercel, Google) pot prelucra date și pe servere situate în afara Uniunii Europene/SEE. În acest caz, transferul este protejat prin garanții adecvate în sensul GDPR, în special prin clauzele contractuale standard aprobate de Comisia Europeană conform art. 46 GDPR."
+        "text": "Datele conturilor și rezervărilor de închiriere le stocăm într-o bază de date pe servere din Uniunea Europeană (Frankfurt, Germania). Furnizorii noștri de servicii (Vercel, Resend, Google, Upstash) pot însă prelucra datele și pe servere din afara Uniunii Europene/SEE, de exemplu la livrarea site-ului sau a e-mailurilor. În acest caz, transferul este protejat prin garanții adecvate în sensul GDPR, în special prin clauze contractuale standard aprobate de Comisia Europeană conform art. 46 GDPR."
       },
       "rights": {
         "title": "Drepturile dumneavoastră",
-        "text": "În legătură cu prelucrarea datelor dumneavoastră cu caracter personal, aveți dreptul de acces la date, de rectificare, de ștergere, de restricționare a prelucrării, de portabilitate a datelor, precum și dreptul de a vă opune prelucrării. Dacă prelucrarea se bazează pe consimțământ, aveți dreptul de a-l retrage oricând, fără a afecta legalitatea prelucrării efectuate înainte de retragere. Vă puteți exercita drepturile la adresa eshop.marosko@gmail.com."
+        "text": "În legătură cu prelucrarea datelor dumneavoastră cu caracter personal, aveți dreptul de acces la date, de rectificare, de ștergere, de restricționare a prelucrării, de portabilitate a datelor, precum și dreptul de a vă opune prelucrării. Dacă prelucrarea se bazează pe consimțământ, aveți dreptul de a-l retrage oricând, fără a afecta legalitatea prelucrării efectuate înainte de retragere. Vă puteți exercita drepturile la adresa eshop.marosko@gmail.com. Dacă doriți să închideți contul de închiriere și să ștergeți datele acestuia, scrieți-ne la eshop.marosko@gmail.com – vom face acest lucru fără întârzieri nejustificate, cu excepția cazului în care închirieri în curs sau obligații legale împiedică ștergerea."
       },
       "complaint": {
         "title": "Dreptul de a depune o plângere",
@@ -3179,7 +3184,7 @@
       },
       "cookiesTech": {
         "title": "Cookies utilizate pe acest site",
-        "text": "Acest site utilizează trei categorii de cookies: necesare (asigură funcționalitatea de bază a site-ului și nu pot fi dezactivate), de performanță/analiză (Google Analytics – doar cu consimțământ) și de preferințe (afișarea conținutului încorporat, precum hărți sau videoclipuri – doar cu consimțământ). Vă puteți schimba alegerea oricând folosind linkul „Setări cookies” din subsolul paginii."
+        "text": "Acest site utilizează trei categorii de cookies: necesare (asigură funcționalitatea de bază a site-ului și nu pot fi dezactivate), de performanță/analiză (Google Analytics – doar cu consimțământ) și de preferințe (afișarea conținutului încorporat, precum hărți sau videoclipuri – doar cu consimțământ). Vă puteți schimba alegerea oricând folosind linkul „Setări cookies” din subsolul paginii. Dacă vă autentificați la închirieri, stocăm în browserul dvs. un cookie de autentificare strict necesar, care vă menține autentificat cel mult 30 de zile sau până la deconectare. Fără el autentificarea nu funcționează, de aceea nu necesită consimțământ."
       }
     }
   },
@@ -3215,5 +3220,141 @@
     "title": "Promoții și lichidări de stoc",
     "subtitle": "Oferte limitate și lichidări de stoc – nu rata ocazia.",
     "empty": "Momentan nu avem nicio promoție activă. Reveniți mai târziu!"
+  },
+  "rental": {
+    "title": "Închiriere scule",
+    "subtitle": "Încercați sculele profesionale de sculptură în lemn înainte să le cumpărați.",
+    "intro": "Închiriem scule selectate Arbortech și Manpa. După înregistrare vedeți prețurile și calendarul de disponibilitate și puteți rezerva direct o perioadă. Vă confirmăm rezervarea și stabilim predarea.",
+    "signedInAs": "Conectat: {name}",
+    "myAccount": "Contul meu și rezervările",
+    "logout": "Deconectare",
+    "lockedNote": "Prețurile, calendarul de disponibilitate și rezervarea sunt disponibile după înregistrare. Este gratuită și durează un minut.",
+    "registerCta": "Înregistrare",
+    "loginCta": "Conectare",
+    "priceDay": "1 zi",
+    "priceWeekend": "Weekend (vin – lun)",
+    "priceWeek": "7 zile",
+    "deposit": "Garanție returnabilă",
+    "reserveCta": "Vezi perioadele și rezervă",
+    "pricesAfterLogin": "Prețurile și perioadele libere le vedeți după conectare.",
+    "buyNew": "Cumpără nou în magazin",
+    "howTitle": "Cum funcționează",
+    "how": {
+      "step1": "Înregistrați-vă și conectați-vă.",
+      "step2": "Alegeți în calendar o perioadă liberă și trimiteți rezervarea.",
+      "step3": "Confirmăm rezervarea și stabilim cu dvs. ora predării.",
+      "step4": "Ridicați scula și plătiți chiria și o garanție returnabilă. La returnare vă restituim garanția."
+    },
+    "conditionsTitle": "Condiții de închiriere",
+    "conditions": {
+      "c1": "Rezervarea este valabilă doar după confirmarea noastră. Starea ei o vedeți în contul dvs.",
+      "c2": "Sculele se predau și se primesc personal la magazinul nostru din Vrádište (Vrádište 138, 908 49 Vrádište, Slovacia), de luni până vineri între 9:00 și 17:00, la ora stabilită împreună.",
+      "c3": "La ridicare plătiți chiria și o garanție returnabilă. Restituim garanția după returnarea sculei complete și nedeteriorate.",
+      "c4": "La ridicare notăm numărul actului dvs. de identitate și verificăm împreună starea sculei și accesoriile.",
+      "c5": "Fiecare zi de întârziere se taxează cu tariful zilnic. Deteriorările, accesoriile lipsă sau dinții discului uzați excesiv sunt plătite de chiriaș.",
+      "c6": "Consumabilele (de ex. discurile abrazive) nu sunt incluse în chirie; le puteți cumpăra din magazinul nostru online."
+    },
+    "tools": {
+      "contourSander": {
+        "name": "Arbortech Contour Random Sander",
+        "description": "Mașină de șlefuit excentrică Arbortech cu talpă flexibilă de Ø 50 mm, pe polizor unghiular. Pentru șlefuirea formelor rotunjite, a cavităților și a contururilor fără a arde lemnul."
+      },
+      "manpaBasic": {
+        "name": "Manpa Multi Cutter Basic 3\"",
+        "description": "Braț prelungitor cu disc de frezat de 70 mm. Îl închiriem montat pe polizorul unghiular, gata de lucru. Pentru frezarea și modelarea lemnului în adâncime și în spații înguste; transmisia prin curea reduce riscul de recul."
+      },
+      "manpaMaster": {
+        "name": "Manpa Multi Cutter Master 3\"/4\"",
+        "description": "Set profesional complet cu trei lungimi de braț (200, 270 și 348 mm) și discuri de 70 și 95 mm pentru modelarea grosieră și fină a pieselor mari."
+      },
+      "karcherPuzzi": {
+        "name": "Kärcher Puzzi 10/1",
+        "description": "Aparat profesional de spălat cu injecție-extracție pentru covoare, canapele, scaune auto și tapițerie. Rezervor de 10 l pentru apă curată și de 9 l pentru apă murdară, furtun de pulverizare și duză manuală pentru tapițerie. Detergentul nu este inclus în închiriere."
+      }
+    },
+    "calendar": {
+      "title": "Alegeți perioada",
+      "pickStart": "Faceți clic pe prima zi de închiriere.",
+      "pickEnd": "Acum faceți clic pe ultima zi de închiriere (sau pe aceeași zi pentru o singură zi).",
+      "prev": "Luna anterioară",
+      "next": "Luna următoare",
+      "legendFree": "Liber",
+      "legendBooked": "Ocupat",
+      "legendSelected": "Selecția dvs.",
+      "selected": "Perioada",
+      "days": "{count, plural, one {# zi} few {# zile} other {# de zile}}",
+      "estimate": "Preț orientativ",
+      "priceNote": "Prețul final vi-l confirmăm odată cu rezervarea.",
+      "note": "Notă (opțional)",
+      "notePlaceholder": "De ex. când vă convine ridicarea",
+      "sending": "Se trimite…",
+      "submit": "Trimite rezervarea",
+      "clear": "Anulează selecția",
+      "success": "Rezervarea a fost trimisă, iar perioada este blocată pentru dvs. Revenim cu o confirmare.",
+      "successLink": "Rezervările mele",
+      "successConfirmed": "Rezervarea este confirmată, iar perioada este a dvs. Vă contactăm pentru ora predării."
+    },
+    "auth": {
+      "registerTitle": "Înregistrare pentru închiriere",
+      "registerSubtitle": "După înregistrare vedeți prețurile și calendarul de disponibilitate și puteți rezerva scule.",
+      "loginTitle": "Conectare la închiriere",
+      "loginSubtitle": "Conectați-vă cu e-mailul și parola folosite la înregistrare.",
+      "name": "Nume și prenume",
+      "phone": "Telefon",
+      "email": "E-mail",
+      "password": "Parolă",
+      "passwordHint": "Cel puțin 8 caractere.",
+      "consent": "Sunt de acord cu <terms>condițiile de închiriere</terms> și cu prelucrarea datelor personale conform <gdpr>politicii de confidențialitate</gdpr>.",
+      "sending": "Un moment…",
+      "submitRegister": "Înregistrare",
+      "submitLogin": "Conectare",
+      "haveAccount": "Aveți deja cont?",
+      "noAccount": "Nu aveți încă cont?",
+      "loginLink": "Conectați-vă",
+      "registerLink": "Înregistrați-vă",
+      "adminVerifySent": "Această adresă aparține administratorului. V-am trimis pe e-mail un link de confirmare – contul se creează abia după ce îl deschideți."
+    },
+    "account": {
+      "title": "Contul meu",
+      "bookingsTitle": "Rezervările mele",
+      "empty": "Nu aveți încă nicio rezervare.",
+      "status": {
+        "pending": "Așteaptă confirmarea",
+        "confirmed": "Confirmată",
+        "declined": "Respinsă",
+        "cancelled": "Anulată"
+      },
+      "toRental": "Mergi la închiriere",
+      "group": "Grup de clienți",
+      "adminLink": "Administrare închiriere"
+    },
+    "errors": {
+      "invalid_request": "Cerere invalidă.",
+      "invalid_fields": "Completați numele, un e-mail valid și telefonul.",
+      "weak_password": "Parola trebuie să aibă cel puțin 8 caractere.",
+      "consent_required": "Pentru înregistrare este necesar acordul cu condițiile.",
+      "email_taken": "Există deja un cont cu acest e-mail. Conectați-vă.",
+      "invalid_login": "E-mail sau parolă greșită.",
+      "too_many_attempts": "Prea multe încercări nereușite. Încercați din nou peste 15 minute.",
+      "not_signed_in": "Vă rugăm să vă conectați din nou.",
+      "unknown_tool": "Această sculă nu se închiriază.",
+      "invalid_dates": "Alegeți o perioadă validă (cel mult 6 luni înainte).",
+      "too_long": "Se pot rezerva cel mult 30 de zile odată.",
+      "dates_taken": "Perioada aleasă este deja ocupată. Alegeți alta.",
+      "try_again": "Tocmai se face o altă rezervare. Încercați din nou peste câteva momente.",
+      "generic": "Ceva nu a funcționat. Încercați din nou sau sunați-ne.",
+      "blocked": "Contul dvs. este suspendat; nu se pot face rezervări.",
+      "tool_not_allowed": "Această sculă nu este disponibilă pentru grupul dvs. de clienți.",
+      "forbidden": "Nu aveți permisiunea pentru această acțiune.",
+      "not_found": "Înregistrarea nu a fost găsită."
+    },
+    "email": {
+      "confirmedHeading": "Rezervare confirmată",
+      "confirmedText": "Rezervarea dvs. este confirmată. Vă contactăm pentru ora predării.",
+      "declinedHeading": "Rezervare respinsă",
+      "declinedText": "Ne pare rău, nu putem confirma această perioadă. Alegeți altă perioadă sau contactați-ne."
+    },
+    "discountBadge": "Reducerea dvs.: {percent} %",
+    "blockedNote": "Contul dvs. este suspendat, momentan nu se pot face rezervări. Dacă este o greșeală, contactați-ne."
   }
 }

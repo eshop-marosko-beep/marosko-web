@@ -20,6 +20,7 @@ export default function Nav() {
     { href: "/znacky", label: t("brands") },
     { href: "/galeria", label: t("gallery") },
     { href: "/navody", label: t("videos") },
+    { href: "/pozicovna", label: t("rental") },
     { href: "/blog", label: t("blog") },
     { href: "/obchody", label: t("shops") },
     { href: "/kontakt", label: t("contact") },
