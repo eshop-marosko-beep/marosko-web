@@ -63,14 +63,14 @@ export const rentalTools: RentalTool[] = [
     accessories: ["Uhlová brúska", "Ramená Manpa 200, 270 a 348 mm", "Frézovacie kotúče 70 a 95 mm", "Montážny kľúč", "Kufor"],
   },
   {
-    slug: "karcher-puzzi-10-2",
+    slug: "karcher-puzzi-10-1",
     translationKey: "karcherPuzzi",
-    // Not sold on the eshop; shop logo until there is our own photo.
-    image: "/brand/marian-logo.webp",
+    // Not sold on the eshop, so the photo is served from public/.
+    image: "/pozicovna/karcher-puzzi-10-1.jpg",
     prices: { day: 15, weekend: 25, week: 60 },
     deposit: 150,
     units: 1,
-    accessories: ["Tepovač Kärcher Puzzi 10/2", "Hadica s rozprašovacou rukoväťou", "Podlahová hubica", "Ručná hubica na čalúnenie"],
+    accessories: ["Tepovač Kärcher Puzzi 10/1", "Hadica s rozprašovacou rukoväťou", "Ručná hubica na čalúnenie"],
   },
 ];
 
