@@ -204,6 +204,10 @@ function BookingsTab({
                     onClick={() => confirm("Zrušiť rezerváciu a uvoľniť termín?") && act({ action: "setBookingStatus", id: b.id, status: "cancelled" }, "Rezervácia zrušená, termín je voľný.")}
                     className={`${button} bg-white border border-gray-300 text-gray-700 hover:bg-gray-50`}>Zrušiť</button>
                 )}
+                {b.status === "confirmed" && (
+                  <a href={`/api/rental/admin/documents?id=${encodeURIComponent(b.id)}`} target="_blank" rel="noopener"
+                    className={`${button} bg-amber-600 text-white hover:bg-amber-700`}>Tlačiť doklady</a>
+                )}
               </div>
             </li>
           ))}

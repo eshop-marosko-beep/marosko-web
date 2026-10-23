@@ -14,6 +14,9 @@ export type RentalTool = {
   deposit: number;
   /** How many units can be out on rent at the same time. */
   units: number;
+  /** What the customer takes home, checked off on the handover protocol
+   * (Slovak, the documents are for the shop). */
+  accessories: string[];
 };
 
 export const rentalTools: RentalTool[] = [
@@ -29,6 +32,7 @@ export const rentalTools: RentalTool[] = [
     prices: { day: 8, weekend: 12, week: 20 },
     deposit: 100,
     units: 1,
+    accessories: ["Uhlová brúska", "Excentrický nástavec Arbortech Contour Sander", "Brúsna podložka Ø 50 mm", "Montážny kľúč"],
   },
   {
     slug: "manpa-multi-cutter-basic",
@@ -42,6 +46,7 @@ export const rentalTools: RentalTool[] = [
     prices: { day: 15, weekend: 25, week: 45 },
     deposit: 300,
     units: 1,
+    accessories: ["Uhlová brúska s nasadeným ramenom Manpa Basic", "Frézovací kotúč 70 mm", "Montážny kľúč"],
   },
   {
     slug: "manpa-multi-cutter-master",
@@ -55,6 +60,7 @@ export const rentalTools: RentalTool[] = [
     prices: { day: 18, weekend: 30, week: 55 },
     deposit: 350,
     units: 1,
+    accessories: ["Uhlová brúska", "Ramená Manpa 200, 270 a 348 mm", "Frézovacie kotúče 70 a 95 mm", "Montážny kľúč", "Kufor"],
   },
   {
     slug: "karcher-puzzi-10-2",
@@ -64,6 +70,7 @@ export const rentalTools: RentalTool[] = [
     prices: { day: 15, weekend: 25, week: 60 },
     deposit: 150,
     units: 1,
+    accessories: ["Tepovač Kärcher Puzzi 10/2", "Hadica s rozprašovacou rukoväťou", "Podlahová hubica", "Ručná hubica na čalúnenie"],
   },
 ];
 
