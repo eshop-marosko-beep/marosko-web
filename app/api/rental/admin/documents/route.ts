@@ -235,6 +235,10 @@ window.addEventListener("pageshow", function () {
     else el.value = el.defaultValue;
   });
 });
+// No text cursor on paper.
+window.addEventListener("beforeprint", function () {
+  if (document.activeElement instanceof HTMLElement) document.activeElement.blur();
+});
 var first = document.querySelector('input[name="address"]');
 if (first) first.focus();
 </script>`);
