@@ -1,5 +1,5 @@
 import { apiError, EMAIL_RE, readJson, str } from "@/lib/rental/api";
-import { createBooking, DATE_RE, getBooking, setBookingStatus, toolBookings } from "@/lib/rental/bookings";
+import { createBooking, DATE_RE, getBooking, setBookingPrice, setBookingStatus, toolBookings } from "@/lib/rental/bookings";
 import { getCatalog, getCatalogTool, groupPricing, saveToolSettings } from "@/lib/rental/catalog";
 import { DEFAULT_GROUP_ID, findGroup, getGroups, sanitizeGroup, saveGroups } from "@/lib/rental/groups";
 import { notifyCustomer, toolName } from "@/lib/rental/notify";
@@ -8,6 +8,12 @@ import { getCurrentUser, getUser, listUsers, normalizeEmail, saveUser, toPublicU
 
 /** Admin panel data and actions. Every request must come from a signed-in
  * admin (see lib/rental/users.ts for how an account becomes admin). */
+
+/** An amount in € typed by the admin ("12,50" or "12.5"); null if empty or invalid. */
+function agreed(value: unknown): number | null {
+  const n = Number.parseFloat(str(value, 20).replace(",", "."));
+  return Number.isFinite(n) && n >= 0 ? Math.round(n * 100) / 100 : null;
+}
 
 async function requireAdmin() {
   const user = await getCurrentUser();
@@ -51,6 +57,15 @@ export async function POST(request: Request) {
   const knownTools = rentalTools.map((tool) => tool.slug);
 
   switch (body.action) {
+    case "setBookingPrice": {
+      const price = agreed(body.price);
+      const deposit = agreed(body.deposit);
+      if (price === null || deposit === null) return apiError("invalid_price", 400);
+      const updated = await setBookingPrice(str(body.id, 40), price, deposit);
+      if (!updated) return apiError("not_found", 404);
+      return Response.json({ success: true });
+    }
+
     case "setBookingStatus": {
       const status = body.status;
       if (status !== "confirmed" && status !== "declined" && status !== "cancelled") return apiError("invalid_request", 400);
@@ -109,10 +124,6 @@ export async function POST(request: Request) {
       const pricing = groupPricing(tool, group);
       const days = rentalDays(from, to);
       // A price agreed at the counter (family, friends) replaces the price list.
-      const agreed = (value: unknown) => {
-        const n = Number.parseFloat(str(value, 20).replace(",", "."));
-        return Number.isFinite(n) && n >= 0 ? Math.round(n * 100) / 100 : null;
-      };
       const agreedPrice = agreed(body.price);
       const agreedDeposit = agreed(body.deposit);
       const result = await createBooking(tool, {
