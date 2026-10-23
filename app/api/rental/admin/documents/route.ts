@@ -1,12 +1,16 @@
 import { getBooking, type Booking } from "@/lib/rental/bookings";
 import { getCatalogTool, type CatalogTool } from "@/lib/rental/catalog";
+import { getEshopProduct, type EshopProduct } from "@/lib/rental/eshopProduct";
 import { toolName } from "@/lib/rental/notify";
+import { rentalEshopUrl } from "@/lib/rental/rentalData";
 import { getCurrentUser } from "@/lib/rental/users";
 
 /** Printable rental documents for one booking: the contract (one copy for
  * each side), the handover protocol and the deposit receipt. A4 HTML that
  * opens the print dialog, where the shop prints it or saves it as PDF.
- * The ID document number is written in by hand and never stored online. */
+ * Tool details come from the eshop product page. The customer's address and
+ * ID document number are typed into the toolbar (or written in by hand)
+ * and only ever live in this page, never on the server. */
 
 const LESSOR = {
   name: "Marián s.r.o.",
@@ -29,13 +33,15 @@ function eur(n: number): string {
 }
 
 const blank = (width = "14em") => `<span class="blank" style="min-width:${width}"></span>`;
+/** A blank the toolbar fields write into, e.g. the customer's address. */
+const fill = (field: string, width: string) => `<span class="blank" data-fill="${field}" style="min-width:${width}"></span>`;
 const box = `<span class="box"></span>`;
 
 function signatures(left: string, right: string): string {
   return `<div class="signs"><div>${left}</div><div>${right}</div></div>`;
 }
 
-function contract(b: Booking, name: string, lateDay: number, copy: string): string {
+function contract(b: Booking, name: string, lateDay: number, product: EshopProduct | null, copy: string): string {
   const e = escapeHtml;
   const discount = b.discountPercent ? ` (po zľave ${b.discountPercent} %)` : "";
   return `<section class="page">
@@ -45,13 +51,15 @@ function contract(b: Booking, name: string, lateDay: number, copy: string): stri
 
   <div class="parties">
     <div><strong>Prenajímateľ:</strong><br>${LESSOR.name}<br>${LESSOR.address}<br>${LESSOR.ids}<br>${LESSOR.email}</div>
-    <div><strong>Nájomca:</strong><br>${e(b.name)}<br>tel.: ${e(b.phone)}<br>${e(b.email)}<br>
-      Adresa: ${blank("16em")}<br>Číslo dokladu totožnosti: ${blank("10em")}</div>
+    <div><strong>Nájomca:</strong><br>${e(b.name)}<br>tel.: ${e(b.phone)}<br>${b.email ? `${e(b.email)}<br>` : ""}
+      Adresa: ${fill("address", "16em")}<br>Číslo dokladu totožnosti: ${fill("idNumber", "10em")}</div>
   </div>
 
   <h2>1. Predmet nájmu</h2>
-  <p>Prenajímateľ prenecháva nájomcovi do dočasného užívania <strong>${e(name)}</strong> vrátane príslušenstva uvedeného
-  v odovzdávacom a preberacom protokole, ktorý je súčasťou tejto zmluvy.</p>
+  <p>Prenajímateľ prenecháva nájomcovi do dočasného užívania <strong>${e(name)}</strong>${
+    product ? ` (${e(product.title)}${product.code ? `, kód ${e(product.code)}` : ""})` : ""
+  } vrátane príslušenstva uvedeného v odovzdávacom a preberacom protokole, ktorý je súčasťou tejto zmluvy.
+  Hodnota predmetu nájmu (cena nového vrátane DPH): ${product?.price ? `<strong>${eur(product.price)}</strong>` : `${blank("6em")} €`}.</p>
 
   <h2>2. Doba nájmu</h2>
   <p>Nájom sa uzatvára na dobu od <strong>${skDate(b.from)}</strong> do <strong>${skDate(b.to)}</strong> (${b.days} ${b.days === 1 ? "deň" : b.days < 5 ? "dni" : "dní"}).
@@ -72,7 +80,7 @@ function contract(b: Booking, name: string, lateDay: number, copy: string): stri
   <h2>5. Omeškanie a zodpovednosť za škodu</h2>
   <p>Za každý začatý deň omeškania s vrátením veci zaplatí nájomca nájomné vo výške dennej sadzby <strong>${eur(lateDay)}</strong>.
   Nájomca zodpovedá za poškodenie, stratu alebo odcudzenie veci, za chýbajúce príslušenstvo a za opotrebenie nad rámec bežného
-  používania (napr. poškodené zuby kotúča). Prenajímateľ nezodpovedá za škodu spôsobenú nesprávnym použitím veci.</p>
+  používania (napr. poškodené zuby kotúča). Pri strate alebo zničení veci uhradí nájomca jej hodnotu podľa čl. 1. Prenajímateľ nezodpovedá za škodu spôsobenú nesprávnym použitím veci.</p>
 
   <h2>6. Záverečné ustanovenia</h2>
   <p>Zmluva je vyhotovená v dvoch rovnopisoch, každá strana dostane jeden. Nájomca súhlasí s podmienkami požičovne zverejnenými
@@ -158,6 +166,7 @@ table { width: 100%; border-collapse: collapse; margin: 10px 0; }
 th, td { border: 1px solid #000; padding: 5px 6px; text-align: left; }
 .c { text-align: center; width: 6.5em; }
 .toolbar { position: sticky; top: 0; background: #3b2a1e; color: #fff; padding: 10px 16px; display: flex; gap: 12px; align-items: center; justify-content: center; font-size: 14px; }
+.toolbar input { padding: 6px 8px; border-radius: 6px; border: 0; font-size: 14px; width: 16em; }
 .toolbar button { background: #d97706; color: #fff; border: 0; padding: 8px 16px; border-radius: 6px; font-size: 14px; cursor: pointer; }
 @media print {
   body { background: #fff; }
@@ -183,13 +192,25 @@ export async function GET(request: Request) {
   if (!tool) return page("<h1>Náradie neexistuje</h1>", 404);
 
   const name = toolName(tool.slug, tool.translationKey);
+  const eshopUrl = rentalEshopUrl(tool, "sk");
+  const product = eshopUrl ? await getEshopProduct(eshopUrl) : null;
   const lateDay = Math.round(tool.prices.day * (100 - (booking.discountPercent ?? 0))) / 100;
 
-  return page(`<div class="toolbar">Doklady k rezervácii ${escapeHtml(booking.id)}
-  <button type="button" onclick="window.print()">Tlačiť / uložiť ako PDF</button></div>
-${contract(booking, name, lateDay, "Rovnopis pre prenajímateľa")}
-${contract(booking, name, lateDay, "Rovnopis pre nájomcu")}
+  return page(`<form class="toolbar" onsubmit="event.preventDefault(); window.print();" autocomplete="off">
+  <span>Doklady k rezervácii ${escapeHtml(booking.id)}</span>
+  <input name="address" placeholder="Adresa nájomcu (nepovinné)" aria-label="Adresa nájomcu">
+  <input name="idNumber" placeholder="Číslo dokladu totožnosti" aria-label="Číslo dokladu totožnosti">
+  <button type="submit">Tlačiť / uložiť ako PDF</button></form>
+${contract(booking, name, lateDay, product, "Rovnopis pre prenajímateľa")}
+${contract(booking, name, lateDay, product, "Rovnopis pre nájomcu")}
 ${protocol(booking, name, tool)}
 ${depositReceipt(booking, name)}
-<script>window.addEventListener("load", function () { window.print(); });</script>`);
+<script>
+document.querySelectorAll(".toolbar input").forEach(function (input) {
+  input.addEventListener("input", function () {
+    document.querySelectorAll('[data-fill="' + input.name + '"]').forEach(function (el) { el.textContent = input.value; });
+  });
+});
+document.querySelector(".toolbar input").focus();
+</script>`);
 }

@@ -7,6 +7,8 @@ export type Booking = {
   id: string;
   /** "block" = dates the admin closed (service, holiday); takes every unit. */
   kind?: "booking" | "block";
+  /** "shop" = entered by the admin for a customer at the shop counter. */
+  source?: "web" | "shop";
   toolSlug: string;
   email: string;
   name: string;
@@ -112,7 +114,8 @@ export async function createBooking(
       ["SET", key("booking", booking.id), JSON.stringify(booking)],
       ["SADD", key("toolbookings", tool.slug), booking.id],
     ];
-    if (booking.kind !== "block") commands.push(["LPUSH", key("userbookings", booking.email), booking.id]);
+    // Shop customers may have no e-mail and so no account to list it under.
+    if (booking.kind !== "block" && booking.email) commands.push(["LPUSH", key("userbookings", booking.email), booking.id]);
     await kvPipeline(commands);
     return { ok: true, booking };
   } finally {

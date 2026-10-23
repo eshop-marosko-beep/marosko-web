@@ -1,9 +1,9 @@
-import { apiError, readJson, str } from "@/lib/rental/api";
+import { apiError, EMAIL_RE, readJson, str } from "@/lib/rental/api";
 import { createBooking, DATE_RE, getBooking, setBookingStatus, toolBookings } from "@/lib/rental/bookings";
-import { getCatalog, getCatalogTool, saveToolSettings } from "@/lib/rental/catalog";
-import { DEFAULT_GROUP_ID, getGroups, sanitizeGroup, saveGroups } from "@/lib/rental/groups";
+import { getCatalog, getCatalogTool, groupPricing, saveToolSettings } from "@/lib/rental/catalog";
+import { DEFAULT_GROUP_ID, findGroup, getGroups, sanitizeGroup, saveGroups } from "@/lib/rental/groups";
 import { notifyCustomer, toolName } from "@/lib/rental/notify";
-import { rentalDays, rentalTools } from "@/lib/rental/rentalData";
+import { estimatePrice, rentalDays, rentalTools } from "@/lib/rental/rentalData";
 import { getCurrentUser, getUser, listUsers, normalizeEmail, saveUser, toPublicUser } from "@/lib/rental/users";
 
 /** Admin panel data and actions. Every request must come from a signed-in
@@ -89,6 +89,45 @@ export async function POST(request: Request) {
       });
       if (!result.ok) return apiError(result.reason === "taken" ? "dates_taken" : "try_again", 409);
       return Response.json({ success: true });
+    }
+
+    case "addShopBooking": {
+      // A customer who came to the shop: confirmed straight away, priced by
+      // their group (their account's group if the e-mail has one).
+      const tool = await getCatalogTool(str(body.tool));
+      const from = str(body.from, 10);
+      const to = str(body.to, 10);
+      if (!tool || !DATE_RE.test(from) || !DATE_RE.test(to) || from > to) return apiError("invalid_dates", 400);
+      const name = str(body.name, 100);
+      const phone = str(body.phone, 30);
+      const email = normalizeEmail(str(body.email, 200));
+      if (!name || !phone || (email && !EMAIL_RE.test(email))) return apiError("invalid_customer", 400);
+
+      const account = email ? await getUser(email) : null;
+      const groups = await getGroups();
+      const group = findGroup(groups, account?.groupId ?? (str(body.groupId, 40) || DEFAULT_GROUP_ID));
+      const pricing = groupPricing(tool, group);
+      const days = rentalDays(from, to);
+      const result = await createBooking(tool, {
+        kind: "booking",
+        source: "shop",
+        email,
+        name,
+        phone,
+        from,
+        to,
+        days,
+        estimatedPrice: estimatePrice(pricing, days),
+        deposit: pricing.deposit,
+        groupId: group.id,
+        discountPercent: pricing.discountPercent,
+        note: str(body.note, 500),
+        locale: "sk",
+        status: "confirmed",
+        decidedAt: new Date().toISOString(),
+      });
+      if (!result.ok) return apiError(result.reason === "taken" ? "dates_taken" : "try_again", 409);
+      return Response.json({ success: true, id: result.booking.id });
     }
 
     case "setCustomer": {

@@ -27,6 +27,7 @@ type Customer = {
 type Booking = {
   id: string;
   kind?: "booking" | "block";
+  source?: "web" | "shop";
   toolSlug: string;
   email: string;
   name: string;
@@ -70,6 +71,7 @@ const ERRORS: Record<string, string> = {
   invalid_dates: "Neplatný termín.",
   invalid_fields: "Vyplňte prosím názov a kód skupiny.",
   try_again: "Práve prebieha iná rezervácia, skúste to o chvíľu.",
+  invalid_customer: "Vyplňte meno a telefón zákazníka (e-mail je nepovinný, ale musí byť platný).",
 };
 
 const input = "border border-gray-300 rounded-lg px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500";
@@ -96,7 +98,7 @@ export default function AdminPanel() {
     load();
   }, [load]);
 
-  const act = async (payload: Record<string, unknown>, success = "Uložené.") => {
+  const act: Act = async (payload, success = "Uložené.") => {
     setBusy(true);
     setMessage(null);
     try {
@@ -106,10 +108,13 @@ export default function AdminPanel() {
         body: JSON.stringify(payload),
       });
       const data = await res.json();
-      setMessage(res.ok && data.success ? { ok: true, text: success } : { ok: false, text: ERRORS[data.error] ?? "Akcia sa nepodarila." });
+      const ok = res.ok && data.success;
+      setMessage(ok ? { ok: true, text: success } : { ok: false, text: ERRORS[data.error] ?? "Akcia sa nepodarila." });
       await load();
+      return ok ? data : null;
     } catch {
       setMessage({ ok: false, text: "Akcia sa nepodarila." });
+      return null;
     } finally {
       setBusy(false);
     }
@@ -142,8 +147,11 @@ export default function AdminPanel() {
       )}
 
       {tab === "bookings" && (
-        <BookingsTab bookings={state.bookings.filter((b) => b.kind !== "block")} toolName={toolName}
-          groupName={groupName} busy={busy} act={act} />
+        <>
+          <ShopBookingForm tools={state.tools} groups={state.groups} busy={busy} act={act} />
+          <BookingsTab bookings={state.bookings.filter((b) => b.kind !== "block")} toolName={toolName}
+            groupName={groupName} busy={busy} act={act} />
+        </>
       )}
       {tab === "blocks" && (
         <BlocksTab tools={state.tools} blocks={state.bookings.filter((b) => b.kind === "block")}
@@ -156,7 +164,85 @@ export default function AdminPanel() {
   );
 }
 
-type Act = (payload: Record<string, unknown>, success?: string) => Promise<void>;
+type Act = (payload: Record<string, unknown>, success?: string) => Promise<Record<string, unknown> | null>;
+
+function documentsUrl(id: string) {
+  return `/api/rental/admin/documents?id=${encodeURIComponent(id)}`;
+}
+
+/** A customer standing at the counter: the booking is confirmed at once and
+ * the documents open filled in with what was typed here. */
+function ShopBookingForm({ tools, groups, busy, act }: { tools: Tool[]; groups: Group[]; busy: boolean; act: Act }) {
+  const empty = { tool: tools[0]?.slug ?? "", from: today(), to: today(), name: "", phone: "", email: "", groupId: "bezny", note: "" };
+  const [open, setOpen] = useState(false);
+  const [form, setForm] = useState(empty);
+  const [created, setCreated] = useState<string | null>(null);
+  const set = (field: keyof typeof empty) => (e: { target: { value: string } }) => setForm({ ...form, [field]: e.target.value });
+
+  if (!open) {
+    return (
+      <div className="mb-6 flex flex-wrap items-center gap-3">
+        <button type="button" onClick={() => { setOpen(true); setCreated(null); }}
+          className={`${button} bg-amber-600 text-white hover:bg-amber-700`}>+ Zákazník na predajni</button>
+        {created && (
+          <a href={documentsUrl(created)} target="_blank" rel="noopener"
+            className={`${button} bg-green-600 text-white hover:bg-green-700`}>Tlačiť doklady k novej rezervácii</a>
+        )}
+      </div>
+    );
+  }
+
+  return (
+    <form className="bg-white rounded-xl shadow p-4 mb-6 grid grid-cols-1 md:grid-cols-4 gap-3"
+      onSubmit={async (e) => {
+        e.preventDefault();
+        const data = await act({ action: "addShopBooking", ...form }, "Rezervácia zapísaná a potvrdená.");
+        if (data && typeof data.id === "string") {
+          setCreated(data.id);
+          setForm(empty);
+          setOpen(false);
+          window.open(documentsUrl(data.id), "_blank", "noopener");
+        }
+      }}>
+      <p className="md:col-span-4 font-semibold text-espresso-800">Zákazník na predajni</p>
+      <label className="text-sm text-gray-700 flex flex-col gap-1">Náradie
+        <select value={form.tool} onChange={set("tool")} className={input}>
+          {tools.map((t) => <option key={t.slug} value={t.slug}>{t.name}</option>)}
+        </select>
+      </label>
+      <label className="text-sm text-gray-700 flex flex-col gap-1">Od
+        <input type="date" value={form.from} onChange={set("from")} className={input} required />
+      </label>
+      <label className="text-sm text-gray-700 flex flex-col gap-1">Do
+        <input type="date" value={form.to} min={form.from} onChange={set("to")} className={input} required />
+      </label>
+      <label className="text-sm text-gray-700 flex flex-col gap-1">Skupina
+        <select value={form.groupId} onChange={set("groupId")} className={input}>
+          {groups.map((g) => <option key={g.id} value={g.id}>{g.name}</option>)}
+        </select>
+      </label>
+      <label className="text-sm text-gray-700 flex flex-col gap-1">Meno a priezvisko
+        <input value={form.name} onChange={set("name")} className={input} required />
+      </label>
+      <label className="text-sm text-gray-700 flex flex-col gap-1">Telefón
+        <input type="tel" value={form.phone} onChange={set("phone")} className={input} required />
+      </label>
+      <label className="text-sm text-gray-700 flex flex-col gap-1">E-mail (nepovinný)
+        <input type="email" value={form.email} onChange={set("email")} className={input} />
+      </label>
+      <label className="text-sm text-gray-700 flex flex-col gap-1">Poznámka
+        <input value={form.note} onChange={set("note")} className={input} />
+      </label>
+      <p className="md:col-span-4 text-xs text-gray-500">
+        Adresu a číslo dokladu totožnosti doplníte až v dokladoch – na webe sa neukladajú. Ak má zákazník účet, použije sa skupina z jeho účtu.
+      </p>
+      <div className="md:col-span-4 flex gap-2">
+        <button type="submit" disabled={busy} className={`${button} bg-amber-600 text-white hover:bg-amber-700`}>Zapísať a otvoriť doklady</button>
+        <button type="button" onClick={() => setOpen(false)} className={`${button} bg-white border border-gray-300 text-gray-700 hover:bg-gray-50`}>Zrušiť</button>
+      </div>
+    </form>
+  );
+}
 
 function BookingsTab({
   bookings, toolName, groupName, busy, act,
@@ -184,7 +270,8 @@ function BookingsTab({
                 <div className="text-sm text-gray-700 space-y-0.5">
                   <p className="font-semibold text-espresso-800 text-base">{toolName(b.toolSlug)}</p>
                   <p>{b.from} – {b.to} ({b.days} d.) · {b.estimatedPrice} € · záloha {b.deposit} €</p>
-                  <p>{b.name} · <a className="underline" href={`mailto:${b.email}`}>{b.email}</a> · <a className="underline" href={`tel:${b.phone}`}>{b.phone}</a></p>
+                  <p>{b.name}{b.email && <> · <a className="underline" href={`mailto:${b.email}`}>{b.email}</a></>} · <a className="underline" href={`tel:${b.phone}`}>{b.phone}</a>
+                    {b.source === "shop" && <span className="ml-2 text-xs bg-amber-100 text-amber-800 rounded-full px-2 py-0.5">na predajni</span>}</p>
                   <p className="text-gray-500">Skupina: {groupName(b.groupId)} · vytvorená {b.createdAt.slice(0, 16).replace("T", " ")}</p>
                   {b.note && <p className="italic">„{b.note}“</p>}
                 </div>
@@ -205,7 +292,7 @@ function BookingsTab({
                     className={`${button} bg-white border border-gray-300 text-gray-700 hover:bg-gray-50`}>Zrušiť</button>
                 )}
                 {b.status === "confirmed" && (
-                  <a href={`/api/rental/admin/documents?id=${encodeURIComponent(b.id)}`} target="_blank" rel="noopener"
+                  <a href={documentsUrl(b.id)} target="_blank" rel="noopener"
                     className={`${button} bg-amber-600 text-white hover:bg-amber-700`}>Tlačiť doklady</a>
                 )}
               </div>
