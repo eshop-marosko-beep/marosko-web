@@ -2700,6 +2700,12 @@
       "name": "RezbárskeNáradie.sk",
       "description": "O selecție de încredere a acelorași unelte de calitate, prezentată clar pentru o cumpărare rapidă și simplă.",
       "cta": "Mergeți la RezbárskeNáradie.sk"
+    },
+    "rental": {
+      "badge": "Nou",
+      "name": "Închirieri de scule",
+      "description": "Nu vreți să cumpărați încă? Închiriați de la noi Manpa, Arbortech Contour Sander sau aparatul de spălat Kärcher. După înregistrare vedeți prețurile și perioadele libere; sculele se ridică de la magazinul nostru din Vrádište.",
+      "cta": "Mergi la închirieri"
     }
   },
   "contact": {
