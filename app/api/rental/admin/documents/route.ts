@@ -8,9 +8,10 @@ import { getCurrentUser } from "@/lib/rental/users";
 /** Printable rental documents for one booking: the contract (one copy for
  * each side), the handover protocol and the deposit receipt. A4 HTML that
  * opens the print dialog, where the shop prints it or saves it as PDF.
- * Tool details come from the eshop product page. The customer's address and
- * ID document number are typed into the toolbar (or written in by hand)
- * and only ever live in this page, never on the server. */
+ * Tool details come from the eshop product page. Every blank is a field to
+ * type into on the page (or to fill in by hand on paper); what is typed,
+ * such as the ID document number, only lives in this page and is never sent
+ * to the server. */
 
 const LESSOR = {
   name: "Marián s.r.o.",
@@ -32,10 +33,18 @@ function eur(n: number): string {
   return `${n.toFixed(2).replace(".", ",")} €`;
 }
 
-const blank = (width = "14em") => `<span class="blank" style="min-width:${width}"></span>`;
-/** A blank the toolbar fields write into, e.g. the customer's address. */
-const fill = (field: string, width: string) => `<span class="blank" data-fill="${field}" style="min-width:${width}"></span>`;
-const box = `<span class="box"></span>`;
+/** A line to type into on the page itself; left empty it prints as a blank
+ * line to fill in by hand. Fields with the same name (the two contract
+ * copies, the payment method on the contract and the receipt) stay in sync. */
+const field = (name: string, width: string, value = "") =>
+  `<input class="field" name="${name}" value="${escapeHtml(value)}" style="width:${width}" autocomplete="off">`;
+function todaySk(): string {
+  return new Date().toLocaleDateString("sk-SK", { timeZone: "Europe/Bratislava" });
+}
+
+/** A box that is ticked by clicking it. */
+const check = (name: string) => `<input type="checkbox" class="check" name="${name}">`;
+const payment = `${check("payCash")} hotovosť &nbsp; ${check("payCard")} platobná karta &nbsp; ${check("payTransfer")} bankový prevod`;
 
 function signatures(left: string, right: string): string {
   return `<div class="signs"><div>${left}</div><div>${right}</div></div>`;
@@ -52,14 +61,14 @@ function contract(b: Booking, name: string, lateDay: number, product: EshopProdu
   <div class="parties">
     <div><strong>Prenajímateľ:</strong><br>${LESSOR.name}<br>${LESSOR.address}<br>${LESSOR.ids}<br>${LESSOR.email}</div>
     <div><strong>Nájomca:</strong><br>${e(b.name)}<br>tel.: ${e(b.phone)}<br>${b.email ? `${e(b.email)}<br>` : ""}
-      Adresa: ${fill("address", "16em")}<br>Číslo dokladu totožnosti: ${fill("idNumber", "10em")}</div>
+      Adresa: ${field("address", "17em")}<br>Číslo dokladu totožnosti: ${field("idNumber", "9em")}</div>
   </div>
 
   <h2>1. Predmet nájmu</h2>
   <p>Prenajímateľ prenecháva nájomcovi do dočasného užívania <strong>${e(name)}</strong>${
     product ? ` (${e(product.title)}${product.code ? `, kód ${e(product.code)}` : ""})` : ""
   } vrátane príslušenstva uvedeného v odovzdávacom a preberacom protokole, ktorý je súčasťou tejto zmluvy.
-  Hodnota predmetu nájmu (cena nového vrátane DPH): ${product?.price ? `<strong>${eur(product.price)}</strong>` : `${blank("6em")} €`}.</p>
+  Hodnota predmetu nájmu (cena nového vrátane DPH): ${product?.price ? `<strong>${eur(product.price)}</strong>` : `${field("value", "6em")} €`}.</p>
 
   <h2>2. Doba nájmu</h2>
   <p>Nájom sa uzatvára na dobu od <strong>${skDate(b.from)}</strong> do <strong>${skDate(b.to)}</strong> (${b.days} ${b.days === 1 ? "deň" : b.days < 5 ? "dni" : "dní"}).
@@ -69,7 +78,7 @@ function contract(b: Booking, name: string, lateDay: number, product: EshopProdu
   <p>Nájomné za dobu nájmu je <strong>${eur(b.estimatedPrice)}</strong> vrátane DPH${discount}. Nájomca zaplatí pri prevzatí veci vratnú zálohu
   <strong>${eur(b.deposit)}</strong>. Prenajímateľ zálohu vráti po vrátení kompletnej a nepoškodenej veci. Prenajímateľ je oprávnený
   zo zálohy uhradiť nájomné za omeškanie a náhradu škody podľa čl. 5.</p>
-  <p>Spôsob platby: ${box} hotovosť &nbsp; ${box} platobná karta &nbsp; ${box} bankový prevod</p>
+  <p>Spôsob platby: ${payment}</p>
 
   <h2>4. Práva a povinnosti</h2>
   <p>Prenajímateľ odovzdáva vec v stave spôsobilom na riadne užívanie. Nájomca potvrdzuje, že bol oboznámený s obsluhou veci
@@ -86,7 +95,7 @@ function contract(b: Booking, name: string, lateDay: number, product: EshopProdu
   <p>Zmluva je vyhotovená v dvoch rovnopisoch, každá strana dostane jeden. Nájomca súhlasí s podmienkami požičovne zverejnenými
   na www.marosko.sk/pozicovna. Spracúvanie osobných údajov sa riadi zásadami na www.marosko.sk/gdpr.</p>
 
-  <p class="place">Vo Vrádišti dňa ${blank("8em")}</p>
+  <p class="place">Vo Vrádišti dňa ${field("contractDate", "8em", todaySk())}</p>
   ${signatures("Prenajímateľ", "Nájomca")}
 </section>`;
 }
@@ -94,7 +103,7 @@ function contract(b: Booking, name: string, lateDay: number, product: EshopProdu
 function protocol(b: Booking, name: string, tool: CatalogTool): string {
   const e = escapeHtml;
   const rows = [...tool.accessories, "", ""]
-    .map((item) => `<tr><td>${item ? e(item) : "&nbsp;"}</td><td class="c">${box}</td><td class="c">${box}</td></tr>`)
+    .map((item, i) => `<tr><td>${item ? e(item) : field(`accName${i}`, "100%")}</td><td class="c">${check(`accOut${i}`)}</td><td class="c">${check(`accBack${i}`)}</td></tr>`)
     .join("");
   return `<section class="page">
   <h1>Odovzdávací a preberací protokol</h1>
@@ -107,18 +116,18 @@ function protocol(b: Booking, name: string, tool: CatalogTool): string {
   </table>
 
   <h2>Odovzdanie nájomcovi</h2>
-  <p>Dátum a čas: ${blank("12em")}</p>
-  <p>${box} vec je funkčná, bez poškodenia &nbsp; ${box} vec bola vyskúšaná pri odovzdaní</p>
-  <p>Poznámky k stavu: ${blank("30em")}</p>
-  <p>${blank("40em")}</p>
+  <p>Dátum a čas: ${field("outTime", "12em")}</p>
+  <p>${check("outWorking")} vec je funkčná, bez poškodenia &nbsp; ${check("outTested")} vec bola vyskúšaná pri odovzdaní</p>
+  <p>Poznámky k stavu: ${field("outNote1", "30em")}</p>
+  <p>${field("outNote2", "100%")}</p>
   ${signatures("Odovzdal (prenajímateľ)", "Prevzal (nájomca)")}
 
   <h2 class="gap">Vrátenie prenajímateľovi</h2>
-  <p>Dátum a čas: ${blank("12em")} &nbsp; ${box} včas &nbsp; ${box} s omeškaním ${blank("3em")} dní</p>
-  <p>${box} kompletné &nbsp; ${box} bez poškodenia &nbsp; ${box} zistené nedostatky:</p>
-  <p>${blank("40em")}</p>
-  <p>${blank("40em")}</p>
-  <p>Doplatok (omeškanie, škoda): ${blank("6em")} €</p>
+  <p>Dátum a čas: ${field("backTime", "12em")} &nbsp; ${check("backOnTime")} včas &nbsp; ${check("backLate")} s omeškaním ${field("lateDays", "3em")} dní</p>
+  <p>${check("backComplete")} kompletné &nbsp; ${check("backUndamaged")} bez poškodenia &nbsp; ${check("backDefects")} zistené nedostatky:</p>
+  <p>${field("defects1", "100%")}</p>
+  <p>${field("defects2", "100%")}</p>
+  <p>Doplatok (omeškanie, škoda): ${field("extraCharge", "6em")} €</p>
   ${signatures("Prevzal (prenajímateľ)", "Odovzdal (nájomca)")}
 </section>`;
 }
@@ -131,14 +140,14 @@ function depositReceipt(b: Booking, name: string): string {
   <p>${LESSOR.name}, ${LESSOR.address}, ${LESSOR.ids}, potvrdzuje, že od nájomcu <strong>${e(b.name)}</strong>
   prijal vratnú zálohu vo výške <strong>${eur(b.deposit)}</strong>. Záloha nie je platbou za nájom, prenajímateľ ju má len v úschove
   a vráti ju podľa čl. 3 zmluvy.</p>
-  <p>${box} hotovosť &nbsp; ${box} platobná karta &nbsp; ${box} bankový prevod</p>
-  <p class="place">Vo Vrádišti dňa ${blank("8em")}</p>
+  <p>${payment}</p>
+  <p class="place">Vo Vrádišti dňa ${field("depositDate", "8em", todaySk())}</p>
   ${signatures("Prijal (prenajímateľ)", "")}
 
   <h1 class="gap">Potvrdenie o vrátení zálohy</h1>
-  <p>Vrátená suma: ${blank("6em")} € &nbsp; Zadržaná suma: ${blank("6em")} €</p>
-  <p>Dôvod zadržania: ${blank("30em")}</p>
-  <p class="place">Vo Vrádišti dňa ${blank("8em")}</p>
+  <p>Vrátená suma: ${field("returned", "6em")} € &nbsp; Zadržaná suma: ${field("kept", "6em")} €</p>
+  <p>Dôvod zadržania: ${field("keptReason", "30em")}</p>
+  <p class="place">Vo Vrádišti dňa ${field("returnDate", "8em")}</p>
   ${signatures("Vrátil (prenajímateľ)", "Prevzal (nájomca)")}
 </section>`;
 }
@@ -155,8 +164,10 @@ p { margin: 3px 0; }
 .center { text-align: center; color: #444; margin-bottom: 10px; }
 .copy { text-align: right; font-size: 8.5pt; color: #666; margin: 0 0 4px; }
 .parties { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin: 8px 0; }
-.blank { display: inline-block; border-bottom: 1px solid #000; height: 1.1em; vertical-align: bottom; }
-.box { display: inline-block; width: 11px; height: 11px; border: 1px solid #000; vertical-align: -1px; margin-right: 2px; }
+.field { font: inherit; color: inherit; border: 0; border-bottom: 1px solid #000; background: #fff8e6; padding: 0 2px; height: 1.35em; vertical-align: bottom; max-width: 100%; }
+.field:focus { outline: 2px solid #d97706; background: #fff; }
+.check { width: 13px; height: 13px; margin: 0 3px 0 0; vertical-align: -2px; accent-color: #111; cursor: pointer; }
+td .field { width: 100%; border-bottom: 0; }
 .place { margin-top: 14px; }
 .signs { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; margin-top: 34px; }
 .signs div { border-top: 1px solid #000; padding-top: 3px; text-align: center; font-size: 9pt; min-height: 1em; }
@@ -166,11 +177,11 @@ table { width: 100%; border-collapse: collapse; margin: 10px 0; }
 th, td { border: 1px solid #000; padding: 5px 6px; text-align: left; }
 .c { text-align: center; width: 6.5em; }
 .toolbar { position: sticky; top: 0; background: #3b2a1e; color: #fff; padding: 10px 16px; display: flex; gap: 12px; align-items: center; justify-content: center; font-size: 14px; }
-.toolbar input { padding: 6px 8px; border-radius: 6px; border: 0; font-size: 14px; width: 16em; }
 .toolbar button { background: #d97706; color: #fff; border: 0; padding: 8px 16px; border-radius: 6px; font-size: 14px; cursor: pointer; }
 @media print {
   body { background: #fff; }
   .toolbar { display: none; }
+  .field, .field:focus { background: transparent; outline: none; }
   .page { margin: 0; width: auto; min-height: 0; padding: 0; }
 }`;
 
@@ -196,21 +207,32 @@ export async function GET(request: Request) {
   const product = eshopUrl ? await getEshopProduct(eshopUrl) : null;
   const lateDay = Math.round(tool.prices.day * (100 - (booking.discountPercent ?? 0))) / 100;
 
-  return page(`<form class="toolbar" onsubmit="event.preventDefault(); window.print();" autocomplete="off">
-  <span>Doklady k rezervácii ${escapeHtml(booking.id)}</span>
-  <input name="address" placeholder="Adresa nájomcu (nepovinné)" aria-label="Adresa nájomcu">
-  <input name="idNumber" placeholder="Číslo dokladu totožnosti" aria-label="Číslo dokladu totožnosti">
-  <button type="submit">Tlačiť / uložiť ako PDF</button></form>
+  return page(`<div class="toolbar">
+  <span>Doklady k rezervácii ${escapeHtml(booking.id)} – kliknite do žltých riadkov a políčok a doplňte, čo treba. Prázdne ostanú na ručné vypísanie.</span>
+  <button type="button" onclick="window.print()">Tlačiť / uložiť ako PDF</button></div>
 ${contract(booking, name, lateDay, product, "Rovnopis pre prenajímateľa")}
 ${contract(booking, name, lateDay, product, "Rovnopis pre nájomcu")}
 ${protocol(booking, name, tool)}
 ${depositReceipt(booking, name)}
 <script>
-document.querySelectorAll(".toolbar input").forEach(function (input) {
-  input.addEventListener("input", function () {
-    document.querySelectorAll('[data-fill="' + input.name + '"]').forEach(function (el) { el.textContent = input.value; });
+// Same-named fields (both contract copies, payment method) mirror each other.
+document.addEventListener("input", function (event) {
+  var source = event.target;
+  if (!source.name) return;
+  document.querySelectorAll('input[name="' + source.name + '"]').forEach(function (el) {
+    if (el === source) return;
+    if (el.type === "checkbox") el.checked = source.checked;
+    else el.value = source.value;
   });
 });
-document.querySelector(".toolbar input").focus();
+// The browser keeps typed values when the page is reloaded; start clean.
+window.addEventListener("pageshow", function () {
+  document.querySelectorAll("input").forEach(function (el) {
+    if (el.type === "checkbox") el.checked = false;
+    else el.value = el.defaultValue;
+  });
+});
+var first = document.querySelector('input[name="address"]');
+if (first) first.focus();
 </script>`);
 }
