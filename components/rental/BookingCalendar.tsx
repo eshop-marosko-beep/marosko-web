@@ -112,8 +112,8 @@ export default function BookingCalendar({ toolSlug }: { toolSlug: string }) {
     );
 
   const firstMonth = utcDate(new Date().getUTCFullYear(), new Date().getUTCMonth(), 1);
-  const canGoBack = month > firstMonth;
-  const canGoForward = utcDate(year, monthIndex + 1, 1) <= new Date(`${lastDay}T00:00:00Z`);
+  const canGoBack = month.getTime() > firstMonth.getTime();
+  const canGoForward = utcDate(year, monthIndex + 1, 1).getTime() <= Date.parse(`${lastDay}T00:00:00Z`);
 
   const submit = async () => {
     if (!from || !end) return;

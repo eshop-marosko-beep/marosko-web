@@ -26,7 +26,8 @@ async function parse(params: URLSearchParams) {
   const id = params.get("id") ?? "";
   const action = params.get("action");
   const sig = params.get("sig") ?? "";
-  if (!id || (action !== "confirm" && action !== "decline") || !sig) return null;
+  if (action !== "confirm" && action !== "decline") return null;
+  if (!id || !sig) return null;
   if (!(await verifySignature(`${id}:${action}`, sig))) return null;
   const booking = await getBooking(id);
   return booking ? { booking, action } : null;
