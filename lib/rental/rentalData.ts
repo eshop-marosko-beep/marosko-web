@@ -14,6 +14,9 @@ export type RentalTool = {
   deposit: number;
   /** How many units can be out on rent at the same time. */
   units: number;
+  /** Value of a new tool in € for the contract, for tools the eshop doesn't
+   * sell (otherwise the eshop price is used). */
+  value?: number;
   /** What the customer takes home, checked off on the handover protocol
    * (Slovak, the documents are for the shop). */
   accessories: string[];
@@ -67,6 +70,7 @@ export const rentalTools: RentalTool[] = [
     translationKey: "karcherPuzzi",
     // Not sold on the eshop, so the photo is served from public/.
     image: "/pozicovna/karcher-puzzi-10-1.jpg",
+    value: 1200,
     prices: { day: 15, weekend: 25, week: 60 },
     deposit: 150,
     units: 1,

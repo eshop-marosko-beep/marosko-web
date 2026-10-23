@@ -1,4 +1,4 @@
-import { getBooking, type Booking } from "@/lib/rental/bookings";
+import { ensureContractNumber, getBooking, type Booking } from "@/lib/rental/bookings";
 import { getCatalogTool, type CatalogTool } from "@/lib/rental/catalog";
 import { getEshopProduct, type EshopProduct } from "@/lib/rental/eshopProduct";
 import { toolName } from "@/lib/rental/notify";
@@ -50,12 +50,12 @@ function signatures(left: string, right: string): string {
   return `<div class="signs"><div>${left}</div><div>${right}</div></div>`;
 }
 
-function contract(b: Booking, name: string, lateDay: number, product: EshopProduct | null, copy: string): string {
+function contract(b: Booking, name: string, lateDay: number, product: EshopProduct | null, value: number | null, copy: string): string {
   const e = escapeHtml;
   const discount = b.discountPercent ? ` (po zľave ${b.discountPercent} %)` : "";
   return `<section class="page">
   <p class="copy">${copy}</p>
-  <h1>Zmluva o krátkodobom nájme hnuteľnej veci č. ${e(b.id)}</h1>
+  <h1>Zmluva o krátkodobom nájme hnuteľnej veci č. ${e(b.contractNo ?? b.id)}</h1>
   <p class="center">uzavretá podľa § 721 a nasl. zákona č. 40/1964 Zb. Občiansky zákonník</p>
 
   <div class="parties">
@@ -68,7 +68,7 @@ function contract(b: Booking, name: string, lateDay: number, product: EshopProdu
   <p>Prenajímateľ prenecháva nájomcovi do dočasného užívania <strong>${e(name)}</strong>${
     product ? ` (${e(product.title)}${product.code ? `, kód ${e(product.code)}` : ""})` : ""
   } vrátane príslušenstva uvedeného v odovzdávacom a preberacom protokole, ktorý je súčasťou tejto zmluvy.
-  Hodnota predmetu nájmu (cena nového vrátane DPH): ${product?.price ? `<strong>${eur(product.price)}</strong>` : `${field("value", "6em")} €`}.</p>
+  Hodnota predmetu nájmu (cena nového vrátane DPH): ${value ? `<strong>${eur(value)}</strong>` : `${field("value", "6em")} €`}.</p>
 
   <h2>2. Doba nájmu</h2>
   <p>Nájom sa uzatvára na dobu od <strong>${skDate(b.from)}</strong> do <strong>${skDate(b.to)}</strong> (${b.days} ${b.days === 1 ? "deň" : b.days < 5 ? "dni" : "dní"}).
@@ -107,7 +107,7 @@ function protocol(b: Booking, name: string, tool: CatalogTool): string {
     .join("");
   return `<section class="page">
   <h1>Odovzdávací a preberací protokol</h1>
-  <p class="center">k zmluve o krátkodobom nájme č. ${e(b.id)} · ${e(name)} · ${skDate(b.from)} – ${skDate(b.to)}</p>
+  <p class="center">k zmluve o krátkodobom nájme č. ${e(b.contractNo ?? b.id)} · ${e(name)} · ${skDate(b.from)} – ${skDate(b.to)}</p>
   <p><strong>Nájomca:</strong> ${e(b.name)}, tel.: ${e(b.phone)}</p>
 
   <table>
@@ -136,7 +136,7 @@ function depositReceipt(b: Booking, name: string): string {
   const e = escapeHtml;
   return `<section class="page">
   <h1>Potvrdenie o prijatí zálohy</h1>
-  <p class="center">k zmluve o krátkodobom nájme č. ${e(b.id)} · ${e(name)}</p>
+  <p class="center">k zmluve o krátkodobom nájme č. ${e(b.contractNo ?? b.id)} · ${e(name)}</p>
   <p>${LESSOR.name}, ${LESSOR.address}, ${LESSOR.ids}, potvrdzuje, že od nájomcu <strong>${e(b.name)}</strong>
   prijal vratnú zálohu vo výške <strong>${eur(b.deposit)}</strong>. Záloha nie je platbou za nájom, prenajímateľ ju má len v úschove
   a vráti ju podľa čl. 3 zmluvy.</p>
@@ -197,21 +197,23 @@ export async function GET(request: Request) {
   if (!user?.isAdmin) return page("<h1>Prístup len pre správcu</h1>", 403);
 
   const id = new URL(request.url).searchParams.get("id") ?? "";
-  const booking = id ? await getBooking(id) : null;
-  if (!booking || booking.kind === "block") return page("<h1>Rezervácia neexistuje</h1>", 404);
+  const found = id ? await getBooking(id) : null;
+  if (!found || found.kind === "block") return page("<h1>Rezervácia neexistuje</h1>", 404);
+  const booking = await ensureContractNumber(found);
   const tool = await getCatalogTool(booking.toolSlug);
   if (!tool) return page("<h1>Náradie neexistuje</h1>", 404);
 
   const name = toolName(tool.slug, tool.translationKey);
   const eshopUrl = rentalEshopUrl(tool, "sk");
   const product = eshopUrl ? await getEshopProduct(eshopUrl) : null;
+  const value = product?.price ?? tool.value ?? null;
   const lateDay = Math.round(tool.prices.day * (100 - (booking.discountPercent ?? 0))) / 100;
 
   return page(`<div class="toolbar">
-  <span>Doklady k rezervácii ${escapeHtml(booking.id)} – kliknite do žltých riadkov a políčok a doplňte, čo treba. Prázdne ostanú na ručné vypísanie.</span>
+  <span>Doklady k zmluve č. ${escapeHtml(booking.contractNo ?? booking.id)} – kliknite do žltých riadkov a políčok a doplňte, čo treba. Prázdne ostanú na ručné vypísanie.</span>
   <button type="button" onclick="window.print()">Tlačiť / uložiť ako PDF</button></div>
-${contract(booking, name, lateDay, product, "Rovnopis pre prenajímateľa")}
-${contract(booking, name, lateDay, product, "Rovnopis pre nájomcu")}
+${contract(booking, name, lateDay, product, value, "Rovnopis pre prenajímateľa")}
+${contract(booking, name, lateDay, product, value, "Rovnopis pre nájomcu")}
 ${protocol(booking, name, tool)}
 ${depositReceipt(booking, name)}
 <script>

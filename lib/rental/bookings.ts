@@ -26,6 +26,8 @@ export type Booking = {
   status: BookingStatus;
   createdAt: string;
   decidedAt?: string;
+  /** "DDMMYYYY-N", given when the documents are first printed. */
+  contractNo?: string;
 };
 
 /** A pending request already blocks its dates, so two customers can't both
@@ -121,6 +123,25 @@ export async function createBooking(
   } finally {
     await kv(["DEL", lockKey]);
   }
+}
+
+/** Numbers the rental contract the first time its documents are printed:
+ * the date (Slovak time) and the order of the contract on that day, so the
+ * first rental on 23 Oct 2026 is 23102026-1. Reprints keep the number. */
+export async function ensureContractNumber(booking: Booking): Promise<Booking> {
+  if (booking.contractNo) return booking;
+  const parts = Object.fromEntries(
+    new Intl.DateTimeFormat("en-GB", { timeZone: "Europe/Bratislava", day: "2-digit", month: "2-digit", year: "numeric" })
+      .formatToParts(new Date())
+      .map((part) => [part.type, part.value])
+  );
+  const day = `${parts.day}${parts.month}${parts.year}`;
+  const n = await kv<number>(["INCR", key("contractseq", day)]);
+  const current = (await getBooking(booking.id)) ?? booking;
+  if (current.contractNo) return current;
+  const updated: Booking = { ...current, contractNo: `${day}-${n}` };
+  await kv(["SET", key("booking", booking.id), JSON.stringify(updated)]);
+  return updated;
 }
 
 export async function setBookingStatus(id: string, status: BookingStatus): Promise<Booking | null> {

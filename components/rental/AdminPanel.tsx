@@ -41,6 +41,7 @@ type Booking = {
   note: string;
   status: "pending" | "confirmed" | "declined" | "cancelled";
   createdAt: string;
+  contractNo?: string;
 };
 type State = { tools: Tool[]; groups: Group[]; customers: Customer[]; bookings: Booking[] };
 
@@ -272,7 +273,8 @@ function BookingsTab({
                   <p>{b.from} – {b.to} ({b.days} d.) · {b.estimatedPrice} € · záloha {b.deposit} €</p>
                   <p>{b.name}{b.email && <> · <a className="underline" href={`mailto:${b.email}`}>{b.email}</a></>} · <a className="underline" href={`tel:${b.phone}`}>{b.phone}</a>
                     {b.source === "shop" && <span className="ml-2 text-xs bg-amber-100 text-amber-800 rounded-full px-2 py-0.5">na predajni</span>}</p>
-                  <p className="text-gray-500">Skupina: {groupName(b.groupId)} · vytvorená {b.createdAt.slice(0, 16).replace("T", " ")}</p>
+                  <p className="text-gray-500">Skupina: {groupName(b.groupId)} · vytvorená {b.createdAt.slice(0, 16).replace("T", " ")}
+                    {b.contractNo && <> · zmluva č. {b.contractNo}</>}</p>
                   {b.note && <p className="italic">„{b.note}“</p>}
                 </div>
                 <span className={`text-xs font-semibold px-3 py-1 rounded-full ${STATUS_STYLE[b.status]}`}>{STATUS_LABEL[b.status]}</span>
