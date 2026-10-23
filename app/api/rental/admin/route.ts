@@ -117,7 +117,7 @@ export async function POST(request: Request) {
         from,
         to,
         days,
-        estimatedPrice: estimatePrice(pricing, days),
+        estimatedPrice: estimatePrice(pricing, from, to),
         deposit: pricing.deposit,
         groupId: group.id,
         discountPercent: pricing.discountPercent,

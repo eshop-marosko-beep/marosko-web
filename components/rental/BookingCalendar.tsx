@@ -113,7 +113,7 @@ export default function BookingCalendar({
 
   const end = to ?? from;
   const days = from && end ? rentalDays(from, end) : 0;
-  const price = days ? estimatePrice({ prices }, days) : 0;
+  const price = from && end ? estimatePrice({ prices }, from, end) : 0;
   const formatDay = (day: string) =>
     new Intl.DateTimeFormat(intlLocale, { day: "numeric", month: "numeric", year: "numeric", timeZone: "UTC" }).format(
       new Date(`${day}T00:00:00Z`)
