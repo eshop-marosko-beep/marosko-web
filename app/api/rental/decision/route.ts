@@ -8,7 +8,7 @@ import { getRentalTool } from "@/lib/rental/rentalData";
  * emails on their own (link scanners) and would otherwise decide for you. */
 
 const ACTION_LABEL = { confirm: "Potvrdiť", decline: "Zamietnuť" } as const;
-const STATUS_LABEL = { pending: "čaká na potvrdenie", confirmed: "potvrdená", declined: "zamietnutá" } as const;
+const STATUS_LABEL = { pending: "čaká na potvrdenie", confirmed: "potvrdená", declined: "zamietnutá", cancelled: "zrušená" } as const;
 
 function escapeHtml(value: string): string {
   return value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");

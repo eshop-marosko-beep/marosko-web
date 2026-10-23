@@ -3288,7 +3288,8 @@
       "submit": "Send booking",
       "clear": "Clear selection",
       "success": "Your booking has been sent and the dates are held for you. We'll get back to you with a confirmation.",
-      "successLink": "My bookings"
+      "successLink": "My bookings",
+      "successConfirmed": "Your booking is confirmed and the dates are yours. We'll contact you about the handover time."
     },
     "auth": {
       "registerTitle": "Register for tool rental",
@@ -3307,7 +3308,8 @@
       "haveAccount": "Already have an account?",
       "noAccount": "Don't have an account yet?",
       "loginLink": "Sign in",
-      "registerLink": "Register"
+      "registerLink": "Register",
+      "adminVerifySent": "This address belongs to the rental admin. We've emailed a confirmation link – the account is created only once you open it."
     },
     "account": {
       "title": "My account",
@@ -3316,9 +3318,12 @@
       "status": {
         "pending": "Awaiting confirmation",
         "confirmed": "Confirmed",
-        "declined": "Declined"
+        "declined": "Declined",
+        "cancelled": "Cancelled"
       },
-      "toRental": "Go to tool rental"
+      "toRental": "Go to tool rental",
+      "group": "Customer group",
+      "adminLink": "Rental admin"
     },
     "errors": {
       "invalid_request": "Invalid request.",
@@ -3334,13 +3339,19 @@
       "too_long": "You can book at most 30 days at once.",
       "dates_taken": "These dates are already booked. Please pick others.",
       "try_again": "Another booking is being made right now. Please try again in a moment.",
-      "generic": "Something went wrong. Please try again or give us a call."
+      "generic": "Something went wrong. Please try again or give us a call.",
+      "blocked": "Your account is suspended; bookings aren't possible.",
+      "tool_not_allowed": "This tool isn't available to your customer group.",
+      "forbidden": "You don't have permission for this action.",
+      "not_found": "Record not found."
     },
     "email": {
       "confirmedHeading": "Booking confirmed",
       "confirmedText": "Your booking is confirmed. We'll contact you about the handover time.",
       "declinedHeading": "Booking declined",
       "declinedText": "Sorry, we can't confirm these dates. Please pick other dates or contact us."
-    }
+    },
+    "discountBadge": "Your discount: {percent} %",
+    "blockedNote": "Your account is suspended and bookings aren't possible at the moment. If this is a mistake, please contact us."
   }
 }

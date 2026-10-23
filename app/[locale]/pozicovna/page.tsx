@@ -5,8 +5,8 @@ import { buildMetadata } from "@/lib/seo";
 import { buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import LogoutButton from "@/components/rental/LogoutButton";
+import { getRentalContext } from "@/lib/rental/access";
 import { rentalEshopUrl, rentalTools } from "@/lib/rental/rentalData";
-import { getCurrentUser } from "@/lib/rental/users";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -38,7 +38,7 @@ export default async function RentalPage({
 
   const t = await getTranslations("rental");
   const tNav = await getTranslations("navigation");
-  const user = await getCurrentUser();
+  const { user, group, tools } = await getRentalContext();
 
   const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
     { name: tNav("home"), path: "/" },
@@ -56,7 +56,15 @@ export default async function RentalPage({
       {user ? (
         <div className="flex flex-wrap items-center gap-4 bg-white rounded-xl shadow p-4 mb-10">
           <span className="text-gray-700">{t("signedInAs", { name: user.name })}</span>
+          {group && group.discountPercent > 0 && !user.blocked && (
+            <span className="text-sm bg-green-100 text-green-800 font-semibold px-3 py-1 rounded-full">
+              {t("discountBadge", { percent: group.discountPercent })}
+            </span>
+          )}
           <Link href="/ucet" className="text-amber-700 font-semibold hover:underline">{t("myAccount")}</Link>
+          {user.isAdmin && (
+            <Link href="/ucet/admin" className="text-amber-700 font-semibold hover:underline">{t("account.adminLink")}</Link>
+          )}
           <LogoutButton />
         </div>
       ) : (
@@ -75,8 +83,12 @@ export default async function RentalPage({
         </div>
       )}
 
+      {user?.blocked && (
+        <p className="bg-red-50 border border-red-200 text-red-800 rounded-xl p-4 mb-10">{t("blockedNote")}</p>
+      )}
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-        {rentalTools.map((tool) => (
+        {tools.map((tool) => (
           <div key={tool.slug} className="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
             <div className="relative h-48 bg-white">
               <Image src={tool.image} alt={t(`tools.${tool.translationKey}.name`)} fill unoptimized
@@ -87,20 +99,20 @@ export default async function RentalPage({
               <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1">
                 {t(`tools.${tool.translationKey}.description`)}
               </p>
-              {user ? (
+              {tool.pricing ? (
                 <>
                   <dl className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm text-gray-700 mb-4">
-                    <dt>{t("priceDay")}</dt><dd className="font-semibold text-right">{tool.prices.day} €</dd>
-                    <dt>{t("priceWeekend")}</dt><dd className="font-semibold text-right">{tool.prices.weekend} €</dd>
-                    <dt>{t("priceWeek")}</dt><dd className="font-semibold text-right">{tool.prices.week} €</dd>
-                    <dt>{t("deposit")}</dt><dd className="font-semibold text-right">{tool.deposit} €</dd>
+                    <dt>{t("priceDay")}</dt><dd className="font-semibold text-right">{tool.pricing.prices.day} €</dd>
+                    <dt>{t("priceWeekend")}</dt><dd className="font-semibold text-right">{tool.pricing.prices.weekend} €</dd>
+                    <dt>{t("priceWeek")}</dt><dd className="font-semibold text-right">{tool.pricing.prices.week} €</dd>
+                    <dt>{t("deposit")}</dt><dd className="font-semibold text-right">{tool.pricing.deposit} €</dd>
                   </dl>
                   <Link href={`/pozicovna/${tool.slug}`}
                     className="inline-flex justify-center bg-amber-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-amber-700 transition-colors text-sm">
                     {t("reserveCta")} →
                   </Link>
                 </>
-              ) : (
+              ) : user ? null : (
                 <p className="text-sm text-gray-500 italic">{t("pricesAfterLogin")}</p>
               )}
               <a href={rentalEshopUrl(tool, locale)} target="_blank" rel="noopener noreferrer"

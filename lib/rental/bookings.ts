@@ -1,11 +1,12 @@
 import { getJson, key, kv, kvPipeline } from "@/lib/rental/kv";
 import { randomId } from "@/lib/rental/crypto";
-import type { RentalTool } from "@/lib/rental/rentalData";
 
-export type BookingStatus = "pending" | "confirmed" | "declined";
+export type BookingStatus = "pending" | "confirmed" | "declined" | "cancelled";
 
 export type Booking = {
   id: string;
+  /** "block" = dates the admin closed (service, holiday); takes every unit. */
+  kind?: "booking" | "block";
   toolSlug: string;
   email: string;
   name: string;
@@ -16,6 +17,8 @@ export type Booking = {
   days: number;
   estimatedPrice: number;
   deposit: number;
+  groupId?: string;
+  discountPercent?: number;
   note: string;
   locale: string;
   status: BookingStatus;
@@ -47,11 +50,16 @@ export async function getBooking(id: string): Promise<Booking | null> {
   return getJson<Booking>(key("booking", id));
 }
 
-/** Pending and confirmed bookings of a tool that haven't ended yet. */
-export async function activeToolBookings(slug: string): Promise<Booking[]> {
+/** Every booking and block of a tool, newest first (admin panel). */
+export async function toolBookings(slug: string): Promise<Booking[]> {
   const ids = await kv<string[]>(["SMEMBERS", key("toolbookings", slug)]);
+  return (await getBookings(ids)).sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+}
+
+/** Pending and confirmed bookings (and blocks) of a tool that haven't ended. */
+export async function activeToolBookings(slug: string): Promise<Booking[]> {
   const today = todayIso();
-  return (await getBookings(ids))
+  return (await toolBookings(slug))
     .filter((booking) => BLOCKING.includes(booking.status) && booking.to >= today)
     .sort((a, b) => a.from.localeCompare(b.from));
 }
@@ -60,9 +68,10 @@ export async function activeToolBookings(slug: string): Promise<Booking[]> {
 export function fullyBookedDays(bookings: Booking[], units: number): string[] {
   const perDay = new Map<string, number>();
   for (const booking of bookings) {
+    const weight = booking.kind === "block" ? units : 1;
     for (let t = Date.parse(`${booking.from}T00:00:00Z`); t <= Date.parse(`${booking.to}T00:00:00Z`); t += 86_400_000) {
       const day = new Date(t).toISOString().slice(0, 10);
-      perDay.set(day, (perDay.get(day) ?? 0) + 1);
+      perDay.set(day, (perDay.get(day) ?? 0) + weight);
     }
   }
   return [...perDay].filter(([, count]) => count >= units).map(([day]) => day).sort();
@@ -75,12 +84,14 @@ export async function userBookings(email: string): Promise<Booking[]> {
 
 export type CreateBookingResult = { ok: true; booking: Booking } | { ok: false; reason: "taken" | "busy" };
 
-/** Creates a pending booking unless the range is already taken. A short
- * per-tool lock stops two simultaneous requests from both passing the
- * availability check. */
+type NewBooking = Omit<Booking, "id" | "toolSlug" | "createdAt">;
+
+/** Stores a booking (or an admin block) unless the range is already taken.
+ * A short per-tool lock stops two simultaneous requests from both passing
+ * the availability check. */
 export async function createBooking(
-  tool: RentalTool,
-  input: Omit<Booking, "id" | "toolSlug" | "status" | "createdAt" | "deposit">
+  tool: { slug: string; units: number },
+  input: NewBooking
 ): Promise<CreateBookingResult> {
   const lockKey = key("lock", tool.slug);
   const locked = await kv<string | null>(["SET", lockKey, "1", "NX", "PX", 10_000]);
@@ -89,25 +100,20 @@ export async function createBooking(
   try {
     const existing = await activeToolBookings(tool.slug);
     const concurrent = existing.filter((booking) => overlaps(booking, input));
-    // Each unit is free unless as many bookings as there are units overlap
-    // the same day; checking per day keeps back-to-back bookings possible.
-    if (fullyBookedDays(concurrent, tool.units).some((day) => day >= input.from && day <= input.to)) {
-      return { ok: false, reason: "taken" };
-    }
+    // A block needs every unit free; a booking needs at least one.
+    const units = input.kind === "block" ? 1 : tool.units;
+    const taken = input.kind === "block"
+      ? concurrent.length > 0
+      : fullyBookedDays(concurrent, units).some((day) => day >= input.from && day <= input.to);
+    if (taken) return { ok: false, reason: "taken" };
 
-    const booking: Booking = {
-      ...input,
-      id: randomId(9),
-      toolSlug: tool.slug,
-      deposit: tool.deposit,
-      status: "pending",
-      createdAt: new Date().toISOString(),
-    };
-    await kvPipeline([
+    const booking: Booking = { ...input, id: randomId(9), toolSlug: tool.slug, createdAt: new Date().toISOString() };
+    const commands: (string | number)[][] = [
       ["SET", key("booking", booking.id), JSON.stringify(booking)],
       ["SADD", key("toolbookings", tool.slug), booking.id],
-      ["LPUSH", key("userbookings", booking.email), booking.id],
-    ]);
+    ];
+    if (booking.kind !== "block") commands.push(["LPUSH", key("userbookings", booking.email), booking.id]);
+    await kvPipeline(commands);
     return { ok: true, booking };
   } finally {
     await kv(["DEL", lockKey]);

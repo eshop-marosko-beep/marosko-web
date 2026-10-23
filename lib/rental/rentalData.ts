@@ -1,5 +1,6 @@
 /** Tools offered for rent on /pozicovna. Names and descriptions live in
- * messages.rental.tools.<translationKey>. */
+ * messages.rental.tools.<translationKey>. Prices, deposit and units here are
+ * the defaults; the admin can override them (lib/rental/catalog.ts). */
 export type RentalTool = {
   slug: string;
   translationKey: string;
@@ -73,7 +74,7 @@ export function rentalDays(from: string, to: string): number {
 /** Indicative price: whole weeks at the weekly rate, the remaining days at
  * the daily rate but never more than one more week. The final price is
  * confirmed by the shop together with the booking. */
-export function estimatePrice(tool: RentalTool, days: number): number {
+export function estimatePrice(tool: Pick<RentalTool, "prices">, days: number): number {
   const weeks = Math.floor(days / 7);
   const rest = days % 7;
   return weeks * tool.prices.week + Math.min(rest * tool.prices.day, tool.prices.week);

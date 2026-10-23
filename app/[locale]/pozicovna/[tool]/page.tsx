@@ -4,8 +4,8 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link, redirect } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
 import BookingCalendar from "@/components/rental/BookingCalendar";
+import { getRentalContext } from "@/lib/rental/access";
 import { getRentalTool, rentalEshopUrl } from "@/lib/rental/rentalData";
-import { getCurrentUser } from "@/lib/rental/users";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -38,13 +38,17 @@ export default async function RentalToolPage({
   const { locale, tool: slug } = await params;
   setRequestLocale(locale);
 
-  const tool = getRentalTool(slug);
-  if (!tool) notFound();
+  if (!getRentalTool(slug)) notFound();
 
-  const user = await getCurrentUser();
+  const { user, tools } = await getRentalContext();
   if (!user) {
     return redirect({ href: { pathname: "/ucet/prihlasenie", query: { next: `/pozicovna/${slug}` } }, locale });
   }
+  // Inactive tools, tools outside the customer's group and blocked customers
+  // all end up back on the rental overview.
+  const tool = tools.find((t) => t.slug === slug);
+  if (!tool || !tool.pricing) return redirect({ href: "/pozicovna", locale });
+  const pricing = tool.pricing;
 
   const t = await getTranslations("rental");
   const name = t(`tools.${tool.translationKey}.name`);
@@ -64,11 +68,16 @@ export default async function RentalToolPage({
             <div className="p-6">
               <h1 className="text-2xl font-bold text-espresso-800 mb-2">{name}</h1>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">{t(`tools.${tool.translationKey}.description`)}</p>
+              {pricing.discountPercent > 0 && (
+                <p className="text-sm text-green-800 font-semibold mb-2">
+                  {t("discountBadge", { percent: pricing.discountPercent })}
+                </p>
+              )}
               <dl className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm text-gray-700">
-                <dt>{t("priceDay")}</dt><dd className="font-semibold text-right">{tool.prices.day} €</dd>
-                <dt>{t("priceWeekend")}</dt><dd className="font-semibold text-right">{tool.prices.weekend} €</dd>
-                <dt>{t("priceWeek")}</dt><dd className="font-semibold text-right">{tool.prices.week} €</dd>
-                <dt>{t("deposit")}</dt><dd className="font-semibold text-right">{tool.deposit} €</dd>
+                <dt>{t("priceDay")}</dt><dd className="font-semibold text-right">{pricing.prices.day} €</dd>
+                <dt>{t("priceWeekend")}</dt><dd className="font-semibold text-right">{pricing.prices.weekend} €</dd>
+                <dt>{t("priceWeek")}</dt><dd className="font-semibold text-right">{pricing.prices.week} €</dd>
+                <dt>{t("deposit")}</dt><dd className="font-semibold text-right">{pricing.deposit} €</dd>
               </dl>
               <a href={rentalEshopUrl(tool, locale)} target="_blank" rel="noopener noreferrer"
                 className="mt-4 inline-block text-sm text-amber-700 font-semibold hover:underline">
@@ -81,7 +90,7 @@ export default async function RentalToolPage({
           </Link>
         </div>
         <div className="lg:col-span-3">
-          <BookingCalendar toolSlug={tool.slug} />
+          <BookingCalendar toolSlug={tool.slug} prices={pricing.prices} deposit={pricing.deposit} />
         </div>
       </div>
     </div>

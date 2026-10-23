@@ -3287,7 +3287,8 @@
       "submit": "Trimite rezervarea",
       "clear": "Anulează selecția",
       "success": "Rezervarea a fost trimisă, iar perioada este blocată pentru dvs. Revenim cu o confirmare.",
-      "successLink": "Rezervările mele"
+      "successLink": "Rezervările mele",
+      "successConfirmed": "Rezervarea este confirmată, iar perioada este a dvs. Vă contactăm pentru ora predării."
     },
     "auth": {
       "registerTitle": "Înregistrare pentru închiriere",
@@ -3306,7 +3307,8 @@
       "haveAccount": "Aveți deja cont?",
       "noAccount": "Nu aveți încă cont?",
       "loginLink": "Conectați-vă",
-      "registerLink": "Înregistrați-vă"
+      "registerLink": "Înregistrați-vă",
+      "adminVerifySent": "Această adresă aparține administratorului. V-am trimis pe e-mail un link de confirmare – contul se creează abia după ce îl deschideți."
     },
     "account": {
       "title": "Contul meu",
@@ -3315,9 +3317,12 @@
       "status": {
         "pending": "Așteaptă confirmarea",
         "confirmed": "Confirmată",
-        "declined": "Respinsă"
+        "declined": "Respinsă",
+        "cancelled": "Anulată"
       },
-      "toRental": "Mergi la închiriere"
+      "toRental": "Mergi la închiriere",
+      "group": "Grup de clienți",
+      "adminLink": "Administrare închiriere"
     },
     "errors": {
       "invalid_request": "Cerere invalidă.",
@@ -3333,13 +3338,19 @@
       "too_long": "Se pot rezerva cel mult 30 de zile odată.",
       "dates_taken": "Perioada aleasă este deja ocupată. Alegeți alta.",
       "try_again": "Tocmai se face o altă rezervare. Încercați din nou peste câteva momente.",
-      "generic": "Ceva nu a funcționat. Încercați din nou sau sunați-ne."
+      "generic": "Ceva nu a funcționat. Încercați din nou sau sunați-ne.",
+      "blocked": "Contul dvs. este suspendat; nu se pot face rezervări.",
+      "tool_not_allowed": "Această sculă nu este disponibilă pentru grupul dvs. de clienți.",
+      "forbidden": "Nu aveți permisiunea pentru această acțiune.",
+      "not_found": "Înregistrarea nu a fost găsită."
     },
     "email": {
       "confirmedHeading": "Rezervare confirmată",
       "confirmedText": "Rezervarea dvs. este confirmată. Vă contactăm pentru ora predării.",
       "declinedHeading": "Rezervare respinsă",
       "declinedText": "Ne pare rău, nu putem confirma această perioadă. Alegeți altă perioadă sau contactați-ne."
-    }
+    },
+    "discountBadge": "Reducerea dvs.: {percent} %",
+    "blockedNote": "Contul dvs. este suspendat, momentan nu se pot face rezervări. Dacă este o greșeală, contactați-ne."
   }
 }

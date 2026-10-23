@@ -3287,7 +3287,8 @@
       "submit": "Odoslať rezerváciu",
       "clear": "Zrušiť výber",
       "success": "Rezervácia je odoslaná a termín je pre vás zablokovaný. Ozveme sa vám s potvrdením.",
-      "successLink": "Moje rezervácie"
+      "successLink": "Moje rezervácie",
+      "successConfirmed": "Rezervácia je potvrdená a termín je váš. Ozveme sa vám ohľadom času odovzdania."
     },
     "auth": {
       "registerTitle": "Registrácia do požičovne",
@@ -3306,7 +3307,8 @@
       "haveAccount": "Už máte účet?",
       "noAccount": "Ešte nemáte účet?",
       "loginLink": "Prihláste sa",
-      "registerLink": "Zaregistrujte sa"
+      "registerLink": "Zaregistrujte sa",
+      "adminVerifySent": "Táto adresa patrí správcovi požičovne. Na e-mail sme poslali potvrdzovací odkaz – účet sa vytvorí, až keď ho otvoríte."
     },
     "account": {
       "title": "Môj účet",
@@ -3315,9 +3317,12 @@
       "status": {
         "pending": "Čaká na potvrdenie",
         "confirmed": "Potvrdená",
-        "declined": "Zamietnutá"
+        "declined": "Zamietnutá",
+        "cancelled": "Zrušená"
       },
-      "toRental": "Prejsť do požičovne"
+      "toRental": "Prejsť do požičovne",
+      "group": "Zákaznícka skupina",
+      "adminLink": "Administrácia požičovne"
     },
     "errors": {
       "invalid_request": "Neplatná požiadavka.",
@@ -3333,13 +3338,19 @@
       "too_long": "Naraz sa dá rezervovať najviac 30 dní.",
       "dates_taken": "Vybraný termín je už obsadený. Vyberte prosím iný.",
       "try_again": "Práve prebieha iná rezervácia. Skúste to prosím o chvíľu.",
-      "generic": "Niečo sa nepodarilo. Skúste to prosím znova alebo nám zavolajte."
+      "generic": "Niečo sa nepodarilo. Skúste to prosím znova alebo nám zavolajte.",
+      "blocked": "Váš účet je pozastavený, rezervácie nie sú možné.",
+      "tool_not_allowed": "Toto náradie nie je dostupné pre vašu zákaznícku skupinu.",
+      "forbidden": "Na túto akciu nemáte oprávnenie.",
+      "not_found": "Záznam sa nenašiel."
     },
     "email": {
       "confirmedHeading": "Rezervácia potvrdená",
       "confirmedText": "Vaša rezervácia je potvrdená. Ozveme sa vám ohľadom času odovzdania.",
       "declinedHeading": "Rezervácia zamietnutá",
       "declinedText": "Ľutujeme, tento termín vám nemôžeme potvrdiť. Vyberte si prosím iný termín alebo nás kontaktujte."
-    }
+    },
+    "discountBadge": "Vaša zľava {percent} %",
+    "blockedNote": "Váš účet je pozastavený, rezervácie momentálne nie sú možné. Ak ide o omyl, kontaktujte nás."
   }
 }

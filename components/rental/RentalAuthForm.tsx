@@ -19,6 +19,7 @@ export default function RentalAuthForm({ mode, next }: { mode: "register" | "log
   const [consent, setConsent] = useState(false);
   const [sending, setSending] = useState(false);
   const [error, setError] = useState("");
+  const [verifySent, setVerifySent] = useState(false);
 
   const errorText = (code: unknown) =>
     typeof code === "string" && t.has(`errors.${code}`) ? t(`errors.${code}`) : t("errors.generic");
@@ -41,6 +42,12 @@ export default function RentalAuthForm({ mode, next }: { mode: "register" | "log
         setSending(false);
         return;
       }
+      if (data.verifyEmail) {
+        // Admin address: the account is created once the emailed link is opened.
+        setVerifySent(true);
+        setSending(false);
+        return;
+      }
       router.push(next);
       router.refresh();
     } catch {
@@ -50,6 +57,12 @@ export default function RentalAuthForm({ mode, next }: { mode: "register" | "log
   };
 
   const nextQuery = next === "/pozicovna" ? {} : { next };
+
+  if (verifySent) {
+    return (
+      <div className="bg-white rounded-xl shadow-lg p-6 md:p-8 text-gray-700">{t("auth.adminVerifySent")}</div>
+    );
+  }
 
   return (
     <form onSubmit={handleSubmit} className="bg-white rounded-xl shadow-lg p-6 md:p-8 space-y-4">

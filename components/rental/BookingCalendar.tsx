@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/navigation";
-import { estimatePrice, getRentalTool, rentalDays } from "@/lib/rental/rentalData";
+import { estimatePrice, rentalDays, type RentalTool } from "@/lib/rental/rentalData";
 
 const MAX_DAYS = 30;
 const MAX_DAYS_AHEAD = 180;
@@ -22,13 +22,21 @@ function addDays(day: string, n: number): string {
   return iso(new Date(Date.parse(`${day}T00:00:00Z`) + n * 86_400_000));
 }
 
-type Status = "idle" | "sending" | "success";
+type Status = "idle" | "sending" | "success" | "confirmed";
 
-export default function BookingCalendar({ toolSlug }: { toolSlug: string }) {
+export default function BookingCalendar({
+  toolSlug,
+  prices,
+  deposit,
+}: {
+  toolSlug: string;
+  /** Prices and deposit for this customer's group (discount already applied). */
+  prices: RentalTool["prices"];
+  deposit: number;
+}) {
   const t = useTranslations("rental");
   const locale = useLocale();
   const intlLocale = INTL_LOCALE[locale] ?? "sk-SK";
-  const tool = getRentalTool(toolSlug)!;
 
   const today = iso(new Date());
   const lastDay = addDays(today, MAX_DAYS_AHEAD);
@@ -105,7 +113,7 @@ export default function BookingCalendar({ toolSlug }: { toolSlug: string }) {
 
   const end = to ?? from;
   const days = from && end ? rentalDays(from, end) : 0;
-  const price = days ? estimatePrice(tool, days) : 0;
+  const price = days ? estimatePrice({ prices }, days) : 0;
   const formatDay = (day: string) =>
     new Intl.DateTimeFormat(intlLocale, { day: "numeric", month: "numeric", year: "numeric", timeZone: "UTC" }).format(
       new Date(`${day}T00:00:00Z`)
@@ -132,7 +140,7 @@ export default function BookingCalendar({ toolSlug }: { toolSlug: string }) {
         await loadAvailability();
         return;
       }
-      setStatus("success");
+      setStatus(data.status === "confirmed" ? "confirmed" : "success");
       setFrom(null);
       setTo(null);
       setNote("");
@@ -197,7 +205,7 @@ export default function BookingCalendar({ toolSlug }: { toolSlug: string }) {
         <div className="mt-6 border-t border-amber-100 pt-6 space-y-4">
           <div className="text-gray-700 space-y-1">
             <p><strong>{t("calendar.selected")}:</strong> {formatDay(from)} – {formatDay(end)} ({t("calendar.days", { count: days })})</p>
-            <p><strong>{t("calendar.estimate")}:</strong> {price} € · <strong>{t("deposit")}:</strong> {tool.deposit} €</p>
+            <p><strong>{t("calendar.estimate")}:</strong> {price} € · <strong>{t("deposit")}:</strong> {deposit} €</p>
             <p className="text-xs text-gray-500">{t("calendar.priceNote")}</p>
           </div>
           <div>
@@ -224,9 +232,9 @@ export default function BookingCalendar({ toolSlug }: { toolSlug: string }) {
           {t.has(`errors.${error}`) ? t(`errors.${error}`) : t("errors.generic")}
         </p>
       )}
-      {status === "success" && (
+      {(status === "success" || status === "confirmed") && (
         <div className="mt-4 text-green-800 bg-green-50 border border-green-200 rounded-lg px-4 py-3 text-sm">
-          {t("calendar.success")}{" "}
+          {status === "confirmed" ? t("calendar.successConfirmed") : t("calendar.success")}{" "}
           <Link href="/ucet" className="font-semibold underline">{t("calendar.successLink")}</Link>
         </div>
       )}

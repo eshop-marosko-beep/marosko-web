@@ -4,6 +4,7 @@ import { buildMetadata } from "@/lib/seo";
 import LogoutButton from "@/components/rental/LogoutButton";
 import { userBookings } from "@/lib/rental/bookings";
 import { getRentalTool } from "@/lib/rental/rentalData";
+import { findGroup, getGroups } from "@/lib/rental/groups";
 import { getCurrentUser } from "@/lib/rental/users";
 import type { Metadata } from "next";
 
@@ -24,6 +25,7 @@ const STATUS_STYLE = {
   pending: "bg-amber-100 text-amber-800",
   confirmed: "bg-green-100 text-green-800",
   declined: "bg-gray-200 text-gray-700",
+  cancelled: "bg-gray-200 text-gray-700",
 } as const;
 
 export default async function AccountPage({
@@ -38,7 +40,8 @@ export default async function AccountPage({
   if (!user) return redirect({ href: { pathname: "/ucet/prihlasenie", query: { next: "/ucet" } }, locale });
 
   const t = await getTranslations("rental");
-  const bookings = await userBookings(user.email);
+  const [bookings, groups] = await Promise.all([userBookings(user.email), getGroups()]);
+  const group = findGroup(groups, user.groupId);
 
   return (
     <div className="py-8 max-w-3xl mx-auto">
@@ -51,6 +54,16 @@ export default async function AccountPage({
         <p><strong>{user.name}</strong></p>
         <p>{user.email}</p>
         <p>{user.phone}</p>
+        <p className="pt-2 text-sm">
+          {t("account.group")}: <strong>{group.name}</strong>
+          {group.discountPercent > 0 && <> · {t("discountBadge", { percent: group.discountPercent })}</>}
+        </p>
+        {user.blocked && <p className="pt-2 text-sm text-red-700">{t("blockedNote")}</p>}
+        {user.isAdmin && (
+          <p className="pt-3">
+            <Link href="/ucet/admin" className="text-amber-700 font-semibold hover:underline">{t("account.adminLink")} →</Link>
+          </p>
+        )}
       </div>
 
       <h2 className="text-2xl font-bold text-espresso-800 mb-4">{t("account.bookingsTitle")}</h2>

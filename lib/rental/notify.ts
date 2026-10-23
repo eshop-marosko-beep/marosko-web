@@ -51,13 +51,15 @@ export async function notifyOwner(booking: Booking, toolLabel: string, origin: s
   const client = resend();
   if (!client) throw new Error("Chýba env premenná RESEND_API_KEY");
 
+  const autoConfirmed = booking.status === "confirmed";
   const confirm = await decisionUrl(origin, booking.id, "confirm");
   const decline = await decisionUrl(origin, booking.id, "decline");
   const rows: [string, string][] = [
     ["Náradie", toolLabel],
     ["Termín", `${booking.from} – ${booking.to} (${booking.days} ${booking.days === 1 ? "deň" : "dní"})`],
-    ["Orientačná cena", `${booking.estimatedPrice} €`],
+    ["Orientačná cena", `${booking.estimatedPrice} €${booking.discountPercent ? ` (zľava ${booking.discountPercent} %)` : ""}`],
     ["Záloha", `${booking.deposit} €`],
+    ["Skupina", booking.groupId ?? "–"],
     ["Meno", booking.name],
     ["E-mail", booking.email],
     ["Telefón", booking.phone],
@@ -69,18 +71,24 @@ export async function notifyOwner(booking: Booking, toolLabel: string, origin: s
     from: OWNER_FROM,
     to: OWNER_EMAIL,
     replyTo: booking.email,
-    subject: `Nová rezervácia: ${toolLabel}, ${booking.from} – ${booking.to}`,
+    subject: `${autoConfirmed ? "Automaticky potvrdená rezervácia" : "Nová rezervácia"}: ${toolLabel}, ${booking.from} – ${booking.to}`,
     html: `
-      <h2>Nová rezervácia požičovne</h2>
+      <h2>${autoConfirmed ? "Automaticky potvrdená rezervácia" : "Nová rezervácia požičovne"}</h2>
       <table cellpadding="6" style="border-collapse:collapse">
         ${rows.map(([k, v]) => `<tr><td><strong>${escapeHtml(k)}</strong></td><td>${escapeHtml(v)}</td></tr>`).join("")}
       </table>
-      <p>Termín je v kalendári zablokovaný, kým rezerváciu nepotvrdíte alebo nezamietnete.</p>
-      <p>
-        <a href="${confirm}" style="background:#16a34a;color:#fff;padding:10px 18px;border-radius:6px;text-decoration:none">Potvrdiť</a>
-        &nbsp;
-        <a href="${decline}" style="background:#dc2626;color:#fff;padding:10px 18px;border-radius:6px;text-decoration:none">Zamietnuť</a>
-      </p>
+      ${
+        autoConfirmed
+          ? `<p>Zákazník je v skupine s automatickým potvrdením, rezervácia je už potvrdená. Zrušiť ju môžete v administrácii.</p>
+             <p><a href="${origin}/ucet/admin">Otvoriť administráciu</a></p>`
+          : `<p>Termín je v kalendári zablokovaný, kým rezerváciu nepotvrdíte alebo nezamietnete.</p>
+             <p>
+               <a href="${confirm}" style="background:#16a34a;color:#fff;padding:10px 18px;border-radius:6px;text-decoration:none">Potvrdiť</a>
+               &nbsp;
+               <a href="${decline}" style="background:#dc2626;color:#fff;padding:10px 18px;border-radius:6px;text-decoration:none">Zamietnuť</a>
+             </p>
+             <p><a href="${origin}/ucet/admin">Otvoriť administráciu</a></p>`
+      }
     `,
   });
 }
@@ -89,7 +97,7 @@ export async function notifyOwner(booking: Booking, toolLabel: string, origin: s
  * sender is configured; otherwise the status is shown in their account. */
 export async function notifyCustomer(booking: Booking, toolLabel: string): Promise<void> {
   const client = resend();
-  if (!client || !CUSTOMER_FROM || booking.status === "pending") return;
+  if (!client || !CUSTOMER_FROM || (booking.status !== "confirmed" && booking.status !== "declined")) return;
 
   const t = rentalMessages(booking.locale).email;
   const heading = booking.status === "confirmed" ? t.confirmedHeading : t.declinedHeading;
@@ -104,6 +112,38 @@ export async function notifyCustomer(booking: Booking, toolLabel: string): Promi
       <h2>${escapeHtml(heading)}</h2>
       <p><strong>${escapeHtml(toolLabel)}</strong>, ${escapeHtml(booking.from)} – ${escapeHtml(booking.to)}</p>
       <p>${escapeHtml(text)}</p>
+    `,
+  });
+}
+
+export async function adminVerifyUrl(origin: string, email: string, nonce: string): Promise<string> {
+  const sig = await sign(`admin:${email}:${nonce}`);
+  return `${origin}/api/rental/admin-verify?email=${encodeURIComponent(email)}&n=${encodeURIComponent(nonce)}&sig=${encodeURIComponent(sig)}`;
+}
+
+/** Sends the link that turns a registration with an admin email into an
+ * admin account. Goes to the admin mailbox only, which Resend's test sender
+ * can reach. */
+export async function sendAdminVerification(
+  user: { email: string; name: string; phone: string },
+  nonce: string,
+  origin: string
+): Promise<void> {
+  const client = resend();
+  if (!client) throw new Error("Chýba env premenná RESEND_API_KEY");
+  const url = await adminVerifyUrl(origin, user.email, nonce);
+  await client.emails.send({
+    from: OWNER_FROM,
+    to: user.email,
+    subject: "Potvrďte správcovský účet požičovne Marosko",
+    html: `
+      <h2>Správcovský účet požičovne</h2>
+      <p>Na marosko.sk sa niekto zaregistroval s adresou správcu požičovne:</p>
+      <p><strong>Meno:</strong> ${escapeHtml(user.name)}<br><strong>Telefón:</strong> ${escapeHtml(user.phone)}<br>
+      <strong>Čas:</strong> ${escapeHtml(new Date().toISOString().replace("T", " ").slice(0, 16))} UTC</p>
+      <p>Ak ste to boli vy, potvrďte to tlačidlom nižšie. Účet dostane heslo zadané pri tejto registrácii a práva správcu.</p>
+      <p><a href="${url}" style="background:#d97706;color:#fff;padding:10px 18px;border-radius:6px;text-decoration:none">Potvrdiť správcovský účet</a></p>
+      <p><strong>Ak ste sa neregistrovali, na tlačidlo neklikajte</strong> – bez potvrdenia sa nič nestane. Odkaz platí 24 hodín.</p>
     `,
   });
 }
