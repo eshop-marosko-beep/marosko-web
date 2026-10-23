@@ -103,7 +103,7 @@ function contract(b: Booking, name: string, lateDay: number, product: EshopProdu
 function protocol(b: Booking, name: string, tool: CatalogTool): string {
   const e = escapeHtml;
   const rows = [...tool.accessories, "", ""]
-    .map((item, i) => `<tr><td>${item ? e(item) : field(`accName${i}`, "100%")}</td><td class="c">${check(`accOut${i}`)}</td><td class="c">${check(`accBack${i}`)}</td></tr>`)
+    .map((item, i) => `<tr><td>${field(`accName${i}`, "100%", item)}</td><td class="c">${check(`accOut${i}`)}</td><td class="c">${check(`accBack${i}`)}</td></tr>`)
     .join("");
   return `<section class="page">
   <h1>Odovzdávací a preberací protokol</h1>
