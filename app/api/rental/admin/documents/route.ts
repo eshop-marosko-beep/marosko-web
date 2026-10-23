@@ -72,7 +72,7 @@ function contract(b: Booking, name: string, lateDay: number, product: EshopProdu
 
   <h2>2. Doba nájmu</h2>
   <p>Nájom sa uzatvára na dobu od <strong>${skDate(b.from)}</strong> do <strong>${skDate(b.to)}</strong> (${b.days} ${b.days === 1 ? "deň" : b.days < 5 ? "dni" : "dní"}).
-  Nájomca vráti vec v posledný deň nájmu v predajni prenajímateľa vo Vrádišti, v pondelok až piatok od 9:00 do 17:00, ak sa strany nedohodnú inak.</p>
+  Nájomca vráti vec v posledný deň nájmu v sídle prenajímateľa vo Vrádišti (Vrádište 138), v pondelok až piatok od 9:00 do 17:00, ak sa strany nedohodnú inak.</p>
 
   <h2>3. Nájomné a záloha</h2>
   <p>Nájomné za dobu nájmu je <strong>${eur(b.estimatedPrice)}</strong> vrátane DPH${discount}. Nájomca zaplatí pri prevzatí veci vratnú zálohu

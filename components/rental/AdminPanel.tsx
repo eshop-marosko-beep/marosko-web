@@ -184,7 +184,7 @@ function ShopBookingForm({ tools, groups, busy, act }: { tools: Tool[]; groups: 
     return (
       <div className="mb-6 flex flex-wrap items-center gap-3">
         <button type="button" onClick={() => { setOpen(true); setCreated(null); }}
-          className={`${button} bg-amber-600 text-white hover:bg-amber-700`}>+ Zákazník na predajni</button>
+          className={`${button} bg-amber-600 text-white hover:bg-amber-700`}>+ Zákazník v sídle spoločnosti</button>
         {created && (
           <a href={documentsUrl(created)} target="_blank" rel="noopener"
             className={`${button} bg-green-600 text-white hover:bg-green-700`}>Tlačiť doklady k novej rezervácii</a>
@@ -205,7 +205,7 @@ function ShopBookingForm({ tools, groups, busy, act }: { tools: Tool[]; groups: 
           window.open(documentsUrl(data.id), "_blank", "noopener");
         }
       }}>
-      <p className="md:col-span-4 font-semibold text-espresso-800">Zákazník na predajni</p>
+      <p className="md:col-span-4 font-semibold text-espresso-800">Zákazník v sídle spoločnosti</p>
       <label className="text-sm text-gray-700 flex flex-col gap-1">Náradie
         <select value={form.tool} onChange={set("tool")} className={input}>
           {tools.map((t) => <option key={t.slug} value={t.slug}>{t.name}</option>)}
@@ -272,7 +272,7 @@ function BookingsTab({
                   <p className="font-semibold text-espresso-800 text-base">{toolName(b.toolSlug)}</p>
                   <p>{b.from} – {b.to} ({b.days} d.) · {b.estimatedPrice} € · záloha {b.deposit} €</p>
                   <p>{b.name}{b.email && <> · <a className="underline" href={`mailto:${b.email}`}>{b.email}</a></>} · <a className="underline" href={`tel:${b.phone}`}>{b.phone}</a>
-                    {b.source === "shop" && <span className="ml-2 text-xs bg-amber-100 text-amber-800 rounded-full px-2 py-0.5">na predajni</span>}</p>
+                    {b.source === "shop" && <span className="ml-2 text-xs bg-amber-100 text-amber-800 rounded-full px-2 py-0.5">v sídle spoločnosti</span>}</p>
                   <p className="text-gray-500">Skupina: {groupName(b.groupId)} · vytvorená {b.createdAt.slice(0, 16).replace("T", " ")}
                     {b.contractNo && <> · zmluva č. {b.contractNo}</>}</p>
                   {b.note && <p className="italic">„{b.note}“</p>}

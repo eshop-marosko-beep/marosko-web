@@ -2704,7 +2704,7 @@
     "rental": {
       "badge": "Novinka",
       "name": "Požičovňa náradia",
-      "description": "Nechcete hneď kupovať? Požičajte si u nás Manpu, Arbortech Contour Sander alebo tepovač Kärcher. Po registrácii uvidíte ceny a voľné termíny, náradie si vyzdvihnete na predajni vo Vrádišti.",
+      "description": "Nechcete hneď kupovať? Požičajte si u nás Manpu, Arbortech Contour Sander alebo tepovač Kärcher. Po registrácii uvidíte ceny a voľné termíny, náradie si vyzdvihnete v sídle spoločnosti vo Vrádišti.",
       "cta": "Prejsť do požičovne"
     }
   },
@@ -3254,7 +3254,7 @@
     "conditionsTitle": "Podmienky prenájmu",
     "conditions": {
       "c1": "Rezervácia je platná až po našom potvrdení. Stav rezervácie vidíte vo svojom účte.",
-      "c2": "Náradie odovzdávame a preberáme osobne na našej predajni vo Vrádišti (Vrádište 138, 908 49 Vrádište) v pondelok až piatok od 9:00 do 17:00, v čase, na ktorom sa dohodneme.",
+      "c2": "Náradie odovzdávame a preberáme osobne v sídle spoločnosti vo Vrádišti (Vrádište 138, 908 49 Vrádište) v pondelok až piatok od 9:00 do 17:00, v čase, na ktorom sa dohodneme.",
       "c3": "Pri prevzatí zaplatíte nájomné a vratnú zálohu. Zálohu vrátime po vrátení kompletného a nepoškodeného náradia.",
       "c4": "Pri prevzatí si zapíšeme číslo vášho dokladu totožnosti a spolu skontrolujeme stav a príslušenstvo.",
       "c5": "Za každý deň omeškania účtujeme dennú sadzbu. Poškodenie, chýbajúce príslušenstvo alebo nadmerne opotrebované zuby kotúča hradí nájomca.",
