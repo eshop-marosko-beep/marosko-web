@@ -174,7 +174,7 @@ function documentsUrl(id: string) {
 /** A customer standing at the counter: the booking is confirmed at once and
  * the documents open filled in with what was typed here. */
 function ShopBookingForm({ tools, groups, busy, act }: { tools: Tool[]; groups: Group[]; busy: boolean; act: Act }) {
-  const empty = { tool: tools[0]?.slug ?? "", from: today(), to: today(), name: "", phone: "", email: "", groupId: "bezny", note: "" };
+  const empty = { tool: tools[0]?.slug ?? "", from: today(), to: today(), name: "", phone: "", email: "", groupId: "bezny", note: "", price: "", deposit: "" };
   const [open, setOpen] = useState(false);
   const [form, setForm] = useState(empty);
   const [created, setCreated] = useState<string | null>(null);
@@ -231,11 +231,17 @@ function ShopBookingForm({ tools, groups, busy, act }: { tools: Tool[]; groups: 
       <label className="text-sm text-gray-700 flex flex-col gap-1">E-mail (nepovinný)
         <input type="email" value={form.email} onChange={set("email")} className={input} />
       </label>
+      <label className="text-sm text-gray-700 flex flex-col gap-1">Dohodnuté nájomné € (nepovinné)
+        <input inputMode="decimal" value={form.price} onChange={set("price")} placeholder="podľa cenníka" className={input} />
+      </label>
+      <label className="text-sm text-gray-700 flex flex-col gap-1">Dohodnutá záloha € (nepovinné)
+        <input inputMode="decimal" value={form.deposit} onChange={set("deposit")} placeholder="podľa cenníka" className={input} />
+      </label>
       <label className="text-sm text-gray-700 flex flex-col gap-1">Poznámka
         <input value={form.note} onChange={set("note")} className={input} />
       </label>
       <p className="md:col-span-4 text-xs text-gray-500">
-        Adresu a číslo dokladu totožnosti doplníte až v dokladoch – na webe sa neukladajú. Ak má zákazník účet, použije sa skupina z jeho účtu.
+        Adresu a číslo dokladu totožnosti doplníte až v dokladoch – na webe sa neukladajú. Ak má zákazník účet, použije sa skupina z jeho účtu. Nájomné a zálohu nechajte prázdne, ak platí cenník – v dokladoch sa dajú ešte prepísať.
       </p>
       <div className="md:col-span-4 flex gap-2">
         <button type="submit" disabled={busy} className={`${button} bg-amber-600 text-white hover:bg-amber-700`}>Zapísať a otvoriť doklady</button>
