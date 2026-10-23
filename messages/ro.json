@@ -9,7 +9,8 @@
     "blog": "Blog",
     "shops": "Magazinele noastre",
     "contact": "Contact",
-    "promotions": "Promoții"
+    "promotions": "Promoții",
+    "rental": "Închiriere"
   },
   "common": {
     "openImage": "Deschide imaginea la mărimea completă"
@@ -3120,6 +3121,10 @@
     "promotions": {
       "title": "Promoții | Marosko",
       "description": "Promoții curente și lichidări de stoc pe eshop.marosko.sk – oferte limitate, cât mai sunt stocuri."
+    },
+    "rental": {
+      "title": "Închiriere scule de sculptură în lemn | Marosko",
+      "description": "Închiriați scule de sculptură Arbortech și Manpa și încercați-le în propria lucrare. Calendar online de disponibilitate și rezervare după înregistrare."
     }
   },
   "cookies": {
@@ -3215,5 +3220,126 @@
     "title": "Promoții și lichidări de stoc",
     "subtitle": "Oferte limitate și lichidări de stoc – nu rata ocazia.",
     "empty": "Momentan nu avem nicio promoție activă. Reveniți mai târziu!"
+  },
+  "rental": {
+    "title": "Închiriere scule",
+    "subtitle": "Încercați sculele profesionale de sculptură în lemn înainte să le cumpărați.",
+    "intro": "Închiriem scule selectate Arbortech și Manpa. După înregistrare vedeți prețurile și calendarul de disponibilitate și puteți rezerva direct o perioadă. Vă confirmăm rezervarea și stabilim predarea.",
+    "signedInAs": "Conectat: {name}",
+    "myAccount": "Contul meu și rezervările",
+    "logout": "Deconectare",
+    "lockedNote": "Prețurile, calendarul de disponibilitate și rezervarea sunt disponibile după înregistrare. Este gratuită și durează un minut.",
+    "registerCta": "Înregistrare",
+    "loginCta": "Conectare",
+    "priceDay": "1 zi",
+    "priceWeekend": "Weekend (vin – lun)",
+    "priceWeek": "7 zile",
+    "deposit": "Garanție returnabilă",
+    "reserveCta": "Vezi perioadele și rezervă",
+    "pricesAfterLogin": "Prețurile și perioadele libere le vedeți după conectare.",
+    "buyNew": "Cumpără nou în magazin",
+    "howTitle": "Cum funcționează",
+    "how": {
+      "step1": "Înregistrați-vă și conectați-vă.",
+      "step2": "Alegeți în calendar o perioadă liberă și trimiteți rezervarea.",
+      "step3": "Confirmăm rezervarea și stabilim cu dvs. ora predării.",
+      "step4": "Ridicați scula și plătiți chiria și o garanție returnabilă. La returnare vă restituim garanția."
+    },
+    "conditionsTitle": "Condiții de închiriere",
+    "conditions": {
+      "c1": "Rezervarea este valabilă doar după confirmarea noastră. Starea ei o vedeți în contul dvs.",
+      "c2": "Sculele se predau și se primesc personal la magazinul nostru, la ora stabilită.",
+      "c3": "La ridicare plătiți chiria și o garanție returnabilă. Restituim garanția după returnarea sculei complete și nedeteriorate.",
+      "c4": "La ridicare notăm numărul actului dvs. de identitate și verificăm împreună starea sculei și accesoriile.",
+      "c5": "Fiecare zi de întârziere se taxează cu tariful zilnic. Deteriorările, accesoriile lipsă sau dinții discului uzați excesiv sunt plătite de chiriaș.",
+      "c6": "Consumabilele (de ex. discurile abrazive) nu sunt incluse în chirie; le puteți cumpăra din magazinul nostru online."
+    },
+    "tools": {
+      "contourSander": {
+        "name": "Arbortech Contour Random Sander",
+        "description": "Accesoriu de șlefuire excentrică pentru polizorul unghiular, cu talpă flexibilă de Ø 50 mm. Pentru șlefuirea formelor rotunjite, a cavităților și a contururilor fără a arde lemnul."
+      },
+      "manpaBasic": {
+        "name": "Manpa Multi Cutter Basic 3\"",
+        "description": "Braț prelungitor pentru polizorul unghiular cu disc de frezat de 70 mm. Pentru frezarea și modelarea lemnului în adâncime și în spații înguste; transmisia prin curea reduce riscul de recul."
+      },
+      "manpaMaster": {
+        "name": "Manpa Multi Cutter Master 3\"/4\"",
+        "description": "Set profesional complet cu trei lungimi de braț (200, 270 și 348 mm) și discuri de 70 și 95 mm pentru modelarea grosieră și fină a pieselor mari."
+      }
+    },
+    "calendar": {
+      "title": "Alegeți perioada",
+      "pickStart": "Faceți clic pe prima zi de închiriere.",
+      "pickEnd": "Acum faceți clic pe ultima zi de închiriere (sau pe aceeași zi pentru o singură zi).",
+      "prev": "Luna anterioară",
+      "next": "Luna următoare",
+      "legendFree": "Liber",
+      "legendBooked": "Ocupat",
+      "legendSelected": "Selecția dvs.",
+      "selected": "Perioada",
+      "days": "{count, plural, one {# zi} few {# zile} other {# de zile}}",
+      "estimate": "Preț orientativ",
+      "priceNote": "Prețul final vi-l confirmăm odată cu rezervarea.",
+      "note": "Notă (opțional)",
+      "notePlaceholder": "De ex. când vă convine ridicarea",
+      "sending": "Se trimite…",
+      "submit": "Trimite rezervarea",
+      "clear": "Anulează selecția",
+      "success": "Rezervarea a fost trimisă, iar perioada este blocată pentru dvs. Revenim cu o confirmare.",
+      "successLink": "Rezervările mele"
+    },
+    "auth": {
+      "registerTitle": "Înregistrare pentru închiriere",
+      "registerSubtitle": "După înregistrare vedeți prețurile și calendarul de disponibilitate și puteți rezerva scule.",
+      "loginTitle": "Conectare la închiriere",
+      "loginSubtitle": "Conectați-vă cu e-mailul și parola folosite la înregistrare.",
+      "name": "Nume și prenume",
+      "phone": "Telefon",
+      "email": "E-mail",
+      "password": "Parolă",
+      "passwordHint": "Cel puțin 8 caractere.",
+      "consent": "Sunt de acord cu <terms>condițiile de închiriere</terms> și cu prelucrarea datelor personale conform <gdpr>politicii de confidențialitate</gdpr>.",
+      "sending": "Un moment…",
+      "submitRegister": "Înregistrare",
+      "submitLogin": "Conectare",
+      "haveAccount": "Aveți deja cont?",
+      "noAccount": "Nu aveți încă cont?",
+      "loginLink": "Conectați-vă",
+      "registerLink": "Înregistrați-vă"
+    },
+    "account": {
+      "title": "Contul meu",
+      "bookingsTitle": "Rezervările mele",
+      "empty": "Nu aveți încă nicio rezervare.",
+      "status": {
+        "pending": "Așteaptă confirmarea",
+        "confirmed": "Confirmată",
+        "declined": "Respinsă"
+      },
+      "toRental": "Mergi la închiriere"
+    },
+    "errors": {
+      "invalid_request": "Cerere invalidă.",
+      "invalid_fields": "Completați numele, un e-mail valid și telefonul.",
+      "weak_password": "Parola trebuie să aibă cel puțin 8 caractere.",
+      "consent_required": "Pentru înregistrare este necesar acordul cu condițiile.",
+      "email_taken": "Există deja un cont cu acest e-mail. Conectați-vă.",
+      "invalid_login": "E-mail sau parolă greșită.",
+      "too_many_attempts": "Prea multe încercări nereușite. Încercați din nou peste 15 minute.",
+      "not_signed_in": "Vă rugăm să vă conectați din nou.",
+      "unknown_tool": "Această sculă nu se închiriază.",
+      "invalid_dates": "Alegeți o perioadă validă (cel mult 6 luni înainte).",
+      "too_long": "Se pot rezerva cel mult 30 de zile odată.",
+      "dates_taken": "Perioada aleasă este deja ocupată. Alegeți alta.",
+      "try_again": "Tocmai se face o altă rezervare. Încercați din nou peste câteva momente.",
+      "generic": "Ceva nu a funcționat. Încercați din nou sau sunați-ne."
+    },
+    "email": {
+      "confirmedHeading": "Rezervare confirmată",
+      "confirmedText": "Rezervarea dvs. este confirmată. Vă contactăm pentru ora predării.",
+      "declinedHeading": "Rezervare respinsă",
+      "declinedText": "Ne pare rău, nu putem confirma această perioadă. Alegeți altă perioadă sau contactați-ne."
+    }
   }
 }

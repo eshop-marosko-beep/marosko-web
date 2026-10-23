@@ -5,7 +5,7 @@ import { kategorieArticles } from "@/lib/kategorieArticles";
 import { guideArticles } from "@/lib/guideArticles";
 import { blogPosts } from "@/lib/blogData";
 
-const staticPaths = ["/", "/o-nas", "/kategorie", "/akcie", "/znacky", "/galeria", "/navody", "/blog", "/obchody", "/kontakt", "/gdpr"];
+const staticPaths = ["/", "/o-nas", "/kategorie", "/akcie", "/znacky", "/galeria", "/navody", "/pozicovna", "/blog", "/obchody", "/kontakt", "/gdpr"];
 
 /** Every indexable path (locale-independent `href`s) on the site. */
 export function sitemapPaths(): string[] {

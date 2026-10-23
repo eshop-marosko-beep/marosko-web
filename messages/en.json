@@ -9,7 +9,8 @@
     "blog": "Blog",
     "shops": "Our Shops",
     "contact": "Contact",
-    "promotions": "Promotions"
+    "promotions": "Promotions",
+    "rental": "Tool rental"
   },
   "common": {
     "openImage": "Open image in full size"
@@ -3120,6 +3121,10 @@
     "promotions": {
       "title": "Promotions | Marosko",
       "description": "Current promotions and clearance sales at eshop.marosko.sk – limited offers while stocks last."
+    },
+    "rental": {
+      "title": "Wood carving tool rental | Marosko",
+      "description": "Rent Arbortech and Manpa wood carving tools and try them on your own work. Online availability calendar and booking after registration."
     }
   },
   "cookies": {
@@ -3216,5 +3221,126 @@
     "title": "Promotions & Clearance",
     "subtitle": "Limited-time offers and clearance sales while stocks last.",
     "empty": "There are no active promotions right now. Check back soon!"
+  },
+  "rental": {
+    "title": "Tool rental",
+    "subtitle": "Try professional wood carving tools before you buy them.",
+    "intro": "We rent out selected Arbortech and Manpa tools. Once registered, you'll see prices and the availability calendar and can book a date straight away. We'll confirm your booking and arrange the handover.",
+    "signedInAs": "Signed in as {name}",
+    "myAccount": "My account and bookings",
+    "logout": "Sign out",
+    "lockedNote": "Prices, the availability calendar and booking are available after registration. It's free and takes a minute.",
+    "registerCta": "Register",
+    "loginCta": "Sign in",
+    "priceDay": "1 day",
+    "priceWeekend": "Weekend (Fri – Mon)",
+    "priceWeek": "7 days",
+    "deposit": "Refundable deposit",
+    "reserveCta": "See dates and book",
+    "pricesAfterLogin": "Sign in to see prices and free dates.",
+    "buyNew": "Buy new in the e-shop",
+    "howTitle": "How it works",
+    "how": {
+      "step1": "Register and sign in.",
+      "step2": "Pick a free date range in the calendar and send your booking.",
+      "step3": "We confirm the booking and agree a handover time with you.",
+      "step4": "You collect the tool and pay the rental fee and a refundable deposit. We return the deposit when you bring the tool back."
+    },
+    "conditionsTitle": "Rental terms",
+    "conditions": {
+      "c1": "A booking is valid only once we confirm it. You can see its status in your account.",
+      "c2": "Tools are handed over and returned in person at our shop at the agreed time.",
+      "c3": "On collection you pay the rental fee and a refundable deposit. We return the deposit once the tool comes back complete and undamaged.",
+      "c4": "On collection we note the number of your ID document and check the tool's condition and accessories together with you.",
+      "c5": "Each day of late return is charged at the daily rate. Damage, missing accessories or excessively worn cutter teeth are paid by the renter.",
+      "c6": "Consumables (e.g. sanding discs) are not included in the rental; you can buy them in our e-shop."
+    },
+    "tools": {
+      "contourSander": {
+        "name": "Arbortech Contour Random Sander",
+        "description": "Random-orbit sanding attachment for angle grinders with a flexible Ø 50 mm pad. For sanding rounded shapes, hollows and contours without burning the wood."
+      },
+      "manpaBasic": {
+        "name": "Manpa Multi Cutter Basic 3\"",
+        "description": "Angle-grinder extension arm with a 70 mm milling disc. For milling and shaping wood deep down and in tight spaces; the belt drive reduces the risk of kickback."
+      },
+      "manpaMaster": {
+        "name": "Manpa Multi Cutter Master 3\"/4\"",
+        "description": "Complete professional kit with three arm lengths (200, 270 and 348 mm) and 70 and 95 mm discs for rough and fine shaping of large pieces."
+      }
+    },
+    "calendar": {
+      "title": "Pick your dates",
+      "pickStart": "Click the first day of the rental.",
+      "pickEnd": "Now click the last day of the rental (or the same day for a single day).",
+      "prev": "Previous month",
+      "next": "Next month",
+      "legendFree": "Free",
+      "legendBooked": "Booked",
+      "legendSelected": "Your selection",
+      "selected": "Dates",
+      "days": "{count, plural, one {# day} other {# days}}",
+      "estimate": "Indicative price",
+      "priceNote": "We'll confirm the final price together with the booking.",
+      "note": "Note (optional)",
+      "notePlaceholder": "E.g. when collection suits you",
+      "sending": "Sending…",
+      "submit": "Send booking",
+      "clear": "Clear selection",
+      "success": "Your booking has been sent and the dates are held for you. We'll get back to you with a confirmation.",
+      "successLink": "My bookings"
+    },
+    "auth": {
+      "registerTitle": "Register for tool rental",
+      "registerSubtitle": "Once registered, you'll see prices and the availability calendar and can book tools.",
+      "loginTitle": "Sign in to tool rental",
+      "loginSubtitle": "Sign in with the email and password you registered with.",
+      "name": "Full name",
+      "phone": "Phone",
+      "email": "Email",
+      "password": "Password",
+      "passwordHint": "At least 8 characters.",
+      "consent": "I agree to the <terms>rental terms</terms> and to the processing of my personal data under the <gdpr>privacy policy</gdpr>.",
+      "sending": "One moment…",
+      "submitRegister": "Register",
+      "submitLogin": "Sign in",
+      "haveAccount": "Already have an account?",
+      "noAccount": "Don't have an account yet?",
+      "loginLink": "Sign in",
+      "registerLink": "Register"
+    },
+    "account": {
+      "title": "My account",
+      "bookingsTitle": "My bookings",
+      "empty": "You don't have any bookings yet.",
+      "status": {
+        "pending": "Awaiting confirmation",
+        "confirmed": "Confirmed",
+        "declined": "Declined"
+      },
+      "toRental": "Go to tool rental"
+    },
+    "errors": {
+      "invalid_request": "Invalid request.",
+      "invalid_fields": "Please fill in your name, a valid email and a phone number.",
+      "weak_password": "The password must be at least 8 characters long.",
+      "consent_required": "Registration requires agreeing to the terms.",
+      "email_taken": "An account with this email already exists. Please sign in.",
+      "invalid_login": "Wrong email or password.",
+      "too_many_attempts": "Too many failed attempts. Please try again in 15 minutes.",
+      "not_signed_in": "Please sign in again.",
+      "unknown_tool": "This tool isn't available for rent.",
+      "invalid_dates": "Please pick valid dates (up to 6 months ahead).",
+      "too_long": "You can book at most 30 days at once.",
+      "dates_taken": "These dates are already booked. Please pick others.",
+      "try_again": "Another booking is being made right now. Please try again in a moment.",
+      "generic": "Something went wrong. Please try again or give us a call."
+    },
+    "email": {
+      "confirmedHeading": "Booking confirmed",
+      "confirmedText": "Your booking is confirmed. We'll contact you about the handover time.",
+      "declinedHeading": "Booking declined",
+      "declinedText": "Sorry, we can't confirm these dates. Please pick other dates or contact us."
+    }
   }
 }

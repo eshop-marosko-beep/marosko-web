@@ -9,7 +9,8 @@
     "blog": "Blog",
     "shops": "Naše obchody",
     "contact": "Kontakt",
-    "promotions": "Akcie a výpredaje"
+    "promotions": "Akcie a výpredaje",
+    "rental": "Požičovňa"
   },
   "common": {
     "openImage": "Otvoriť obrázok v plnej veľkosti"
@@ -3120,6 +3121,10 @@
     "promotions": {
       "title": "Akcie a výpredaje | Marosko",
       "description": "Aktuálne akcie a výpredaje skladových zásob na eshop.marosko.sk – limitovaná ponuka, kým vydrží zásoba."
+    },
+    "rental": {
+      "title": "Požičovňa rezbárskeho náradia | Marosko",
+      "description": "Požičajte si rezbárske náradie Arbortech a Manpa a vyskúšajte ho pri vlastnej práci. Online kalendár dostupnosti a rezervácia po registrácii."
     }
   },
   "cookies": {
@@ -3215,5 +3220,126 @@
     "title": "Akcie a výpredaje",
     "subtitle": "Limitované ponuky a výpredaj skladových zásob – oplatí sa nezaspať.",
     "empty": "Momentálne nemáme žiadnu aktívnu akciu. Pozrite sa opäť neskôr!"
+  },
+  "rental": {
+    "title": "Požičovňa náradia",
+    "subtitle": "Vyskúšajte profesionálne rezbárske náradie skôr, než si ho kúpite.",
+    "intro": "Požičiavame vybrané nástroje Arbortech a Manpa. Po registrácii uvidíte ceny, kalendár dostupnosti a termín si môžete rovno rezervovať. Rezerváciu vám potvrdíme a dohodneme odovzdanie.",
+    "signedInAs": "Prihlásený: {name}",
+    "myAccount": "Môj účet a rezervácie",
+    "logout": "Odhlásiť sa",
+    "lockedNote": "Ceny, kalendár dostupnosti a rezervácia sú dostupné po registrácii. Je zadarmo a trvá minútu.",
+    "registerCta": "Zaregistrovať sa",
+    "loginCta": "Prihlásiť sa",
+    "priceDay": "1 deň",
+    "priceWeekend": "Víkend (pi – po)",
+    "priceWeek": "7 dní",
+    "deposit": "Vratná záloha",
+    "reserveCta": "Pozrieť termíny a rezervovať",
+    "pricesAfterLogin": "Ceny a voľné termíny uvidíte po prihlásení.",
+    "buyNew": "Kúpiť nový v e-shope",
+    "howTitle": "Ako to funguje",
+    "how": {
+      "step1": "Zaregistrujte sa a prihláste.",
+      "step2": "V kalendári vyberte voľný termín od – do a odošlite rezerváciu.",
+      "step3": "Rezerváciu potvrdíme a dohodneme s vami čas odovzdania.",
+      "step4": "Náradie si prevezmete, zaplatíte nájomné a vratnú zálohu. Po vrátení vám zálohu vrátime."
+    },
+    "conditionsTitle": "Podmienky prenájmu",
+    "conditions": {
+      "c1": "Rezervácia je platná až po našom potvrdení. Stav rezervácie vidíte vo svojom účte.",
+      "c2": "Náradie odovzdávame a preberáme osobne na našej predajni v dohodnutom čase.",
+      "c3": "Pri prevzatí zaplatíte nájomné a vratnú zálohu. Zálohu vrátime po vrátení kompletného a nepoškodeného náradia.",
+      "c4": "Pri prevzatí si zapíšeme číslo vášho dokladu totožnosti a spolu skontrolujeme stav a príslušenstvo.",
+      "c5": "Za každý deň omeškania účtujeme dennú sadzbu. Poškodenie, chýbajúce príslušenstvo alebo nadmerne opotrebované zuby kotúča hradí nájomca.",
+      "c6": "Spotrebný materiál (napr. brúsne výseky) nie je súčasťou prenájmu, kúpite ho v našom e-shope."
+    },
+    "tools": {
+      "contourSander": {
+        "name": "Arbortech Contour Random Sander",
+        "description": "Excentrický brúsny nástavec na uhlovú brúsku s pružnou podložkou Ø 50 mm. Na brúsenie oblých tvarov, dutín a kontúr bez pálenia dreva."
+      },
+      "manpaBasic": {
+        "name": "Manpa Multi Cutter Basic 3\"",
+        "description": "Predlžovacie rameno na uhlovú brúsku s frézovacím kotúčom 70 mm. Na frézovanie a tvarovanie dreva v hĺbkach a úzkych priestoroch; remeňový prevod znižuje riziko spätného rázu."
+      },
+      "manpaMaster": {
+        "name": "Manpa Multi Cutter Master 3\"/4\"",
+        "description": "Kompletná profesionálna sada s tromi dĺžkami ramena (200, 270 a 348 mm) a kotúčmi 70 a 95 mm na hrubé aj jemné tvarovanie veľkých diel."
+      }
+    },
+    "calendar": {
+      "title": "Vyberte termín",
+      "pickStart": "Kliknite na prvý deň prenájmu.",
+      "pickEnd": "Teraz kliknite na posledný deň prenájmu (alebo na ten istý deň pre 1 deň).",
+      "prev": "Predchádzajúci mesiac",
+      "next": "Nasledujúci mesiac",
+      "legendFree": "Voľné",
+      "legendBooked": "Obsadené",
+      "legendSelected": "Váš výber",
+      "selected": "Termín",
+      "days": "{count, plural, one {# deň} few {# dni} other {# dní}}",
+      "estimate": "Orientačná cena",
+      "priceNote": "Konečnú cenu vám potvrdíme spolu s rezerváciou.",
+      "note": "Poznámka (nepovinné)",
+      "notePlaceholder": "Napr. kedy sa vám hodí prevzatie",
+      "sending": "Odosielam…",
+      "submit": "Odoslať rezerváciu",
+      "clear": "Zrušiť výber",
+      "success": "Rezervácia je odoslaná a termín je pre vás zablokovaný. Ozveme sa vám s potvrdením.",
+      "successLink": "Moje rezervácie"
+    },
+    "auth": {
+      "registerTitle": "Registrácia do požičovne",
+      "registerSubtitle": "Po registrácii uvidíte ceny a kalendár dostupnosti a môžete si rezervovať náradie.",
+      "loginTitle": "Prihlásenie do požičovne",
+      "loginSubtitle": "Prihláste sa e-mailom a heslom, ktoré ste zadali pri registrácii.",
+      "name": "Meno a priezvisko",
+      "phone": "Telefón",
+      "email": "E-mail",
+      "password": "Heslo",
+      "passwordHint": "Aspoň 8 znakov.",
+      "consent": "Súhlasím so <terms>podmienkami prenájmu</terms> a so spracovaním osobných údajov podľa <gdpr>zásad ochrany osobných údajov</gdpr>.",
+      "sending": "Chvíľku…",
+      "submitRegister": "Zaregistrovať sa",
+      "submitLogin": "Prihlásiť sa",
+      "haveAccount": "Už máte účet?",
+      "noAccount": "Ešte nemáte účet?",
+      "loginLink": "Prihláste sa",
+      "registerLink": "Zaregistrujte sa"
+    },
+    "account": {
+      "title": "Môj účet",
+      "bookingsTitle": "Moje rezervácie",
+      "empty": "Zatiaľ nemáte žiadnu rezerváciu.",
+      "status": {
+        "pending": "Čaká na potvrdenie",
+        "confirmed": "Potvrdená",
+        "declined": "Zamietnutá"
+      },
+      "toRental": "Prejsť do požičovne"
+    },
+    "errors": {
+      "invalid_request": "Neplatná požiadavka.",
+      "invalid_fields": "Vyplňte prosím meno, platný e-mail a telefón.",
+      "weak_password": "Heslo musí mať aspoň 8 znakov.",
+      "consent_required": "Pre registráciu je potrebný súhlas s podmienkami.",
+      "email_taken": "Účet s týmto e-mailom už existuje. Prihláste sa.",
+      "invalid_login": "Nesprávny e-mail alebo heslo.",
+      "too_many_attempts": "Priveľa neúspešných pokusov. Skúste to znova o 15 minút.",
+      "not_signed_in": "Prihláste sa prosím znova.",
+      "unknown_tool": "Toto náradie sa nepožičiava.",
+      "invalid_dates": "Vyberte prosím platný termín (najviac 6 mesiacov dopredu).",
+      "too_long": "Naraz sa dá rezervovať najviac 30 dní.",
+      "dates_taken": "Vybraný termín je už obsadený. Vyberte prosím iný.",
+      "try_again": "Práve prebieha iná rezervácia. Skúste to prosím o chvíľu.",
+      "generic": "Niečo sa nepodarilo. Skúste to prosím znova alebo nám zavolajte."
+    },
+    "email": {
+      "confirmedHeading": "Rezervácia potvrdená",
+      "confirmedText": "Vaša rezervácia je potvrdená. Ozveme sa vám ohľadom času odovzdania.",
+      "declinedHeading": "Rezervácia zamietnutá",
+      "declinedText": "Ľutujeme, tento termín vám nemôžeme potvrdiť. Vyberte si prosím iný termín alebo nás kontaktujte."
+    }
   }
 }
