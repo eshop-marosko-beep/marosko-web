@@ -29,9 +29,11 @@ function skDate(iso: string): string {
   return `${Number(d)}. ${Number(m)}. ${y}`;
 }
 
-function eur(n: number): string {
-  return `${n.toFixed(2).replace(".", ",")} €`;
+/** "60,00" – the amount without the € sign, for an editable field. */
+function amount(n: number): string {
+  return n.toFixed(2).replace(".", ",");
 }
+
 
 /** A line to type into on the page itself; left empty it prints as a blank
  * line to fill in by hand. Fields with the same name (the two contract
@@ -52,7 +54,6 @@ function signatures(left: string, right: string): string {
 
 function contract(b: Booking, name: string, lateDay: number, product: EshopProduct | null, value: number | null, copy: string): string {
   const e = escapeHtml;
-  const discount = b.discountPercent ? ` (po zľave ${b.discountPercent} %)` : "";
   return `<section class="page">
   <p class="copy">${copy}</p>
   <h1>Zmluva o krátkodobom nájme hnuteľnej veci č. ${e(b.contractNo ?? b.id)}</h1>
@@ -68,15 +69,15 @@ function contract(b: Booking, name: string, lateDay: number, product: EshopProdu
   <p>Prenajímateľ prenecháva nájomcovi do dočasného užívania <strong>${e(name)}</strong>${
     product ? ` (${e(product.title)}${product.code ? `, kód ${e(product.code)}` : ""})` : ""
   } vrátane príslušenstva uvedeného v odovzdávacom a preberacom protokole, ktorý je súčasťou tejto zmluvy.
-  Hodnota predmetu nájmu (cena nového vrátane DPH): ${value ? `<strong>${eur(value)}</strong>` : `${field("value", "6em")} €`}.</p>
+  Hodnota predmetu nájmu (cena nového vrátane DPH): <strong>${field("value", "6em", value ? amount(value) : "")} €</strong>.</p>
 
   <h2>2. Doba nájmu</h2>
   <p>Nájom sa uzatvára na dobu od <strong>${skDate(b.from)}</strong> do <strong>${skDate(b.to)}</strong> (${b.days} ${b.days === 1 ? "deň" : b.days < 5 ? "dni" : "dní"}).
   Nájomca vráti vec v posledný deň nájmu v sídle prenajímateľa vo Vrádišti (Vrádište 138), v pondelok až piatok od 9:00 do 17:00, ak sa strany nedohodnú inak.</p>
 
   <h2>3. Nájomné a záloha</h2>
-  <p>Nájomné za dobu nájmu je <strong>${eur(b.estimatedPrice)}</strong> vrátane DPH${discount}. Nájomca zaplatí pri prevzatí veci vratnú zálohu
-  <strong>${eur(b.deposit)}</strong>. Prenajímateľ zálohu vráti po vrátení kompletnej a nepoškodenej veci. Prenajímateľ je oprávnený
+  <p>Nájomné za dobu nájmu je <strong>${field("rent", "5em", amount(b.estimatedPrice))} €</strong> vrátane DPH. Nájomca zaplatí pri prevzatí veci vratnú zálohu
+  <strong>${field("deposit", "5em", amount(b.deposit))} €</strong>. Prenajímateľ zálohu vráti po vrátení kompletnej a nepoškodenej veci. Prenajímateľ je oprávnený
   zo zálohy uhradiť nájomné za omeškanie a náhradu škody podľa čl. 5.</p>
   <p>Spôsob platby: ${payment}</p>
 
@@ -87,7 +88,7 @@ function contract(b: Booking, name: string, lateDay: number, product: EshopProdu
   bez zbytočného odkladu a vec sám neopravuje. Spotrebný materiál nie je súčasťou nájmu.</p>
 
   <h2>5. Omeškanie a zodpovednosť za škodu</h2>
-  <p>Za každý začatý deň omeškania s vrátením veci zaplatí nájomca nájomné vo výške dennej sadzby <strong>${eur(lateDay)}</strong>.
+  <p>Za každý začatý deň omeškania s vrátením veci zaplatí nájomca nájomné vo výške dennej sadzby <strong>${field("lateDay", "4em", amount(lateDay))} €</strong>.
   Nájomca zodpovedá za poškodenie, stratu alebo odcudzenie veci, za chýbajúce príslušenstvo a za opotrebenie nad rámec bežného
   používania (napr. poškodené zuby kotúča). Pri strate alebo zničení veci uhradí nájomca jej hodnotu podľa čl. 1. Prenajímateľ nezodpovedá za škodu spôsobenú nesprávnym použitím veci.</p>
 
@@ -138,7 +139,7 @@ function depositReceipt(b: Booking, name: string): string {
   <h1>Potvrdenie o prijatí zálohy</h1>
   <p class="center">k zmluve o krátkodobom nájme č. ${e(b.contractNo ?? b.id)} · ${e(name)}</p>
   <p>${LESSOR.name}, ${LESSOR.address}, ${LESSOR.ids}, potvrdzuje, že od nájomcu <strong>${e(b.name)}</strong>
-  prijal vratnú zálohu vo výške <strong>${eur(b.deposit)}</strong>. Záloha nie je platbou za nájom, prenajímateľ ju má len v úschove
+  prijal vratnú zálohu vo výške <strong>${field("deposit", "5em", amount(b.deposit))} €</strong>. Záloha nie je platbou za nájom, prenajímateľ ju má len v úschove
   a vráti ju podľa čl. 3 zmluvy.</p>
   <p>${payment}</p>
   <p class="place">Vo Vrádišti dňa ${field("depositDate", "8em", todaySk())}</p>
@@ -233,6 +234,10 @@ window.addEventListener("pageshow", function () {
     if (el.type === "checkbox") el.checked = false;
     else el.value = el.defaultValue;
   });
+});
+// No text cursor on paper.
+window.addEventListener("beforeprint", function () {
+  if (document.activeElement instanceof HTMLElement) document.activeElement.blur();
 });
 var first = document.querySelector('input[name="address"]');
 if (first) first.focus();

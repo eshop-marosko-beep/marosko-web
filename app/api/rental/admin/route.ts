@@ -108,6 +108,13 @@ export async function POST(request: Request) {
       const group = findGroup(groups, account?.groupId ?? (str(body.groupId, 40) || DEFAULT_GROUP_ID));
       const pricing = groupPricing(tool, group);
       const days = rentalDays(from, to);
+      // A price agreed at the counter (family, friends) replaces the price list.
+      const agreed = (value: unknown) => {
+        const n = Number.parseFloat(str(value, 20).replace(",", "."));
+        return Number.isFinite(n) && n >= 0 ? Math.round(n * 100) / 100 : null;
+      };
+      const agreedPrice = agreed(body.price);
+      const agreedDeposit = agreed(body.deposit);
       const result = await createBooking(tool, {
         kind: "booking",
         source: "shop",
@@ -117,8 +124,8 @@ export async function POST(request: Request) {
         from,
         to,
         days,
-        estimatedPrice: estimatePrice(pricing, from, to),
-        deposit: pricing.deposit,
+        estimatedPrice: agreedPrice ?? estimatePrice(pricing, from, to),
+        deposit: agreedDeposit ?? pricing.deposit,
         groupId: group.id,
         discountPercent: pricing.discountPercent,
         note: str(body.note, 500),
