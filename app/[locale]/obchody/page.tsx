@@ -1,4 +1,5 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { Link } from "@/navigation";
 import { shops } from "@/lib/shopsData";
 import { buildMetadata } from "@/lib/seo";
 import { getEshopUrl } from "@/lib/eshopUrl";
@@ -71,6 +72,22 @@ export default async function ShopsPage({
             </a>
           </div>
         ))}
+      </div>
+
+      <div className="mt-10 bg-espresso-800 text-cream-50 rounded-xl shadow-lg p-6 md:p-8 flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div>
+          <span className="inline-block bg-amber-600 text-white text-xs font-bold px-3 py-1 rounded-full mb-3">
+            {t("rental.badge")}
+          </span>
+          <h2 className="text-2xl font-bold mb-2">{t("rental.name")}</h2>
+          <p className="leading-relaxed max-w-2xl opacity-90">{t("rental.description")}</p>
+        </div>
+        <Link
+          href="/pozicovna"
+          className="shrink-0 bg-amber-600 text-white px-5 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors text-center"
+        >
+          {t("rental.cta")} →
+        </Link>
       </div>
     </div>
   );

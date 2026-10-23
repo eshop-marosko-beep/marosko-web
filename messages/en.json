@@ -2700,6 +2700,12 @@
       "name": "RezbárskeNáradie.sk",
       "description": "A trusted selection of the same quality tools, laid out for a quick and simple purchase.",
       "cta": "Go to RezbárskeNáradie.sk"
+    },
+    "rental": {
+      "badge": "New",
+      "name": "Tool rental",
+      "description": "Not ready to buy yet? Rent a Manpa, an Arbortech Contour Sander or a Kärcher carpet cleaner from us. After registering you will see prices and free dates; tools are collected at our shop in Vrádište.",
+      "cta": "Go to the rental"
     }
   },
   "contact": {

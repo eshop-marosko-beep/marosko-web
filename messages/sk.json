@@ -2700,6 +2700,12 @@
       "name": "RezbárskeNáradie.sk",
       "description": "Overený výber toho istého kvalitného náradia, prehľadne spracovaný pre rýchly a jednoduchý nákup.",
       "cta": "Prejsť na RezbárskeNáradie.sk"
+    },
+    "rental": {
+      "badge": "Novinka",
+      "name": "Požičovňa náradia",
+      "description": "Nechcete hneď kupovať? Požičajte si u nás Manpu, Arbortech Contour Sander alebo tepovač Kärcher. Po registrácii uvidíte ceny a voľné termíny, náradie si vyzdvihnete na predajni vo Vrádišti.",
+      "cta": "Prejsť do požičovne"
     }
   },
   "contact": {
