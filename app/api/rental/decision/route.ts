@@ -1,4 +1,4 @@
-import { getBooking, setBookingStatus } from "@/lib/rental/bookings";
+import { getBooking, setBookingStatus, type Booking } from "@/lib/rental/bookings";
 import { verifySignature } from "@/lib/rental/crypto";
 import { notifyCustomer, toolName } from "@/lib/rental/notify";
 import { getRentalTool } from "@/lib/rental/rentalData";
@@ -22,7 +22,9 @@ function page(body: string, status = 200) {
   );
 }
 
-async function parse(params: URLSearchParams) {
+type Action = keyof typeof ACTION_LABEL;
+
+async function parse(params: URLSearchParams): Promise<{ booking: Booking; action: Action } | null> {
   const id = params.get("id") ?? "";
   const action = params.get("action");
   const sig = params.get("sig") ?? "";
@@ -33,7 +35,7 @@ async function parse(params: URLSearchParams) {
   return booking ? { booking, action } : null;
 }
 
-function summary(booking: NonNullable<Awaited<ReturnType<typeof getBooking>>>) {
+function summary(booking: Booking) {
   const tool = getRentalTool(booking.toolSlug);
   const name = tool ? toolName(tool.slug, tool.translationKey) : booking.toolSlug;
   return `<p><strong>${escapeHtml(name)}</strong><br>${escapeHtml(booking.from)} – ${escapeHtml(booking.to)} (${booking.days} d.)<br>
