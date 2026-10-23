@@ -14,7 +14,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "rental.auth" });
   return {
-    ...buildMetadata({ locale, path: "/ucet/registracia", title: t("registerTitle"), description: t("registerSubtitle") }),
+    ...buildMetadata({ locale, path: "/ucet/registracia", title: `${t("registerTitle")} | Marosko`, description: t("registerSubtitle") }),
     robots: { index: false, follow: true },
   };
 }

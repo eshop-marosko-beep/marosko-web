@@ -15,6 +15,9 @@ export async function POST(request: Request) {
   if (password.length < 8 || password.length > 200) return apiError("weak_password", 400);
   if (body.consent !== true) return apiError("consent_required", 400);
 
+  // Sign the session first: if that fails, no account is left behind that
+  // the customer doesn't know was created.
+  const sessionCookie = await sessionCookieHeader(email);
   const created = await createUser({
     email,
     name,
@@ -25,5 +28,5 @@ export async function POST(request: Request) {
   });
   if (!created) return apiError("email_taken", 409);
 
-  return Response.json({ success: true }, { headers: { "Set-Cookie": await sessionCookieHeader(email) } });
+  return Response.json({ success: true }, { headers: { "Set-Cookie": sessionCookie } });
 }
