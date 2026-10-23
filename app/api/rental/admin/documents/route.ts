@@ -212,6 +212,7 @@ export async function GET(request: Request) {
 
   return page(`<div class="toolbar">
   <span>Doklady k zmluve č. ${escapeHtml(booking.contractNo ?? booking.id)} – kliknite do žltých riadkov a políčok a doplňte, čo treba. Prázdne ostanú na ručné vypísanie.</span>
+  <span id="saveStatus" aria-live="polite"></span>
   <button type="button" onclick="window.print()">Tlačiť / uložiť ako PDF</button></div>
 ${contract(booking, name, lateDay, product, value, "Rovnopis pre prenajímateľa")}
 ${contract(booking, name, lateDay, product, value, "Rovnopis pre nájomcu")}
@@ -227,6 +228,30 @@ document.addEventListener("input", function (event) {
     if (el.type === "checkbox") el.checked = source.checked;
     else el.value = source.value;
   });
+});
+// A changed rent or deposit is saved to the booking, so the admin panel and
+// the next printout show the agreed amounts.
+var saveStatus = document.getElementById("saveStatus");
+document.addEventListener("change", function (event) {
+  var name = event.target.name;
+  if (name !== "rent" && name !== "deposit") return;
+  var rent = document.querySelector('input[name="rent"]');
+  var deposit = document.querySelector('input[name="deposit"]');
+  saveStatus.textContent = "Ukladám nájomné a zálohu…";
+  fetch("/api/rental/admin", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ action: "setBookingPrice", id: ${JSON.stringify(booking.id)}, price: rent.value, deposit: deposit.value })
+  })
+    .then(function (res) { return res.json(); })
+    .then(function (data) {
+      if (!data.success) throw new Error(data.error);
+      document.querySelectorAll('input[name="rent"], input[name="deposit"]').forEach(function (el) { el.defaultValue = el.value; });
+      saveStatus.textContent = "✓ Nájomné a záloha uložené k rezervácii";
+    })
+    .catch(function () {
+      saveStatus.textContent = "⚠ Nepodarilo sa uložiť – skontrolujte sumu (napr. 25,00)";
+    });
 });
 // The browser keeps typed values when the page is reloaded; start clean.
 window.addEventListener("pageshow", function () {

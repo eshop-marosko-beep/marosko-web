@@ -144,6 +144,15 @@ export async function ensureContractNumber(booking: Booking): Promise<Booking> {
   return updated;
 }
 
+/** Rent and deposit agreed at handover, saved from the documents page. */
+export async function setBookingPrice(id: string, estimatedPrice: number, deposit: number): Promise<Booking | null> {
+  const booking = await getBooking(id);
+  if (!booking || booking.kind === "block") return null;
+  const updated: Booking = { ...booking, estimatedPrice, deposit };
+  await kv(["SET", key("booking", id), JSON.stringify(updated)]);
+  return updated;
+}
+
 export async function setBookingStatus(id: string, status: BookingStatus): Promise<Booking | null> {
   const booking = await getBooking(id);
   if (!booking) return null;
