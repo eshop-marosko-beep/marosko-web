@@ -93,11 +93,27 @@ export function rentalDays(from: string, to: string): number {
   return Math.round(ms / 86_400_000) + 1;
 }
 
-/** Indicative price: whole weeks at the weekly rate, the remaining days at
- * the daily rate but never more than one more week. The final price is
- * confirmed by the shop together with the booking. */
-export function estimatePrice(tool: Pick<RentalTool, "prices">, days: number): number {
-  const weeks = Math.floor(days / 7);
-  const rest = days % 7;
-  return weeks * tool.prices.week + Math.min(rest * tool.prices.day, tool.prices.week);
+/** Indicative price for an inclusive "YYYY-MM-DD" range: the cheapest mix
+ * of single days, weekends (any stretch from Friday or Saturday to Saturday,
+ * Sunday or Monday of the same weekend) and weeks (up to 7 days in a row).
+ * The final price is confirmed by the shop together with the booking. */
+export function estimatePrice(tool: Pick<RentalTool, "prices">, from: string, to: string): number {
+  const { day, weekend, week } = tool.prices;
+  const start = Date.parse(`${from}T00:00:00Z`);
+  const days = rentalDays(from, to);
+  const weekday = (i: number) => new Date(start + i * 86_400_000).getUTCDay(); // 0 = Sunday
+  // best[i] = cheapest price for the first i days.
+  const best = [0];
+  for (let i = 1; i <= days; i++) {
+    let cost = Math.min(best[i - 1] + day, best[Math.max(0, i - 7)] + week);
+    for (let len = 2; len <= Math.min(4, i); len++) {
+      const first = weekday(i - len);
+      const last = weekday(i - 1);
+      if ((first === 5 || first === 6) && (last === 6 || last === 0 || last === 1)) {
+        cost = Math.min(cost, best[i - len] + weekend);
+      }
+    }
+    best.push(cost);
+  }
+  return Math.round(best[days] * 100) / 100;
 }
