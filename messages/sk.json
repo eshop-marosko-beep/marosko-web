@@ -3160,23 +3160,23 @@
       },
       "purposes": {
         "title": "Aké údaje spracúvame a na aký účel",
-        "text": "Ak nás kontaktujete prostredníctvom kontaktného formulára na stránke, spracúvame údaje, ktoré nám sami poskytnete – meno a priezvisko, email, telefónne číslo a obsah vašej správy. Tieto údaje spracúvame za účelom vybavenia vášho dopytu, na základe nášho oprávneného záujmu odpovedať na otázky návštevníkov stránky, prípadne na základe krokov smerujúcich k uzatvoreniu zmluvy (čl. 6 ods. 1 písm. b) a f) GDPR).\n\nAk v cookie lište udelíte súhlas s analytickými cookies, spracúvame aj údaje o vašom správaní na stránke prostredníctvom nástroja Google Analytics, a to len na základe vášho súhlasu (čl. 6 ods. 1 písm. a) GDPR), ktorý môžete kedykoľvek odvolať."
+        "text": "Ak nás kontaktujete prostredníctvom kontaktného formulára na stránke, spracúvame údaje, ktoré nám sami poskytnete – meno a priezvisko, email, telefónne číslo a obsah vašej správy. Tieto údaje spracúvame za účelom vybavenia vášho dopytu, na základe nášho oprávneného záujmu odpovedať na otázky návštevníkov stránky, prípadne na základe krokov smerujúcich k uzatvoreniu zmluvy (čl. 6 ods. 1 písm. b) a f) GDPR).\n\nAk v cookie lište udelíte súhlas s analytickými cookies, spracúvame aj údaje o vašom správaní na stránke prostredníctvom nástroja Google Analytics, a to len na základe vášho súhlasu (čl. 6 ods. 1 písm. a) GDPR), ktorý môžete kedykoľvek odvolať.\n\nPožičovňa náradia. Ak si vytvoríte účet v požičovni, spracúvame údaje, ktoré nám pri registrácii poskytnete – meno a priezvisko, e-mail, telefónne číslo a heslo (ukladáme ho len v zašifrovanej podobe, ktorú nevieme spätne prečítať). Pri rezervácii spracúvame aj údaje o rezervácii – vybrané náradie, termín, cenu, zálohu a vašu poznámku – a zákaznícku skupinu, do ktorej ste zaradení. Tieto údaje spracúvame za účelom vedenia vášho účtu, vybavenia rezervácií a uzatvorenia a plnenia zmluvy o prenájme (čl. 6 ods. 1 písm. b) GDPR).\n\nPri odovzdaní náradia si zapíšeme číslo vášho dokladu totožnosti. Robíme tak na základe nášho oprávneného záujmu na ochrane požičaného majetku (čl. 6 ods. 1 písm. f) GDPR). Doklad nekopírujeme ani neskenujeme.\n\nNa ochranu účtov pred zneužitím krátkodobo evidujeme neúspešné pokusy o prihlásenie (najviac 15 minút), na základe nášho oprávneného záujmu na bezpečnosti služby (čl. 6 ods. 1 písm. f) GDPR)."
       },
       "retention": {
         "title": "Doba uchovávania údajov",
-        "text": "Údaje z kontaktného formulára uchovávame len po dobu nevyhnutnú na vybavenie vášho dopytu a primeraný čas po ňom pre prípad nadväzujúcej komunikácie, najviac však 12 mesiacov od poslednej vzájomnej komunikácie, pokiaľ osobitný právny predpis (napr. účtovné alebo daňové predpisy) nevyžaduje dlhšiu dobu uchovávania. Údaje spracúvané na základe súhlasu (analytika) uchovávame po dobu platnosti tohto súhlasu, najviac však po dobu stanovenú v nastaveniach použitého analytického nástroja."
+        "text": "Údaje z kontaktného formulára uchovávame len po dobu nevyhnutnú na vybavenie vášho dopytu a primeraný čas po ňom pre prípad nadväzujúcej komunikácie, najviac však 12 mesiacov od poslednej vzájomnej komunikácie, pokiaľ osobitný právny predpis (napr. účtovné alebo daňové predpisy) nevyžaduje dlhšiu dobu uchovávania. Údaje spracúvané na základe súhlasu (analytika) uchovávame po dobu platnosti tohto súhlasu, najviac však po dobu stanovenú v nastaveniach použitého analytického nástroja.\n\nÚdaje zákazníckeho účtu v požičovni uchovávame, kým účet používate. Ak účet 3 roky nepoužijete alebo nás požiadate o jeho zrušenie, údaje vymažeme. Údaje o rezerváciách uchovávame po dobu trvania prenájmu a ďalšie 3 roky pre prípad uplatnenia nárokov (napr. pri poškodení náradia). Ak bola k prenájmu vystavená faktúra alebo iný účtovný doklad, uchovávame ho 10 rokov, ako vyžaduje zákon o účtovníctve. Zápis čísla dokladu totožnosti uchovávame do vrátenia náradia a vyrovnania zálohy, najviac však do uplynutia lehoty na uplatnenie nárokov."
       },
       "recipients": {
         "title": "Príjemcovia osobných údajov",
-        "text": "Vaše osobné údaje môžu byť sprístupnené nasledujúcim príjemcom, ktorí nám poskytujú technické služby: Vercel Inc. (hosting a prevádzka webovej stránky) a Google LLC (nástroj Google Analytics – iba v prípade, že udelíte súhlas s analytickými cookies). Údaje neposkytujeme iným tretím stranám na marketingové účely."
+        "text": "Vaše osobné údaje môžu byť sprístupnené nasledujúcim príjemcom, ktorí nám poskytujú technické služby: Vercel Inc. (hosting a prevádzka webovej stránky), Upstash Inc. (databáza účtov a rezervácií požičovne, servery vo Frankfurte, Nemecko), Resend Inc. (odosielanie e-mailov z kontaktného formulára a požičovne) a Google LLC (nástroj Google Analytics – iba v prípade, že udelíte súhlas s analytickými cookies). Údaje neposkytujeme iným tretím stranám na marketingové účely."
       },
       "transfers": {
         "title": "Prenos údajov do tretích krajín",
-        "text": "Naši poskytovatelia služieb (Vercel, Google) môžu spracúvať údaje aj na serveroch mimo Európskej únie/EHP. V takom prípade je prenos zabezpečený primeranými zárukami v zmysle GDPR, najmä štandardnými zmluvnými doložkami schválenými Európskou komisiou podľa čl. 46 GDPR."
+        "text": "Údaje účtov a rezervácií požičovne ukladáme v databáze na serveroch v Európskej únii (Frankfurt, Nemecko). Naši poskytovatelia služieb (Vercel, Resend, Google, Upstash) však môžu údaje spracúvať aj na serveroch mimo Európskej únie/EHP, napríklad pri doručovaní stránky alebo e-mailov. V takom prípade je prenos zabezpečený primeranými zárukami v zmysle GDPR, najmä štandardnými zmluvnými doložkami schválenými Európskou komisiou podľa čl. 46 GDPR."
       },
       "rights": {
         "title": "Vaše práva",
-        "text": "V súvislosti so spracúvaním vašich osobných údajov máte právo na prístup k údajom, ich opravu, výmaz, obmedzenie spracúvania, prenositeľnosť údajov, ako aj právo namietať proti spracúvaniu. Ak je spracúvanie založené na súhlase, máte právo tento súhlas kedykoľvek odvolať, čím nie je dotknutá zákonnosť spracúvania pred jeho odvolaním. Svoje práva si môžete uplatniť na emaile eshop.marosko@gmail.com."
+        "text": "V súvislosti so spracúvaním vašich osobných údajov máte právo na prístup k údajom, ich opravu, výmaz, obmedzenie spracúvania, prenositeľnosť údajov, ako aj právo namietať proti spracúvaniu. Ak je spracúvanie založené na súhlase, máte právo tento súhlas kedykoľvek odvolať, čím nie je dotknutá zákonnosť spracúvania pred jeho odvolaním. Svoje práva si môžete uplatniť na emaile eshop.marosko@gmail.com. Ak chcete zrušiť svoj účet v požičovni a vymazať jeho údaje, napíšte nám na eshop.marosko@gmail.com – urobíme tak bez zbytočného odkladu, ak nebránia vymazaniu prebiehajúce prenájmy alebo zákonné povinnosti."
       },
       "complaint": {
         "title": "Právo podať sťažnosť",
@@ -3184,7 +3184,7 @@
       },
       "cookiesTech": {
         "title": "Cookies používané na stránke",
-        "text": "Táto stránka používa tri kategórie cookies: nevyhnutné (zabezpečujú základnú funkčnosť stránky a nedajú sa vypnúť), výkonnostné/analytické (Google Analytics – iba so súhlasom) a preferenčné (zobrazenie vloženého obsahu ako máp alebo videí – iba so súhlasom). Svoju voľbu môžete kedykoľvek zmeniť pomocou odkazu \"Nastavenie cookies\" v pätičke stránky."
+        "text": "Táto stránka používa tri kategórie cookies: nevyhnutné (zabezpečujú základnú funkčnosť stránky a nedajú sa vypnúť), výkonnostné/analytické (Google Analytics – iba so súhlasom) a preferenčné (zobrazenie vloženého obsahu ako máp alebo videí – iba so súhlasom). Svoju voľbu môžete kedykoľvek zmeniť pomocou odkazu \"Nastavenie cookies\" v pätičke stránky. Ak sa prihlásite do požičovne, uložíme do vášho prehliadača nevyhnutnú prihlasovaciu cookie, ktorá vás udrží prihláseného najviac 30 dní alebo do odhlásenia. Bez nej prihlásenie nefunguje, preto na ňu nie je potrebný súhlas."
       }
     }
   },
@@ -3257,15 +3257,19 @@
     "tools": {
       "contourSander": {
         "name": "Arbortech Contour Random Sander",
-        "description": "Excentrický brúsny nástavec na uhlovú brúsku s pružnou podložkou Ø 50 mm. Na brúsenie oblých tvarov, dutín a kontúr bez pálenia dreva."
+        "description": "Excentrická brúska Arbortech s pružnou podložkou Ø 50 mm na uhlovej brúske. Na brúsenie oblých tvarov, dutín a kontúr bez pálenia dreva."
       },
       "manpaBasic": {
         "name": "Manpa Multi Cutter Basic 3\"",
-        "description": "Predlžovacie rameno na uhlovú brúsku s frézovacím kotúčom 70 mm. Na frézovanie a tvarovanie dreva v hĺbkach a úzkych priestoroch; remeňový prevod znižuje riziko spätného rázu."
+        "description": "Predlžovacie rameno s frézovacím kotúčom 70 mm. Požičiavame ho nasadené na uhlovej brúske, pripravené na prácu. Na frézovanie a tvarovanie dreva v hĺbkach a úzkych priestoroch; remeňový prevod znižuje riziko spätného rázu."
       },
       "manpaMaster": {
         "name": "Manpa Multi Cutter Master 3\"/4\"",
         "description": "Kompletná profesionálna sada s tromi dĺžkami ramena (200, 270 a 348 mm) a kotúčmi 70 a 95 mm na hrubé aj jemné tvarovanie veľkých diel."
+      },
+      "karcherPuzzi": {
+        "name": "Kärcher Puzzi 10/2",
+        "description": "Profesionálny tepovač na koberce, sedačky, autosedadlá a čalúnenie. Nádrž na čistú aj špinavú vodu 10 l, 2 trysky na rozprašovanie; súčasťou je hubica na podlahy a ručná hubica na čalúnenie. Čistiaci prostriedok nie je súčasťou prenájmu."
       }
     },
     "calendar": {

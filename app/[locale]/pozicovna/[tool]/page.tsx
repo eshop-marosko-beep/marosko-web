@@ -79,10 +79,12 @@ export default async function RentalToolPage({
                 <dt>{t("priceWeek")}</dt><dd className="font-semibold text-right">{pricing.prices.week} €</dd>
                 <dt>{t("deposit")}</dt><dd className="font-semibold text-right">{pricing.deposit} €</dd>
               </dl>
-              <a href={rentalEshopUrl(tool, locale)} target="_blank" rel="noopener noreferrer"
-                className="mt-4 inline-block text-sm text-amber-700 font-semibold hover:underline">
-                {t("buyNew")} →
-              </a>
+              {tool.eshopUrlByLocale && (
+                <a href={rentalEshopUrl(tool, locale)} target="_blank" rel="noopener noreferrer"
+                  className="mt-4 inline-block text-sm text-amber-700 font-semibold hover:underline">
+                  {t("buyNew")} →
+                </a>
+              )}
             </div>
           </div>
           <Link href="/pozicovna#podmienky" className="block text-sm text-gray-600 hover:text-amber-700 underline">

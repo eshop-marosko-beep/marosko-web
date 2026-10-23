@@ -4,10 +4,11 @@
 export type RentalTool = {
   slug: string;
   translationKey: string;
-  /** Product photo from eshop.marosko.sk. */
+  /** Product photo, usually from eshop.marosko.sk. */
   image: string;
-  /** The same tool for sale on the eshop, per site locale ("sk" is the default). */
-  eshopUrlByLocale: { sk: string } & Record<string, string>;
+  /** The same tool for sale on the eshop, per site locale ("sk" is the
+   * default). Left out for tools the eshop doesn't sell. */
+  eshopUrlByLocale?: { sk: string } & Record<string, string>;
   /** Prices in € with VAT. */
   prices: { day: number; weekend: number; week: number };
   deposit: number;
@@ -55,13 +56,23 @@ export const rentalTools: RentalTool[] = [
     deposit: 350,
     units: 1,
   },
+  {
+    slug: "karcher-puzzi-10-2",
+    translationKey: "karcherPuzzi",
+    // Not sold on the eshop; shop logo until there is our own photo.
+    image: "/brand/marian-logo.webp",
+    prices: { day: 15, weekend: 25, week: 60 },
+    deposit: 150,
+    units: 1,
+  },
 ];
 
 export function getRentalTool(slug: string): RentalTool | undefined {
   return rentalTools.find((tool) => tool.slug === slug);
 }
 
-export function rentalEshopUrl(tool: RentalTool, locale: string): string {
+export function rentalEshopUrl(tool: RentalTool, locale: string): string | undefined {
+  if (!tool.eshopUrlByLocale) return undefined;
   return tool.eshopUrlByLocale[locale] ?? tool.eshopUrlByLocale.sk;
 }
 

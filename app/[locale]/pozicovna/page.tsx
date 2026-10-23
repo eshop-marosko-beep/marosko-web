@@ -115,10 +115,12 @@ export default async function RentalPage({
               ) : user ? null : (
                 <p className="text-sm text-gray-500 italic">{t("pricesAfterLogin")}</p>
               )}
-              <a href={rentalEshopUrl(tool, locale)} target="_blank" rel="noopener noreferrer"
-                className="mt-3 text-sm text-amber-700 font-semibold hover:underline">
-                {t("buyNew")} →
-              </a>
+              {tool.eshopUrlByLocale && (
+                <a href={rentalEshopUrl(tool, locale)} target="_blank" rel="noopener noreferrer"
+                  className="mt-3 text-sm text-amber-700 font-semibold hover:underline">
+                  {t("buyNew")} →
+                </a>
+              )}
             </div>
           </div>
         ))}
