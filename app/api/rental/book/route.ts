@@ -1,8 +1,8 @@
 import { apiError, locale, readJson, str } from "@/lib/rental/api";
 import { createBooking, DATE_RE, todayIso } from "@/lib/rental/bookings";
-import { getCatalogTool, groupPricing } from "@/lib/rental/catalog";
+import { getCatalogTool, groupPricing, toolLabel } from "@/lib/rental/catalog";
 import { canUseTool, findGroup, getGroups } from "@/lib/rental/groups";
-import { notifyCustomer, notifyOwner, toolName } from "@/lib/rental/notify";
+import { notifyCustomer, notifyOwner } from "@/lib/rental/notify";
 import { estimatePrice, rentalDays } from "@/lib/rental/rentalData";
 import { getCurrentUser } from "@/lib/rental/users";
 
@@ -51,11 +51,11 @@ export async function POST(request: Request) {
   });
   if (!result.ok) return apiError(result.reason === "taken" ? "dates_taken" : "try_again", 409);
 
-  const label = toolName(tool.slug, tool.translationKey);
+  const label = toolLabel(tool);
   try {
     await notifyOwner(result.booking, label, new URL(request.url).origin);
     if (result.booking.status === "confirmed") {
-      await notifyCustomer(result.booking, toolName(tool.slug, tool.translationKey, result.booking.locale));
+      await notifyCustomer(result.booking, toolLabel(tool, result.booking.locale));
     }
   } catch (error) {
     // The booking is stored and visible in the customer's account; a failed

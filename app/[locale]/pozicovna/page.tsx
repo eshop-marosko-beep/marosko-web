@@ -6,7 +6,8 @@ import { buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import LogoutButton from "@/components/rental/LogoutButton";
 import { getRentalContext } from "@/lib/rental/access";
-import { rentalEshopUrl, rentalTools } from "@/lib/rental/rentalData";
+import { eshopUrl, localized, toolLabel } from "@/lib/rental/catalog";
+import { rentalTools } from "@/lib/rental/rentalData";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -91,13 +92,13 @@ export default async function RentalPage({
         {tools.map((tool) => (
           <div key={tool.slug} className="bg-white rounded-xl shadow-lg overflow-hidden flex flex-col">
             <div className="relative h-48 bg-white">
-              <Image src={tool.image} alt={t(`tools.${tool.translationKey}.name`)} fill unoptimized
+              <Image src={tool.image} alt={toolLabel(tool, locale)} fill unoptimized
                 className="object-contain p-4" />
             </div>
             <div className="p-6 flex flex-col flex-1">
-              <h2 className="text-lg font-bold text-espresso-800 mb-2">{t(`tools.${tool.translationKey}.name`)}</h2>
-              <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1">
-                {t(`tools.${tool.translationKey}.description`)}
+              <h2 className="text-lg font-bold text-espresso-800 mb-2">{toolLabel(tool, locale)}</h2>
+              <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1 whitespace-pre-line">
+                {localized(tool.descriptions, locale)}
               </p>
               {tool.pricing ? (
                 <>
@@ -116,7 +117,7 @@ export default async function RentalPage({
                 <p className="text-sm text-gray-500 italic">{t("pricesAfterLogin")}</p>
               )}
               {tool.eshopUrlByLocale && (
-                <a href={rentalEshopUrl(tool, locale)} target="_blank" rel="noopener noreferrer"
+                <a href={eshopUrl(tool, locale)} target="_blank" rel="noopener noreferrer"
                   className="mt-3 text-sm text-amber-700 font-semibold hover:underline">
                   {t("buyNew")} →
                 </a>

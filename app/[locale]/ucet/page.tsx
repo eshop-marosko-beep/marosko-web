@@ -3,7 +3,7 @@ import { Link, redirect } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
 import LogoutButton from "@/components/rental/LogoutButton";
 import { userBookings } from "@/lib/rental/bookings";
-import { getRentalTool } from "@/lib/rental/rentalData";
+import { getCatalog, toolLabel } from "@/lib/rental/catalog";
 import { findGroup, getGroups } from "@/lib/rental/groups";
 import { getCurrentUser } from "@/lib/rental/users";
 import type { Metadata } from "next";
@@ -40,7 +40,7 @@ export default async function AccountPage({
   if (!user) return redirect({ href: { pathname: "/ucet/prihlasenie", query: { next: "/ucet" } }, locale });
 
   const t = await getTranslations("rental");
-  const [bookings, groups] = await Promise.all([userBookings(user.email), getGroups()]);
+  const [bookings, groups, catalog] = await Promise.all([userBookings(user.email), getGroups(), getCatalog()]);
   const group = findGroup(groups, user.groupId);
 
   return (
@@ -72,12 +72,12 @@ export default async function AccountPage({
       ) : (
         <ul className="space-y-3 mb-6">
           {bookings.map((booking) => {
-            const tool = getRentalTool(booking.toolSlug);
+            const tool = catalog.find((t) => t.slug === booking.toolSlug);
             return (
               <li key={booking.id} className="bg-white rounded-xl shadow p-4 flex flex-wrap items-center justify-between gap-3">
                 <div className="text-gray-700">
                   <p className="font-semibold text-espresso-800">
-                    {tool ? t(`tools.${tool.translationKey}.name`) : booking.toolSlug}
+                    {tool ? toolLabel(tool, locale) : booking.toolSlug}
                   </p>
                   <p className="text-sm">
                     {booking.from} – {booking.to} · {t("calendar.days", { count: booking.days })} · {booking.estimatedPrice} € · {t("deposit")} {booking.deposit} €

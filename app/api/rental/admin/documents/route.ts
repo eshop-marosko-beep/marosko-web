@@ -1,8 +1,6 @@
 import { ensureContractNumber, getBooking, type Booking } from "@/lib/rental/bookings";
-import { getCatalogTool, type CatalogTool } from "@/lib/rental/catalog";
+import { eshopUrl as toolEshopUrl, getCatalogTool, toolLabel, type CatalogTool } from "@/lib/rental/catalog";
 import { getEshopProduct, type EshopProduct } from "@/lib/rental/eshopProduct";
-import { toolName } from "@/lib/rental/notify";
-import { rentalEshopUrl } from "@/lib/rental/rentalData";
 import { getCurrentUser } from "@/lib/rental/users";
 
 /** Printable rental documents for one booking: the contract (one copy for
@@ -204,8 +202,8 @@ export async function GET(request: Request) {
   const tool = await getCatalogTool(booking.toolSlug);
   if (!tool) return page("<h1>Náradie neexistuje</h1>", 404);
 
-  const name = toolName(tool.slug, tool.translationKey);
-  const eshopUrl = rentalEshopUrl(tool, "sk");
+  const name = toolLabel(tool);
+  const eshopUrl = toolEshopUrl(tool, "sk");
   const product = eshopUrl ? await getEshopProduct(eshopUrl) : null;
   const value = product?.price ?? tool.value ?? null;
   const lateDay = Math.round(tool.prices.day * (100 - (booking.discountPercent ?? 0))) / 100;

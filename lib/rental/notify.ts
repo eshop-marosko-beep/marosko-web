@@ -23,11 +23,6 @@ function rentalMessages(locale: string) {
   return (messagesByLocale[locale] ?? skMessages).rental;
 }
 
-export function toolName(slug: string, translationKey: string, locale = "sk"): string {
-  const tools = rentalMessages(locale).tools as Record<string, { name: string }>;
-  return tools[translationKey]?.name ?? slug;
-}
-
 function escapeHtml(value: string): string {
   return value
     .replace(/&/g, "&amp;")
