@@ -1,7 +1,7 @@
 import { getBooking, setBookingStatus, type Booking } from "@/lib/rental/bookings";
 import { verifySignature } from "@/lib/rental/crypto";
-import { notifyCustomer, toolName } from "@/lib/rental/notify";
-import { getRentalTool } from "@/lib/rental/rentalData";
+import { getCatalogTool, toolLabel } from "@/lib/rental/catalog";
+import { notifyCustomer } from "@/lib/rental/notify";
 
 /** Confirm/decline links from the booking email. GET only shows a page with
  * a button and POST makes the change, because mail providers open links in
@@ -35,9 +35,9 @@ async function parse(params: URLSearchParams): Promise<{ booking: Booking; actio
   return booking ? { booking, action } : null;
 }
 
-function summary(booking: Booking) {
-  const tool = getRentalTool(booking.toolSlug);
-  const name = tool ? toolName(tool.slug, tool.translationKey) : booking.toolSlug;
+async function summary(booking: Booking) {
+  const tool = await getCatalogTool(booking.toolSlug);
+  const name = tool ? toolLabel(tool) : booking.toolSlug;
   return `<p><strong>${escapeHtml(name)}</strong><br>${escapeHtml(booking.from)} – ${escapeHtml(booking.to)} (${booking.days} d.)<br>
 ${escapeHtml(booking.name)}, ${escapeHtml(booking.email)}, ${escapeHtml(booking.phone)}</p>`;
 }
@@ -48,10 +48,10 @@ export async function GET(request: Request) {
   const { booking, action } = parsed;
 
   if (booking.status !== "pending") {
-    return page(`<h1>Rezervácia je už ${STATUS_LABEL[booking.status]}</h1>${summary(booking)}`);
+    return page(`<h1>Rezervácia je už ${STATUS_LABEL[booking.status]}</h1>${await summary(booking)}`);
   }
   const color = action === "confirm" ? "#16a34a" : "#dc2626";
-  return page(`<h1>${ACTION_LABEL[action]} rezerváciu?</h1>${summary(booking)}
+  return page(`<h1>${ACTION_LABEL[action]} rezerváciu?</h1>${await summary(booking)}
 <form method="post"><button type="submit" style="background:${color};color:#fff;border:0;padding:12px 22px;border-radius:6px;font-size:16px;cursor:pointer">${ACTION_LABEL[action]}</button></form>`);
 }
 
@@ -61,18 +61,18 @@ export async function POST(request: Request) {
   const { booking, action } = parsed;
 
   if (booking.status !== "pending") {
-    return page(`<h1>Rezervácia je už ${STATUS_LABEL[booking.status]}</h1>${summary(booking)}`);
+    return page(`<h1>Rezervácia je už ${STATUS_LABEL[booking.status]}</h1>${await summary(booking)}`);
   }
   const updated = await setBookingStatus(booking.id, action === "confirm" ? "confirmed" : "declined");
   if (!updated) return page("<h1>Rezerváciu sa nepodarilo nájsť</h1>", 404);
 
-  const tool = getRentalTool(updated.toolSlug);
+  const tool = await getCatalogTool(updated.toolSlug);
   try {
-    await notifyCustomer(updated, tool ? toolName(tool.slug, tool.translationKey, updated.locale) : updated.toolSlug);
+    await notifyCustomer(updated, tool ? toolLabel(tool, updated.locale) : updated.toolSlug);
   } catch (error) {
     console.error("Rental customer email failed", error);
   }
 
-  return page(`<h1>Rezervácia je ${STATUS_LABEL[updated.status]}</h1>${summary(updated)}
+  return page(`<h1>Rezervácia je ${STATUS_LABEL[updated.status]}</h1>${await summary(updated)}
 <p>Zákazník stav vidí vo svojom účte na marosko.sk.</p>`);
 }

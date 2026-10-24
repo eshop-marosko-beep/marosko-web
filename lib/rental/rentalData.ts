@@ -1,6 +1,6 @@
-/** Tools offered for rent on /pozicovna. Names and descriptions live in
- * messages.rental.tools.<translationKey>. Prices, deposit and units here are
- * the defaults; the admin can override them (lib/rental/catalog.ts). */
+/** The tools the rental started with. Names and descriptions live in
+ * messages.rental.tools.<translationKey>. Everything here is a default the
+ * admin can change, and the admin can add more tools (lib/rental/catalog.ts). */
 export type RentalTool = {
   slug: string;
   translationKey: string;
@@ -77,15 +77,6 @@ export const rentalTools: RentalTool[] = [
     accessories: ["Tepovač Kärcher Puzzi 10/1", "Hadica s rozprašovacou rukoväťou", "Ručná hubica na čalúnenie"],
   },
 ];
-
-export function getRentalTool(slug: string): RentalTool | undefined {
-  return rentalTools.find((tool) => tool.slug === slug);
-}
-
-export function rentalEshopUrl(tool: RentalTool, locale: string): string | undefined {
-  if (!tool.eshopUrlByLocale) return undefined;
-  return tool.eshopUrlByLocale[locale] ?? tool.eshopUrlByLocale.sk;
-}
 
 /** Number of days in an inclusive "YYYY-MM-DD" range. */
 export function rentalDays(from: string, to: string): number {

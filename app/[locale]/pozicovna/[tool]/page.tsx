@@ -5,7 +5,7 @@ import { Link, redirect } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
 import BookingCalendar from "@/components/rental/BookingCalendar";
 import { getRentalContext } from "@/lib/rental/access";
-import { getRentalTool, rentalEshopUrl } from "@/lib/rental/rentalData";
+import { eshopUrl, getCatalogTool, localized, toolLabel } from "@/lib/rental/catalog";
 import type { Metadata } from "next";
 
 export async function generateMetadata({
@@ -14,15 +14,15 @@ export async function generateMetadata({
   params: Promise<{ locale: string; tool: string }>;
 }): Promise<Metadata> {
   const { locale, tool: slug } = await params;
-  const tool = getRentalTool(slug);
+  const tool = await getCatalogTool(slug);
   if (!tool) return {};
   const t = await getTranslations({ locale, namespace: "rental" });
   return {
     ...buildMetadata({
       locale,
       path: `/pozicovna/${slug}`,
-      title: `${t(`tools.${tool.translationKey}.name`)} – ${t("title")}`,
-      description: t(`tools.${tool.translationKey}.description`),
+      title: `${toolLabel(tool, locale)} – ${t("title")}`,
+      description: localized(tool.descriptions, locale).slice(0, 300),
       image: tool.image,
     }),
     // Only reachable when signed in; nothing here for search engines.
@@ -38,7 +38,7 @@ export default async function RentalToolPage({
   const { locale, tool: slug } = await params;
   setRequestLocale(locale);
 
-  if (!getRentalTool(slug)) notFound();
+  if (!(await getCatalogTool(slug))) notFound();
 
   const { user, tools } = await getRentalContext();
   if (!user) {
@@ -51,7 +51,7 @@ export default async function RentalToolPage({
   const pricing = tool.pricing;
 
   const t = await getTranslations("rental");
-  const name = t(`tools.${tool.translationKey}.name`);
+  const name = toolLabel(tool, locale);
 
   return (
     <div className="py-8 max-w-5xl mx-auto">
@@ -67,7 +67,7 @@ export default async function RentalToolPage({
             </div>
             <div className="p-6">
               <h1 className="text-2xl font-bold text-espresso-800 mb-2">{name}</h1>
-              <p className="text-gray-600 text-sm leading-relaxed mb-4">{t(`tools.${tool.translationKey}.description`)}</p>
+              <p className="text-gray-600 text-sm leading-relaxed mb-4 whitespace-pre-line">{localized(tool.descriptions, locale)}</p>
               {pricing.discountPercent > 0 && (
                 <p className="text-sm text-green-800 font-semibold mb-2">
                   {t("discountBadge", { percent: pricing.discountPercent })}
@@ -80,7 +80,7 @@ export default async function RentalToolPage({
                 <dt>{t("deposit")}</dt><dd className="font-semibold text-right">{pricing.deposit} €</dd>
               </dl>
               {tool.eshopUrlByLocale && (
-                <a href={rentalEshopUrl(tool, locale)} target="_blank" rel="noopener noreferrer"
+                <a href={eshopUrl(tool, locale)} target="_blank" rel="noopener noreferrer"
                   className="mt-4 inline-block text-sm text-amber-700 font-semibold hover:underline">
                   {t("buyNew")} →
                 </a>

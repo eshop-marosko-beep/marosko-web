@@ -1,9 +1,10 @@
 import { apiError, EMAIL_RE, readJson, str } from "@/lib/rental/api";
 import { createBooking, DATE_RE, getBooking, setBookingPrice, setBookingStatus, toolBookings } from "@/lib/rental/bookings";
-import { getCatalog, getCatalogTool, groupPricing, saveToolSettings } from "@/lib/rental/catalog";
+import { deleteCustomTool, getCatalog, getCatalogTool, groupPricing, saveTool, toolLabel } from "@/lib/rental/catalog";
+import { saveImage } from "@/lib/rental/images";
 import { DEFAULT_GROUP_ID, findGroup, getGroups, sanitizeGroup, saveGroups } from "@/lib/rental/groups";
-import { notifyCustomer, toolName } from "@/lib/rental/notify";
-import { estimatePrice, rentalDays, rentalTools } from "@/lib/rental/rentalData";
+import { notifyCustomer } from "@/lib/rental/notify";
+import { estimatePrice, rentalDays } from "@/lib/rental/rentalData";
 import { getCurrentUser, getUser, listUsers, normalizeEmail, saveUser, toPublicUser } from "@/lib/rental/users";
 
 /** Admin panel data and actions. Every request must come from a signed-in
@@ -34,7 +35,14 @@ export async function GET() {
       success: true,
       tools: catalog.map((tool) => ({
         slug: tool.slug,
-        name: toolName(tool.slug, tool.translationKey),
+        name: toolLabel(tool),
+        custom: tool.custom,
+        names: tool.names,
+        descriptions: tool.descriptions,
+        image: tool.image,
+        eshopUrl: tool.eshopUrlByLocale?.sk ?? "",
+        value: tool.value ?? null,
+        accessories: tool.accessories,
         prices: tool.prices,
         deposit: tool.deposit,
         units: tool.units,
@@ -54,7 +62,8 @@ export async function POST(request: Request) {
 
   const body = await readJson(request);
   if (!body) return apiError("invalid_request", 400);
-  const knownTools = rentalTools.map((tool) => tool.slug);
+  const catalog = await getCatalog();
+  const knownTools = catalog.map((tool) => tool.slug);
 
   switch (body.action) {
     case "setBookingPrice": {
@@ -73,9 +82,9 @@ export async function POST(request: Request) {
       if (!booking) return apiError("not_found", 404);
       const updated = await setBookingStatus(booking.id, status);
       if (updated && updated.kind !== "block" && status !== "cancelled") {
-        const tool = rentalTools.find((t) => t.slug === updated.toolSlug);
+        const tool = catalog.find((t) => t.slug === updated.toolSlug);
         try {
-          await notifyCustomer(updated, tool ? toolName(tool.slug, tool.translationKey, updated.locale) : updated.toolSlug);
+          await notifyCustomer(updated, tool ? toolLabel(tool, updated.locale) : updated.toolSlug);
         } catch (error) {
           console.error("Rental customer email failed", error);
         }
@@ -181,8 +190,20 @@ export async function POST(request: Request) {
     }
 
     case "saveTool": {
-      const saved = await saveToolSettings(str(body.slug), body);
-      return saved ? Response.json({ success: true }) : apiError("unknown_tool", 404);
+      const result = await saveTool(str(body.slug, 80), body);
+      return result.ok ? Response.json({ success: true, slug: result.slug }) : apiError(result.error, 400);
+    }
+
+    case "deleteTool": {
+      const slug = str(body.slug, 80);
+      // Tools with bookings stay, so old bookings and contracts keep their tool.
+      if ((await toolBookings(slug)).length > 0) return apiError("tool_has_bookings", 409);
+      return (await deleteCustomTool(slug)) ? Response.json({ success: true }) : apiError("unknown_tool", 404);
+    }
+
+    case "uploadImage": {
+      const url = await saveImage(typeof body.dataUrl === "string" ? body.dataUrl : "");
+      return url ? Response.json({ success: true, url }) : apiError("tool_image_upload", 400);
     }
 
     default:
