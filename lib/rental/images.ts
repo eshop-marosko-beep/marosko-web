@@ -17,9 +17,13 @@ export async function saveImage(dataUrl: string): Promise<string | null> {
   return `/api/rental/image/${id}`;
 }
 
-export async function getImage(id: string): Promise<{ type: string; bytes: Uint8Array } | null> {
+export async function getImage(id: string): Promise<{ type: string; bytes: Uint8Array<ArrayBuffer> } | null> {
   if (!/^[A-Za-z0-9_-]{1,40}$/.test(id)) return null;
   const image = await getJson<StoredImage>(key("image", id));
   if (!image) return null;
-  return { type: image.type, bytes: Uint8Array.from(Buffer.from(image.data, "base64")) };
+  const decoded = Buffer.from(image.data, "base64");
+  // Copied into a plain ArrayBuffer, which is what Response accepts as a body.
+  const bytes = new Uint8Array(new ArrayBuffer(decoded.length));
+  bytes.set(decoded);
+  return { type: image.type, bytes };
 }
