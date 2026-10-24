@@ -2,7 +2,7 @@ import { apiError, EMAIL_RE, locale, readJson, str } from "@/lib/rental/api";
 import { hashPassword } from "@/lib/rental/crypto";
 import { DEFAULT_GROUP_ID } from "@/lib/rental/groups";
 import { key, kv } from "@/lib/rental/kv";
-import { sendAdminVerification } from "@/lib/rental/notify";
+import { notifyNewCustomer, sendAdminVerification } from "@/lib/rental/notify";
 import {
   createUser,
   isAdminEmail,
@@ -52,6 +52,13 @@ export async function POST(request: Request) {
   // the customer doesn't know was created.
   const sessionCookie = await sessionCookieHeader(email);
   if (!(await createUser(user))) return apiError("email_taken", 409);
+
+  try {
+    await notifyNewCustomer(user, new URL(request.url).origin);
+  } catch (error) {
+    // The account exists either way; a missed notice must not fail sign-up.
+    console.error("Rental new customer email failed", error);
+  }
 
   return Response.json({ success: true }, { headers: { "Set-Cookie": sessionCookie } });
 }

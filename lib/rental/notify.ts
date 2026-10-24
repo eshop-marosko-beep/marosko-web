@@ -93,6 +93,35 @@ export async function notifyOwner(booking: Booking, toolLabel: string, origin: s
   });
 }
 
+/** Tells the shop a new customer registered for the rental. */
+export async function notifyNewCustomer(
+  user: { email: string; name: string; phone: string; locale: string },
+  origin: string
+): Promise<void> {
+  const client = resend();
+  if (!client) throw new Error("Chýba env premenná RESEND_API_KEY");
+  const rows: [string, string][] = [
+    ["Meno", user.name],
+    ["E-mail", user.email],
+    ["Telefón", user.phone],
+    ["Jazyk webu", user.locale],
+  ];
+  await client.emails.send({
+    from: OWNER_FROM,
+    to: OWNER_EMAIL,
+    replyTo: user.email,
+    subject: `Nový zákazník požičovne: ${user.name}`,
+    html: `
+      <h2>Nová registrácia v požičovni</h2>
+      <table cellpadding="6" style="border-collapse:collapse">
+        ${rows.map(([k, v]) => `<tr><td><strong>${escapeHtml(k)}</strong></td><td>${escapeHtml(v)}</td></tr>`).join("")}
+      </table>
+      <p>Zákazník je v skupine Bežný zákazník. Skupinu mu môžete zmeniť v administrácii.</p>
+      <p><a href="${origin}/ucet/admin">Otvoriť administráciu</a></p>
+    `,
+  });
+}
+
 /** Lets the customer know the shop's decision, when a customer-facing
  * sender is configured; otherwise the status is shown in their account. */
 export async function notifyCustomer(booking: Booking, toolLabel: string): Promise<void> {
