@@ -6,7 +6,23 @@ import { useCallback, useEffect, useState } from "react";
  * GET /api/rental/admin and sends each change as POST { action, ... }. */
 
 type Prices = { day: number; weekend: number; week: number };
-type Tool = { slug: string; name: string; prices: Prices; deposit: number; units: number; active: boolean };
+type LocaleText = { sk: string; cz?: string; en?: string; ro?: string };
+type Tool = {
+  slug: string;
+  name: string;
+  /** Added in the admin panel, so it can be deleted (code tools can only be hidden). */
+  custom: boolean;
+  names: LocaleText;
+  descriptions: LocaleText;
+  image: string;
+  eshopUrl: string;
+  value: number | null;
+  accessories: string[];
+  prices: Prices;
+  deposit: number;
+  units: number;
+  active: boolean;
+};
 type Group = {
   id: string;
   name: string;
@@ -72,6 +88,15 @@ const ERRORS: Record<string, string> = {
   invalid_dates: "Neplatný termín.",
   invalid_fields: "Vyplňte prosím názov a kód skupiny.",
   try_again: "Práve prebieha iná rezervácia, skúste to o chvíľu.",
+  tool_name: "Vyplňte názov náradia (slovensky).",
+  tool_description: "Vyplňte popis náradia (slovensky).",
+  tool_image: "Nahrajte fotku náradia.",
+  tool_image_upload: "Fotku sa nepodarilo nahrať. Skúste iný obrázok (JPG, PNG alebo WebP).",
+  tool_eshop: "Odkaz na e-shop musí začínať https://",
+  tool_prices: "Vyplňte cenu za deň, víkend, týždeň a zálohu.",
+  tool_units: "Počet kusov musí byť 1 až 50.",
+  tool_has_bookings: "Náradie má rezervácie, preto sa nedá odstrániť. Skryte ho – odškrtnite „Zobrazovať v požičovni“.",
+  unknown_tool: "Náradie sa nenašlo.",
   invalid_customer: "Vyplňte meno a telefón zákazníka (e-mail je nepovinný, ale musí byť platný).",
 };
 
@@ -486,44 +511,245 @@ function GroupsTab({ groups, tools, busy, act }: { groups: Group[]; tools: Tool[
   );
 }
 
-function ToolRow({ tool, busy, act }: { tool: Tool; busy: boolean; act: Act }) {
-  const [t, setT] = useState<Tool>(tool);
-  const price = (k: keyof Prices) => (
-    <label className="flex flex-col gap-1">{{ day: "1 deň (€)", weekend: "Víkend (€)", week: "7 dní (€)" }[k]}
-      <input type="number" min={0} step="0.5" value={t.prices[k]}
-        onChange={(e) => setT({ ...t, prices: { ...t.prices, [k]: Number(e.target.value) } })} className={`${input} w-24`} />
+const LANGS = [
+  ["cz", "česky"],
+  ["en", "anglicky"],
+  ["ro", "rumunsky"],
+] as const;
+
+type ToolForm = {
+  slug: string;
+  names: LocaleText;
+  descriptions: LocaleText;
+  image: string;
+  eshopUrl: string;
+  value: string;
+  accessories: string;
+  prices: { day: string; weekend: string; week: string };
+  deposit: string;
+  units: string;
+  active: boolean;
+};
+
+const NEW_TOOL: ToolForm = {
+  slug: "",
+  names: { sk: "" },
+  descriptions: { sk: "" },
+  image: "",
+  eshopUrl: "",
+  value: "",
+  accessories: "",
+  prices: { day: "", weekend: "", week: "" },
+  deposit: "",
+  units: "1",
+  active: true,
+};
+
+function toForm(tool: Tool): ToolForm {
+  return {
+    slug: tool.slug,
+    names: tool.names,
+    descriptions: tool.descriptions,
+    image: tool.image,
+    eshopUrl: tool.eshopUrl,
+    value: tool.value === null ? "" : String(tool.value),
+    accessories: tool.accessories.join("\n"),
+    prices: { day: String(tool.prices.day), weekend: String(tool.prices.weekend), week: String(tool.prices.week) },
+    deposit: String(tool.deposit),
+    units: String(tool.units),
+    active: tool.active,
+  };
+}
+
+/** Shrinks a photo in the browser to a JPEG of at most 1200 px, small
+ * enough to store with the tool. */
+async function shrinkImage(file: File): Promise<string> {
+  const bitmap = await createImageBitmap(file);
+  const scale = Math.min(1, 1200 / Math.max(bitmap.width, bitmap.height));
+  const canvas = document.createElement("canvas");
+  canvas.width = Math.round(bitmap.width * scale);
+  canvas.height = Math.round(bitmap.height * scale);
+  const ctx = canvas.getContext("2d");
+  if (!ctx) throw new Error("canvas");
+  ctx.fillStyle = "#fff";
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+  ctx.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+  let quality = 0.85;
+  let url = canvas.toDataURL("image/jpeg", quality);
+  while (url.length > 1_300_000 && quality > 0.4) {
+    quality -= 0.15;
+    url = canvas.toDataURL("image/jpeg", quality);
+  }
+  return url;
+}
+
+function ToolEditor({ initial, busy, act, onDone }: { initial: ToolForm; busy: boolean; act: Act; onDone: () => void }) {
+  const [f, setF] = useState<ToolForm>(initial);
+  const [uploading, setUploading] = useState(false);
+  const [uploadError, setUploadError] = useState("");
+  const [showLangs, setShowLangs] = useState(false);
+  const isNew = !initial.slug;
+
+  const upload = async (file: File | undefined) => {
+    if (!file) return;
+    setUploading(true);
+    setUploadError("");
+    try {
+      const dataUrl = await shrinkImage(file);
+      const res = await fetch("/api/rental/admin", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ action: "uploadImage", dataUrl }),
+      });
+      const data = await res.json();
+      if (!res.ok || !data.success) throw new Error(data.error);
+      setF((current) => ({ ...current, image: data.url }));
+    } catch {
+      setUploadError(ERRORS.tool_image_upload);
+    } finally {
+      setUploading(false);
+    }
+  };
+
+  const price = (k: keyof ToolForm["prices"], label: string) => (
+    <label className="flex flex-col gap-1">{label}
+      <input inputMode="decimal" value={f.prices[k]} required
+        onChange={(e) => setF({ ...f, prices: { ...f.prices, [k]: e.target.value } })} className={`${input} w-24`} />
     </label>
   );
+
   return (
-    <form className="bg-white rounded-xl shadow p-4 text-sm text-gray-700 space-y-3"
-      onSubmit={(e) => { e.preventDefault(); act({ action: "saveTool", ...t }, "Náradie uložené."); }}>
-      <p className="font-semibold text-espresso-800 text-base">{t.name}</p>
+    <form className="bg-white rounded-xl shadow p-4 text-sm text-gray-700 space-y-4 border-2 border-amber-200"
+      onSubmit={async (e) => {
+        e.preventDefault();
+        const data = await act({
+          action: "saveTool",
+          ...f,
+          accessories: f.accessories.split("\n").map((a) => a.trim()).filter(Boolean),
+        }, isNew ? "Náradie pridané do požičovne." : "Náradie uložené.");
+        if (data) onDone();
+      }}>
+      <p className="font-semibold text-espresso-800 text-base">{isNew ? "Nové náradie" : `Upraviť: ${initial.names.sk}`}</p>
+
+      <div className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4">
+        <div className="space-y-2">
+          <div className="relative w-full aspect-square bg-gray-50 border border-dashed border-gray-300 rounded-lg overflow-hidden flex items-center justify-center">
+            {f.image
+              ? /* eslint-disable-next-line @next/next/no-img-element */ <img src={f.image} alt="" className="object-contain w-full h-full" />
+              : <span className="text-gray-400 text-xs text-center px-2">Zatiaľ bez fotky</span>}
+          </div>
+          <label className={`${button} block text-center cursor-pointer bg-white border border-gray-300 text-gray-700 hover:bg-gray-50`}>
+            {uploading ? "Nahrávam…" : f.image ? "Zmeniť fotku" : "Nahrať fotku"}
+            <input type="file" accept="image/*" className="hidden" disabled={uploading}
+              onChange={(e) => { upload(e.target.files?.[0]); e.target.value = ""; }} />
+          </label>
+          {uploadError && <p className="text-red-700 text-xs">{uploadError}</p>}
+        </div>
+
+        <div className="space-y-3">
+          <label className="flex flex-col gap-1">Názov *
+            <input value={f.names.sk} required onChange={(e) => setF({ ...f, names: { ...f.names, sk: e.target.value } })} className={input} />
+          </label>
+          <label className="flex flex-col gap-1">Popis *
+            <textarea value={f.descriptions.sk} required rows={4}
+              onChange={(e) => setF({ ...f, descriptions: { ...f.descriptions, sk: e.target.value } })} className={input} />
+          </label>
+          <button type="button" onClick={() => setShowLangs(!showLangs)} className="text-amber-700 font-semibold hover:underline">
+            {showLangs ? "▾" : "▸"} Preklady (CZ, EN, RO) – nepovinné, inak sa zobrazí slovenský text
+          </button>
+          {showLangs && LANGS.map(([code, label]) => (
+            <div key={code} className="grid grid-cols-1 md:grid-cols-2 gap-2 pl-3 border-l-2 border-amber-100">
+              <label className="flex flex-col gap-1">Názov {label}
+                <input value={f.names[code] ?? ""} onChange={(e) => setF({ ...f, names: { ...f.names, [code]: e.target.value } })} className={input} />
+              </label>
+              <label className="flex flex-col gap-1">Popis {label}
+                <textarea value={f.descriptions[code] ?? ""} rows={2}
+                  onChange={(e) => setF({ ...f, descriptions: { ...f.descriptions, [code]: e.target.value } })} className={input} />
+              </label>
+            </div>
+          ))}
+        </div>
+      </div>
+
       <div className="flex flex-wrap gap-3">
-        {price("day")}{price("weekend")}{price("week")}
-        <label className="flex flex-col gap-1">Plná záloha (€)
-          <input type="number" min={0} value={t.deposit} onChange={(e) => setT({ ...t, deposit: Number(e.target.value) })} className={`${input} w-24`} />
+        {price("day", "1 deň (€) *")}{price("weekend", "Víkend pi–po (€) *")}{price("week", "7 dní (€) *")}
+        <label className="flex flex-col gap-1">Plná záloha (€) *
+          <input inputMode="decimal" value={f.deposit} required onChange={(e) => setF({ ...f, deposit: e.target.value })} className={`${input} w-24`} />
         </label>
-        <label className="flex flex-col gap-1">Počet kusov
-          <input type="number" min={1} max={50} value={t.units} onChange={(e) => setT({ ...t, units: Number(e.target.value) })} className={`${input} w-20`} />
+        <label className="flex flex-col gap-1">Počet kusov *
+          <input type="number" min={1} max={50} value={f.units} required onChange={(e) => setF({ ...f, units: e.target.value })} className={`${input} w-20`} />
         </label>
       </div>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <label className="flex flex-col gap-1">Odkaz na produkt v e-shope (nepovinné)
+          <input type="url" value={f.eshopUrl} placeholder="https://eshop.marosko.sk/p/…"
+            onChange={(e) => setF({ ...f, eshopUrl: e.target.value })} className={input} />
+          <span className="text-xs text-gray-500">Z e-shopu sa do zmluvy načíta presný názov, kód a cena nového.</span>
+        </label>
+        <label className="flex flex-col gap-1">Hodnota náradia (€, nepovinné)
+          <input inputMode="decimal" value={f.value} onChange={(e) => setF({ ...f, value: e.target.value })} className={`${input} w-32`} />
+          <span className="text-xs text-gray-500">Do zmluvy, ak náradie nie je v e-shope.</span>
+        </label>
+      </div>
+
+      <label className="flex flex-col gap-1">Príslušenstvo do protokolu (každá položka na nový riadok)
+        <textarea value={f.accessories} rows={4} onChange={(e) => setF({ ...f, accessories: e.target.value })} className={input} />
+      </label>
+
       <label className="flex items-center gap-2">
-        <input type="checkbox" checked={t.active} onChange={(e) => setT({ ...t, active: e.target.checked })} />
+        <input type="checkbox" checked={f.active} onChange={(e) => setF({ ...f, active: e.target.checked })} />
         Zobrazovať v požičovni
       </label>
-      <button type="submit" disabled={busy} className={`${button} bg-amber-600 text-white hover:bg-amber-700`}>Uložiť</button>
+
+      <div className="flex flex-wrap gap-2">
+        <button type="submit" disabled={busy || uploading} className={`${button} bg-amber-600 text-white hover:bg-amber-700`}>
+          {isNew ? "Pridať náradie" : "Uložiť"}
+        </button>
+        <button type="button" onClick={onDone} className={`${button} bg-white border border-gray-300 text-gray-700 hover:bg-gray-50`}>Zrušiť</button>
+      </div>
     </form>
   );
 }
 
 function ToolsTab({ tools, busy, act }: { tools: Tool[]; busy: boolean; act: Act }) {
+  const [editing, setEditing] = useState<string | null>(null);
+
   return (
     <div className="space-y-4">
       <p className="text-sm text-gray-600">
-        Ceny sú plné (s DPH); zľavu a podiel zálohy určuje skupina zákazníka. Nové náradie (napr. tepovač) doplním do webu ja –
-        potrebuje fotku a texty v 4 jazykoch.
+        Ceny sú plné (s DPH); zľavu a podiel zálohy určuje skupina zákazníka. Polia s * sú povinné.
       </p>
-      {tools.map((tool) => <ToolRow key={`${tool.slug}-${JSON.stringify(tool)}`} tool={tool} busy={busy} act={act} />)}
+      {editing === "" ? (
+        <ToolEditor initial={NEW_TOOL} busy={busy} act={act} onDone={() => setEditing(null)} />
+      ) : (
+        <button type="button" onClick={() => setEditing("")} className={`${button} bg-amber-600 text-white hover:bg-amber-700`}>
+          + Pridať náradie
+        </button>
+      )}
+      {tools.map((tool) =>
+        editing === tool.slug ? (
+          <ToolEditor key={tool.slug} initial={toForm(tool)} busy={busy} act={act} onDone={() => setEditing(null)} />
+        ) : (
+          <div key={tool.slug} className={`bg-white rounded-xl shadow p-3 flex items-center gap-4 text-sm text-gray-700 ${tool.active ? "" : "opacity-60"}`}>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={tool.image} alt="" className="w-16 h-16 object-contain rounded bg-gray-50 shrink-0" />
+            <div className="flex-1 min-w-0">
+              <p className="font-semibold text-espresso-800">{tool.name}{!tool.active && " (skryté)"}</p>
+              <p>{tool.prices.day} € deň · {tool.prices.weekend} € víkend · {tool.prices.week} € týždeň · záloha {tool.deposit} € · {tool.units} ks</p>
+            </div>
+            <div className="flex flex-wrap gap-2 justify-end">
+              <button type="button" onClick={() => setEditing(tool.slug)}
+                className={`${button} bg-white border border-gray-300 text-gray-700 hover:bg-gray-50`}>Upraviť</button>
+              {tool.custom && (
+                <button type="button" disabled={busy}
+                  onClick={() => confirm(`Odstrániť „${tool.name}“ z požičovne?`) && act({ action: "deleteTool", slug: tool.slug }, "Náradie odstránené.")}
+                  className={`${button} bg-white border border-red-300 text-red-700 hover:bg-red-50`}>Odstrániť</button>
+              )}
+            </div>
+          </div>
+        )
+      )}
     </div>
   );
 }
