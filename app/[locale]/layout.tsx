@@ -8,6 +8,7 @@ import CookieConsent from '@/components/CookieConsent';
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import ChatWidget from '@/components/ChatWidget';
 import ShareButtons from '@/components/ShareButtons';
+import { isPreviewDeployment } from '@/lib/rental/preview';
 
 export default async function LocaleLayout({
   children,
@@ -31,6 +32,12 @@ export default async function LocaleLayout({
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="min-h-screen bg-cream-50">
+            {isPreviewDeployment() && (
+              <div className="bg-red-700 text-white text-center text-sm py-2 px-4">
+                Testovacia verzia webu – zmeny tu sa neukladajú na ostrý web.{" "}
+                <a href="https://www.marosko.sk" className="underline font-semibold">Prejsť na www.marosko.sk</a>
+              </div>
+            )}
             <Nav />
 
             {/* Hlavný obsah */}

@@ -2,6 +2,7 @@ import { apiError, EMAIL_RE, readJson, str } from "@/lib/rental/api";
 import { createBooking, DATE_RE, getBooking, setBookingPrice, setBookingStatus, toolBookings } from "@/lib/rental/bookings";
 import { deleteCustomTool, getCatalog, getCatalogTool, groupPricing, saveTool, toolLabel } from "@/lib/rental/catalog";
 import { saveImage } from "@/lib/rental/images";
+import { isPreviewDeployment } from "@/lib/rental/preview";
 import { DEFAULT_GROUP_ID, findGroup, getGroups, sanitizeGroup, saveGroups } from "@/lib/rental/groups";
 import { notifyCustomer } from "@/lib/rental/notify";
 import { estimatePrice, rentalDays } from "@/lib/rental/rentalData";
@@ -17,6 +18,7 @@ function agreed(value: unknown): number | null {
 }
 
 async function requireAdmin() {
+  if (isPreviewDeployment()) return null;
   const user = await getCurrentUser();
   return user?.isAdmin ? user : null;
 }
