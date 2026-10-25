@@ -3130,7 +3130,7 @@
     },
     "rental": {
       "title": "Požičovňa rezbárskeho náradia | Marosko",
-      "description": "Požičajte si rezbárske náradie Arbortech a Manpa a vyskúšajte ho pri vlastnej práci. Online kalendár dostupnosti a rezervácia po registrácii."
+      "description": "Požičajte si rezbárske náradie Arbortech a Manpa alebo tepovač Kärcher. Ceny prenájmu na deň, víkend aj týždeň a online kalendár voľných termínov."
     }
   },
   "cookies": {
@@ -3230,11 +3230,11 @@
   "rental": {
     "title": "Požičovňa náradia",
     "subtitle": "Vyskúšajte profesionálne rezbárske náradie skôr, než si ho kúpite.",
-    "intro": "Požičiavame vybrané nástroje Arbortech a Manpa. Po registrácii uvidíte ceny, kalendár dostupnosti a termín si môžete rovno rezervovať. Rezerváciu vám potvrdíme a dohodneme odovzdanie.",
+    "intro": "Požičiavame rezbárske nástroje Arbortech a Manpa aj tepovač Kärcher. Ceny a voľné termíny vidíte hneď, bez registrácie. Účet si založíte až vtedy, keď sa rozhodnete termín rezervovať. Rezerváciu vám potvrdíme a dohodneme odovzdanie.",
     "signedInAs": "Prihlásený: {name}",
     "myAccount": "Môj účet a rezervácie",
     "logout": "Odhlásiť sa",
-    "lockedNote": "Ceny, kalendár dostupnosti a rezervácia sú dostupné po registrácii. Je zadarmo a trvá minútu.",
+    "lockedNote": "Na rezerváciu termínu sa stačí zaregistrovať – je to zadarmo a trvá minútu. Uvedené ceny platia pre bežných zákazníkov, stáli zákazníci a firmy majú zľavy.",
     "registerCta": "Zaregistrovať sa",
     "loginCta": "Prihlásiť sa",
     "priceDay": "1 deň",
@@ -3246,8 +3246,8 @@
     "buyNew": "Kúpiť nový v e-shope",
     "howTitle": "Ako to funguje",
     "how": {
-      "step1": "Zaregistrujte sa a prihláste.",
-      "step2": "V kalendári vyberte voľný termín od – do a odošlite rezerváciu.",
+      "step1": "Vyberte si náradie a pozrite si ceny a voľné termíny.",
+      "step2": "V kalendári označte termín od – do. Zaregistrujte sa alebo prihláste a odošlite rezerváciu.",
       "step3": "Rezerváciu potvrdíme a dohodneme s vami čas odovzdania.",
       "step4": "Náradie si prevezmete, zaplatíte nájomné a vratnú zálohu. Po vrátení vám zálohu vrátime."
     },
@@ -3298,7 +3298,8 @@
       "clear": "Zrušiť výber",
       "success": "Rezervácia je odoslaná a termín je pre vás zablokovaný. Ozveme sa vám s potvrdením.",
       "successLink": "Moje rezervácie",
-      "successConfirmed": "Rezervácia je potvrdená a termín je váš. Ozveme sa vám ohľadom času odovzdania."
+      "successConfirmed": "Rezervácia je potvrdená a termín je váš. Ozveme sa vám ohľadom času odovzdania.",
+      "loginToBook": "Na odoslanie rezervácie sa prihláste alebo zaregistrujte (zadarmo, za minútu). Vybraný termín vám zostane označený."
     },
     "auth": {
       "registerTitle": "Registrácia do požičovne",

@@ -4,15 +4,14 @@ import { getCatalogTool } from "@/lib/rental/catalog";
 import { canUseTool, findGroup, getGroups } from "@/lib/rental/groups";
 import { getCurrentUser } from "@/lib/rental/users";
 
-/** Fully booked days of one tool, for the booking calendar. */
+/** Fully booked days of one tool, for the booking calendar. Public: it says
+ * only which days are taken, not by whom. */
 export async function GET(request: Request) {
   const user = await getCurrentUser();
-  if (!user) return apiError("not_signed_in", 401);
-  if (user.blocked) return apiError("blocked", 403);
 
   const tool = await getCatalogTool(new URL(request.url).searchParams.get("tool") ?? "");
   if (!tool || !tool.active) return apiError("unknown_tool", 404);
-  if (!user.isAdmin && !canUseTool(findGroup(await getGroups(), user.groupId), tool.slug)) {
+  if (user && !user.isAdmin && !canUseTool(findGroup(await getGroups(), user.groupId), tool.slug)) {
     return apiError("tool_not_allowed", 403);
   }
 
