@@ -1,6 +1,7 @@
 import { ensureContractNumber, getBooking, type Booking } from "@/lib/rental/bookings";
 import { eshopUrl as toolEshopUrl, getCatalogTool, toolLabel, type CatalogTool } from "@/lib/rental/catalog";
 import { getEshopProduct, type EshopProduct } from "@/lib/rental/eshopProduct";
+import { isPreviewDeployment, LIVE_ADMIN_URL } from "@/lib/rental/preview";
 import { getCurrentUser } from "@/lib/rental/users";
 
 /** Printable rental documents for one booking: the contract (one copy for
@@ -192,6 +193,7 @@ function page(body: string, status = 200) {
 }
 
 export async function GET(request: Request) {
+  if (isPreviewDeployment()) return page(`<h1>Doklady sa tlačia na <a href="${LIVE_ADMIN_URL}">www.marosko.sk</a></h1>`, 403);
   const user = await getCurrentUser();
   if (!user?.isAdmin) return page("<h1>Prístup len pre správcu</h1>", 403);
 
