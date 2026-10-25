@@ -2704,7 +2704,7 @@
     "rental": {
       "badge": "Nou",
       "name": "Închirieri de scule",
-      "description": "Nu vreți să cumpărați încă? Închiriați de la noi Manpa, Arbortech Contour Sander sau aparatul de spălat Kärcher. După înregistrare vedeți prețurile și perioadele libere; sculele se ridică de la sediul societății din Vrádište.",
+      "description": "Nu vreți să cumpărați încă? Închiriați de la noi Manpa, Arbortech Contour Sander sau aparatul de curățat prin injecție-extracție Kärcher. După înregistrare vedeți prețurile și perioadele libere; sculele se ridică de la sediul societății din Vrádište.",
       "cta": "Mergi la închirieri"
     }
   },
@@ -3275,7 +3275,7 @@
       },
       "karcherPuzzi": {
         "name": "Kärcher Puzzi 10/1",
-        "description": "Aparat profesional de spălat cu injecție-extracție pentru covoare, canapele, scaune auto și tapițerie. Rezervor de 10 l pentru apă curată și de 9 l pentru apă murdară, furtun de pulverizare și duză manuală pentru tapițerie. Detergentul nu este inclus în închiriere."
+        "description": "Aparat profesional de curățat prin injecție-extracție (extractor) pentru covoare, canapele, scaune auto și tapițerie. Rezervor de 10 l pentru apă curată și de 9 l pentru apă murdară, furtun de pulverizare și duză manuală pentru tapițerie. Detergentul nu este inclus în închiriere."
       }
     },
     "calendar": {
