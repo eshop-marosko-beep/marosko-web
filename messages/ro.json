@@ -3130,7 +3130,7 @@
     },
     "rental": {
       "title": "Închiriere scule de sculptură în lemn | Marosko",
-      "description": "Închiriați scule de sculptură Arbortech și Manpa și încercați-le în propria lucrare. Calendar online de disponibilitate și rezervare după înregistrare."
+      "description": "Închiriați scule de sculptură Arbortech și Manpa sau aparatul de curățat Kärcher. Prețuri de închiriere pe zi, weekend și săptămână și calendar online cu perioadele libere."
     }
   },
   "cookies": {
@@ -3230,11 +3230,11 @@
   "rental": {
     "title": "Închiriere scule",
     "subtitle": "Încercați sculele profesionale de sculptură în lemn înainte să le cumpărați.",
-    "intro": "Închiriem scule selectate Arbortech și Manpa. După înregistrare vedeți prețurile și calendarul de disponibilitate și puteți rezerva direct o perioadă. Vă confirmăm rezervarea și stabilim predarea.",
+    "intro": "Închiriem scule de sculptură Arbortech și Manpa și aparatul de curățat prin injecție-extracție Kärcher. Prețurile și perioadele libere le vedeți imediat, fără înregistrare. Contul îl creați doar când decideți să rezervați. Vă confirmăm rezervarea și stabilim predarea.",
     "signedInAs": "Conectat: {name}",
     "myAccount": "Contul meu și rezervările",
     "logout": "Deconectare",
-    "lockedNote": "Prețurile, calendarul de disponibilitate și rezervarea sunt disponibile după înregistrare. Este gratuită și durează un minut.",
+    "lockedNote": "Pentru a rezerva o perioadă este suficientă înregistrarea – este gratuită și durează un minut. Prețurile afișate sunt pentru clienții obișnuiți; clienții fideli și firmele au reduceri.",
     "registerCta": "Înregistrare",
     "loginCta": "Conectare",
     "priceDay": "1 zi",
@@ -3246,8 +3246,8 @@
     "buyNew": "Cumpără nou în magazin",
     "howTitle": "Cum funcționează",
     "how": {
-      "step1": "Înregistrați-vă și conectați-vă.",
-      "step2": "Alegeți în calendar o perioadă liberă și trimiteți rezervarea.",
+      "step1": "Alegeți scula și vedeți prețurile și perioadele libere.",
+      "step2": "Marcați perioada în calendar, apoi înregistrați-vă sau conectați-vă și trimiteți rezervarea.",
       "step3": "Confirmăm rezervarea și stabilim cu dvs. ora predării.",
       "step4": "Ridicați scula și plătiți chiria și o garanție returnabilă. La returnare vă restituim garanția."
     },
@@ -3298,7 +3298,8 @@
       "clear": "Anulează selecția",
       "success": "Rezervarea a fost trimisă, iar perioada este blocată pentru dvs. Revenim cu o confirmare.",
       "successLink": "Rezervările mele",
-      "successConfirmed": "Rezervarea este confirmată, iar perioada este a dvs. Vă contactăm pentru ora predării."
+      "successConfirmed": "Rezervarea este confirmată, iar perioada este a dvs. Vă contactăm pentru ora predării.",
+      "loginToBook": "Pentru a trimite rezervarea, conectați-vă sau înregistrați-vă (gratuit, durează un minut). Perioada aleasă rămâne marcată."
     },
     "auth": {
       "registerTitle": "Înregistrare pentru închiriere",

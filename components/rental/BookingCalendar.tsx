@@ -28,11 +28,21 @@ export default function BookingCalendar({
   toolSlug,
   prices,
   deposit,
+  signedIn,
+  canBook,
+  initialFrom,
+  initialTo,
 }: {
   toolSlug: string;
   /** Prices and deposit for this customer's group (discount already applied). */
   prices: RentalTool["prices"];
   deposit: number;
+  signedIn: boolean;
+  /** Signed in and not blocked; otherwise dates can be picked but not sent. */
+  canBook: boolean;
+  /** Dates picked before signing in, brought back through the URL. */
+  initialFrom: string | null;
+  initialTo: string | null;
 }) {
   const t = useTranslations("rental");
   const locale = useLocale();
@@ -46,8 +56,10 @@ export default function BookingCalendar({
   });
   const [booked, setBooked] = useState<Set<string>>(new Set());
   const [loaded, setLoaded] = useState(false);
-  const [from, setFrom] = useState<string | null>(null);
-  const [to, setTo] = useState<string | null>(null);
+  const [from, setFrom] = useState<string | null>(() => (initialFrom && initialFrom >= today ? initialFrom : null));
+  const [to, setTo] = useState<string | null>(() =>
+    initialFrom && initialFrom >= today && initialTo && initialTo >= initialFrom ? initialTo : null
+  );
   const [note, setNote] = useState("");
   const [status, setStatus] = useState<Status>("idle");
   /** Error code from messages.rental.errors, translated when rendered. */
@@ -208,6 +220,23 @@ export default function BookingCalendar({
             <p><strong>{t("calendar.estimate")}:</strong> {price} € · <strong>{t("deposit")}:</strong> {deposit} €</p>
             <p className="text-xs text-gray-500">{t("calendar.priceNote")}</p>
           </div>
+          {!canBook ? (
+            signedIn ? null : (
+              <div className="bg-amber-50 border border-amber-200 rounded-lg p-4 space-y-3">
+                <p className="text-sm text-espresso-800">{t("calendar.loginToBook")}</p>
+                <div className="flex flex-wrap gap-3">
+                  <Link href={{ pathname: "/ucet/registracia", query: { next: `/pozicovna/${toolSlug}?from=${from}&to=${end}` } }}
+                    className="bg-amber-600 text-white px-5 py-2 rounded-lg font-semibold hover:bg-amber-700 transition-colors">
+                    {t("registerCta")}
+                  </Link>
+                  <Link href={{ pathname: "/ucet/prihlasenie", query: { next: `/pozicovna/${toolSlug}?from=${from}&to=${end}` } }}
+                    className="px-5 py-2 rounded-lg font-semibold text-amber-700 border border-amber-300 hover:bg-amber-100 transition-colors">
+                    {t("loginCta")}
+                  </Link>
+                </div>
+              </div>
+            )
+          ) : (<>
           <div>
             <label htmlFor="rental-note" className="block text-sm font-semibold text-gray-700 mb-1">{t("calendar.note")}</label>
             <textarea id="rental-note" rows={3} maxLength={1000} value={note} onChange={(e) => setNote(e.target.value)}
@@ -224,6 +253,7 @@ export default function BookingCalendar({
               {t("calendar.clear")}
             </button>
           </div>
+          </>)}
         </div>
       )}
 

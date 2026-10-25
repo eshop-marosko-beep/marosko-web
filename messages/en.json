@@ -3130,7 +3130,7 @@
     },
     "rental": {
       "title": "Wood carving tool rental | Marosko",
-      "description": "Rent Arbortech and Manpa wood carving tools and try them on your own work. Online availability calendar and booking after registration."
+      "description": "Rent Arbortech and Manpa wood carving tools or a Kärcher carpet cleaner. Rental prices per day, weekend and week, with an online calendar of free dates."
     }
   },
   "cookies": {
@@ -3231,11 +3231,11 @@
   "rental": {
     "title": "Tool rental",
     "subtitle": "Try professional wood carving tools before you buy them.",
-    "intro": "We rent out selected Arbortech and Manpa tools. Once registered, you'll see prices and the availability calendar and can book a date straight away. We'll confirm your booking and arrange the handover.",
+    "intro": "We rent out Arbortech and Manpa carving tools and a Kärcher carpet cleaner. You can see prices and free dates right away, without registering. You only create an account once you decide to book. We'll confirm your booking and arrange the handover.",
     "signedInAs": "Signed in as {name}",
     "myAccount": "My account and bookings",
     "logout": "Sign out",
-    "lockedNote": "Prices, the availability calendar and booking are available after registration. It's free and takes a minute.",
+    "lockedNote": "To book a date, just register – it's free and takes a minute. The prices shown are for regular customers; returning customers and businesses get discounts.",
     "registerCta": "Register",
     "loginCta": "Sign in",
     "priceDay": "1 day",
@@ -3247,8 +3247,8 @@
     "buyNew": "Buy new in the e-shop",
     "howTitle": "How it works",
     "how": {
-      "step1": "Register and sign in.",
-      "step2": "Pick a free date range in the calendar and send your booking.",
+      "step1": "Choose a tool and check the prices and free dates.",
+      "step2": "Mark your dates in the calendar, then register or sign in and send the booking.",
       "step3": "We confirm the booking and agree a handover time with you.",
       "step4": "You collect the tool and pay the rental fee and a refundable deposit. We return the deposit when you bring the tool back."
     },
@@ -3299,7 +3299,8 @@
       "clear": "Clear selection",
       "success": "Your booking has been sent and the dates are held for you. We'll get back to you with a confirmation.",
       "successLink": "My bookings",
-      "successConfirmed": "Your booking is confirmed and the dates are yours. We'll contact you about the handover time."
+      "successConfirmed": "Your booking is confirmed and the dates are yours. We'll contact you about the handover time.",
+      "loginToBook": "To send the booking, sign in or register (free, takes a minute). Your selected dates will stay marked."
     },
     "auth": {
       "registerTitle": "Register for tool rental",

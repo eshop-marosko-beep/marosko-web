@@ -3130,7 +3130,7 @@
     },
     "rental": {
       "title": "Půjčovna řezbářského nářadí | Marosko",
-      "description": "Půjčte si řezbářské nářadí Arbortech a Manpa a vyzkoušejte ho při vlastní práci. Online kalendář dostupnosti a rezervace po registraci."
+      "description": "Půjčte si řezbářské nářadí Arbortech a Manpa nebo tepovač Kärcher. Ceny pronájmu na den, víkend i týden a online kalendář volných termínů."
     }
   },
   "cookies": {
@@ -3230,11 +3230,11 @@
   "rental": {
     "title": "Půjčovna nářadí",
     "subtitle": "Vyzkoušejte profesionální řezbářské nářadí dřív, než si ho koupíte.",
-    "intro": "Půjčujeme vybrané nástroje Arbortech a Manpa. Po registraci uvidíte ceny, kalendář dostupnosti a termín si můžete rovnou rezervovat. Rezervaci vám potvrdíme a domluvíme předání.",
+    "intro": "Půjčujeme řezbářské nástroje Arbortech a Manpa i tepovač Kärcher. Ceny a volné termíny vidíte hned, bez registrace. Účet si založíte až ve chvíli, kdy se rozhodnete termín rezervovat. Rezervaci vám potvrdíme a domluvíme předání.",
     "signedInAs": "Přihlášen: {name}",
     "myAccount": "Můj účet a rezervace",
     "logout": "Odhlásit se",
-    "lockedNote": "Ceny, kalendář dostupnosti a rezervace jsou dostupné po registraci. Je zdarma a trvá minutu.",
+    "lockedNote": "K rezervaci termínu stačí registrace – je zdarma a trvá minutu. Uvedené ceny platí pro běžné zákazníky, stálí zákazníci a firmy mají slevy.",
     "registerCta": "Zaregistrovat se",
     "loginCta": "Přihlásit se",
     "priceDay": "1 den",
@@ -3246,8 +3246,8 @@
     "buyNew": "Koupit nový v e-shopu",
     "howTitle": "Jak to funguje",
     "how": {
-      "step1": "Zaregistrujte se a přihlaste.",
-      "step2": "V kalendáři vyberte volný termín od – do a odešlete rezervaci.",
+      "step1": "Vyberte si nářadí a podívejte se na ceny a volné termíny.",
+      "step2": "V kalendáři označte termín od – do. Zaregistrujte se nebo přihlaste a odešlete rezervaci.",
       "step3": "Rezervaci potvrdíme a domluvíme s vámi čas předání.",
       "step4": "Nářadí si převezmete, zaplatíte nájemné a vratnou zálohu. Po vrácení vám zálohu vrátíme."
     },
@@ -3298,7 +3298,8 @@
       "clear": "Zrušit výběr",
       "success": "Rezervace je odeslána a termín je pro vás zablokovaný. Ozveme se vám s potvrzením.",
       "successLink": "Moje rezervace",
-      "successConfirmed": "Rezervace je potvrzená a termín je váš. Ozveme se vám ohledně času předání."
+      "successConfirmed": "Rezervace je potvrzená a termín je váš. Ozveme se vám ohledně času předání.",
+      "loginToBook": "K odeslání rezervace se přihlaste nebo zaregistrujte (zdarma, za minutu). Vybraný termín vám zůstane označený."
     },
     "auth": {
       "registerTitle": "Registrace do půjčovny",
