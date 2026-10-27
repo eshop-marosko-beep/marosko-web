@@ -1,7 +1,7 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { Link, usePathname } from "@/navigation";
+import { useState } from "react";
+import { Link } from "@/navigation";
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
@@ -12,21 +12,6 @@ export default function Nav() {
   const locale = useLocale();
   const eshopUrl = getEshopUrl(locale);
   const [open, setOpen] = useState(false);
-  // Signed-in state comes from the browser, so pages stay cacheable.
-  const [me, setMe] = useState<{ signedIn: boolean; isAdmin?: boolean } | null>(null);
-  // Checked again on every page change, so signing in or out shows up at once.
-  const pathname = usePathname();
-  useEffect(() => {
-    fetch("/api/rental/me", { cache: "no-store" })
-      .then((res) => res.json())
-      .then(setMe)
-      .catch(() => setMe({ signedIn: false }));
-  }, [pathname]);
-  const account = !me
-    ? null
-    : me.signedIn
-      ? { href: me.isAdmin ? "/ucet/admin" : "/ucet", label: me.isAdmin ? t("admin") : t("account") }
-      : { href: "/ucet/prihlasenie?next=%2Fucet", label: t("login") };
 
   const links = [
     { href: "/", label: t("home") },
@@ -61,14 +46,6 @@ export default function Nav() {
               {link.label}
             </Link>
           ))}
-          {account && (
-            <Link href={account.href} className="whitespace-nowrap flex items-center gap-1 hover:text-amber-700">
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-              </svg>
-              {account.label}
-            </Link>
-          )}
           <a
             href={eshopUrl}
             target="_blank"
@@ -111,11 +88,6 @@ export default function Nav() {
               {link.label}
             </Link>
           ))}
-          {account && (
-            <Link href={account.href} onClick={() => setOpen(false)} className="hover:text-amber-700 font-semibold">
-              {account.label}
-            </Link>
-          )}
           <a
             href={eshopUrl}
             target="_blank"

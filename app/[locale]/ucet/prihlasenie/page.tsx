@@ -30,7 +30,9 @@ export default async function LoginPage({
   setRequestLocale(locale);
   const next = safeNextPath((await searchParams).next);
 
-  if (await getCurrentUser()) return redirect({ href: next, locale });
+  const user = await getCurrentUser();
+  // Already signed in: go on; an admin coming from "Naše obchody" goes to the admin panel.
+  if (user) return redirect({ href: user.isAdmin && next === "/ucet" ? "/ucet/admin" : next, locale });
 
   const t = await getTranslations("rental.auth");
   return (

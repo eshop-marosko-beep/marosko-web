@@ -2709,6 +2709,11 @@
       "name": "Požičovňa náradia",
       "description": "Nechcete hneď kupovať? Požičajte si u nás Manpu, Arbortech Contour Sander alebo tepovač Kärcher. Po registrácii uvidíte ceny a voľné termíny, náradie si vyzdvihnete v sídle spoločnosti vo Vrádišti.",
       "cta": "Prejsť do požičovne"
+    },
+    "account": {
+      "name": "Zákaznícky účet",
+      "description": "Prihláste sa do svojho účtu – uvidíte svoje rezervácie v požičovni. Správca sa tu prihlasuje do administrácie webu.",
+      "cta": "Prihlásiť sa"
     }
   },
   "contact": {

@@ -91,6 +91,8 @@ const ERRORS: Record<string, string> = {
   invalid_dates: "Neplatný termín.",
   invalid_fields: "Vyplňte prosím názov a kód skupiny.",
   try_again: "Práve prebieha iná rezervácia, skúste to o chvíľu.",
+  weak_password: "Heslo musí mať aspoň 8 znakov.",
+  not_found: "Zákazník sa nenašiel.",
   tool_name: "Vyplňte názov náradia (slovensky).",
   tool_description: "Vyplňte popis náradia (slovensky).",
   tool_image: "Nahrajte fotku náradia.",
@@ -393,6 +395,13 @@ function BlocksTab({
   );
 }
 
+/** Easy to read out over the phone: no 0/O, 1/l/I. */
+function randomPassword(): string {
+  const chars = "abcdefghjkmnpqrstuvwxyz23456789";
+  const bytes = crypto.getRandomValues(new Uint8Array(10));
+  return Array.from(bytes, (b) => chars[b % chars.length]).join("");
+}
+
 function CustomersTab({ customers, groups, busy, act }: { customers: Customer[]; groups: Group[]; busy: boolean; act: Act }) {
   const [search, setSearch] = useState("");
   const q = search.trim().toLowerCase();
@@ -406,7 +415,7 @@ function CustomersTab({ customers, groups, busy, act }: { customers: Customer[];
       <div className="bg-white rounded-xl shadow overflow-x-auto">
         <table className="w-full text-sm text-gray-700">
           <thead className="bg-cream-50 text-left">
-            <tr><th className="p-3">Zákazník</th><th className="p-3">Kontakt</th><th className="p-3">Skupina</th><th className="p-3">Stav</th></tr>
+            <tr><th className="p-3">Zákazník</th><th className="p-3">Kontakt</th><th className="p-3">Skupina</th><th className="p-3">Stav</th><th className="p-3">Heslo</th></tr>
           </thead>
           <tbody>
             {shown.map((c) => (
@@ -431,6 +440,18 @@ function CustomersTab({ customers, groups, busy, act }: { customers: Customer[];
                       {c.blocked ? "Zablokovaný – odblokovať" : "Aktívny – zablokovať"}
                     </button>
                   )}
+                </td>
+                <td className="p-3">
+                  <button type="button" disabled={busy}
+                    onClick={() => {
+                      const password = prompt(`Nové heslo pre ${c.name} (aspoň 8 znakov). Po uložení ho zákazníkovi oznámte:`, randomPassword());
+                      if (password === null) return;
+                      act({ action: "setCustomerPassword", email: c.email, password },
+                        `Nové heslo pre ${c.name} (${c.email}) je: ${password} – oznámte ho zákazníkovi.`);
+                    }}
+                    className={`${button} bg-white border border-gray-300 text-gray-700 hover:bg-gray-50 whitespace-nowrap`}>
+                    Nastaviť nové heslo
+                  </button>
                 </td>
               </tr>
             ))}

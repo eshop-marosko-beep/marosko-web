@@ -2709,6 +2709,11 @@
       "name": "Închirieri de scule",
       "description": "Nu vreți să cumpărați încă? Închiriați de la noi Manpa, Arbortech Contour Sander sau aparatul de curățat prin injecție-extracție Kärcher. După înregistrare vedeți prețurile și perioadele libere; sculele se ridică de la sediul societății din Vrádište.",
       "cta": "Mergi la închirieri"
+    },
+    "account": {
+      "name": "Cont de client",
+      "description": "Conectați-vă la contul dvs. pentru a vedea rezervările de închiriere. Tot aici se conectează și administratorul site-ului.",
+      "cta": "Conectare"
     }
   },
   "contact": {
