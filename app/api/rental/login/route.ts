@@ -30,5 +30,8 @@ export async function POST(request: Request) {
   }
 
   await kv(["DEL", failKey]);
-  return Response.json({ success: true }, { headers: { "Set-Cookie": await sessionCookieHeader(user.email) } });
+  return Response.json(
+    { success: true, isAdmin: Boolean(user.admin) },
+    { headers: { "Set-Cookie": await sessionCookieHeader(user.email) } }
+  );
 }

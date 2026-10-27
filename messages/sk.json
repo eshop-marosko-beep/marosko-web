@@ -10,7 +10,10 @@
     "shops": "Naše obchody",
     "contact": "Kontakt",
     "promotions": "Akcie a výpredaje",
-    "rental": "Požičovňa"
+    "rental": "Požičovňa",
+    "login": "Prihlásiť sa",
+    "account": "Môj účet",
+    "admin": "Administrácia"
   },
   "common": {
     "openImage": "Otvoriť obrázok v plnej veľkosti"
@@ -3304,7 +3307,7 @@
     "auth": {
       "registerTitle": "Registrácia do požičovne",
       "registerSubtitle": "Po registrácii uvidíte ceny a kalendár dostupnosti a môžete si rezervovať náradie.",
-      "loginTitle": "Prihlásenie do požičovne",
+      "loginTitle": "Prihlásenie",
       "loginSubtitle": "Prihláste sa e-mailom a heslom, ktoré ste zadali pri registrácii.",
       "name": "Meno a priezvisko",
       "phone": "Telefón",
@@ -3319,7 +3322,16 @@
       "noAccount": "Ešte nemáte účet?",
       "loginLink": "Prihláste sa",
       "registerLink": "Zaregistrujte sa",
-      "adminVerifySent": "Táto adresa patrí správcovi požičovne. Na e-mail sme poslali potvrdzovací odkaz – účet sa vytvorí, až keď ho otvoríte."
+      "adminVerifySent": "Táto adresa patrí správcovi požičovne. Na e-mail sme poslali potvrdzovací odkaz – účet sa vytvorí, až keď ho otvoríte.",
+      "forgotLink": "Zabudli ste heslo?",
+      "forgotTitle": "Zabudnuté heslo",
+      "forgotSubtitle": "Zadajte e-mail, s ktorým ste sa registrovali. Pošleme vám odkaz na nastavenie nového hesla.",
+      "forgotSubmit": "Poslať odkaz",
+      "forgotSent": "Ak je k tomuto e-mailu vytvorený účet, poslali sme naň odkaz na nastavenie nového hesla. Platí 1 hodinu. Ak e-mail nevidíte, pozrite aj do spamu.",
+      "resetTitle": "Nové heslo",
+      "resetSubtitle": "Zadajte nové heslo k účtu {email}.",
+      "resetSubmit": "Uložiť nové heslo",
+      "backToLogin": "Späť na prihlásenie"
     },
     "account": {
       "title": "Môj účet",
@@ -3353,13 +3365,18 @@
       "blocked": "Váš účet je pozastavený, rezervácie nie sú možné.",
       "tool_not_allowed": "Toto náradie nie je dostupné pre vašu zákaznícku skupinu.",
       "forbidden": "Na túto akciu nemáte oprávnenie.",
-      "not_found": "Záznam sa nenašiel."
+      "not_found": "Záznam sa nenašiel.",
+      "reset_invalid": "Odkaz na obnovu hesla je neplatný alebo už vypršal. Požiadajte o nový."
     },
     "email": {
       "confirmedHeading": "Rezervácia potvrdená",
       "confirmedText": "Vaša rezervácia je potvrdená. Ozveme sa vám ohľadom času odovzdania.",
       "declinedHeading": "Rezervácia zamietnutá",
-      "declinedText": "Ľutujeme, tento termín vám nemôžeme potvrdiť. Vyberte si prosím iný termín alebo nás kontaktujte."
+      "declinedText": "Ľutujeme, tento termín vám nemôžeme potvrdiť. Vyberte si prosím iný termín alebo nás kontaktujte.",
+      "resetSubject": "Obnova hesla – Marosko",
+      "resetText": "Dostali sme žiadosť o nové heslo k vášmu účtu na marosko.sk. Nové heslo si nastavíte cez tlačidlo nižšie. Odkaz platí 1 hodinu.",
+      "resetButton": "Nastaviť nové heslo",
+      "resetIgnore": "Ak ste o nové heslo nežiadali, tento e-mail ignorujte – vaše heslo sa nezmení."
     },
     "discountBadge": "Vaša zľava {percent} %",
     "blockedNote": "Váš účet je pozastavený, rezervácie momentálne nie sú možné. Ak ide o omyl, kontaktujte nás."
