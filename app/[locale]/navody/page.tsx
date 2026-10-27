@@ -1,9 +1,8 @@
 import Image from "next/image";
 import { Link } from "@/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { videos, videoThumbnail, videoLinkUrl } from "@/lib/videoData";
+import { getGuideArticleCards, getGuideVideos, guideLinkUrl, localized } from "@/lib/guidesCatalog";
 import { pdfGuides } from "@/lib/pdfGuides";
-import { guideArticles } from "@/lib/guideArticles";
 import { buildMetadata } from "@/lib/seo";
 import { buildVideoListSchema, buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
@@ -22,7 +21,7 @@ export async function generateMetadata({
     path: "/navody",
     title: t("title"),
     description: t("description"),
-    image: videoThumbnail(videos[0]),
+    image: (await getGuideVideos()).find((video) => video.active)?.poster,
   });
 }
 
@@ -42,19 +41,20 @@ export default async function VideosPage({
     { name: tNav("home"), path: "/" },
     { name: tNav("videos"), path: "/navody" },
   ]);
+  const [allVideos, guideArticles] = await Promise.all([getGuideVideos(), getGuideArticleCards()]);
+  const videoCards = allVideos
+    .filter((video) => video.active)
+    .map((video) => ({
+      slug: video.slug,
+      thumbnail: video.poster,
+      title: localized(video.titles, locale),
+      description: localized(video.descriptions, locale),
+      linkUrl: guideLinkUrl(video, locale),
+    }));
   const videoListSchema = buildVideoListSchema(
     locale,
-    videos.map(({ slug, translationKey }) => ({
-      slug,
-      name: t(`items.${translationKey}.title`),
-    }))
+    videoCards.map(({ slug, title }) => ({ slug, name: title }))
   );
-
-  const videoCards = videos.map((video) => ({
-    ...video,
-    thumbnail: videoThumbnail(video),
-    linkUrl: videoLinkUrl(video, locale),
-  }));
 
   return (
     <div className="py-8 max-w-6xl mx-auto">
@@ -66,7 +66,7 @@ export default async function VideosPage({
       <p className="text-gray-600 leading-relaxed mb-10 max-w-2xl">{t("intro")}</p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {videoCards.map(({ slug, thumbnail, linkUrl, linkType, translationKey }) => (
+        {videoCards.map(({ slug, thumbnail, linkUrl, title, description }) => (
           <div
             key={slug}
             className="bg-white rounded-xl shadow-lg overflow-hidden border border-transparent hover:border-amber-200 hover:shadow-xl transition-all flex flex-col"
@@ -77,7 +77,7 @@ export default async function VideosPage({
             >
               <Image
                 src={thumbnail}
-                alt={t(`items.${translationKey}.title`)}
+                alt={title}
                 fill
                 unoptimized
                 className="object-contain"
@@ -92,12 +92,12 @@ export default async function VideosPage({
             </Link>
             <div className="p-6 flex flex-col flex-1">
               <h2 className="text-lg font-bold text-espresso-800 mb-2">
-                {t(`items.${translationKey}.title`)}
+                {title}
               </h2>
               <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1">
-                {t(`items.${translationKey}.description`)}
+                {description}
               </p>
-              {linkType === "internal" ? (
+              {!linkUrl ? null : linkUrl.startsWith("/") ? (
                 <Link
                   href={linkUrl}
                   className="mt-auto inline-flex items-center justify-center gap-1 bg-amber-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-amber-700 transition-colors text-sm"
@@ -118,7 +118,7 @@ export default async function VideosPage({
                 <ShareButtons
                   variant="compact"
                   url={`/navody/${slug}`}
-                  title={t(`items.${translationKey}.title`)}
+                  title={title}
                 />
               </div>
             </div>
@@ -132,7 +132,7 @@ export default async function VideosPage({
           <p className="text-gray-600 text-lg mb-10 max-w-2xl">{tGuides("subtitle")}</p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {guideArticles.map(({ slug, translationKey, image, imageIsCover }) => (
+            {guideArticles.map(({ slug, titles, descriptions, image, imageIsCover }) => (
               <Link
                 key={slug}
                 href={`/navody/clanky/${slug}`}
@@ -141,7 +141,7 @@ export default async function VideosPage({
                 <div className="relative h-44 bg-cream-100">
                   <Image
                     src={image}
-                    alt={tGuides(`items.${translationKey}.title`)}
+                    alt={localized(titles, locale)}
                     fill
                     unoptimized
                     className={imageIsCover ? "object-contain p-4" : "object-cover"}
@@ -149,10 +149,10 @@ export default async function VideosPage({
                 </div>
                 <div className="p-6 flex flex-col flex-1">
                   <h3 className="text-lg font-bold text-espresso-800 mb-2">
-                    {tGuides(`items.${translationKey}.title`)}
+                    {localized(titles, locale)}
                   </h3>
                   <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-1">
-                    {tGuides(`items.${translationKey}.cardDescription`)}
+                    {localized(descriptions, locale)}
                   </p>
                   <span className="mt-auto inline-flex items-center gap-1 text-amber-700 font-semibold text-sm">
                     {tGuides("readMore")} →

@@ -1,12 +1,13 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import { button, input, LANGS, uploadImage, type Act, type LocaleText } from "@/components/rental/adminUi";
+import { ArticlesTab, VideosTab, type AdminArticle, type AdminVideo } from "@/components/rental/GuidesAdmin";
 
 /* Rental admin panel (Slovak only — it's for the shop). Reads everything from
  * GET /api/rental/admin and sends each change as POST { action, ... }. */
 
 type Prices = { day: number; weekend: number; week: number };
-type LocaleText = { sk: string; cz?: string; en?: string; ro?: string };
 type Tool = {
   slug: string;
   name: string;
@@ -59,7 +60,7 @@ type Booking = {
   createdAt: string;
   contractNo?: string;
 };
-type State = { tools: Tool[]; groups: Group[]; customers: Customer[]; bookings: Booking[] };
+type State = { tools: Tool[]; groups: Group[]; customers: Customer[]; bookings: Booking[]; videos: AdminVideo[]; articles: AdminArticle[] };
 
 const TABS = [
   ["bookings", "Rezervácie"],
@@ -67,6 +68,8 @@ const TABS = [
   ["customers", "Zákazníci"],
   ["groups", "Skupiny"],
   ["tools", "Náradie a ceny"],
+  ["videos", "Návody – videá"],
+  ["articles", "Návody – články"],
 ] as const;
 type Tab = (typeof TABS)[number][0];
 
@@ -97,11 +100,16 @@ const ERRORS: Record<string, string> = {
   tool_units: "Počet kusov musí byť 1 až 50.",
   tool_has_bookings: "Náradie má rezervácie, preto sa nedá odstrániť. Skryte ho – odškrtnite „Zobrazovať v požičovni“.",
   unknown_tool: "Náradie sa nenašlo.",
+  guide_title: "Vyplňte nadpis (slovensky).",
+  guide_description: "Vyplňte popis (slovensky).",
+  guide_body: "Vyplňte text článku (slovensky).",
+  guide_image: "Nahrajte fotku.",
+  guide_link: "Odkaz musí začínať https:// alebo / (stránka na marosko.sk).",
+  guide_youtube: "Vložte odkaz na video z YouTube (napr. https://www.youtube.com/watch?v=…).",
+  guide_unknown: "Návod sa nenašiel.",
   invalid_customer: "Vyplňte meno a telefón zákazníka (e-mail je nepovinný, ale musí byť platný).",
 };
 
-const input = "border border-gray-300 rounded-lg px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-amber-500";
-const button = "px-3 py-1.5 rounded-lg text-sm font-semibold transition-colors disabled:opacity-50";
 
 function today() {
   return new Date().toISOString().slice(0, 10);
@@ -186,11 +194,12 @@ export default function AdminPanel() {
       {tab === "customers" && <CustomersTab customers={state.customers} groups={state.groups} busy={busy} act={act} />}
       {tab === "groups" && <GroupsTab groups={state.groups} tools={state.tools} busy={busy} act={act} />}
       {tab === "tools" && <ToolsTab tools={state.tools} busy={busy} act={act} />}
+      {tab === "videos" && <VideosTab videos={state.videos} busy={busy} act={act} />}
+      {tab === "articles" && <ArticlesTab articles={state.articles} busy={busy} act={act} />}
     </div>
   );
 }
 
-type Act = (payload: Record<string, unknown>, success?: string) => Promise<Record<string, unknown> | null>;
 
 function documentsUrl(id: string) {
   return `/api/rental/admin/documents?id=${encodeURIComponent(id)}`;
@@ -511,11 +520,6 @@ function GroupsTab({ groups, tools, busy, act }: { groups: Group[]; tools: Tool[
   );
 }
 
-const LANGS = [
-  ["cz", "česky"],
-  ["en", "anglicky"],
-  ["ro", "rumunsky"],
-] as const;
 
 type ToolForm = {
   slug: string;
@@ -561,27 +565,6 @@ function toForm(tool: Tool): ToolForm {
   };
 }
 
-/** Shrinks a photo in the browser to a JPEG of at most 1200 px, small
- * enough to store with the tool. */
-async function shrinkImage(file: File): Promise<string> {
-  const bitmap = await createImageBitmap(file);
-  const scale = Math.min(1, 1200 / Math.max(bitmap.width, bitmap.height));
-  const canvas = document.createElement("canvas");
-  canvas.width = Math.round(bitmap.width * scale);
-  canvas.height = Math.round(bitmap.height * scale);
-  const ctx = canvas.getContext("2d");
-  if (!ctx) throw new Error("canvas");
-  ctx.fillStyle = "#fff";
-  ctx.fillRect(0, 0, canvas.width, canvas.height);
-  ctx.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
-  let quality = 0.85;
-  let url = canvas.toDataURL("image/jpeg", quality);
-  while (url.length > 1_300_000 && quality > 0.4) {
-    quality -= 0.15;
-    url = canvas.toDataURL("image/jpeg", quality);
-  }
-  return url;
-}
 
 function ToolEditor({ initial, busy, act, onDone }: { initial: ToolForm; busy: boolean; act: Act; onDone: () => void }) {
   const [f, setF] = useState<ToolForm>(initial);
@@ -595,15 +578,8 @@ function ToolEditor({ initial, busy, act, onDone }: { initial: ToolForm; busy: b
     setUploading(true);
     setUploadError("");
     try {
-      const dataUrl = await shrinkImage(file);
-      const res = await fetch("/api/rental/admin", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ action: "uploadImage", dataUrl }),
-      });
-      const data = await res.json();
-      if (!res.ok || !data.success) throw new Error(data.error);
-      setF((current) => ({ ...current, image: data.url }));
+      const url = await uploadImage(file);
+      setF((current) => ({ ...current, image: url }));
     } catch {
       setUploadError(ERRORS.tool_image_upload);
     } finally {

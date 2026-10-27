@@ -6,7 +6,7 @@ import { getCurrentUser } from "@/lib/rental/users";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Administrácia požičovne | Marosko",
+  title: "Administrácia | Marosko",
   robots: { index: false, follow: false },
 };
 
@@ -23,7 +23,7 @@ export default async function RentalAdminPage({
       <div className="py-16 max-w-xl mx-auto text-center">
         <h1 className="text-3xl font-bold text-espresso-800 mb-4">Toto je testovacia verzia webu</h1>
         <p className="text-gray-700 mb-6">
-          Administrácia požičovne funguje len na ostrom webe. Zmeny urobené tu by sa na www.marosko.sk neprejavili.
+          Administrácia funguje len na ostrom webe. Zmeny urobené tu by sa na www.marosko.sk neprejavili.
         </p>
         <a href={LIVE_ADMIN_URL} className="inline-block bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700">
           Otvoriť administráciu na www.marosko.sk
@@ -38,7 +38,7 @@ export default async function RentalAdminPage({
 
   return (
     <div className="py-8 max-w-6xl mx-auto">
-      <h1 className="text-3xl font-bold text-espresso-800 mb-6">Administrácia požičovne</h1>
+      <h1 className="text-3xl font-bold text-espresso-800 mb-6">Administrácia</h1>
       <AdminPanel />
     </div>
   );

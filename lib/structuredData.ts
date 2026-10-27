@@ -1,6 +1,7 @@
 import { SITE_URL, toAbsoluteImageUrl } from "@/lib/seo";
 import { socialLinks } from "@/lib/socialLinks";
-import { videos, videoThumbnail, youTubeEmbedUrl, type Video } from "@/lib/videoData";
+import { youTubeEmbedUrl } from "@/lib/videoData";
+import type { GuideVideo } from "@/lib/guidesCatalog";
 import { getPathname } from "@/navigation";
 import {
   COMPANY_NAME,
@@ -98,8 +99,10 @@ export function buildOrganizationSchema() {
   };
 }
 
+type SchemaVideo = Pick<GuideVideo, "source" | "youtubeId" | "file" | "duration" | "poster">;
+
 function buildVideoObjectSchema(
-  video: Video,
+  video: SchemaVideo,
   { name, description }: { name: string; description: string }
 ) {
   const base = {
@@ -107,13 +110,13 @@ function buildVideoObjectSchema(
     "@type": "VideoObject",
     name,
     description,
-    thumbnailUrl: [toAbsoluteImageUrl(videoThumbnail(video))],
+    thumbnailUrl: [toAbsoluteImageUrl(video.poster)],
     // No real per-video upload date is tracked anywhere in this codebase —
     // `uploadDate` is a recommended, not required, VideoObject field, so it's
     // left out rather than filled with a fabricated (and previously
     // identical-across-all-videos) placeholder date.
   };
-  if (video.source === "youtube") {
+  if (video.source === "youtube" && video.youtubeId) {
     // Embedded third-party video: we neither host the file nor publish it,
     // so there is no contentUrl/publisher of ours to declare. Duration isn't
     // tracked for these and is optional, so it's left out too.
@@ -176,10 +179,7 @@ export function buildVideoListSchema(
 ) {
   return buildItemListSchema(
     locale,
-    videos.map((video) => {
-      const entry = entries.find((e) => e.slug === video.slug)!;
-      return { name: entry.name, path: `/navody/${video.slug}` };
-    })
+    entries.map(({ slug, name }) => ({ name, path: `/navody/${slug}` }))
   );
 }
 
@@ -203,7 +203,7 @@ export function buildBreadcrumbListSchema(
 }
 
 export function buildSingleVideoObjectSchema(
-  video: Video,
+  video: SchemaVideo,
   entry: { name: string; description: string }
 ) {
   return buildVideoObjectSchema(video, entry);

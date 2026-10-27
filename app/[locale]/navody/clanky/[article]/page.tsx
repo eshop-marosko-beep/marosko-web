@@ -3,8 +3,8 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
-import { guideArticles, getGuideArticle } from "@/lib/guideArticles";
-import { routing } from "@/routing";
+import { getGuideArticle } from "@/lib/guideArticles";
+import { articleBlocks, getCustomArticles, localized, type CustomArticle } from "@/lib/guidesCatalog";
 import { buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
@@ -39,10 +39,10 @@ type GuideItem = {
   closingLinks?: GuideLink[];
 };
 
-export function generateStaticParams() {
-  return routing.locales.flatMap((locale) =>
-    guideArticles.map(({ slug }) => ({ locale, article: slug }))
-  );
+/** Articles written in the admin panel. Always read, so every article page
+ * renders on request and new ones show up straight away. */
+async function findCustomArticle(slug: string): Promise<CustomArticle | undefined> {
+  return (await getCustomArticles()).find((a) => a.slug === slug && a.active);
 }
 
 export async function generateMetadata({
@@ -51,8 +51,18 @@ export async function generateMetadata({
   params: Promise<{ locale: string; article: string }>;
 }): Promise<Metadata> {
   const { locale, article } = await params;
+  const custom = await findCustomArticle(article);
   const found = getGuideArticle(article);
-  if (!found) return {};
+  if (!found) {
+    if (!custom) return {};
+    return buildMetadata({
+      locale,
+      path: `/navody/clanky/${article}`,
+      title: localized(custom.titles, locale),
+      description: localized(custom.descriptions, locale),
+      image: custom.image,
+    });
+  }
 
   const t = await getTranslations({ locale, namespace: "guideArticles" });
   return buildMetadata({
@@ -70,9 +80,11 @@ export default async function GuideArticlePage({
   params: Promise<{ locale: string; article: string }>;
 }) {
   const { locale, article } = await params;
+  const custom = await findCustomArticle(article);
   const found = getGuideArticle(article);
-  if (!found) notFound();
+  if (!found && !custom) notFound();
   setRequestLocale(locale);
+  if (!found) return <CustomArticleView article={custom!} locale={locale} />;
 
   const t = await getTranslations("guideArticles");
   const tLinks = await getTranslations("guideArticles.relatedLinkLabels");
@@ -212,6 +224,69 @@ export default async function GuideArticlePage({
 
       <div className="mt-10 pt-6 border-t border-amber-100">
         <ShareButtons variant="compact" url={`/navody/clanky/${article}`} title={item.title} />
+      </div>
+    </div>
+  );
+}
+
+async function CustomArticleView({ article, locale }: { article: CustomArticle; locale: string }) {
+  const t = await getTranslations("guideArticles");
+  const tVideos = await getTranslations("videos");
+  const tNav = await getTranslations("navigation");
+  const title = localized(article.titles, locale);
+  const path = `/navody/clanky/${article.slug}`;
+  const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
+    { name: tNav("home"), path: "/" },
+    { name: tNav("videos"), path: "/navody" },
+    { name: title, path },
+  ]);
+
+  return (
+    <div className="py-8 max-w-3xl mx-auto">
+      <StructuredData data={breadcrumbSchema} />
+
+      <Link href="/navody" className="text-amber-700 font-semibold hover:underline mb-6 inline-block">
+        ← {t("backToGuides")}
+      </Link>
+
+      <h1 className="text-4xl font-bold text-espresso-800 mb-6">{title}</h1>
+
+      <div className="relative rounded-xl overflow-hidden mb-6 bg-cream-100 h-64 md:h-80">
+        <Image src={article.image} alt={title} fill unoptimized className="object-cover" priority />
+      </div>
+
+      <p className="text-gray-600 text-lg leading-relaxed mb-8">{localized(article.descriptions, locale)}</p>
+
+      <div className="space-y-4 mb-10">
+        {articleBlocks(localized(article.bodies, locale)).map((block, i) =>
+          block.type === "h2" ? (
+            <h2 key={i} className="text-2xl font-bold text-espresso-800 pt-4">{block.text}</h2>
+          ) : block.type === "ul" ? (
+            <ul key={i} className="list-disc pl-6 space-y-1 text-gray-700 leading-relaxed">
+              {block.items.map((item, j) => <li key={j}>{item}</li>)}
+            </ul>
+          ) : (
+            <p key={i} className="text-gray-700 leading-relaxed whitespace-pre-line">{block.text}</p>
+          )
+        )}
+      </div>
+
+      {article.ctaUrl && (
+        article.ctaUrl.startsWith("/") ? (
+          <Link href={article.ctaUrl}
+            className="inline-block bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors">
+            {tVideos("cta")} →
+          </Link>
+        ) : (
+          <a href={article.ctaUrl} target="_blank" rel="noopener noreferrer"
+            className="inline-block bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors">
+            {tVideos("cta")} →
+          </a>
+        )
+      )}
+
+      <div className="mt-10 pt-6 border-t border-amber-100">
+        <ShareButtons variant="compact" url={path} title={title} />
       </div>
     </div>
   );

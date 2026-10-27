@@ -1,18 +1,8 @@
 import { SITE_URL, toAbsoluteImageUrl } from "@/lib/seo";
 import { getPathname } from "@/navigation";
 import { routing } from "@/routing";
-import { videos, videoThumbnail, youTubeEmbedUrl } from "@/lib/videoData";
-import skMessages from "@/messages/sk.json";
-import czMessages from "@/messages/cz.json";
-import enMessages from "@/messages/en.json";
-import roMessages from "@/messages/ro.json";
-
-const messagesByLocale: Record<string, typeof skMessages> = {
-  sk: skMessages,
-  cz: czMessages,
-  en: enMessages,
-  ro: roMessages,
-};
+import { youTubeEmbedUrl } from "@/lib/videoData";
+import { getGuideVideos, localized } from "@/lib/guidesCatalog";
 
 function escapeXml(value: string): string {
   return value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -27,24 +17,22 @@ function isoDurationToSeconds(iso: string): number {
 }
 
 export async function GET() {
+  const videos = (await getGuideVideos()).filter((video) => video.active);
   const urls = routing.locales.flatMap((locale) => {
-    const items = messagesByLocale[locale].videos.items as Record<
-      string,
-      { title: string; description: string }
-    >;
     return videos.map((video) => {
-      const { title, description } = items[video.translationKey];
+      const title = localized(video.titles, locale);
+      const description = localized(video.descriptions, locale);
       const loc = `${SITE_URL}${getPathname({ locale, href: `/navody/${video.slug}` })}`;
       // Self-hosted clips declare the file itself; embedded YouTube videos
       // declare the player instead (Google accepts either).
       const locationTags =
-        video.source === "youtube"
+        video.source === "youtube" && video.youtubeId
           ? `<video:player_loc>${escapeXml(youTubeEmbedUrl(video.youtubeId))}</video:player_loc>`
           : `<video:content_loc>${escapeXml(`${SITE_URL}/videos/${video.file}.mp4`)}</video:content_loc>` +
-            `<video:duration>${isoDurationToSeconds(video.duration)}</video:duration>`;
+            `<video:duration>${isoDurationToSeconds(video.duration ?? "")}</video:duration>`;
       const videoTag =
         `<video:video>` +
-        `<video:thumbnail_loc>${escapeXml(toAbsoluteImageUrl(videoThumbnail(video)))}</video:thumbnail_loc>` +
+        `<video:thumbnail_loc>${escapeXml(toAbsoluteImageUrl(video.poster))}</video:thumbnail_loc>` +
         `<video:title>${escapeXml(title)}</video:title>` +
         `<video:description>${escapeXml(description)}</video:description>` +
         locationTags +
