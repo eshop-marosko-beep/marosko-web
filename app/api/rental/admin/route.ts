@@ -2,6 +2,7 @@ import { apiError, EMAIL_RE, readJson, str } from "@/lib/rental/api";
 import { createBooking, DATE_RE, getBooking, setBookingPrice, setBookingStatus, toolBookings } from "@/lib/rental/bookings";
 import { deleteCustomTool, getCatalog, getCatalogTool, groupPricing, saveTool, toolLabel } from "@/lib/rental/catalog";
 import { saveImage } from "@/lib/rental/images";
+import { deleteArticle, deleteVideo, getCustomArticles, getGuideVideos, saveArticle, saveVideo } from "@/lib/guidesCatalog";
 import { isPreviewDeployment } from "@/lib/rental/preview";
 import { DEFAULT_GROUP_ID, findGroup, getGroups, sanitizeGroup, saveGroups } from "@/lib/rental/groups";
 import { notifyCustomer } from "@/lib/rental/notify";
@@ -26,7 +27,13 @@ async function requireAdmin() {
 export async function GET() {
   if (!(await requireAdmin())) return apiError("forbidden", 403);
 
-  const [catalog, groups, users] = await Promise.all([getCatalog(), getGroups(), listUsers()]);
+  const [catalog, groups, users, videos, articles] = await Promise.all([
+    getCatalog(),
+    getGroups(),
+    listUsers(),
+    getGuideVideos(),
+    getCustomArticles(),
+  ]);
   const bookings = (await Promise.all(catalog.map((tool) => toolBookings(tool.slug))))
     .flat()
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt))
@@ -53,6 +60,8 @@ export async function GET() {
       groups,
       customers: users.map((user) => ({ ...toPublicUser(user), createdAt: user.createdAt })),
       bookings,
+      videos,
+      articles,
     },
     { headers: { "Cache-Control": "no-store" } }
   );
@@ -201,6 +210,24 @@ export async function POST(request: Request) {
       // Tools with bookings stay, so old bookings and contracts keep their tool.
       if ((await toolBookings(slug)).length > 0) return apiError("tool_has_bookings", 409);
       return (await deleteCustomTool(slug)) ? Response.json({ success: true }) : apiError("unknown_tool", 404);
+    }
+
+    case "saveVideo": {
+      const result = await saveVideo(str(body.slug, 80), body);
+      return result.ok ? Response.json({ success: true, slug: result.slug }) : apiError(result.error, 400);
+    }
+
+    case "deleteVideo": {
+      return (await deleteVideo(str(body.slug, 80))) ? Response.json({ success: true }) : apiError("guide_unknown", 404);
+    }
+
+    case "saveArticle": {
+      const result = await saveArticle(str(body.slug, 80), body);
+      return result.ok ? Response.json({ success: true, slug: result.slug }) : apiError(result.error, 400);
+    }
+
+    case "deleteArticle": {
+      return (await deleteArticle(str(body.slug, 80))) ? Response.json({ success: true }) : apiError("guide_unknown", 404);
     }
 
     case "uploadImage": {

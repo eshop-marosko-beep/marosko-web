@@ -15,8 +15,16 @@ function config() {
 /** Preview and production deployments share one database; keep their data
  * apart so test bookings made on a preview never show up on the live site. */
 export function key(...parts: string[]): string {
-  const env = process.env.VERCEL_ENV === "production" ? "prod" : "preview";
-  return ["rental", env, ...parts].join(":");
+  return ["rental", envName(), ...parts].join(":");
+}
+
+/** Same database, for site content the admin edits (e.g. guides). */
+export function siteKey(...parts: string[]): string {
+  return ["site", envName(), ...parts].join(":");
+}
+
+function envName(): string {
+  return process.env.VERCEL_ENV === "production" ? "prod" : "preview";
 }
 
 export async function kv<T = unknown>(command: Command): Promise<T> {

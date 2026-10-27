@@ -4,9 +4,14 @@ import { getPathname } from "@/navigation";
 import { routing } from "@/routing";
 import { sitemapPaths } from "@/lib/sitemap";
 import { getCatalog } from "@/lib/rental/catalog";
+import { getCustomArticles } from "@/lib/guidesCatalog";
 
-// Rental tools are added in the admin panel, so rebuild the list hourly.
+// Rental tools and guide articles are added in the admin panel, so rebuild the list hourly.
 export const revalidate = 3600;
+
+async function customArticlePaths(): Promise<string[]> {
+  return (await getCustomArticles()).filter((a) => a.active).map((a) => `/navody/clanky/${a.slug}`);
+}
 
 async function rentalToolPaths(): Promise<string[]> {
   try {
@@ -18,7 +23,7 @@ async function rentalToolPaths(): Promise<string[]> {
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const paths = [...sitemapPaths(), ...(await rentalToolPaths())];
+  const paths = [...sitemapPaths(), ...(await rentalToolPaths()), ...(await customArticlePaths())];
 
   return routing.locales.flatMap((locale) =>
     paths.map((path) => ({

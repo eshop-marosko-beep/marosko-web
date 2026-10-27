@@ -2,19 +2,12 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/navigation";
 import { buildMetadata } from "@/lib/seo";
-import { videos, getVideo, videoThumbnail, videoLinkUrl } from "@/lib/videoData";
-import { routing } from "@/routing";
+import { getGuideVideo, guideLinkUrl, localized } from "@/lib/guidesCatalog";
 import { buildSingleVideoObjectSchema, buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
 import ShareButtons from "@/components/ShareButtons";
 import YouTubePlayer from "@/components/YouTubePlayer";
 import type { Metadata } from "next";
-
-export function generateStaticParams() {
-  return routing.locales.flatMap((locale) =>
-    videos.map(({ slug }) => ({ locale, video: slug }))
-  );
-}
 
 export async function generateMetadata({
   params,
@@ -22,17 +15,19 @@ export async function generateMetadata({
   params: Promise<{ locale: string; video: string }>;
 }): Promise<Metadata> {
   const { locale, video } = await params;
-  const found = getVideo(video);
+  const found = await getGuideVideo(video);
   if (!found) return {};
 
-  const t = await getTranslations({ locale, namespace: "videos" });
-  return buildMetadata({
-    locale,
-    path: `/navody/${video}`,
-    title: t(`items.${found.translationKey}.title`),
-    description: t(`items.${found.translationKey}.description`),
-    image: videoThumbnail(found),
-  });
+  return {
+    ...buildMetadata({
+      locale,
+      path: `/navody/${video}`,
+      title: localized(found.titles, locale),
+      description: localized(found.descriptions, locale),
+      image: found.poster,
+    }),
+    ...(found.active ? {} : { robots: { index: false, follow: false } }),
+  };
 }
 
 export default async function VideoDetailPage({
@@ -41,15 +36,15 @@ export default async function VideoDetailPage({
   params: Promise<{ locale: string; video: string }>;
 }) {
   const { locale, video } = await params;
-  const found = getVideo(video);
-  if (!found) notFound();
+  const found = await getGuideVideo(video);
+  if (!found || !found.active) notFound();
   setRequestLocale(locale);
 
   const t = await getTranslations("videos");
   const tNav = await getTranslations("navigation");
-  const title = t(`items.${found.translationKey}.title`);
-  const description = t(`items.${found.translationKey}.description`);
-  const linkUrl = videoLinkUrl(found, locale);
+  const title = localized(found.titles, locale);
+  const description = localized(found.descriptions, locale);
+  const linkUrl = guideLinkUrl(found, locale);
 
   const schema = buildSingleVideoObjectSchema(found, { name: title, description });
   const breadcrumbSchema = buildBreadcrumbListSchema(locale, [
@@ -68,7 +63,7 @@ export default async function VideoDetailPage({
       </Link>
 
       <div className="bg-white rounded-xl shadow-lg overflow-hidden">
-        {found.source === "youtube" ? (
+        {found.source === "youtube" && found.youtubeId ? (
           <YouTubePlayer
             youtubeId={found.youtubeId}
             poster={found.poster}
@@ -80,7 +75,7 @@ export default async function VideoDetailPage({
             controls
             playsInline
             preload="metadata"
-            poster={`/videos/${found.file}.webp`}
+            poster={found.poster}
             className="w-full aspect-video bg-black"
           >
             <source src={`/videos/${found.file}.mp4`} type="video/mp4" />
@@ -88,9 +83,9 @@ export default async function VideoDetailPage({
         )}
         <div className="p-6">
           <h1 className="text-2xl font-bold text-espresso-800 mb-2">{title}</h1>
-          <p className="text-gray-600 leading-relaxed mb-6">{description}</p>
+          <p className="text-gray-600 leading-relaxed mb-6 whitespace-pre-line">{description}</p>
 
-          {found.linkType === "internal" ? (
+          {!linkUrl ? null : linkUrl.startsWith("/") ? (
             <Link
               href={linkUrl}
               className="inline-block bg-amber-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-amber-700 transition-colors mb-6"
