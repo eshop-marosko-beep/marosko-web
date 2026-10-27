@@ -1,6 +1,7 @@
 import { Resend } from "resend";
 import type { Booking } from "@/lib/rental/bookings";
 import { sign } from "@/lib/rental/crypto";
+import { isAdminEmail } from "@/lib/rental/users";
 import skMessages from "@/messages/sk.json";
 import czMessages from "@/messages/cz.json";
 import enMessages from "@/messages/en.json";
@@ -113,6 +114,34 @@ export async function notifyNewCustomer(
       </table>
       <p>Zákazník je v skupine Bežný zákazník. Skupinu mu môžete zmeniť v administrácii.</p>
       <p><a href="${origin}/ucet/admin">Otvoriť administráciu</a></p>
+    `,
+  });
+}
+
+/** Mails a password reset link. Without a sender on a verified domain
+ * (RENTAL_FROM_EMAIL) Resend can only reach the shop's own mailbox, so then
+ * only the admin gets the link. */
+export async function sendPasswordReset(
+  user: { email: string; name: string; locale: string },
+  link: string
+): Promise<void> {
+  const client = resend();
+  if (!client) throw new Error("Chýba env premenná RESEND_API_KEY");
+  const from = CUSTOMER_FROM ?? (user.email === OWNER_EMAIL || isAdminEmail(user.email) ? OWNER_FROM : null);
+  if (!from) {
+    console.warn("Password reset email skipped: set RENTAL_FROM_EMAIL to mail customers");
+    return;
+  }
+  const t = rentalMessages(user.locale).email;
+  await client.emails.send({
+    from,
+    to: user.email,
+    subject: t.resetSubject,
+    html: `
+      <h2>${escapeHtml(t.resetSubject)}</h2>
+      <p>${escapeHtml(t.resetText)}</p>
+      <p><a href="${link}" style="background:#d97706;color:#fff;padding:10px 18px;border-radius:6px;text-decoration:none">${escapeHtml(t.resetButton)}</a></p>
+      <p style="color:#666">${escapeHtml(t.resetIgnore)}</p>
     `,
   });
 }

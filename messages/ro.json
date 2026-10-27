@@ -10,7 +10,10 @@
     "shops": "Magazinele noastre",
     "contact": "Contact",
     "promotions": "Promoții",
-    "rental": "Închiriere"
+    "rental": "Închiriere",
+    "login": "Conectare",
+    "account": "Contul meu",
+    "admin": "Administrare"
   },
   "common": {
     "openImage": "Deschide imaginea la mărimea completă"
@@ -3304,7 +3307,7 @@
     "auth": {
       "registerTitle": "Înregistrare pentru închiriere",
       "registerSubtitle": "După înregistrare vedeți prețurile și calendarul de disponibilitate și puteți rezerva scule.",
-      "loginTitle": "Conectare la închiriere",
+      "loginTitle": "Conectare",
       "loginSubtitle": "Conectați-vă cu e-mailul și parola folosite la înregistrare.",
       "name": "Nume și prenume",
       "phone": "Telefon",
@@ -3319,7 +3322,16 @@
       "noAccount": "Nu aveți încă cont?",
       "loginLink": "Conectați-vă",
       "registerLink": "Înregistrați-vă",
-      "adminVerifySent": "Această adresă aparține administratorului. V-am trimis pe e-mail un link de confirmare – contul se creează abia după ce îl deschideți."
+      "adminVerifySent": "Această adresă aparține administratorului. V-am trimis pe e-mail un link de confirmare – contul se creează abia după ce îl deschideți.",
+      "forgotLink": "Ați uitat parola?",
+      "forgotTitle": "Parolă uitată",
+      "forgotSubtitle": "Introduceți e-mailul cu care v-ați înregistrat. Vă trimitem un link pentru a seta o parolă nouă.",
+      "forgotSubmit": "Trimite linkul",
+      "forgotSent": "Dacă există un cont pentru acest e-mail, i-am trimis un link pentru a seta o parolă nouă. Este valabil 1 oră. Dacă nu vedeți e-mailul, verificați și dosarul spam.",
+      "resetTitle": "Parolă nouă",
+      "resetSubtitle": "Introduceți o parolă nouă pentru contul {email}.",
+      "resetSubmit": "Salvează parola nouă",
+      "backToLogin": "Înapoi la conectare"
     },
     "account": {
       "title": "Contul meu",
@@ -3353,13 +3365,18 @@
       "blocked": "Contul dvs. este suspendat; nu se pot face rezervări.",
       "tool_not_allowed": "Această sculă nu este disponibilă pentru grupul dvs. de clienți.",
       "forbidden": "Nu aveți permisiunea pentru această acțiune.",
-      "not_found": "Înregistrarea nu a fost găsită."
+      "not_found": "Înregistrarea nu a fost găsită.",
+      "reset_invalid": "Linkul de resetare a parolei este invalid sau a expirat. Solicitați unul nou."
     },
     "email": {
       "confirmedHeading": "Rezervare confirmată",
       "confirmedText": "Rezervarea dvs. este confirmată. Vă contactăm pentru ora predării.",
       "declinedHeading": "Rezervare respinsă",
-      "declinedText": "Ne pare rău, nu putem confirma această perioadă. Alegeți altă perioadă sau contactați-ne."
+      "declinedText": "Ne pare rău, nu putem confirma această perioadă. Alegeți altă perioadă sau contactați-ne.",
+      "resetSubject": "Resetarea parolei – Marosko",
+      "resetText": "Am primit o solicitare pentru o parolă nouă pentru contul dvs. de pe marosko.sk. Setați parola nouă cu butonul de mai jos. Linkul este valabil 1 oră.",
+      "resetButton": "Setează o parolă nouă",
+      "resetIgnore": "Dacă nu ați cerut o parolă nouă, ignorați acest e-mail – parola dvs. nu se schimbă."
     },
     "discountBadge": "Reducerea dvs.: {percent} %",
     "blockedNote": "Contul dvs. este suspendat, momentan nu se pot face rezervări. Dacă este o greșeală, contactați-ne."

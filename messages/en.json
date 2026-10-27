@@ -10,7 +10,10 @@
     "shops": "Our Shops",
     "contact": "Contact",
     "promotions": "Promotions",
-    "rental": "Tool rental"
+    "rental": "Tool rental",
+    "login": "Sign in",
+    "account": "My account",
+    "admin": "Admin"
   },
   "common": {
     "openImage": "Open image in full size"
@@ -3305,7 +3308,7 @@
     "auth": {
       "registerTitle": "Register for tool rental",
       "registerSubtitle": "Once registered, you'll see prices and the availability calendar and can book tools.",
-      "loginTitle": "Sign in to tool rental",
+      "loginTitle": "Sign in",
       "loginSubtitle": "Sign in with the email and password you registered with.",
       "name": "Full name",
       "phone": "Phone",
@@ -3320,7 +3323,16 @@
       "noAccount": "Don't have an account yet?",
       "loginLink": "Sign in",
       "registerLink": "Register",
-      "adminVerifySent": "This address belongs to the rental admin. We've emailed a confirmation link – the account is created only once you open it."
+      "adminVerifySent": "This address belongs to the rental admin. We've emailed a confirmation link – the account is created only once you open it.",
+      "forgotLink": "Forgot your password?",
+      "forgotTitle": "Forgotten password",
+      "forgotSubtitle": "Enter the email you registered with and we'll send you a link to set a new password.",
+      "forgotSubmit": "Send link",
+      "forgotSent": "If an account exists for this email, we've sent it a link to set a new password. It is valid for 1 hour. If you don't see the email, check your spam folder.",
+      "resetTitle": "New password",
+      "resetSubtitle": "Enter a new password for {email}.",
+      "resetSubmit": "Save new password",
+      "backToLogin": "Back to sign in"
     },
     "account": {
       "title": "My account",
@@ -3354,13 +3366,18 @@
       "blocked": "Your account is suspended; bookings aren't possible.",
       "tool_not_allowed": "This tool isn't available to your customer group.",
       "forbidden": "You don't have permission for this action.",
-      "not_found": "Record not found."
+      "not_found": "Record not found.",
+      "reset_invalid": "This password reset link is invalid or has expired. Please request a new one."
     },
     "email": {
       "confirmedHeading": "Booking confirmed",
       "confirmedText": "Your booking is confirmed. We'll contact you about the handover time.",
       "declinedHeading": "Booking declined",
-      "declinedText": "Sorry, we can't confirm these dates. Please pick other dates or contact us."
+      "declinedText": "Sorry, we can't confirm these dates. Please pick other dates or contact us.",
+      "resetSubject": "Password reset – Marosko",
+      "resetText": "We received a request for a new password for your account on marosko.sk. Use the button below to set a new password. The link is valid for 1 hour.",
+      "resetButton": "Set a new password",
+      "resetIgnore": "If you didn't ask for a new password, ignore this email – your password will not change."
     },
     "discountBadge": "Your discount: {percent} %",
     "blockedNote": "Your account is suspended and bookings aren't possible at the moment. If this is a mistake, please contact us."

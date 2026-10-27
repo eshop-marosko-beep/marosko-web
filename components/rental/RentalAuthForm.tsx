@@ -48,7 +48,8 @@ export default function RentalAuthForm({ mode, next }: { mode: "register" | "log
         setSending(false);
         return;
       }
-      router.push(next);
+      // Signing in from the site menu goes to the account; an admin lands in the admin panel.
+      router.push(data.isAdmin && next === "/ucet" ? "/ucet/admin" : next);
       router.refresh();
     } catch {
       setError(t("errors.generic"));
@@ -91,6 +92,11 @@ export default function RentalAuthForm({ mode, next }: { mode: "register" | "log
           autoComplete={mode === "register" ? "new-password" : "current-password"} value={password}
           onChange={(e) => setPassword(e.target.value)} className={inputClass} />
         {mode === "register" && <p className="text-xs text-gray-500 mt-1">{t("auth.passwordHint")}</p>}
+        {mode === "login" && (
+          <p className="text-sm mt-2 text-right">
+            <Link href="/ucet/zabudnute-heslo" className="text-amber-700 hover:underline">{t("auth.forgotLink")}</Link>
+          </p>
+        )}
       </div>
       {mode === "register" && (
         <label className="flex items-start gap-2 text-sm text-gray-700">
