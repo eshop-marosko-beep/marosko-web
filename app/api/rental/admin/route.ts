@@ -1,7 +1,9 @@
 import { apiError, EMAIL_RE, readJson, str } from "@/lib/rental/api";
 import { createBooking, DATE_RE, getBooking, setBookingPrice, setBookingStatus, toolBookings } from "@/lib/rental/bookings";
 import { deleteCustomTool, getCatalog, getCatalogTool, groupPricing, saveTool, toolLabel } from "@/lib/rental/catalog";
+import { hashPassword } from "@/lib/rental/crypto";
 import { saveImage } from "@/lib/rental/images";
+import { key, kv } from "@/lib/rental/kv";
 import { deleteArticle, deleteVideo, getCustomArticles, getGuideVideos, saveArticle, saveVideo } from "@/lib/guidesCatalog";
 import { isPreviewDeployment } from "@/lib/rental/preview";
 import { DEFAULT_GROUP_ID, findGroup, getGroups, sanitizeGroup, saveGroups } from "@/lib/rental/groups";
@@ -178,6 +180,19 @@ export async function POST(request: Request) {
       }
       if (typeof body.blocked === "boolean") user.blocked = body.blocked;
       await saveUser(user);
+      return Response.json({ success: true });
+    }
+
+    case "setCustomerPassword": {
+      // For customers who forgot their password while customer emails are off:
+      // the admin sets a new one and tells it to them.
+      const user = await getUser(normalizeEmail(str(body.email)));
+      if (!user) return apiError("not_found", 404);
+      const password = typeof body.password === "string" ? body.password : "";
+      if (password.length < 8 || password.length > 200) return apiError("weak_password", 400);
+      user.passwordHash = await hashPassword(password);
+      await saveUser(user);
+      await kv(["DEL", key("loginfail", user.email)]);
       return Response.json({ success: true });
     }
 

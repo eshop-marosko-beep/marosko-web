@@ -89,6 +89,19 @@ export default async function ShopsPage({
           {t("rental.cta")} →
         </Link>
       </div>
+
+      <div className="mt-6 bg-white rounded-xl shadow-lg p-6 flex flex-col md:flex-row md:items-center justify-between gap-4 border border-amber-100">
+        <div>
+          <h2 className="text-xl font-bold text-espresso-800 mb-1">{t("account.name")}</h2>
+          <p className="text-gray-600 leading-relaxed max-w-2xl">{t("account.description")}</p>
+        </div>
+        <Link
+          href={{ pathname: "/ucet/prihlasenie", query: { next: "/ucet" } }}
+          className="shrink-0 px-5 py-3 rounded-lg font-semibold text-amber-700 border border-amber-300 hover:bg-amber-50 transition-colors text-center"
+        >
+          {t("account.cta")} →
+        </Link>
+      </div>
     </div>
   );
 }

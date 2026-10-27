@@ -2709,6 +2709,11 @@
       "name": "Tool rental",
       "description": "Not ready to buy yet? Rent a Manpa, an Arbortech Contour Sander or a Kärcher carpet cleaner from us. After registering you will see prices and free dates; tools are collected at our registered office in Vrádište.",
       "cta": "Go to the rental"
+    },
+    "account": {
+      "name": "Customer account",
+      "description": "Sign in to your account to see your rental bookings. The site administrator signs in here too.",
+      "cta": "Sign in"
     }
   },
   "contact": {
