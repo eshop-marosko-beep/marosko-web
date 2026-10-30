@@ -36,10 +36,13 @@ const nextConfig: NextConfig = {
       // preview/branch deployments — those are only ever reached via their
       // own *.vercel.app URL, and redirecting them to production would
       // defeat the point of testing a PR before it's merged.
+      // /api/pinterest-feed/* is exempt: the Pinterest catalog feeds are
+      // registered at the vercel.app URL and Pinterest's fetcher fails on the
+      // redirect, which left the catalog stale.
       ...(process.env.VERCEL_ENV === "production"
         ? [
             {
-              source: "/:path*",
+              source: "/:path((?!api/pinterest-feed/).*)",
               has: [{ type: "host" as const, value: "^.*\\.vercel\\.app$" }],
               destination: "https://www.marosko.sk/:path*",
               permanent: true,
