@@ -44,6 +44,7 @@ const ERRORS: Record<string, string> = {
   access_denied: "Prihlásenie do TikToku bolo zrušené.",
   login_failed: "Prihlásenie do TikToku sa nepodarilo.",
   token_failed: "TikTok neprijal prihlásenie (skontrolujte Client key/secret a Redirect URI).",
+  mute_unavailable: "Bez zvuku sa dá poslať len video vybrané zo zoznamu videí webu.",
   bad_video_url: "Video musí byť na adrese marosko.sk (overená doména).",
   privacy_required: "Vyberte, kto uvidí video.",
   spam_risk_too_many_posts: "TikTok dočasne nepovoľuje ďalšie príspevky (príliš veľa za deň).",
@@ -68,6 +69,7 @@ export default function TikTokAdmin() {
   const [videoUrl, setVideoUrl] = useState("");
   const [title, setTitle] = useState("");
   const [direct, setDirect] = useState(true);
+  const [mute, setMute] = useState(false);
   const [privacy, setPrivacy] = useState("");
   const [allowComment, setAllowComment] = useState(false);
   const [allowDuet, setAllowDuet] = useState(false);
@@ -125,6 +127,7 @@ export default function TikTokAdmin() {
       const data = await post({
         action: "post",
         videoUrl,
+        mute,
         title,
         direct,
         privacyLevel: privacy,
@@ -219,8 +222,12 @@ export default function TikTokAdmin() {
               value={videoUrl} onChange={(e) => setVideoUrl(e.target.value.trim())} />
           </label>
           {videoUrl && (
-            <video src={videoUrl} controls className="max-h-80 rounded-lg bg-black" />
+            <video src={videoUrl} controls muted={mute} className="max-h-80 rounded-lg bg-black" />
           )}
+          <label className="flex items-center gap-2 text-sm">
+            <input type="checkbox" checked={mute} onChange={(e) => setMute(e.target.checked)} />
+            Bez zvuku (pôvodný zvuk videa sa odstráni)
+          </label>
           <p className="text-xs text-gray-500">
             Maximálna dĺžka videa pre tento účet: {Math.round(creator.max_video_post_duration_sec / 60)} min.
           </p>

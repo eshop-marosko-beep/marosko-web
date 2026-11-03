@@ -204,6 +204,14 @@ export function isAllowedVideoUrl(url: string): boolean {
   }
 }
 
+/** The same site video without its sound track (muted copies live in
+ * public/videos/bez-zvuku/, made with `ffmpeg -an -c copy`); null when the
+ * URL is not one of the site's own clips. */
+export function mutedVideoUrl(url: string): string | null {
+  const match = /^https:\/\/(?:www\.)?marosko\.sk\/videos\/([a-z0-9-]+\.mp4)$/.exec(url);
+  return match ? `${SITE}/videos/bez-zvuku/${match[1]}` : null;
+}
+
 export async function startPost(input: PostInput): Promise<string> {
   const source_info = { source: "PULL_FROM_URL", video_url: input.videoUrl };
   const data = input.direct
