@@ -7,6 +7,7 @@ import {
   disconnect,
   isAllowedVideoUrl,
   isConfigured,
+  mutedVideoUrl,
   postStatus,
   startPost,
   TikTokError,
@@ -59,8 +60,13 @@ export async function POST(request: Request) {
   try {
     switch (body.action) {
       case "post": {
-        const videoUrl = str(body.videoUrl, 500);
+        let videoUrl = str(body.videoUrl, 500);
         if (!isAllowedVideoUrl(videoUrl)) return apiError("bad_video_url", 400);
+        if (body.mute === true) {
+          const muted = mutedVideoUrl(videoUrl);
+          if (!muted) return apiError("mute_unavailable", 400);
+          videoUrl = muted;
+        }
         const direct = body.direct !== false;
         const privacyLevel = str(body.privacyLevel, 40);
         if (direct && !privacyLevel) return apiError("privacy_required", 400);
