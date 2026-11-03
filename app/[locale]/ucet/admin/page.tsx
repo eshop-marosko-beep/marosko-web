@@ -1,5 +1,5 @@
 import { setRequestLocale } from "next-intl/server";
-import { redirect } from "@/navigation";
+import { Link, redirect } from "@/navigation";
 import AdminPanel from "@/components/rental/AdminPanel";
 import { isPreviewDeployment, LIVE_ADMIN_URL } from "@/lib/rental/preview";
 import { getCurrentUser } from "@/lib/rental/users";
@@ -38,7 +38,12 @@ export default async function RentalAdminPage({
 
   return (
     <div className="py-8 max-w-6xl mx-auto">
-      <h1 className="text-3xl font-bold text-espresso-800 mb-6">Administrácia</h1>
+      <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
+        <h1 className="text-3xl font-bold text-espresso-800">Administrácia</h1>
+        <Link href="/ucet/admin/tiktok" className="px-3 py-1.5 rounded-lg text-sm font-semibold bg-black text-white hover:bg-gray-800">
+          TikTok
+        </Link>
+      </div>
       <AdminPanel />
     </div>
   );
