@@ -237,6 +237,78 @@ export async function startPost(input: PostInput): Promise<string> {
   return data.publish_id;
 }
 
+/* Photo posts (carousel of 1–35 photos). Same scopes as video: direct posts
+ * need video.publish, drafts sent to the app need video.upload. */
+
+export const MAX_PHOTOS = 35;
+export const PHOTO_TITLE_MAX = 90;
+export const PHOTO_DESCRIPTION_MAX = 4000;
+
+const ESHOP_FILES = /^https:\/\/eshop\.marosko\.sk\/(?:resize\/[a-z]\/\d+\/\d+\/)?files\/(.+\.(?:jpe?g|png|webp))$/i;
+const PHOTO_PROXY = /^https:\/\/www\.marosko\.sk\/tiktok-foto\/.+\.jpg$/;
+
+/** The URL TikTok should pull a photo from: eshop photos go through
+ * www.marosko.sk/tiktok-foto/ (verified domain, converted to JPEG); null
+ * for anything else. */
+export function tiktokPhotoUrl(url: string): string | null {
+  const clean = url.trim().split(/[?#]/)[0];
+  if (PHOTO_PROXY.test(clean)) return clean;
+  const match = ESHOP_FILES.exec(clean);
+  if (!match) return null;
+  const path = match[1].split("/").map((p) => encodeURIComponent(decodeURIComponentSafe(p))).join("/");
+  return `${SITE}/tiktok-foto/${path}.jpg`;
+}
+
+function decodeURIComponentSafe(value: string): string {
+  try {
+    return decodeURIComponent(value);
+  } catch {
+    return value;
+  }
+}
+
+export type PhotoPostInput = {
+  photoUrls: string[];
+  coverIndex: number;
+  title: string;
+  description: string;
+  privacyLevel: string;
+  disableComment: boolean;
+  autoAddMusic: boolean;
+  brandContent: boolean;
+  brandOrganic: boolean;
+  direct: boolean;
+};
+
+export async function startPhotoPost(input: PhotoPostInput): Promise<string> {
+  const data = await call<{ publish_id: string }>("/v2/post/publish/content/init/", {
+    method: "POST",
+    body: {
+      post_info: {
+        title: input.title,
+        description: input.description,
+        ...(input.direct
+          ? {
+              privacy_level: input.privacyLevel,
+              disable_comment: input.disableComment,
+              auto_add_music: input.autoAddMusic,
+              brand_content_toggle: input.brandContent,
+              brand_organic_toggle: input.brandOrganic,
+            }
+          : {}),
+      },
+      source_info: {
+        source: "PULL_FROM_URL",
+        photo_cover_index: input.coverIndex,
+        photo_images: input.photoUrls,
+      },
+      post_mode: input.direct ? "DIRECT_POST" : "MEDIA_UPLOAD",
+      media_type: "PHOTO",
+    },
+  });
+  return data.publish_id;
+}
+
 export type PostStatus = { status: string; fail_reason?: string; publicaly_available_post_id?: string[] };
 
 export async function postStatus(publishId: string): Promise<PostStatus> {
