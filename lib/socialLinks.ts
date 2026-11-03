@@ -10,5 +10,6 @@ export const socialLinks: SocialLink[] = [
   { name: "Pinterest", url: "https://sk.pinterest.com/eshopmarosko" },
   { name: "X", url: "https://x.com/vercajcheu" },
   { name: "YouTube", url: "https://www.youtube.com/@eshop-marosko" },
+  { name: "TikTok", url: "https://www.tiktok.com/@nastrojeprerezbu" },
   { name: "Reddit", url: "https://www.reddit.com/user/Alone-Leather1253/" },
 ];
