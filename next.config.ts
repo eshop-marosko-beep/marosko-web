@@ -2,6 +2,15 @@ import { NextConfig } from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
 
 const nextConfig: NextConfig = {
+  // sharp's native libvips is loaded at runtime and the file tracer misses
+  // it, so the TikTok photo route failed on Vercel with "libvips-cpp.so
+  // cannot open shared object file". Ship the linux-x64 binaries with it.
+  outputFileTracingIncludes: {
+    '/tiktok-foto/\\[\\.\\.\\.path\\]': [
+      './node_modules/@img/sharp-linux-x64/**/*',
+      './node_modules/@img/sharp-libvips-linux-x64/**/*',
+    ],
+  },
   images: {
     remotePatterns: [
       {

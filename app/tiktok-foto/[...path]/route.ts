@@ -41,7 +41,7 @@ export async function GET(_request: Request, { params }: { params: Promise<{ pat
       .rotate()
       .resize(MAX_SIDE, MAX_SIDE, { fit: "inside", withoutEnlargement: true })
       .flatten({ background: "#ffffff" })
-      .jpeg({ quality: 90, mozjpeg: true, progressive: false })
+      .jpeg({ quality: 90 })
       .toBuffer();
     return new Response(new Uint8Array(jpeg), {
       headers: {
