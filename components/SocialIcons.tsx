@@ -24,6 +24,13 @@ function IconGlyph({ name }: { name: string }) {
           <polygon points="9,7 9,17 17,12" fill="currentColor" />
         </svg>
       );
+    case "TikTok":
+      return (
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="h-4 w-4">
+          <path d="M14 3v11.5a3.5 3.5 0 1 1-3.5-3.5" strokeLinecap="round" strokeLinejoin="round" />
+          <path d="M14 3c.4 2.6 2.2 4.4 5 4.6" strokeLinecap="round" />
+        </svg>
+      );
     case "Reddit":
       return (
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.8} className="h-4 w-4">
