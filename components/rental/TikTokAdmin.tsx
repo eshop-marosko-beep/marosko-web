@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 import { button, input } from "@/components/rental/adminUi";
 
-/* Posting the shop's own videos to TikTok. The form follows TikTok's
+/* Posting the shop's own videos and eshop product photos to TikTok. The form follows TikTok's
  * Content Posting API UX rules: show the connected creator, privacy chosen
  * by the user (no default), interaction toggles off by default and disabled
  * when the creator turned them off, commercial content disclosure, and the
@@ -21,6 +21,8 @@ type Creator = {
 };
 
 type Video = { title: string; url: string; poster: string };
+
+type Product = { id: string; title: string; link: string; shortLink: string; images: string[]; price: string };
 
 type State = {
   configured: boolean;
@@ -46,6 +48,11 @@ const ERRORS: Record<string, string> = {
   token_failed: "TikTok neprijal prihlásenie (skontrolujte Client key/secret a Redirect URI).",
   mute_unavailable: "Bez zvuku sa dá poslať len video vybrané zo zoznamu videí webu.",
   bad_video_url: "Video musí byť na adrese marosko.sk (overená doména).",
+  bad_photo_url: "Fotky musia byť z eshop.marosko.sk (…/files/…jpg, png alebo webp).",
+  photos_required: "Vyberte aspoň jednu fotku.",
+  too_many_photos: "TikTok berie najviac 35 fotiek v jednom príspevku.",
+  unknown_product: "Produkt sa v eshope nenašiel.",
+  description_too_long: "Popis je dlhší ako 4000 znakov.",
   privacy_required: "Vyberte, kto uvidí video.",
   spam_risk_too_many_posts: "TikTok dočasne nepovoľuje ďalšie príspevky (príliš veľa za deň).",
   spam_risk_user_banned_from_posting: "Tento účet má od TikToku zakázané zverejňovanie.",
@@ -65,6 +72,7 @@ export default function TikTokAdmin() {
   const [state, setState] = useState<State | null>(null);
   const [message, setMessage] = useState<{ ok: boolean; text: string } | null>(null);
   const [busy, setBusy] = useState(false);
+  const [kind, setKind] = useState<"video" | "photo">("video");
 
   const [videoUrl, setVideoUrl] = useState("");
   const [title, setTitle] = useState("");
@@ -79,6 +87,16 @@ export default function TikTokAdmin() {
   const [branded, setBranded] = useState(false);
   const [publishId, setPublishId] = useState("");
   const [status, setStatus] = useState("");
+
+  const [query, setQuery] = useState("");
+  const [results, setResults] = useState<Product[]>([]);
+  const [product, setProduct] = useState<Product | null>(null);
+  const [photos, setPhotos] = useState<string[]>([]);
+  const [extraPhotos, setExtraPhotos] = useState("");
+  const [cover, setCover] = useState(0);
+  const [description, setDescription] = useState("");
+  const [addLink, setAddLink] = useState(true);
+  const [autoMusic, setAutoMusic] = useState(true);
 
   const load = useCallback(async () => {
     const res = await fetch("/api/tiktok", { cache: "no-store" });
@@ -119,12 +137,59 @@ export default function TikTokAdmin() {
     }
   }
 
+  async function search() {
+    setBusy(true);
+    try {
+      const data = await post({ action: "products", q: query });
+      setResults(data.products);
+      if (!data.products.length) setMessage({ ok: false, text: "Žiadny produkt sa nenašiel." });
+      else setMessage(null);
+    } catch (e) {
+      setMessage({ ok: false, text: (e as Error).message });
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  function chooseProduct(p: Product) {
+    setProduct(p);
+    setPhotos(p.images);
+    setCover(0);
+    setTitle(p.title.slice(0, 90));
+    setResults([]);
+  }
+
+  const photoList = [
+    ...photos,
+    ...extraPhotos.split(/\s+/).map((u) => u.trim()).filter(Boolean),
+  ];
+  const coverIndex = cover < photoList.length ? cover : 0;
+
   async function submit() {
     setBusy(true);
     setMessage(null);
     setStatus("");
     try {
-      const data = await post({
+      const shared = {
+        direct,
+        privacyLevel: privacy,
+        disableComment: !allowComment,
+        brandOrganic: commercial && yourBrand,
+        brandContent: commercial && branded,
+      };
+      const data = kind === "photo"
+        ? await post({
+            action: "photo",
+            ...shared,
+            productId: product?.id ?? "",
+            photoUrls: photoList,
+            coverIndex,
+            title,
+            description,
+            addLink,
+            autoAddMusic: autoMusic,
+          })
+        : await post({
         action: "post",
         videoUrl,
         mute,
@@ -141,8 +206,8 @@ export default function TikTokAdmin() {
       setMessage({
         ok: true,
         text: direct
-          ? "Video sa odoslalo na TikTok. Spracovanie môže trvať niekoľko minút."
-          : "Video sa odoslalo do TikToku ako koncept. Dokončite ho v aplikácii TikTok (upozornenie v schránke).",
+          ? `${kind === "photo" ? "Fotky sa odoslali" : "Video sa odoslalo"} na TikTok. Spracovanie môže trvať niekoľko minút.`
+          : `${kind === "photo" ? "Fotky sa odoslali" : "Video sa odoslalo"} do TikToku ako koncept. Dokončite ${kind === "photo" ? "príspevok" : "ho"} v aplikácii TikTok (upozornenie v schránke).`,
       });
       setTimeout(() => checkStatus(data.publishId), 5000);
     } catch (e) {
@@ -170,8 +235,9 @@ export default function TikTokAdmin() {
 
   const creator = state.creator;
   const brandedNeedsPublic = commercial && branded && privacy === "SELF_ONLY";
+  const hasMedia = kind === "photo" ? photoList.length > 0 && photoList.length <= 35 : Boolean(videoUrl);
   const canPost =
-    !busy && videoUrl && (!direct || (privacy && !brandedNeedsPublic && (!commercial || yourBrand || branded)));
+    !busy && hasMedia && (!direct || (privacy && !brandedNeedsPublic && (!commercial || yourBrand || branded)));
 
   return (
     <div className="space-y-6">
@@ -207,8 +273,97 @@ export default function TikTokAdmin() {
 
       {state.connected && creator && (
         <section className="bg-white rounded-xl border border-gray-200 p-5 space-y-4">
-          <h2 className="font-bold text-lg">Nové video</h2>
+          <div className="flex items-center justify-between gap-4 flex-wrap">
+            <h2 className="font-bold text-lg">{kind === "photo" ? "Nové fotky" : "Nové video"}</h2>
+            <div className="flex gap-4 text-sm">
+              <label className="flex items-center gap-2">
+                <input type="radio" checked={kind === "video"} onChange={() => setKind("video")} /> Video
+              </label>
+              <label className="flex items-center gap-2">
+                <input type="radio" checked={kind === "photo"} onChange={() => setKind("photo")} /> Fotky z eshopu
+              </label>
+            </div>
+          </div>
 
+          {kind === "photo" && (
+            <>
+              <div className="text-sm">
+                <span className="font-semibold">Produkt</span>
+                <form className="flex gap-2 mt-1" onSubmit={(e) => { e.preventDefault(); search(); }}>
+                  <input className={`${input} flex-1`} placeholder="hľadať v eshope, napr. arbortech" value={query}
+                    onChange={(e) => setQuery(e.target.value)} />
+                  <button type="submit" disabled={busy || !query.trim()} className={`${button} border border-gray-300 hover:bg-gray-50`}>
+                    Hľadať
+                  </button>
+                </form>
+                {results.length > 0 && (
+                  <ul className="mt-2 border border-gray-200 rounded-lg divide-y max-h-72 overflow-y-auto">
+                    {results.map((p) => (
+                      <li key={p.id}>
+                        <button type="button" onClick={() => chooseProduct(p)} className="flex items-center gap-3 w-full text-left p-2 hover:bg-gray-50">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          {p.images[0] && <img src={p.images[0]} alt="" className="h-10 w-10 object-contain" />}
+                          <span className="flex-1">{p.title}</span>
+                          <span className="text-gray-500 whitespace-nowrap">{p.price}</span>
+                        </button>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {product && (
+                  <p className="mt-2">
+                    Vybraný: <a className="underline" href={product.link} target="_blank" rel="noopener noreferrer">{product.title}</a>{" "}
+                    <button type="button" className="text-gray-500 underline ml-2" onClick={() => { setProduct(null); setPhotos([]); }}>
+                      zrušiť
+                    </button>
+                  </p>
+                )}
+              </div>
+
+              {photos.length > 0 && (
+                <div className="text-sm">
+                  <span className="font-semibold">Fotky produktu</span>{" "}
+                  <span className="text-gray-500">(kliknutím odoberiete)</span>
+                  <div className="flex flex-wrap gap-2 mt-1">
+                    {photos.map((u) => (
+                      <button type="button" key={u} title="Odobrať" onClick={() => setPhotos(photos.filter((x) => x !== u))}>
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={u} alt="" className="h-24 w-24 object-contain border border-gray-200 rounded" />
+                      </button>
+                    ))}
+                  </div>
+                  {product && photos.length < product.images.length && (
+                    <button type="button" className="underline text-gray-600 mt-1" onClick={() => setPhotos(product.images)}>
+                      vrátiť všetky fotky
+                    </button>
+                  )}
+                </div>
+              )}
+
+              <label className="block text-sm">
+                <span className="font-semibold">Ďalšie fotky</span>{" "}
+                <span className="text-gray-500">(adresy z eshop.marosko.sk, každá na nový riadok)</span>
+                <textarea className={`${input} w-full mt-1`} rows={2} value={extraPhotos}
+                  onChange={(e) => setExtraPhotos(e.target.value)} placeholder="https://eshop.marosko.sk/files/….jpg" />
+              </label>
+
+              {photoList.length > 1 && (
+                <label className="block text-sm">
+                  <span className="font-semibold">Titulná fotka</span>
+                  <select className={`${input} w-full mt-1`} value={coverIndex} onChange={(e) => setCover(Number(e.target.value))}>
+                    {photoList.map((u, i) => (
+                      <option key={`${i}-${u}`} value={i}>{i + 1}. {u.split("/").pop()}</option>
+                    ))}
+                  </select>
+                </label>
+              )}
+              <p className="text-xs text-gray-500">
+                {photoList.length} / 35 fotiek. Na TikTok sa pošlú cez www.marosko.sk ako JPEG (najviac 1080 px).
+              </p>
+            </>
+          )}
+
+          {kind === "video" && (<>
           <label className="block text-sm">
             <span className="font-semibold">Video</span>
             <select className={`${input} w-full mt-1`} value={state.videos.some((v) => v.url === videoUrl) ? videoUrl : ""}
@@ -231,6 +386,7 @@ export default function TikTokAdmin() {
           <p className="text-xs text-gray-500">
             Maximálna dĺžka videa pre tento účet: {Math.round(creator.max_video_post_duration_sec / 60)} min.
           </p>
+          </>)}
 
           <div className="flex gap-4 text-sm">
             <label className="flex items-center gap-2">
@@ -241,16 +397,38 @@ export default function TikTokAdmin() {
             </label>
           </div>
 
+          {kind === "photo" && (
+            <>
+              <label className="block text-sm">
+                <span className="font-semibold">Nadpis</span>
+                <input className={`${input} w-full mt-1`} maxLength={90} value={title} onChange={(e) => setTitle(e.target.value)} />
+              </label>
+              <label className="block text-sm">
+                <span className="font-semibold">Popis</span>
+                <textarea className={`${input} w-full mt-1`} rows={4} maxLength={3900} value={description}
+                  onChange={(e) => setDescription(e.target.value)} placeholder="#rezba #drevo …" />
+              </label>
+              {product && (
+                <label className="flex items-center gap-2 text-sm">
+                  <input type="checkbox" checked={addLink} onChange={(e) => setAddLink(e.target.checked)} />
+                  Pridať na koniec popisu „🛒 {product.shortLink}“ (TikTok odkazy v popise nerobí klikateľné)
+                </label>
+              )}
+            </>
+          )}
+
           {direct && (
             <>
+              {kind === "video" && (
               <label className="block text-sm">
                 <span className="font-semibold">Popis</span>
                 <textarea className={`${input} w-full mt-1`} rows={4} maxLength={2200} value={title}
                   onChange={(e) => setTitle(e.target.value)} placeholder="#nastroje #rezba …" />
               </label>
+              )}
 
               <label className="block text-sm">
-                <span className="font-semibold">Kto uvidí video</span>
+                <span className="font-semibold">Kto uvidí {kind === "photo" ? "príspevok" : "video"}</span>
                 <select className={`${input} w-full mt-1`} value={privacy} onChange={(e) => setPrivacy(e.target.value)}>
                   <option value="">– vyberte –</option>
                   {creator.privacy_level_options.map((p) => (
@@ -267,6 +445,7 @@ export default function TikTokAdmin() {
                   <input type="checkbox" disabled={creator.comment_disabled} checked={allowComment && !creator.comment_disabled}
                     onChange={(e) => setAllowComment(e.target.checked)} /> Komentáre
                 </label>
+                {kind === "video" && (<>
                 <label className="flex items-center gap-2">
                   <input type="checkbox" disabled={creator.duet_disabled} checked={allowDuet && !creator.duet_disabled}
                     onChange={(e) => setAllowDuet(e.target.checked)} /> Duet
@@ -275,7 +454,15 @@ export default function TikTokAdmin() {
                   <input type="checkbox" disabled={creator.stitch_disabled} checked={allowStitch && !creator.stitch_disabled}
                     onChange={(e) => setAllowStitch(e.target.checked)} /> Stitch
                 </label>
+                </>)}
               </fieldset>
+
+              {kind === "photo" && (
+                <label className="flex items-center gap-2 text-sm">
+                  <input type="checkbox" checked={autoMusic} onChange={(e) => setAutoMusic(e.target.checked)} />
+                  Automaticky pridať hudbu od TikToku
+                </label>
+              )}
 
               <fieldset className="text-sm space-y-1">
                 <label className="flex items-center gap-2 font-semibold">
@@ -313,7 +500,7 @@ export default function TikTokAdmin() {
             <a className="underline" href="https://www.tiktok.com/legal/page/global/music-usage-confirmation/en" target="_blank" rel="noopener noreferrer">
               Music Usage Confirmation
             </a>{" "}
-            TikToku. Spracovanie videa po odoslaní môže trvať niekoľko minút.
+            TikToku. Spracovanie {kind === "photo" ? "príspevku" : "videa"} po odoslaní môže trvať niekoľko minút.
           </p>
 
           <button type="button" disabled={!canPost} onClick={submit} className={`${button} bg-amber-600 text-white hover:bg-amber-700`}>

@@ -9,6 +9,8 @@ import { tiktokAction, tiktokOverview } from "@/lib/tiktokHandlers";
  *
  *   GET  /api/tiktok/agent                         → account + site videos
  *   POST /api/tiktok/agent {action:"post", ...}    → { publishId }
+ *   POST /api/tiktok/agent {action:"products", q}           → eshop products
+ *   POST /api/tiktok/agent {action:"photo", productId?, photoUrls?, ...}
  *   POST /api/tiktok/agent {action:"status", publishId} */
 
 const encoder = new TextEncoder();
