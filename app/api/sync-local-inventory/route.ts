@@ -7,6 +7,11 @@ const CONTENT_LANGUAGE = "sk";
 const FEED_LABEL = "SK";
 const FLOX_GRAPHQL_URL = "https://eshop.marosko.sk/api/graphql";
 
+// Vercel Hobby caps functions at 300 s. The run stops starting new batches
+// after RUN_BUDGET_MS so it always returns (and logs) instead of timing out.
+export const maxDuration = 300;
+const RUN_BUDGET_MS = 240_000;
+
 function getAuthClient() {
   const raw = process.env.GOOGLE_SERVICE_ACCOUNT_KEY;
   if (!raw) {
@@ -29,23 +34,26 @@ function getFloxApiKey() {
   return key;
 }
 
+type ReportRow = { productView?: { id?: string; offerId?: string } };
+
+// reports:search is paginated; follow nextPageToken so no product is missed.
 async function searchReport(authClient: JWT, query: string) {
   const url = `https://merchantapi.googleapis.com/reports/v1/accounts/${MERCHANT_ACCOUNT_ID}/reports:search`;
+  const rows: ReportRow[] = [];
+  let pageToken: string | undefined;
 
-  const res = await authClient.request({
-    url,
-    method: "POST",
-    data: { query },
-  });
+  do {
+    const res = await authClient.request({
+      url,
+      method: "POST",
+      data: { query, pageSize: 1000, ...(pageToken ? { pageToken } : {}) },
+    });
+    const data = res.data as { results?: ReportRow[]; nextPageToken?: string };
+    rows.push(...(data.results ?? []));
+    pageToken = data.nextPageToken || undefined;
+  } while (pageToken);
 
-  return res.data as {
-    results?: Array<{
-      productView?: {
-        id?: string;
-        offerId?: string;
-      };
-    }>;
-  };
+  return rows;
 }
 
 function getBaseProductId(offerId: string) {
@@ -133,8 +141,8 @@ function chunk<T>(items: T[], size: number): T[][] {
   return chunks;
 }
 
-const FLOX_BATCH_SIZE = 5;
-const FLOX_BATCH_DELAY_MS = 300;
+const FLOX_BATCH_SIZE = 10;
+const FLOX_BATCH_DELAY_MS = 200;
 const FLOX_MAX_RETRIES = 3;
 const FLOX_RETRY_BASE_DELAY_MS = 500;
 
@@ -152,31 +160,6 @@ async function getFloxAvailableQuantityWithRetry(
       await sleep(FLOX_RETRY_BASE_DELAY_MS * 2 ** attempt);
     }
   }
-}
-
-async function getFloxAvailableQuantities(
-  productIds: string[]
-): Promise<PromiseSettledResult<{ baseId: string; quantity: number }>[]> {
-  const results: PromiseSettledResult<{ baseId: string; quantity: number }>[] =
-    [];
-
-  const batches = chunk(productIds, FLOX_BATCH_SIZE);
-  for (let i = 0; i < batches.length; i++) {
-    const batch = batches[i];
-    const batchResults = await Promise.allSettled(
-      batch.map(async (baseId) => ({
-        baseId,
-        quantity: await getFloxAvailableQuantityWithRetry(baseId),
-      }))
-    );
-    results.push(...batchResults);
-
-    if (i < batches.length - 1) {
-      await sleep(FLOX_BATCH_DELAY_MS);
-    }
-  }
-
-  return results;
 }
 
 async function upsertLocalInventory(
@@ -200,106 +183,152 @@ async function upsertLocalInventory(
   });
 }
 
-export async function GET() {
+// Fisher–Yates shuffle: when a run hits RUN_BUDGET_MS the products it skips
+// differ from day to day, so every product still gets refreshed regularly.
+function shuffle<T>(items: T[]): T[] {
+  const out = [...items];
+  for (let i = out.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
+
+function errorMessage(err: unknown) {
+  return err instanceof Error ? err.message : String(err);
+}
+
+export async function GET(request: Request) {
+  // Vercel Cron (and the dashboard "Run" button) send this header when
+  // CRON_SECRET is set, so random visitors can't trigger the sync.
+  const secret = process.env.CRON_SECRET;
+  if (secret && request.headers.get("authorization") !== `Bearer ${secret}`) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+  }
+
+  const startedAt = Date.now();
+
   try {
     const authClient = getAuthClient();
 
-    const query = `
-      SELECT
-        id,
-        offer_id
-      FROM product_view
-      WHERE feed_label = 'SK'
-    `.trim();
-
-    const report = await searchReport(authClient, query);
-    const offerIds = (report.results ?? [])
+    const rows = await searchReport(
+      authClient,
+      "SELECT id, offer_id FROM product_view WHERE feed_label = 'SK'"
+    );
+    const offerIds = rows
       .map((r) => r.productView?.offerId)
       .filter((id): id is string => Boolean(id));
 
-    const baseIds = Array.from(new Set(offerIds.map(getBaseProductId)));
-    const floxBaseIds = baseIds.filter((id) => !isLocalMerchantCenterId(id));
-    const localBaseIds = baseIds.filter((id) => isLocalMerchantCenterId(id));
-
-    const quantityResults = await getFloxAvailableQuantities(floxBaseIds);
-
-    const quantityByBaseId = new Map<string, number>();
-    const floxLookupFailures: Array<{ baseId: string; error: string }> = [];
-
-    for (const baseId of localBaseIds) {
-      floxLookupFailures.push({
-        baseId,
-        error:
-          "Lokálny Merchant Center produkt (UUID formát) nemá zodpovedajúci Flox produkt — preskočené",
-      });
+    // One Flox lookup per base product, shared by all its variants (offers).
+    const offersByBaseId = new Map<string, string[]>();
+    for (const offerId of offerIds) {
+      const baseId = getBaseProductId(offerId);
+      const list = offersByBaseId.get(baseId) ?? [];
+      list.push(offerId);
+      offersByBaseId.set(baseId, list);
     }
 
-    quantityResults.forEach((result, index) => {
-      const baseId = floxBaseIds[index];
-      if (result.status === "fulfilled") {
-        quantityByBaseId.set(baseId, result.value.quantity);
-      } else {
-        floxLookupFailures.push({
-          baseId,
-          error:
-            result.reason instanceof Error
-              ? result.reason.message
-              : String(result.reason),
-        });
-      }
-    });
+    const baseIds = Array.from(offersByBaseId.keys());
+    const floxBaseIds = shuffle(
+      baseIds.filter((id) => !isLocalMerchantCenterId(id))
+    );
+    const localBaseIds = baseIds.filter((id) => isLocalMerchantCenterId(id));
 
+    console.log(
+      "sync-local-inventory start:",
+      JSON.stringify({
+        totalOfferIds: offerIds.length,
+        floxBaseProducts: floxBaseIds.length,
+        localOnlyBaseProducts: localBaseIds.length,
+      })
+    );
+
+    const floxLookupFailures: Array<{ baseId: string; error: string }> = [];
+    const failures: Array<{ offerId: string; error: string }> = [];
+    let succeeded = 0;
+    let inStock = 0;
+    let outOfStock = 0;
+    let processedBaseIds = 0;
+    let timedOut = false;
+
+    // Look up stock and write it to Merchant Center batch by batch, so every
+    // finished batch is saved even if the run is cut short.
+    const batches = chunk(floxBaseIds, FLOX_BATCH_SIZE);
+    for (let i = 0; i < batches.length; i++) {
+      if (Date.now() - startedAt > RUN_BUDGET_MS) {
+        timedOut = true;
+        break;
+      }
+
+      await Promise.all(
+        batches[i].map(async (baseId) => {
+          let quantity: number;
+          try {
+            quantity = await getFloxAvailableQuantityWithRetry(baseId);
+          } catch (err) {
+            floxLookupFailures.push({ baseId, error: errorMessage(err) });
+            return;
+          }
+
+          for (const offerId of offersByBaseId.get(baseId) ?? []) {
+            try {
+              await upsertLocalInventory(authClient, offerId, quantity);
+              succeeded++;
+              if (quantity > 0) inStock++;
+              else outOfStock++;
+            } catch (err) {
+              failures.push({ offerId, error: errorMessage(err) });
+            }
+          }
+        })
+      );
+      processedBaseIds += batches[i].length;
+
+      if (i < batches.length - 1) {
+        await sleep(FLOX_BATCH_DELAY_MS);
+      }
+    }
+
+    const summary = {
+      checkedAt: new Date().toISOString(),
+      durationMs: Date.now() - startedAt,
+      timedOut,
+      totalOfferIds: offerIds.length,
+      floxBaseProducts: floxBaseIds.length,
+      processedBaseProducts: processedBaseIds,
+      skippedBaseProducts: floxBaseIds.length - processedBaseIds,
+      localOnlyBaseProducts: localBaseIds.length,
+      succeeded,
+      inStock,
+      outOfStock,
+      floxLookupFailed: floxLookupFailures.length,
+      failed: failures.length,
+    };
+
+    console.log("sync-local-inventory summary:", JSON.stringify(summary));
     if (floxLookupFailures.length > 0) {
       console.error(
         "sync-local-inventory floxLookupFailures sample:",
         JSON.stringify(floxLookupFailures.slice(0, 5))
       );
     }
-
-    const insertResults = await Promise.allSettled(
-      offerIds.map(async (offerId) => {
-        const baseId = getBaseProductId(offerId);
-        const quantity = quantityByBaseId.get(baseId);
-        if (quantity === undefined) {
-          throw new Error(
-            `Nepodarilo sa zistiť množstvo pre základné ID "${baseId}" (Flox)`
-          );
-        }
-        await upsertLocalInventory(authClient, offerId, quantity);
-        return { offerId, quantity };
-      })
-    );
-
-    const succeeded: Array<{ offerId: string; quantity: number }> = [];
-    const failed: Array<{ offerId: string; error: string }> = [];
-
-    insertResults.forEach((result, index) => {
-      if (result.status === "fulfilled") {
-        succeeded.push(result.value);
-      } else {
-        failed.push({
-          offerId: offerIds[index],
-          error:
-            result.reason instanceof Error
-              ? result.reason.message
-              : String(result.reason),
-        });
-      }
-    });
+    if (failures.length > 0) {
+      console.error(
+        "sync-local-inventory failures sample:",
+        JSON.stringify(failures.slice(0, 5))
+      );
+    }
 
     return NextResponse.json({
-      checkedAt: new Date().toISOString(),
-      totalOfferIds: offerIds.length,
-      totalBaseProducts: baseIds.length,
+      ...summary,
+      localOnlyBaseIds: localBaseIds,
       floxLookupFailures,
-      succeeded: succeeded.length,
-      failed: failed.length,
-      failures: failed,
+      failures,
     });
   } catch (err) {
     console.error("sync-local-inventory error:", err);
     return NextResponse.json(
-      { error: err instanceof Error ? err.message : "Unknown error" },
+      { error: errorMessage(err) },
       { status: 500 }
     );
   }
