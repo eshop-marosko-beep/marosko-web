@@ -3,9 +3,10 @@ import { isPreviewDeployment } from "@/lib/rental/preview";
 import { xAction, xOverview } from "@/lib/xHandlers";
 
 /* The same X actions for Claude (or another script), authorized by
- * "Authorization: Bearer <X_AGENT_TOKEN>" instead of an admin login. It can
- * post and delete posts, but not disconnect the account; without the env
- * variable the endpoint is off.
+ * "Authorization: Bearer <token>" instead of an admin login, where the token
+ * is X_AGENT_TOKEN or TIKTOK_AGENT_TOKEN (the one Claude's sessions already
+ * send for www.marosko.sk). It can post and delete posts, but not
+ * disconnect the account; without either env variable the endpoint is off.
  *
  *   GET  /api/x/agent                                   → connected account
  *   POST /api/x/agent {action:"products", q}            → eshop products
@@ -15,18 +16,27 @@ import { xAction, xOverview } from "@/lib/xHandlers";
 
 const encoder = new TextEncoder();
 
+async function sha256(value: string): Promise<Uint8Array> {
+  return new Uint8Array(await crypto.subtle.digest("SHA-256", encoder.encode(value)));
+}
+
 async function authorized(request: Request): Promise<boolean> {
-  const expected = process.env.X_AGENT_TOKEN;
-  if (isPreviewDeployment() || !expected || expected.length < 32) return false;
-  const header = request.headers.get("authorization") ?? "";
-  const given = header.startsWith("Bearer ") ? header.slice(7) : "";
-  // Compare hashes so the check takes the same time whatever was sent.
-  const [a, b] = await Promise.all(
-    [given, expected].map(async (v) => new Uint8Array(await crypto.subtle.digest("SHA-256", encoder.encode(v))))
+  if (isPreviewDeployment()) return false;
+  const tokens = [process.env.X_AGENT_TOKEN, process.env.TIKTOK_AGENT_TOKEN].filter(
+    (t): t is string => Boolean(t && t.length >= 32)
   );
-  let diff = 0;
-  for (let i = 0; i < a.length; i++) diff |= a[i] ^ b[i];
-  return diff === 0;
+  if (!tokens.length) return false;
+  const header = request.headers.get("authorization") ?? "";
+  const given = await sha256(header.startsWith("Bearer ") ? header.slice(7) : "");
+  // Compare hashes so the check takes the same time whatever was sent.
+  let ok = false;
+  for (const token of tokens) {
+    const expected = await sha256(token);
+    let diff = 0;
+    for (let i = 0; i < given.length; i++) diff |= given[i] ^ expected[i];
+    ok = ok || diff === 0;
+  }
+  return ok;
 }
 
 export async function GET(request: Request) {
