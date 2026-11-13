@@ -11,7 +11,9 @@ import roMessages from "@/messages/ro.json";
  * The shop runs on BiznisWeb, which cannot host custom files, so these are
  * served from marosko.sk (/eshop/llms.txt, /cz/eshop/llms.txt,
  * /ro/eshop/llms.txt). Shipping/payment facts mirror the shop's own pages in
- * each language (verified 2026-10-11): CZ prices are in CZK, RO in RON. */
+ * each language (verified 2026-10-11, re-checked 2026-11-13 against
+ * /mapa-nakup-rezbarskeho-naradia-online-obchod, /cz/doprava-a-doruceni,
+ * /cz/platba and /ro/servicii-si-garantii): CZ prices are in CZK, RO in RON. */
 export type EshopLlmsLocale = "sk" | "cz" | "ro";
 
 const ESHOP = "https://eshop.marosko.sk";
@@ -27,7 +29,7 @@ const content: Record<
   sk: {
     title: "eshop.marosko.sk – rezbárske a sochárske náradie",
     intro:
-      "Slovenský e-shop rodinnej firmy Marián s.r.o. s náradím pre rezbárov, sochárov, stolárov a remeselníkov: rašple a frézy Saburrtooth (USA) do uhlovej a priamej brúsky, ramená a kotúče MANPA, stroje a kotúče Arbortech, rezbárske dláta, brúsne výseky na mieru, pozlacovanie, epoxidy a ochranné pomôcky. Približne 850 produktov, ceny v EUR s DPH. Dodáva na Slovensko, do Česka, Maďarska, Poľska, Rakúska a Rumunska.",
+      "Slovenský e-shop rodinnej firmy Marián s.r.o. s náradím pre rezbárov, sochárov, stolárov a remeselníkov: rašple a frézy Saburrtooth (USA) do uhlovej a priamej brúsky, ramená a kotúče MANPA, stroje a kotúče Arbortech, rezbárske dláta, brúsne výseky na mieru, pozlacovanie, epoxidy a ochranné pomôcky. Vyše 800 produktov, ceny v EUR s DPH. Dodáva na Slovensko, do Česka, Maďarska, Poľska, Rakúska a Rumunska.",
     about:
       "V rodine máme rezbára s desaťročiami praxe, preto ponúkame najmä nástroje, ktoré sa v bežnom obchode nedajú kúpiť a v rukách rezbára naozaj fungujú. Poradíme s výberom nástroja pre konkrétnu prácu. Jazykové verzie e-shopu: slovenská (EUR), česká (CZK) a rumunská (RON).",
     sections: [
@@ -46,9 +48,12 @@ const content: Record<
       {
         heading: "Doprava, platba a vrátenie",
         items: [
-          "Slovensko: DPD odberné miesto od 4,50 €, Packeta výdajné miesto (do 10 kg) od 4,90 €, kuriér na adresu od 5,50 €, osobný odber vo Vrádišti zadarmo",
-          "Česko, Maďarsko, Poľsko, Rakúsko a Rumunsko: Packeta / kuriér",
-          "Platba: prevodom na účet, dobierka, kartou online, v hotovosti alebo kartou pri osobnom odbere",
+          "Všetky ceny sú konečné vrátane DPH, bez balného či manipulačných poplatkov",
+          "Slovensko: Packeta výdajné miesto 4,90 € (doručenie do 24–72 hodín), kuriér na adresu do 20 kg 5,50 € (do 24–48 hodín), kuriér na adresu nad 20 kg 10 €",
+          "Česko a susedné krajiny: 7,00 € cez Packetu (na adresu alebo do Balíkoboxu), maximálna hmotnosť objednávky 10 kg",
+          "Pri nákupe nad určenú sumu je doprava zdarma – zľava sa zobrazí automaticky v košíku",
+          "Osobný odber zadarmo na fakturačnej adrese vo Vrádišti (nie zo skladu) po predchádzajúcom ohlásení",
+          "Platba: bankový prevod (automaticky vystavená predfaktúra s IBAN, variabilným symbolom a QR kódom), dobierka (poplatok 1,00 €, v hotovosti; kartou len po ohlásení kuriérovi vopred), pri osobnom odbere vopred kartou alebo prevodom, alebo na mieste",
           "Pri každom produkte je uvedený stav (Skladom, skladom u dodávateľa, na objednávku)",
           "Vrátenie tovaru do 14 dní od prevzatia bez udania dôvodu",
           `[Obchodné podmienky](${ESHOP}/obchodne-podmienky-naradie-eshop-marosko/obchodne-podmienky-pri-kupe-naradia)`,
@@ -89,8 +94,8 @@ const content: Record<
         items: [
           "Kurýrní služba od 150 Kč (doručení do 1–2 pracovních dnů)",
           "Výdejní místo (Zásilkovna, Balíkovna) od 125 Kč",
-          "Osobní odběr ve Vrádišti (Slovensko) po domluvě zdarma",
-          "Platba: dobírka, bankovní převod předem, hotovost nebo karta při osobním odběru; u objednávek pod 500 Kč (bez dopravy) platba předem",
+          "Osobní odběr ve Vrádišti (Slovensko) jen po předchozí telefonické domluvě; při nákupu nad 3 500 Kč zdarma",
+          "Platba: dobírka (u kurýra Packety lze dobírku zaplatit i kartou), bankovní převod předem, hotovost nebo karta při osobním odběru; u objednávek pod 500 Kč (bez dopravy) platba předem",
           "Odstoupení od smlouvy do 14 kalendářních dní od převzetí zboží bez udání důvodu",
           `[Doprava a doručení](${ESHOP}/cz/doprava-a-doruceni)`,
           `[Možnosti platby](${ESHOP}/cz/platba)`,
@@ -126,7 +131,8 @@ const content: Record<
       {
         heading: "Livrare, garanție și retur",
         items: [
-          "Livrare în România prin Packeta / curier; costul transportului și metodele de plată disponibile se afișează în coș",
+          "Livrare în toată România prin Packeta (punct de ridicare Packeta sau curier), greutate maximă 10 kg per colet, fără comandă minimă; costul transportului se afișează în coș",
+          "Plata la livrare (ramburs) cash sau cu cardul la curier, cu taxă suplimentară de procesare",
           "Garanție de obicei 24 de luni; reparare sau înlocuire în maximum 15 zile calendaristice",
           "Retur în 14 zile de la primirea produsului, fără motiv (pentru consumatori)",
           `[Servicii și garanții](${ESHOP}/ro/servicii-si-garantii)`,
