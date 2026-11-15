@@ -28,7 +28,7 @@ export default function Nav() {
   return (
     <nav className="bg-white shadow-lg p-4 border-b-2 border-amber-100">
       <div className="container mx-auto flex justify-between items-center">
-        <Link href="/" className="flex items-center hover:opacity-80 transition-opacity">
+        <Link href="/" className="flex shrink-0 items-center hover:opacity-80 transition-opacity">
           <Image
             src="/brand/marian-logo.webp"
             alt="Marián s.r.o."
@@ -40,12 +40,21 @@ export default function Nav() {
           />
         </Link>
 
-        <div className="hidden xl:flex items-center space-x-5">
+        <div className="hidden xl:flex items-center space-x-3 2xl:space-x-5">
           {links.map((link) => (
             <Link key={link.href} href={link.href} className="whitespace-nowrap hover:text-amber-700">
               {link.label}
             </Link>
           ))}
+          <Link
+            href="/akcie"
+            title={t("promotions")}
+            className="whitespace-nowrap font-semibold text-amber-700 border border-amber-300 px-3 py-1.5 rounded-lg hover:bg-amber-50 transition-colors"
+          >
+            {/* Icon only on wide screens: at ~1280px the RO menu is otherwise too wide. */}
+            <span className="hidden 2xl:inline">🏷️ </span>
+            {t("promotionsShort")}
+          </Link>
           <a
             href={eshopUrl}
             target="_blank"
@@ -88,6 +97,13 @@ export default function Nav() {
               {link.label}
             </Link>
           ))}
+          <Link
+            href="/akcie"
+            onClick={() => setOpen(false)}
+            className="font-semibold text-amber-700 border border-amber-300 px-4 py-2 rounded-lg hover:bg-amber-50 transition-colors text-center"
+          >
+            🏷️ {t("promotions")}
+          </Link>
           <a
             href={eshopUrl}
             target="_blank"
