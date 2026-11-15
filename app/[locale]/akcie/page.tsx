@@ -24,7 +24,8 @@ export async function generateMetadata({
     path: "/akcie",
     title: t("title"),
     description: t("description"),
-    ...(featured?.image ? { image: featured.image } : {}),
+    // Social previews want a bigger image than the 440px listing thumbnail.
+    ...(featured?.image ? { image: featured.image.replace("/resize/e/440/440/", "/resize/e/800/800/") } : {}),
   });
 }
 

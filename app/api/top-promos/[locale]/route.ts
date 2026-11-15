@@ -30,5 +30,9 @@ export async function GET(_request: Request, { params }: { params: Promise<{ loc
       discountPercent,
     })
   );
-  return NextResponse.json({ products, total: promos?.products.length ?? 0 });
+  return NextResponse.json(
+    { products, total: promos?.products.length ?? 0 },
+    // Data for the footer only — keep it out of search results.
+    { headers: { "X-Robots-Tag": "noindex" } }
+  );
 }
