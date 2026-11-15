@@ -73,11 +73,6 @@ export const galleryCategories: GalleryCategory[] = [
         productUrl: "https://eshop.marosko.sk/p/984/arbortech-frezovaci-nadstavec-mini-turbo-sada",
       },
       {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/frezovacie/frezovacie-retazove-kotuce/lancelot/square-/-75squire-14mm.jpg",
-        altKey: "p383",
-        productUrl: "https://eshop.marosko.sk/p/383/retazovy-kotuc-frezovaci-squire-12-zubov-22-mm-otvor",
-      },
-      {
         src: "https://eshop.marosko.sk/resize/e/440/440/files/lancelot-kotuce/14-mm-14-zub-sguire.jpg",
         altKey: "p382",
         productUrl: "https://eshop.marosko.sk/p/382/retazovy-kotuc-12-zubov-14-mm-otvor-king-arthur",
@@ -158,11 +153,6 @@ export const galleryCategories: GalleryCategory[] = [
         src: "https://eshop.marosko.sk/resize/e/440/440/files/rebriky-podstavce/ohybny-bovden-extol-/218-extol-ohybny-bovden-nahradny.jpg",
         altKey: "p705",
         productUrl: "https://eshop.marosko.sk/p/705/ohybny-bovden-extol-nahradny",
-      },
-      {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/rucne-naradie/218-p.jpg",
-        altKey: "p1049",
-        productUrl: "https://eshop.marosko.sk/p/1049/ohybny-bovden-extol-nahradny",
       },
       {
         src: "https://eshop.marosko.sk/resize/e/440/440/files/silverline/teleskopicky-drziak-priamej-brusky/240271-enwnmpro1-72691311772021.webp",
@@ -278,11 +268,6 @@ export const galleryCategories: GalleryCategory[] = [
         src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/stopka-6mm/plamen-16-16mm.jpg",
         altKey: "p560",
         productUrl: "https://eshop.marosko.sk/p/560/ihlickova-raspla-tvar-plamen-pr-16mm-hruba-stopka-6mm",
-      },
-      {
-        src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/stopka-6mm/plamen-19-16mm.jpg",
-        altKey: "p561",
-        productUrl: "https://eshop.marosko.sk/p/561/ihlickova-raspla-tvar-plamen-priemer-19-mm-extra-hruba-stopka-6-mm",
       },
       {
         src: "https://eshop.marosko.sk/resize/e/440/440/files/nastroje-do-priamej-brusky/stopka-6mm/ball-nose---6bn14-.2019-02-14-11-26-01.jpg",
@@ -933,4 +918,22 @@ export function getGalleryImage(categorySlug: string, altKey: string) {
   const image = category.images.find((img) => img.altKey === altKey);
   if (!image) return undefined;
   return { category, image };
+}
+
+/**
+ * The same e-shop product can appear in more than one gallery category. Its
+ * first occurrence (in galleryCategories order) is the canonical page.
+ */
+export function getCanonicalGalleryPath(categorySlug: string, altKey: string) {
+  const found = getGalleryImage(categorySlug, altKey);
+  const id = found?.image.productUrl?.match(/\/p\/(\d+)\//)?.[1];
+  if (!found || !id) return `/galeria/${categorySlug}/${altKey}`;
+  for (const category of galleryCategories) {
+    for (const img of category.images) {
+      if (img.productUrl?.match(/\/p\/(\d+)\//)?.[1] === id) {
+        return `/galeria/${category.slug}/${img.altKey}`;
+      }
+    }
+  }
+  return `/galeria/${categorySlug}/${altKey}`;
 }

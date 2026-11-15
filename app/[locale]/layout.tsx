@@ -28,7 +28,7 @@ export default async function LocaleLayout({
   }
 
   return (
-    <html lang={locale} className="scroll-smooth">
+    <html lang={locale === "cz" ? "cs" : locale} className="scroll-smooth">
       <body>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <div className="min-h-screen bg-cream-50">

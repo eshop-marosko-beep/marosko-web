@@ -93,7 +93,7 @@ export const categoryKeys: CategoryCard[] = [
     key: "spareParts",
     url: "https://eshop.marosko.sk/c/nahradne-noze-nastrojov-diely-arbortech",
     czUrl: "https://eshop.marosko.sk/cz/c/nahradni-dily",
-    roUrl: "https://eshop.marosko.sk/ro/c/nahradne-noze-nastrojov-diely-arbortech",
+    roUrl: "https://eshop.marosko.sk/ro/c/accesorii-piese-de-schimb",
     image:
       "https://eshop.marosko.sk/resize/e/440/440/files/na-drevo/do-uhlovych-brusok/unasac-s-drazkami-chladiaci-efekt-.jpg",
     slug: "nahradne-noze-nastrojov-diely-arbortech",

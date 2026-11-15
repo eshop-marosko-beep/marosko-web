@@ -25,10 +25,12 @@ export async function generateMetadata({
   const galleryCategory = getGalleryCategory(category);
   if (!galleryCategory) return {};
   const t = await getTranslations({ locale, namespace: "gallery" });
+  const tNav = await getTranslations({ locale, namespace: "navigation" });
   return buildMetadata({
     locale,
     path: `/galeria/${category}`,
-    title: `${t(`${galleryCategory.translationKey}.title`)} | Marosko`,
+    // "– Galéria" keeps the title distinct from the same-named /kategorie page.
+    title: `${t(`${galleryCategory.translationKey}.title`)} – ${tNav("gallery")} | Marosko`,
     // Use the short blurb, not the long on-page description, to keep the
     // <meta name="description"> within the ~160 character limit search
     // engines display.

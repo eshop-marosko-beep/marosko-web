@@ -1,6 +1,6 @@
 import { SITE_URL, alternateLanguageUrls } from "@/lib/seo";
 import { getPathname } from "@/navigation";
-import { galleryCategories } from "@/lib/galleryData";
+import { galleryCategories, getCanonicalGalleryPath } from "@/lib/galleryData";
 import { kategorieArticles } from "@/lib/kategorieArticles";
 import { guideArticles } from "@/lib/guideArticles";
 import { blogPosts } from "@/lib/blogData";
@@ -11,7 +11,13 @@ const staticPaths = ["/", "/o-nas", "/kategorie", "/akcie", "/znacky", "/galeria
 export function sitemapPaths(): string[] {
   const galleryCategoryPaths = galleryCategories.map(({ slug }) => `/galeria/${slug}`);
   const galleryImagePaths = galleryCategories.flatMap(({ slug, images }) =>
-    images.map(({ altKey }) => `/galeria/${slug}/${altKey}`)
+    images
+      .map(({ altKey }) => `/galeria/${slug}/${altKey}`)
+      // A product listed in two gallery categories is indexed only once.
+      .filter((path) => {
+        const [, , cat, key] = path.split("/");
+        return getCanonicalGalleryPath(cat, key) === path;
+      })
   );
   const kategorieDetailPaths = kategorieArticles.map(({ slug }) => `/kategorie/${slug}`);
   const kategorieSubcategoryPaths = kategorieArticles.flatMap(({ slug, subcategories }) =>

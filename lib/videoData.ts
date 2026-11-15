@@ -100,10 +100,10 @@ export const videos: Video[] = [
     slug: "rasplovy-kotuc-125mm-ostry-kraj",
     file: "rasplovy-kotuc-125mm-ostry-kraj",
     duration: "PT38S",
-    linkUrl: "https://eshop.marosko.sk/p/215/kotucova-sekana-raspla-s-ostrym-krajom-125-mm",
+    linkUrl: "https://eshop.marosko.sk/c/nastroje-do-uhlovej-brusky/nastroje-do-uhlovych-brusiek-na-drevo",
     linkUrlByLocale: {
-      cz: "https://eshop.marosko.sk/cz/p/215/kotoucova-sekana-rasple-s-ostrym-krajem125-mm",
-      ro: "https://eshop.marosko.sk/ro/p/215/disc-raspel-in-flex-125-mm-profil-v",
+      cz: "https://eshop.marosko.sk/cz/c/nastroje-do-uhlovej-brusky/nastroje-do-uhlovych-brusiek-na-drevo",
+      ro: "https://eshop.marosko.sk/ro/c/discuri-pentru-sculpta-in-polizor",
     },
     linkType: "external",
     translationKey: "rasplovyKotucOstryKraj",
@@ -129,7 +129,7 @@ export const videos: Video[] = [
     linkUrl: "https://eshop.marosko.sk/p/838/elektricke-dlato-arbortech-power-chisel-7-dielna-sada",
     linkUrlByLocale: {
       cz: "https://eshop.marosko.sk/cz/p/838/elektricke-dlato-arbortech-power-chisel-7-dilna-sada-novinka-1000w",
-      ro: "https://eshop.marosko.sk/ro/p/838/dalta-arbortech-power-chisel",
+      ro: "https://eshop.marosko.sk/ro/p/838/dalta-electrica-arobortech-power-chisel-7-dalti",
     },
     linkType: "external",
     translationKey: "arbortechPowerChisel",

@@ -185,11 +185,6 @@ export const kategorieArticles: KategorieArticle[] = [
             image:
               "https://eshop.marosko.sk/resize/e/800/800/files/kamenorezba/diamantove-dute-vrtaky/-vyrp11-7647-5-modra-velka-krab-vodo.jpg",
           },
-          {
-            id: "p1330",
-            url: "https://eshop.marosko.sk/p/1330/diamantovy-brusny-kotuc-150-mm-turbo",
-            image: "https://eshop.marosko.sk/resize/e/800/800/files/kamenorezba/475281-1.jpeg",
-          },
         ],
       },
       {
@@ -984,17 +979,6 @@ export const kategorieArticles: KategorieArticle[] = [
         eshopUrl: "https://eshop.marosko.sk/c/elektricke-naradie-pre-rezbarov/silverline-naradie",
         products: [
           {
-            id: "p1268",
-            url: "https://eshop.marosko.sk/p/1268/bruska-lesticka-180-mm-1200-w",
-            image:
-              "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/silverline/lesticka-1200w-180mm/264569-enwnmpro13.jpg",
-          },
-          {
-            id: "p1332",
-            url: "https://eshop.marosko.sk/p/1332/silverline-priama-bruska-135w",
-            image: "https://eshop.marosko.sk/resize/e/800/800/files/elektricke-naradie/silverline/silverine-priama-bruska-.jpg",
-          },
-          {
             id: "p704",
             url: "https://eshop.marosko.sk/p/704/teleskopicky-drziak-priamej-brusky",
             image:
@@ -1159,7 +1143,7 @@ export const kategorieArticles: KategorieArticle[] = [
           },
           {
             id: "p1431",
-            url: "https://eshop.marosko.sk/p/1431/dlata-stubai-zaciatocnik-4-dielna-sada",
+            url: "https://eshop.marosko.sk/p/1431/dlata-stubai-zaciatocnik-3-dielna-sada",
             image: "https://eshop.marosko.sk/resize/e/800/800/files/rucne-naradie/stubai/s520001-stubai-/stubai-zaciatocnik-4-dielna-sada.jpg",
           },
         ],
@@ -1238,11 +1222,6 @@ export const kategorieArticles: KategorieArticle[] = [
             id: "p1238",
             url: "https://eshop.marosko.sk/p/1238/dlato-m-stein-rovne",
             image: "https://eshop.marosko.sk/resize/e/800/800/files/dlata-m-stein-/m-stein-/dlato-vr1-10.jpeg",
-          },
-          {
-            id: "p1432",
-            url: "https://eshop.marosko.sk/p/1432/rovne-dlato-ploche-profil-1-seria-s52",
-            image: "https://eshop.marosko.sk/resize/e/800/800/files/rucne-naradie/stubai/profil-1-s52/5201.png",
           },
         ],
       },

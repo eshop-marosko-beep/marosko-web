@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/navigation";
 import { buildMetadata, excerptForMetaDescription } from "@/lib/seo";
-import { galleryCategories, getGalleryImage } from "@/lib/galleryData";
+import { galleryCategories, getCanonicalGalleryPath, getGalleryImage } from "@/lib/galleryData";
 import { routing } from "@/routing";
 import { buildBreadcrumbListSchema, buildProductSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
@@ -43,6 +43,7 @@ export async function generateMetadata({
   return buildMetadata({
     locale,
     path: `/galeria/${category}/${image}`,
+    canonicalPath: getCanonicalGalleryPath(category, image),
     title: `${title} | Marosko`,
     description: excerptForMetaDescription(description),
     image: found.image.src,

@@ -58,6 +58,16 @@ const nextConfig: NextConfig = {
             },
           ]
         : []),
+      // Gallery product pages removed 2026-11-15 (product no longer sold on the
+      // e-shop). Send them to their gallery category instead of a 404.
+      ...[
+        ["frezovacie-kotuce", "p383"],
+        ["prislusenstvo-priamej-brusky", "p1049"],
+        ["prislusenstvo-priamej-brusky", "p561"],
+      ].flatMap(([cat, key]) => [
+        { source: `/galeria/${cat}/${key}`, destination: `/galeria/${cat}`, permanent: true },
+        { source: `/:lang(sk|cz|en|ro)/galeria/${cat}/${key}`, destination: `/:lang/galeria/${cat}`, permanent: true },
+      ]),
       // Legacy Joomla article URL from the site's previous CMS, still indexed
       // by search engines. Redirect it to the current page instead of 404ing.
       {

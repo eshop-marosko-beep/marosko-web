@@ -55,14 +55,17 @@ export function buildMetadata({
   title,
   description,
   image = DEFAULT_OG_IMAGE,
+  canonicalPath,
 }: {
   locale: string;
   path: string;
+  /** When the same content lives at several paths, the one search engines should index. */
+  canonicalPath?: string;
   title: string;
   description: string;
   image?: string;
 }): Metadata {
-  const href = path === "" ? "/" : path;
+  const href = (canonicalPath ?? path) === "" ? "/" : (canonicalPath ?? path);
   const url = `${SITE_URL}${getPathname({ locale, href })}`;
   const languages = alternateLanguageUrls(href);
   const ogImage = toAbsoluteImageUrl(image);
