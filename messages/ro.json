@@ -3233,7 +3233,13 @@
   "promotions": {
     "title": "Promoții și lichidări de stoc",
     "subtitle": "Oferte limitate și lichidări de stoc – nu rata ocazia.",
-    "empty": "Momentan nu avem nicio promoție activă. Reveniți mai târziu!"
+    "empty": "Momentan nu avem nicio promoție activă. Reveniți mai târziu!",
+    "featured": "Oferta de top",
+    "buy": "Cumpără din magazin",
+    "save": "Economisiți {amount}",
+    "viewAll": "Toate ofertele din magazin",
+    "unavailable": "Nu am putut încărca ofertele chiar acum. Le găsiți direct în magazinul online.",
+    "priceNote": "Prețurile și disponibilitatea sunt preluate direct din magazinul online și actualizate în fiecare oră."
   },
   "rental": {
     "title": "Închiriere scule",

@@ -3234,7 +3234,13 @@
   "promotions": {
     "title": "Promotions & Clearance",
     "subtitle": "Limited-time offers and clearance sales while stocks last.",
-    "empty": "There are no active promotions right now. Check back soon!"
+    "empty": "There are no active promotions right now. Check back soon!",
+    "featured": "Top deal",
+    "buy": "Buy in the e-shop",
+    "save": "You save {amount}",
+    "viewAll": "All deals in the e-shop",
+    "unavailable": "We couldn't load the current deals right now. You'll find them directly in the e-shop.",
+    "priceNote": "Prices and availability come straight from the e-shop and are refreshed every hour."
   },
   "rental": {
     "title": "Tool rental",

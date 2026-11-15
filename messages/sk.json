@@ -3233,7 +3233,13 @@
   "promotions": {
     "title": "Akcie a výpredaje",
     "subtitle": "Limitované ponuky a výpredaj skladových zásob – oplatí sa nezaspať.",
-    "empty": "Momentálne nemáme žiadnu aktívnu akciu. Pozrite sa opäť neskôr!"
+    "empty": "Momentálne nemáme žiadnu aktívnu akciu. Pozrite sa opäť neskôr!",
+    "featured": "Top ponuka",
+    "buy": "Kúpiť v e-shope",
+    "save": "Ušetríte {amount}",
+    "viewAll": "Všetky akcie v e-shope",
+    "unavailable": "Akciové ponuky sa nám práve nepodarilo načítať. Aktuálne akcie nájdete priamo v e-shope.",
+    "priceNote": "Ceny a dostupnosť sa načítavajú priamo z e-shopu a aktualizujú sa každú hodinu."
   },
   "rental": {
     "title": "Požičovňa náradia",
