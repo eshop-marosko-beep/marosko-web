@@ -91,8 +91,8 @@ export function buildOrganizationSchema() {
     ],
     sameAs: [
       "https://eshop.marosko.sk",
-      "https://vercajch.eu",
-      "https://rezbarskenaradie.sk",
+      "https://www.vercajch.eu/",
+      "https://www.rezbarskenaradie.sk/",
       MAPS_URL,
       ...socialLinks.map(({ url }) => url),
     ],

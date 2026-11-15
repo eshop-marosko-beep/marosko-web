@@ -15,11 +15,11 @@ export const shops: Shop[] = [
   {
     slug: "vercajch",
     translationKey: "vercajch",
-    url: "https://vercajch.eu",
+    url: "https://www.vercajch.eu/",
   },
   {
     slug: "rezbarske-naradie",
     translationKey: "rezbarskeNaradie",
-    url: "https://rezbarskenaradie.sk",
+    url: "https://www.rezbarskenaradie.sk/",
   },
 ];
