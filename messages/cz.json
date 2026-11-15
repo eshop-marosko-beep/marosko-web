@@ -2749,7 +2749,9 @@
     "productInquiries": "Dotazy k produktům",
     "shipping": "Expedice",
     "gdprLink": "Ochrana osobních údajů",
-    "cookieSettingsLink": "Nastavení cookies"
+    "cookieSettingsLink": "Nastavení cookies",
+    "promotionsTitle": "Top akce",
+    "promotionsAll": "Všechny akce a výprodeje"
   },
   "meta": {
     "home": {

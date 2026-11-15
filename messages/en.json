@@ -2749,7 +2749,9 @@
     "productInquiries": "Product inquiries",
     "shipping": "Shipping",
     "gdprLink": "Privacy Policy",
-    "cookieSettingsLink": "Cookie settings"
+    "cookieSettingsLink": "Cookie settings",
+    "promotionsTitle": "Top deals",
+    "promotionsAll": "All deals & clearance"
   },
   "meta": {
     "home": {

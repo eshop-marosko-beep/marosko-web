@@ -2749,7 +2749,9 @@
     "productInquiries": "Întrebări despre produse",
     "shipping": "Expediere",
     "gdprLink": "Protecția datelor cu caracter personal",
-    "cookieSettingsLink": "Setări cookies"
+    "cookieSettingsLink": "Setări cookies",
+    "promotionsTitle": "Top promoții",
+    "promotionsAll": "Toate promoțiile"
   },
   "meta": {
     "home": {

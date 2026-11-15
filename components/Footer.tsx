@@ -4,6 +4,7 @@ import { Link } from "@/navigation";
 import { useLocale, useTranslations } from "next-intl";
 import { openCookieSettings } from "@/lib/cookieConsent";
 import SocialIcons from "@/components/SocialIcons";
+import FooterPromos from "@/components/FooterPromos";
 import { getEshopUrl } from "@/lib/eshopUrl";
 
 export default function Footer() {
@@ -12,7 +13,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-espresso-900 text-cream-100 mt-12">
-      <div className="container mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="container mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         <div>
           <h3 className="font-bold text-white mb-3">{t("companyTitle")}</h3>
           <p className="text-sm text-cream-100/80 leading-relaxed">
@@ -67,6 +68,8 @@ export default function Footer() {
             </li>
           </ul>
         </div>
+
+        <FooterPromos />
       </div>
 
       <div className="border-t border-white/10 py-6 flex flex-col items-center gap-4">
