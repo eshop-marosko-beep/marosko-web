@@ -19,6 +19,11 @@
     "openImage": "Otevřít obrázek v plné velikosti"
   },
   "home": {
+    "promotions": {
+      "title": "Top akce a výprodeje",
+      "subtitle": "Vybrané akční nabídky z našeho e-shopu – ceny platí do vyprodání zásob.",
+      "cta": "Všechny akce a výprodeje ({count})"
+    },
     "hero": {
       "title": "Nářadí, na které se můžete spolehnout",
       "subtitle": "Frézovací kotouče, ruční i elektrické nářadí pro profesionály i domácí kutily – vše na jednom místě.",

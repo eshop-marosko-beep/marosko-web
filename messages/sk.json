@@ -19,6 +19,11 @@
     "openImage": "Otvoriť obrázok v plnej veľkosti"
   },
   "home": {
+    "promotions": {
+      "title": "Top akcie a výpredaje",
+      "subtitle": "Vybrané akciové ponuky z nášho e-shopu – ceny platia do vypredania zásob.",
+      "cta": "Všetky akcie a výpredaje ({count})"
+    },
     "hero": {
       "title": "Náradie, na ktoré sa môžete spoľahnúť",
       "subtitle": "Frézovacie kotúče, ručné aj elektrické náradie pre profesionálov aj domácich majstrov – všetko na jednom mieste.",

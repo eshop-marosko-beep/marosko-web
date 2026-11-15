@@ -19,6 +19,11 @@
     "openImage": "Deschide imaginea la mărimea completă"
   },
   "home": {
+    "promotions": {
+      "title": "Top promoții și lichidări",
+      "subtitle": "Oferte selectate din magazinul nostru online – prețuri valabile în limita stocului.",
+      "cta": "Toate promoțiile ({count})"
+    },
     "hero": {
       "title": "Unelte pe care te poți baza",
       "subtitle": "Discuri de frezat, unelte manuale și electrice pentru profesioniști și meșteri amatori – totul într-un singur loc.",

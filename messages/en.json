@@ -19,6 +19,11 @@
     "openImage": "Open image in full size"
   },
   "home": {
+    "promotions": {
+      "title": "Top deals & clearance",
+      "subtitle": "Selected offers from our e-shop – prices valid while stocks last.",
+      "cta": "All deals & clearance ({count})"
+    },
     "hero": {
       "title": "Tools you can rely on",
       "subtitle": "Milling discs, hand tools and power tools for professionals and DIY enthusiasts – all in one place.",

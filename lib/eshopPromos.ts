@@ -198,3 +198,14 @@ export async function getEshopPromos(locale: string): Promise<EshopPromos | null
     return null;
   }
 }
+
+/** The shop's "TOP produkt mesiaca", else its first sale product. */
+export function pickFeaturedPromo(products: EshopPromo[]): EshopPromo | undefined {
+  return products.find((p) => p.isTopProduct) ?? products[0];
+}
+
+/** Products for a short "top deals" teaser: the shop's TOP products first,
+ * then the rest in the shop's order. */
+export function pickTopPromos(products: EshopPromo[], count: number): EshopPromo[] {
+  return [...products.filter((p) => p.isTopProduct), ...products.filter((p) => !p.isTopProduct)].slice(0, count);
+}

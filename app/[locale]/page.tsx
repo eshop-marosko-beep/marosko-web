@@ -1,5 +1,6 @@
 import Hero from "@/components/home/Hero";
 import StatsBar from "@/components/StatsBar";
+import HomePromos from "@/components/home/HomePromos";
 import Categories from "@/components/home/Categories";
 import BrandSpotlightTabs from "@/components/home/BrandSpotlightTabs";
 import AboutSection from "@/components/home/AboutSection";
@@ -12,6 +13,9 @@ import { buildMetadata } from "@/lib/seo";
 import { buildOrganizationSchema, buildFaqSchema } from "@/lib/structuredData";
 import { spotlightTabs } from "@/lib/spotlightData";
 import type { Metadata } from "next";
+
+// The "top deals" section shows live e-shop prices; re-render at most hourly.
+export const revalidate = 3600;
 
 export async function generateMetadata({
   params,
@@ -46,6 +50,7 @@ export default async function HomePage({
       <StructuredData data={faqSchema} />
       <Hero />
       <StatsBar />
+      <HomePromos locale={locale} />
       <Categories />
       <BrandSpotlightTabs tabs={spotlightTabs} />
       <AboutSection />
