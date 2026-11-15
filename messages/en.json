@@ -1985,7 +1985,7 @@
         },
         "p837": {
           "title": "Sanding belts for the Manpa belt sander, 30 × 620 mm",
-          "description": "Sanding belts for a belt sander, for roughing out and smoothing wood."
+          "description": "30 × 620 mm sanding belts for the Manpa arm belt sander, for roughing out and smoothing wood. Aluminium oxide on cloth, several grits."
         },
         "p797": {
           "title": "Extension adapter M14 / M10 (+M16)",
@@ -2025,7 +2025,7 @@
         },
         "p1022": {
           "title": "Replacement V-belts for the Manpa arm",
-          "description": "Replacement drive belts for the Manpa arm's transmission."
+          "description": "Replacement drive belts for the Manpa arm's transmission. They carry power from the grinder to the cutter and help prevent kickback if it jams."
         },
         "p932": {
           "title": "Flanges with pins for Manpa discs",
@@ -2081,7 +2081,7 @@
         },
         "p1415": {
           "title": "Diamond cutting disc 85 mm",
-          "description": "A diamond cutting disc for angle grinders, for precise, clean cuts."
+          "description": "A diamond cutting disc for angle grinders, for precise, clean cuts in stone, concrete and other hard building materials."
         },
         "p1505": {
           "title": "Manpa Multi Cutter Head 70 mm (3″) cutting head",
@@ -2134,7 +2134,7 @@
         },
         "p906": {
           "title": "Kirjes Swedish organic wax",
-          "description": "A Swedish organic wax for nourishing and protecting wood surfaces."
+          "description": "A Swedish organic wax for nourishing and protecting wood surfaces. It brings out the grain and suits carvings, bowls and furniture."
         },
         "p908": {
           "title": "Kirjes 908 polishing accessory kit",
@@ -2210,7 +2210,7 @@
         },
         "p1468": {
           "title": "DEL EXTRA, 1 l",
-          "description": "A treatment product for the care and maintenance of wood surfaces."
+          "description": "A treatment product for the care and maintenance of wood surfaces. It refreshes and protects carvings, furniture and small wooden items."
         },
         "p946": {
           "title": "Shellac polish, ruby, 250 ml",
@@ -2238,7 +2238,7 @@
         },
         "p1288": {
           "title": "Foam polishing pad with hook-and-loop, 125 × 38 mm",
-          "description": "A hook-and-loop foam polishing pad for both hand and machine buffing."
+          "description": "A hook-and-loop foam polishing pad for both hand and machine buffing. Use it with wax or polish to bring wood and finishes to a gloss."
         },
         "p1434": {
           "title": "Litostucco – fast-drying filler for wood and plaster",
@@ -2646,7 +2646,7 @@
         "description": "Angled convex needle rasp disc without holes, Ø 100 mm, fine grit. For fine shaping of wood, chipboard, laminate, plastics and more with an angle grinder."
       },
       "ihlickovaSikmaExtraHruba": {
-        "title": "Angled convex needle rasp disc without holes, Ø 100 mm, extra coarse",
+        "title": "Angled convex needle rasp disc, no holes, Ø 100 mm, extra coarse",
         "description": "Angled convex needle rasp disc without holes, Ø 100 mm, extra coarse (orange). Maximum stock removal when roughing out wood with an angle grinder."
       },
       "ihlickovaGulataJemna": {

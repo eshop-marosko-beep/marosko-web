@@ -1948,7 +1948,7 @@
         },
         "p609": {
           "title": "Náhradná reťaz Merlin, 8-zubová",
-          "description": "Náhradná reťaz Merlin na výmenu opotrebovanej reťaze mini frézky."
+          "description": "Náhradná reťaz Merlin na výmenu opotrebovanej reťaze mini frézky. Vráti frézke pôvodný rýchly úber pri tvarovaní a dlabaní dreva."
         },
         "p608": {
           "title": "Mini frézka Merlin 50 mm, 4-zubová reťazová",
@@ -1985,7 +1985,7 @@
         },
         "p837": {
           "title": "Brúsne pásy na pásovú brúsku Manpa, 30 × 620 mm",
-          "description": "Brúsne pásy na pásovú brúsku, na hrubovanie a hladenie dreva."
+          "description": "Brúsne pásy 30 × 620 mm na pásovú brúsku Manpa na ramene, na hrubovanie a hladenie dreva. Korund na plátne, viac zrnitostí."
         },
         "p797": {
           "title": "Predlžovacia prechodka M14 / M10 (+M16)",
@@ -2025,7 +2025,7 @@
         },
         "p1022": {
           "title": "Náhradné klinové remene k ramenu Manpa",
-          "description": "Náhradné klinové remene pre prevod ramena Manpa."
+          "description": "Náhradné ozubené remene pre prevod ramena Manpa. Prenášajú silu z brúsky na frézu a pri zaseknutí chránia pred spätným rázom."
         },
         "p932": {
           "title": "Príruby s čapmi pre kotúče Manpa",
@@ -2081,7 +2081,7 @@
         },
         "p1415": {
           "title": "Diamantový rezný kotúč 85 mm",
-          "description": "Diamantový rezný kotúč na uhlovú brúsku na presné a čisté rezanie."
+          "description": "Diamantový rezný kotúč na uhlovú brúsku na presné a čisté rezanie. Hodí sa na kameň, betón a tvrdé stavebné materiály."
         },
         "p1505": {
           "title": "Manpa frézovací nástavec 70 mm (Multi Cutter Head 3″)",
@@ -2130,11 +2130,11 @@
         },
         "p1165": {
           "title": "Vosk na drevo, čierny, 500 ml",
-          "description": "Vosk na drevo na farebné zvýraznenie štruktúry a ochranu povrchu."
+          "description": "Vosk na drevo na farebné zvýraznenie štruktúry a ochranu povrchu. Ľahko sa nanáša a vyleští do jemného matného lesku."
         },
         "p906": {
           "title": "Švédsky organický vosk Kirjes",
-          "description": "Švédsky organický vosk na výživu a ochranu dreveného povrchu."
+          "description": "Švédsky organický vosk na výživu a ochranu dreveného povrchu. Zvýrazní kresbu dreva a hodí sa na rezby, misky aj nábytok."
         },
         "p908": {
           "title": "Leštiaca doplnková súprava Kirjes 908",
@@ -2210,7 +2210,7 @@
         },
         "p1468": {
           "title": "DEL EXTRA, 1 l",
-          "description": "Prípravok na ošetrenie a údržbu dreveného povrchu."
+          "description": "Prípravok na ošetrenie a údržbu dreveného povrchu. Oživí a ochráni drevo na rezbách, nábytku aj drobných predmetoch."
         },
         "p946": {
           "title": "Šelaková politúra, rubínová, 250 ml",
@@ -2610,7 +2610,7 @@
         "description": "Frézovacia stopka Turboshaft 20 mm od Arbortech na detailné voľné tvarovanie, dlábanie a drážkovanie dreva. Dva vymeniteľné a otočné karbidové rezné zuby, nastaviteľný doraz hĺbky, dlhšia úzka stopka na prácu v hlbokých a úzkych profiloch. Vhodná na uhlové brúsky 100/115 mm, min. 9 000 ot./min."
       },
       "ihlickovaRasplaGulataHruba": {
-        "title": "Ihličková rašpľa oblá, bez otvorov, priemer 100 mm, hrubá (zelená)",
+        "title": "Ihličková rašpľa oblá, bez otvorov, Ø 100 mm, hrubá (zelená)",
         "description": "Profesionálna hrubá ihličková rašpla Saburrtooth (USA) s priemerom 100 mm do uhlovej brúsky, max. 14 000 ot./min. Hrubá zrnitosť pre rýchly úber materiálu, tvrdokovové ihličky s dlhou životnosťou, medzipriestor medzi ihličkami zabraňuje prehrievaniu a páleniu dreva. Vhodná na drevo, laminát, plasty, gumu – nie na kov ani kameň."
       },
       "rasplaZapustenaJemna115mm": {
@@ -2618,7 +2618,7 @@
         "description": "Rašpľový kotúč KZR-53 s priemerom 115 mm, upínanie 22,2 mm. Zapustený rovný tvar umožňuje brúsiť až po okraj bez toho, aby prítlačná matica prekážala. Jemný sek – vhodný na odstraňovanie farieb, lakov a lepidiel bez poškodenia podkladu, na drevo, plasty, sklolaminát, gumu aj kožu. Nevhodný na pórobetón."
       },
       "ihlickovaRasplaPlochaExtraHruba": {
-        "title": "Ihličková rašpľa plochá rovná, priemer 100 mm, extra hrubá (oranžová)",
+        "title": "Ihličková rašpľa plochá rovná, Ø 100 mm, extra hrubá (oranžová)",
         "description": "Extra hrubá ihličková rašpla Saburrtooth (USA), priemer 100 mm, max. 14 000 ot./min. Rovný tvar ideálny na prácu na rovných plochách (dosky, fošne). Extrémny úber materiálu, tvrdokovové ihličky s dlhou životnosťou. Vhodná na drevo, laminát, plasty, gumu – nie na kov ani kameň."
       },
       "kotucovaSekanaRaspla": {
@@ -2646,7 +2646,7 @@
         "description": "Ihličková rašpľa šikmá oblá bez otvorov, Ø 100 mm, jemná. Na jemné tvarovanie dreva, drevotriesky, laminátu, plastov a ďalších materiálov uhlovou brúskou."
       },
       "ihlickovaSikmaExtraHruba": {
-        "title": "Ihličková rašpľa šikmá, oblá, bez otvorov, priemer 100 mm, extra hrubá",
+        "title": "Ihličková rašpľa šikmá, oblá, bez otvorov, Ø 100 mm, extra hrubá",
         "description": "Ihličková rašpľa šikmá oblá bez otvorov, Ø 100 mm, extra hrubá (oranžová). Maximálny úber materiálu pri hrubovaní dreva uhlovou brúskou."
       },
       "ihlickovaGulataJemna": {

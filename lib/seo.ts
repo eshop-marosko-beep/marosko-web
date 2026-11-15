@@ -49,6 +49,20 @@ export function excerptForMetaDescription(text: string, maxLength = 160): string
   return cut.trim() + "…";
 }
 
+/**
+ * Search engines cut titles at roughly 60–65 characters. When a title is too
+ * long, drop the trailing " | Marosko" or " – <section>" suffix rather than
+ * let the product name itself be truncated.
+ */
+export function fitTitle(raw: string, max = 65): string {
+  let title = raw.replace(/\s+/g, " ").trim();
+  for (const sep of [" | ", " – "]) {
+    const i = title.lastIndexOf(sep);
+    if (title.length > max && i > 0) title = title.slice(0, i);
+  }
+  return title;
+}
+
 export function buildMetadata({
   locale,
   path,
@@ -66,6 +80,7 @@ export function buildMetadata({
   image?: string;
 }): Metadata {
   const href = (canonicalPath ?? path) === "" ? "/" : (canonicalPath ?? path);
+  title = fitTitle(title);
   const url = `${SITE_URL}${getPathname({ locale, href })}`;
   const languages = alternateLanguageUrls(href);
   const ogImage = toAbsoluteImageUrl(image);

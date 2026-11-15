@@ -1948,7 +1948,7 @@
         },
         "p609": {
           "title": "Náhradní řetěz Merlin, 8zubový",
-          "description": "Náhradní řetěz Merlin na výměnu opotřebovaného řetězu mini frézky."
+          "description": "Náhradní řetěz Merlin na výměnu opotřebovaného řetězu mini frézky. Vrátí frézce původní rychlý úběr při tvarování a dlabání dřeva."
         },
         "p608": {
           "title": "Mini frézka Merlin 50 mm, 4zubová řetězová",
@@ -1985,7 +1985,7 @@
         },
         "p837": {
           "title": "Brusné pásy na pásovou brusku Manpa, 30 × 620 mm",
-          "description": "Brusné pásy na pásovou brusku, na hrubování a hlazení dřeva."
+          "description": "Brusné pásy 30 × 620 mm na pásovou brusku Manpa na rameni, na hrubování a hlazení dřeva. Korund na plátně, více zrnitostí."
         },
         "p797": {
           "title": "Prodlužovací přechodka M14 / M10 (+M16)",
@@ -2025,7 +2025,7 @@
         },
         "p1022": {
           "title": "Náhradní klínové řemeny k ramenu Manpa",
-          "description": "Náhradní klínové řemeny pro převod ramene Manpa."
+          "description": "Náhradní ozubené řemeny pro převod ramene Manpa. Přenášejí sílu z brusky na frézu a při zaseknutí chrání před zpětným rázem."
         },
         "p932": {
           "title": "Příruby s čepy pro kotouče Manpa",
@@ -2081,7 +2081,7 @@
         },
         "p1415": {
           "title": "Diamantový řezný kotouč 85 mm",
-          "description": "Diamantový řezný kotouč na úhlovou brusku na přesné a čisté řezání."
+          "description": "Diamantový řezný kotouč na úhlovou brusku na přesné a čisté řezání. Hodí se na kámen, beton a tvrdé stavební materiály."
         },
         "p1505": {
           "title": "Manpa frézovací nástavec 70 mm (Multi Cutter Head 3″)",
@@ -2130,11 +2130,11 @@
         },
         "p1165": {
           "title": "Vosk na dřevo, černý, 500 ml",
-          "description": "Vosk na dřevo na barevné zvýraznění struktury a ochranu povrchu."
+          "description": "Vosk na dřevo na barevné zvýraznění struktury a ochranu povrchu. Snadno se nanáší a vyleští do jemného matného lesku."
         },
         "p906": {
           "title": "Švédský organický vosk Kirjes",
-          "description": "Švédský organický vosk na výživu a ochranu dřevěného povrchu."
+          "description": "Švédský organický vosk na výživu a ochranu dřevěného povrchu. Zvýrazní kresbu dřeva a hodí se na řezby, misky i nábytek."
         },
         "p908": {
           "title": "Leštící doplňková souprava Kirjes 908",
@@ -2210,7 +2210,7 @@
         },
         "p1468": {
           "title": "DEL EXTRA, 1 l",
-          "description": "Přípravek na ošetření a údržbu dřevěného povrchu."
+          "description": "Přípravek na ošetření a údržbu dřevěného povrchu. Oživí a ochrání dřevo na řezbách, nábytku i drobných předmětech."
         },
         "p946": {
           "title": "Šelaková politura, rubínová, 250 ml",
@@ -2610,7 +2610,7 @@
         "description": "Frézovací stopka Turboshaft 20 mm od Arbortech na detailní volné tvarování, dlabání a drážkování dřeva. Dva vyměnitelné a otočné karbidové řezné zuby, nastavitelná hloubková zarážka, delší úzká stopka pro práci v hlubokých a úzkých profilech. Vhodná na úhlové brusky 100/115 mm, min. 9 000 ot./min."
       },
       "ihlickovaRasplaGulataHruba": {
-        "title": "Jehličková rašple kulatá, bez otvorů, průměr 100 mm, hrubá (zelená)",
+        "title": "Jehličková rašple kulatá, bez otvorů, Ø 100 mm, hrubá (zelená)",
         "description": "Profesionální hrubá jehličková rašple Saburrtooth (USA) s průměrem 100 mm do úhlové brusky, max. 14 000 ot./min. Hrubá zrnitost pro rychlý úběr materiálu, tvrdokovové jehličky s dlouhou životností, mezera mezi jehličkami zabraňuje přehřívání a pálení dřeva. Vhodná na dřevo, laminát, plasty, gumu – nikoli na kov ani kámen."
       },
       "rasplaZapustenaJemna115mm": {
@@ -2618,11 +2618,11 @@
         "description": "Rašplový kotouč KZR-53 s průměrem 115 mm, upnutí 22,2 mm. Zapuštěný rovný tvar umožňuje brousit až po okraj, aniž by přítlačná matice překážela. Jemný sek – vhodný na odstraňování barev, laků a lepidel bez poškození podkladu, na dřevo, plasty, sklolaminát, gumu i kůži. Nevhodný na pórobeton."
       },
       "ihlickovaRasplaPlochaExtraHruba": {
-        "title": "Jehličková rašple plochá rovná, průměr 100 mm, extra hrubá (oranžová)",
+        "title": "Jehličková rašple plochá rovná, Ø 100 mm, extra hrubá (oranžová)",
         "description": "Extra hrubá jehličková rašple Saburrtooth (USA), průměr 100 mm, max. 14 000 ot./min. Rovný tvar ideální pro práci na rovných plochách (desky, fošny). Extrémní úběr materiálu, tvrdokovové jehličky s dlouhou životností. Vhodná na dřevo, laminát, plasty, gumu – nikoli na kov ani kámen."
       },
       "kotucovaSekanaRaspla": {
-        "title": "Kotoučová sekaná rašple pro Arbortech Mini Grinder a Merlin, 50 mm",
+        "title": "Sekaná rašple 50 mm pro Arbortech Mini Grinder a Merlin",
         "description": "Ručně sekaná kotoučová rašple 50 mm pro Arbortech Mini Grinder, Mini Carver a Merlin. Ideální pro rychlé a agresivní tvarování, hrubé obrábění a tvorbu textury ve dřevě."
       },
       "diamantovyKotucDrazkovy": {
@@ -2646,7 +2646,7 @@
         "description": "Jehličková rašple šikmá oblá bez otvorů, Ø 100 mm, jemná. Pro jemné tvarování dřeva, dřevotřísky, laminátu, plastů a dalších materiálů úhlovou bruskou."
       },
       "ihlickovaSikmaExtraHruba": {
-        "title": "Jehličková rašple šikmá, oblá, bez otvorů, průměr 100 mm, extra hrubá",
+        "title": "Jehličková rašple šikmá, oblá, bez otvorů, Ø 100 mm, extra hrubá",
         "description": "Jehličková rašple šikmá oblá bez otvorů, Ø 100 mm, extra hrubá (oranžová). Maximální úběr materiálu při hrubování dřeva úhlovou bruskou."
       },
       "ihlickovaGulataJemna": {
