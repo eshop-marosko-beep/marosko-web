@@ -12,10 +12,18 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { buildMetadata } from "@/lib/seo";
 import { buildOrganizationSchema, buildFaqSchema } from "@/lib/structuredData";
 import { spotlightTabs } from "@/lib/spotlightData";
+import { routing } from "@/routing";
 import type { Metadata } from "next";
 
-// The "top deals" section shows live e-shop prices; re-render at most hourly.
-export const revalidate = 3600;
+// The "top deals" section shows live e-shop prices; re-render at most every 6 hours.
+export const revalidate = 21600;
+
+// Without static params for the locales (the [locale] layout has none) the
+// page was server-rendered on every request and `revalidate` was ignored.
+// Prerendering the 4 locales makes it ISR: one render per locale per 6 hours.
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
 export async function generateMetadata({
   params,

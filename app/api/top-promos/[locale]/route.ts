@@ -5,9 +5,9 @@ import { getEshopPromos, pickTopPromos } from "@/lib/eshopPromos";
 /** A few top sale products for the site footer. The footer is a client
  * component shared by every page, so it loads these after render instead
  * of making every page depend on the e-shop. One static response per
- * locale, regenerated at most hourly (like /akcie). */
+ * locale, regenerated at most every 6 hours (like /akcie). */
 export const dynamic = "force-static";
-export const revalidate = 3600;
+export const revalidate = 21600;
 export const dynamicParams = false;
 
 const COUNT = 3;

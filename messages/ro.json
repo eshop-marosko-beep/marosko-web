@@ -3247,7 +3247,7 @@
     "save": "Economisiți {amount}",
     "viewAll": "Toate ofertele din magazin",
     "unavailable": "Nu am putut încărca ofertele chiar acum. Le găsiți direct în magazinul online.",
-    "priceNote": "Prețurile și disponibilitatea sunt preluate direct din magazinul online și actualizate în fiecare oră."
+    "priceNote": "Prețurile și disponibilitatea sunt preluate direct din magazinul online și actualizate la fiecare 6 ore."
   },
   "rental": {
     "title": "Închiriere scule",

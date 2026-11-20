@@ -46,7 +46,9 @@ export async function GET(_request: Request, { params }: { params: Promise<{ pat
     return new Response(new Uint8Array(jpeg), {
       headers: {
         "Content-Type": "image/jpeg",
-        "Cache-Control": "public, max-age=86400, s-maxage=604800",
+        // Converting with sharp costs Vercel CPU, so let the CDN keep each photo
+        // for 30 days (eshop photo paths do not change once uploaded).
+        "Cache-Control": "public, max-age=604800, s-maxage=2592000, stale-while-revalidate=604800",
       },
     });
   } catch {

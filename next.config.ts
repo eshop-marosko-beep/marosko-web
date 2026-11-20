@@ -20,24 +20,26 @@ const nextConfig: NextConfig = {
       },
     ],
   },
-  // AI product feed for eshop.marosko.sk. BiznisWeb cannot host custom files,
-  // so the feed is generated daily from the BiznisWeb API on the
-  // rezbarskenaradie.sk server and served here under the marosko.sk brand.
-  async rewrites() {
+  async redirects() {
     return [
+      // AI product feed for eshop.marosko.sk. BiznisWeb cannot host custom
+      // files, so the feed is generated daily from the BiznisWeb API on the
+      // rezbarskenaradie.sk server. It used to be proxied here with a rewrite,
+      // but every ~2 MB download by a bot then counted as Vercel Fast Origin
+      // Transfer and pushed the Hobby team over its limit (Nov 2026). A
+      // redirect sends bots to the real host, so Vercel serves only a few
+      // bytes. Temporary, so the old URLs keep working if the host changes.
       {
         source: '/agent-feed.json',
         destination: 'https://www.rezbarskenaradie.sk/marosko/agent-feed.json',
+        permanent: false,
       },
       // Czech (CZK) and Romanian (RON) versions of the same feed.
       {
         source: '/:lang(cz|ro)/agent-feed.json',
         destination: 'https://www.rezbarskenaradie.sk/marosko/:lang/agent-feed.json',
+        permanent: false,
       },
-    ];
-  },
-  async redirects() {
-    return [
       // Visiting the site via any *.vercel.app alias or per-deployment URL
       // (instead of the custom domain) is unprofessional to share/copy and
       // creates duplicate-content exposure outside the canonical domain.

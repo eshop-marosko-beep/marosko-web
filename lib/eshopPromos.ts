@@ -7,10 +7,10 @@
  *
  * The shop paginates the category 20 products at a time (?cProdPage=0, 20,
  * 40, ...). Pages are fetched one after another and cached by Next for
- * REVALIDATE_SECONDS, so the shop sees a handful of requests per hour. */
+ * REVALIDATE_SECONDS (6 h), so the shop sees only a few requests a day. */
 
 const ESHOP_BASE_URL = "https://eshop.marosko.sk";
-export const PROMOS_REVALIDATE_SECONDS = 3600;
+export const PROMOS_REVALIDATE_SECONDS = 21600;
 const PAGE_SIZE = 20;
 /** Safety cap against a pagination loop if the shop markup changes. */
 const MAX_PAGES = 15;

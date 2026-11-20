@@ -1,5 +1,5 @@
 /* Products of eshop.marosko.sk, read from the daily AI product feed (the
- * same file served at www.marosko.sk/agent-feed.json). Used to pick photos
+ * same file www.marosko.sk/agent-feed.json redirects to). Used to pick photos
  * and the product link for TikTok photo posts.
  *
  * The feed is ~2 MB, too large for Next's fetch cache, so each server

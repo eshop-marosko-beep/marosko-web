@@ -6,8 +6,9 @@ import { sitemapPaths } from "@/lib/sitemap";
 import { getCatalog } from "@/lib/rental/catalog";
 import { getCustomArticles } from "@/lib/guidesCatalog";
 
-// Rental tools and guide articles are added in the admin panel, so rebuild the list hourly.
-export const revalidate = 3600;
+// Rental tools and guide articles are added in the admin panel, so rebuild the
+// list daily (hourly regeneration cost too many Vercel ISR writes/reads).
+export const revalidate = 86400;
 
 async function customArticlePaths(): Promise<string[]> {
   return (await getCustomArticles()).filter((a) => a.active).map((a) => `/navody/clanky/${a.slug}`);

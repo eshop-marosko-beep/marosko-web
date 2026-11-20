@@ -25,9 +25,9 @@ export async function GET() {
     `# RO: ${SITE_URL}/ro/eshop/llms.txt`,
     "",
     "# Product feeds (JSON) for AI shopping agents:",
-    `# SK (EUR): ${SITE_URL}/agent-feed.json`,
-    `# CZ (CZK): ${SITE_URL}/cz/agent-feed.json`,
-    `# RO (RON): ${SITE_URL}/ro/agent-feed.json`,
+    `# SK (EUR): https://www.rezbarskenaradie.sk/marosko/agent-feed.json`,
+    `# CZ (CZK): https://www.rezbarskenaradie.sk/marosko/cz/agent-feed.json`,
+    `# RO (RON): https://www.rezbarskenaradie.sk/marosko/ro/agent-feed.json`,
     "",
   ].join("\n");
 
