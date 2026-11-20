@@ -7,8 +7,8 @@ import StructuredData from "@/components/StructuredData";
 import type { Metadata } from "next";
 
 // Products, prices and stock come live from the e-shop's sale category;
-// re-render at most every 6 hours (matches PROMOS_REVALIDATE_SECONDS).
-export const revalidate = 21600;
+// re-render at most once a day (matches PROMOS_REVALIDATE_SECONDS).
+export const revalidate = 86400;
 
 export async function generateMetadata({
   params,

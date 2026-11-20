@@ -14,8 +14,8 @@ import { buildOrganizationSchema, buildFaqSchema } from "@/lib/structuredData";
 import { spotlightTabs } from "@/lib/spotlightData";
 import type { Metadata } from "next";
 
-// The "top deals" section shows live e-shop prices; re-render at most every 6 hours.
-export const revalidate = 21600;
+// The "top deals" section shows live e-shop prices; re-render at most once a day.
+export const revalidate = 86400;
 
 export async function generateMetadata({
   params,

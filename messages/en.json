@@ -3248,7 +3248,7 @@
     "save": "You save {amount}",
     "viewAll": "All deals in the e-shop",
     "unavailable": "We couldn't load the current deals right now. You'll find them directly in the e-shop.",
-    "priceNote": "Prices and availability come straight from the e-shop and are refreshed every 6 hours."
+    "priceNote": "Prices and availability come straight from the e-shop and are refreshed once a day."
   },
   "rental": {
     "title": "Tool rental",

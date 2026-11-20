@@ -3247,7 +3247,7 @@
     "save": "Ušetříte {amount}",
     "viewAll": "Všechny akce v e-shopu",
     "unavailable": "Akční nabídky se nám teď nepodařilo načíst. Aktuální akce najdete přímo v e-shopu.",
-    "priceNote": "Ceny a dostupnost se načítají přímo z e-shopu a aktualizují se každých 6 hodin."
+    "priceNote": "Ceny a dostupnost se načítají přímo z e-shopu a aktualizují se jednou denně."
   },
   "rental": {
     "title": "Půjčovna nářadí",
