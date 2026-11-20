@@ -10,9 +10,9 @@ const HEUREKA_REVIEWS_ENDPOINT = "https://www.heureka.sk/direct/dotaznik/export-
 const MYMEMORY_ENDPOINT = "https://api.mymemory.translated.net/get";
 const MIN_RATING = 4;
 const MAX_REVIEWS = 20;
-// Heureka regenerates the "Overené zákazníkmi" export roughly every 6 hours, so there is
-// no point revalidating more often than that.
-const REVALIDATE_SECONDS = 21600;
+// Heureka regenerates the "Overené zákazníkmi" export roughly every 6 hours, but the
+// testimonials barely change, so refresh them every 30 days to save Vercel usage.
+const REVALIDATE_SECONDS = 2592000;
 
 // Reviews on heureka.sk are always written in Slovak; map each site locale to the
 // MyMemory language code to translate into (sk itself needs no translation).
