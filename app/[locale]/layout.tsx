@@ -9,6 +9,15 @@ import GoogleAnalytics from '@/components/GoogleAnalytics';
 import ChatWidget from '@/components/ChatWidget';
 import ShareButtons from '@/components/ShareButtons';
 import { isPreviewDeployment } from '@/lib/rental/preview';
+import { routing } from '@/routing';
+
+// Prerender every page for the 4 locales. Without this, pages with no params
+// of their own (/, /blog, /galeria, /kontakt, ...) were server-rendered on
+// every request, costing Vercel CPU and origin transfer. Pages that read
+// cookies, search params or the KV database still render per request.
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
 export default async function LocaleLayout({
   children,

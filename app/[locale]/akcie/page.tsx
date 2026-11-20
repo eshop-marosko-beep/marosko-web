@@ -4,19 +4,11 @@ import PromoCard, { PromoImage, PromoLabelBadge, PromoStock } from "@/components
 import { buildMetadata } from "@/lib/seo";
 import { buildBreadcrumbListSchema } from "@/lib/structuredData";
 import StructuredData from "@/components/StructuredData";
-import { routing } from "@/routing";
 import type { Metadata } from "next";
 
 // Products, prices and stock come live from the e-shop's sale category;
 // re-render at most every 6 hours (matches PROMOS_REVALIDATE_SECONDS).
 export const revalidate = 21600;
-
-// Without static params for the locales (the [locale] layout has none) the
-// page was server-rendered on every request and `revalidate` was ignored.
-// Prerendering the 4 locales makes it ISR: one render per locale per 6 hours.
-export function generateStaticParams() {
-  return routing.locales.map((locale) => ({ locale }));
-}
 
 export async function generateMetadata({
   params,

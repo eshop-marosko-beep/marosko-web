@@ -9,6 +9,10 @@ import ShareButtons from "@/components/ShareButtons";
 import YouTubePlayer from "@/components/YouTubePlayer";
 import type { Metadata } from "next";
 
+// Videos and articles are edited in the admin panel (KV database) and there is
+// no on-demand revalidation, so always render fresh.
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata({
   params,
 }: {
