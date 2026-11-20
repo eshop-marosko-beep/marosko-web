@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { JWT } from "google-auth-library";
+import { rejectUnlessMerchantToken } from "@/lib/merchantApiAuth";
 
 const MERCHANT_ACCOUNT_ID = "5365276597";
 
@@ -34,6 +35,9 @@ function escapeLikeValue(value: string) {
 }
 
 export async function GET(request: NextRequest) {
+  const unauthorized = rejectUnlessMerchantToken(request);
+  if (unauthorized) return unauthorized;
+
   try {
     const q = request.nextUrl.searchParams.get("q");
     if (!q) {

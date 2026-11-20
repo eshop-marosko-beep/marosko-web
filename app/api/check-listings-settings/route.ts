@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { JWT } from "google-auth-library";
+import { rejectUnlessMerchantToken } from "@/lib/merchantApiAuth";
 
 const MERCHANT_ACCOUNT_ID = "5365276597";
 
@@ -30,7 +31,10 @@ async function tryGet(authClient: JWT, url: string) {
   }
 }
 
-export async function GET() {
+export async function GET(request: Request) {
+  const unauthorized = rejectUnlessMerchantToken(request);
+  if (unauthorized) return unauthorized;
+
   try {
     const authClient = getAuthClient();
 

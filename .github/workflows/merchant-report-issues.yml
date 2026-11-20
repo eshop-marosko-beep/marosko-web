@@ -1,0 +1,27 @@
+# Daily list of products Google Merchant Center did not approve, shown on the
+# run's summary page. Formerly a Vercel cron whose output nobody saw.
+# Needs repository secret GOOGLE_SERVICE_ACCOUNT_KEY.
+name: Merchant Center – neschválené produkty
+
+on:
+  schedule:
+    - cron: "0 4 * * *" # 04:00 UTC, same time as the former Vercel cron
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: node scripts/merchant/report-issues.ts
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}

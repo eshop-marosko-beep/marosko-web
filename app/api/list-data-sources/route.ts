@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { JWT } from "google-auth-library";
+import { rejectUnlessMerchantToken } from "@/lib/merchantApiAuth";
 
 const MERCHANT_ACCOUNT_ID = "5365276597";
 
@@ -17,7 +18,10 @@ function getAuthClient() {
   });
 }
 
-export async function GET() {
+export async function GET(request: Request) {
+  const unauthorized = rejectUnlessMerchantToken(request);
+  if (unauthorized) return unauthorized;
+
   try {
     const authClient = getAuthClient();
     const url = `https://merchantapi.googleapis.com/datasources/v1/accounts/${MERCHANT_ACCOUNT_ID}/dataSources`;

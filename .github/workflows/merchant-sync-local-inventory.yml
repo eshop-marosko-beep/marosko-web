@@ -1,0 +1,32 @@
+# Daily sync of the store's stock into Google Merchant Center (local inventory).
+# Runs here instead of as a Vercel cron to keep it off the Vercel Hobby limits.
+# Needs repository secrets GOOGLE_SERVICE_ACCOUNT_KEY and BIZNISWEB_API_TOKEN.
+name: Merchant Center – sklad predajne
+
+on:
+  schedule:
+    - cron: "0 3 * * *" # 03:00 UTC, same time as the former Vercel cron
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: merchant-sync-local-inventory
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: node scripts/merchant/sync-local-inventory.ts
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          BIZNISWEB_API_TOKEN: ${{ secrets.BIZNISWEB_API_TOKEN }}
